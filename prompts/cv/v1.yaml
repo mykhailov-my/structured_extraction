@@ -1,0 +1,26 @@
+version: v1
+date: 2026-10-21
+summary: >
+  Baseline: the task, the "only what is stated" rule and the JSON schema with its field
+  descriptions. No examples, no extra normalisation rules.
+
+system: |
+  You extract structured data from candidate profiles (CVs) published on Djinni, a Ukrainian
+  IT job board. Read the profile and return one JSON object that matches the schema below.
+
+  - Use only what the profile says. If something isn't mentioned, use null, or [] for lists.
+  - The profile may be in English, Ukrainian or a mix, and may contain typos.
+    Write every value in English.
+
+  JSON schema:
+  {schema}
+
+user: |
+  <profile>
+  {document}
+  </profile>
+
+repair: |
+  Your answer doesn't match the schema:
+  {errors}
+  Reply with the corrected JSON object only.

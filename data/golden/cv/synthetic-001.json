@@ -1,0 +1,12 @@
+{
+  "title": "Python Data Engineer",
+  "seniority": null,
+  "experience_years": 4,
+  "english_level": "b2",
+  "salary_expectation": {"min_amount": 3500, "max_amount": null, "currency": "USD", "period": "month"},
+  "work_formats": ["remote"],
+  "locations": ["Dnipro"],
+  "skills": ["Python", "FastAPI", "SQLAlchemy", "PostgreSQL", "Airflow", "PySpark", "dbt", "Docker", "AWS"],
+  "domains": ["e-commerce", "logistics"],
+  "excluded_domains": ["gambling", "adult", "crypto"]
+}

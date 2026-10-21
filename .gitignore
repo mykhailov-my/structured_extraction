@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+
+# Secrets: only .env.example is committed
+.env
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# Left behind by an interrupted write
+results/**/*.tmp

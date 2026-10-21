@@ -1,0 +1,41 @@
+# The experiment. `python main.py run` (or `make run`) executes every combination of the four
+# lists under `experiment` and writes one file per combination to results/runs/. Results made
+# from the same text, prompt, schema, model and sampling are reused, not paid for twice.
+
+experiment:
+  doc_types: [job, cv]             # folders under data/texts/ and prompts/
+  models: [mistral-small, qwen-local]
+  prompts: [v1]                    # prompts/<doc_type>/<version>.yaml
+  sampling: [greedy, nucleus]
+
+models:
+  # Hosted, through OpenRouter (OPENROUTER_API_KEY in .env). Any model id from
+  # https://openrouter.ai/models works if it supports structured outputs.
+  mistral-small:
+    provider: openrouter
+    model: mistralai/mistral-small-3.2-24b-instruct  # ~$0.09 in / $0.25 out per 1M tokens
+    timeout_s: 60
+  # Other cheap ones with structured outputs, temperature and top_p (per 1M tokens, Oct 2026):
+  #   google/gemma-3-12b-it          $0.05 / $0.15
+  #   mistralai/ministral-8b-2512    $0.15 / $0.15
+  #   mistralai/mistral-nemo         $0.03 / $0.03
+  # More OpenRouter request fields go under `extra_body`, e.g. {provider: {sort: latency}}.
+
+  # Local, through Ollama: `make models` pulls it (~3.5 GB).
+  qwen-local:
+    provider: ollama
+    model: qwen3.5:4b
+    timeout_s: 300                 # a laptop can be slow on long texts
+    num_ctx: 8192                  # Ollama's default window is too small for schema + text
+    think: false                   # qwen3.5 reasons by default; extraction doesn't need it
+
+# Decoding settings compared in the experiment.
+sampling:
+  greedy: {temperature: 0.0, top_p: 1.0}
+  nucleus: {temperature: 0.7, top_p: 0.9}
+
+# Same policy for every provider: timeouts, rate limits (429) and 5xx are retried with
+# exponential back-off; other errors (auth, bad request, unknown model) stop the run.
+retry:
+  max_retries: 3
+  backoff_s: 2

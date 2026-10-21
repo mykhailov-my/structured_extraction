@@ -1,0 +1,11 @@
+Python / Data Engineer
+
+Досвід роботи: 4 роки
+Зарплатні очікування: від 3500$
+Англ.: upper-intermediate
+Місто: Дніпро. Remote only, офіс не розглядаю
+
+Останні 2 роки будую data pipelines (Airflow, PySpark, dbt) для e-commerce маркетплейсу, до того писав backend на FastAPI в логістичному стартапі.
+Стек: python, fastapi, sqlalchemy, postgress, airflow, pyspark, dbt, docker, aws
+
+Не розглядаю: gambling, adult, crypto
