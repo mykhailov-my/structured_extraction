@@ -18,7 +18,8 @@ key, and Ollama for the local model.
 make setup     # install dependencies, create .env from .env.example; put the key in .env
 make models    # ollama pull qwen3.5:4b (~3.5 GB)
 make data      # optional: crawl more job postings from djinni.co
-make archive   # optional: Python postings 2019-2026 from the Wayback Machine (~1 h)
+make archive   # optional: every Djinni posting in the Wayback Machine (about a week)
+make postings  # all collected postings in one format: data/postings/<year>.jsonl
 make run       # every experiment in config.yaml, then the metrics
 ```
 
@@ -32,7 +33,8 @@ make run       # every experiment in config.yaml, then the metrics
 | `python main.py extract FILE` | Extracts one file and prints the JSON, for trying out a prompt. |
 | `python main.py check` | Counts texts and golden labels and validates the labels. |
 | `python main.py crawl-jobs` | Collects public job postings from djinni.co (see [Collecting data](#collecting-data)). |
-| `python main.py crawl-archive` | Collects past years' postings from the Wayback Machine (see [Past years](#past-years-the-wayback-machine)). |
+| `python main.py crawl-archive` | Fetches every posting's page from the Wayback Machine into a cache (see [Every posting](#every-posting-the-wayback-machine)). |
+| `python main.py build-postings` | Writes every collected posting, live and archived, in one format to `data/postings/<year>.jsonl`. |
 | `make test`, `make lint` | Offline unit tests; ruff. |
 
 ## How it works
@@ -99,9 +101,9 @@ djinni.co. It takes the newest postings from the RSS feed, round-robin across ca
 small sample stays varied; `--keywords Python,Java` limits it to those categories. Postings
 already in `data/` are skipped. Each posting is stored twice:
 
-- `data/scraped/job/<id>.json`: the page's parts as scraped. That is the URL and publication
-  date, title, company, salary, skills, language requirements, the sidebar facts and the
-  description.
+- `data/scraped/job/<id>.json`: the page's parts as scraped (title, category, company, salary,
+  skills, language requirements, the sidebar facts and the description) with the URL and
+  dates, in the [one format](#every-posting-the-wayback-machine) every posting is kept in.
 - `data/texts/job/<id>.txt`: the same parts as plain text, which is what the model reads.
 
 The crawler names itself in its User-Agent, obeys robots.txt (which allows `/jobs/`), waits 3 s
@@ -115,31 +117,36 @@ CVs aren't collected. robots.txt disallows candidate profiles (`/developers`), a
 forbid collecting candidates' data by scraping. The `CandidateProfile` schema and its prompt
 stay for when there is a source of CVs; until then `config.yaml` runs job postings only.
 
-### Past years: the Wayback Machine
+### Every posting: the Wayback Machine
 
-Djinni keeps closed postings online but hides their date, so the live site can't tell when a
-posting was written. `python main.py crawl-archive` (or `make archive`) reads past postings from
-the [Wayback Machine](https://web.archive.org) instead: by default 50 Python postings a year,
-2019–2026, into `data/archive/`. That takes about an hour, mostly spent waiting 5 s between
-requests.
+Djinni keeps closed postings online but hides their date, and nothing lists them. The
+[Wayback Machine](https://web.archive.org) has captured about 79,000 Djinni postings since 2017
+(78,687 in October 2026; 17,607 of them first captured in 2021, 16,676 in 2025). Two commands
+collect them:
 
-- **Which postings.** The archive's CDX index lists the captures of `djinni.co/jobs/<id>-<slug>/`
-  pages whose slug contains the keyword (`--keyword python`), one query per year. The index is
-  slow (about a minute a query), so its answers are cached in `.cache/wayback/`; delete the
-  `.txt` files there to pick up newer captures. The fetched pages are cached there too
-  (gzipped, about 8 KB each). After a parser fix, delete `data/archive/` and run again: the
-  same postings are picked and re-parsed from the cache in seconds.
-- **Dating.** A posting belongs to the year of its first capture if its id is above every id
-  captured in the years before. Ids grow over time, so a lower id is an older posting archived
-  late. When the page shows its posting date ("Job posted on 12 July 2019"), that date must fall
-  in the same year. Closed postings show no date, and neither did any page from May 2024 to
-  early 2025, so a posting from the last days of December can still be counted in the next
-  year.
-- **Spread.** Each year's picks are spaced evenly through its captures in time order, so they
-  cover all of the year the archive has, not its first weeks. The archive has no Python
-  postings before July in 2019 or before August in 2020, and months it captured often get more
-  picks. A snapshot that fails, turns out older, or holds Djinni's "your IP address has been
-  blocked" page instead of the posting is replaced by the next capture.
+```bash
+python main.py crawl-archive    # fetch every posting's archived page: about 6 days
+python main.py build-postings   # all of them in one format, data/postings/<year>.jsonl
+```
+
+- **Index.** The archive's CDX index lists the captures of `djinni.co/jobs/<id>-<slug>/` pages,
+  one query per year (`--years`, 2017 to now by default; `--keyword python` keeps slugs with that
+  word). The index is slow, a minute or more a query, so its answers are cached in
+  `.cache/wayback/`; delete the `.txt` files there to pick up newer captures.
+- **Crawl.** Each posting's oldest capture is fetched as archived and kept, gzipped (about 8 KB),
+  in `.cache/wayback/pages/`. When it is missing or an error page (Djinni at times blocked the
+  archive's crawler with "your IP address has been blocked"), a later capture stands in, and
+  `.cache/wayback/failed.txt` notes it so it isn't asked for again. Postings are fetched in a
+  fixed random order, so a crawl stopped at any point leaves a random sample, and running it
+  again carries on. At 5 s between requests, about 7 s a posting, the whole archive takes
+  about 6 days; `--limit N` stops after N postings. To run it in the background on a Mac,
+  awake, and follow it:
+
+  ```bash
+  nohup caffeinate -is uv run python main.py crawl-archive >> .cache/wayback/crawl.log 2>&1 &
+  tail -f .cache/wayback/crawl.log     # a line a posting; time left every 100
+  pkill -f "main.py crawl-archive"     # stop; run it again to carry on
+  ```
 - **Layouts.** Djinni's markup changed three times. `parse_snapshot` reads every version into
   the same parts as `crawl-jobs`, and `layout` in the record says which one the page had:
 
@@ -152,11 +159,32 @@ requests.
 
   Pages up to v2 show the recruiter's name, photo and job title. The name and photo are left
   out, and the job title is only used to find the company ("HRM at Ogorodniki, Inc").
-- **Records.** `data/archive/scraped/job/wayback-<year>-<id>.json` adds `snapshot` (the archived
-  page), `captured_at`, `posted` (when the page shows it), `year`, `active` (false when the page
-  marks the posting closed) and `layout`. The text goes to `data/archive/texts/job/`. The archive
-  isn't part of the experiment, since nothing in it is labelled; it is there to compare
-  requirements across years.
+- **One format.** `build-postings` parses every cached page, plus the postings `crawl-jobs`
+  collected, into one record per posting, one JSON object a line, a file per year. A posting
+  found in both is kept from djinni.co. The files are rebuilt whole, in minutes, so a parser fix
+  reaches every posting without downloading anything again.
+- **Dating.** `posted` is the date a page shows. Closed postings show none, and neither did any
+  page from May 2024 to early 2025. Djinni hands out job ids in order, so `date` is `posted` or
+  else the median date of the 100 dated postings nearest in id, and `year` is its year. A
+  posting older or newer than every dated one goes to `undated.jsonl`.
+- **Size.** About 6–7 KB a posting, so the whole archive comes to a few hundred MB, plus the page
+  cache. Both are git-ignored.
+
+| Field | Meaning |
+|---|---|
+| `doc_id`, `job_id` | `djinni-<id>`, and Djinni's job id, which grows over time |
+| `url`, `source`, `snapshot` | the posting's URL; `djinni.co` (crawled live) or `web.archive.org`, and the archived copy |
+| `captured_at` | when the page was fetched, or archived |
+| `posted`, `date`, `year` | the date the page shows; that or the estimate from the job id; its year |
+| `active` | false when the page marks the posting closed |
+| `layout` | `v1` to `v4`, see above |
+| `title`, `category`, `company`, `salary` | as the page shows them; `category` is Djinni's: Python, QA Automation, ... |
+| `skills`, `languages` | the page's lists of required skills and languages (v4); older layouts have them among the facts |
+| `facts` | the details line and sidebar: experience, English, work format, countries, domain, company type |
+| `description` | the posting's own text, line by line, list items as "- " |
+
+`data/archive/` holds the earlier 50-a-year sample of Python postings, in the layout `crawl-jobs`
+uses; `data/postings/` has all of them too.
 
 ## Data and prompts
 
@@ -177,10 +205,10 @@ src/extraction/
   pipeline.py        one document: call, validate, repair once, retries
   runner.py          the experiment matrix and reuse of stored results
   evaluate.py        metrics and reports
-  collect/           Djinni crawlers (live site, Wayback Machine), contact scrubbing
+  collect/           Djinni crawlers (live site, Wayback Machine), the one posting format
   cli.py             commands
 prompts/             versioned prompts and CHANGELOG.md
-data/                texts, scraped records and golden labels; archive/ for past years
+data/                texts, scraped records, golden labels; postings/ (git-ignored)
 results/             model outputs and metrics
 tests/               offline tests with fake providers
 REPORT.md            the comparison report
@@ -191,6 +219,8 @@ REPORT.md            the comparison report
 - [x] Boilerplate: schemas, both providers, validation with one repair, metrics
 - [x] Crawler for Djinni job postings (CVs: no source that may be used)
 - [x] Archive crawler: Python postings 2019–2026, for how requirements changed
+- [ ] Every posting in the archive, in one format (crawl running)
+- [ ] An LLM grades each requirement: hard skill, soft skill, legal or residence; depth 0–100
 - [x] 30+ texts
 - [ ] 10+ golden labels
 - [ ] Steps 1–2 (baseline and measurements): checkpoint 24.10

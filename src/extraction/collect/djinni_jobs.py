@@ -1,11 +1,11 @@
 """Public job postings from djinni.co.
 
 Postings are found through the RSS feed (the newest 100, from all categories or one feed per
-`primary_keyword`). Each posting page is parsed into its parts: title, company, salary,
-required skills, language requirements, the facts sidebar and the description, in the page's
-own mix of Ukrainian and English. Page chrome (navigation, apply form, view counts, the salary
-hint for "similar vacancies") is left out. The parts are stored as JSON and rendered as the
-plain text the model reads.
+`primary_keyword`). Each posting page is parsed into its parts: title, category, company,
+salary, required skills, language requirements, the facts sidebar and the description, in
+the page's own mix of Ukrainian and English. Page chrome (navigation, apply form, view counts,
+the salary hint for "similar vacancies") is left out. The parts are stored as a `Posting`
+and rendered as the plain text the model reads.
 
 robots.txt allows /jobs/. Candidate profiles (/developers) are disallowed there, and Djinni's
 terms forbid collecting candidates' data by scraping, so they are never fetched.
@@ -14,14 +14,16 @@ terms forbid collecting candidates' data by scraping, so they are never fetched.
 import logging
 import re
 from collections import defaultdict
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass, replace
+from datetime import UTC, datetime
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urlencode
 from xml.etree import ElementTree
 
 from bs4 import BeautifulSoup, Tag
 
-from extraction.collect import existing_ids, save
+from extraction.collect import JobPage, ParseError, Posting, existing_ids, save_posting
 from extraction.collect.html import fragment_lines, one_line, rich_lines
 from extraction.collect.polite import FetchError, PoliteClient
 
@@ -29,6 +31,8 @@ log = logging.getLogger(__name__)
 
 FEED_URL = "https://djinni.co/jobs/rss/"
 _JOB_ID = re.compile(r"/jobs/(\d+)-")
+# A category's postings; a city's link adds "&location=" or "/kyiv/" to it.
+_CATEGORY_LINK = re.compile(r"primary_keyword=|/jobs/keyword-[^/]+/?$")
 # An amount of money: "$$$" without digits only ranks the job, and "Room 8" is a company.
 _SALARY = re.compile(r"[$€₴]\s*\d|\d\s*[$€₴]")
 _CHROME = ", ".join(
@@ -48,12 +52,10 @@ _CHROME = ", ".join(
 )
 
 
-class ParseError(Exception):
-    """The page doesn't look like a Djinni posting: the layout changed, or we were blocked."""
-
-
 @dataclass(frozen=True)
-class Posting:
+class FeedItem:
+    """A posting as the RSS feed lists it."""
+
     job_id: str
     url: str
     title: str
@@ -65,77 +67,55 @@ class Posting:
         return f"djinni-{self.job_id}"
 
 
-@dataclass(frozen=True)
-class JobPage:
-    """A posting as the page shows it, before any interpretation."""
-
-    title: str
-    company: str
-    salary: str  # empty when the page only ranks the salary ("$$$")
-    skills: list[str]
-    languages: list[str]
-    facts: list[str]  # the sidebar: experience, work format, countries, domain, company type
-    description: str
-
-    def text(self) -> str:
-        """The page as plain text, under Djinni's own (Ukrainian) section headings."""
-        header = [line for line in (self.title, self.company, self.salary) if line]
-        details = []
-        if self.skills:
-            details += ["Необхідні навички", ", ".join(self.skills)]
-        if self.languages:
-            details += ["Вимоги до володіння мовами", *self.languages]
-        sections = [header, self.description.splitlines(), details, self.facts]
-        return "\n\n".join("\n".join(section) for section in sections if section) + "\n"
-
-
 def crawl_jobs(
     data_dir: Path, *, count: int, keywords: list[str] | None = None, delay_s: float = 3.0
 ) -> int:
     """Save up to `count` postings that aren't in data/texts/job/ yet; returns how many."""
     with PoliteClient(delay_s=delay_s) as client:
-        postings = pick(discover(client, keywords), count=count, skip=existing_ids(data_dir, "job"))
-        categories = len({posting.category for posting in postings})
-        log.info("collecting %d postings from %d categories", len(postings), categories)
+        items = pick(discover(client, keywords), count=count, skip=existing_ids(data_dir, "job"))
+        categories = len({item.category for item in items})
+        log.info("collecting %d postings from %d categories", len(items), categories)
         saved = failures = 0
-        for number, posting in enumerate(postings, 1):
+        for number, item in enumerate(items, 1):
             try:
-                page = parse_job(client.get(posting.url).text)
+                page = parse_job(client.get(item.url).text)
             except (FetchError, ParseError) as e:
-                log.warning("  %s: %s", posting.url, e)
+                log.warning("  %s: %s", item.url, e)
                 failures += 1
                 if failures == 3:
                     raise FetchError("three pages in a row failed; stopping") from e
                 continue
             failures = 0
-            source = {
-                "url": posting.url,
-                "category": posting.category,
-                "published": posting.published,
-            }
-            save(
-                data_dir,
-                "job",
-                posting.doc_id,
-                text=page.text(),
-                fields=asdict(page),
-                source=source,
+            posted = feed_date(item.published)
+            posting = Posting(
+                job_id=int(item.job_id),
+                url=item.url,
+                source="djinni.co",
+                snapshot=None,
+                captured_at=datetime.now(UTC).isoformat(timespec="seconds"),
+                posted=posted,
+                date=posted,
+                year=int(posted[:4]) if posted else None,
+                active=True,  # the feed lists open postings
+                layout="v4",
+                page=replace(page, category=page.category or item.category),
             )
+            save_posting(data_dir, posting)
             saved += 1
             log.info(
                 "  %2d/%d  %-16s %-20s %s",
-                *(number, len(postings), posting.doc_id, posting.category[:20], posting.title[:60]),
+                *(number, len(items), item.doc_id, item.category[:20], item.title[:60]),
             )
     return saved
 
 
-def discover(client: PoliteClient, keywords: list[str] | None = None) -> list[Posting]:
+def discover(client: PoliteClient, keywords: list[str] | None = None) -> list[FeedItem]:
     """Postings in the RSS feed: all categories, or one feed per Djinni keyword."""
     if keywords:
         feeds = [f"{FEED_URL}?{urlencode({'primary_keyword': keyword})}" for keyword in keywords]
     else:
         feeds = [FEED_URL]
-    postings: dict[str, Posting] = {}
+    postings: dict[str, FeedItem] = {}
     for feed in feeds:
         for item in ElementTree.fromstring(client.get(feed).content).iter("item"):
             url = (item.findtext("link") or "").strip()
@@ -145,7 +125,7 @@ def discover(client: PoliteClient, keywords: list[str] | None = None) -> list[Po
             categories = [
                 c.text.strip() for c in item.findall("category") if (c.text or "").strip()
             ]
-            postings[match.group(1)] = Posting(
+            postings[match.group(1)] = FeedItem(
                 job_id=match.group(1),
                 url=url,
                 title=(item.findtext("title") or "").strip(),
@@ -155,13 +135,13 @@ def discover(client: PoliteClient, keywords: list[str] | None = None) -> list[Po
     return list(postings.values())
 
 
-def pick(postings: list[Posting], *, count: int, skip: set[str]) -> list[Posting]:
+def pick(items: list[FeedItem], *, count: int, skip: set[str]) -> list[FeedItem]:
     """Round-robin over categories, so even a small sample spans many kinds of jobs."""
-    by_category: dict[str, list[Posting]] = defaultdict(list)
-    for posting in postings:
-        if posting.doc_id not in skip:
-            by_category[posting.category].append(posting)
-    picked: list[Posting] = []
+    by_category: dict[str, list[FeedItem]] = defaultdict(list)
+    for item in items:
+        if item.doc_id not in skip:
+            by_category[item.category].append(item)
+    picked: list[FeedItem] = []
     for round_number in range(max(map(len, by_category.values()), default=0)):
         for group in by_category.values():
             if len(picked) == count:
@@ -190,6 +170,7 @@ def parse_job(html: str) -> JobPage:
     fact_lists = card.find_all("ul", recursive=False) if card else []
     return JobPage(
         title=one_line(title),
+        category=breadcrumb_category(page),
         company=next((name for link in company_links if (name := one_line(link))), ""),
         salary=next((text for text in salaries if _SALARY.search(text)), ""),
         skills=_skills(description),
@@ -197,6 +178,25 @@ def parse_job(html: str) -> JobPage:
         facts=[line for fact_list in fact_lists for line in fragment_lines(fact_list)],
         description="\n".join(rich_lines(description)),
     )
+
+
+def breadcrumb_category(page: Tag) -> str:
+    """The posting's category: the breadcrumb's last link to a category's postings."""
+    links = page.select(".breadcrumb a[href]")
+    names = [
+        one_line(link)
+        for link in links
+        if _CATEGORY_LINK.search(link["href"]) and "location=" not in link["href"]
+    ]
+    return names[-1] if names else ""
+
+
+def feed_date(published: str) -> str | None:
+    """The feed's "Wed, 21 Oct 2026 17:02:43 +0300" as "2026-10-21"."""
+    try:
+        return parsedate_to_datetime(published).date().isoformat()
+    except (TypeError, ValueError):
+        return None
 
 
 def _skills(description: Tag) -> list[str]:

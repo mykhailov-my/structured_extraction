@@ -7,9 +7,12 @@ golden/<doc_type>/<doc_id>.json   the hand-labelled answer for the text with the
 ```
 
 - `djinni-<job id>`: public job postings crawled from djinni.co by `python main.py crawl-jobs`.
-- `archive/`: the same two folders for postings from past years, `wayback-<year>-<job id>`,
-  read from the Wayback Machine by `python main.py crawl-archive`. They aren't labelled and
-  aren't part of the experiment; they are for comparing requirements across years.
+- `postings/<year>.jsonl` (git-ignored, rebuilt by `python main.py build-postings`): every
+  posting collected, live and from the Wayback Machine, one JSON object a line in the one
+  format described in the README. Not labelled and not part of the experiment; it is for
+  comparing requirements across years.
+- `archive/`: an earlier sample, 50 Python postings a year for 2019–2026, in the same two
+  folders as above (`wayback-<year>-<job id>`); `postings/` has them all too.
 - `synthetic-001`: made up to show the format; delete them once real labels exist.
 - There is no source of CVs yet: Djinni's candidate profiles may not be crawled.
 

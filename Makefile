@@ -1,10 +1,10 @@
 # Everything runs through uv, which installs Python 3.12 and the locked dependencies on first use.
 
 .DEFAULT_GOAL := help
-.PHONY: help setup models data archive run eval check test lint format
+.PHONY: help setup models data archive postings run eval check test lint format
 
 help: ## List the targets
-	@grep -E '^[a-z]+:.*## ' $(MAKEFILE_LIST) | awk -F ':.*## ' '{printf "  make %-7s %s\n", $$1, $$2}'
+	@grep -E '^[a-z]+:.*## ' $(MAKEFILE_LIST) | awk -F ':.*## ' '{printf "  make %-8s %s\n", $$1, $$2}'
 
 setup: ## Install dependencies and create .env from .env.example
 	uv sync
@@ -18,8 +18,11 @@ models: ## Pull the Ollama models named in config.yaml
 data: ## Crawl more public job postings from djinni.co into data/
 	uv run python main.py crawl-jobs
 
-archive: ## Python postings 2019-2026 from the Wayback Machine into data/archive/ (~1 h)
+archive: ## Every Djinni posting's page from the Wayback Machine, cached (about a week)
 	uv run python main.py crawl-archive
+
+postings: ## Every collected posting in one format: data/postings/<year>.jsonl
+	uv run python main.py build-postings
 
 run: ## Run every experiment in config.yaml, then score them (results/)
 	uv run python main.py run

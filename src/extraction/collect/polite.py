@@ -20,6 +20,10 @@ RETRY_STATUSES = {429, 500, 502, 503, 504}
 class FetchError(Exception):
     """robots.txt forbids the URL, or the server keeps failing."""
 
+    def __init__(self, message: str, status: int | None = None) -> None:
+        super().__init__(message)
+        self.status = status  # the HTTP status, when the server answered
+
 
 class PoliteClient:
     def __init__(self, *, delay_s: float, timeout_s: float = 20, max_retries: int = 3) -> None:
@@ -42,7 +46,7 @@ class PoliteClient:
             raise FetchError(f"robots.txt disallows {url}")
         response = self._request(url)
         if response.status_code >= 400:
-            raise FetchError(f"{url}: HTTP {response.status_code}")
+            raise FetchError(f"{url}: HTTP {response.status_code}", response.status_code)
         return response
 
     def _robots_for(self, url: str) -> RobotFileParser:

@@ -4,14 +4,16 @@ import argparse
 import json
 import logging
 import sys
+from datetime import date
 from pathlib import Path
 
 from dotenv import load_dotenv
 from pydantic import ValidationError
 
-from extraction.collect.djinni_archive import crawl_archive
+from extraction.collect.djinni_archive import FIRST_YEAR, crawl_archive
 from extraction.collect.djinni_jobs import crawl_jobs
 from extraction.collect.polite import FetchError
+from extraction.collect.postings import build_postings
 from extraction.config import Config, load_config
 from extraction.data import golden_paths, load_documents
 from extraction.evaluate import evaluate, render_markdown
@@ -153,19 +155,33 @@ def _crawl_jobs(config: Config, args: argparse.Namespace) -> int:
 
 def _crawl_archive(config: Config, args: argparse.Namespace) -> int:
     try:
-        saved = crawl_archive(
-            config.data_dir / "archive",
+        postings, fetched = crawl_archive(
+            config.data_dir.parent / ".cache" / "wayback",
+            years=args.years or range(FIRST_YEAR, date.today().year + 1),
             keyword=args.keyword,
-            years=args.years,
-            per_year=args.per_year,
-            cache_dir=config.data_dir.parent / ".cache" / "wayback",
+            limit=args.limit,
             delay_s=args.delay,
         )
     except FetchError as e:
         log.error("crawl stopped: %s", e)
         return 1
-    log.info("postings per year: %s", ", ".join(f"{y} {n}" for y, n in saved.items()))
-    log.info("in data/archive/texts/job/ and data/archive/scraped/job/")
+    log.info(
+        "fetched %d pages into .cache/wayback/pages/ (%d postings in the archive)",
+        fetched,
+        postings,
+    )
+    return 0
+
+
+def _build_postings(config: Config, args: argparse.Namespace) -> int:
+    years = build_postings(
+        config.data_dir.parent / ".cache" / "wayback",
+        config.data_dir / "scraped" / "job",
+        config.data_dir / "postings",
+    )
+    counts = sorted(years.items(), key=lambda item: item[0] or 0)
+    log.info("postings: %s", ", ".join(f"{year or 'undated'} {count}" for year, count in counts))
+    log.info("%d in data/postings/<year>.jsonl", sum(years.values()))
     return 0
 
 
@@ -224,13 +240,18 @@ def _parser() -> argparse.ArgumentParser:
     archive = commands.add_parser(
         "crawl-archive", help="collect past years' postings from the Wayback Machine"
     )
-    archive.add_argument("--keyword", default="python", help="in the URL slug (%(default)s)")
+    archive.add_argument("--keyword", help="only URLs with it in the slug, e.g. python")
     archive.add_argument(
-        "--years", type=_years, default="2019-2026", help="a range or one year (%(default)s)"
+        "--years", type=_years, help=f"a range or one year (default: {FIRST_YEAR} to this year)"
     )
-    archive.add_argument("--per-year", type=int, default=50, help="postings a year (%(default)s)")
+    archive.add_argument("--limit", type=int, help="stop after this many new postings")
     archive.add_argument(
         "--delay", type=float, default=5.0, help="seconds between requests (%(default)s)"
     )
     archive.set_defaults(handler=_crawl_archive)
+
+    postings = commands.add_parser(
+        "build-postings", help="every collected posting in one format: data/postings/<year>.jsonl"
+    )
+    postings.set_defaults(handler=_build_postings)
     return parser

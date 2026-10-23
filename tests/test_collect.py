@@ -4,8 +4,8 @@ from types import SimpleNamespace
 
 import pytest
 
-from extraction.collect import save
-from extraction.collect.djinni_jobs import Posting, discover, parse_job, pick
+from extraction.collect import Posting, save_posting
+from extraction.collect.djinni_jobs import FeedItem, discover, feed_date, parse_job, pick
 from extraction.collect.scrub import scrub
 
 JOB_PAGE = (Path(__file__).parent / "fixtures" / "djinni_job.html").read_text(encoding="utf-8")
@@ -30,6 +30,7 @@ class FeedClient:
 
 def test_parse_job_reads_the_parts_of_the_page():
     page = parse_job(JOB_PAGE)
+    assert page.category == "Golang"
     assert (page.title, page.company, page.salary) == (
         "Senior Go Engineer",
         "Example Co",
@@ -98,20 +99,38 @@ def test_a_salary_level_without_an_amount_is_dropped():
     assert parse_job(JOB_PAGE.replace("$4000-5500", "$$$")).salary == ""
 
 
-def test_save_scrubs_the_text_and_fields_but_not_the_source(tmp_path):
-    save(
-        tmp_path,
-        "job",
-        "djinni-1",
-        text="Mail hr@example.com",
-        fields={"skills": ["Go"], "description": "Call +380 67 123 45 67"},
-        source={"url": "https://djinni.co/jobs/1-go/"},
+def test_save_posting_scrubs_the_page_but_not_the_source(tmp_path):
+    page = parse_job(JOB_PAGE)  # "Write to hr@example.com" in the description
+    posting = Posting(
+        job_id=1,
+        url="https://djinni.co/jobs/1-go/",
+        source="djinni.co",
+        snapshot=None,
+        captured_at="2026-10-22T10:00:00+00:00",
+        posted="2026-10-21",
+        date="2026-10-21",
+        year=2026,
+        active=True,
+        layout="v4",
+        page=page,
     )
-    assert (tmp_path / "texts/job/djinni-1.txt").read_text(encoding="utf-8") == "Mail [email]"
+    save_posting(tmp_path, posting)
+    text = (tmp_path / "texts/job/djinni-1.txt").read_text(encoding="utf-8")
+    assert "Write to [email]." in text
     record = json.loads((tmp_path / "scraped/job/djinni-1.json").read_text(encoding="utf-8"))
-    assert list(record)[:2] == ["doc_id", "url"]
-    assert record["url"] == "https://djinni.co/jobs/1-go/"
-    assert (record["skills"], record["description"]) == (["Go"], "Call [phone]")
+    assert list(record)[:4] == ["doc_id", "job_id", "url", "source"]
+    assert (record["doc_id"], record["url"], record["category"]) == (
+        "djinni-1",
+        "https://djinni.co/jobs/1-go/",
+        "Golang",
+    )
+    assert "[email]" in record["description"]
+    assert Posting.from_json(record).page.text() == text
+
+
+def test_feed_date_reads_the_rss_date():
+    assert feed_date("Wed, 21 Oct 2026 17:02:43 +0300") == "2026-10-21"
+    assert feed_date("") is None
 
 
 def test_scrub_removes_contacts_but_keeps_salaries_and_years():
@@ -138,6 +157,6 @@ def test_discover_reads_the_feed():
 
 def test_pick_spreads_over_categories_and_skips_what_we_have():
     categories = ["Python", "Python", "Python", "QA", "QA", "Design"]
-    postings = [Posting(str(i), f"/jobs/{i}-x/", "t", c, "") for i, c in enumerate(categories)]
-    picked = pick(postings, count=4, skip={"djinni-0"})
-    assert [posting.job_id for posting in picked] == ["1", "3", "5", "2"]
+    items = [FeedItem(str(i), f"/jobs/{i}-x/", "t", c, "") for i, c in enumerate(categories)]
+    picked = pick(items, count=4, skip={"djinni-0"})
+    assert [item.job_id for item in picked] == ["1", "3", "5", "2"]

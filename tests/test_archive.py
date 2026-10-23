@@ -1,4 +1,4 @@
-import json
+from collections import defaultdict
 from datetime import date
 from pathlib import Path
 from types import SimpleNamespace
@@ -6,16 +6,13 @@ from urllib.parse import parse_qs, urlsplit
 
 import pytest
 
-from extraction.collect import existing_ids
 from extraction.collect.djinni_archive import (
     Capture,
-    _crawl_year,
     _posted,
-    first_captures,
+    captures,
+    fetch_pages,
     index,
-    new_by_year,
     parse_snapshot,
-    spread,
 )
 from extraction.collect.polite import FetchError
 
@@ -42,55 +39,100 @@ class FakeArchive:
         return SimpleNamespace(text=answer)
 
 
+def postings(*captured):
+    """{job id: its captures} from (job id, timestamp) pairs."""
+    jobs = defaultdict(list)
+    for job_id, timestamp in captured:
+        url = f"https://djinni.co/jobs/{job_id}-python-developer/"
+        jobs[job_id].append(Capture(job_id, timestamp, url))
+    return dict(jobs)
+
+
 def test_index_asks_once_per_year_and_keyword(tmp_path):
     line = "20210509101318 https://djinni.co/jobs/230930-python-developer/"
     archive = FakeArchive({"cdx": f"{line}\n"})
-    assert index(archive, "python", 2021, tmp_path) == [line]
-    assert index(archive, "python", 2021, tmp_path) == [line]
+    assert index(archive, 2021, tmp_path, "Python") == [line]
+    assert index(archive, 2021, tmp_path, "python") == [line]
     assert len(archive.urls) == 1
     query = parse_qs(urlsplit(archive.urls[0]).query)
     assert (query["from"], query["to"]) == (["2021"], ["2021"])
     assert "original:.*/jobs/[0-9]+-[^/?]*python.*" in query["filter"]
 
 
-def test_first_captures_keeps_the_earliest_capture_of_each_posting():
-    lines = [
-        "20210509101318 https://djinni.co/jobs/230930-python-developer/",
-        "20210301000000 https://djinni.co/jobs/230930-python-developer/?from=similar_jobs5",
-        "20210601000000 https://djinni.co/jobs/230931-senior-python-engineer/",
-        "20210101000000 https://djinni.co/jobs/keyword-python/",
-        "not an index line",
-    ]
-    assert first_captures(lines) == {
-        230930: Capture(
-            230930,
-            "20210301000000",
-            "https://djinni.co/jobs/230930-python-developer/?from=similar_jobs5",
-        ),
-        230931: Capture(
-            230931, "20210601000000", "https://djinni.co/jobs/230931-senior-python-engineer/"
-        ),
-    }
+def test_index_without_a_keyword_lists_every_posting(tmp_path):
+    archive = FakeArchive({"cdx": ""})
+    assert index(archive, 2021, tmp_path) == []
+    assert "original:.*/jobs/[0-9]+-.*" in parse_qs(urlsplit(archive.urls[0]).query)["filter"]
+    assert (tmp_path / "all-2021.txt").exists()
 
 
-def test_new_by_year_drops_postings_older_than_last_years():
-    captures = [
-        Capture(500, "20190601000000", "/jobs/500-a/"),
-        Capture(900, "20191101000000", "/jobs/900-b/"),
-        Capture(950, "20200301000000", "/jobs/950-c/"),
-        Capture(700, "20200201000000", "/jobs/700-d/"),  # posted before 900, first archived later
-        Capture(990, "20200101000000", "/jobs/990-e/"),
-    ]
-    new = new_by_year(captures)
-    assert [capture.job_id for capture in new[2019]] == [500, 900]
-    assert [capture.job_id for capture in new[2020]] == [990, 950]  # in time order
+def test_index_asks_month_by_month_when_the_year_is_too_much(tmp_path):
+    line = "20210509101318 https://djinni.co/jobs/230930-python-developer/"
+    archive = FakeArchive(
+        {
+            "from=2021&": FetchError("HTTP 503", status=503),
+            "from=202105&": f"{line}\n",
+            "cdx": "",
+        }
+    )
+    assert index(archive, 2021, tmp_path) == [line]
+    assert len(archive.urls) == 13
+    assert (tmp_path / "all-2021.txt").read_text(encoding="utf-8") == f"{line}\n"
 
 
-def test_spread_picks_evenly_across_the_year():
-    captures = [Capture(month, f"2021{month:02d}01000000", "") for month in range(1, 13)]
-    assert [capture.job_id for capture in spread(captures, 4)] == [1, 5, 8, 12]
-    assert [capture.job_id for capture in spread(captures, 1)] == [1]
-    assert spread(captures, 20) == captures
+def test_captures_lists_every_capture_of_a_posting_oldest_first():
+    found = captures(
+        [
+            "20210509101318 https://djinni.co/jobs/230930-python-developer/",
+            "20210301000000 https://djinni.co/jobs/230930-python-developer/?from=similar_jobs5",
+            "20210601000000 https://djinni.co/jobs/230931-senior-python-engineer/",
+            "20210101000000 https://djinni.co/jobs/keyword-python/",
+            "not an index line",
+        ]
+    )
+    assert sorted(found) == [230930, 230931]
+    assert [capture.timestamp for capture in found[230930]] == ["20210301000000", "20210509101318"]
+
+
+def test_fetch_pages_stands_in_a_later_capture_and_remembers_failures(tmp_path):
+    jobs = postings(
+        (100, "20190105000000"),
+        (100, "20190301000000"),
+        (101, "20190601000000"),
+        (102, "20191201000000"),
+    )
+    archive = FakeArchive(
+        {
+            "20190105000000id_": "Your IP address, 1.2.3.4, has been blocked.",
+            "20190601000000id_": FetchError("HTTP 404", status=404),
+            "/jobs/": OLD_PAGES["v1"],
+        }
+    )
+    assert fetch_pages(archive, jobs, tmp_path) == 2
+    cached = sorted(path.name for path in (tmp_path / "pages").iterdir())
+    assert cached == ["20190301000000-100.html.gz", "20191201000000-102.html.gz"]
+    failed = (tmp_path / "failed.txt").read_text(encoding="utf-8").splitlines()
+    assert sorted(failed) == ["20190105000000-100 error page", "20190601000000-101 HTTP 404"]
+
+    archive.urls.clear()  # a second run asks for nothing: pages are cached, failures remembered
+    assert fetch_pages(archive, jobs, tmp_path) == 0
+    assert archive.urls == []
+
+
+def test_fetch_pages_takes_a_random_sample_up_to_the_limit(tmp_path):
+    jobs = postings(*((job_id, "20200101000000") for job_id in range(1, 21)))
+    assert fetch_pages(FakeArchive({"/jobs/": OLD_PAGES["v1"]}), jobs, tmp_path, limit=3) == 3
+    cached = sorted(int(path.name[15:-8]) for path in (tmp_path / "pages").iterdir())
+    assert len(cached) == 3 and cached != [1, 2, 3]
+
+
+def test_fetch_pages_stops_when_the_archive_keeps_failing(tmp_path):
+    jobs = postings(*((job_id, "20200101000000") for job_id in range(1, 21)))
+    archive = FakeArchive({"/jobs/": FetchError("HTTP 503", status=503)})
+    with pytest.raises(FetchError, match="keeps failing"):
+        fetch_pages(archive, jobs, tmp_path)
+    assert len(archive.urls) == 10
+    assert not (tmp_path / "failed.txt").exists()  # a struggling archive says nothing of a page
 
 
 def test_posted_reads_dates_in_english_ukrainian_and_russian():
@@ -113,7 +155,8 @@ def test_parse_snapshot_reads_layout_v1():
         "Example Co",
         "$2500-3500",
     )
-    assert page.facts == ["Python", "Kyiv", "3 years of experience", "English Upper-Intermediate"]
+    assert page.category == "Python"
+    assert page.facts == ["Kyiv", "3 years of experience", "English Upper-Intermediate"]
     assert page.description == (
         "We build trading systems.\nWrite to jobs@example.com or call +380 44 123 4567.\n"
         "- Python 3, Django\n- PostgreSQL\nAbout Example Co\nA product company in Kyiv."
@@ -132,8 +175,8 @@ def test_parse_snapshot_reads_layout_v2():
     assert (snapshot.layout, snapshot.active, snapshot.posted) == ("v2", True, date(2023, 3, 15))
     page = snapshot.page
     assert (page.title, page.company, page.salary) == ("Python Engineer", "Example Co", "")
+    assert page.category == "Python"
     assert page.facts == [
-        "Python",
         "Category: Python",
         "English: Upper-Intermediate",
         "3 years of experience",
@@ -151,7 +194,8 @@ def test_parse_snapshot_reads_layout_v2_from_mid_2023():
         "Example Co",
         "$3000-5000",
     )
-    assert page.facts == ["Python", "Category: Python", "English: Intermediate", "Full Remote"]
+    assert page.category == "Python"
+    assert page.facts == ["Category: Python", "English: Intermediate", "Full Remote"]
     assert page.description == (
         "Remote work in a worldwide team.\nRequirements:\n- Python 3.10+\n- Celery, Redis\n"
         "About Example Co\nAn e-commerce platform."
@@ -163,11 +207,12 @@ def test_parse_snapshot_reads_layout_v3():
     assert (snapshot.layout, snapshot.active, snapshot.posted) == ("v3", False, None)
     page = snapshot.page
     assert (page.title, page.company) == ("Python Developer", "Example Co")
+    assert page.category == "Python"
     assert page.facts == [
-        "Python",
         "from Upper-Intermediate",
         "Only from 2 years of experience",
         "Countries of Europe",
+        "Python",
         "Domain: Fintech",
     ]
     assert page.description == "Tasks\n- Build data pipelines in Airflow"
@@ -188,53 +233,3 @@ def test_parse_snapshot_falls_back_to_the_title_for_the_company():
 def test_parse_snapshot_leaves_out_the_recruiter(layout):
     page = parse_snapshot(OLD_PAGES[layout], date(2023, 12, 31)).page
     assert "Jane" not in f"{page}{page.text()}"
-
-
-def test_crawl_year_replaces_late_and_failed_picks_and_resumes(tmp_path):
-    url = "https://djinni.co/jobs/{}-python-developer/"
-    captures = [
-        Capture(100, "20190105000000", url.format(100)),
-        Capture(101, "20190301000000", url.format(101)),
-        Capture(102, "20190601000000", url.format(102) + "?from=list"),
-        Capture(103, "20191201000000", url.format(103)),
-    ]
-    archive = FakeArchive(
-        {
-            "/100-": OLD_PAGES["v1"].replace("12 July 2019", "3 December 2018"),
-            "/103-": FetchError("HTTP 404"),
-            "/jobs/": OLD_PAGES["v1"],
-        }
-    )
-    cache = tmp_path / "cache"
-    # spread() picks 100 and 103: one was posted in 2018, the other fails; 101 and 102 stand in
-    assert _crawl_year(archive, tmp_path, 2019, captures, 2, have=set(), cache_dir=cache) == 2
-    assert existing_ids(tmp_path, "job") == {"wayback-2019-101", "wayback-2019-102"}
-    assert archive.urls[-1] == (
-        "https://web.archive.org/web/20190601000000id_/"
-        "https://djinni.co/jobs/102-python-developer/?from=list"
-    )
-    record = json.loads((tmp_path / "scraped" / "job" / "wayback-2019-102.json").read_text())
-    assert record["snapshot"] == (
-        "https://web.archive.org/web/20190601000000/"
-        "https://djinni.co/jobs/102-python-developer/?from=list"
-    )
-    assert (record["year"], record["posted"], record["active"], record["layout"]) == (
-        2019,
-        "2019-07-12",
-        True,
-        "v1",
-    )
-    text = (tmp_path / "texts" / "job" / "wayback-2019-102.txt").read_text(encoding="utf-8")
-    assert "Write to [email] or call [phone]." in text
-    assert "Jane" not in text
-
-    # Saved postings are skipped. A deleted one is parsed again from the cached page; only the
-    # page that failed is asked for again.
-    (tmp_path / "texts" / "job" / "wayback-2019-101.txt").unlink()
-    archive.urls.clear()
-    have = existing_ids(tmp_path, "job")
-    assert _crawl_year(archive, tmp_path, 2019, captures, 2, have=have, cache_dir=cache) == 2
-    assert existing_ids(tmp_path, "job") == {"wayback-2019-101", "wayback-2019-102"}
-    assert archive.urls == [
-        "https://web.archive.org/web/20191201000000id_/https://djinni.co/jobs/103-python-developer/"
-    ]
