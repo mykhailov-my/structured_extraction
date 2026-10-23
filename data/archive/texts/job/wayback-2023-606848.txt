@@ -1,0 +1,45 @@
+Python Developer (Strong Junior)
+Lagrace agency( unit - Sparks)
+
+Всім привіт!
+Знаходимось у пошуку Python developer у нашу команду
+Роль:
+Наша команда зростає і ми шукаємо спеціаліста у відділ розробки, який займатиметься розробкою веб додатків.
+Функціонал:
+- Розробка автоматизації бізнес-процесів;
+- Парсинг даних;
+- Робота з базою даних;
+- Створення web додатків;
+- Створення телеграм ботів.
+Навички:
+- Docker
+- FastApi
+- Flask
+- Linux
+- Aiogram
+- Html, css, js
+- Mysql, postgresql
+Буде плюсом:
+- Django
+- AI finetune
+Ми пропонуємо:
+- Віддалений формат роботи без прив'язки до гео;
+- Комфортне робоче середовище з налагодженими робочими процесами без надмірного контролю та мікро-менеджменту;
+- Заробітну плату за результатами співбесіди;
+- Періодичні загальнокорпоративні та командні заходи;
+- Динамічне, креативне середовище, що розвивається.
+About Lagrace agency( unit - Sparks)
+The full-service marketing agency has supported and developed creators on different online platforms since 2020. More than 100 successful projects and more than 300 employees on the project. We create Internet products that are used all over the world from the USA to Japan.
+Our legal name is Lagrace Agency and our unit name is Sparks
+Company website:
+[link]
+
+Python
+Category: Python
+Python , HTML/CSS/JavaScript , Flask , Docker
+English: Pre-Intermediate
+1 year of experience
+Domain: Adult
+Full Remote
+Agency
+Bulgaria

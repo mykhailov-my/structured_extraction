@@ -1,0 +1,45 @@
+Senior Python developer
+Luxoft
+
+We are looking for Senior Python developer
+Project Description:
+This is a line of products for field engineers focused on a process of productivity improvement at oil and gas production.
+Highly skilled Agile team (Senior QA, Senior Python, and Senior Front-end developer) from the Luxoft side would work on implementing web application for data analysis and reporting. The prototype of this system developed by the customer's engineers and science department. The team will work closely with the customer throughout the development lifecycle. Our current target is to build an enterprise-level web application to overcome prototype limitations, extend functionality, and bring existing functionality to a new level.
+Responsibilities:
+• Design and implementation of new features and core components
+• Design and develop technical solutions for enterprise-level projects.
+• Heavy refactoring/redesign and continuous improvement of existing functionality
+• Requirements analysis and clarification. Partnership with Client to understand business processes and needs and the translation of those into formal functional/technical requirements.
+• Help in drive architectural direction and decisions
+• Communication with US team members on daily basis
+• Participation in a SCRUM-based project development
+• Contribute towards continual improvement of organizational products and processes
+• Ability to do root cause analysis and improve product quality.
+• Enforce standards and best practices
+Mandatory Skills:
+- 5+ years of software development experience
+- Python ( >3.6)
+- SQL DB
+- Experience with Asyncio or other Async Language (JS)
+- Good written and verbal communication
+- Work with minimal supervision
+- Good team player
+- Knowledge of Scrum and Agile development
+Nice-to-Have Skills:
+- Azure
+- Azure Data lakes
+- Experience working on engineering applications
+- Oil & Gas domain knowledge
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, Dnipro
+3 years of experience
+English Intermediate

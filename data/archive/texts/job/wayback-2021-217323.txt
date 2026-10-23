@@ -1,0 +1,56 @@
+Middle Python Developer for Imunify
+Cloudlinux
+
+We are looking for a talented Middle Python Developer to join our Imunify Malware Team.
+We are looking for a talented Middle Python Developer to join our Imunify Malware Team.
+Imunify Security is an innovative security solution, powered by Artificial Intelligence for Linux web-servers. It is designed specifically for shared and VPS/Dedicated servers. The automated, easy to use security solution with the six-layer approach to security delivers comprehensive and complete attack prevention.
+Work is fully remote, so you can work from anywhere.
+More details about the project you can find on the product website Imunify360.com, about the company on Cloudlinux.com.
+Join us to make the difference!
+Requirements:
+Basic algorithms and data structures
+Good knowledge of Python
+Able to read and analyze another's code
+Ability to write readable and testable code, cover your code with unit-tests
+Basics of Git
+The ability to read and write in English
+Would be a plus:
+Shell scripting
+Familiar with Gerrit
+Knowledge of asynchronous programming
+pytest excites you
+Know how to deal with Jenkins
+Chewing the spaghetti code doesn't make you sick
+A bit of PHP and/or JavaScript
+Read what the mob programming is
+Your Experience and Qualifications:
+Bachelor’s or Master’s degree in Computer Science, Computer Security, Mathematics, or related discipline from an accredited college or university is desired.
+Personal skills:
+Fast-learning, proactivity
+Desire to work in a fast-paced growing deadline-driven startup-up environment
+Strong self-motivation, driven to achieve committed milestones
+The ability to independently analyze a task and find a right solution
+The ability to work in a team
+What is for you?
+A great opportunity for professional development within a young and fast-growing company
+Interesting and challenging projects
+Remote work on a full-time basis under a long-term contract
+Compensation in US dollars
+Paid one month vacation per year and sick leaves
+Days off on national holidays
+Medical insurance
+Co-working compensation
+English Language training
+Challenging tasks
+Knowledge-Exchange
+If you want to become a part of a friendly team, to work with the latest, leading technologies, be proud of your work and want to be part of something bigger - we are waiting for you!
+Let’s make it a win-win for you and CloudLinux. Do not put off until later - apply today and our team will gladly welcome you.
+About Cloudlinux
+Cloudlinux ([link]) is an international tech company, that has designed a number of unique products for web-hosting since 2009. We have over 4,500 clients including 1&1, LiquidWeb, GoDaddy, Dell, IBM Softlayer, etc. Over 20 000 000 websites in the world are being hosted on the servers running CloudLinux OS.
+CloudLinux team is more than 100 professionals from Eastern Europe, EU and USA, with in-depth technical knowledge of hosting, kernel development, machine learning, web server security, and open source technologies. The company provides a great opportunity for professional growth, an interesting and challenging work for ones who really loves technologies.
+Company website:
+[link]
+
+Python
+Remote
+2 years of experience

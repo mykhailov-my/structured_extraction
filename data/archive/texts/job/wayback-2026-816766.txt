@@ -1,0 +1,58 @@
+Strong Junior Python Developer
+CrewRed
+
+We work with startups and established companies to create products in healthcare, fintech, eCommerce, and AI. This role offers real variety — new domains, evolving challenges, and steady professional growth instead of being locked into a single legacy system.
+If you’re motivated by fast learning and building features that go live, this might be the right place for you.
+What You'll Do
+- Design and implement scalable backend solutions and contribute to architecture decisions
+- Own features end-to-end — from technical discussion to production deployment
+- Work closely with the client’s team on project tasks in English
+- Optimize performance and improve existing systems
+- Take responsibility for production stability and code quality
+What We Work With
+⚡ Python, FastAPI, Django, Pydantic, PostgreSQL, uv, Ruff
+Gets You Extra Points
+- Confident communication skills for requirement clarification
+- Familiar with SQLModel, Alembic
+- Used AI coding tools (Cursor, Claude Code) in daily workflow
+- Practical experience working with AI/LLM integrations in real projects
+- Experience working on production-ready applications
+- Experience with full-stack development using React
+What You Bring
+- 1+ years of commercial backend development experience
+- Strong knowledge of Python
+- Solid understanding of REST APIs
+- Experience working with SQL databases
+- Ability to work independently and take ownership
+- English: Upper-Intermediate (B2+) or higher — confident spoken and written communication with clients
+What You Get
+Work & Growth:
+- Fully remote, flexible hours
+- Structured code reviews
+- Senior engineers who help you level up
+- English practice sessions
+Compensation:
+- Salary in USD
+- Performance reviews twice a year
+- 15 days paid vacation + sick leave
+
+Необхідні навички
+Django, 1 year, Flask, 1 year, FastAPI, 1 year, PostgreSQL, 1 year, MongoDB, 1 year
+
+Only from 1 year of experience
+Full Remote
+Worldwide
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+Django
+1 year
+Flask
+1 year
+FastAPI
+1 year
++ 13 more
+Employment: Fulltime
+Domain: Other
+Outstaff

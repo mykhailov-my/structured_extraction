@@ -1,0 +1,62 @@
+Senior QA Automation with Python
+Luxoft
+
+Project Description
+Early stages of the Client's next Software Platform evolution development for new Fully Networked Vehicle (FNV) Electrical Architecture. The project is focused on the creation of the modern Software-Defined Vehicle digital infrastructure. Target Software Platform will operate in a variety of environments and is critical to:
+Expand the use of industry adopted APIs
+Support high-velocity application development
+Enable next-generation vehicle applications
+Luxoft will provide core parts for Automotive Middleware around AUTOSAR (Classic and Adaptive), including networking, configuration, security, diagnostics, etc. Additionally, Luxoft will participate in the development of components for a virtual environment. This virtual environment will support the CI activities, including automated builds, virtual ECUs/Machines, and automated testing support.
+Project management maturity must reach ASPICE level 3. It requires establishing transparent project execution monitoring and control. Each participant will be responsible for providing evidence of systematic and significant achievement of the defined process attributes.
+In this position, you will be responsible for helping the FNV work streamlining, shaping the architecture and designs' vision, and assisting in the development and software verification process.
+Responsibilities
+• Developing testing automation architecture
+• Automated test cases creation and implementation.
+• Our client is an American multinational automaker
+• You will work in a changing and challenging environment in a multicultural team.
+• This position requires a highly motivated engineer with strong technical skills.
+• Technologies used: Python GitDevelopment from scratch of the test automation framework using Python;
+• Propose own ideas about testing process of developed solution;
+• Communication with developers, QAs and project owners;
+• Analyze business requirements, design documents for completeness and testability;
+• Execute test cases and update test documentation;
+• Create effective test reports and traceability matrix;
+• Review test failures and determine the sources of problems (test deficiencies, deviation from requirements, etc.)
+• Work with bug tracking system to record, trace and drive to resolution defects and issues discovered
+• Support development team in issues reproduction and root cause analysis
+• Report work progress continuously through attendance of daily & weekly project internal meetings
+Skills
+Must have
+• Python 3+ years experience
+• Pytest OOP knowledge and architecture design principles
+• Automotive/Embedded testing experience
+• Unit tests writing experience
+• Testing and test automation on Python
+• XML and ARXML processing knowledge
+• Practical knowledge of Linux \ Unix based OS
+• Practical knowledge of test methodologies, relevant standards, processes, and tools
+• Understanding of simulation approaches
+• Experience of working with Git, Jira, Test Rail
+• Analytical mind, willingness to understand complex systems and find their weaknesses
+• API automation knowledge
+• Be proactive, self-motivated, self-disciplined, and ready for long-term cooperation
+Nice to have
+• Experience in developing Test Automation Framework from the scratch Jenkins
+• Experience would be a plus Experience in Automotive area would be a plus
+• Practical knowledge of In-Vehicle and communication interfaces, e.g. CAN, Ethernet, FlexRay C++ 1 year experience
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA Automation
+Category: QA Automation
+English: Upper-Intermediate
+3 years of experience
+Full Remote
+Outsource
+Ukraine
+Only candidates from Ukraine

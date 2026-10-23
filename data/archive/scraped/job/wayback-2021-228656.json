@@ -1,0 +1,25 @@
+{
+  "doc_id": "wayback-2021-228656",
+  "url": "https://djinni.co/jobs/228656-strong-middle-senior-python-engineer-adtech-p/",
+  "snapshot": "https://web.archive.org/web/20210511172236/https://djinni.co/jobs/228656-strong-middle-senior-python-engineer-adtech-p/",
+  "captured_at": "2021-05-11T17:22:36",
+  "posted": "2021-05-11",
+  "year": 2021,
+  "active": true,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:11+00:00",
+  "title": "Strong Middle/Senior Python Engineer (AdTech Platform Development)",
+  "company": "Sigma Software",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Remote",
+    "remote",
+    "2 years of experience",
+    "English Intermediate",
+    "Ukraine only candidates 🇺🇦"
+  ],
+  "description": "Our customer is True[X] – a US-based technology company that builds the next generation of advertising products and premium video experiences.\nThe team uses data engineering, data science, big data and full-stack engineering using technologies such as Python/Ruby, Scala/Elixir, SQL, Angular/React, AWS (mostly DynamoDB and Kinesis), Databricks/EMR, Spark and Spark Streaming, Redshift/Athena and high traffic: 10GB of streaming data is consumed per day, public APIs. There are hundreds of TBs of data in our data lake.\nAs a Platform Engineer, you will be an important part of the team that works on a proprietary Ad Server. This is no small responsibility: as an AdTech company, the Ad Server is the cornerstone technology.\nResponsibilities\nDevelop and launch new capabilities to adapt to evolving business needs\nBe an active and engaged owner of the product and customer experience, collaborating effectively with Product Management, Data Science, and other disciplines\nMaintain high standards of code quality, including tests and documentation, and encourage the same by providing constructive code reviews to collaborators\nWork closely with other engineers to investigate design approaches, prototype new technology and evaluate technical feasibility of new features\nManage multiple competing priorities in a fast-paced, exciting environment\nTroubleshoot and resolve issues, problems, and errors encountered across our various endpoints\nProvide architectural input when designing new features, both within the ad server, as well as to the overall backend platform, with an eye toward fault tolerance and low latency\nTriage and debug operational issues and outages\nRequirements\nBachelor’s Degree in Computer Science or equivalent experience in the software development field\nSolid professional software development experience\nStrong knowledge of and experience with Python\nExperience writing and communicating with backend services using RESTful APIs, gRPC, or messaging-based systems\nStrong knowledge of SQL\nExperience using Git for version control\nUpper-Intermediate level of English and above\nWOULD BE A PLUS:\nExperience of at least one of these languages: Elixir, Scala, Ruby\nExperience building high traffic, public APIs\nUnderstanding of front-end programming: JavaScript, AJAX, JSON, HTML5\nExperience in the advertising industry, with knowledge of major actors in the ad tech ecosystem (DSPs, SSPs, DMPs, RTB)\nExperience with AWS (especially DynamoDB and Kinesis)\nPassion for following SOLID Design Principles\nAbout Sigma Software\nSigma Software предоставляет высококачественные ИТ услуги для клиентов в таких сферах, как электронный бизнес, документооборот, телекоммуникации, военная отрасль, авиационно-космическая промышленность, банковское дело, финансы и недвижимость, а также в сфере туризма, индустрии развлечений и разработки игр.\nТри основных направления бизнеса компании — разработка и поддержка программного обеспечения, разработка программного обеспечения на заказ, в том числе разработка решений под мобильные устройства, ИТ консалтинг в различных сферах, в частности в сфере электронного бизнеса, документооборота и работы с проблемной задолженностью.\nСвои услуги мы предоставляем в основном для компаний, расположенных в Западной Европе и США. Офисы в Харькове и Одессе работают с 2005 года. В 2014 открылись новые офисы в Киеве, Львове, Варшаве (Польша) и Сан-Хосе (США).\nCompany website:\n[link]\nDOU company page:\n[link]"
+}

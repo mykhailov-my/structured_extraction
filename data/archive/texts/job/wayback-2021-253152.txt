@@ -1,0 +1,66 @@
+Python Developer
+Yola
+
+Yola is looking for a Services Engineer.
+Our service engineers develop and maintain applications with RESTful APIs (primarily developed in Python Django/DRF) that participate in our service-oriented architecture. Our Scrum teams include Front-end and Back-end engineers, and QAs.
+Our values
+We focus on quality: At Yola, we believe in people, excellence, and delivery. We develop our own product so quality is the key. We have a burning desire for high code quality and architecture.
+We innovate: We encourage you to suggest changes to the process and the product
+and bring your own ideas to the table.
+We are fast learners who are looking for engineers who have a critical and open mindset and are not afraid to build fast, fail fast and learn from their mistakes.
+We have no red tape: You work directly with the decision-makers in the team, meaning there’s very little hierarchy.
+We work hard not because we are told to, but because
+we genuinely love what we do and do what we love.
+Your Skills
+You will almost certainly have:
+- Experience in commercial development. We have several positions, and we are hiring middle and senior-level engineers;
+- Fluency in Python;
+- Experience building and maintaining performant, secure, RESTful APIs, and an understanding of the front-end web technologies that communicate with them;
+- Experience writing unit and integration tests;
+- An ability to innovate simply in the face of complexity;
+- English level: intermediate and higher.
+It would be useful if you had:
+- Experience with Python web frameworks such as Django Rest Framework;
+- Experience with test-driven development;
+- Working experience with Linux servers;
+- Experience using multiple programming languages;
+- Experience benchmarking website performance;
+- An idea of what a chef recipe is and may even have created one;
+- Experience in cross-application transaction management;
+- Experience in scaling data, both relational and no-SQL;
+- Experience with code review, both reviewing and having work reviewed;
+- An ability to face challenges while maintaining a sense of humor.
+Responsibilities
+- Your responsibilities might include (but also probably will not be limited to):
+- Developing and maintaining Django applications;
+- Writing unit and integration tests for the code you write;
+- Diagnosing issues spanning multiple applications and servers and troubleshooting them;
+- Working with the front-end engineers in the development of client -libraries for the services;
+- Working with your team to flesh out, break down, and estimate the size of task requirements;
+- Working with external partners and users of Yola APIs;
+- Supporting customers and the team during on-call rotation;
+- Working with an international team, in English.
+What we offer
+- Opportunity to significantly influence our product roadmap and strategy, and technologies;
+- Challenging work in the international professional environment;
+- Flexible working hours and the possibility to work remotely;
+- 20 paid vacation days per year;
+- Paid sick leave;
+- Team building events;
+- Medical insurance;
+- A social package, including gym membership, and English courses compensation (50%).
+About Yola
+Yola.com is a site building platform with more than 14M users worldwide. Yola enables small businesses, non-profits and everyday users to create, manage and grow their online presence easily and with no technical knowledge. In addition to a robust, easy-to-use website builder and secure hosting services, Yola's solution offers e-commerce and marketing solutions.
+Founded in 2007, the company is headquartered in San Francisco, California, has offices in Cape Town, South Africa and in Ukraine.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, Lviv
+Partly Remote
+Product
+3 years of experience
+English Intermediate

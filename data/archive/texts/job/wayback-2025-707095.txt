@@ -1,0 +1,52 @@
+Python Developer (Scraping)
+Dataforest
+
+Looking for a Python Developer (Scraping) to join the Dataforest team. If you are looking for a friendly team, a healthy working environment, and a flexible schedule ‒ you have found the right place to send your CV. Ready to consider final year students with commercial experience.
+Skills & Qualifications:
+- 9+ months of commercial experience with Python.
+- Proficiency in web scraping, data extraction, cleaning, and visualization.
+- Experience with web automation techniques and tools.
+- Hands-on experience with relevant libraries and frameworks, including:- Playwright, playwright-stealth
+- Requests, aiohttp (for HTTP requests)
+- lxml, BeautifulSoup (for parsing and data extraction)
+- Strong understanding of multiprocessing and multithreading, including process and thread management.
+- Familiarity with Linux environments, cloud services (AWS, GCP), and Docker
+- Experience with bypassing bot detection and CAPTCHA-solving techniques.
+- Experience working with SQL databases (PostgreSQL, MySQL, or equivalent).
+Key Responsibilities:
+- Develop, maintain, and optimize web scraping and parsing solutions.
+- Design and implement APIs, ETL pipelines, and data integration services.
+- Work closely with Project Managers to address customer requirements and challenges.
+- Ensure performance optimization and efficiency of data collection pipelines.
+- Collaborate with team members, participate in meetings, brainstorming sessions, and code reviews.
+- Implement anti-bot evasion strategies to enhance scraping reliability.
+Optional Skills (Nice to Have):
+- Experience with NoSQL databases (MongoDB, Redis, or equivalent).
+- Knowledge of data analysis and processing using Pandas.
+- Experience with Flask / Flask-RESTful for API development.
+- Hands-on experience with CAPTCHA-solving services (2captcha, anticaptcha).
+- Experience with GUI automation tools like PyAutoGUI.
+- Knowledge of virtual display environments (e.g., xvfb, pyvirtualdisplay).
+We offer:
+- Great networking opportunities with international clients, challenging tasks;
+- Building interesting projects from scratch using new technologies;
+- Personal and professional development opportunities;
+- Competitive salary nominated in USD;
+- Paid vacation and sick leaves, medical insurance;
+- Flexible work schedule;
+- Friendly working environment with minimal hierarchy;
+- Team building activities, corporate events.
+
+Only from Intermediate
+Only from 1 year of experience
+Office or Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+Python
+Python, Selenium, bs4, Data Scraping, Web Scraping, SQL, ETL, API
+Domain: Machine Learning / Big Data
+Outsource
+Office:
+Ukraine
+(Kyiv)
+Test task is needed

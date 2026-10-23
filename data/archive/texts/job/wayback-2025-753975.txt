@@ -1,0 +1,43 @@
+Software Engineer (Python, Vue.js)
+Euristiq
+
+About position
+Join us in developing a project for a leading North American energy management company, delivering a seamless, all-in-one solution that transforms energy market data into actionable insights, enabling optimal trading strategies. The company’s innovative solutions cater to large commercial and industrial energy users, as well as power distribution and generation companies.
+Responsibilities
+- Develop and maintain both front-end and back-end features of the application
+- Build reusable components and composables using the Composition API
+- Implement interactive dashboards and data visualizations
+- Implement and optimize REST APIs using Django
+- Collaborate with designers, developers, and QA to deliver features end-to-end
+- Participate in code reviews, technical planning, and daily stand-ups
+- Present new work regularly to product owners and business stakeholders
+Required skills
+- 3+ years of software development experience
+- Strong experience in JavaScript, TypeScript, their quirks, and workarounds
+- Solid experience with Vue.js and its ecosystem
+- Comfortable working with large JSON datasets and client-side data processing
+- Experience in backend development with Python and Django
+- Experience building REST APIs
+- Familiarity with database design and interaction
+- Experience with professional engineering practices across the full SDLC, including coding standards, reviews, version control, builds, and testing
+- Creative and detail-oriented personality with excellent communication skills
+- English skills Upper-Intermediate or better
+Would be a plus
+- Experience with Vuetify or other UI component libraries
+- Understanding of Highcharts or other charting libraries
+- Experience with Azure, Docker
+- Degree in Computer Science or a related field
+
+Only from Upper-Intermediate
+Only from 4 years of experience
+Hybrid Remote
+Office attendance is required
+Ukraine
+Countries where we consider candidates
+Python
+Python, Vue.js
+Domain: Other
+Outsource
+Office:
+Ukraine
+(Lviv)

@@ -1,0 +1,24 @@
+{
+  "doc_id": "wayback-2020-154385",
+  "url": "https://djinni.co/jobs/154385-python-developer-real-time-data-analysis-/",
+  "snapshot": "https://web.archive.org/web/20201024055624/https://djinni.co/jobs/154385-python-developer-real-time-data-analysis-/",
+  "captured_at": "2020-10-24T05:56:24",
+  "posted": "2020-10-10",
+  "year": 2020,
+  "active": true,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:10+00:00",
+  "title": "Python Developer (Real-Time Data Analysis)",
+  "company": "Sigma Software",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Kyiv",
+    "Kyiv, Kharkiv, Lviv, Dnipro, Odesa, Vinnitsia, Ivano-Frankivsk, remote",
+    "3 years of experience",
+    "English Upper Intermediate"
+  ],
+  "description": "You are an experienced Python Developer , who knows how to develop high-load infrastructure using modern DevOps practices?\nYou use most of cloud services and feel ambitious to improve existing solutions?\nIf yes, then this is your chance to become a part of a unique solution for Data Analysis!\nYou will work with an innovative product that is actively supplemented and updated. You should be prepared for the rapid pace of work and possible changes that are not permanent but occur due to the dynamics of the product domain.\nRequirements:\n- 3+ years of experience as a Python Developer\n- Python 3.7+, Lambda, boto3, asyncio, aiohttp, SQLite, MySQL\n- Practical experience in creatine CI\\CD infrastructure\n- Knowledge of AWS cloud and services (EC2, S3, RDS, DynamoDB, CloudWatch, ECR) is a must\n- Experience in automatization of setting multiple EC2 instances\n- Understanding of Network domains management\n- Solid knowledge of monitoring tools\nWill be a plus:\n- DBA skills for DBs optimization\nResponsibilities:\n- Developing infrastructure software for motor racing mostly in Python 3.7+. This includes services for data analysis, data streaming, data storage, communication which will be running in Cloud and on Raspberry Pi devices.\n- Manage domains and subdomains, S3s, EC2s, DBs (RDS & DynamoDB), CloudWatch, maybe also cost optimization\n- Work with EC2 templates/images, Race Graphics cloud rendering fleet creation and various shortcuts/automation tools for AWS\n- Introduce and support monitoring tools\n- Work on recalculation of various processes (Python/Node) on existing data and/or restreaming of this data\n- Work with track mapping tool from Google Maps or recorded lap\n- Evaluate migration from RDS to DynamoDB\nProject:\nOur project provides the solution for monitoring of motorsports events, which includes remote live streaming units, streaming services, telemetry sensors, telemetry analysis services, and intermediate databases with corresponding access services.\nWe create a unique system that helps monitor all the processes of the race, as well as meet the needs of the most demanding spectators.\nAbout Sigma Software\nSigma Software предоставляет высококачественные ИТ услуги для клиентов в таких сферах, как электронный бизнес, документооборот, телекоммуникации, военная отрасль, авиационно-космическая промышленность, банковское дело, финансы и недвижимость, а также в сфере туризма, индустрии развлечений и разработки игр.\nТри основных направления бизнеса компании — разработка и поддержка программного обеспечения, разработка программного обеспечения на заказ, в том числе разработка решений под мобильные устройства, ИТ консалтинг в различных сферах, в частности в сфере электронного бизнеса, документооборота и работы с проблемной задолженностью.\nСвои услуги мы предоставляем в основном для компаний, расположенных в Западной Европе и США. Офисы в Харькове и Одессе работают с 2005 года. В 2014 открылись новые офисы в Киеве, Львове, Варшаве (Польша) и Сан-Хосе (США).\nCompany website:\n[link]\nDOU company page:\n[link]"
+}

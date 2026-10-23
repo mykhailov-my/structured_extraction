@@ -1,0 +1,43 @@
+Senior Python Full stack Engineer (IRC154485) (Poland)
+GlobalLogic
+
+Oscar is a technology-driven, consumer-focused health insurance startup founded in 2012 and headquartered in New York City. Our goal is to make health insurance simple, transparent, and human.
+Job Description:
+Skills/Qualifications:
+● Bachelor's degree in Computer Science, Computer Engineering, or related field
+● 3-5 years of experience as a Python/React Developer in a production environment
+● Expert knowledge of Python and related frameworks like Flask
+● Expert knowledge of front-end technologies like React
+● Able to hit the ground running in a command line and scripting environment
+● Understanding of relational databases like PostgreSQL
+● Experience with Kafka and RPC frameworks like gRPC is a plus
+● Experience working with test-driven development and unit test frameworks, strong testing and debugging skills
+● Both an independent individual contributor and team player with good English communication skills
+Job Responsibilities:
+What you will do:
+● Become an expert on your teams’ technical stack(s), gain knowledge on the business domains
+● Plan, implement and deploy changes following Oscar’s established software development lifecycle (SDLC) and best practices for coding, testing and monitoring
+● Produce technical design, test and launch planning documentation for complex projects and/or projects with complex dependencies
+● Troubleshoot, debug and fix production issues as they arise
+● Participate in team’s scrum meetings, collaborate with engineers on the team and contribute to design and code reviews
+About GlobalLogic
+GlobalLogic, a Hitachi Group Company, is a leader in digital product engineering. We help our clients design and build innovative products, platforms, and digital experiences for the modern world. We help our clients imagine what’s possible and accelerate their transition into tomorrow’s digital businesses. Headquartered in Silicon Valley, GlobalLogic operates design studios and engineering centers around the world.
+What is GlobalLogic in numbers:
+24,000+ engineers
+1,800+ products releases per year
+400+ active clients
+70+ private label customer labs
+35 product engineering centers
+14 countries
+Visit our website and learn more about GlobalLogic, view our open positions and career opportunities, as well as why you should join us!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Poland
+3 years of experience
+English Intermediate
+Office/Remote of your choice
+Outsource

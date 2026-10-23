@@ -1,0 +1,43 @@
+Middle / Senior Backend Developer (Python/Java)
+AppReal
+
+On behalf with our customer we are seeking for a Backend Engineer to join our global R&D department.
+Our customer is the leading provider of AI-based Big Data analytics.
+They are dedicated to helping financial organizations combat financial crimes through money laundering and facilitating malicious crimes such as terrorist financing, narco-trafficking, and human trafficking which negatively impact the global economy.
+Their unsupervised and Semi-Supervised Intuitive AI solutions enable clients to manage risk, detect money laundering schemes, uncover operational issues, and reveal valuable new growth opportunities.
+About the Role:
+- Design and develop a scalable data processing and ML pipeline using the latest big data technologies in a fast paced agile environment
+- Investigate new technological areas and understand them in depth through rapid self-learning
+- Demonstrates strong analytical problem-solving skills to support scalable and sustainable design solutions
+- Ability to take ownership of product development including all life cycle stages: translating product requirements into actionable designs and tasks, development, UT, and production troubleshooting
+Position Requirements:
+- At least 4 years of hands-on backend development experience for Middle position / 6+ years for Senior position
+- Experience and knowledge in Python or Java as a must (80-90% coding is in Python and might be 10-20% in Java)
+- Experience developing data-oriented products
+- Experience in data processing FW such as Spark, Pandas, Hadoop, Airflow
+- Experience in Distributed Databases (Such as Elasticsearch, Mongo, Redis, etc)
+- Experience with developing microservices-based architecture
+- Experience working in container-based environments using tools such as K8s, helm
+- Experience working as a software developer in an Agile environment
+Nice to have:
+- Experience in machine learning FWs such as SKLearn, Tensorflow
+- Experience with RedHat OpenShift
+- Dev Environment knowledge: GIT, Jenkins, Docker
+- Experience in data processing FW such as Spark, Pandas, Hadoop, Airflow
+What we can offer you:
+- Remote work from Ukraine or EU countries with flexible schedule
+- Accounting support & consultation
+- Opportunities for learning and developing on the project
+- 20 working days of annual vacation
+- 5 days paid sick leaves/days off; state holidays
+- Provide working equipment
+
+Only from Upper-Intermediate
+Only from 4 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+Python
+Python, AWS/GCP/Azure, Docker, Java, SQL/NoSQL
+Domain: SaaS
+Outstaff

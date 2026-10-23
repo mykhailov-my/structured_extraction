@@ -1,0 +1,31 @@
+Python Developer
+Grid Dynamics
+
+We need an experienced Python Developer who is ready for a Long trip to US, California (6-12 months) Development of the data visualization tool.
+It is a US-based position for 6-12 months-long trips.
+Key Qualifications:
+• Proven programming experience with Python, Go.
+• Experience in building and working with Django is a plus
+• Proven experience working with databases and SQL
+• Experience working with analytical databases like Vertica, MemSQL is a plus
+• Proven experience in building Microservices and API endpoints.
+• Experience working with GRPC, REST preferred
+• Strong understanding and knowledge of queuing systems like Kafka, RabbitMQ etc
+• Strong understanding and knowledge of data structures and algorithms
+• Good understanding of ETL
+• Knowledge of working with Spark is a plus
+• Experience working with Java, Scala is a plus
+• Good understanding of data driven web based systems.
+• Familiarity with working in a Agile environment
+About Grid Dynamics
+We seek to make disruptive technologies accessible. For enterprises that create innovative digital products and experiences, Grid Dynamics offers close collaboration from digital transformation consulting to early prototypes to enterprise-scale delivery of new digital platforms.
+We bring deep expertise in emerging technology, top global engineering talent, lean software development practices, and high-performance product culture. The key to our success has been a business culture that puts products over projects, customer success over contract terms, and real business results over pure technical innovation.
+Headquartered in Silicon Valley with over 1,200 technologists located in engineering delivery centers throughout the US, Central and Eastern Europe, Grid Dynamics is known for architecting and delivering some of the largest digital transformation programs in the retail, technology and financial sectors to help its clients win market share, shorten time to market and reduce costs of digital operations on a massive scale.
+Company website:
+[link]
+
+Python
+Kyiv
+Киев, Харьков, Львов
+2 years or more
+English Upper Intermediate

@@ -1,0 +1,45 @@
+Wand AI - Back-End Engineer (Python)
+SD Solutions
+
+Wand AI engineers are Kubernetes experts, develop cutting-edge technologies, and strive to get the best user experience and efficiency for our customers.
+In this role you will take a main part in defining and developing the Wand AI platform.
+Responsibilities:
+Own, design, and develop Wand AI backend: provide Kubernetes application design and implementation of major features and services.
+Provide the end-to-end feature/service lifecycle: starting from design and architecture, through implementing, testing, and releasing the feature.
+Design and evolve software managing in-environment service discovery and configuration of microservices.
+Mentor, perform code reviews, evaluate implementations and provide feedback about potential tool improvements.
+Collaborate with Product Managers, Product Designers, and other Software Engineers.
+Requirements:
+B.Sc. in computer science or a related field
+7+ years of experience building distributed large-scale SaaS systems.
+5+ years of design and implementation of SaaS Kubernetes applications built out of microservices.
+Expert in Python, especially as a backend language (clean code, frameworks, API design, etc.)
+Experience with different types of data storage (SQL, NoSQL, search engines, big data tools, object stores). PostgreSQL and ElasticSearch – must.
+Experience with modern CI/CD and GitOps methodologies.
+Fluent English.
+Fast learner with an ability to deep dive into details of cutting-edge technologies and deliver solutions.
+Advantages:
+Experience with user-defined workflows (e.g., Airflow).
+Experience with ML productization (PyTorch, Tensorflow, LightGBM).
+About the company:
+Wand AI's mission is to make business-centric AI easy to use, safe, and accessible to everyone. Our platform enables business users to build and run AI applications safely, quickly, and efficiently – all codeless, self-serviced.
+About SD Solutions
+SD Solutions is Kyiv based outstaffing company with its clients located in Israel, UK and US. Our turnkey staffing services include providing professional developers, development teams, and research & development centers. We are looking for candidates that will work for different Israeli, UK and USA data-driven companies that are engaged in various areas of the IT domain.
+• You could improve your English, cause all correspondence is going to be in English.
+• Work from home (part of the vacancies are full remote)
+• Come and meet your team fellows in Israel. (after about a year)
+P.S.: Our office is located near the Golden Gate metro, but what is more important, we have a truly friendly atmosphere.
+Join us today!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Category: Python
+English: Intermediate
+5 years of experience
+Full Remote
+Outstaff
+Ukraine (Kyiv) , Georgia, Cyprus

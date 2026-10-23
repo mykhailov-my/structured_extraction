@@ -1,0 +1,46 @@
+Middle/Senior Full-Stack Engineer (Python/Angular)
+Agiliway
+
+The product focused on healthcare analytics, security, healthcare cost savings and data aggregation.
+Requirements:
+4+ years’ experience in software development
+Solid experience with Python, Django or Flask
+Knowledge and experience with Angular 2 or higher, Typescript, HTML5, CSS, Git
+Experience with testing frameworks for JavaScript like Jest, Enzyme, Mocha, Jazmine, Cypress, Protractor, etc.
+Experience with relational databases (MySQL, Postgres, and/or Snowflake)
+Experience working in dynamic engineering environment
+English level- Upper-Intermediate or higher
+Process-oriented with strong organizational and communication skills
+Ability to think outside the box
+Responsibilities:
+Participate in solution design and development, focus on clean code, code reviews, and best practices
+Regularly communicate with the team members at client’s side, participate in status meetings, design sessions, and brainstorming
+Provide estimation and reporting of assigned tasks
+We offer friendly working conditions with competitive compensation and benefits including:
+Comfortable working environment
+Friendly team and management
+Competitive salary
+Free English classes
+Regular performance-based compensation review
+Flexible working hours
+100% paid vacation, 4 weeks per year
+100% paid sick-leaves
+Medical insurance (50% is paid)
+Corporate and team building events
+About Agiliway
+Agiliway is a software development outsourcing and consulting company. We are headquartered in Austin, Texas, with the main software development and consulting center located in Western Ukraine.
+Agiliway is not an ordinary IT outsourcing company. Agiliway is founded by a group of IT experts who have been working in IT outsourcing industry around 20 years in USA and Ukraine. While working with multiple clients and hundreds of projects we have learnt a lot about customers’ needs, expectations, and challenges. And we wanted to help them work more effectively by providing flexible yet high-quality service which would leverage IT potential of Ukraine, assure skills and quality of big IT outsourcing players but would be devoid of their flawed and expensive inner processes. That is why Agiliway was born.
+Company website:
+[link]
+DOU company page:
+[link]
+
+JavaScript
+Lviv
+Category: JavaScript
+Python, Angular
+English: Intermediate
+3 years of experience
+Office/Remote of your choice
+Outsource
+Ukraine (Lviv, Chernivtsi)

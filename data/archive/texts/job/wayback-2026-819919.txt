@@ -1,0 +1,46 @@
+Senior Python Engineer
+Empat
+
+This role is ideal for an experienced Python engineer who is confident working with AI-driven workflows, building reliable backend services, and contributing to modern LLM-powered systems. You will focus on developing MCP-based integrations and backend APIs while collaborating with a senior-level engineering team.
+Your responsibilities will include:
+- Build and maintain Python-based MCP services and integrations.
+- Develop backend APIs for LLM-powered products using FastAPI or FastMCP.
+- Work on prompting, tool integration, reliability, and production readiness of AI workflows.
+- Design, build, and maintain scalable and reliable backend systems.
+- Collaborate with cross-functional teams to deliver high-quality technical solutions.
+- Participate in improving system performance, stability, and maintainability.
+- Expand into modern LLM infrastructure and evaluation practices as needed.
+What we expect from you:
+- English level B2 or higher for effective technical communication.
+- Strong hands-on experience with Python.
+- Solid experience with MCP and prompting concepts.
+- Proven backend engineering experience with FastAPI or similar frameworks.
+- Experience designing and maintaining APIs and backend services.
+- Proficiency with Git and standard version control workflows.
+- Strong problem-solving skills and ability to work independently.
+- Experience working in distributed teams within the EU time zone.
+Nice to Have:
+- Exposure to Kubernetes.
+- Understanding of embeddings and evaluation (evals) workflows.
+- Familiarity with LLM inference concepts such as temperature, top_p, guardrails, and bias mitigation.
+- Experience working with AI-driven or LLM-based systems.
+- Experience with production-grade infrastructure and scalable services.
+What we offer:
+- Interesting projects and challenges that accelerate professional and personal growth
+- Long-term project
+- 15 paid vacation days per year
+- 5 paid sick leave days per year
+- Flexible, results-focused schedule; hybrid work or remote (office with city view + work from home)
+- Comfortable, stylish office in Kyiv with generator/battery backup 🇺🇦
+- Equal salary, medical insurance, trial period
+- Team-building events: parties, online activities, picnics, and more
+- Opportunity to work in a Top-employee company (DOU 2025)
+
+Only from 5 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+Python
+Employment: Fulltime
+Domain: Other
+Outstaff

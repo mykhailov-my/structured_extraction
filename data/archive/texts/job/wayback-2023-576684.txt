@@ -1,0 +1,44 @@
+Python developer
+Peppernode
+
+Шукаємо сильного девелопера на активний девелопмент SaaS платформи.
+Що для нас важливо в першу чергу (required):
+- Розуміння Web технологій, client-server коммунікації
+- Python3.8+
+- Django/DRF, understanding microservices architecture (бажано з досвідом)
+- English intermediate or higher
+- Хороше розуміння та досвід з Docker/Docker Compose
+- Досвід з AWS (EC2, RDS, S3 etc)
+- Впевнене володіння git, вміння читати та ревьювити код колег
+- Робота з деплойментом, CI/CD, досвід/розуміння Github actions чи чогось подібного.
+- Досвід з FastAPI та Flask
+Також важливо:
+- Самостійна робота над проєктом (звісно будуть мітинги, брейншторми і т.д. з командою) але важливо вміти розв'язувати проблеми самостійно
+- Постійна робота над своїми знаннями, ініціатива по покращенню проєктів.
+- Почати своє повідомлення нам з рядка "Вітаю, Peppernode!"
+Ми пропонуємо:
+- Цікаві проєкти з використанням сучасних технологій
+- Веселий молодий колектив
+- Вчасну компенсацію на рівні ринку, можливість швидкого росту
+- Покриття курсів на покращення техічного рівня
+About Peppernode
+We offer full-cycle software development, a dedicated team, and team extension to help Startups and SMBs develop innovative products and digitize existing businesses with transparent processes and superior management.
+At Peppernode, we learn and help embody your business goals. Because they matter.
+Rest assured your software project is in the right hands: we thoroughly research, calculate and implement any of your ideas while providing consistent reporting and uninterrupted support.
+We are responsible not only for high-quality services but also pay extra attention to mutual collaboration with our clients and partners.
+Our portfolio of projects completed includes web apps, back-end apps, scripts, automation testing solutions, and websites amongst others. We did this across a variety of solutions: hospitality and foodtech, e-learning, e-tendering, translations, and others.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+Django , Django REST API , Python / Django , DRF , AWS , Docker , Docker Compose
+English: Intermediate
+2 years of experience
+Domain: SaaS
+Full Remote
+Outsource
+Ukraine
+Only candidates from Europe and Ukraine

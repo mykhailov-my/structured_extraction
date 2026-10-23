@@ -1,0 +1,29 @@
+{
+  "doc_id": "wayback-2025-749874",
+  "url": "https://djinni.co/jobs/749874-python-automation-engineer/",
+  "snapshot": "https://web.archive.org/web/20250715154248/https://djinni.co/jobs/749874-python-automation-engineer/",
+  "captured_at": "2025-07-15T15:42:48",
+  "posted": null,
+  "year": 2025,
+  "active": false,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "Python Automation Engineer",
+  "company": "Prai",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from Upper-Intermediate",
+    "Required knowledge of Ukrainian",
+    "Only from 5 years of experience",
+    "Full Remote",
+    "Worldwide",
+    "Countries where we consider candidates",
+    "Python",
+    "Domain: Other",
+    "Startup",
+    "Test task is needed"
+  ],
+  "description": "Python Automation Engineer\nWorking Hours: Monday–Friday, 7:00 AM – 4:00 PM EST (New York time)\nDeliver results — get rewarded. Salary increase after trial based on performance.\nAbout PRAI.co — the revolutionary AI-powered platform transforming public relations and digital influence. At PRAI.co, we combine cutting-edge AI with strategic storytelling, empowering brands to lead conversations and dominate global markets.\nOur proprietary technology — the PRAI Transformer — delivers real-time insights, strategic influence, and unprecedented market reach.\nWe are looking for new developers who want to be part of reshaping the future of digital PR, where your creativity fuels influential narratives seen by millions.\nKey Responsibilities\n- Analyze and refactor existing code to improve efficiency, stability, and scalability.\n- Adapt existing automation solutions to align with updated APIs and changing social media platform policies.\n- Optimize system performance through proxy server integration and IP rotation.\n- Simulate real user behavior in the browser (clicks, scrolling, delays, form filling) while considering anti-bot protections.\n- Implement logic to handle and responsibly bypass anti-bot mechanisms.\n- Scale existing scripts and bots to support large volumes of accounts, sessions, and parallel operations.\n- Modernize browser automation using tools such as Selenium, Playwright, Puppeteer, or similar frameworks.\n- Ensure stable operation with social media APIs and web interfaces, including error handling, timeouts, and captcha responses.\n- Integrate existing tools into a unified automation system, including interaction with queues, databases, logs, and monitoring services.\n- Test updated functionality, validate outputs, and apply changes with minimal disruption to surrounding components.\n- Collect and analyze performance metrics to identify bottlenecks, instabilities, and regressions after updates.\nRequired Skills:\n- 5+ years of experience with Python\n- Experience in refactoring and optimizing existing code\n- Strong skills in browser automation (Selenium, Playwright, Puppeteer)\n- Understanding of anti-bot systems and fingerprinting\n- Experience with proxy integration (SOCKS5, HTTPS, IP rotation)\n- Confident with API integration and error handling\n- Ability to simulate human-like behavior in browsers\n- Familiar with async/multithreading\n- Basic knowledge of databases (MongoDB, Redis, PostgreSQL)\n- Git and version control workflows\n- English — Intermediate or higher\nNice to Have:\n- Experience with AI-enhanced automation or AI tools integration\n- Experience in web scraping (with respect to site policies)\n- Front-end understanding (HTML/CSS/DOM) for working with dynamic content\nEmployment Type & Schedule:\n- Contract-based\n- Working hours: 7 AM – 4 PM EST (New York time), Monday–Friday\n- Occasional overtime or weekend work may be required\nWhat You Get:\n- 100% remote role, aligned with New York (EST) timezone\n- 1-month paid trial period with performance-based salary review\n- Opportunity to grow your income with your impact\n- Real chance to develop alongside the product and expand skills in PR, automation, and AI\n- Build technology that’s actively used by real users and top global PR teams"
+}

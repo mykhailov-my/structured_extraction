@@ -1,0 +1,26 @@
+Python (Django) для тендерного майданчика
+businessbuysale
+
+Python (Django)
+Проект - тендерний майданчик для закупівль в системі Prozorro
+Python (Django)
+Back
+Віддалена робота.
+Впевненні знання Python Django від 2+ років досвіду
+Знання принципів OOP та шаблонів проектування.
+Досвід роботи з PostgreSQL, Celery, ElasticSearch, Jenkins, Docker, AWS
+Розуміння клієнт-серверної архітектури
+Вміння реалізувати API (REST, RPC)
+Підтримка , доробка та розробка нового функціонала.
+Рішення приймається швидко, команда працює без бюрократіїї.
+About businessbuysale
+Платформа для продажу та купівлі бізнесу та комерційної нерухомості .
+Company website:
+[link]
+
+Python
+Remote
+Full Remote
+Product
+2 years of experience
+Ukraine only candidates 🇺🇦

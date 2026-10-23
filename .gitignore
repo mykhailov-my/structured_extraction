@@ -18,5 +18,8 @@ dist/
 .idea/
 .vscode/
 
+# Wayback Machine index answers, kept between crawl-archive runs
+.cache/
+
 # Left behind by an interrupted write
 results/**/*.tmp

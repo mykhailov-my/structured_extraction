@@ -1,0 +1,68 @@
+Python Backend Developer
+Novacore
+
+Python Developer (FastAPI / Django / Flask)
+Format: Remote (office optional)
+NovaCore builds smart digital solutions with reliable engineering foundations and a strong focus on real business value. We’re looking for a Python Developer who writes clean, maintainable code and is confident building backend services, APIs, and integrations for modern web products.
+Requirements
+- 2+ years of commercial Python development experience.
+- Hands-on experience with FastAPI, Django, or Flask in production-level projects.
+- Strong understanding of REST APIs, authentication mechanisms, and server-client data flow.
+- Solid knowledge of Python core, OOP, and clean code principles.
+- Experience with relational databases such as PostgreSQL / MySQL / SQLite.
+- Practical experience with SQLAlchemy, Django ORM, or similar tools.
+- Understanding of software architecture basics and API design principles.
+- Experience with Git and collaborative development workflows.
+- English level — B1+ for technical communication and documentation.
+Nice to have
+- Experience with asyncio, background jobs, or task queues.
+- Familiarity with Celery, Redis, or message-based processing.
+- Experience with Docker, CI/CD pipelines, or cloud deployments.
+- Understanding of performance optimization and debugging backend bottlenecks.
+- Experience integrating third-party APIs and external services.
+- Familiarity with testing practices: unit tests, integration tests.
+Responsibilities
+- Develop and maintain backend services using Python and FastAPI / Django / Flask.
+- Design and implement scalable REST APIs and business logic for web products.
+- Work closely with NovaCore’s engineering team to deliver reliable backend functionality.
+- Integrate external APIs, internal services, and data sources.
+- Review and optimize code for readability, maintainability, and performance.
+- Research and resolve issues using official documentation and trusted technical resources.
+- Meet deadlines and communicate progress proactively.
+- Keep client/company tracking systems and repositories up to date.
+What we offer
+- Flexible schedule: work remotely or from the office.
+- Educational support — paid courses, internal workshops, and learning materials.
+- 12 paid vacation days and 12 paid sick days annually.
+- Official public holidays according to Ukrainian legislation.
+- Competitive compensation based on experience and results.
+Hiring process
+- Short recruiter screen (15–20 min)
+- Technical interview with engineers (60–90 min)
+- Optional short coding task or live-coding
+- Final chat with manager → offer
+Tech stack
+Python, FastAPI, Django, Flask, REST API, SQLAlchemy, PostgreSQL, MySQL, SQLite, Git, Docker, Redis, Celery
+About NovaCore
+We build smart digital solutions in Healthcare and E-commerce — scalable, performant, and well-structured products with a strong focus on usability, reliability, and long-term client value. NovaCore combines technical expertise with business understanding and values transparency, responsibility, and clear delivery.
+
+Необхідні навички
+FastAPI, 2 years, Django, 2 years, Flask, 2 years, Python, 2 years
+
+Only from 2 years of experience
+Office, Remote, Hybrid Remote
+Worldwide
+Countries where we consider candidates
+Python
+FastAPI
+2 years
+Django
+2 years
+Flask
+2 years
++ 1 more
+Employment: Fulltime
+Domain: SaaS
+Outsource
+Office:
+Spain

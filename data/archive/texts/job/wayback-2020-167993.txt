@@ -1,0 +1,45 @@
+Middle Python Developer
+ELEKS
+
+ABOUT CLIENT
+Our company maintains a successful partnership with the leading global provider of technology solutions for the world’s financial markets. During the decade of our cooperation, we completed a number of large-scale projects intending to develop a comprehensive enterprise system.
+REQUIREMENTS
+3+ years of working experience in software development using Python
+Developing and scaling REST APIs
+Strong experience in designing and developing scalable applications in Python Django or Flask frameworks
+WILL BE A PLUS
+Experience with high loaded microservice system
+RESPONSIBILITIES
+Develop solutions and algorithms according to technical specifications or other requirements documentation; use standard algorithms in the applicable cases
+New functionality design
+Estimating tasks
+Write program code according to the defined application architecture
+Structure and format the source code, comment and mark up the code, as well as name variables, functions, classes, data structures, and files according to the company conventions and industry best practices
+Use version control systems to track code optimization progress, as well as to merge or split code entities. Commit changes according to version control rules
+Communication with customer
+WHAT WILL YOU GET WITH ELEKS
+Above average compensation and competitive Social package
+Close cooperation with a customer
+Business trips
+Challenging tasks
+Competence development
+Ability to influence project technologies
+Projects from scratch
+Team of professionals
+Dynamic environment with low level of bureaucracy
+Medical insurance
+ABOUT ELEKS
+ELEKS is a custom software development company. We deliver value to our clients, thanks to our expertise and experience gained from working as a software innovation partner since 1991.
+Our 1,500+ professionals located in the Delivery Centers across Eastern Europe and sales offices in Europe and North America, provide our clients with a full range of software engineering services. These include product development, QA, R&D, design, technology consulting and dedicated teams.
+About ELEKS
+ELEKS is the partner of choice for many of the world’s leading enterprises, SMEs and technology challengers. We help businesses elevate their value through custom software development, product design, QA and consultancy services.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, Kharkiv, Lviv, Ivano-Frankivsk, remote
+3 years of experience
+English Upper Intermediate

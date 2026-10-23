@@ -1,0 +1,45 @@
+Middle/Senior Full-Stack Developer (Python+React)
+A-Listware
+
+Project is an AI-based reading comprehension platform.
+The goal of the project is to change the way people learn through text, combining modern technology with cutting-edge pedagogy and cognitive science.
+A-LISTWARE welcomes a Middle/Senior Full-Stack Developer.
+Our Customer:
+Project is an AI-based reading comprehension platform.
+The goal of the project is to change the way people learn through text, combining modern technology with cutting-edge pedagogy and cognitive science.
+Your tasks:
+Design client-side and server-side architecture;
+Efficient development and work with databases;
+Troubleshoot, debug and upgrade software;
+Create security and data protection settings;
+Build features and applications with a mobile responsive design.
+Required experience and skills:
+3+ years of Full-Stack development experience;
+Working experience with Django or Flask;
+Strong experience with Python;
+Knowledge of multiple front-end languages, libraries and frameworks - HTML/ CSS, JavaScript, React.js;
+Working experience with Amazon Web Services (AWS);
+Working experience with Docker or Kubernetes;
+English – Upper-Intermediate +.
+Would be a plus:
+Working experience with Vue.js
+Working conditions:
+5-day working week, 8-hour working day, flexible schedule;
+All UA public holidays are days off;
+Vacation and sick leave are covered by the company;
+Health care program (activated after the probation period);
+Office in the city center;
+English classes.
+About A-listware
+A-Listware is a tech company offering challenging and rewarding programming job opportunities for Ukrainian engineers. We work with international customers from product development to outsourcing and outstaffing.
+We are located in the center of Kharkiv, yet in a quite street with lovely cafes. Have cosy office, friendly family atmosphere and lots of fun! Come and join us!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kharkiv
+Kharkiv, remote
+3 years of experience
+English Intermediate

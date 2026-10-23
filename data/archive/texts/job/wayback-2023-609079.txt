@@ -1,0 +1,55 @@
+Senior Python Fullstack Developer
+Pecode
+
+Pecode — це ІТ-компанія з 6-річним досвідом та нетиповим підходом до організації роботи.
+Ми будуємо спільноту, яка не просто сповідує клієнтоорієнтованість, а має задавати певні стандарти в усьому: від спілкування з клієнтом і в команді — до надання високоякісних послуг.
+Чим ми пишаємось? Якщо коротко:
+- Нашими неймовірними 130-ма пекодівцями
+- Top Rated Plus агенція на Upwork
+- Top Software Testing in Ukraine, Eastern Europe and Globally за версією Clutch
+- Сотні реалізованих проектів, як для малих стартапів так і для компаній зі списку Fortune 500
+Маємо запит від нашого клієнта для розширення існуючої команди.
+Відповідальність:
+- Розробляти додаток, сервер, сервіси та базу даних, які становлять фундаментальну структуру платформи Proto AICX.
+- Активно покращувати архітектуру та усувати технічний борг.
+- Підтримувати здорову кодову базу (збереження, масштабування, захищеність, вільні від помилок).
+- Допомагати будувати базу знань команди, співпрацюючи з іншими розробниками, писати. документацію та брати участь у таких заходах, як рецензії коду та парне програмування.
+- Співпрацювати з нашими внутрішніми командами продукту, забезпечення якості та підтримки клієнтів.
+- Забезпечувати найвищі стандарти якості коду.
+Вимоги:
+- 4+ роки практичного досвіду у розробці на Python та JavaScript.
+- Експертиза в Python 3 та розробці веб-додатків, включаючи фреймворки (Flask або FastAPI), середовище з багатьма потоками та асинхронне програмування.
+- Практичний досвід з Vue/React
+- Досвід роботи з реляційними базами даних та здатність писати складні SQL-запити.
+- Досвід роботи з процесом постійної інтеграції та автоматизації тестування (ми використовуємо Gitlab Pipelines з Docker Compose та Pytest).
+- Рівень володіння англійською&українською Upper-Intermediate та вище.
+- Здатність приймати та обмінюватися відгуками з урахуванням підходу до росту.
+Пропонуємо за замовчуванням:
+- Середовище однодумців із горизонтальною структурою команд, можливістю створювати власні процеси
+- Для твого якісного відпочинку та відновлення після хардових викликів або ж просто при потребі пропонуємо оплачувані вихідні та лікарняні;
+- Захоплюємось коли у колег є бажання дізнаватись щось нове, тому підтримуємо не лише морально, але і фінансово(компенсуємо до 75% вартості)
+- Бажаєш вдосконалити свій english pronunciation та обговорити гарячі топіки ? Це не є проблема! Ми допоможемо це втілити в життя разом з Браяном, справжній американець з душею українця. Він готовий занурити тебе в неповторну атмосферу мовного мистецтва та допомогти тобі впевнено засвоїти мовні навички.
+- Розуміємо важливість зручності та безперебійності роботи, тому облаштували наш офіс усім необхідним аби працювати було комфортно
+Надамо усю необхідну техніку (можеш навіть заліпити її улюбленими стікерами)
+Давай знайомитись?
+Website👉🏼 Behance👉🏼 Instagram
+About Pecode
+Pecode is a community of creators that builds excellent products from scratch or enhances existing ones to new quality levels.
+Our top priority is the perfect functioning of products to improve people’s lives and develop our employees’ talents.
+We operate in various industries and countries, from the USA to Australia, from E-commerce to Enterprise, from complete software development to specific issue resolutions. Flexibility is our middle name, and our motivation is openness to new ideas.
+At Pecode, we center everything around people, being empathetic, kind, and considerate. This approach is reflected in how we understand client needs and in our supportive, growth-oriented internal interactions.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Fullstack
+Lviv
+Category: Fullstack
+Python / Django , Django/Flask/Aiohttp/FastApi , Vue , Vue 3 , Vue / Vuex
+English: Upper-Intermediate
+3 years of experience
+Office or Remote
+Outsource
+Ukraine (Lviv)
+Only candidates from Europe and Ukraine

@@ -1,0 +1,42 @@
+Senior Python Developer, Media Distribution Platform
+DataArt
+
+Our client is a movie, music, and music video distributor. The company signs agreements for the distribution of media content to large and small (indie) labels via various platforms (e.g. YouTube, Spotify, Pandora, etc.)
+About the vacancy
+Our client is a movie, music, and music video distributor. The company signs agreements for the distribution of media content to large and small (indie) labels via various platforms (e.g. YouTube, Spotify, Pandora, etc.)
+These platforms have various technical requirements. The need to meet these requirements and related business processes leads to significant labor efforts in the IT industry. At present, a quarter of all employees of our client are technical experts.
+DataArt specialists determine the needs of the concerned parties and help improve the IT systems of the client. The set of technological tools has to be up to date so that every system can be adapted to the constantly changing requirements of the media industry.
+The current team size is about 30 people. DataArt team includes back-end and front-end developers, devops engineers, QA, designers and project managers. Every new development is split into subprojects, which are assigned to a particular team. These subprojects are small that typically take 2-6 weeks for the team of 3-4 software engineers to implement.
+The client tends to stay on a cutting edge of technology, uses the latest language/library versions, AWS and 3d-party services.
+We are looking for a person that has experience delivering robust applications using web technologies (Python) and is ready to develop new tools & systems.
+Responsibilities
+- Work with the company executives to define goals, strategies, outcomes, resources, and timelines
+- Ensure clean, maintainable code following best practices (unit testing, source control, continuous integration, automation, design patterns, etc.)
+- Drive the team as you design & develop rapid prototypes of the web-based, mobile-friendly and/or back-end applications to enhance the cross-functional business processes & customer experience
+- Debug code, perform code reviews, and troubleshoot problems, leveraging your analytical problem-solving skills
+- Help grow the business by identifying new opportunities, proposing high-quality solutions, and outlining technical specifications
+Must have
+- Executive presence and the confidence to manage senior relationships internally and with the customer
+- Expertise with Flask and Python with a strong emphasis on testing and documentation
+- Have worked with modern client-side/API technologies such as ReactJS and React Native
+- Have developed microservices based on the Flask framework and third-party APIs
+- Experience developing with cloud platforms such as AWS, etc.
+- Solid interpersonal skills, technology expertise, with a demonstrated ability to lead both projects and teams
+- Spoken English
+Learn more about our policy of equal opportunities in employment
+About DataArt
+DataArt с 1997 года проектирует, разрабатывает, модернизирует и поддерживает IT-решения в области финансов, здравоохранения, телекома, туризма, медиа и интернета вещей.
+Клиенты DataArt — компании с уникальными бизнес-моделями — находятся в США и Великобритании, а распределенные команды специалистов — в центрах разработки в России, Украине, Польше, Аргентине и Болгарии.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, Kharkiv, Lviv, Dnipro, Odesa
+Office/Remote of your choice
+Outsource
+3 years of experience
+English Upper Intermediate
+Ukraine only candidates 🇺🇦

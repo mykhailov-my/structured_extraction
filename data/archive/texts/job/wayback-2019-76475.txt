@@ -1,0 +1,64 @@
+Python/Django Developer
+wesoftyou.com
+
+WeSoftYou is your Ukrainian tech partner for web & mobile development from A to Z. Our core philosophy is based on the principles of collaboration, trust, learning, transparency, predictability, efficiency.
+Необходимые навыки
+— 2+ years of commercial experience with Python
+— Commercial experience with Django framework
+— Experience with REST APIs (architecture design)
+— Databases (PostgreSQL, MongoDB)
+— Caching, Tests
+— Git understanding
+— Ability to estimate simple User Stories
+Будет плюсом
+— use python asyncio, aiohttp, tornado or flask
+— Jira, Confluence, GitLab as a tools stack
+— understanding how to build QuerySets efficiently
+— experience of working with high load projects
+— you can do some frontend stuff or at least understand how React.js works
+Предлагаем
+— Career plan, professional growth, and quarterly performance reviews
+— Friendly and collaborative working environment
+— Educational possibilities
+— Remote working days
+— Skilled Management
+— Young and Ambitious team
+— Fully equipped office space in the prestige business center (3 minutes walking from “Pecherska” subway station), state holidays celebration
+— 18 paid vacation days per year, sick leaves (short-term — 100% compensation, long-term — 50% compensation)
+— Flexible working hours (start your day between 8:00 and 11:30)
+— Partial SMARTASS Gym (smartass.com.ua) membership compensation
+— Friday Parties and activities “WeFridayYou”
+— Teambuilding, corporate parties
+— Tea, Coffee, Cookies, Fruits
+— Game & lounge zones
+About wesoftyou.com
+Dear friend,
+WeSoftYou is a web and mobile Product Engineering band that helps companies to transform digitally. We team up with businesses to bring their brave ideas to life. By applying our design and development expertise to work, we craft outstanding products that solve the problems of your users and address their special business needs.
+Advantages of working with us:
+- We have family environment
+- "Freedom through responsibility" approach
+- Agile workload
+- Geek spirit
+- Passion for technology excellence
+- Comfortable office in the heart of the city center
+- "Company grows - you grow" attitude.
+***
+Great Opportunities in WeSoftYou!
+Сurrent positions:
+* Middle React/Redux Developer
+* Middle React Native Developer
+* Middle Python/Django Developer
+***
+Are you ready for the journey?
+Sincerely,
+Oleg
+IT Recruitment Specialist at WeSoftYou.
+Kyiv, Ukraine.
+Company website:
+[link]
+
+Python
+Kyiv
+Киев
+2 years or more
+English Intermediate

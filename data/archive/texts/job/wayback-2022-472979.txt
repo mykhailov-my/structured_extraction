@@ -1,0 +1,46 @@
+Technical Product Owner (Python)
+Luxoft
+
+Project Description
+Risk Technology is focused on delivering solutions to the Rates XVA Trading desks. The department develops and maintains a complete suite of Risk technology solutions, for both the Rates and FX (including Derivatives) Businesses. This role will provide a unique opportunity to gain exposure to different asset classes in a Tier 1 investment bank.
+Within the plan team, you'll be coding & conducting analysis in a collaborative, trusting environment that encourages diversity of thought and creative solutions. Your initial contribution will be to understand & provide technical solutions the multiple Front Office & Support requests. With your solid knowledge of analysis, development and testing you'll then raise the standard within the team, creating a road map and carrying it out to eliminate manual processes.
+Responsibilities
+- Hands on development to deliver python changes to satisfy on-going Front Office & Support requests
+- Responsible to maintain / improve test environments in order to eliminate production release surprises
+- Create clear & accurate business / functional / technical requirements that significantly contribute to the SDLC
+- Adopt and promote the agile framework in response to each solution
+- Drive adoption of new quant models including validation of Risk valuations
+Improving development processes: Includes testing deliverables and reviewing Controls
+- Manage relationships with various stakeholders (Desk, Business managers, Quants, Other technology teams)
+- Constant learner and early adopter, you'll set examples to the rest of the team / department that encourages others to follow suit
+Skills
+Must have:
+- 5+ years relevant experience
+- Professional experience with Python, SDLC, agile framework
+- Experience explaining / presenting complex issues easily, while tailoring information to the required audience
+- Knowledge of advanced SQL queries, stored procedures, user defined functions, views, triggers, scripts and cursors
+Knowledge of writing high quality unit and integration tests. Understanding of pytest framework is a plus.
+- Strong, demonstrable debugging skills using tools from a variety of IDEs (PyCharm, Eclipse...).
+- Strong written and verbal communication skills
+- Proven ability to conduct research/analysis, organize findings and build plans
+Nice to have:
+- Knowledge of financial markets and Risk
+- Exposure to Fixed income (including Derivatives) products
+- Engineering or Mathematics background is preferred
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+Python, SDLC, Agile, Knowledge of SQL, IDEs
+English: Upper-Intermediate
+5 years of experience
+Full Remote
+Outsource
+Ukraine
+Only candidates from Ukraine

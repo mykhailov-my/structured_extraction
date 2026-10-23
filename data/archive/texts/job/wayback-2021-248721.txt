@@ -1,0 +1,56 @@
+Full-stack Engineer (JS+ Python/Java)
+PandaDoc
+$3500-5500
+
+We are looking for talented Engineers that share the PandaDoc values and culture, and who are ready to join the Core Application team to develop secure, reliable, and scalable product solutions within our fast-growing business.
+Along with particular business use-cases, the Core Application team enables and delivers the PandaDoc Business Platform: building blocks as construction elements to provide the full-cycle customer-end solutions.
+In Software Engineer role, you will:
+— Ensure engineering excellence: work across the technology stack, building highly scalable distributed solutions that enable positive user experiences and measurable business growth
+— Ship the value: participate in the full cycle of the software development process from conception, design to implementation and deployment, with a further operation (improvements, optimization, maintenance)
+— Act autonomously: work on features independently and with teammates collaboration to deliver the business value
+— Ensure high standards: application performance, uptime, and scale, maintaining and follow the high engineering standards of code quality and thoughtful application design, together with teammates and peers
+— Contribute to quality: implement unit/integration tests, continuously improve the product based on customers feedback
+— Be a strong part of the team: contribute to all required parts of the product and maintain well-formulated code and library components across design patterns
+— Collaborate with teams and peers to get a thorough understanding of user experience and product strategy
+Our Technology Stack:
+— Microservices approach
+— Backend: Python (Django, asyncio), Java (Spring)
+— Frontend: JavaScript (ES6+, React/Redux)
+— PostgreSQL, MongoDB
+— NATS, Kafka, RabbitMQ
+— AWS
+— Docker, Kubernetes
+About you:
+— Desire for continued growth as an Engineer without the limitations of specific technologies
+— At least 3+ years in front-end technologies, including JS, CSS3 and HTML5, and third-party libraries (such as React/Redux)
+— High experience with at least one server-side programming language: Python, Java (and desire to start contribution into another one). Server management and deployment for the relevant environment
+— Familiarity with DBMS: PostgreSQL, MongoDB
+— Ability to visualize a proposed system and be able to build it
+— Excellent debugging and optimization skills
+— Experience in creating and implementing unit, integration and end-to-end tests
+— Proven hands-on experience in application profiling and performance management, code analysis
+— Proactive problem-solver, willing to grow autonomous engineer
+— Passion for new technologies and ready to lead engineering initiatives to help the company reach its goals
+— Communicate in English (Intermediate+ level)
+Benefits:
+— Work on a kick-ass product serving thousands of customers worldwide
+— An honest, open culture that emphasizes feedback and promotes professional and personal development
+— An opportunity to work from anywhere — our team is distributed worldwide, from Minsk to Manila, from Florida to California
+— An annual personal budget for educational classes, conferences, etc. — anything to further your professional knowledge
+— A competitive salary
+— Medical insurance
+— And much more!
+About PandaDoc
+PandaDoc empowers more than 27,000 growing organizations to thrive by taking the work out of document workflow. PandaDoc provides an all-in-one document workflow automation platform that helps fast scaling teams accelerate the ability to create, manage, and sign digital documents including proposals, quotes, contracts, and more. For more information, please visit [link]
+We're known for our work-life balance, kind co-workers, & creative virtual team-bonding events. And although our Pandas are located across the globe, we stay connected with the help of technology and ensure that everyone on our team feels, well, like a team.
+Company website:
+[link]
+DOU company page:
+[link]
+
+JavaScript
+Kyiv
+Full Remote
+Product
+3 years of experience
+English Intermediate

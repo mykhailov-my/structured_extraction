@@ -1,0 +1,67 @@
+FullStack (Python/React.js) Tech Lead
+Raccoon Gang
+
+As a Tech Lead, you will play a pivotal role in guiding our development team to new heights in the field of Learning Management System (LMS) development. If you are enthusiastic about IT education, possess strong leadership skills, and have a proven track record in software development, we invite you to join our collaborative and vibrant team.
+If you’re a veteran don’t hesitate to send your CV, we’ll be glad to see you in our Gang!
+Requirements:
+• Minimum 3 years of experience in Python and Django;
+• 2 years of experience in ReactJS;
+• Proficiency in Django ecosystem tools such as DRF and Celery;
+• Strong knowledge of Docker;
+• Experience in writing unit-tests and in React Testing Library;
+• Understanding of RESTful architecture;
+• Practical and theoretical knowledge of testing methodology;
+• Practical knowledge of DevOps methodology;
+• Proficiency with Git version control;
+• Experience in creating test documentation, including feature descriptions and work documentation (e.g., API contracts);
+• Solid understanding of client-server architecture;
+• At least Upper-Intermediate level of English;
+• Proven experience in developing and deploying applications;
+• Team management skills, including leading at least 2 junior developers within a project;
+• In-depth knowledge of development processes;
+• Enthusiasm for IT education and a general interest in LMS development.
+General responsibilities:
+•Lead and mentor a team of developers to deliver high-quality software solutions;
+• Drive the development and deployment of Learning Management System applications;
+• Utilize your expertise in Python, Django, ReactJS, and related technologies to contribute to the success of our projects;
+• Contributing to Open edX community as an open-source contributor.
+Pre-sale and estimation activities:
+• Collaborate with the sales and business development teams to understand client requirements and contribute technical insights during the pre-sale process;
+• Contributing to the development of project proposals and technical documentation for prospective clients;
+• Work closely with the sales team to provide accurate project estimations, considering technical requirements.
+Will be a plus:
+• Bachelor’s degree in Computer Science, Computer Engineering or a related field.
+We offer:
+• Remote work with a flexible working hours;
+• Paid vacation: 20 days per year;
+• Paid sick-leave: 15 days per year;
+• Paternity leave;
+• English courses;
+• Compensation for educational and sport activities;
+• Compensation for psychologist;
+• Internal lectures and knowledge sharing.
+About Raccoon Gang
+Raccoon Gang is the leading Online Learning Solutions provider and, since 2020, we have become a Preferred Open edX Provider. We are the most extensive team of Python professionals, with more than 150 engineers and instructional designers on board.
+We are contributors to the Open edX community. We have more than 500 completed projects of various complexity based on the Open edX platform, from simple deployments to country-level heavily customized systems. LMSs that we have deployed serve over 10M+ students all over the world.
+Our customers are Harvard, UCLA, Arizona State University, University of Washington Continuum College, University at Buffalo, UNESCO, OECD, Microsoft, etc.
+Raccoon Gang provides full-circle Online Learning services from LMS infrastructure design and implementation through the instructional design and eLearning content creation to post-course support.
+Our tech stack:
+DevOps — AWS, Azure, Docker, Ansible, Terraform, Packer, Helm, Kubernetes, Vagrant, GitLab CI, GitHub Actions
+Front — ReactJS, VueJS, TypeScript, AngularJS, Backbone
+Dev — Django, aiohttp, Flask, Pyramid, Django Rest Framework, MongoDB, MySQL, PostgreSQL, Pytest
+Let’s educate the world together!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Fullstack
+Category: Fullstack , Python
+Python / Django , React , Full-stack Web Development , Technical Leadership
+English: Upper-Intermediate
+5 years of experience
+Domain: Education
+Full Remote
+Outsource
+Ukraine
+Only candidates from Ukraine

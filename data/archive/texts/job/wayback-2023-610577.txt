@@ -1,0 +1,42 @@
+Senior Python Developer
+AutoDS
+$3000-5000
+
+We are looking for a Senior Python developer for remote work in our worldwide team. We need someone who wants to take part in something big and assume responsibility for the success of a new and innovative e-commerce project.
+The right candidate will be someone with an open mind who loves to solve problems and who strives to take their projects to the next level.
+Job Type: Remote, full-time
+- You will be working on the company's key product:
+Maintain and extend Flask back-end service
+Implement internal and external API integrations
+Promote the best coding practices and standards, design best-in-class solutions
+- Main hard skills requirements for candidates:
+- Strong background with Python 4+ years.
+- Experience creating API with Flask and Flask Restplus.
+- Experience with the following frameworks: SQLAlchemy, Celery, Marshmallow, and Pydantic.
+- Strong background working with MySQL and MongoDB Databases.
+- Experience with Kubernetes and Docker.
+- Experience with FastAPI would be a plus.
+- Experience with Clean Architecture would be a plus.
+- Main soft skills requirements for candidates:
+- Strong desire and a proactive attitude to work.
+- English - at least Intermediate level.
+- Strong problem-solving abilities.
+- Flexibility and team player.
+About AutoDS
+Want to join a leading voice in the dropshipping industry with over 10k active users?
+AutoDS is an all-in-one dropshipping automation solution that saves dropshippers time on their everyday eCommerce tasks. We help our members automate everything from finding products to sell and monitoring their price, all the way to fulfilling orders.
+We are a global company with team members all over the world. We live on collaboration tools like Slack and Zoom, but we love to chat and organize meet-ups as often as possible. ‘Community’ is one of our core values, and it is just as important as our technical values like eCommerce automation.
+This is a great opportunity to work with talented teammates from across the globe.
+We are proud of our online communities, like our YouTube channel with over 25k subscribers who are hungry to learn about dropshipping. When you join us, you will play an active part in growing and nurturing these communities.
+No matter your role at AutoDS, you will help to grow the company and your voice will be heard.
+Company website:
+[link]
+
+Python
+Category: Python
+English: Intermediate
+3 years of experience
+Domain: E-commerce / Marketplace
+Full Remote
+Product
+Ukraine

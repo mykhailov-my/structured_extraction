@@ -1,0 +1,52 @@
+Python Developer/ Support Engineer
+TPE, Odessa - The Product Engine
+
+The primary goal is to develop a system on serverless microservices architecture.
+Infrastructure, deployment and testing are fully automated and maintained by the entire team using industry best practices.
+Technologies: Python, AWS Serverless, CI/CD systems
+A major interesting project which would reach millions of customers in the USA and UK.
+You will work as part of a team with several engineers who are located mainly in the US, Canada, and Ukraine.
+Responsibilities:
+- As a member of XMP Engineering Operations team responsible for supporting Comcast XMP API used by Comcast partners. In particular:
+- Flexibility to be part of 24/7 on-call schedule
+- Respond to incidents, including
+- Logs analysis
+- Issue fixes and fixes coordination
+- Hotfix coordination
+- Ongoing incident communication
+- Maintain relevant technical documentation
+- Assist in the ongoing system support and maintenance
+- Perform code and infrastructural changes as appropriate
+Requirements:
+- Previous experience in Engineering support role
+Self-starter
+- Working knowledge of AWS, specifically API Gateway, Lambda, CloudWatch
+- Experience coding in Python
+- Experience with CI/CD systems
+- Good understanding of automated testing approaches for cloud-based Restful APIs in AWS environment
+Nice to have:
+- Using ElasticSearch/Kibana for logs analysis
+- Experience supporting/developing Restful API in AWS environment
+Employment Conditions:
+- Work in well-organized professional team
+- Interesting and challenging tasks, opportunities for self-realization and career growths
+- English language and professional courses during working hours
+Corporate events
+About The Product Engine
+Founded in 2001 and located in the heart of Silicon Valley, The Product Engine provides end-to-end consulting and software development services.
+Our mission is to be a highly dependable, single-source digital solutions provider to a wide-range of customers and organizations.
+The Product Engine strives to deliver the most suitable and intelligent software & technology solutions on demand. Our goal is to be a leading force in the successful development and implementation of innovative products and services that fully satisfy the evolving goals of our customers and their businesses.
+With our headquarters and project managers in Silicon Valley and our offshore development centers in Ukraine (Odessa), The Product Engine delivers the best of offshore IT talent, using intensive project management, efficient and reliable communication practices, sound risk management, and an unwavering commitment to quality.
+The Product Engine delivers high quality software applications and solutions on time and on budget in a variety of fields. From designing sophisticated software architectures for data intensive applications to building intricate websites, we have the flexibility to take on tasks either by complementing your existing engineering team, or by functioning as your complete virtual engineering department.
+Company website:
+productengine.com
+DOU company page:
+[link]
+
+Support
+Odesa
+Full Remote
+Outsource
+2 years of experience
+English Upper Intermediate
+Ukraine only candidates 🇺🇦

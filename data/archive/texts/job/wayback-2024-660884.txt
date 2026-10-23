@@ -1,0 +1,73 @@
+Junior Software Engineer (Python or TypeScript) with LLM Experience
+COXIT
+to $1500
+
+🟠 Details:
+We are looking for an experienced Software Engineer specializing in Large Language Models (LLMs), such as GPT-3/4 and similar. You will be involved in developing and integrating complex user scenarios using LLMs, and writing Python or TypeScript code to enhance and expand the functionality of our customer support service.
+🟠 Qualifications :
+- Experience with Langchain and Python or TypeScript.
+- Preferable experience with MongoDB, FastAPI, and Docker.
+- Experience with Linux.
+- Basic knowledge of AWS/GCP or Cloudflare.
+- Experience with setup of basic CI/CD, for example with GitHub Actions.
+- In-depth knowledge and experience with LLMs, including GPT-3/4.
+- Experience with prompt engineering, understanding different methods of development, optimization, and validation of prompts.
+- Experience with OpenAI API and knowledge of other AI technologies.
+- Preferable experience in NLP (Natural Language Processing).
+- Excellent analytical and communication skills.
+- Ability to approach tasks from a product perspective and make adjustments.
+- Ability to develop and implement complex user scenarios.
+🟠 Would be a plus
+- Knowledge of Grafana, Prometheus, and Loki will be a plus.
+- Experience working with extracting text from large PDF files and with OCR will be a plus.
+🟠 Responsibilities:
+- Optimizing existing code working with LLM models (embeddings, vector storage, vector search, prompt engineering).
+- Developing and implementing multi-level user scenarios in AI from scratch.
+- Writing and testing Python or TypeScript code.
+- Working with the OpenAI API and exploring the integration of other AI technologies.
+- Ongoing R&D in AI technologies.
+- Collaborating with the development team and other company departments to achieve set goals.
+🟠 Interview steps:
+- Screening with the recruiter (about 30 minutes);
+- Live Coding session with Python Developer (about 1 hour);
+- Technical interview with CEO (about 1 hour);
+- Optional take-home task.
+🟠 By joining us, you will get:
+- Accounting coverage and lawyer support;
+- Paid Vacations;
+- 4 Public Holidays covered;
+- 30 unpaid Day-Offs;
+- Flexible working hours and the possibility to work remotely;
+- High-quality working equipment including laptops and accessories;
+- Office in FuturaHUB — modern workspace with an inspiring atmosphere. Located in Lviv (Kulparkivska 200a);
+- Yoga, massage and sports training;
+- Corporate gifts for anniversaries, birthdays, and events;
+- “Happy Hours” parties;
+- Office snacks and drinks, along with a chillout area equipped with gaming consoles, table tennis, and table soccer.
+🟠 Our office in Lviv:
+- FuturaHUB is located in Lviv (Kulparkivska 200a);
+- An inspiring, modern workplace with a great atmosphere and development culture;
+- “Happy Hours” parties;
+- Yoga and sports training in FuturaHUB;
+- Chillout area: gaming zone with the PlayStations, table tennis & table soccer;
+- Beer, coffee, tea, cookies, etc;
+- Conference rooms.
+🟠 Some of our Values:
+- No overtime and pressure;
+- Regular rest, burnout control;
+- Clean relationships within the company and with the client;
+- Responsibility for the own development, ideas, and interests communication, as well for the problems that stand in the way of this development;
+- Openness to the new, readiness for changes.
+
+Development
+Python
+Only from Upper-Intermediate
+Only from 1 year of experience
+$800-1500
+Considering up to $2000
+Office or Remote
+Office:
+Ukraine
+, Remote:
+Domain: Other
+Outstaff

@@ -1,0 +1,56 @@
+Middle Python Developer
+Jappware
+
+Welcome a Python Developer for a project job-matching platform for doctors and recruiters.
+About the company:
+Jappware - is a mix of youngness and experience. We are part and active members of the JavaDay Lviv and CoffeeJug communities, and appreciate technical excellence, creativity, and contribution to the local engineering communities.
+Our mission is for the company to grow imaginative talents and a professional team to build innovative products in a trustful partnership. The values are openness, trust, involvement, partnership, and continuous development.
+About the project:
+The project is a job-matching platform for medical doctors and recruiters. The two main actors are Application and Recruiters. The recruiter creates a profile Recruiter, Company profiles, and creates vacancies. The wishes of the application and benefits in the company are also stored in the vacancies. The applicants create a profile and enter their wishes for the new jobs and their own experiences. Certain parameters are relevant to matching. Both can respond to this opinion with a thumbs down. Once both give thumbs up, it’s Match and they can get in touch.
+What will you do:
+- Working with API’s
+- Developing backend components
+- Writing and refactoring code
+- Participating in Scrum events (planning, grooming, demo, etc)
+- Collaborate with teammates, maintain existing features
+- Participate in full application lifecycle from idea to release
+Your profile:
+- 2+ years of commercial experience with Python
+- OOP and Design patterns
+- DB design and query optimization
+- DevOps experience
+- Have worked extensively in an Agile/SCRUM development methodology
+- Have worked in CI/CD Environments
+- API Integration Experience
+- Proactivity and team-playing skills
+- Experience with unit testing
+- English B2/B1
+- Experience with code review and refactoring process
+- Ability to Debug
+- Experience with AWS
+WHAT WE OFFER:
+- Cozy office near park area in the city center
+- Flexible working hours and the ability to work remotely
+- English classes
+- Partial compensation of external training and conferences
+- 20 paid days off for vacation + 5 sick leaves
+- Excellent working atmosphere in ambitious, diverse, and agile teams
+- Zero bureaucracy
+- Strong technical team
+About Jappware
+Jappware - IT service company - is a mix of youngness and experience. Our values are technical excellence, creativity, and contribution to the local engineering communities.
+Our main technology is java on the backend, React and AngularJS on the frontend, React Native on the mobile platforms, and AWS as a cloud platform.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Lviv
+Ukraine
+(Lviv)
+2 years of experience
+English Intermediate
+Only candidates from Ukraine
+Office Work
+Outsource

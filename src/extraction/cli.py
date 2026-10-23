@@ -9,6 +9,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 from pydantic import ValidationError
 
+from extraction.collect.djinni_archive import crawl_archive
+from extraction.collect.djinni_jobs import crawl_jobs
+from extraction.collect.polite import FetchError
 from extraction.config import Config, load_config
 from extraction.data import golden_paths, load_documents
 from extraction.evaluate import evaluate, render_markdown
@@ -136,8 +139,44 @@ def _check(config: Config, args: argparse.Namespace) -> int:
     return 1 if problems else 0
 
 
+def _crawl_jobs(config: Config, args: argparse.Namespace) -> int:
+    try:
+        saved = crawl_jobs(
+            config.data_dir, count=args.count, keywords=args.keywords, delay_s=args.delay
+        )
+    except FetchError as e:
+        log.error("crawl stopped: %s", e)
+        return 1
+    log.info("saved %d new postings: data/texts/job/ and data/scraped/job/", saved)
+    return 0
+
+
+def _crawl_archive(config: Config, args: argparse.Namespace) -> int:
+    try:
+        saved = crawl_archive(
+            config.data_dir / "archive",
+            keyword=args.keyword,
+            years=args.years,
+            per_year=args.per_year,
+            cache_dir=config.data_dir.parent / ".cache" / "wayback",
+            delay_s=args.delay,
+        )
+    except FetchError as e:
+        log.error("crawl stopped: %s", e)
+        return 1
+    log.info("postings per year: %s", ", ".join(f"{y} {n}" for y, n in saved.items()))
+    log.info("in data/archive/texts/job/ and data/archive/scraped/job/")
+    return 0
+
+
 def _names(value: str) -> list[str]:
     return [name.strip() for name in value.split(",") if name.strip()]
+
+
+def _years(value: str) -> range:
+    """ "2019-2026" or "2021"."""
+    first, _, last = value.partition("-")
+    return range(int(first), int(last or first) + 1)
 
 
 def _parser() -> argparse.ArgumentParser:
@@ -171,4 +210,27 @@ def _parser() -> argparse.ArgumentParser:
 
     check = commands.add_parser("check", help="count texts and labels, validate the golden set")
     check.set_defaults(handler=_check)
+
+    jobs = commands.add_parser("crawl-jobs", help="collect public job postings from djinni.co")
+    jobs.add_argument("--count", type=int, default=20, help="new postings to save (%(default)s)")
+    jobs.add_argument(
+        "--keywords", type=_names, help="Djinni categories, e.g. 'Python,QA Automation'"
+    )
+    jobs.add_argument(
+        "--delay", type=float, default=3.0, help="seconds between requests (%(default)s)"
+    )
+    jobs.set_defaults(handler=_crawl_jobs)
+
+    archive = commands.add_parser(
+        "crawl-archive", help="collect past years' postings from the Wayback Machine"
+    )
+    archive.add_argument("--keyword", default="python", help="in the URL slug (%(default)s)")
+    archive.add_argument(
+        "--years", type=_years, default="2019-2026", help="a range or one year (%(default)s)"
+    )
+    archive.add_argument("--per-year", type=int, default=50, help="postings a year (%(default)s)")
+    archive.add_argument(
+        "--delay", type=float, default=5.0, help="seconds between requests (%(default)s)"
+    )
+    archive.set_defaults(handler=_crawl_archive)
     return parser

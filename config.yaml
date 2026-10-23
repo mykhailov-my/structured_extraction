@@ -3,7 +3,7 @@
 # from the same text, prompt, schema, model and sampling are reused, not paid for twice.
 
 experiment:
-  doc_types: [job, cv]             # folders under data/texts/ and prompts/
+  doc_types: [job]                 # folders under data/texts/; cv waits for a source of CVs
   models: [mistral-small, qwen-local]
   prompts: [v1]                    # prompts/<doc_type>/<version>.yaml
   sampling: [greedy, nucleus]

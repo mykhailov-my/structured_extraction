@@ -1,0 +1,56 @@
+QA Automation Python/Playwright
+White Test Lab
+
+🚀 Automation QA Engineer (Python/Playwright) – White Test Lab
+Location: Remote
+Type: Full-time
+Experience: 1+ years
+Salary: Competitive, based on experience
+White Test Lab is looking for a motivated Automation QA Engineer to join our growing team and work on a challenging, ongoing project. You’ll be helping to ensure high-quality software delivery by automating tests using Python and Playwright. If you’re passionate about automation, have a keen eye for detail, and want to grow in your career, this role is perfect for you.
+🔍 REQUIREMENTS:
+- 1+ years of hands-on experience in test automation using Python and Playwright (experience with Cypress or Selenium is a plus).
+- Solid knowledge of Python for writing robust automated test scripts.
+- Experience with API testing (tools like Postman, Pytest, or Playwright API).
+- Hands-on experience with CI/CD tools (Jenkins, GitLab CI, CircleCI).
+- Strong knowledge of Git and Git flow.
+- Familiarity with Agile methodologies (Scrum, Kanban).
+- Understanding of OOP principles and design patterns in automation.
+- Experience with Docker for setting up test environments.
+- Knowledge of SQL for database validation during testing.
+- Strong focus on code quality and best practices.
+- Upper-Intermediate English or higher for communication with the international team.
+- Eagerness to learn new tools and technologies.
+💼 RESPONSIBILITIES:
+- Develop and maintain automated tests using Playwright and Python.
+- Conduct manual and automated testing when necessary.
+- Clearly document and report bugs, working closely with the development team to resolve them.
+- Analyze test results, troubleshoot failures, and optimize test coverage.
+- Integrate automated tests into the CI/CD pipeline for smooth deployment.
+- Participate in Agile ceremonies (daily stand-ups, sprint planning, etc.).
+- Maintain up-to-date test documentation, including test plans, test cases, and bug reports.
+- Execute regression tests for software releases to ensure stability and performance.
+🌟 WHAT WE OFFER:
+- Full-time, stable employment in a fast-growing company.
+- Ukrainian national holidays off to maintain work-life balance.
+- Career growth opportunities and competitive salary based on performance.
+- Partial compensation for English courses and sports activities.
+- Access to our in-house English speaking club to enhance your language skills.
+- A supportive environment that encourages self-development and professional growth.
+- Paid vacation and sick leave to ensure a healthy work-life balance.
+- Accounting support to streamline administrative tasks.
+- Corporate events and regular team-building activities to foster a positive company culture.
+We’re always on the lookout for talented individuals who are passionate about technology and quality assurance.
+We’d love to hear from you! Apply now by submitting your CV and any other relevant materials.
+
+Only from Upper-Intermediate
+Only from 1 year of experience
+Office or Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+QA Automation
+Python, Playwright, API
+Domain: SaaS
+Outstaff
+Office:
+Ukraine
+(Kharkiv)

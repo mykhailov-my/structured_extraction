@@ -1,0 +1,45 @@
+Strong Middle/Senior Python Engineer (AdTech Platform Development)
+Sigma Software
+
+Our customer is True[X] – a US-based technology company that builds the next generation of advertising products and premium video experiences.
+The team uses data engineering, data science, big data and full-stack engineering using technologies such as Python/Ruby, Scala/Elixir, SQL, Angular/React, AWS (mostly DynamoDB and Kinesis), Databricks/EMR, Spark and Spark Streaming, Redshift/Athena and high traffic: 10GB of streaming data is consumed per day, public APIs. There are hundreds of TBs of data in our data lake.
+As a Platform Engineer, you will be an important part of the team that works on a proprietary Ad Server. This is no small responsibility: as an AdTech company, the Ad Server is the cornerstone technology.
+Responsibilities
+Develop and launch new capabilities to adapt to evolving business needs
+Be an active and engaged owner of the product and customer experience, collaborating effectively with Product Management, Data Science, and other disciplines
+Maintain high standards of code quality, including tests and documentation, and encourage the same by providing constructive code reviews to collaborators
+Work closely with other engineers to investigate design approaches, prototype new technology and evaluate technical feasibility of new features
+Manage multiple competing priorities in a fast-paced, exciting environment
+Troubleshoot and resolve issues, problems, and errors encountered across our various endpoints
+Provide architectural input when designing new features, both within the ad server, as well as to the overall backend platform, with an eye toward fault tolerance and low latency
+Triage and debug operational issues and outages
+Requirements
+Bachelor’s Degree in Computer Science or equivalent experience in the software development field
+Solid professional software development experience
+Strong knowledge of and experience with Python
+Experience writing and communicating with backend services using RESTful APIs, gRPC, or messaging-based systems
+Strong knowledge of SQL
+Experience using Git for version control
+Upper-Intermediate level of English and above
+WOULD BE A PLUS:
+Experience of at least one of these languages: Elixir, Scala, Ruby
+Experience building high traffic, public APIs
+Understanding of front-end programming: JavaScript, AJAX, JSON, HTML5
+Experience in the advertising industry, with knowledge of major actors in the ad tech ecosystem (DSPs, SSPs, DMPs, RTB)
+Experience with AWS (especially DynamoDB and Kinesis)
+Passion for following SOLID Design Principles
+About Sigma Software
+Sigma Software предоставляет высококачественные ИТ услуги для клиентов в таких сферах, как электронный бизнес, документооборот, телекоммуникации, военная отрасль, авиационно-космическая промышленность, банковское дело, финансы и недвижимость, а также в сфере туризма, индустрии развлечений и разработки игр.
+Три основных направления бизнеса компании — разработка и поддержка программного обеспечения, разработка программного обеспечения на заказ, в том числе разработка решений под мобильные устройства, ИТ консалтинг в различных сферах, в частности в сфере электронного бизнеса, документооборота и работы с проблемной задолженностью.
+Свои услуги мы предоставляем в основном для компаний, расположенных в Западной Европе и США. Офисы в Харькове и Одессе работают с 2005 года. В 2014 открылись новые офисы в Киеве, Львове, Варшаве (Польша) и Сан-Хосе (США).
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Remote
+remote
+2 years of experience
+English Intermediate
+Ukraine only candidates 🇺🇦

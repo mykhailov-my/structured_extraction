@@ -1,0 +1,29 @@
+{
+  "doc_id": "wayback-2026-805899",
+  "url": "https://djinni.co/jobs/805899-python-engineer-flask-hugo-static-site-genera/",
+  "snapshot": "https://web.archive.org/web/20260219040318/https://djinni.co/jobs/805899-python-engineer-flask-hugo-static-site-genera/",
+  "captured_at": "2026-02-19T04:03:18",
+  "posted": "2026-02-18",
+  "year": 2026,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Python Engineer (Flask + Hugo / Static Site Generation)",
+  "company": "Rocket Website Agency",
+  "salary": "to $600",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "from 1 year of experience",
+    "Considering with no experience",
+    "$500-600",
+    "Full Remote",
+    "Worldwide",
+    "Countries where we consider candidates",
+    "Python",
+    "Employment: Fulltime",
+    "Domain: Gambling",
+    "Product"
+  ],
+  "description": "Ми шукаємо не просто фуллстек-розробника.\nМи шукаємо інженера, якому важлива структура, чистота коду та логіка системи.\nУ нас вже є працююча панель на Flask і набір Hugo-тем.\nЗавдання — довести систему до стану: стабільно, чисто, масштабовано.\nЦе не про “поправити кнопку”.\nЦе про архітектуру, пайплайн генерації та акуратну інженерію.\nЩо потрібно робити\n• Рефакторинг і розвиток генератора на Flask\n• Робота з front-matter, YAML/TOML, структурою контенту\n• Генерація content/, static/, службових сторінок\n• Підтримка й розвиток Hugo-тем\n• Логування, обробка помилок, структурність\nНам підійде людина, яка\n• Любить порядок у коді\n• Розуміє пайплайни генерації\n• Вміє акуратно працювати з файловою системою\n• Думає архітектурно, а не “по задачі”\nЧому це цікаво\n• Багато логіки та впливу на продукт\n• Мінімум мікроменеджменту\n• Повна віддалена робота\n• 28 днів оплачуваної відпустки\n• Можливість посилити архітектуру під себе"
+}

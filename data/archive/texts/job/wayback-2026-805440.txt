@@ -1,0 +1,39 @@
+Senior Test Automation (Python, automotive)
+Luxoft
+
+We are seeking a highly motivated and technically proficient QA Automation Engineer to join our dedicated testing team. You will play a crucial role in ensuring the successful and high-quality delivery of software products for our client, a prominent American multinational automaker.
+This position offers a challenging and dynamic environment within a multicultural international team, demanding strong problem-solving skills and a proactive approach.
+- Responsibilities:
+Design, develop, and execute robust automated test scenarios on a daily basis, utilizing Python as the primary scripting language.
+Framework Management: Actively contribute to a new and maintain the existing automation frameworks
+Ensure comprehensive test coverage by writing detailed test scenarios
+Engage in specialized testing of automotive systems, including validation of in-vehicle components
+Work closely with developers, business analysts, and product owners within the Scrum framework, actively participating in sprint planning and daily stand-ups.
+- Mandatory Skills Description:
+Prior work with embedded or automotive systems, especially in the context of multi-ECU scenarios.
+Proven experience developing, debugging, and maintaining Python code for automated testing.
+Thoroughly analyze logs, and quickly resolve issues within automated testing pipelines.
+Proficient in using Visual Studio Code (VSCode) with relevant extensions (Python, Cucumber, Copilot).
+Experience managing Python virtual environments and dependencies.
+Proficient with Git for version control and JFrog Artifactory for artifact management in a collaborative, automated test environment.
+Ability to read and follow technical documentation in English.
+Strong communication skills for collaboration with developers, testers.
+Exposure to automotive communication protocols (e.g., CAN, LIN, Ethernet).
+- Nice-to-Have Skills Description:
+Experience with test automation for automotive multimedia, connectivity, and driver-assistance features.
+Hands-on expertise with modern test automation frameworks, especially those supporting Behavior-Driven Development (BDD) and keyword-driven testing.
+Skilled in translating requirements and Gherkin scenarios into robust, executable automation logic.
+Ability to analyze, optimize, and troubleshoot both hand-written and AI-generated Python test scripts for reliability and maintainability.
+Experience integrating automated tests with Hardware-in-the-Loop (HiL) and Software-in-the-Loop (SIL) benches via industry-standard APIs (such as ASAM HIL).
+Hands on experience with testing of ADAS features such as Camera, Parking Assist, and Driving Assistance modules.
+Experience with requirements gap analysis, traceability, and coverage reporting for ADAS or other safety-critical automotive systems.
+
+Only from 5 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+QA Automation
+Employment: Fulltime
+Domain: Automotive
+Outsource

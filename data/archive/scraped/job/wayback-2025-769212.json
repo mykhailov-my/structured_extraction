@@ -1,0 +1,31 @@
+{
+  "doc_id": "wayback-2025-769212",
+  "url": "https://djinni.co/jobs/769212-junior-python/",
+  "snapshot": "https://web.archive.org/web/20251221160849/https://djinni.co/jobs/769212-junior-python/",
+  "captured_at": "2025-12-21T16:08:49",
+  "posted": null,
+  "year": 2025,
+  "active": false,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "Junior Python",
+  "company": "IGM Technology Corp.",
+  "salary": "",
+  "skills": [
+    "Python"
+  ],
+  "languages": [],
+  "facts": [
+    "No experience",
+    "Full Remote",
+    "Ukraine",
+    "Countries where we consider candidates",
+    "English B2 - Upper Intermediate",
+    "Python",
+    "Python",
+    "Employment: Fulltime",
+    "Domain: SaaS",
+    "Product"
+  ],
+  "description": "IGM Technology is a company that provides a SaaS solution designed to automate all of the manual aspects of the Financial Processes with our four modules:\nDisclosure Management, Account Reconsolidation, Tax Provisioning, Internal Control.\nKey Responsibilities:\n- Analyze existing business processes and identify areas where RPA and data automation can drive efficiency.\n- Develop, optimize, and maintain complex SQL queries in PostgreSQL to extract and transform large datasets.\n- Tune query performance using tools such as indexes, cursors, query plans, and execution analysis.\n- Write ETL scripts in Python for automation and data processing.\n- Experience working with APIs, JSON, and automation frameworks.\n- Knowledge of data governance, privacy, and compliance standards.\n- Collaborate with RPA developers and business analysts to design and support end-to-end automation workflows.\n- Monitor and maintain data pipelines and automation scripts to ensure accuracy, reliability, and performance.\n- Write/support automation and configuration scripts in JavaScript.\nRequired Qualifications:\n- Advanced proficiency in SQL, particularly with PostgreSQL:- Ability to write optimized, readable queries.\n- Knowledge of query optimization techniques.\n- Experience with indexes, cursors, CTEs, and execution plans.\n- Solid working knowledge of Python (Numpy, Pandas or similar libraries) for automation scripting and data manipulation.\n- Solid working knowledge of Javascript and Json for configuration and automation scriptiong\n- Understanding of relational database principles, data normalization, and performance tuning.\n- Strong problem-solving skills, with a detail-oriented and analytical mindset.\n- Effective communication skills for cross-functional collaboration.\nPreferred / Nice to Have\n- Experience with Apache Airflow or similar tools.\n- Familiarity with JavaScript, Java.\nKnowledge of data visualization tools (e.g., Power BI, or custom dashboards)."
+}

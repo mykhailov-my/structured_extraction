@@ -1,0 +1,45 @@
+Senior / Lead Python Developer
+CyberCraft
+
+This app was created as a solution allowing artists to play, write, and record song ideas all within one application. Artists can share their projects with their engineers before studio sessions allowing instant access to the audio file, lyric sheet, and recording ideas.
+Required skills
+● 5+ years of experience with Django, Python, and modern architecture (micro-services).
+● Working experience designing and implementing APIs.
+● Working experience with containerized or serverless deployment.
+● Working experience with designing large-scale systems that move, manage and analyze large amounts of data.
+● Working experience with Agile and CI/CD tools, including GitHub, Travis, Sentry, JIRA.
+● Upper-Intermediate level of English.
+● Strong analytical thinking to tackle challenging engineering problems.
+We offer
+● Flexible working hours
+● Fair salary (regular performance-based salary reviews)
+● 20 working days paid vacation and 15 sick leaves
+● English classes in the office
+● Bookkeeping and accounting on us
+● Cozy, equipped rooms — no open-space
+● No time trackers — ability to do quality work
+● Approachable management, open to suggestions and innovations
+● Friendly team and enjoyable working environment
+Responsibilities
+● Contribute to the core engineering design of our application, including backend, middle-layer, and interface with the frontend components.
+● Work with CTO, QA, and Front-End team to make the right architectural design choices and be able to articulate the reasoning and impact of decisions.
+● Build an integration with our external API partners.
+● Build testing, monitoring, and automation tools to improve development productivity and application stability.
+● Do peer code reviews, prioritize performance, and consistency while following best practices.
+● Develop new and improve existing engineering processes & tools.
+● Own, lead and manage projects from idea to implementation.
+Project description
+Creating and managing music on the go became a problem for many artists. This app was created as a solution allowing artists to play, write, and record song ideas all within one application. Artists can share their projects with their engineers before studio sessions allowing instant access to the audio file, lyric sheet, and recording ideas. When using the app all your files are organized and synced into the cloud keeping all your creative work safe in one location.
+About CyberCraft
+If you’re searching for talented tech minds who are dedicated to their work, we are a perfect fit. We are a dynamic software development company based in Lviv, Ukraine. CyberCraft workers have been working on various large-scale & complex projects, always meeting clients’ expectations. The founders of CyberCraft have over 30 years of combined experience with software development, IT project management and human resources staffing. CyberCraft is your trusted IT outsourcing partner that will bring your business to another level by taking care of all your IT staffing needs, while you stay focused on your strategic goals. Expand your business in a simple, quick and cost-effective way with CyberCraft!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Lviv
+Lviv, remote
+5 years of experience
+English Intermediate
+Ukraine only candidates 🇺🇦

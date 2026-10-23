@@ -1,0 +1,42 @@
+Senior Python Developer
+WizardsDev
+
+🔥AI Dating project
+Hi, we're looking for a Middle/Senior Python Developer for our project - [link]. Here's the gist: a person interacts with an AI girl on various topics, there's image generation, and soon there will be video :) We've gathered a strong team and now we're looking for a new member who can help us bring all ideas to life and expand into new markets.
+Are you with us?
+REQUIREMENTS
+— 5+ years of experience with Python3;
+— Proficiency in FastAPI, aiohttp for building REST APIs;
+— Knowledge of GraphQL and experience with its implementation using Graphene or Strawberry for creating GraphQL APIs;
+— Experience with WebSockets for developing interactive applications;
+— Understanding of asyncio and experience applying it in web development;
+— Familiarity with SQLAlchemy for database operations, particularly with PostgreSQL;
+— Experience using Alembic for managing database migrations;
+— Ability to work with Docker and Docker Compose for containerization and local deployment of applications;
+— Knowledge of Kubernetes for orchestrating and managing containerized applications;
+— Experience with Celery and Redis for asynchronous task processing;
+— Proficiency in Uvicorn for running web servers.
+WE OFFER
+— creative and friendly team without hierarchy within;
+— opportunity to work remotely in the office, it’s up to you;
+— 18 days of paid vacation per year and 5 days of sick leave;
+— offer compensation for gym memberships;
+— compensation for educational platforms and English language classes;
+— corporate English language courses and speaking club;
+— coverage for psychotherapy sessions on the pleso.me platform.
+RESPONSIBILITIES
+— development of a backend for a mobile application;
+— backend development for third party integration;
+— support/improvement of the telegram bot;
+— backend development for web app;
+— active communication with the international team.
+
+Development
+Python
+from Intermediate
+Considering with Beginner/Elementary
+Only from 5 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Domain: Dating
+Product

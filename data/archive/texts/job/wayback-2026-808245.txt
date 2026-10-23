@@ -1,0 +1,78 @@
+Full Stack Developer (Python/React)
+ScrumLaunch
+
+We’re looking for a Full-Stack Developer with strong Python backend experience and modern React / Next.js frontend skills to help build secure, scalable AI-powered healthcare applications.
+You’ll work on APIs, data-intensive systems, and intuitive UIs used for clinical insights and AI-driven workflows.
+Backend Requirements (Python)
+Required
+- 4+ years of professional experience with Python
+- Experience with PostgreSQL or other relational databases
+(schema design, indexing, query optimization)
+- Experience building RESTful and async APIs
+(FastAPI, asyncio, aiohttp, or similar)
+- Strong understanding of Python concurrency and parallelism
+- Experience with ORMs (SQLAlchemy or similar)
+- Background job systems (Celery, RQ, or similar concepts)
+- Experience integrating AI / LLM services
+(OpenAI, Anthropic Claude, LlamaIndex)
+- Experience with vector search / embeddings
+(pgvector, OpenSearch, Pinecone, or similar)
+- Message queues: Redis, RabbitMQ, Kafka
+- Familiarity with AWS: S3, EC2, RDS, CloudFront, SES, OpenSearch
+- Experience writing tests with pytest (including async tests)
+Nice to have
+- Experience with HIPAA compliance
+- Background in healthcare, medical data, or EMR systems
+- Familiarity with FHIR APIs
+Frontend Requirements (React)
+Required
+- 3+ years of experience with React 18+
+- Strong TypeScript skills (strict mode)
+- Experience with Next.js (App Router, SSR concepts)
+- Tailwind CSS (utility-first, responsive layouts)
+- Component libraries: Radix UI or similar
+- State management: Zustand and/or React Context
+- Data fetching: SWR or similar
+- Forms: React Hook Form + validation libraries
+- Data tables (TanStack Table, virtual scrolling)
+- Frontend testing: Jest, React Testing Library
+- Familiarity with Feature-Sliced Design (FSD)
+- Strong understanding of accessibility (WCAG 2.1 AA)
+- Experience with WebSockets for real-time features
+- PDF rendering (PDF.js or similar)
+- Comfortable with Git workflows and code reviews
+Backend Responsibilities
+- Design, implement, and maintain secure, well-documented APIs
+- Build backend services for AI chat and clinical insights
+- Parse and process data from documents, EMRs, and third-party APIs
+- Design and optimize PostgreSQL data models
+- Efficiently handle large datasets and historical patient records
+- Integrate backend systems with LLMs and vector databases
+Frontend Responsibilities
+- Build and maintain responsive, accessible UI components
+- Implement complex UI features: forms, tables, dashboards, real-time updates
+- Follow Feature-Sliced Design principles
+- Manage global and feature-level state effectively
+- Integrate frontend with backend APIs
+- Optimize performance for large datasets
+- Build data visualizations and clinical timelines
+- Monitor and improve Core Web Vitals and bundle size
+Benefits
+- Opportunities to work on diverse and challenging projects;
+- A supportive and collaborative team environment;
+- 12 vacation days per year;
+- 5 sick days per year;
+- English classes;
+- Access to therapist and psychologist support for mental well-being.
+
+from 5 years of experience
+Considering with 4 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian C1 - Advanced
+Fullstack
+Employment: Fulltime
+Domain: Healthcare / MedTech
+Outsource

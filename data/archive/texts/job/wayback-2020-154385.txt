@@ -1,0 +1,42 @@
+Python Developer (Real-Time Data Analysis)
+Sigma Software
+
+You are an experienced Python Developer , who knows how to develop high-load infrastructure using modern DevOps practices?
+You use most of cloud services and feel ambitious to improve existing solutions?
+If yes, then this is your chance to become a part of a unique solution for Data Analysis!
+You will work with an innovative product that is actively supplemented and updated. You should be prepared for the rapid pace of work and possible changes that are not permanent but occur due to the dynamics of the product domain.
+Requirements:
+- 3+ years of experience as a Python Developer
+- Python 3.7+, Lambda, boto3, asyncio, aiohttp, SQLite, MySQL
+- Practical experience in creatine CI\CD infrastructure
+- Knowledge of AWS cloud and services (EC2, S3, RDS, DynamoDB, CloudWatch, ECR) is a must
+- Experience in automatization of setting multiple EC2 instances
+- Understanding of Network domains management
+- Solid knowledge of monitoring tools
+Will be a plus:
+- DBA skills for DBs optimization
+Responsibilities:
+- Developing infrastructure software for motor racing mostly in Python 3.7+. This includes services for data analysis, data streaming, data storage, communication which will be running in Cloud and on Raspberry Pi devices.
+- Manage domains and subdomains, S3s, EC2s, DBs (RDS & DynamoDB), CloudWatch, maybe also cost optimization
+- Work with EC2 templates/images, Race Graphics cloud rendering fleet creation and various shortcuts/automation tools for AWS
+- Introduce and support monitoring tools
+- Work on recalculation of various processes (Python/Node) on existing data and/or restreaming of this data
+- Work with track mapping tool from Google Maps or recorded lap
+- Evaluate migration from RDS to DynamoDB
+Project:
+Our project provides the solution for monitoring of motorsports events, which includes remote live streaming units, streaming services, telemetry sensors, telemetry analysis services, and intermediate databases with corresponding access services.
+We create a unique system that helps monitor all the processes of the race, as well as meet the needs of the most demanding spectators.
+About Sigma Software
+Sigma Software предоставляет высококачественные ИТ услуги для клиентов в таких сферах, как электронный бизнес, документооборот, телекоммуникации, военная отрасль, авиационно-космическая промышленность, банковское дело, финансы и недвижимость, а также в сфере туризма, индустрии развлечений и разработки игр.
+Три основных направления бизнеса компании — разработка и поддержка программного обеспечения, разработка программного обеспечения на заказ, в том числе разработка решений под мобильные устройства, ИТ консалтинг в различных сферах, в частности в сфере электронного бизнеса, документооборота и работы с проблемной задолженностью.
+Свои услуги мы предоставляем в основном для компаний, расположенных в Западной Европе и США. Офисы в Харькове и Одессе работают с 2005 года. В 2014 открылись новые офисы в Киеве, Львове, Варшаве (Польша) и Сан-Хосе (США).
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, Kharkiv, Lviv, Dnipro, Odesa, Vinnitsia, Ivano-Frankivsk, remote
+3 years of experience
+English Upper Intermediate

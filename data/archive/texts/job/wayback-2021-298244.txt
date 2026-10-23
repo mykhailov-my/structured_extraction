@@ -1,0 +1,37 @@
+Senior BigData Engineer (Python)
+Grid Dynamics
+
+Grid Dynamics, modern software services company focusing on next-generation e-commerce platforms and solutions is looking for an experienced Senior BigData Engineer.
+Main goal:
+The project involves re-platforming all GAP to Azure cloud, creating GAP Data Platform. The business goals of replatformimg to Azure include moving towards personalization, providing realtime insights and use data for personal suggestions, also provide advanced analytics for markining efforts outcomes, assortment optimization, etc.
+Responsibilities:
+— Development of core platform components and tools on Azure according to the scope.
+— Data will be merged from different non-cloud-based sources, Teradata, Hadoop (on-prem) (EOL in the next 4-5 months).
+Requirements:
+— Python
+— PySpark
+— Databricks
+— Azure background (Azure Data Bricks)
+— Tech/team lead background with good communication skills (will be a plus)
+We offer:
+— Opportunity to work on bleeding-edge projects
+— Work with a highly motivated and dedicated team
+— Competitive salary
+— Flexible schedule
+— Medical insurance
+— Benefits program
+— Corporate social events
+About Grid Dynamics
+Grid Dynamics is a leading provider of technology consulting, agile co-creation and scalable engineering and data science services for Fortune 500 corporations undergoing digital transformation. We work in close collaboration with our clients on digital transformation initiatives that span strategy consulting, early prototypes and enterprise-scale delivery of new digital platforms. We help organizations become more agile and create innovative digital products and experiences using deep expertise in emerging technology, top global engineering talent, lean software development practices, and a high-performance product culture. Headquartered in Silicon Valley with over 1,200 technologists located in engineering delivery centers throughout the US, Central and Eastern Europe, Grid Dynamics is known for architecting and delivering some of the largest digital transformation programs in the retail, technology and financial sectors to help its clients win market share, shorten time to market and reduce costs of digital operations on a massive scale.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Data Science
+Dnipro
+Office/Remote of your choice
+Outsource
+3 years of experience
+English Upper Intermediate
+Ukraine only candidates 🇺🇦

@@ -1,0 +1,68 @@
+Cybersecurity Specialist / Security Engineer
+Avion
+
+Ми шукаємо досвідченого Cybersecurity Specialist / Security Engineer, який очолить захист нашої серверної, мережевої та хмарної інфраструктури. Шукаємо фахівця, здатного самостійно вести повний цикл роботи з загрозами та інцидентами: Detect → Analyze → Assess Risk → Contain → Remediate → Verify → Document.
+📌 Основні обов'язки:
+- Захист інфраструктури: Забезпечення безпеки серверної, мережевої та хмарної інфраструктури компанії.
+- Моніторинг та аналіз: Постійний моніторинг подій ІБ, виявлення атак, сканувань, аномальної активності та спроб несанкціонованого доступу.
+- Incident Response: Оперативне реагування на інциденти: аналіз, локалізація, усунення наслідків та проведення Root Cause Analysis (RCA).
+- Управління уязвимостями: Проведення регулярного аудиту інфраструктури та підтримка процесів Vulnerability Management.
+- Hardening: Укріплення (hardening) Linux/Windows серверів і мережевих сервісів.
+- Мережева безпека: Налаштування та супровід Firewall, WAF, IDS/IPS, VPN і DDoS Protection.
+- Web/API Security: Контроль безпеки Web/API-сервісів та розуміння основних векторів атак.
+- Access Management: Управління доступом до production-інфраструктури та критичних систем.
+- Документація та політики: Розробка та підтримка security policies, процедур та Incident Response Playbooks.
+- Крос-командна взаємодія: Тісна співпраця з DevOps, системними адміністраторами, DBA та розробниками з питань безпеки.
+🎯 Вимоги до кандидата (Must Have):
+- Досвід: Від 3 років активної роботи у сфері Cybersecurity / Information Security.
+- Мережі та протоколи: Відмінне розуміння TCP/IP, DNS, HTTP/HTTPS, TLS, VPN, NAT та мережевої маршрутизації.
+- ОС: Упевнене адміністрування Linux.
+- Мережевий захист: Практичний досвід налаштування Firewall, WAF, ACL та мережевої сегментації.
+- WAF / CDN / DDoS: Досвід роботи з Cloudflare або аналогічними рішеннями.
+- Web Security: Глибоке розуміння OWASP Top 10 та векторів атак на Web/API.
+- Vulnerability Management: Досвід роботи зі сканерами уразливостей (Nessus, OpenVAS, Qualys тощо), знання CVE/CVSS та вміння оцінювати реальні ризики.
+- SIEM / Logging: Досвід роботи з SIEM, IDS/IPS, централізованим збором та аналізом логів (system, network, application, web server).
+- Forensics & Incident Response: Досвід розслідування безпекових інцидентів та роботи з IOC (Indicators of Compromise).
+- IAM & PAM: Розуміння концепцій RBAC, MFA, PAM, Least Privilege.
+- Container Security: Досвід роботи з Docker та розуміння принципів безпеки контейнерів.
+- Application Security: Понимание принципів SAST, DAST, Dependency та Secret Scanning.
+- Автоматизація: Навички написання скриптів для автоматизації задач ІБ на Bash / Python.
+🔐 Zero Trust Architecture (Mandatory):
+- Практичний досвід роботи з Zero Trust Network Access (ZTNA) рішеннями та проектування/впровадження Zero Trust підходу.
+- Впровадження ZTNA для доступу співробітників та адміністраторів до внутрішньої інфраструктури.
+- Перехід на Identity-based access замість доступу на основі мережі/IP.
+- Реалізація Device Trust / Device Posture, MFA та Conditional Access.
+- Застосування принципів Least Privilege Access та Microsegmentation.
+- Налаштування Short-lived access / тимчасового привілейованого доступу.
+- Контроль та аудит адміністративних сесій, інтеграція Zero Trust з IAM / SSO / IdP.
+- Побудова захищеного доступу до Linux, Windows, баз даних, внутрішніх Web-сервісів та адмін-панелей.
+- Досвід роботи з рішеннями класу: Cloudflare Zero Trust, Teleport, BeyondTrust, CyberArk, Tailscale, Zscaler або аналогами.
+🌟 Буде перевагою (Nice to Have):
+- Cloud Security: Досвід роботи з безпекою AWS / Azure / GCP.
+- Kubernetes Security: Захист та аудит K8s кластерів.
+- SIEM / IDS Tools: Досвід з Wazuh, Suricata, Snort, ELK/OpenSearch, Loki/Grafana.
+- Secrets Management: Практика роботи з HashiCorp Vault або аналогами.
+- Offensive Security: Досвід проведення Pentest або участь у Red Team exercises, Threat Modeling.
+- SOAR & Automation: Побудова Security Monitoring та автоматизація Incident Response.
+- Комплаєнс: Знання ISO 27001, PCI DSS, SOC 2 або аналогічних стандартів.
+🌍 Локація: Офіс на Пафосі (Кіпр).
+❗Допомагаємо з релокейтом на надаємо робочу візу.
+📍Обов'язкове проходження поліграфу.
+👉 Відправляй свій відгук прямо зараз — і ми зв'яжемося з тобою для короткого знайомства! 🛡️
+
+Вимоги до володіння мовами
+Англійська: B1 – Середній
+Українська: Носій мови
+
+Виключно від 3 років досвіду
+Тільки офіс
+Весь світ
+Країни, де розглядаємо кандидатів
+Англійська B1 – Середній
+Українська Носій мови
+Security
+Зайнятість: Fulltime
+Домен: Fintech
+Продуктова компанія
+Офіс:
+Кіпр

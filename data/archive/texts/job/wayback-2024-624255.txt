@@ -1,0 +1,59 @@
+Team Lead - Python / Full Stack Development for Environmental Sustainability
+FTD Solutions
+$8000-10000
+
+FTD SOLUTIONS
+FTD is on the mission to transform the way Environmental Sustainability is enabled in industrial facilities of fortune 100 companies and beyond. We have amazing clients backing us up, and we are growing fast. This is an exciting opportunity to join a dynamic, innovative, fast-moving SaaS and expertise company and make a difference.
+FTD Solutions is a one-of-a-kind technology firm providing proprietary software and high technical expertise supporting industrial facility clients. We believe in maximizing the impact of engineering and extending the capabilities of operations, construction, and sustainability teams in advanced and other industries. FTD Solutions works on the Owner’s side and supports its clients with conceptual solutions, technology development, capacity upgrades, performance improvements and new projects. To further our impact, we are building our expertise into a unique software platform that enables diagnostics of opportunities in industrial facilities and equips the customer team with the ability to make data-driven decisions.
+FTD Solutions is deeply established in the booming semiconductor industry and is expanding to support other industries. We are continually working on some of the most interesting and complex problems in the realm of advanced industrial facilities. Every day, FTD is contributing to the success and sustainability of our clients. We are looking for dynamic, high character, and collaborative people to join our team.
+POSITION OVERVIEW
+We are seeking a dynamic Team Lead to head our Python/PHP/JavaScript development team, which is dedicated to creating state-of-the-art applications in the realm of environmental sustainability. You will help us to transition from PHP to Python for the backend. This role is pivotal in driving our mission forward through effective team management and technological innovation.
+KEY RESPONSIBILITIES
+• Effective Team Management: Lead and motivate a team of skilled Python, PHP and JavaScript developers, ensuring high performance and cohesive teamwork.
+• Project Oversight: Oversee all stages of the development process, from initial design to final deployment, with a focus on quality and efficiency.
+• Strategic Leadership: Play a critical role in architectural and technology decisions, aligning development strategies with our organizational goals in sustainability.
+• Hiring and Talent Development: Actively participate in hiring decisions and nurture the professional growth of team members.
+• Executive Communication: Maintain direct communication with the CEO, providing regular updates and insights on team progress, project challenges, and milestones.
+As the Lead of Software Engineering, you will be responsible for executing FMA (Facility Management Application) end-to-end product vision. This includes everything from working with leadership to hone the overall product vision, leading the development team through the development process, and on to the final production deployment. This might include mentoring members of the development team, trouble-shooting coding challenges, writing code or evolving product database; structure, or taking on some of the more challenging development tasks yourself.
+The Lead of Software Engineering will report to the CEO - Chief Executive Officer.
+Note: Technical interviews can be conducted in Ukrainian, Russian and/or English.
+QUALIFICATIONS
+Strong communication skills with the ability to present a technology vision confidently.
+• Solid experience with agile development, familiarity with test-driven development, git, Jira, and other modern development tools.
+• Senior level software development experience (5+ years), using multiple programming languages.
+• Strong knowledge of Python
+• Familiarity and ability to read PHP and JavaScript code
+• Senior level SQL / database experience (5+ years).
+• Proven experience with end-to-end product design and build, executing a product vision all the way from concept, to final production deployment.
+• Proven experience building, managing, and leading a team of developers.
+• Experience of dealing with third party APIs and external services
+• Exceptional analytical and problem-solving abilities.
+• Exceptional attention to detail and accuracy.
+• A Security-centric approach to product design.
+• Strong in both English and Russian or Ukrainian.
+B.S. in Computer Science or related field.
+Experience working in an early-stage successful tech start-up preferred.
+WHAT WE OFFER
+• Great opportunity for professional development within young and fast-growing company
+• Interesting and challenging projects
+• Remote work with long-term employment on full-time basis under contract
+• Grant Options allocation, pending demonstrated abilities.
+• High-level compensation based on the performance reviews.
+• Flexible working hours.
+• Tasks with the challenge
+• Knowledge Exchange
+LOCATION
+Remote – Eastern Europe
+
+Development
+Fullstack
+from Beginner/Elementary
+Considering with No English
+Only from 5 years of experience
+$8000-10000
++-$500 from the range
+Full Remote
+Countries of Europe or Ukraine
+Python, PHP 7, JavaScript, Team Lead
+Domain: Machine Learning / Big Data
+Product

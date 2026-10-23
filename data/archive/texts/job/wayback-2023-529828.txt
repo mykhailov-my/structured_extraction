@@ -1,0 +1,41 @@
+Senior Data Engineer (with Python, Scala, and AWS). Poland, Bulgaria
+Svitla Systems
+
+Svitla Systems Inc. is looking for a Senior Data Engineer (with Python, Scala, and AWS) for a full-time position in Poland, and Bulgaria. Our client is a French premium television channel launched in 1984, and the channel broadcasts several kinds of programming, mostly encrypted.
+Agile teams: daily meetings, sprint planning, POC, code review, and open source are routine.
+A cutting-edge stack and platforms support live streaming with nearly a million simultaneous connections.
+Tech Stack: Python, Scala, AWS, AWS Lambda Python/Scala, AWS batch Python/Scala, AWS API Python/Scala, Git (CI/CD), Terraform, Airflow 2, Docker.
+Requirements:
+Be ready to grow in a Big Data environment and desire to learn and share.
+3+ years of experience working with Data/Big Data.
+Experience with Python or Scala (ideally both).
+Meticulous, independent, and motivated individual.
+You love teamwork, learning, and sharing.
+You are looking for a position with growing responsibility, and a mission.
+Nice to have:
+Experience with CI/CD (Git), AWS Lambda Python/Scala, Terraform, Airflow2, and Docker.
+If the candidate has DevOps experience, he will also be assigned to the DevOps tasks (5-10% out of the scope of work).
+Responsibilities:
+Set up the data loading process.
+Develop scripts to automate uploads.
+Validate the correct integration of data.
+Develop Batch treatments to add new business needs data.
+Build streaming treatments to integrate the customer's data (usage, contract).
+Travel to France 2 times a year.
+About Svitla Systems
+Svitla is a proven custom software development company and testing provider headquartered in Silicon Valley. We deliver unparalleled value to our customers, who rely on our expertise in managed teams and build-to-order software applications.
+Founded in 2003, Svitla Systems is headquartered in San Francisco, California, with sales and development offices throughout the US, Mexico and Europe (Ukraine, Montenegro and Germany). If you are looking to scale up your technical team quickly, we are your trusted glocal partner.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Data Engineer
+Category: Data Engineer
+English: Upper-Intermediate
+5 years of experience
+Domain: Telecom / Communications
+Full Remote
+Outsource
+Poland, Bulgaria
+Only candidates from Europe and Ukraine

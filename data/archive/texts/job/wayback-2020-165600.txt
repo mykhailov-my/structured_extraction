@@ -1,0 +1,38 @@
+Junior Python Software Engineer
+WeOne
+
+WeOne has a perfect opportunity for a talented entry-level engineer with prior development experience, good coding, and algorithmic skills. You will be able to work in a team with top Israeli software engineers and product managers in a cozy startup environment.
+Job description
+WeOne has a perfect opportunity for a talented entry-level engineer with prior development experience, good coding, and algorithmic skills to work at a startup that develops a next-generation data management and data warehousing platform. This is an ideal position for specialists that want to grow in the hot new area of Data Engineering. You will be able to work in a team with top Israeli software engineers and product managers in a cozy startup environment. Learn modern software architecture approaches and gain hands-on experience with emerging technologies. Apply now and be at the forefront of technology!
+The customer is an Israeli product company that develops SaaS for data management and analytics. Their integrated data management platform makes it easier than ever to connect to data. Leveraging cloud data warehouse infrastructure, automatic data integrations, and AI automation they can provide top-notch data infrastructure as a service. Service users can connect all their favourite analytics tools (google analytics, salesforce, etc.) in a simple user interface in several minutes without a need to do coding
+You will be responsible for:
+- Write clean, maintainable, extensible Python code that follows best practices;
+- Requirement analysis, task decomposition, estimation and implementation;
+- Enforce code quality standards and conduct code review;
+- Communicate with main stakeholders on a daily basis;
+Required qualities and experience:
+- Bachelor degree in Computer Science or equivalent (in lieu of degree, relevant experience);
+- Practical experience in software development using Python;
+- Passion for writing clean, modular code using modern best practices and experience with PyTest / Unittest;
+- Understanding of key concepts in architecture and design of modern scalable web based applications;
+- Experience with SQL and NoSQL databases (E.g. PostgreSQL, MySQL, MongoDB, Redis);
+- Proficient understanding of code versioning tools, such as Git;
+- Understanding of Agile methodologies (Scrum, Kanban);
+- At least strong intermediate in verbal and written English, good communication skills;
+- Understanding of the start-up ecosystem, ability to rapidly adapt to changes.
+We offer:
+- Competitive market reward;
+- Company social package, and perks including but not limited to paid vacation, sick leaves, corporate education, gym subscription etc;
+- Hybrid workspace, work from office and remotely;
+- And much more.
+About WeOne
+WeOne is an IT company, and a hiring platform for businesses of any size. Our goal is to connect IT professionals with companies in need. To provide this mission we are building our solution based on AI, and giving a convenient way to connect businesses with desired talents. On top of that, our company has enough capacity to advise and help in the areas of our expertise. Become a part of WeOne!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Lviv
+1 year of experience
+English Intermediate

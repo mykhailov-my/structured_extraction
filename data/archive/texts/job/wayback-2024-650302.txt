@@ -1,0 +1,39 @@
+Python ML/Data engineer
+Renormalize
+
+We are looking for a Python ML/Data engineer in a startup in the area of performance measurement and motivation. The main purpose of this application is to help to conduct performance reviews of software engineering teams and individuals and help to motivate them to grow.
+JOB SUMMARY
+Your role will involve: acquire data from primary or secondary data sources, analyze and maintain big data sets, designing algorithms, ML models. You will contribute to developing ideas that guide product strategies. Utilizing your strong communication skills, you will actively participate in strategic discussions and work cross-functionally to analyze consumer needs and make data-driven recommendations.
+RESPONSIBILITIES
+- Acquire data from primary or secondary data sources and ensure that databases/data systems are appropriately maintained.
+- Identify, analyze, and interpret trends or patterns in complex data sets.
+- Investigate the historical data to find opportunities for ML models usage
+- Evaluating the statistical methods and procedures used to obtain data to ensure validity, applicability, efficiency, and accuracy of analysis
+- Work with cross-functional team to drive change in product and cost roadmap through management and execution
+- Identify key drivers that influence product roadmap; prioritize and execute
+- Gather information from internal and external stakeholders to inform definition of existing (and potentially future) product roadmap
+- Execute analyses at the interface of technical considerations & work with top management
+QUALIFICATIONS
+- B.S. in Computer Science or Program Engineering
+- Tech skills: Python; SQL databases strong experience
+- Experience with machine learning frameworks and libraries (e.g., TensorFlow, PyTorch, scikit-learn)
+- Working with high load systems and big data management
+- Experience and understanding of complex web applications/platforms (serverless, microservices)
+- Experience with cloud platforms (AWS)
+- Knowledge of containerization technologies (Docker)
+- Experience with version control systems (Git)
+- Experience with LLM models and APIs
+- Excellent verbal and written communication skills across engineering, operations and commercial disciplines (English level: Inter+)
+- Proven success in statistical analysis to identify process and product variations with complex and highly variable process parameters.
+
+Data and Analytics
+Data Science
+ML / AI
+Only from Intermediate
+from 2 years of experience
+Considering with 1 year of experience
+Full Remote
+Worldwide
+ML, Python, SQL, AWS, Git
+Domain: SaaS
+Product

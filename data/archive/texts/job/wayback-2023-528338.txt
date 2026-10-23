@@ -1,0 +1,91 @@
+Senior FullStack Engineer (Python/React)
+UKEESS Software House
+
+UKEESS Software House is looking for a Senior FullStack Engineer (React/Python) to join our ambitious team for a full-time position (in Europe).
+About the Customer’s Project:
+Our platform (HoReCa) is a SaaS and one of the most investment-attractive startups (USA) in the field of hospitality. In the summer of 2020, raised a new $ 50 million (and earlier received an investment from the Alexa Fund (AWS)).
+This platform helps promote and sell unique guest experiences for any occasion. The platform gives control of and insight into the entire guest experience. Also, it enables to automatic drive revenue & profitability by leveraging data to build direct relationships, deliver exceptional experiences, and increase repeat business. This project has been on the market for over 10 years and continues to develop actively!
+About the team and Responsibilities:
+Our team focused on venue groups (large entities that have many restaurants) and developing performant and highly available APIs, implementing advanced algorithms, crafting pixel-perfect interfaces, designing an architecture for observability, localizing for a global audience, using data science to generate high-impact insights, scale our infrastructure, and much, much more.
+Our engineering culture values technical excellence, ownership, and customer obsession to solve hard problems the right way.
+As a part of the team, you will:
+- be exposed to the challenges of working at scale and thriving when solving complex technical problems – fine-tuning beautiful UX and design, developing API services for our products, or just seeing features end-to-end.
+- work closely with other engineers, product managers, and designers, develop in our mobile and cloud technology stack via an agile software development process, and engineer real solutions that ship directly to our customers.
+- write code based on functional specifications and technical design. Adhere to architectural standards and develop designs that consider impact with other aspects of the database and appropriately leverage existing code.
+- perform code reviews, identify potential issues to reduce technical debt, and provide coding best practice recommendations.
+Knowledge, Skills, And Competencies:
+- 5+ years of experience developing web applications
+- Experience in Python backend
+- Experience with React on the front-end part
+- Strong knowledge and experience with Redux, TypeScript
+- Excellent interpersonal, written, and verbal communication skills.
+- Strong sense of self-motivation, organization, and attention to detail; strong analytical skills
+- Experience with Scrum/Agile methodology, CI/CD
+- English: upper-intermediate level (both speaking and writing)
+It will be a plus:
+- Strong knowledge or experience with NodeJS
+- Experience or strong knowledge of Google Cloud Platform (GCP):
+AppEngine, Datastore (potentially moving to Firestore), BigQuery.
+The general technology stack of the Project:
+Python/Django/GoogleCloud/MySQL/React/Redux/TS.
+What do we offer our new colleague?
+- Interesting full-time position on the new project
+- Competitive compensation (based on market data, but also depending on the technical level of the candidate)
+- Flexible work schedule
+- 3 health packages to choose
+- Annual paid vacation and state holidays celebration
+- Free English classes (online)
+- Individual approach to a profession
+- Lack of bureaucracy and micromanagement
+- Modern, comfortable office facilities (a barbecue zone, kitchens, lounge rooms, coffee machines, etc.)
+- Foreign business trips
+- On-site parking lot and charge station for Electric Cars
+- Corporate gifts, celebrations, and fun activities
+- Sports activities: ping-pong, soccer, work-out
+Join us to own significant areas of our architecture, build systems, scale, and ship to production daily for customers who care deeply about what you build.
+Please send us your CV and let's get to know each other! ;)
+About UKEESS Software House
+UKEESS Software House - Ukrainian IT software development company, specializing in big cloud enterprise projects: health, biotech, logistics, CRM systems, fin-tech, etc. Founded in 2004 in Lviv, we have grown to more than 160 talented Software Engineers, and this number continues to increase every month.
+UKEESS Software House provides leading-edge intelligent technical solutions. Along with our US customers – high-tech product companies, we are focusing on leading practices throughout the innovation and new product development lifecycle to enable effective decision-making that drives innovation performance.
+Our company consists of people who are on the same wave. We are one big friendly, open-minded team and focusing on a long-term partnership with our developers and their professional growth.
+In our benefits, you can find:
+- highly professional and friendly teams
+- competitive compensation with regular reviews
+- flexible working hours with no overtime
+- company-paid English classes
+- foreign business trips
+- corporate paid online library and professional courses/training
+- career Map
+- 3 health packages to choose
+- annual paid vacation and state holidays celebration
+- modern, comfortable office facilities (a barbecue zone, kitchens, lounge rooms, coffee machines, etc.)
+- on-site parking lot with charge station for Electric Cars
+- corporate gifts, celebrations, fun, and sports activities
+- and much more!
+Are you looking for a company where you can work on new cloud projects in a big friendly team where you can apply all your skills and grow professionally? We hope on it! ;)
+Please send your CV and let`s get to know each other!
+Our locations
+HQ:
+12 Mirtova Str,
+Lviv, 79068, Ukraine
+GPS Coordinates: 49° 52' 0.67", 24° 1' 34.21"
+"266 Smart" Business center
+266 Stryiska Str,
+Lviv, 79000, Ukraine
+GPS Coordinates: 49.79165465609748, 24.016307373762377
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Lviv
+Category: Python
+Python , React , Django , MySQL , Google Cloud Platform
+English: Upper-Intermediate
+5 years of experience
+Domain: SaaS
+Full Remote
+Outsource
+Ukraine (Lviv)
+Only candidates from Europe

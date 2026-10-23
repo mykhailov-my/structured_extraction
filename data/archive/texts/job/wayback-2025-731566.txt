@@ -1,0 +1,46 @@
+Junior Automation QA (with Python) (#2947)
+N-iX
+
+N-iX is a software development service company that helps businesses across the globe develop successful software products. Founded in 2002 in Lviv, N-iX has come a long way and increased its presence in nine countries - Poland, Ukraine, Sweden, Romania, Bulgaria, Malta, the UK, the US, and Colombia. Today, we are a strong community of 2,000+ professionals and a reliable partner for global industry leaders and Fortune 500 companies.
+Our customer is a comprehensive, cloud-based facilities management solution designed to streamline operations for public sector organizations, commercial real estate, and educational institutions. It offers a suite of tools to enhance maintenance efficiency, optimize space utilization, and improve asset management.
+Requirements:
+- 2+ years of experience in web applications testing with a focus on automation
+- At least 1 year of experience as automation QA
+- Experience with usage of Robot framework for automated testing
+- Experience in performance testing
+- Good understanding of testing processes and Agile methodologies, especially SAFe
+- Strong experience working with test management systems
+- Excellent communication and teamwork skills
+Nice to have:
+- Experience with Python or Java
+- Familiarity with MS Azure
+Responsibilities:
+- Design and implement API and UI test automation frameworks, making use of Robot Framework's keyword-driven approach
+- Write custom Python libraries to extend the Robot Framework for specific testing requirements
+- Collaborate with the development team to understand new features and ensure appropriate testing coverage
+- Participate in code reviews to ensure best practices and high-quality standards for test code
+- Integrate automated tests into CI/CD pipelines using Github Actions
+- Generate and maintain detailed test reports, logs and performance metrics
+- Develop, implement, and maintain automated test cases using Robot Framework to ensure functionality, integration, and regression testing
+We offer:
+- Flexible working format - remote, office-based or flexible
+- A competitive salary and good compensation package
+- Personalized career growth
+- Professional development tools (mentorship program, tech talks and trainings, centers of excellence, and more)
+- Active tech communities with regular knowledge sharing
+- Education reimbursement
+- Memorable anniversary presents
+- Corporate events and team buildings
+- Other location-specific benefits
+*not applicable for freelancers
+
+Only from Upper-Intermediate
+Required knowledge of Ukrainian
+Only from 2 years of experience
+Full Remote
+Poland
+Countries where we consider candidates
+QA Automation
+AQA, Python
+Domain: Other
+Outsource

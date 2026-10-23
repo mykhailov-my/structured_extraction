@@ -1,0 +1,38 @@
+Senior Python Automation QA Engineer (IRC265696)
+GlobalLogic
+
+Job Description
+Readiness to work from 5 pm till 12 AM Kyiv time, 11 PM Poland time
+4+ years of developing and bolstering automated QA systems and associated test strategies;
+Experience working with business-critical customer-facing applications (user interfaces, APIs, and back-end services);
+Excellent communication skills with emphasis on writing detail-oriented documents and communications;
+Strong understanding of object-oriented programming concepts;
+Strong understanding of web UI and services automation testing;
+Strong experience with Python, BDD (behave);
+Knowledge in AWS, CI/CD;
+Experience with AQA reporting tools;
+Strong experience with web application testing tools (Selenium), API testing;
+Deal well with ambiguous/undefined problems. Ability to think abstractly. A proactive approach to tasks.
+Job Responsibilities
+Responsible for designing and implementing build and test infrastructure, creating and enforcing. good engineering practices, and evaluating product quality for various external and/or internal products.
+Conduct research and create Proof of Concepts on new testing technologies/tools/concepts.
+Collecting TA metrics, statistics and reports.
+Design test strategies by analyzing and dissecting complex heavily integrated software systems.
+Develop and contribute to the automated testing efforts for the QA team.
+Design and build scalable, maintainable, and flexible automation test framework.
+Investigate the root cause of issues to assist with finding the most comprehensive and robust solutions.
+Collaborate closely with product, project, and development teams to identify and resolve technical, business, and process-related issues.
+Department/Project Description
+About Project:
+Comprised of the Company’s international business units and various direct-to-consumer streaming services, Media & Entertainment Distribution department aligns technology, media distribution and advertising sales into a single business segment to create and deliver personalized entertainment experiences to consumers around the world.
+GL team will be consentrated on building AdTech platform for our customer.
+
+Only from Upper-Intermediate
+Only from 4 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+QA Automation
+Python, Behavior-Driven Development, Selenium, api, REST API
+Domain: Media
+Outsource

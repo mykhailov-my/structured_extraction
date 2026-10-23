@@ -1,0 +1,46 @@
+Middle Python/Django Developer for Free Printing Service
+Brightgrove
+
+We are developing a new version of a product, with a more powerful performance, to care more loads, engaging more countries, a bigger amount of users (+800 registrations per day). Developing new tools to work with advertisers and price calculation
+About the customer
+The client is the quickest growing platform in Germany that allows all students to print their university materials for free. The documents are sponsored by companies, that want to reach and advertise to students. We can target ads by placing them selectively to the right student using the data they provide when registering.
+The offer is open to all students enrolled at a German university, and due to its success and popular demand, the company is now able to spread internationally, and wants to bring its services to Australia and Switzerland.
+About the team
+The development team is in Ukraine and constantly expanding. We have 3 developers and Project Manager.
+Responsibilities:
+- Development of new products
+- Extend and support existing products
+- Participate in development of other services
+- Participate in stand-ups and code reviews, be a member of a small team of developers
+Required skills:
+- 2+ years in Python 3
+- 1.5+ years’ experience in Django
+- 1+ years’ experience in Django Rest Framework
+- Good understanding the REST methodology
+- Experience in RabbitMQ / Celery
+- PostgreSQL + SQL optimization skills
+- Intermediate level of English
+Nice To Have Skills
+- Experience in Django Finite State Machine
+- Experience in PyPDF lib or other libs to working with PDF documents
+- Experience in Elastic Search/Sphinx/Solr
+- Experience working with Highload system
+About Brightgrove
+We bring honesty and ease to the software development outsourcing process.
+Key facts about Brightgrove:
+- Top 10 “Best IT Employer” in Ukraine among IT companies with a size of 200–800 people.
+- Workforce: 350+ employees
+- R&D centers: Kharkiv and Kyiv in Ukraine, Minsk in Belarus
+- Clientele: 217 clients with 84 currently active customers
+Of these:
+30 have worked with us for more than 3 years
+23 for more than 4 years
+10 for more than 6 years
+Company website:
+[link]
+
+Python
+Kharkiv
+Харьков
+2 years or more
+English Intermediate

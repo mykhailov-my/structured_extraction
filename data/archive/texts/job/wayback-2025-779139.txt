@@ -1,0 +1,40 @@
+Trainee/Junior Python Developer
+Appexoft
+
+We are looking for a motivated and passionate Python Junior/Trainee Developer to join our team. This position is ideal for candidates who have a solid understanding of Python fundamentals and are eager to grow their skills in backend development. You will work under the guidance of experienced mentors, contributing to real projects and learning how to build reliable, scalable web applications.
+Responsibilities:
+Assist in developing and maintaining web applications using Python and modern frameworks such as Django or Flask.
+Write clean, simple, and maintainable code following best practices.
+Participate in the development of RESTful APIs and data integration with frontend or external services.
+Work with databases such as PostgreSQL, MySQL, or MongoDB.
+Collaborate with developers, designers, and project managers to deliver high-quality solutions.
+Learn and apply software development methodologies and version control using Git.
+Requirements:
+Basic knowledge of Python and object-oriented programming concepts.
+Understanding of web development fundamentals (HTTP, REST, JSON).
+Familiarity with Django, Flask, or FastAPI frameworks (even at a beginner level).
+Basic knowledge of databases and SQL queries.
+Ability to read and write technical documentation in English (B1 level or higher).
+Eagerness to learn, attention to detail, and problem-solving mindset.
+Nice to have:
+Familiarity with Git, Docker, or basic CI/CD processes.
+Experience with HTML, CSS, and JavaScript for basic frontend integration.
+Understanding of APIs, authentication (JWT/OAuth), or microservices architecture.
+What we offer:
+Office-based position in Lviv (Boikivska 1) with a supportive and friendly environment.
+Opportunity to gain practical experience on real projects under mentor supervision.
+Continuous learning, code reviews, and technical guidance from senior developers.
+Free internship program with the possibility of further full-time employment after successful completion.
+
+No experience
+Office Work
+Worldwide
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Python
+Employment: Fulltime
+Domain: Other
+Outsource
+Office:
+Ukraine
+(Lviv)

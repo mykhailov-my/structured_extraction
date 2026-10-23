@@ -1,0 +1,33 @@
+Junior Python Developer
+Broscorp
+to $600
+
+Шукаємо талановитого розробника, що ще не має комерційного досвіду.
+На проекті буде можливість попрацювати над SAAS, що займається аналітикою даних.
+Необхідні вміння:
+Англійська intermediate або вище(розмовний рівень)
+Python core
+SQL(Postgres)
+API integration
+Unit testing and mocks
+Досвід використання GCP не обов'язковий, але буде великим плюсом
+Відгукнись на вакансію, якщо є готовність виконати тестове завдання.
+У обов'язковому супровідному повідомленні, коротко напиши про свою улюблену фічу - Python.
+About Broscorp
+Ми молода компанія з Дніпра. Фокусуємося на додатках для обробки та аналізу даних. За штурвалом стоять інженери, тому наша мета - це розробка ПЗ, яким можна пишатися😎
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Dnipro
+Category: Python
+GCP , PostgresSQL , API
+English: Intermediate
+No experience
+Domain: SaaS
+Full Remote
+Outsource
+Ukraine (Dnipro)
+Only candidates from Ukraine

@@ -1,0 +1,57 @@
+Lead Full Stack (Python+React)
+N-iX
+
+Join Our Team & Earn Exciting Bonuses!
+As a special incentive, we’re offering a Welcome Bonus of $3,000 USD for a new hire. Plus, if you refer a friend who gets hired, you’ll receive a Referral Bonus of $2,000 USD!
+_________________________________________________________________________________________
+Our client is a global UK-based financial services and investment banking organization developing an AI-powered document processing and automation platform used across multiple businesses within the wider banking group. The platform leverages modern cloud and AI technologies to transform legacy workflows, enhance data quality, and accelerate digital decision-making.
+Position Overview:
+We are looking for a Tech Lead with strong hands-on engineering expertise leading agile software development teams. The ideal candidate will define and drive the technical strategy of the platform, guide engineers in delivering scalable and secure systems, and actively contribute to architectural decisions and solution design.
+This role requires both strong technical depth and leadership capabilities, particularly in environments involving Google Cloud, microservices, APIs, Python and data-intensive processing.
+The Tech Lead will work closely with product, architecture, data science, and engineering teams to ensure high-quality delivery and alignment with business outcomes.
+Key Responsibilities:
+- Define and communicate the technical vision, architecture, and engineering roadmap for the team and platform.
+- Lead engineers, conduct code reviews, provide architectural guidance, and ensure adherence to engineering standards.
+- Lead the technical delivery lifecycle from design and development to deployment and maintenance.
+- Build scalable, high-performance microservices and UI and APIs using modern frameworks and cloud-native design principles.
+- Oversee integration of AI components (E.g Google Cloud, Vertex AI, Gemini models, and LLM evaluation frameworks)
+- Promote test-driven development, automate testing pipelines, and ensure robust, maintainable code.
+- Work with product managers, architects, BAs, and business teams to translate business needs into technical solutions.
+- Contribute to product strategy, identify technical opportunities, and propose improvements to shape future releases.
+- Drive best practices for cloud infrastructure, security, observability, and performance optimization on Google Cloud.
+Requirements:
+- 8+ years of experience in software engineering with at least 3+ years in a Tech Lead role.
+- Strong background in software/platform/database design in data-heavy or distributed environments.
+- Hands-on experience with microservices, React.JS, and cloud-native architectures.
+- Proficiency in Python.
+- Solid experience with Google Cloud Platform (GCP)
+- Familiarity with LLM-as-a-judge evaluation, prompt engineering, RAG patterns, or AI validation techniques.
+- Experience implementing automated testing frameworks, CI/CD pipelines, and TDD/BDD practices.
+- Strong understanding of software engineering principles: scalability, performance, reliability, observability.
+- Proven experience leading engineering teams in agile delivery environments.
+- Advanced English and excellent communication skills and ability to work with both technical and non-technical stakeholders.
+Nice to Have:
+- Prior exposure to document processing platforms, OCR, NLP, or workflow automation.
+- Experience in financial services or other regulated industries.
+- Familiarity with architectural frameworks (C4 modeling, DDD, event-driven systems).
+We offer*:
+- Flexible working format - remote, office-based or flexible
+- A competitive salary and good compensation package
+- Personalized career growth
+- Professional development tools (mentorship program, tech talks and trainings, centers of excellence, and more)
+- Active tech communities with regular knowledge sharing
+- Education reimbursement
+- Memorable anniversary presents
+- Corporate events and team buildings
+- Other location-specific benefits
+*not applicable for freelancers
+
+Only from 8 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Fullstack
+Employment: Fulltime
+Domain: Other
+Outsource

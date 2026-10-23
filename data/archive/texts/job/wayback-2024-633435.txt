@@ -1,0 +1,34 @@
+MLOps (Python)
+Particles Global
+
+The customer of Particles Global - The USA-based company - (develops AI-powered software for faster, easier, & smarter accounts payable) - is looking for an ML Ops with Python Developer.
+About the company: The team is a mixed data and engineering team with 10 people led by the Director of Data and Engineering. They use a modified scrum methodology (2 weeks sprints). The role will involve development, deployment and maintenance of LLMs and ML models on a team with another Data and ML Ops team member (who speaks Ukrainian). They work a flexible schedule, but developers will need to be available at 10am-2pm New York Time (EST).
+Requirements:
+- Intermediate machine learning knowledge (pandas, numpy, scikit learn, lightgbm, xgboost);
+- Python knowledge;
+- Fast API framework;
+- Experience with ML inference;
+- LLM deployment (Langchain, Open AI, Vertex AI, etc);
+- Capacity to work independently;
+- Good communication skills.
+Nice to have:
+Kubeflow/Kserve framework for ML;
+Ray framework;
+Kubernetes knowledge;
+Terraform knowledge;
+Interview process:
+1. Initial 30 minute call with the customer.
+2. A short technical assignment.
+3. 60 minute final technical call with the customer.
+
+Data and Analytics
+Data Science
+ML / AI
+Only from Upper-Intermediate
+Only from 3 years of experience
+Full Remote
+Worldwide
+Countries where we consider candidates
+ML, LLM, Python, FastAPI
+Domain: Gamedev
+Outstaff

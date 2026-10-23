@@ -1,0 +1,28 @@
+{
+  "doc_id": "wayback-2024-628480",
+  "url": "https://djinni.co/jobs/628480-senior-python-developer/",
+  "snapshot": "https://web.archive.org/web/20240724061757/https://djinni.co/jobs/628480-senior-python-developer/",
+  "captured_at": "2024-07-24T06:17:57",
+  "posted": null,
+  "year": 2024,
+  "active": false,
+  "layout": "v3",
+  "collected_at": "2026-10-23T06:20:13+00:00",
+  "title": "Senior Python Developer",
+  "company": "WizardsDev",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Development",
+    "Python",
+    "from Intermediate",
+    "Considering with Beginner/Elementary",
+    "Only from 5 years of experience",
+    "Full Remote",
+    "Countries of Europe or Ukraine",
+    "Domain: Dating",
+    "Product"
+  ],
+  "description": "🔥AI Dating project\nHi, we're looking for a Middle/Senior Python Developer for our project - [link]. Here's the gist: a person interacts with an AI girl on various topics, there's image generation, and soon there will be video :) We've gathered a strong team and now we're looking for a new member who can help us bring all ideas to life and expand into new markets.\nAre you with us?\nREQUIREMENTS\n— 5+ years of experience with Python3;\n— Proficiency in FastAPI, aiohttp for building REST APIs;\n— Knowledge of GraphQL and experience with its implementation using Graphene or Strawberry for creating GraphQL APIs;\n— Experience with WebSockets for developing interactive applications;\n— Understanding of asyncio and experience applying it in web development;\n— Familiarity with SQLAlchemy for database operations, particularly with PostgreSQL;\n— Experience using Alembic for managing database migrations;\n— Ability to work with Docker and Docker Compose for containerization and local deployment of applications;\n— Knowledge of Kubernetes for orchestrating and managing containerized applications;\n— Experience with Celery and Redis for asynchronous task processing;\n— Proficiency in Uvicorn for running web servers.\nWE OFFER\n— creative and friendly team without hierarchy within;\n— opportunity to work remotely in the office, it’s up to you;\n— 18 days of paid vacation per year and 5 days of sick leave;\n— offer compensation for gym memberships;\n— compensation for educational platforms and English language classes;\n— corporate English language courses and speaking club;\n— coverage for psychotherapy sessions on the pleso.me platform.\nRESPONSIBILITIES\n— development of a backend for a mobile application;\n— backend development for third party integration;\n— support/improvement of the telegram bot;\n— backend development for web app;\n— active communication with the international team."
+}

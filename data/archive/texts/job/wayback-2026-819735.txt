@@ -1,0 +1,55 @@
+Senior Python Engineer
+Quintagroup
+
+Quintagroup is looking for Senior Python Developer to join a leading European fintech product company.
+Technology stack: Python 3.11, Django 4.2, Postgres, AWS (EventBridge, Lambda, ECS, RDS, DynamoDB etc.), Docker, Pandas, Polars, Terraform
+RESPONSIBILITIES:
+- development with Python, AWS
+- participation in planning and execution stages
+- communicate with international (UK/UA/US) development team and CTO
+REQUIREMENTS
+- 5+ years of experience with Python
+- Experience with AWS and Python frameworks
+- Able to work in a team-oriented, collaborative environment
+- Ability to share knowledge
+Customer methodologies and tools
+- Scrum (2 week sprints)
+Senior Python Developer - Project tech stack:
+- Python
+- AWS
+WE OFFER:
+- Long term projects
+- A company with a specialization in Python development for the last 22 years
+- Health insurance
+- Different work models (remote, office, or hybrid remote/office options)
+- Projects in AWS, Azure, GCP
+- Different domains of projects: FinTech, EdTech, GovTech, IoT, e-commerce, marketplaces, e-auctions, e-learning, public procurement, interesting tasks, possibilities for career and professional growth
+- Friendly atmosphere and good working conditions
+- regular team-buildings and corporate parties
+- Online English classes
+- Flexible working hours
+- Experience with new technologies
+
+Необхідні навички
+AWS, 2 years, AWS Lambda, 2 years, Terraform, 1 year, PostgreSQL, 1 year, Django, 4 years
+
+Only from 5 years of experience
+Office, Remote
+Worldwide
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+AWS
+2 years
+AWS Lambda
+2 years
+Terraform
+1 year
++ 3 more
+Employment: Fulltime
+Domain: Fintech
+Outsource
+Office:
+Ukraine
+(Lviv)

@@ -1,0 +1,34 @@
+Senior/Regular Python Developer
+Luxoft
+
+Our Client operates in as a manufacture of medical devices and software for them. They developed their Ultrasound-on-Chip technology and offer their app which has plenty of presets and familiar touch interactions.
+As a developer you will have unique chance to take part in development of innovative cloud solution, which will help millions of people all around the world.
+Responsibilities:
+- Development of new components of high loaded system, to improve customer experience
+- Active participation in design and future system evolution
+- Peer reviews
+- Automation testing
+- Work in agile environment in self managed team
+Mandatory Skills Description:
+Python
+Flask
+SQL Alchemy
+AWS
+Kubernetes
+Nice-to-Have Skills:
+React
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Office/Remote of your choice
+Outsource
+3 years of experience
+English Intermediate
+Ukraine only candidates 🇺🇦

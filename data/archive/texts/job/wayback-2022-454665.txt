@@ -1,0 +1,61 @@
+Senior QA automation (Python)
+Luxoft
+
+Project Description:
+We are looking for open-minded and skilled engineers to extend our development team.
+Our client delivers innovative, end-to-end media software and networking solutions to over 3,000 customers in more than 185 countries, including the top broadcast facilities and the most technologically advanced sports and live-event venues.
+One of important product is industry's first cloud-native platform, microservices-based and modular playout solution designed from the ground-up for pure-IP, geo-dispersed environments based on commercial off-the-shelf (COTS) hardware.
+The aim of the project is development and maintenance of this platform.
+The project require some generic understanding of video/audio processing.
+Responsibilities:
+- Evaluate functional, performance, and compliance requirements of our products;
+- Develop test strategies, test plans/cases, automation scripts (API/UI level scripts), and system configurations to efficiently validate compliance to product design requirements and design guidelines;
+- Host test plan reviews and test results meetings with project stakeholders prior to and proceeding testing phases;
+- Develop test reports and work with other team members to help understand and incorporate test results into cohesive quality metrics for the business;
+- Assist and collaborate in designing and improving test automation framework and validation strategies, by analyzing project documents to identify test requirements
+- Identify areas for automation, collect test data requirements, develop new test metrics and techniques to maximize testing efficiency and scalability
+- Develop, maintain and execute automated testing tools for functional, acceptance, integration, regression, system and performance testing
+- Assess, define and implement test execution processes and procedures to stream line the end-to-end deployment, tracking and reporting
+- Utilize and integrate latest hardware and software, in combination with industry applications and tools to perform manual and/or automated analysis, verification and validation
+- Participate in development, planning, estimation and prioritization processes for all testing activities
+- Provide work breakdown and estimation for project life cycle (agile lifecycle)
+- Where necessary, carrying out various internal training activities.
+Mandatory Skills Description:
+- Bachelor's degree in Computer Science or equivalent.
+- 1 years or more of programming and/or scripting languages and test automation experience in a technology-related industry.
+- Expertise in automated test methodologies, software testing principles, concepts, verification, and validation techniques in an Agile environment.
+- Demonstrated excellent analytical and problem-solving skills.
+- Expertise in automation test framework technologies/protocols and related development tools.
+- Experience in programming languages - Python.
+- Understanding of JSON, XML, REST and other similar web services/protocols.
+- Working knowledge of build processes with experience using build/source code tools such as Jenkins, GIT, etc.
+- Understanding/experience of computer networking fundamentals: Linux, Windows, Cloud computing, Virtual Server environments.
+- Windows scripting and packaging experience, such as Nuget/Chocolatey/PowerShell.
+- Knowledge of network architectures, communication protocols in LAN/WAN environments, familiar with using routers, switches and firewalls.
+- Experience in testing distributed High Availability (HA) systems.
+- Experience with high-performance network communication.
+- Software testing on Linux and familiarity with commercial Linux distributions.
+Nice-to-Have Skills:
+- Experience with cloud/virtual machine based computing, provisioning and orchestration.
+- Knowledge on the following areas is an asset:
+- MPEG-2 and MPEG-4 video and audio compression;
+- Digital Video formats including: NTSC, PAL, SDI, and HD-SDI;
+- Uncompressed IP video and audio data (i.e. 2022-6 and 2110).
+- Highly self-motivated and excellent attention to detail;
+- Strong interpersonal, verbal and written communication skills.
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+English: Upper-Intermediate
+2 years of experience
+Office/Remote of your choice
+Outsource
+Ukraine
+Only candidates from Ukraine

@@ -1,0 +1,41 @@
+Junior Python Developer (AI Team)
+Ajax Systems
+
+Ajax Systems is an international tech company and the largest manufacturer of security systems in Europe, with over 4.5 million end users and 330K PRO users in more than 180 countries worldwide. The company offers end-to-end solutions for protecting homes and businesses оf any scale. To date, Ajax product portfolio includes 280 devices for intrusion protection, video surveillance, fire and life safety, and comfort and automation. The company employs 5, 000 specialists.
+We’re looking for a Junior Python Developer to join our AI team, where you’ll help teach our video
+devices to see more than just a picture — to distinguish specific objects in the frame, track their
+movement and behavior, and recognize events and the people involved.
+This role focuses on the practical engineering work that makes it all possible — sourcing,
+processing, and versioning training data across multiple formats and sources, developing internal
+tools that ML engineers rely on daily, and contributing to a complete ML platform for automated
+training, evaluation, and deployment.
+What we’re looking for
+Must have:
+• CS fundamentals — familiarity with common data structures and algorithms
+• Python skills — ability to write clean, maintainable code
+• Database fundamentals — understanding of different database types, core concepts like
+indexing, schemas, transactions, and SQL queries
+• Basic understanding of computer vision concepts
+• Experience working with common data formats — JSON, XML, YAML
+Good to have:
+• Experience with object detection frameworks
+• Familiarity with OpenCV, NumPy, Pandas, or similar data processing libraries
+• Exposure to MLOps tooling — experiment tracking, dataset versioning, data pipelines
+We offer:
+• An opportunity to take on new challenges, advance your career, and make a meaningful impact.
+• Opportunity to be part of a fast-paced and dynamic environment that encourages creativity, critical thinking, and the exploration of new ideas.
+
+Only from 1 year of experience
+Office Work
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian C1 - Advanced
+Python
+Employment: Fulltime
+Domain: Hardware / IoT
+Product
+Office:
+Ukraine
+(Kyiv)
+Test task is needed

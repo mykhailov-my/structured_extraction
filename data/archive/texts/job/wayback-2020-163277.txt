@@ -1,0 +1,57 @@
+Automation Engineer (Python)
+Moon Active
+
+We're looking for an ambitious Python Developer to join our team as an Automation Developer to help us to create awesome games at a company that puts quality at the forefront
+Responsibilities
+- Develop, design, and deploy Automation infrastructure and tools;
+- Develop, deploy and maintain tests for the UI side of the application;
+- Work with local and remote teams;
+- Create Automation services which are effective, seamless, and easy to use;
+- Conduct code reviews, mentor, and increase automation knowledge among relevant stakeholders.
+Requirements
+- Hands-on experience with Python development (4+ years);
+- Experience with setting up Automation infrastructure in Python;
+- Familiarity with PyTest framework;
+- Experience with Appium;
+- Experience with git;
+- Experience with Test Management Systems.
+Preferred
+- Experience in Mobile testing;
+- CI/CD tools (Jenkins/TeamCity);
+- Bash/shell scripting;
+- Test Report tools;
+- Familiarity with image processing.
+About Moon Active
+Moon Active is one of the world’s fastest-growing mobile game companies. We produce exciting and engaging entertainment for players across the globe and pride ourselves on developing top quality casual games that invite and allow players to connect with one another.
+Our team has grown tremendously over the last year and now has 100+ team members in Kyiv, and 500+ globally. While we continue on this upward growth spiral we always focus on maintaining our intimate company culture. We are a multi-studio company.
+Our #1 game, Coin Master, was launched in 2016, and quickly earned its reputation as one of the most interactive social games in the industry. Coin Master is a top-grossing game in every country it was officially launched. It has had over 100 million downloads in more than 136 countries worldwide. We are currently developing additional games that we foresee following the Coin Master craze as a game chart-topper with millions of users daily.
+From Backend Services to Data pipelines running at massive scale, processing terabytes of data per day, serving millions of requests per minute, to optimizing high-end graphics in Unity, we never compromise on quality to deliver the best game experience to our players.
+We believe that great success comes from setting high standards and always striving to deliver the best results. We’re looking for incredible people who have a desire to create, develop, and deliver an out of this world game experience.
+Moon Active offers:
+- A global data-driven company, with a unique product and strong R&D center;
+- Exceptional innovative and dynamic work environment;
+- Promote transparency & open employee communication;
+- Tremendous growth & career advancement opportunities;
+- Encourage, support, and empower learning exploration and career development opportunities.
+Benefits:
+- Competitive salary with yearly performance reviews;
+- Paid vacation and sick leaves;
+- Comprehensive medical insurance with dental coverage, including gym, and swimming pool of your choice;
+- Comfortable, centrally-located offices with sport and recreation areas;
+- Fully stocked kitchen;
+- Newest technical equipment (macOS);
+- Maternity leave;
+- Employee Referral Program;
+- Training & Development / Tuition reimbursement;
+- Relocation assistance for nonlocal candidates;
+- Bicycle / Car parking.
+And, of course, we like having fun! We celebrate our significant days and never forget about gifts! Holidays, parties, and all kinds of entertaining events - brought to us by our amazing Happiness Manager :) Join us on the Moon!
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA Automation
+Kyiv
+3 years of experience
+English Upper Intermediate

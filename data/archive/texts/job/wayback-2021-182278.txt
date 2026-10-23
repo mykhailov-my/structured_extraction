@@ -1,0 +1,33 @@
+Strong Middle Python Developer
+CHI Software
+
+CHI Software company is looking for a self-motivated and goal oriented Strong Middle Python Developer who would like to be a part of an experienced team.
+Requirements:
+3 + years experience with Python
+Knowledge of Django/Flask
+Knowledge of HTTP protocol
+Knowledge of version control systems: GIT or SVN
+Understanding REST
+Кnowledge of SQL and RDBMS (PostgreSQL, MySQL)
+Experience of writing unit and integration tests
+Knowledge of CI/CD
+AWS experience
+Ability to explore and drive new ideas and technologies, think and learn independently
+Experience with asyncio
+Proficient Linux User
+Good spoken English (Intermediate and higher)
+About CHI Software
+CHI Software is a development center, based in Kharkiv, Ukraine with representative offices in Ramat Gan (Israel) and Los Angeles (California, the US). We started off as a small web design studio in 2006.
+Now we have a team of 500+ experts and complex in-house expertises in different business domains and industries to offer. CHI Software delivers both outsourcing and outstaffing services to startups and reputed companies worldwide.
+Our development team includes the following departments: web design, JavaScript, .NET, PHP, Ruby, Python, Java, C++, Mobile (Android and iOS), DevOps and QA, and we also have a great team of BI, BA and Project Managers.
+We constantly keep up with the current technology trends, developing Big Data, IoT, Machine Learning, Computer Vision, AR/VR, Cloud (AWS, Azure) solutions.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, Kharkiv, Dnipro, Zaporizhzhya, remote
+2 years of experience
+English Intermediate

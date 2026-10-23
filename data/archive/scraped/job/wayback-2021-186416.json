@@ -1,0 +1,23 @@
+{
+  "doc_id": "wayback-2021-186416",
+  "url": "https://djinni.co/jobs/186416-senior-regular-data-engineer-python-spark-had/",
+  "snapshot": "https://web.archive.org/web/20210122180653/https://djinni.co/jobs/186416-senior-regular-data-engineer-python-spark-had/",
+  "captured_at": "2021-01-22T18:06:53",
+  "posted": "2021-01-04",
+  "year": 2021,
+  "active": true,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:11+00:00",
+  "title": "Senior/Regular Data Engineer (Python, Spark, Hadoop)",
+  "company": "Luxoft",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Data Science",
+    "Kyiv",
+    "2 years of experience",
+    "English Upper Intermediate"
+  ],
+  "description": "As a part of data migration into Azure Cloud - extract data from Oracle Hive cluster, convert into Parquet format and load to the Azure Blob Storage.\nUtilize Spark for further data manipulations and analysis in a distributed manner.\nProject Description:\nAs a part of data migration into Azure Cloud - extract data from Oracle Hive cluster, convert into Parquet format and load to the Azure Blob Storage.\nUtilize Spark for further data manipulations and analysis in a distributed manner.\nResponsibilities:\n• Build the infrastructure required for optimal extraction, transformation, and loading of data from a wide variety of data sources using SQL and Azure 'big data' technologies;\n• Implement data flows connecting operational systems, BI systems, and the big data platform;\n• Build real-time, reliable, scalable, high-performing, distributed, fault tolerant systems;\n• Clean and transform data into a usable state for analytics. Build data dictionary;\n• Create data tools for analytics and data scientist team members that assist them in their ML endeavors;\n• Design and develop code, scripts and data pipelines that leverage structured and unstructured data;\n• Implement measures to address data privacy, security, compliance.\nMandatory Skills:\nHiveQL, Scala, Java, Apache HBase, Python, Kafka Streams, Big Data, Apache Kafka, Hadoop\n• Experience with designing data and analytics architectures in Microsoft Azure cloud;\n• Experience with Big Data technologies like Spark, Hadoop, Hive, HBase, Kafka etc.;\n• Fluency in several programming languages such as Python, Scala, Java, with the ability to pick up new languages and technologies quickly;\n• Experience with data warehousing, data ingestion, and data profiling;\n• Demonstrated teamwork, strong communication skills, and collaborative in complex engineering projects.\nNice-to-Have Skills:BS in computer science or related STEM field;\nAbout Luxoft\nLuxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.\nLuxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.\nCompany website:\n[link]\nDOU company page:\n[link]"
+}

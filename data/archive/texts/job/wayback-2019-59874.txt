@@ -1,0 +1,26 @@
+Senior Python Developer
+DataArt
+
+Our client is a global music and entertainment industry conglomerate headquartered in the US with offices in over 40 countries.
+The company plans to expand the team and run the following projects: processing tools for new artists and tracks, and A/R activity.
+Must have
+-3+ years of experience working with Python
+-Knowledge of Django and Flask
+-Experience in creating client-server applications and RESTful services
+-Good spoken English
+Would be a plus
+-Solid knowledge of MySQL and DynamoDB
+-Experience with HTML/CSS and JavaScript
+-Experience with version control systems: Git; Mercurial
+-Knowledge of Agile development methodologies
+About DataArt
+DataArt is a global technology consultancy that designs, develops and supports unique software solutions, helping clients take their businesses forward. Recognized for their deep domain expertise and superior technical talent, DataArt teams create new products and modernize complex legacy systems that affect technology transformation in select industries.
+DataArt has earned the trust of some of the world’s leading brands and most discerning clients, including Nasdaq, S&P, Travelport, Ocado, artnet, Betfair, and Apple Leisure Group among others. Organized as a global network of technology services firms, DataArt brings together expertise of over 2,600 professionals in 20 locations in the US, Europe, and Latin America.
+Company website:
+[link]
+
+Python
+Lviv
+Львов
+3 years or more
+English Intermediate

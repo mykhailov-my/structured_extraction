@@ -1,0 +1,43 @@
+Senior Python Developer
+21 Creative Agency
+
+We are an actively developing company and now we are looking for a Senior Python Developer. The domain is Gambling.
+Requirements:
+- 4+ years of experience as Software Engineer (minimum 2 years Python
+Software Engineer )
+- Deep understanding and using SOLID principles, patterns, and algorithm
+- Experience in designing database structures (both SQL NoSQL)
+- Experience in building a microservice architecture
+- Experience in building unit test architecture
+- Understanding the work of the HTTP protocol
+Will be a plus:
+- experience with next web frameworks Aiohttp, Tornado, Django
+- independence in decision making
+Responsibilities:
+- Development of a new project architecture based on your own experience and ideas
+- Changing existing project functionality to new technologies using service/ microservice approach.
+- Support for existing solutions
+- The leadership of the BackEnd team
+- Mentoring of new employees
+We offer:
+- Bonuses and other compensations
+- Competitive compensation level
+- Full-time job in a comfortable office
+- Interesting and challenging work in a dynamically developing company
+- Paid courses, training, conferences, and business trips
+- Paid vacation/sick leave
+- Free lunches and snacks
+About the project:
+Our main idea is a rejection of a monolithic project and moving all functionality to services /microservices. The monolithic project was done with Python 2.7 (Tornado) using technologies such as Redis, Postgresql, MongoDB. New services we create with actual Python, the last one was Python 3.8. As the result, we strive to completely abandon the monolith and transfer the project to separate services/microservices.
+About 21 Creative Agency
+Marketing & Advertising
+Креативное агенство / Дизайн / Видео / Фото / 3D / Маркетинг
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+3 years of experience
+English Intermediate

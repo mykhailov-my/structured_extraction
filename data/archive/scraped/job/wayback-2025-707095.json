@@ -1,0 +1,32 @@
+{
+  "doc_id": "wayback-2025-707095",
+  "url": "https://djinni.co/jobs/707095-python-developer-scraping-/",
+  "snapshot": "https://web.archive.org/web/20250207045903/https://djinni.co/jobs/707095-python-developer-scraping-/",
+  "captured_at": "2025-02-07T04:59:03",
+  "posted": null,
+  "year": 2025,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "Python Developer (Scraping)",
+  "company": "Dataforest",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from Intermediate",
+    "Only from 1 year of experience",
+    "Office or Remote",
+    "Countries of Europe or Ukraine",
+    "Countries where we consider candidates",
+    "Python",
+    "Python, Selenium, bs4, Data Scraping, Web Scraping, SQL, ETL, API",
+    "Domain: Machine Learning / Big Data",
+    "Outsource",
+    "Office:",
+    "Ukraine",
+    "(Kyiv)",
+    "Test task is needed"
+  ],
+  "description": "Looking for a Python Developer (Scraping) to join the Dataforest team. If you are looking for a friendly team, a healthy working environment, and a flexible schedule ‒ you have found the right place to send your CV. Ready to consider final year students with commercial experience.\nSkills & Qualifications:\n- 9+ months of commercial experience with Python.\n- Proficiency in web scraping, data extraction, cleaning, and visualization.\n- Experience with web automation techniques and tools.\n- Hands-on experience with relevant libraries and frameworks, including:- Playwright, playwright-stealth\n- Requests, aiohttp (for HTTP requests)\n- lxml, BeautifulSoup (for parsing and data extraction)\n- Strong understanding of multiprocessing and multithreading, including process and thread management.\n- Familiarity with Linux environments, cloud services (AWS, GCP), and Docker\n- Experience with bypassing bot detection and CAPTCHA-solving techniques.\n- Experience working with SQL databases (PostgreSQL, MySQL, or equivalent).\nKey Responsibilities:\n- Develop, maintain, and optimize web scraping and parsing solutions.\n- Design and implement APIs, ETL pipelines, and data integration services.\n- Work closely with Project Managers to address customer requirements and challenges.\n- Ensure performance optimization and efficiency of data collection pipelines.\n- Collaborate with team members, participate in meetings, brainstorming sessions, and code reviews.\n- Implement anti-bot evasion strategies to enhance scraping reliability.\nOptional Skills (Nice to Have):\n- Experience with NoSQL databases (MongoDB, Redis, or equivalent).\n- Knowledge of data analysis and processing using Pandas.\n- Experience with Flask / Flask-RESTful for API development.\n- Hands-on experience with CAPTCHA-solving services (2captcha, anticaptcha).\n- Experience with GUI automation tools like PyAutoGUI.\n- Knowledge of virtual display environments (e.g., xvfb, pyvirtualdisplay).\nWe offer:\n- Great networking opportunities with international clients, challenging tasks;\n- Building interesting projects from scratch using new technologies;\n- Personal and professional development opportunities;\n- Competitive salary nominated in USD;\n- Paid vacation and sick leaves, medical insurance;\n- Flexible work schedule;\n- Friendly working environment with minimal hierarchy;\n- Team building activities, corporate events."
+}

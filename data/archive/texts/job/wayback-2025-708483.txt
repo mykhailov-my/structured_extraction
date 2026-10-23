@@ -1,0 +1,32 @@
+Python Developer
+Project Simple AI
+
+Job Description
+Epic Charging is seeking a Middle Python Developer with a strong focus on customer support to join our team. In this role, you will develop and maintain software systems for electric vehicle charging while also assisting customers with technical inquiries. You will work in a remote setting (preferably based in Latin America or Canada) and must be able to work in U.S. time zones.
+Responsibilities
+- Software Development: Collaborate with the development team to design, develop, and maintain software solutions for electric vehicle charging systems.
+- Tech Stack Expertise: Utilize Python, Django, Celery, PostgreSQL, Redis, Docker, Kubernetes, and async.io to create robust and efficient applications.
+- Monitoring & Troubleshooting: Use Kibana and Sentry to monitor system performance, diagnose issues, and ensure seamless functionality.
+- Code Quality: Work closely with colleagues to ensure high-quality code and optimal system performance, including debugging, testing, and optimization of existing software.
+- Customer Support: Assist customers with technical inquiries, troubleshoot issues, and provide exceptional customer service.
+- Continuous Improvement: Stay up-to-date with industry best practices and emerging technologies, particularly in EV charging.
+- Collaboration: Actively contribute to code reviews and provide constructive feedback to team members.
+Qualifications
+- Experience: Minimum 3 years of professional experience as a Python developer, with a focus on backend applications.
+- Technical Skills:- Strong knowledge of Python, Django, Celery, PostgreSQL, Redis, Docker, and Kubernetes.
+- Experience with async.io for asynchronous programming and high-concurrency tasks.
+- Proficiency with Kibana and Sentry to monitor and troubleshoot production environments.
+- Availability: Full-time availability to ensure the successful completion of projects.
+- Electric vehicle Charging Knowledge (Advantage): Familiarity with specific EV charging protocols (e.g., OCPP, OCPI, etc.) is a plus.
+- Time Zone: Able to work in U.S. time zones.
+
+Only from Upper-Intermediate
+Required knowledge of Ukrainian
+Only from 3 years of experience
+Full Remote
+Canada, Argentina, Brazil
+Countries where we consider candidates
+Python
+Python, Django, PostgreSQL
+Domain: Automotive
+Agency

@@ -1,0 +1,47 @@
+Senior Data Engineer (Python)
+Adaptiq
+to $7000
+
+Who we are:
+Adaptiq is a technology hub specializing in building, scaling, and supporting R&D teams for high-end, fast-growing product companies in a wide range of industries.
+About the Product:
+Our client is a leading SaaS company offering pricing optimization solutions for e-commerce businesses. Its advanced technology utilizes big data, machine learning, and AI to assist customers in optimizing their pricing strategies and maximizing their profits.
+About the Role:
+As a data engineer you’ll have end-to-end ownership - from system architecture and software
+development to operational excellence.
+Key Responsibilities:
+● Design and implement scalable machine learning pipelines with Airflow, enabling efficient parallel execution.
+● Enhance our data infrastructure by refining database schemas, developing and improving APIs for internal systems, overseeing schema migrations, managing data lifecycles, optimizing query performance, and maintaining large-scale data pipelines.
+● Implement monitoring and observability, using AWS Athena and QuickSight to track performance, model accuracy, operational KPIs and alerts.
+● Build and maintain data validation pipelines to ensure incoming data quality and proactively detect anomalies or drift.
+● Collaborate closely with software architects, DevOps engineers, and product teams to deliver resilient, scalable, production-grade machine learning pipelines.
+Required Competence and Skills:
+To excel in this role, candidates should possess the following qualifications and experiences:
+● A Bachelor’s or higher in Computer Science, Software Engineering or a closely related technical field, demonstrating strong analytical and coding skills.
+● At least 5 years of experience as a data engineer, software engineer, or similar role and using data to drive business results.
+● At least 5 years of experience with Python, building modular, testable, and production-ready code.
+● Solid understanding of SQL, including indexing best practices, and hands-on experience working with large-scale data systems (e.g., Spark, Glue, Athena).
+● Practical experience with Airflow or similar orchestration frameworks, including designing, scheduling, maintaining, troubleshooting, and optimizing data workflows (DAGs).
+● A solid understanding of data engineering principles: ETL/ELT design, data integrity, schema evolution, and performance optimization.
+● Familiarity with AWS cloud services, including S3, Lambda, Glue, RDS, and API Gateway.
+Nice-to-Haves
+● Experience with MLOps practices such as CI/CD, model and data versioning, observability, and deployment.
+● Familiarity with API development frameworks (e.g., FastAPI).
+● Knowledge of data validation techniques and tools (e.g., Great Expectations, data drift detection).
+● Exposure to AI/ML system design, including pipelines, model evaluation metrics, and production deployment.
+Why Us?
+We provide 20 days of vacation leave per calendar year (plus official national holidays of a country you are based in).
+We provide full accounting and legal support in all countries we operate.
+We utilize a fully remote work model with a powerful workstation and co-working space in case you need it.
+We offer a highly competitive package with yearly performance and compensation reviews.
+
+Only from Upper-Intermediate
+Only from 5 years of experience
+$5000-7000
+Full Remote
+Ukraine, Poland, Portugal, Romania, Bulgaria
+Countries where we consider candidates
+Data Engineer
+SQL, Python, Data Engineer
+Domain: SaaS
+Outstaff

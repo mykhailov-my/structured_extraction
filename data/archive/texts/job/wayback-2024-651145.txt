@@ -1,0 +1,40 @@
+Senior Python Machine Learning Engineer
+Fluvius
+
+Required Skills:
+- Python, 5+ years of experience.
+- Machine Learning, 3+ years of experience.
+- Strong interest in music and music production.
+- Experience with generative AI, particularly in audio applications.
+- Proficiency in modifying open source models.
+- Experience in preparing and managing proprietary datasets.
+- Knowledge of cloud-based server configuration.
+- Understanding of hardware requirements for AI model training and deployment.
+- Upper-intermediate or Advanced level of spoken English.
+Responsibilities:
+- Modify existing open source models to fit specific project requirements.
+- Prepare and manage proprietary datasets for model training.
+- Collaborate on developing a user interface for seamless model integration.
+- Configure cloud-based servers for model training and output generation.
+- Provide consultancy on hardware purchases for AI model deployment.
+- Optimize hardware configurations for local model training efficiency.
+Project description:
+Join an award-winning music production company to integrate generative audio AI into innovative workflows. Work with a team of disruptive creators pushing the boundaries of generative audio AI adoption. This part-time, remote role involves modifying models, managing datasets, configuring servers and hardware, and collaborating on user-friendly interfaces.
+What we offer:
+- Healthy workplace environment
+- Strong and friendly development team
+- Competitive reward
+- Compensation for education
+- Flexible schedule
+
+Only from Upper-Intermediate
+from 5 years of experience
+Considering with 4.5 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+ML / AI, Data Engineer
+Python, Machine Learning, AI
+Employment: Part-time
+Domain: Other
+Outstaff

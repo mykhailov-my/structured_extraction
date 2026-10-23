@@ -1,0 +1,45 @@
+Middle/Senior Python developer
+StrongSD
+
+We are looking for a Senior Python developer who loves to build great products. If you love challenges and solving problems this is for you.
+We hope you have:
+— At least 5 years of work experience as a Back-end Developer or as a Full-stack Developer.
+— You have solid knowledge and production experience with Python.
+— Linux
+— You have experience PostgreSQL.
+— You are comfortable working with Git.
+— English as a must strong intermediate for daily communication and chatting.
+Like a plus:
+— You work with JS.
+— You have production experience with Solr, Pylons, Boostrap, jQuery or CSS a plus
+— Enthusiasm for Open Source, Open Data, and Open Knowledge
+— You have a structured working style.
+We offer:
+— Collaboration with highly motivated, talented, and inspirational team members.
+— Extensive remote work possibilities and flexible working schedules.
+— Unforgettable team buildings in different countries.
+— Business trips abroad.
+— Educational programs in English, as well as paid seminars, masterclasses, trainings, and world-class conferences.
+Duties:
+— Design, build, and maintain efficient, reusable, and reliable Python code.
+— Integration of user-facing elements with server-side logic.
+— Developing and documenting software design.
+— Identify bottlenecks and bugs, and devise solutions to these problems.
+— Help to maintain code quality and its automatization.
+— Working with various third party APIs to automate processes.
+— Contribute to all phases of the development lifecycle.
+— Drive continuous adoption and integration of new technologies.
+About StrongSD
+StrongSD is an international outsourcing company providing professional web and mobile development services for clients from the US, Singapore, and Western Europe.
+Our philosophy is “quality over quantity” and “people over money” in everything.
+StrongSD invests time and money to own products, contributing to open source projects and educational programs. We’re a mature team of 30 people with a great mix of previous professional experience. Our backgrounds are diverse, both culturally and professionally. One thing we all have in common, though, is that we are passionate about making StrongSD a successful IT company.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kharkiv
+Kharkiv, Lviv, Sumy
+5 years of experience
+English Upper Intermediate

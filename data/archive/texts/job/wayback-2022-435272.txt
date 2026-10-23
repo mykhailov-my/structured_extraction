@@ -1,0 +1,39 @@
+Python Engineer
+AgileEngine
+
+What about the project
+We’ve developed new solutions from scratch for a ticket distribution platform. Specifically, we’ve worked on full-cycle product development, from scope and requirements to architecture, implementation, DevOps, testing, refactoring, and performance optimizations.
+Another project we’ve contributed to is a food delivery application that partners with 9000+ restaurants in Australia, Austria, Canada, and Germany. We’ve implemented several architecture-level backend solutions, developed a mobile app, and fine-tuned UI design.
+With us, you can
+● Work in a dream team of A-players, 65% of whom are seniors
+● Create solutions that will be used by global giants like Paramount, IBM, Deloitte, Volkswagen, and others
+● Shape your success journey through a personalized growth roadmap tailored to your interests and goals
+● Embrace agility — forget about micromanagement and old-school hierarchies
+Our team is looking for someone who has
+● 1+ year of experience in software development
+● Experience with agile methodologies
+● Be adaptable to a fast-paced environment
+● Intermediate English level
+● Solution-focused thinking and an ownership mindset
+● Positive and open-minded style of communication
+● Elevated self-awareness and a desire to develop new skills
+About AgileEngine
+Where talent meets opportunity!
+AgileEngine is one of the Inc. 5000 fastest-growing companies in the US and a top-3 ranked dev shop according to Clutch. We’re always on the lookout for experienced and passionate software experts to build award-winning solutions that shape the way companies from over 15 industries operate.
+Our team consists of 600+ like-minded folks passionate about software development, design, quality assurance, data engineering, and product management. We have extensive experience in helping large enterprises and the most innovative startups succeed. In particular, our leadership team led R&D teams at Appian, FINRA, and VMware as well as delivered engineering excellence at Google, Airbnb, and Uber.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Category: Python
+Python, DevOps, Agile
+English: Intermediate
+1 year of experience
+Hybrid Remote
+Outsource
+Poland, Ukraine (Kyiv, Lviv, Odesa + 2 more cities )
+Only candidates from Europe and Ukraine
+Test task is needed

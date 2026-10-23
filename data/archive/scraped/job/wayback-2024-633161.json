@@ -1,0 +1,29 @@
+{
+  "doc_id": "wayback-2024-633161",
+  "url": "https://djinni.co/jobs/633161-python-developer/",
+  "snapshot": "https://web.archive.org/web/20240918144952/https://djinni.co/jobs/633161-python-developer/",
+  "captured_at": "2024-09-18T14:49:52",
+  "posted": null,
+  "year": 2024,
+  "active": false,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "Python Developer",
+  "company": "Luxoft",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from Upper-Intermediate",
+    "Only from 3 years of experience",
+    "Office or Remote",
+    "Ukraine",
+    "Countries where we consider candidates",
+    "Python",
+    "Domain: Other",
+    "Outsource",
+    "Office:",
+    "Ukraine"
+  ],
+  "description": "Project Description:\nOne of the world's largest providers of products and services to the energy industry has a need to develop and support cloud-based enterprise information system in Oil & Gas domain.\nOur project is stable, long-term and constantly adopts new technologies.\nWork supposes close cooperation with Customer team located in Houston and following Agile principles.\nOur team is senior, supportive and friendly.\nResponsibilities:\nDesign, develop, and maintain robust and scalable backend systems using Python, AWS Lambda functions, and GraphQL.\nCollaborate closely with cross-functional teams including front-end engineers, product managers, and designers to define and implement APIs that meet business requirements.\nBuild efficient and optimized GraphQL APIs that enable clients to retrieve data with minimal over-fetching or under-fetching.\nLeverage AWS services to architect and implement serverless solutions, utilizing Lambda functions for event-driven and microservices architectures.\nDevelop data processing pipelines, ETL processes, and real-time data streaming components using Python and AWS tools.\nOptimize and fine-tune backend systems for performance, reliability, and scalability.\nWork with DevOps teams to ensure smooth deployment and operation of backend services on AWS infrastructure.\nStay up-to-date with industry trends and emerging technologies, and apply best practices to continuously improve backend development processes.\nMandatory Skills Description:\nBachelor's degree in Computer Science, Engineering, or related field (or equivalent work experience).\n3+ years of experience\nProven experience as a Back-End Software Engineer, with a strong track record of designing and implementing backend solutions.\nProficiency in Python and a solid understanding of software design principles.\nExperience developing serverless applications using AWS Lambda functions.\nFamiliarity with AWS services such as API Gateway, DynamoDB, S3, and CloudFormation.\nStrong understanding of RESTful API design, microservices architecture, and event-driven programming.\nAbility to write clean, maintainable, and well-documented code.\nProblem-solving mindset with the ability to troubleshoot and debug complex backend issues.\nExcellent teamwork and communication skills, with the ability to collaborate effectively in a cross-functional environment.\nNice-to-Have Skills:\nIn-depth knowledge of GraphQL and its implementation principles.\nExperience with CI/CD pipelines and version control systems (e.g., Git) is a plus.\nLanguages:\nEnglish: B2 Upper Intermediate"
+}

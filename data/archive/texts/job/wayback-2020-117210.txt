@@ -1,0 +1,56 @@
+Senior Python Engineer
+AgileEngine
+
+We are looking for a highly skilled engineer interested in contributing to both server and client sides to join our team, deliver high-quality solutions, and become a driver and a key person to develop within the project.
+This role supposes working with the development and other teams to build out new features and improve existing ones, contribute to the technical excellence and professional growth of other team members.
+What do you need to have?
+● 3+ years of a web development experience
+● Working experience with Python and familiarity with application server frameworks like Django
+● Experience building production-hardened web services, with consideration for security, performance, scalability, reliability, and repeatability.
+● Solid knowledge of API design and service-oriented system architecture
+● Good experience rapidly prototyping new product concepts, especially for enterprise clients
+● Understanding of automated testing concepts in web apps and the ability to consistently apply them
+● Knowledge of database fundamentals like indexing, SQL queries, schema migrations, and managing backups
+● Strong intermediate or above spoken English
+Will be a plus:
+● Experience sustainably engineering Javascript applications, ideally with React and Typescript
+● Experience with GraphQL
+Job Responsibilities:
+● Build products that change the dynamics and incentives of the healthcare industry, changing a zero-sum game of competition between payers and providers into patient-centered collaboration.
+● Put data science magic (like predictive analytics and dynamic modeling) into our users’ hands through interactive features in collaboration with the Data Engineering & Data Science teams.
+● Build innovative and beautiful data visualizations that illuminate the path towards higher quality care at a lower cost.
+● Manage our high stakes production environment, ensuring high availability/low latency and protecting our sensitive data with rigorous security.
+● Identify big opportunities to improve our technology and our products, blazing trails through ambiguity.
+● Mentor more junior engineers and, in turn, learn from more senior engineers, because we are learners, not knowers, and growing Nuna’s people is the most reliable way to scale our impact.
+Technologies used on the Project
+● Python, Django, SQL, testing tools (e.g. pytest), GraphQL
+● JavaScript, TypeScript, React, module bundlers (e.g. Webpack), testing tools (e.g. Cypress, Jest), CSS, HTML
+● Linux, OS X
+What’s it like to work at AgileEngine?
+● Meaningful jobs
+Our engineers’ jobs revolve around is building business-critical products and features and architecture-level decision-making.
+● Investments in your growth
+AgileEngine covers training costs, encourages visiting conferences, and hosts tech talks. We believe that growth is a #1 priority for our people.
+● The compensation you’ll appreciate
+Great engineers deserve great compensation. We’re always ready to offer the best terms to rockstar developers.
+● Direct communication
+Our engineers communicate with our clients’ teams directly while working side by side with people from around the world.
+● Having fun together
+We ensure a healthy work-fun balance with things like rafting adventures, mountaineering, skiing and snowboarding trips, parties, and much more.
+Project description:
+Project mission is to make high-quality healthcare affordable for everyone. We are dedicated to tackling one of our nation’s biggest problems with ingenuity, creativity, and a keen moral compass.
+Project is committed to simple principles: a rigorous understanding of data, modern technology, and most importantly, compassion and care for our fellow human. We want to know what really works, what doesn’t, and why.
+We partner with healthcare payers, including government agencies and health plans, to turn data into learnings and information into meaning.
+As an engineering-led culture, you will be at the vanguard of making healthcare work for all Americans. Today, you’ll be helping hospitals improve quality of care, enabling health plans to pay for quality-of-care, not quantity-of-care, and matching patients to optimal doctors. Tomorrow, you’ll be creating even bigger and better products to shape this industry.
+About AgileEngine
+We are a fast growing company in Ukraine with offices in Kharkov, Kiev & Odessa. Our true selling point is the projects we have. We work with cool startups and innovative companies that have big ideas and budgets to implement them. This includes big names like LivingSocial with 90 million users, BleacherReport with 20 000 000 MAU or FunnyOrDie - famous Emmy-winning comedy video website and film/TV production company.
+Come grow with us!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+2 years of experience
+English Intermediate

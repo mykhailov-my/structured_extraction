@@ -1,0 +1,44 @@
+Senior Python Developer
+GlobalLogic
+
+GlobalLogic is looking for a Senior Python Developer to join its team.
+New social and digital channels are transforming how enterprises do business. However, this new technology brings new risks. Companies often lack adequate visibility to evaluate internal risk, let alone external cyber threats. Unauthorized accounts, compliance violations, brand impersonation, malware, spyware, account takeovers, and/or fake accounts may all go unnoticed, magnifying digital risks that can lead to brand damage, reputational harm, loss of revenue, massive fines & penalties, and litigation expense.
+Job Description:
+4+ years of experience with Python
+Experience developing web applications using Python
+SQL/NoSQL databases (PostgreSQL, Cassandra, Neo4J)
+Message brokers (RabbitMQ, Kafka)
+Experience creating CI/CD
+Ability to troubleshoot technical issues
+Good communication skills
+Upper-Intermediate English skills
+Nice to have (but not required):
+MLOps experience
+Airflow
+Experience in Machine Learning
+Job Responsibilities:
+Work closely with ML team
+Development of ML microservice
+Troubleshooting issues and problem solving as necessary
+About GlobalLogic
+GlobalLogic, a Hitachi Group Company, is a leader in digital product engineering. We help our clients design and build innovative products, platforms, and digital experiences for the modern world. We help our clients imagine what’s possible and accelerate their transition into tomorrow’s digital businesses. Headquartered in Silicon Valley, GlobalLogic operates design studios and engineering centers around the world.
+What is GlobalLogic in numbers:
+24,000+ engineers
+1,800+ products releases per year
+400+ active clients
+70+ private label customer labs
+35 product engineering centers
+14 countries
+Visit our website and learn more about GlobalLogic, view our open positions and career opportunities, as well as why you should join us!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Ukraine
+3 years of experience
+English Intermediate
+Only candidates from Ukraine
+Full Remote
+Outsource

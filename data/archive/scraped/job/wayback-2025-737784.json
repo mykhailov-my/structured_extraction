@@ -1,0 +1,30 @@
+{
+  "doc_id": "wayback-2025-737784",
+  "url": "https://djinni.co/jobs/737784-senior-python-developer/",
+  "snapshot": "https://web.archive.org/web/20250618181335/https://djinni.co/jobs/737784-senior-python-developer/",
+  "captured_at": "2025-06-18T18:13:35",
+  "posted": null,
+  "year": 2025,
+  "active": false,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "Senior Python developer",
+  "company": "TechMagic",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from Intermediate",
+    "Only from 5 years of experience",
+    "Office or Remote",
+    "Ukraine",
+    "Countries where we consider candidates",
+    "Python",
+    "Domain: Fintech",
+    "Outsource",
+    "Office:",
+    "Ukraine",
+    "(Kyiv, Lviv)"
+  ],
+  "description": "We are looking for a skilled Senior Python Developer to join a fast-growing fintech product team building an AI-powered platform that helps finance teams gain real-time cash visibility, automate reconciliation, and forecast cash flow—all powered by AI.\nRequirements:\n- 5+ years of experience as a backend engineer on large-scale projects\n- Strong Python 3.x skills (3+ years)\n- Experience with FastAPI, Flask, or Django\n- Knowledge of SQL and NoSQL databases (PostgreSQL, Redis)\n- Experience with AWS cloud infrastructure\n- Familiarity with API design and implementation\n- Solid understanding of software architecture, clean code principles, and testing\n- Intermediate English level or higher\nWill be a plus:\n- Experience in microservices architecture\n- Familiarity with Kubernetes and container orchestration\n- Knowledge of CI/CD tools (e.g., GitHub Actions, Jenkins)\n- Background in fintech or treasury management systems\n- Understanding of event-driven architectures and data streaming with Kafka\n- Exposure to AI/ML technology integrations\nResponsibilities:\n- Design and develop robust, scalable backend services\n- Architect cloud-native solutions in a distributed environment\n- Collaborate with data science teams to integrate AI into core features\n- Build and maintain RESTful APIs and microservices\n- Participate in code reviews and provide technical feedback\n- Work closely with the product and customer success teams to understand and solve user challenges\n- Cooperate with cross-functional teams including frontend, DevOps, and product\nProduct\nThe platform replaces Excel-based workflows with automated, real-time visibility into cash positions. Backed by top-tier VCs with $10M+ in funding, the team is building cutting-edge tools to support better financial decision-making.\nWork Schedule: Full-time working day in our office (flexible hours) or remote\nInterview stages:\n1-st stage — call with the Recruiter\n2-nd stage — interview with the Python developer and the Recruiter\n3-rd stage — client interview"
+}

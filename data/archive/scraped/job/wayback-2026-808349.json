@@ -1,0 +1,29 @@
+{
+  "doc_id": "wayback-2026-808349",
+  "url": "https://djinni.co/jobs/808349-python-software-engineer/",
+  "snapshot": "https://web.archive.org/web/20260308140643/https://djinni.co/jobs/808349-python-software-engineer/",
+  "captured_at": "2026-03-08T14:06:43",
+  "posted": "2026-03-02",
+  "year": 2026,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Python Software Engineer",
+  "company": "Data Science UA",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from 5 years of experience",
+    "Full Remote",
+    "Countries of Europe or Ukraine",
+    "Countries where we consider candidates",
+    "English B2 - Upper Intermediate",
+    "Ukrainian Native",
+    "Python",
+    "Employment: Fulltime",
+    "Domain: Machine Learning / Big Data",
+    "Product"
+  ],
+  "description": "Data Science UA is a service company with strong data science and AI expertise. Our journey began in 2016 with uniting top AI talents and organizing the first Data Science tech conference in Kyiv. Over the past 9 years, we have diligently fostered one of the largest Data Science & AI communities in Europe.\nAbout the role:\nWe are looking for a Python Software Engineer to join our team and help us build an on-premise software pipeline for real-time computer vision. The system ingests camera streams (primarily RTSP), stores frames in a shared data layer, runs CV/AI engines for preprocessing and inference, applies inference logic to produce decisions, and sends results to Database/Portal/Alerting/Control integrations.\nResponsibilities:\n- Build and maintain the Camera Module to reliably ingest RTSP streams, decode frames, and handle reconnect/keep-alive/packet loss.\n- Implement the Shared Data layer for raw and processed frame exchange across processes with backpressure and safe lifecycle management.\n- Integrate and operate CV/AI Engines in Python (preprocess, inference, postprocess) with configurable model loading and runtime selection.\n- Develop the Inference Logic layer that orchestrates cropping, batching, filtering, classification, and decision output formatting.\n- Implement connectors for Database & Portal (event persistence, evidence references) and for Alerting & Control (events/hooks for downstream automation).\n- Ensure production readiness on Linux with observability (logs/metrics), health checks, and robust error handling.\nRequirements:\nMust-have:\n- Strong Python, OOP, clean architecture, typing preferred.\n- Solid experience with multiprocessing/concurrency (process lifecycle, IPC patterns, queues/shared memory).\n- Comfortable working in Linux (systemd/service mindset, networking basics, profiling/debugging).\n- Familiarity with CV/AI tooling, and some related Python libraries such as numpy, opencv (cv2), and torch or tensorflow.\n- Ability to work with streaming data and reliability constraints (timeouts, retries, resource cleanup).\nShould-have:\n- Experience with RTSP/RTP streaming and common issues (UDP vs TCP interleaved, jitter, packet loss, camera timeouts).\n- Performance optimization (profiling, memory management, zero-copy patterns).\n- Exposure to inference acceleration stacks (TensorRT/OpenVINO) or GPU deployment.\n- Experience designing event schemas and integration with DB/message queues.\nWe offer:\n- Free English classes with a native speaker and external courses compensation;\n- PE support by professional accountants;\n- Medical insurance;\n- Team-building events, conferences, meetups, and other activities;\n- There are many other benefits you’ll find out at the interview."
+}

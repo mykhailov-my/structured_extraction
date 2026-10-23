@@ -1,0 +1,33 @@
+{
+  "doc_id": "wayback-2026-807011",
+  "url": "https://djinni.co/jobs/807011-junior-python-developer-ai-team/",
+  "snapshot": "https://web.archive.org/web/20260303023949/https://djinni.co/jobs/807011-junior-python-developer-ai-team/",
+  "captured_at": "2026-03-03T02:39:49",
+  "posted": "2026-02-24",
+  "year": 2026,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Junior Python Developer (AI Team)",
+  "company": "Ajax Systems",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from 1 year of experience",
+    "Office Work",
+    "Ukraine",
+    "Countries where we consider candidates",
+    "English B2 - Upper Intermediate",
+    "Ukrainian C1 - Advanced",
+    "Python",
+    "Employment: Fulltime",
+    "Domain: Hardware / IoT",
+    "Product",
+    "Office:",
+    "Ukraine",
+    "(Kyiv)",
+    "Test task is needed"
+  ],
+  "description": "Ajax Systems is an international tech company and the largest manufacturer of security systems in Europe, with over 4.5 million end users and 330K PRO users in more than 180 countries worldwide. The company offers end-to-end solutions for protecting homes and businesses оf any scale. To date, Ajax product portfolio includes 280 devices for intrusion protection, video surveillance, fire and life safety, and comfort and automation. The company employs 5, 000 specialists.\nWe’re looking for a Junior Python Developer to join our AI team, where you’ll help teach our video\ndevices to see more than just a picture — to distinguish specific objects in the frame, track their\nmovement and behavior, and recognize events and the people involved.\nThis role focuses on the practical engineering work that makes it all possible — sourcing,\nprocessing, and versioning training data across multiple formats and sources, developing internal\ntools that ML engineers rely on daily, and contributing to a complete ML platform for automated\ntraining, evaluation, and deployment.\nWhat we’re looking for\nMust have:\n• CS fundamentals — familiarity with common data structures and algorithms\n• Python skills — ability to write clean, maintainable code\n• Database fundamentals — understanding of different database types, core concepts like\nindexing, schemas, transactions, and SQL queries\n• Basic understanding of computer vision concepts\n• Experience working with common data formats — JSON, XML, YAML\nGood to have:\n• Experience with object detection frameworks\n• Familiarity with OpenCV, NumPy, Pandas, or similar data processing libraries\n• Exposure to MLOps tooling — experiment tracking, dataset versioning, data pipelines\nWe offer:\n• An opportunity to take on new challenges, advance your career, and make a meaningful impact.\n• Opportunity to be part of a fast-paced and dynamic environment that encourages creativity, critical thinking, and the exploration of new ideas."
+}

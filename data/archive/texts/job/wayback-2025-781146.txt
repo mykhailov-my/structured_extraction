@@ -1,0 +1,34 @@
+Python \ Angular (AI agents)
+King's Choice
+
+We are looking for an experienced Full Stack who codes daily, leverages Claude Code to accelerate development, leads the team, ensures quality, and builds automated tests for QA.
+This is a Claude Code–first position: you will spend most of your time coding, conducting code reviews, collaborating with AI, tracking sprint progress, and leading the team by example.
+What You’ll Build
+- AI agents for leasing, maintenance, HR, accounting, and marketing.
+- Real-time analytics dashboards for multi-property operations.
+- End-to-end automation of property management workflows.
+- Deep integrations with external services such as Yardi, Zillow, Apartments.com, and others.
+Responsibilities
+- Write fast, clean, and reliable code.
+- Use Claude Code daily to generate structured and production-ready code.
+- Review and approve pull requests (frontend + backend).
+- Create and maintain automated test suites.
+- Mentor developers and manage sprint progress.
+- Ensure transparency and accountability at every stage of development.
+Experience Requirements
+- Django/Python — 4+ years of commercial experience, including Django REST Framework.
+- Angular/TypeScript — 3+ years of experience developing complex Angular applications.
+- Claude Code — daily usage in production workflows.
+- AI Integrations — experience working with OpenAI, Anthropic, or similar APIs.
+- API Integrations — strong understanding of REST APIs and webhooks.
+- Databases — solid PostgreSQL knowledge (schema design and optimization).
+
+Only from 4 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B1 - Intermediate
+Python
+Employment: Fulltime
+Domain: Other
+Product

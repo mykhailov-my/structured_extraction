@@ -1,0 +1,37 @@
+AI / LLM Engineer (Python)
+CML Team
+
+We're seeking a talented AI Engineer to build production-ready AI features and help turn LLM ideas into reliable products for clients in the US and Europe. If you're experienced with RAG, AI agents, and LLM APIs and want to work on real-world AI products, we'd love to hear from you!
+Core Competence:
+- At least 3 years of professional experience in software development, with strong Python and production backend development skills, preferably with FastAPI or a similar framework.
+- Hands-on experience building RAG pipelines, including ingestion, chunking, embeddings, vector search, reranking, and citations.
+- Practical experience with OpenAI and/or Anthropic APIs, function calling, structured outputs, and multi-step AI agents.
+- Experience with vector databases such as Qdrant, pgvector, Pinecone, Weaviate, or similar technologies.
+- Solid knowledge of PostgreSQL, Docker, REST APIs, Git, and production software development practices.
+- Ability to communicate technical concepts and explain architectural trade-offs clearly to non-technical clients in English.
+Preferred Qualifications:
+- Experience with LangGraph, LangChain, LlamaIndex, or MCP servers.
+- Knowledge of LLM evaluation and tracing tools such as LangSmith, Langfuse, or similar.
+- Experience with voice agents, document AI, OCR, or related AI applications.
+- Experience with TypeScript / Next.js for building interfaces around AI features.
+- Upper-intermediate level of English for clear and effective communication with international clients.
+What We Offer You:
+- Competitive compensation aligned with your skills, experience, and career ambitions.
+- An innovative work environment with opportunities to build production AI products for clients in the US and Europe and work with modern AI technologies.
+- Direct communication with international clients and the opportunity to have a real impact on product and technical decisions.
+- Long-term cooperation with opportunities to move between projects and continue growing with the team.
+
+Необхідні навички
+PostgreSQL, Docker, Git, Django, FastAPI, REST API, SQL початковий рівень, Redis
+Вимоги до володіння мовами
+Англійська: B2 – Вище середнього
+
+Виключно від 3 років досвіду
+Тільки віддалено
+Країни Європи та Україна
+Країни, де розглядаємо кандидатів
+Англійська B2 – Вище середнього
+Python
+Зайнятість: Fulltime
+Домен: Machine Learning / Big Data
+Змішана (сервісно-продуктова)

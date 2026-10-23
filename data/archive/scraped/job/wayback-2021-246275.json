@@ -1,0 +1,26 @@
+{
+  "doc_id": "wayback-2021-246275",
+  "url": "https://djinni.co/jobs/246275-data-engineer-python-/",
+  "snapshot": "https://web.archive.org/web/20210622113830/https://djinni.co/jobs/246275-data-engineer-python-/",
+  "captured_at": "2021-06-22T11:38:30",
+  "posted": null,
+  "year": 2021,
+  "active": false,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:11+00:00",
+  "title": "Data Engineer (Python)",
+  "company": "TenViz",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Remote",
+    "Full Remote",
+    "Outstaff",
+    "1 year of experience",
+    "English Upper Intermediate",
+    "Ukraine only candidates 🇺🇦"
+  ],
+  "description": "We're looking for help in improving and innovating around our data workflow - particularly with ETL (extract, transform, load).\nYou would build an ETL Pipeline: search, load data from different sources (metadata) with different structures, design and update the database structure, clean and maintain data\nRequirements:\n- minimum one year of experience with SQL (PostgreSQL) and ETL process\n- experience working with Python/Django/Pandas/Numpy/Git\n- Intermediate English\nAbout TenViz Predictive Analytics\nTenViz is a FinTech product company, managed from NY, redefining the way people use their Mathematical/Statistical background in Ukraine.\nCompany website:\ntenviz.com\nDOU company page:\n[link]"
+}

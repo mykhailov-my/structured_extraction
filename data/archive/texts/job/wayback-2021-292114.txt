@@ -1,0 +1,57 @@
+Test Automation Engineer (Python)
+Luxoft
+
+• Working as a part of a testing team in Luxoft Automotive Account.
+• Our client is an American multinational automaker.
+• The main focus is to ensure the successful delivery of a quality product by writing and execution tests scenarios on a daily basis.
+Technologies used:
+Selenium
+HTML5, ReactJS
+Python
+Git
+Scrum
+Responsibilities:
+• Developing testing automation architecture
+• Automated test cases creation and implementation.
+• Testing and test automation for HTML5 based HMI;
+• Propose own ideas about testing process of developed solution;
+• Communication with developers, QAs and project owners;
+• Analyze business requirements, design documents for completeness and testability;
+• Execute test cases and update test documentation;
+• Create effective test reports and traceability matrix;
+• Review test failures and determine the sources of problems (test deficiencies, deviation from requirements, etc.)
+• Work with bug tracking system to record, trace and drive to resolution defects and issues discovered
+• Support development team in issues reproduction and root cause analysis
+• Report work progress continuously through attendance of daily & weekly project internal meetings
+Mandatory Skills Description:
+• Good experience in Python programing language.
+• Practical knowledge of Linux based OS
+• Practical knowledge of using Selenium
+• Practical knowledge of test methodologies, relevant standards, processes, and tools
+• Understanding of HTTP, TCP protocols
+• WebSocket understanding
+• Understanding of simulation approaches
+• Understanding of the Selenium Server architecture
+• Experience of working with Git, Jira, Test Rail
+• Analytical mind, willingness to understand complex systems and find their weaknesses
+• Be proactive, self-motivated, self-disciplined and ready for longterm cooperation
+Nice-to-Have Skills:
+• Practical knowledge of WEB HMI / HTML5 testing
+• Practical knowledge of V-Model of development and Automotive standards, e.g. ASPICE, AUTOSAR
+• Practical knowledge of In-Vehicle and communication interfaces, e.g. CAN, FlexRay
+• Participation and/or completion in testing certification programs (ISTQB, ISEB or tool specific certifications).
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA
+Kyiv
+Quarantine Remote
+Outsource
+2 years of experience
+English Upper Intermediate
+Ukraine only candidates 🇺🇦

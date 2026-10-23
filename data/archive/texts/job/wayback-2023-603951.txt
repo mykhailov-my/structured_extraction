@@ -1,0 +1,38 @@
+Junior Python developer
+U-SAVED Charity Organisation
+
+Junior Python developer для Благодійного фонду
+На проект: Система (Web додаток) для звітності донорам.
+Наразі розглядаємо тільки роботу в офісі в місті Дніпро.
+Вимоги:
+- Навички програмування Python.
+- Знання фреймворку Django, Django Rest Framework.
+- Досвід інтеграції баз даних (SQL та/або NoSQL).
+- Базові навички верстки за допомогою Bootstrap HTML.
+- Досвід або інтерес до роботи з картами (Leaflet.js, Folium).
+- Досвід роботи з REST API, основи HTTP.
+- Вміння писати модульні тести (Pytest, unittest).
+- Базові навички використання Git.
+- Досвід роботи з Pandas
+Пропозиція:
+Унікальний проект, який приносить реальну користь.
+Чудова можливість розпочати кар'єру та швидко освоїти нові навички.
+Графік роботи: 09:00-18:00, офіс Дніпро.
+Якщо ти вмотивований, готовий вчитися та брати участь у реальних проектах, ми чекаємо тебе в нашу команду!
+Будь ласка, надішліть своє резюме та зразки робіт (за наявності)
+About U-SAVED Charity Organisation
+First and foremost, U-SAVED is a network that aims to federate solidarity actions in order to join those who donate and those who receive. The organization is based on a French and a Ukrainian international NGO created in the first weeks of the conflict and which federate different volunteer movements to help the civilian population victims of the war. U-SAVED was created by humanitarian professionals and Ukrainians who share the desire to act quickly and efficiently in the current humanitarian emergency that is facing the country. It is also the result of the impulsive efforts of Ukrainians who organized themselves to face the horrors of war. U-SAVED catalyzes and applies this incredible energy to respond to humanitarian needs.
+Company website:
+[link]
+
+Python
+Dnipro
+Category: Python
+Python , Django , Django Rest Framework , Django REST API , Postgres , Bootstrap , Pandas
+English: Intermediate
+1 year of experience
+Domain: Education
+Office Work
+Product
+Ukraine (Dnipro)
+Only candidates from Ukraine

@@ -1,0 +1,33 @@
+Backend Engineer (Golang, Ruby, Python, Java, C#), only Poland
+Adaptiq
+$5000-6500
+
+Join Our Team at Gett - Ground Transportation Solution!
+Gett has been driving innovation in ground transportation for over 12 years, expanding globally across Europe and the United States. We're not just a ride-hailing solution; we're a comprehensive Ground Transportation Solution, partnering with Fortune 500 companies and serving over 17K active business customers worldwide. Join our top-notch R&D team, developing a microservices-based system in Golang, running on AWS, and leveraging ML to provide the best transportation solution for our customers while maximizing performance.
+Responsibilities:
+We're seeking a talented backend engineer to join our collaborative and growing development team. As a core member, you'll shape critical technical decisions, ensuring scalability and performance through robust code and architecture. Dive into the world of mobility and transportation, building cutting-edge features on our next-gen product with the latest tech stack. Plus, enjoy an awesome working environment and great terms for the right candidates!
+Ideal Candidate:
+Passion for Backend development and engineering culture
+Drive for learning and exploring new technologies
+Positive & Proactive "CAN DO" attitude
+True team player ready to thrive in a collaborative environment
+Requirements:
+3+ years of experience in developing server-side applications
+Highly proficient in a modern programming language (Golang, Ruby, Python, Java, C#)
+Strong understanding of database design and query optimization
+Experience in maintaining production environments at scale
+Knowledge of large scale distributed systems and microservices architecture (Strong advantage)
+Familiarity with AWS or other Cloud providers (Advantage)
+Ability to learn new technologies and lead features end-to-end
+
+Development
+Java
+Only from Upper-Intermediate
+Only from 3 years of experience
+Only $5000-6500
+Java, Golang
+Backend development, Go, Java, Python, Ruby, C#, Database design
+Domain: Other
+Full Remote
+Outstaff
+Poland

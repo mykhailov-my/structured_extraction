@@ -1,0 +1,33 @@
+Senior Python Software Engineer
+Recruit Alliance
+
+We are looking for a Senior Python Software Engineer for the Swiss software company
+You will be responsible for engineering backend services for enterprise consumption in a cloud stack
+Requirements:
+At least 10 years of hands-on experience with software development
+General knowledge of back-end web development
+Experience with Python - 5+ years
+General principles of modular and concurrent programming, MySQL Alchemy
+Continuous Integration/Delivery
+Modern deployment technics (Ansible, Docker)
+Master or Ph.D. degree in mathematics, physics, Computer Science, or a quantitative field
+Good communication skills (in English)
+Responsibilities:
+Engineering backend services for enterprise consumption in a cloud stack
+Assist a global team of developers in utilizing the best-in-practice architecture, database, and design patterns in web development
+We propose:
+Full-time long term job
+Strong team
+REMOTE only
+About Recruit-Alliance
+Recruit Alliance is a strategic partner in the field of HR consulting starting from 2000
+Company Mission is to contribute to the development of Ukrainian and foreign companies by providing quality services in the field of HR consulting.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Remote
+5 years of experience
+English Intermediate

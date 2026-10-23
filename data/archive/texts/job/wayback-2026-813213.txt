@@ -1,0 +1,35 @@
+Trainee Python Engineer
+GlobalLogic
+
+Job Description
+- Good Python knowledge
+- Technical background, analytical mind with solid investigation skills
+- Good knowledge of SQL fundamentals
+- OOP knowledge
+- REST APIs knowledge and experience is nice to have
+- At least intermediate English level
+- Responsible and dedicated, motivated, team player
+- Good communication skills
+- Ability to learn new technologies quickly
+Job Responsibilities
+- Development of new features and maintenance to existing and new services
+- Developing server-side APIs and integrating them with front-end apps
+- Performing writing clean, efficient, and well-documented code
+- Product analysis and improvement
+- Participating in code reviews and ensuring coding standards are followed
+- Contributing to team processes
+- Communication with clients and team members
+Department/Project Description
+Our customer owns and operates several of the most popular and award-winning brands in cable television in USA producing and delivering distinctive, compelling and culturally relevant content that engages audiences across multiple platforms.
+The main essence of the project is to load and manage revenue statements from various digital streaming and EST providers.
+
+No experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+Employment: Fulltime
+Domain: Media
+Outsource

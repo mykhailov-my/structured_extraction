@@ -1,0 +1,61 @@
+Python Developer
+S-PRO
+
+Industry and technology expertise is our strength. Research & Development is our energy.
+With every project, we focus on a business need and deep-diving to clients’ core issues. Only after this analysis can we start development. This approach guarantees delivery of just the right product to our customers and minimizes idle work for our team.
+We are looking for an experienced Python Developer to join our team.
+Project is a leading data analysis platform that provides unique market insights to help greener energy companies build, finance and operate the energy system of the future.
+Skills Must have
+— 3+ years working experience with Django3, Django rest, Django admin UI;
+— Understands the MVC;
+— Experience with Docker;
+— Experience with API;
+— CI/CD understanding;
+— Experience using Celery for asynchronous task queues (with Redis/RabbitMQ/etc);
+— Experience with AWS infrastructure, boto3;
+— Working in Agile Scrum teams, JIRA and Git;
+— Experience in swagger, APIdocs.
+What we offer:
+— Long team focus: we create an environment of transparent communication, minimal bureaucracy, which leads to long-term relationships. Average term of work in the company is 24 months.
+— Development of niche expertise: we are working in several niches, such as, FinTech, healthcare, and logistics. Therefore, our employees can develop their own expertise in these domains.
+— Continuous learning: we create employee development plans / personal roadmaps /quick promotion process. The Learning and Development department implements on-the-job training. We have a knowledge base for team members, which is a virtual space with lots of videos of seminars, purchased lectures by external speakers, as well as documents describing work processes.
+— Internal career development: 80% of our current executives were promoted to those positions within S-PRO. We encourage initiative. If a person wants to set new challenges and grow, we will definitely support them.
+Benefits and perks:
+— Flexible schedule: you can start the workday at any time from 8 to 11 in the morning.
+— Hybrid work model: decide for yourself where you want to work: from our stylish and comfortable offices, your cozy home, or anywhere else.
+— Medical insurance: all our employees who have passed the probationary period are now registered in our health insurance program.
+— Paid vacations: so, we need to make sure that our employees regularly take vacations and don’t overwork.
+— Regular salary reviews.
+— Compensation for external training: we encourage the desire of specialists to develop by paying 50% of the cost of professional courses and conferences. And if someone successfully completes a course and receives a certificate, they may receive 100% compensation.
+Do not hesitate and send your CV!
+About S-PRO
+S-PRO is a global IT partner with local business advisors that works as an R&D center, combining deep technology expertise across mobile, data, and cloud solutions with domain-specific knowledge. We consult on how to use modern technologies in the FinTech, healthcare, renewable energy, transportation and logistics, manufacturing, and eLearning industries.
+Thanks to this, our employees can:
+- develop expertise in these fields
+- be involved in the development of large global businesses
+- advise clients and directly influence their businesses
+Quick facts & numbers
+- 250+ team members
+- 8+ years of full-cycle development experience
+- S-PRO Academy, Node.js course
+Our expertise
+- Software Engineering
+- Product Design
+- Mobile App Development
+- Cloud Engineering
+- Data Science
+- Blockchain Development
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Category: Python
+Python, Python / Django
+English: Intermediate
+3 years of experience
+Full Remote
+Outsource
+Armenia, Poland, Ukraine (Zaporizhzhia, Kyiv)

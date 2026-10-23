@@ -1,0 +1,47 @@
+Senior Python Developer
+Luxoft
+
+Our Client is one of the largest in UK groceries and general merchandise retailer is in the middle of transformation to technology Company in retail.
+Responsibilities:
+- Heavy involvement in design, early prototyping and transformation of them into consumer features
+- Development of new services from scratch
+- Architecture of new end-to-end features for seamless and modern customer and employee journey
+- Performance optimisation of high load systems
+- Usage of best practices for clean and maintainable code
+- Participation in peer-to-peer reviews
+- Usage of innovative and latest trends and frameworks
+- Active role in self managed Agile environment
+Mandatory Skills Description:
+Ideal candidate is the one who has at least 8+ years of experience in enterprise grade software development where he/she must have used his skills like:
+1. PYTHON (mid to advance level)
+2. NLP (Good to have NLP/NLU experience)
+3. Minimum understanding of Machine Learning concept is good to have
+4. Database like SQL and No-SQL is a must for sure between basic to intermediate level (PostgreDB and MongoDB are plus).
+5. Software engineering standard practices are a must as he has to work in enterprise level application development.
+6. Development of chatbot experience is nice to have for sure.
+7. Experience with microfrontend
+8. Unit, Integration and Acceptance testing of developed code
+9. Understanding of GoF patterns, SOLID principles
+10. Proven spoken English
+11. RASA framework
+Nice-to-Have Skills:
+- Experience in TDD and BDD
+- Cucumber framework
+- Experience with Azure Cloud on basic level
+Languages:
+English: B2 Upper Intermediate
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Ukraine
+5 years of experience
+English Upper-Intermediate
+Ukraine only candidates 🇺🇦
+Full Remote
+Outsource

@@ -1,0 +1,29 @@
+{
+  "doc_id": "wayback-2025-729413",
+  "url": "https://djinni.co/jobs/729413-senior-data-engineer-python-/",
+  "snapshot": "https://web.archive.org/web/20250422234454/https://djinni.co/jobs/729413-senior-data-engineer-python-/",
+  "captured_at": "2025-04-22T23:44:54",
+  "posted": "2025-04-11",
+  "year": 2025,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "Senior Data Engineer (Python)",
+  "company": "Adaptiq",
+  "salary": "to $7000",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from Upper-Intermediate",
+    "Only from 5 years of experience",
+    "$5000-7000",
+    "Full Remote",
+    "Ukraine, Poland, Portugal, Romania, Bulgaria",
+    "Countries where we consider candidates",
+    "Data Engineer",
+    "SQL, Python, Data Engineer",
+    "Domain: SaaS",
+    "Outstaff"
+  ],
+  "description": "Who we are:\nAdaptiq is a technology hub specializing in building, scaling, and supporting R&D teams for high-end, fast-growing product companies in a wide range of industries.\nAbout the Product:\nOur client is a leading SaaS company offering pricing optimization solutions for e-commerce businesses. Its advanced technology utilizes big data, machine learning, and AI to assist customers in optimizing their pricing strategies and maximizing their profits.\nAbout the Role:\nAs a data engineer you’ll have end-to-end ownership - from system architecture and software\ndevelopment to operational excellence.\nKey Responsibilities:\n● Design and implement scalable machine learning pipelines with Airflow, enabling efficient parallel execution.\n● Enhance our data infrastructure by refining database schemas, developing and improving APIs for internal systems, overseeing schema migrations, managing data lifecycles, optimizing query performance, and maintaining large-scale data pipelines.\n● Implement monitoring and observability, using AWS Athena and QuickSight to track performance, model accuracy, operational KPIs and alerts.\n● Build and maintain data validation pipelines to ensure incoming data quality and proactively detect anomalies or drift.\n● Collaborate closely with software architects, DevOps engineers, and product teams to deliver resilient, scalable, production-grade machine learning pipelines.\nRequired Competence and Skills:\nTo excel in this role, candidates should possess the following qualifications and experiences:\n● A Bachelor’s or higher in Computer Science, Software Engineering or a closely related technical field, demonstrating strong analytical and coding skills.\n● At least 5 years of experience as a data engineer, software engineer, or similar role and using data to drive business results.\n● At least 5 years of experience with Python, building modular, testable, and production-ready code.\n● Solid understanding of SQL, including indexing best practices, and hands-on experience working with large-scale data systems (e.g., Spark, Glue, Athena).\n● Practical experience with Airflow or similar orchestration frameworks, including designing, scheduling, maintaining, troubleshooting, and optimizing data workflows (DAGs).\n● A solid understanding of data engineering principles: ETL/ELT design, data integrity, schema evolution, and performance optimization.\n● Familiarity with AWS cloud services, including S3, Lambda, Glue, RDS, and API Gateway.\nNice-to-Haves\n● Experience with MLOps practices such as CI/CD, model and data versioning, observability, and deployment.\n● Familiarity with API development frameworks (e.g., FastAPI).\n● Knowledge of data validation techniques and tools (e.g., Great Expectations, data drift detection).\n● Exposure to AI/ML system design, including pipelines, model evaluation metrics, and production deployment.\nWhy Us?\nWe provide 20 days of vacation leave per calendar year (plus official national holidays of a country you are based in).\nWe provide full accounting and legal support in all countries we operate.\nWe utilize a fully remote work model with a powerful workstation and co-working space in case you need it.\nWe offer a highly competitive package with yearly performance and compensation reviews."
+}

@@ -1,0 +1,45 @@
+Cyrebro - Back End Engineer (Python)
+SD Solutions
+
+Responsibilities:
+Integrate platform to other products.
+Work as part of a scrum team.
+Partake in the overall detailed design and planning activities.
+Implement code.
+Implement unit and API tests.
+Partake in troubleshooting problems within engineering and production tiers.
+Requirements:
+3+ years as a Backend Engineer.
+Experience with Python and OOP.
+Experience with microservices.
+Experience with Cloud tech stack such as AWS, ECS, Lambda, Dockers & Containers.
+Experience with working in Agile Scrum methodology.
+Experience with high-performance, multiprocess / thread, and event-driven programming/architecture.
+Confidence in learning new languages and platforms.
+Advantages:
+Experience with rational databases & SQL.
+Experience with ORM such as SQLAlchemy, Django.
+About the product:
+Cyrebro is an online cybersecurity central command-managed SOC that integrates all security events with strategic monitoring proactive threat intelligence and rapid incident response. The platform makes it easy to see and maintain an accurate and meaningful picture of cyber intelligence solutions posture in one centralized platform.
+Cyrebro also simplifies cybersecurity with full, rapid clarity for even the most complex situations to make the right business decisions, quickly. It also radically reduces investigation time into malicious attacks from days to hours, and minutes to instant. 93% of attacks compromise systems within minutes.
+About SD Solutions
+SD Solutions is Kyiv based outstaffing company with its clients located in Israel, UK and US. Our turnkey staffing services include providing professional developers, development teams, and research & development centers. We are looking for candidates that will work for different Israeli, UK and USA data-driven companies that are engaged in various areas of the IT domain.
+• You could improve your English, cause all correspondence is going to be in English.
+• Work from home (part of the vacancies are full remote)
+• Come and meet your team fellows in Israel. (after about a year)
+P.S.: Our office is located near the Golden Gate metro, but what is more important, we have a truly friendly atmosphere.
+Join us today!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Category: Python
+English: Intermediate
+3 years of experience
+Full Remote
+Outstaff
+Ukraine (Kyiv) , Georgia, Cyprus
+Only candidates from Ukraine

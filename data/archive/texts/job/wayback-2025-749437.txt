@@ -1,0 +1,42 @@
+Senior Backend Engineer (JavaScript and Python) for Iris Finance
+Lumnix
+
+About Iris Finance
+Iris Finance is a venture-backed AI-powered platform built specifically for consumer brands. It connects to sources like banks, POS systems, and advertising platforms to deliver daily profit & loss snapshots, cash flow plans, and peer benchmarking - all in real time. With integrations across finance, e‑commerce, and marketing tools, Iris provides the clarity and automation brands need to grow confidently
+What You’ll Do
+- Design, implement, and maintain core backend services using JavaScript and Python.
+- Deliver end-to-end integrations, owning the full lifecycle from design and architecture through implementation and deployment.
+- Make architecture decisions - defining data models, and ensuring systems are scalable, maintainable, and secure.
+- Build and manage reliable API endpoints, ensuring smooth data flow between internal systems.
+- Write clean, well-tested code to process and transform financial data.
+- Monitor service health, troubleshoot issues, and ensure system reliability and performance.
+- Partner with product, data, and frontend teams to define integration requirements and API contracts.
+- Create tools and dashboards to track system usage, performance, and data integrity.
+- Review and improve code quality, and contribute to best practices in testing, documentation, and deployment.
+What We’re Looking For
+- Demonstrated ability to work independently - managing your own workload, making decisions, and delivering results without heavy oversight.
+- 4+ years of professional experience in software engineering, focused on back-end, integration, or data engineering roles.
+- Proficiency in JavaScript (Node.js) and Python, with experience building RESTful APIs.
+Hands-on integration experience with external APIs (OAuth, pagination, webhook handling, rate limiting, retries, etc.).
+- Strong data modeling skills — familiarity with JSON, SQL/NoSQL, schemas, data validation, and transformations.
+- Experience with cloud infrastructure (AWS, GCP, or similar) and containerization (Docker, Kubernetes).
+- Excellent debugging and monitoring practices: logging, metrics, tracing, and automated alerting.
+- Strong communication & collaboration skills; ability to work with cross-functional teams.
+- Bonus: Familiarity with financial systems (accounting platforms, bank APIs, POS systems) and ML-enhanced data pipelines.
+What We Offer
+- Competitive salary aligned with market standards, with annual salary reviews.
+- A friendly, collaborative startup environment where you can drive impact in a mission-critical space for growing consumer brands.
+- High-growth opportunity - join early and help shape a cutting-edge product used by high-velocity, finance-driven companies.
+- Access to modern tech stack, including serverless/cloud-native solutions, event-driven pipelines, and experimentation with LLMs/AI for data validation.
+- Generous time off, flexible work arrangements, and commitment to work-life balance.
+
+Only from Upper-Intermediate
+Only from 5 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+Python
+Python, Git, Docker, REST API, Node.js
+Domain: Fintech
+Startup
+Test task is needed

@@ -1,0 +1,44 @@
+Python Developer
+Luxoft
+
+Project Description:
+One of the world's largest providers of products and services to the energy industry has a need to develop and support cloud-based enterprise information system in Oil & Gas domain.
+Our project is stable, long-term and constantly adopts new technologies.
+Work supposes close cooperation with Customer team located in Houston and following Agile principles.
+Our team is senior, supportive and friendly.
+Responsibilities:
+Design, develop, and maintain robust and scalable backend systems using Python, AWS Lambda functions, and GraphQL.
+Collaborate closely with cross-functional teams including front-end engineers, product managers, and designers to define and implement APIs that meet business requirements.
+Build efficient and optimized GraphQL APIs that enable clients to retrieve data with minimal over-fetching or under-fetching.
+Leverage AWS services to architect and implement serverless solutions, utilizing Lambda functions for event-driven and microservices architectures.
+Develop data processing pipelines, ETL processes, and real-time data streaming components using Python and AWS tools.
+Optimize and fine-tune backend systems for performance, reliability, and scalability.
+Work with DevOps teams to ensure smooth deployment and operation of backend services on AWS infrastructure.
+Stay up-to-date with industry trends and emerging technologies, and apply best practices to continuously improve backend development processes.
+Mandatory Skills Description:
+Bachelor's degree in Computer Science, Engineering, or related field (or equivalent work experience).
+3+ years of experience
+Proven experience as a Back-End Software Engineer, with a strong track record of designing and implementing backend solutions.
+Proficiency in Python and a solid understanding of software design principles.
+Experience developing serverless applications using AWS Lambda functions.
+Familiarity with AWS services such as API Gateway, DynamoDB, S3, and CloudFormation.
+Strong understanding of RESTful API design, microservices architecture, and event-driven programming.
+Ability to write clean, maintainable, and well-documented code.
+Problem-solving mindset with the ability to troubleshoot and debug complex backend issues.
+Excellent teamwork and communication skills, with the ability to collaborate effectively in a cross-functional environment.
+Nice-to-Have Skills:
+In-depth knowledge of GraphQL and its implementation principles.
+Experience with CI/CD pipelines and version control systems (e.g., Git) is a plus.
+Languages:
+English: B2 Upper Intermediate
+
+Only from Upper-Intermediate
+Only from 3 years of experience
+Office or Remote
+Ukraine
+Countries where we consider candidates
+Python
+Domain: Other
+Outsource
+Office:
+Ukraine

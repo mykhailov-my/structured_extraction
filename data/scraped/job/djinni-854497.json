@@ -1,0 +1,27 @@
+{
+  "doc_id": "djinni-854497",
+  "url": "https://djinni.co/jobs/854497-senior-wordpress-developer/",
+  "category": "WordPress",
+  "published": "Wed, 21 Oct 2026 16:48:26 +0300",
+  "collected_at": "2026-10-22T16:50:35+00:00",
+  "title": "Senior WordPress Developer",
+  "company": "Intetics",
+  "salary": "",
+  "skills": [],
+  "languages": [
+    "Англійська: B2 – Вище середнього"
+  ],
+  "facts": [
+    "Виключно від 5 років досвіду",
+    "Тільки віддалено",
+    "Країни Європи та Україна",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська B2 – Вище середнього",
+    "WordPress",
+    "Зайнятість: Fulltime",
+    "Домен: Other",
+    "Змішана (сервісно-продуктова)",
+    "Є тестове завдання"
+  ],
+  "description": "Intetics Inc., a leading American technology company specializing in custom software application development, distributed professional teams creation, software product quality assessment, and “all-things-digital” solutions, is looking for a Senior WordPress Developer to join its innovative team.\nProject Responsibilities\nBuild and maintain custom themes, plugins, and Gutenberg blocks across a portfolio of high-traffic, multilingual WordPress sites\nDevelop and maintain libraries, block collections, Composer packages, and tooling that accelerate delivery across teams\nOwn quality and performance: refactor legacy code, optimize queries and caching, and improve Core Web Vitals metrics\nBuild and consume REST APIs and integrations with internal and third-party systems\nTake part in code reviews, CI/CD improvements, and engineering standards initiatives\nCollaborate with product, marketing, SEO, content, and QA teams on new features and site improvements\nDocument technical decisions and contribute to engineering best practices\nEnsure software development best practices and timely product delivery\nCandidate's Portrait\nWe're looking for a Senior WordPress Developer who treats WordPress as a modern engineering platform rather than a traditional CMS. You'll help build and scale high-traffic multilingual web platforms while maintaining high standards of performance, security, scalability, and code quality. The ideal candidate cares about architecture as much as feature delivery and writes code that other developers are happy to maintain.\nMust-haves:\n5+ years of WordPress development experience\nStrong Object-Oriented PHP (8.x) skills\nExperience with namespaces, PSR standards, and Composer\nDeep knowledge of WordPress Core APIs\nStrong understanding of hooks, custom post types, taxonomies, WP_Query, and metadata APIs\nExperience with ACF Pro and native custom fields\nSolid production experience building Gutenberg blocks\nReact and JSX development experience\nExperience with block.json and wordpress/scripts\nStrong modern JavaScript (ES6+)\nExperience with Webpack or Vite\nModern CSS development (Sass, PostCSS)\nExperience designing and building RESTful APIs\nExperience creating custom WordPress REST endpoints\nStrong understanding of WordPress security best practices\nExperience with sanitization, escaping, nonces, and user capabilities\nWordPress performance optimization expertise\nObject caching and query optimization experience\nComfortable with Git-based workflows, pull requests, and CI/CD pipelines\nExperience working in AI-assisted development environments (Copilot, Cursor, Claude Code, etc.)\nGood written and spoken English\nNice-to-have:\nBlock Themes\nFull Site Editing (FSE)\ntheme.json\nWordPress Interactivity API\nBedrock or similar Composer-based WordPress structures\nPHPUnit\nPlaywright\nPHPStan\nPHPCS / WPCS\nTimber / Twig\nBlade templating\nWordPress Multisite\nWPML\nPolylang\nHeadless WordPress\nWPGraphQL\nNext.js\nAccessibility (WCAG 2.2)\nTechnical SEO\nExperience with enterprise content platforms\nExperience with high-traffic web applications"
+}

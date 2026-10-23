@@ -1,0 +1,32 @@
+{
+  "doc_id": "wayback-2026-848629",
+  "url": "https://djinni.co/jobs/848629-software-engineering-team-lead-python/",
+  "snapshot": "https://web.archive.org/web/20260917210512/https://djinni.co/jobs/848629-software-engineering-team-lead-python/",
+  "captured_at": "2026-09-17T21:05:12",
+  "posted": "2026-09-16",
+  "year": 2026,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Software Engineering Team Lead (Python)",
+  "company": "Adaptiq",
+  "salary": "",
+  "skills": [],
+  "languages": [
+    "English: B2 - Upper Intermediate",
+    "Ukrainian: Native"
+  ],
+  "facts": [
+    "Only from 6 years of experience",
+    "Full Remote",
+    "Countries of Europe or Ukraine",
+    "Countries where we consider candidates",
+    "English B2 - Upper Intermediate",
+    "Ukrainian Native",
+    "Tech Leadership",
+    "Employment: Fulltime",
+    "Domain: Security",
+    "Outstaff"
+  ],
+  "description": "Who we are:\nAdaptiq is a technology hub specializing in building, scaling, and supporting R&D teams for high-end, fast-growing product companies in a wide range of industries.\nAbout the Product:\nA cloud-based cybersecurity technology company developing a platform that helps enterprises identify, assess, and manage security risks across complex environments. The product processes large volumes of security data and uses advanced analytics and AI to surface potential threats, support risk assessment, and help security teams make better-informed decisions. The company works with international customers and continues to expand its product and market presence.\nAbout the Role:\nWe’re looking for a hands-on Software Engineering Team Leader (Python) who will lead the engineering team, drive technical and architectural decisions, and remain actively involved in coding, debugging, code reviews, and performance optimization. You’ll be responsible for the end-to-end delivery of new capabilities while maintaining high standards of quality, reliability, and scalability.\nIn addition to technical leadership, you’ll establish clear team goals and use relevant KPIs and engineering metrics to evaluate progress, improve delivery predictability, identify bottlenecks, and support the professional development of team members.\nYou’ll work closely with product and engineering stakeholders to translate complex requirements into practical, maintainable solutions. We’re looking for a collaborative, solution-oriented leader who takes ownership, communicates openly, and focuses on resolving challenges rather than creating unnecessary complexity or escalation.\nThe ideal candidate is also open to the thoughtful adoption of AI-assisted engineering tools and practices, and is interested in exploring how AI can improve development speed, code quality, testing, documentation, and team effectiveness.\nKey Responsibilities:\n- Drive architecture design and technology roadmap for a cloud-native analytics platform.\n- Develop, review, and optimize Python code for large-scale data pipelines and real-time processing.\n- Lead end-to-end feature implementation, from specification through deployment and monitoring.\n- Take ownership of technical execution and end-to-end feature delivery.\n- Collaborate with product management and cross-functional teams to refine requirements and deliver clean, reliable solutions.\n- Mentor and manage a team of senior engineers, including three backend and two frontend specialists.\n- Implement performance tuning, debugging, and resource optimization in AWS, Docker, and Kubernetes environments.\n- Establish and track KPIs and metrics to measure team effectiveness and drive continuous improvement.\n- Promote transparent communication, open collaboration, and knowledge sharing across the organization.\n- Champion AI integration in the development lifecycle to boost productivity and quality.\n- Ensure system scalability, security, and resilience under heavy data and user loads.\nRequired Competence and Skills:\n- Minimum 2 years of experience leading engineering teams in a hands-on capacity.\n- At least 5 years of professional software development experience.\n- Expert-level proficiency in Python for backend development.\n- Practical experience with AWS services, PostgreSQL, and Redis in production.\n- Experience with async messaging systems (e.g., RabbitMQ, SQS, SNS or similar)\n- User-level skills with Dockerized services and Kubernetes-based deployments.\n- Proven track record of delivering complex projects end-to-end.\n- Strategic mindset for AI-driven development lifecycle (AI DLC) and metrics orientation.\n- Strong English communication skills, both written and verbal.\n- Genuine interest in cybersecurity analytics and risk modeling.\nNice to Have:\n- Hands-on experience with Angular and TypeScript.\n- Background in large-scale B2B SaaS systems.\n- Familiarity with additional backend languages such as Go or Java.\nWhy Us:\nWe provide 20 days of vacation leave per calendar year (plus official national holidays of a country you are based in).\nWe provide full accounting and legal support in all countries we operate.\nWe utilize a fully remote work model with a powerful workstation and co-working space in case you need it.\nWe offer a highly competitive package with yearly performance and compensation reviews."
+}

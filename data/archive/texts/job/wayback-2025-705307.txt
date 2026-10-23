@@ -1,0 +1,24 @@
+Python developer with Web3
+Xedrum
+
+We are seeking a skilled Python Developer with a strong understanding of Web3 and cryptocurrency technologies. You will build and optimize blockchain-based applications, smart contract integrations, and decentralized solutions while ensuring high performance and security.
+Responsibilities:
+- Develop and maintain Web3-powered backend systems and APIs.
+- Integrate cryptocurrency wallets, smart contracts, and blockchain protocols.
+- Optimize performance and scalability for decentralized applications (dApps).
+- Collaborate with cross-functional teams to implement secure and efficient solutions.
+- Stay updated on blockchain trends and technologies.
+- Rust would be a plus
+
+Only from Upper-Intermediate
+from 3 years of experience
+Considering with 2 years of experience
+Office or Remote
+Worldwide
+Countries where we consider candidates
+Python
+Domain: Blockchain / Crypto
+Outsource
+Office:
+Ukraine
+(Lviv)

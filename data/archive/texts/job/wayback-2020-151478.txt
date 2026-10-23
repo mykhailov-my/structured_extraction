@@ -1,0 +1,43 @@
+Data Engineer with Python or Java
+Itera
+
+Itera is looking for a Data Engineer who will work on the big Norwegian industrial IOT data platform provider. We are looking for an open-minded person, self-going and proactive who confess continuous self-development and able to solve challenging tasks.
+Overview
+Itera is looking for a Data Engineer who will work on the big Norwegian industrial IOT data platform provider. Clients data platform aggregates and processes data from millions of industrial sensors. Combine that data with 3D-models and drawings, P&IDs, and historical data. Current goal for our client is to build a team which going to work on customization of existed solution for oil & gas industry. We are looking for an open-minded person, self-going and proactive who confess continuous self-development and able to solve challenging tasks. We need someone that can understand the customer’s goals and find relevant and proper solutions without continuous supervision.
+Tasks and responsibilities
+Able to work independently
+Communicate with customer, gather technical requirements
+Implement software development solution and modules
+Professional requirements
+At least 3+ years’ experience within software development/Data Engineering
+Experience in taking larger projects from prototypes to production (ie know the requirements for “production quality”)
+Understanding of the concept “data platform”, ie both technology (cloud and distributed solutions) and business model
+Experience and hands-on in data engineering (or data science) programming, preferably Python as it is used most with us on the backend. We need professional who can both program and think/communicate on a conceptual level
+Experience with test-driven development and test automation (the road from test strategy via test plans to combination of structured manual testing and automation)
+Experience with relevant Azure services (storage, analysis etc) and infrastructure-as-a-code (Terraform etc)
+Experience with CI / CD pipelines where automated testing is also part of the pipeline
+Experience with writing robust and maintainable code, ie living out sensible principles such as KISS, DRY, YAGNI, SOLID etc
+Experience with IoT (we work with ocean IoT and underwater robotics)
+Knowledge of DevOps and DataOps principles/processes
+Knowledge of geospatial data and data adapted for GIS solutions
+Will be a plus
+Previous experience at Scandinavian market
+Previous experience in Oil & Gas projects
+Ability to build trust with the major international data providers by understanding data and use cases
+Company offers
+Competitive compensation
+Paid vacation, 100% paid sick leave (+3 paid sick days without sick list)
+Medical insurance with sport
+Free English and Norwegian Courses
+Friendly team of high experienced specialists
+About Itera.no
+Company website:
+[link]
+DOU company page:
+[link]
+
+Data Science
+Kyiv
+Kyiv, Lviv, remote
+3 years of experience
+English Upper Intermediate

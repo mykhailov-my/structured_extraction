@@ -1,0 +1,30 @@
+Junior/Middle Python Developer IRC226561
+GlobalLogic
+
+Requirements:
+1.5 years of commercial development experience with Python
+Location Lviv or relocate to Lviv
+Experience with AWS
+Hands-on experience with developing and testing Web services
+Hands-on experience with automation systems;
+Good working knowledge of at least one Linux/Unix-based platform as well as Windows;
+English Upper-Intermediate;
+Knowledge of continuous integration tools (Jenkins/Hudson, TeamCity, Maven, Gradle);
+It would be a plus to have experience with Flask framework, FastAPI (API), MySQL, SQLAlchemy and Alembic.
+Responsibilities:
+Design, develop, and maintain server-side components of web applications using Python, Flask framework (frontend part), FastAPI (API), MySQL, SQLAlchemy (ORM for backend) and Alembic (Migrations).
+Work with live TV streams to develop features tailored to the television industry.
+Description:
+Our Customer is one of the biggest companies on the market of home entertainment consumer electronics devices that strives to provide their clients with high-quality products and services.
+
+Development
+Python
+Lviv
+Only from Upper-Intermediate
+Only from 1.5 years of experience
+Office Work
+Ukraine
+Domain: Media
+Outsource
+Office:
+(Lviv)

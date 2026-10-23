@@ -1,0 +1,26 @@
+Lead Python Engineer
+N-iX
+
+Our customer is reinventing credit to make it more honest and customer-friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.
+As a Lead Python Engineer, you will be part of a team that develops solutions responsible for managing critical services essential to the success and sustainability of the organization. In simple terms, the team builds and supports the systems that deliver transactional communications to customers via email, SMS, and push notifications. These services require strong attention to detail, proactive maintenance, and quick response times to ensure reliable and seamless operations.
+Requirements:
+· You have 5+ years of experience designing, developing and launching backend systems at scale using Python; Kotlin - must-have.
+· You have a track record of developing highly available distributed systems using technologies like AWS, MySQL and Kubernetes.
+· You have experience defining a technical plan for the delivery of a significant feature or system component with an elegant, simple and extensible design. You write high quality code that is easily understood and used by others.
+· You are proficient at making significant changes in a large code base, and have developed a suite of tools and practices that enable you and your team to do so safely.
+· You have strong verbal and written communication skills that support effective collaboration with our global engineering team.
+
+Необхідні навички
+Python, 5 years
+
+Only from 5 years of experience
+Full Remote
+Poland, Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Python
+Python
+5 years
+Employment: Fulltime
+Domain: Fintech
+Outsource

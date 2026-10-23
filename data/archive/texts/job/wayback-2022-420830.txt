@@ -1,0 +1,52 @@
+Data Engineer (Python), Data Warehouse (POLAND)
+DataArt
+
+Our client is a travel accessories company creating top-quality suitcases and bags. They seek to make travelling easier and enhance the whole experience. They are expanding the team to build a Data warehouse.
+PROJECT OVERVIEW:
+At the moment, the project is in its active phase, most of the work is being carried out in the context of the transition from Airflow to the combination of D365 + Boomi and the development of new data pipelines for the client's e-commerce platform. Also, currently transitioning from Heroku to AWS.
+TEAM:
+The project team consists of the Team Leader + 2 Data Integrations Engineers + close collaboration with other Data Analysts team and Boomi Developers.
+POSITION OVERVIEW:
+We are looking for a Strong Middle/Senior Engineer, with solid experience in Airflow, hands-on experience building data pipelines with Python, and familiarity with D365, AWS, and Redshift. Experience with Boomi will be a plus (or eager to learn).
+TECHNOLOGY STACK:
+Java/Groovy, Snowflake/Redshift, AWS/Azure, Python.
+Responsibilities:
+- Design, run, and maintain scalable data pipelines and related data warehouse for client's e-commerce platform, ERP, 3PLs and their 3rd party services
+- Partner with designers, product managers, and engineers to ensure the system is robust and dependable
+- Mentor your colleagues and help them through the process, including code reviews
+- Catch bugs and monitor data quality so that the production data is accurate and accessible to key stakeholders and business processes
+- Review and upgrade client's technology, data structures, and practices.
+Requirements:
+- 5+ years of software development experience
+- 4+ years of experience building data pipelines with Python
+- 4+ years of experience with distributed data storage systems/formats & data stores like Snowflake or Redshift (or other Big data systems)
+- 2+ years of experience building Kafka based pipelines to stream messages with good exposure to handling failure scenarios
+- Proficiency in MS Dynamics
+- Excellent understanding of relational databases, including SQL
+- Ability to work with and process large datasets
+- Familiarity with batch processing/real-time systems using technologies such as Spark, MapReduce, NoSQL, Hive, etc.
+- Strong knowledge of Java or Groovy
+- Prior experience with a major cloud provider such as AWS or Azure
+- Ability to work independently and come up with thoughts to improve processes.
+Nice to have:
+- Proficiency in Linux/Unix
+- Experience with Scala and Airflow
+- Exposure to Continuous Integration/Continuous Deployment & Test Driven Development
+- Experience with Boomi will be a plus (or eager to learn).
+About DataArt
+DataArt is a global software engineering firm. With over 20 years of experience, teams of highly-trained engineers around the world, deep industry sector knowledge, and ongoing technology research, we help clients create custom software that improves their operations and opens new markets. DataArt started out as a company of friends and has a special culture that distinguishes it from other IT outsourcers, such as:
+- Flat structure. There are no “bosses” and “subordinates”.
+- We hire people not to a project, but to the company. If the project (or your work in it) is over, you go to another project or to a paid “Idle”.
+- Flexible schedule, ability to change projects, to work from home, to try yourself in different roles.
+- Minimal bureaucracy and micromanagement, convenient corporate services
+Company website:
+[link]
+DOU company page:
+[link]
+
+Data Engineer
+Relocate, Bulgaria, Georgia, Kazakhstan, Poland
+5 years of experience
+English Intermediate
+Office/Remote of your choice
+Outsource

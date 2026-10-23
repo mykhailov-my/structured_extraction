@@ -1,0 +1,26 @@
+Senior Python Developer
+АБ ЮЕЙ
+
+Ukrainian Automotive Classified project has an opening for a Python Developer
+Required skills:
+- More than 3 years of programming experience
+- Strong Python programming skills
+- Strong experience with Django and DRF
+- Good Linux knowledge
+- Experience with CI/CD systems (GitLab, Jenkins, etc.)
+- Knowledge of docker/virtualization
+- Experience with RDBMS (PostgreSQL, etc.)
+- Experience with ElasticSearch, Kibana.
+- Message brokers (RabbitMQ, Redis, etc.)
+- Knowledge of network protocols
+About АБ ЮЕЙ
+ТОВ "АБ ЮЕЙ"
+г. Киев
+ул. Саксаганского 119
+Ми фанати своєї справи і ми створюємо автомобільну екосистему в Україні. Ти можеш купити чи продати авто. Можеш знайти запчастини та найкраще СТО. Можеш отримати корисну інформацію про машину, яка тобі подобається. На Автобазарі є все, що тобі потрібно!
+Company website:
+[link]
+
+Python
+Kyiv
+5 years of experience

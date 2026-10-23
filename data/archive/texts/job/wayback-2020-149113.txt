@@ -1,0 +1,75 @@
+Middle QA Automation Engineer (Python) for Ciklum Digital
+Ciklum
+
+Ciklum is a Software Engineering and Solutions Company. Our 3,000+ IT professionals are located in the offices and delivery centres in Ukraine, Belarus, Poland and Spain.
+As Ciklum employee, you'll have the unique possibility to communicate directly with the client when working in Extended Teams. Besides, Ciklum is the place to make your tech ideas tangible. The Vital Signs Monitor for the Children’s Cardiac Center as well as Smart Defibrillator, the winner of the US IoT World Hackathon, are among the cool things Ciklumers have developed.
+Ciklum is a technology partner for Google, Intel, Micron, and hundreds of world-known companies. We are looking forward to seeing you as a part of our team!
+Description
+Ciklum Digital Quality Engineering CoE is looking for technology experts who want to make a positive influence on new business by applying best QA practices and taking ownership.
+You will have the opportunity to get in touch with new projects, processes, approaches, technologies, and tools. Through direct knowledge exchange with international clients, you are an important contributor in making them successful.
+Our environment gives you the opportunity to share your professionalism to help team members grow and we support you with training and education in the areas where you want to develop.
+About Quality Engineering Team:
+Quality Engineering Center of Excellence is an international award-winning Quality Engineering department that has rapidly evolved over the past 7 years to become a mature Quality Engineering service provider with 250+ professionals working in 7 main directions: QA Consulting and Management, DevOps, Manual, Automation, Support, Performance, Cyber Security and Robotic Process Automation.
+Our main principles are:
+- People are over processes and hierarchy
+- Flat and open collaboration/communication increases creativity and brings more value to business
+- Investing in people and innovations ensures your future
+- Reuse and share your experience – Develop best practices, publicize and follow them
+Quality Engineering Center of Excellence is an optimal environment for your professional involvement and growth.
+Responsibilities
+- Automation of regression and other functional testing on Web projects
+- Building and maintaining automated testing frameworks.
+- Integrating automated testing into CI processes.
+- Test case adjustments for automated testing needs.
+- Test data and test environment preparations.
+- Making conclusions and reporting about stability of the product under test.
+- Communication with developers and project managers
+Requirements
+- 2+ years of API Automation (Swagger) and Automation of Web products via Selenium (WebDriver) and supportive frameworks.
+- Knowledge of test Runners: PyTest / Nosetest
+- Solid skills in Python.
+- Experience with continuous integration processes and tools (GitLab / Jenkins / TeamCity).
+- Experience of working with version control systems (GIT)
+- Good knowledge of Allure reporting
+- Good knowledge of Test Management Tool integration: Test Rail or similar
+- Strong knowledge of test automation approaches and procedures
+- Good knowledge of different testing methods, techniques and types
+- Understanding of Agile/Scrum.
+- Master’s or Bachelor’s degree in Computer science or relevant
+- Good English skills – Upper-Intermediate and above
+Desirable
+- Solid skills in OOP (Java, C#, PHP), ability to switch between them
+- Experience with implementation of automated testing for project and system
+- Experience with PyCharm
+- Knowledge of Parallelization: Selenoid/CI pipelines/test runner
+- Experience with openCV, PIL
+- Knowledge of JavaScript would be a great plus.
+- Some experience Test infrastructure: Cloud: SauceLabs/BrowserStack, On-Premises: Selenoid
+- Knowledge of SQL
+Personal skills
+- Good analytical skills
+- Good team player, motivated to develop and solve complex tasks
+- Strong communication and problem solving skills
+- Self-motivated, self-disciplined and result-oriented
+- Strong attention to details and accuracy
+What's in it for you
+- Very close cooperation with different clients
+- Possibility to propose solutions on a project
+- Dynamic and challenging tasks.
+- Ability to influence project technologies.
+- Team of professionals: learn from colleagues and gain recognition of your skills.
+- Continuous self-improvement.
+- Trainings, ISTQB Certification preparation
+- Knowledge sharing meetings
+About Ciklum International
+Ciklum is a top-five global Digital Solutions Company for Fortune 500 and fast-growing organisations alike around the world.
+Our 3,000+ Developers located in the Delivery Centres across the globe, provide our clients with a range of services including outsourcing software development, Enterprise App Development, Quality Assurance, Security, R&D, Big Data & Analytics.
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA Automation
+Kyiv
+2 years of experience
+English Upper Intermediate

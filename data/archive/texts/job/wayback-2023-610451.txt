@@ -1,0 +1,56 @@
+Full-Stack (React + Python) Developer for an Online News Media
+FlexMade
+
+A US client, a news and information publisher that helps people make smarter decisions on important issues that affect their lives, is currently expanding one of its teams and is looking for a Full-Stack Developer. The news portal is included in the Alexa Top 500 Global Sites list.
+Benefits:
+— Regular challenges, education, and knowledge exchange to make you even better than you are
+— Enthusiastic and supportive team
+— Open and constructive working culture in a dynamic and fast-growing environment
+— Life does not always have a schedule. Don’t worry, we’re very flexible regarding working hours!
+About client:
+A multifaceted digital media company dedicated to helping citizens, consumers, business leaders, and policy officials make important decisions in their lives. The company publishes independent reporting, rankings, data journalism, and advice that has earned the trust of readers and users for nearly 90 years. They are an American media company that publishes news, consumer advice, rankings, and analysis. It was launched in 1948 as the merger of a domestic-focused weekly newspaper and an international-focused weekly magazine. In 1995, the company launched its website, and in 2010 the magazine ceased printing. They reach more than 40 million people monthly during moments when they are most in need of expert advice and are motivated to act on that advice directly on their platforms.
+Industry: Online Media
+Location: United States
+About project:
+An American media company that publishes news, opinion, consumer advice, rankings, and analysis. Founded as a news magazine in 1933, it transitioned to primarily web-based publishing in 2010, although it still publishes its rankings. It covers politics, education, health, money, careers, travel, technology, and cars.
+Requirements:
+— 3+ years of experience in a full-stack software development role;
+— Proficiency in Python, with experience in Django and/or Flask frameworks;
+— Strong knowledge of React.js and its core principles;
+— Experience with front-end technologies such as HTML5, CSS3, and JavaScript;
+— Familiarity with state management libraries like Redux for React;
+— Understanding of RESTful API design and integration;
+— Knowledge of database systems, both relational (e.g., PostgreSQL) and NoSQL (e.g., MongoDB);
+— Experience with version control systems, especially Git;
+— Knowledge of containerization technologies (e.g., Docker);
+— Familiarity with cloud platforms (e.g., AWS, Azure, or GCP);
+— Understanding of web security best practices;
+— Demonstrated success in delivering complex, high-quality web applications;
+— Experience with agile development methodologies;
+— Strong communication and collaboration skills;
+— Ability to work effectively in a team environment;
+— Analytical mindset and a proactive approach to problem-solving;
+— Ability to adapt to new technologies and learn quickly;
+— English: B2 (Upper-Intermediate).
+Responsibilities:
+— Participation in the design and development of solutions for one of the largest news feeds in the world.
+— Close communication with a multicultural distributed team using the Scrum methodology.
+About FlexMade
+FlexMade is a software development company headquartered in Seattle, USA. We have delivery centers and branch offices in the United States, Germany, Poland, and Ukraine.
+Our objective is to create reliable and scalable software for corporate and individual clients from North America, Europe, and Asia. We do it using modern programming technologies, platforms, coding standards, and, of course, by hiring highly experienced and qualified personnel.
+With over 15 years of experience in the IT market, we have polished the high efficiency of our software development processes. We're fast and responsive, honest and professional. Our sensibly priced solutions are an excellent value for the top-notch level of knowledge and service we provide. Besides, we're a crew of really easy-going people.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Fullstack
+Kharkiv
+Category: Fullstack
+English: Upper-Intermediate
+3 years of experience
+Domain: Media
+Full Remote
+Outsource
+Ukraine (Kharkiv)
+Only candidates from Europe and Ukraine

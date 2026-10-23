@@ -1,0 +1,24 @@
+{
+  "doc_id": "wayback-2019-58203",
+  "url": "https://djinni.co/jobs/58203-senior-python-backend-developer/",
+  "snapshot": "https://web.archive.org/web/20191016203503/https://djinni.co/jobs/58203-senior-python-backend-developer/",
+  "captured_at": "2019-10-16T20:35:03",
+  "posted": null,
+  "year": 2019,
+  "active": false,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:10+00:00",
+  "title": "Senior Python Backend Developer",
+  "company": "SD Solutions",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Kyiv",
+    "Киев",
+    "5 years or more",
+    "English Upper Intermediate"
+  ],
+  "description": "JAFA - \"Just A Fan's Analysis\", the award-winning No.1 Football Fan Mobile App of 2018!\nJAFA is the digital home for football fans. It’s the place for football fan OPINION and DEBATE. Giving fans ALL the latest FOOTBALL NEWS and FAN OPINION personalized to them! Think Twitter for football. We’ve already secured partnerships with global brands such as Heineken, Betfair, Puma, and SportsDirect, with more big things on the way!\nWe are at the forefront of fan engagement and provide an excellent opportunity to learn and be a part of the rapidly growing London Tech scene. Despite only being just over a year old JAFA has grown exceptionally quickly and won a number of awards.\nJob Description\nWe are looking for a Python Web Developer responsible for managing the interchange of data between the server and the users. Your primary focus will be the development of all server-side logic, ensuring high performance and responsiveness to requests from the front-end. You will also be responsible for integrating the front-end elements built by your co-workers into the application; therefore, a basic understanding of front-end technologies is necessary as well. Our backend is based on Django.\nResponsibilities\nWriting reusable, testable, and efficient code\nDesign and implementation of low-latency, high-availability, and performant applications\nIntegration of user-facing elements developed by front-end developers with server side logic\nImplementation of security and data protection\nIntegration of data storage solutions including databases (Postgres/MySQL)\nYou will also require database knowledge to modify and create existing tables as well as basic deployment knowledge for AWS.\nSkills and Qualifications\n5+ years job experience\nExpert in Python, with knowledge of Django\nAbility to handle deployment of the Django application to the infrastructure of AWS services\nFamiliarity with some ORM (Object Relational Mapper) libraries\nAble to integrate multiple data sources and databases into one system\nUnderstanding of the threading limitations of Python, and multi-process architecture\nGood understanding of server-side templating languages\nBasic understanding of front-end technologies, such as JavaScript, HTML5, and CSS3\nUnderstanding of accessibility and security compliance\nKnowledge of user authentication and authorization between multiple systems, servers, and environments\nUnderstanding of fundamental design principles behind a scalable application\nFamiliarity with event-driven programming in Python\nUnderstanding of the differences between multiple delivery platforms, such as mobile vs desktop, and optimizing output to match the specific platform\nAble to create database schemas that represent and support business processes\nStrong unit test and debugging skills\nProficient understanding of code versioning tools such as GIT"
+}

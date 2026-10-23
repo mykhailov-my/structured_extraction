@@ -1,0 +1,69 @@
+Senior Python Engineer (remote position)
+Intel 471
+
+Intel 471 is looking for a Senior Python Engineer in Ukraine.
+The position is remote but be ready for regular trips to the Kyiv office to work with the team.
+Intel 471 is looking for a Senior Python Engineer (remotely)
+The ideal candidate has previous experience developing high-volume data engineering products, combining data from multiple sources into a single stream, works all over the stack, having expertise in both web development and system development, has built large-scale projects from scratch, has had any work responsibilities typical for Software Architect and is willing to work in the security or intelligence industry.
+The position will drive the development of cutting-edge data collecting technology, providing updates from thousands of restricted access websites and instant messaging chats, data processing technology designed to merge various data sources into a joint stream, and data crawling software automating actions of thousands of bots.
+Be a part of a unique and highly skilled team of professionals
+We are building an actor-focused cyber threat intelligence SaaS product. From the customer perspective, it’s an online portal and API that allows them to consume, query, analyze and visualize multiple sources of cyber threat intelligence information.
+We choose autonomy, we believe in proficiency, we provide you with a sense of relatedness.
+If you are interested in cybercrime intelligence and want to join us in providing adversary and malware intelligence for leading security, fraud and intelligence teams, Intel 471 is the place for you. We are seeking smart, motivated professionals to join our global team of experts delivering intelligence. Intel 471 offers competitive compensation, a flexible schedule, high-exchange leadership and intrinsic rewards of course. Our core values are trust and transparency.
+During this period of global economic uncertainty due to the pandemic, we would like to highlight that Intel 471 are a company which is strong financially. We are feeling confident about the future and feel we can adequately respond and deal with whatever may lay ahead. We value our people and strive to protect and build on our inclusive culture. Our vision is to be the premier, most respected and most called on cyber threat intelligence company in the industry and we are still very much on our path to achieve this.
+Essential Duties and Responsibilities:
+The Senior Python Engineer is responsible for creating new data collection and processing services to fit into the Intel 471 product family, working on improving existing core technologies of Intel 471 data collection and processing, writing and reviewing excellent code in Python, Java, C++, Lua, Javascript, and other languages, and mentoring junior personnel.
+You must be self-motivated, able to work independently in an agile environment, propose own ideas for incorporation into the development schedule and possess strong analytical and design skills.
+Experience, Skills and Knowledge:
+— Python 3, any asynchronous Python framework (Twisted, Tornado, asyncio)
+— Expertise in designing and implementing SQL and NoSQL data storages
+— Strong computer science fundamentals
+— Test-driven development experience
+— Understand web UI concepts and technologies
+Preferable:
+— Familiarity with C++, Java, Lua, Javascript, mathematics degree
+— Understanding of business processes, knowledge sharing importance
+— Knowledge of AWS
+Intel 471 in a few words:
+— We provide means to help companies protect their data from cyber threats
+— We create value and really enjoy it!
+— With us you have the ability to make an immense input into something significant.
+— An open corporate culture, transparent organization and interaction.
+— The team of ingenious, dedicated and talented people.
+— A smart strategy for the company’s future, its infrastructure, and product range development.
+— A transparent and fair assessment and reward policy.
+— Involvement in the process of selecting objectives and determining the ways of their accomplishment.
+— An opportunity to receive high-quality training and grow professionally.
+— Progressive management and an international environment.
+— Using English in day-to-day communication.
+Whom are we looking for?
+— Someone who is able to see the task at hand broadly, discover and analyze possible solutions with the end-user in mind.
+— A team player, whose motto is “Let’s do it!”
+— A colleague, who’s ready to learn and improve their skills.
+— Someone who thinks outside the box, who’s honest, friendly, responsible, and bestowed with a sense of humor.
+— Someone who applies previous experience to find unconventional solutions and who’s ready to move forward.
+Additional requirements:
+— Make sure you have a good internet quality
+— After lockdown finish - regular trips to the Kyiv office to work with the team
+We care about our employees, and here are just a few ways to show it:
+— Paid sick leaves (unlimited)
+— MacBook as a workstation
+— Paid conferences
+— Employee empowerment
+— Open-minded leadership, welcoming any positive contributions
+— Polite and straightforward co-workers
+— Leader support for innovation
+— Procedural fairness
+About Intel 471
+Intel 471 is the premier provider of cybercrime intelligence.
+Intel 471 provides adversary and malware intelligence for leading security, fraud and intelligence teams.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, remote
+5 years of experience
+English Upper Intermediate

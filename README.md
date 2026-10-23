@@ -17,6 +17,8 @@ key, and Ollama for the local model.
 ```bash
 make setup     # install dependencies, create .env from .env.example; put the key in .env
 make models    # ollama pull qwen3.5:4b (~3.5 GB)
+make data      # optional: crawl more job postings from djinni.co
+make archive   # optional: Python postings 2019-2026 from the Wayback Machine (~1 h)
 make run       # every experiment in config.yaml, then the metrics
 ```
 
@@ -29,6 +31,8 @@ make run       # every experiment in config.yaml, then the metrics
 | `python main.py eval` | Re-scores stored results without calling a model. |
 | `python main.py extract FILE` | Extracts one file and prints the JSON, for trying out a prompt. |
 | `python main.py check` | Counts texts and golden labels and validates the labels. |
+| `python main.py crawl-jobs` | Collects public job postings from djinni.co (see [Collecting data](#collecting-data)). |
+| `python main.py crawl-archive` | Collects past years' postings from the Wayback Machine (see [Past years](#past-years-the-wayback-machine)). |
 | `make test`, `make lint` | Offline unit tests; ruff. |
 
 ## How it works
@@ -88,6 +92,72 @@ for error analysis.
 | p50, p95 | Seconds per document for the whole extraction, including the repair call and retry waits. The local model is loaded before the first document, so loading isn't counted. |
 | $ / 1k docs | Mean cost per document × 1000, as billed by OpenRouter (`usage.cost`); 0 for the local model. |
 
+## Collecting data
+
+`python main.py crawl-jobs --count 20` (or `make data`) collects public job postings from
+djinni.co. It takes the newest postings from the RSS feed, round-robin across categories so a
+small sample stays varied; `--keywords Python,Java` limits it to those categories. Postings
+already in `data/` are skipped. Each posting is stored twice:
+
+- `data/scraped/job/<id>.json`: the page's parts as scraped. That is the URL and publication
+  date, title, company, salary, skills, language requirements, the sidebar facts and the
+  description.
+- `data/texts/job/<id>.txt`: the same parts as plain text, which is what the model reads.
+
+The crawler names itself in its User-Agent, obeys robots.txt (which allows `/jobs/`), waits 3 s
+between requests and backs off on 429 and 5xx. Emails, phone numbers, links and @handles become
+`[email]`, `[phone]`, `[link]` and `[handle]`, and so does a messenger username without the "@"
+("в телеграм ivan_hr"). A recruiter's name in a self-introduction ("Меня зовут Елена") becomes
+`[name]`. Other names in free text aren't detected, so read new texts before committing them:
+the repository is public.
+
+CVs aren't collected. robots.txt disallows candidate profiles (`/developers`), and Djinni's terms
+forbid collecting candidates' data by scraping. The `CandidateProfile` schema and its prompt
+stay for when there is a source of CVs; until then `config.yaml` runs job postings only.
+
+### Past years: the Wayback Machine
+
+Djinni keeps closed postings online but hides their date, so the live site can't tell when a
+posting was written. `python main.py crawl-archive` (or `make archive`) reads past postings from
+the [Wayback Machine](https://web.archive.org) instead: by default 50 Python postings a year,
+2019–2026, into `data/archive/`. That takes about an hour, mostly spent waiting 5 s between
+requests.
+
+- **Which postings.** The archive's CDX index lists the captures of `djinni.co/jobs/<id>-<slug>/`
+  pages whose slug contains the keyword (`--keyword python`), one query per year. The index is
+  slow (about a minute a query), so its answers are cached in `.cache/wayback/`; delete the
+  `.txt` files there to pick up newer captures. The fetched pages are cached there too
+  (gzipped, about 8 KB each). After a parser fix, delete `data/archive/` and run again: the
+  same postings are picked and re-parsed from the cache in seconds.
+- **Dating.** A posting belongs to the year of its first capture if its id is above every id
+  captured in the years before. Ids grow over time, so a lower id is an older posting archived
+  late. When the page shows its posting date ("Job posted on 12 July 2019"), that date must fall
+  in the same year. Closed postings show no date, and neither did any page from May 2024 to
+  early 2025, so a posting from the last days of December can still be counted in the next
+  year.
+- **Spread.** Each year's picks are spaced evenly through its captures in time order, so they
+  cover all of the year the archive has, not its first weeks. The archive has no Python
+  postings before July in 2019 or before August in 2020, and months it captured often get more
+  picks. A snapshot that fails, turns out older, or holds Djinni's "your IP address has been
+  blocked" page instead of the posting is replaced by the next capture.
+- **Layouts.** Djinni's markup changed three times. `parse_snapshot` reads every version into
+  the same parts as `crawl-jobs`, and `layout` in the record says which one the page had:
+
+  | Layout | Captured | Markup |
+  |---|---|---|
+  | v1 | until mid-2022 | description in `.profile-page-section`, a details line under the title |
+  | v2 | mid-2022 to spring 2024 | `.job-details--main-info` header, `.job-additional-info` sidebar |
+  | v3 | May to September 2024 | `.job-post-description`, today's sidebar |
+  | v4 | since September 2024 | today's page (`.job-post__description`), read by `crawl-jobs`' parser |
+
+  Pages up to v2 show the recruiter's name, photo and job title. The name and photo are left
+  out, and the job title is only used to find the company ("HRM at Ogorodniki, Inc").
+- **Records.** `data/archive/scraped/job/wayback-<year>-<id>.json` adds `snapshot` (the archived
+  page), `captured_at`, `posted` (when the page shows it), `year`, `active` (false when the page
+  marks the posting closed) and `layout`. The text goes to `data/archive/texts/job/`. The archive
+  isn't part of the experiment, since nothing in it is labelled; it is there to compare
+  requirements across years.
+
 ## Data and prompts
 
 - `data/texts/<doc_type>/<doc_id>.txt` holds the raw texts and
@@ -107,9 +177,10 @@ src/extraction/
   pipeline.py        one document: call, validate, repair once, retries
   runner.py          the experiment matrix and reuse of stored results
   evaluate.py        metrics and reports
+  collect/           Djinni crawlers (live site, Wayback Machine), contact scrubbing
   cli.py             commands
 prompts/             versioned prompts and CHANGELOG.md
-data/                texts and golden labels
+data/                texts, scraped records and golden labels; archive/ for past years
 results/             model outputs and metrics
 tests/               offline tests with fake providers
 REPORT.md            the comparison report
@@ -118,7 +189,9 @@ REPORT.md            the comparison report
 ## Roadmap
 
 - [x] Boilerplate: schemas, both providers, validation with one repair, metrics
-- [ ] Crawler for Djinni postings and profiles, writing to `data/texts/`
-- [ ] 30+ texts with 10+ golden labels
+- [x] Crawler for Djinni job postings (CVs: no source that may be used)
+- [x] Archive crawler: Python postings 2019–2026, for how requirements changed
+- [x] 30+ texts
+- [ ] 10+ golden labels
 - [ ] Steps 1–2 (baseline and measurements): checkpoint 24.10
 - [ ] Prompt v2 and REPORT.md: deadline 27.10

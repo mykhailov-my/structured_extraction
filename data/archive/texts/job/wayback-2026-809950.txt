@@ -1,0 +1,46 @@
+Senior Fullstack developer (Python + React)
+Mirko
+
+Mirko Solutions is an international IT company specializing in web and mobile development for clients in the US, Canada, EU, and Australia. We deliver high-quality digital solutions including web applications, mobile apps, cloud systems, and custom software for businesses worldwide.
+Due to the rapid growth of our company, we are currently looking for an experienced Senior Fullstack developer (Python + React) to join our team and work on a new international project.
+Responsibilities:
+- Develop and maintain scalable backend and frontend functionality
+- Build and improve integrations with marketplaces and third-party platforms
+- Participate in API architecture improvements and service splitting
+- Work with complex business logic
+- Investigate and fix production and integration-related issues
+- Collaborate with QA, Team Leads, and other developers during feature delivery
+Requirements:
+- 5+ years of experience with Python and JavaScript
+- Strong backend development and software architecture skills
+- Experience delivering and deploying production-level projects
+- Proficiency with Async IO
+- Experience with React, Redux (RTK), CSS modules
+- Experience with CI/CD, Cloud platforms (AWS, GCP, or Azure), Linux, Docker, Kubernetes
+- Experience integrating third-party APIs
+- Experience with Data Pipelines / ETL
+We offer:
+- Fully remote work
+- Opportunity to work on an international project
+- Professional growth and development
+- Friendly and supportive team environment
+
+Необхідні навички
+JavaScript, 5 years, Python, 5 years
+
+Only from 5 years of experience
+Office, Remote, Hybrid Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Fullstack
+JavaScript
+5 years
+Python
+5 years
+Employment: Fulltime
+Domain: Other
+Outsource
+Office:
+Ukraine
+(Lutsk)

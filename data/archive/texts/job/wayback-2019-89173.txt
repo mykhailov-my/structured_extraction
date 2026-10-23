@@ -1,0 +1,46 @@
+Python Developer
+Evolvice Team
+
+Building an AI-powered application that helps identify harmful substances in consumer products. Web-application is to be deployed in the local network of the chemical lab that has no access to the Internet for security reasons.
+Evolvice Team connects nations with quality. We tend to connect the good things from East and West with German standards. We believe that business results evolve from a “healthy-agile” mindset. Headquarter in Stuttgart, founded in 2011, development Centre in Kiev. Data storage and contracts in Germany.
+Project description:
+Building an AI-powered application that helps identify harmful substances in consumer products. Web-application is to be deployed in the local network of the chemical lab that has no access to the Internet for security reasons.
+Being part of the AI Development Team and participating in building proofs-of-concept and minimum viable products for solutions that include machine learning.
+Required skills
+— A solid foundation for backend (at least 5 years of experience)
+— Proficiency with Python
+— Proficiency with Tornado or willingness to learn Tornado framework
+— Experience with coding POCs using Tornado
+— Asyncio is a plus
+— Experience with Docker and AWS deployment technologies
+— Upper-Intermediate spoken and written English
+— Having a sense of finding a balance between quality and performance
+— Good problem-solving skills
+We offer
+— Centrally located office with free sweets, coffee and full of smart people
+— Opportunity to work in a multi-cultural environment
+— Medical insurance and partial sports compensation
+— Regular corporate events
+— German and English classes
+— Business trips to Hong Kong
+Responsibilities
+— Developing back end website applications
+— Creating servers and databases for functionality
+— Designing and developing APIs
+About Evolvice Team
+We connect nations with quality. Nearshoring works when you share a similar value system. We tend to connect the good things from East and West with German standards. We believe that business results evolve from a “healthy-agile” mindset.
+Headquarter in Stuttgart, 70 employees, founded 2011
+Development Centre Kiev and Lisbon
+Agile “Plan-Build-Run” business model
+Transparency throughout
+All technologies: Java, PHP, .NET, Android, iOS…
+Data storage and contracts in Germany
+Our customers include companies from the StartUp environment as well as companies listed on the German stock index. They are e-commerce service providers, gaming providers as well as ISVs (independent software vendors). Our customers are available for a conversation with you.
+Company website:
+[link]
+
+Python
+Kyiv
+Киев, remote
+5 years or more
+English Intermediate

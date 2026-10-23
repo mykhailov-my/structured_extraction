@@ -1,0 +1,33 @@
+Senior Python Developer, Cryptocurrency
+DataArt
+
+Our client is an EU-based crypto custodian company that provides solutions for the secure usage of cryptocurrencies. It was launched in 2014 and it is the only player in the market to provide this technology.
+About the vacancy
+Our client is an EU-based crypto custodian company that provides solutions for the secure usage of cryptocurrencies. It was launched in 2014 and it is the only player in the market to provide this technology.
+DataArt's specialists augment the client's team by helping extend functionality of their existing products and new products creation. The team size is 6 people with the potential to grow. The developer who will join us will work with state-of-the-art cryptocurrency solutions and a cutting-edge technology stack.
+We hire people not for a project but for the company. If the project (or your work on it) is over you go to another project or to a paid “Idle”.
+Stack: Python, Microservices, AWS, Docker, Kubernetes, Postgress.
+Must have
+4+ years of experience building complex web-based applications using Python
+Solid understanding of microservices approach
+Experience developing with cloud platforms such as AWS
+Hands-on experience with microservices/Docker and Kubernetes
+Experience with relational databases such as PostgreSQL
+Solid interpersonal skills and technology expertise
+Ability to take ownership on the provided task
+Spoken English
+About DataArt
+DataArt с 1997 года проектирует, разрабатывает, модернизирует и поддерживает IT-решения в области финансов, здравоохранения, телекома, туризма, медиа и интернета вещей.
+Клиенты DataArt — компании с уникальными бизнес-моделями — находятся в США и Великобритании, а распределенные команды специалистов — в центрах разработки в России, Украине, Польше, Аргентине и Болгарии.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kharkiv
+Office/Remote of your choice
+Outsource
+3 years of experience
+English Intermediate
+Ukraine only candidates 🇺🇦

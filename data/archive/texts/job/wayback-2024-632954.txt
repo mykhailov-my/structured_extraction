@@ -1,0 +1,40 @@
+AWS / Python Engineer
+Yael Acceptic
+$3500-5000
+
+Join our team as an experienced Python/AWS Engineer, where you will take a role in building and optimizing our AWS cloud infrastructure. This position requires hands-on experience with AWS services, proficiency in Python, and a strong background in deploying and managing infrastructure using Terraform.
+Responsibilities:
+- Identify and plan improvements to the implementation;
+- Be a key team member in design and development;
+- Maintaining infrastructures and environments of all types from dev to production;
+- Security monitoring and administration.
+Requirements:
+- 3+ years of experience in Python;
+- 3+ years hands on experiences with AWS cloud services (VPC, API Gateway, EC2, ALB, NLB, Lambda, RDS, IAM);
+- Experience with design and develop API (FastAPI);
+- Experience deploying and managing infrastructure with Terraform;
+- Working experience with DB technologies (SQL, non-SQL);
+- Hands on experiences with container technology (Docker, ECR, ECS);
+- Experience with CI/CD platforms and tools;
+- At least an Upper-Intermediate level of English.
+We offer:
+Professional Development: free English courses, access to company’s library, free access to the corporate Udemy account, possibility to participate and share your knowledge as a speaker in our internal meetups, opportunity to work from anywhere (depends on the project).
+Benefits: 100% paid vacation and sick leaves, health insurance, membership in IT Cluster, access to psychological help, office cabinet structure, free accountant and lawyer services, opportunity to accumulate part of the own salary in the company in dollar terms, team building activities.
+
+Operations (Ops)
+DevOps
+Kyiv
+Only from Upper-Intermediate
+from 5 years of experience
+Considering with 4 years of experience
+$3500-5000
++-$500 from the range
+Office or Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+AWS, Python, DevOps, Fast API, Terraform
+Domain: Fintech
+Outstaff
+Office:
+Ukraine
+(Kyiv, Kharkiv)

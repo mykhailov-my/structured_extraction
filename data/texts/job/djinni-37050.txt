@@ -1,0 +1,46 @@
+Python Engineer
+AnvilEight
+
+Technical Requirements:
+- Strong knowledge of Python 3.x;
+- Experience with Django REST Framework. GraphQL experience is also welcome;
+- Familiarity with AWS or GCP or Azure;
+- Experience with PostgreSQL or MySQL;
+- Understanding of API design principles and RESTful APIs;
+- Experience integrating LLM-powered features into products, including retrieval, AI agents, tool calling, and structured outputs;
+- Hands-on experience with AI coding agents such as Claude Code;
+- Experience with n8n or similar workflow automation tools, including building and maintaining automated workflows and integrating APIs and AI services;
+- Basic knowledge of Git and Webpack;
+- At least one year of commercial development experience.
+Experience with React.js would be a significant advantage.
+Non-Technical Qualifications and Skills:
+- Strong written English and good spoken English communication skills;
+- Understanding of the Scrum framework and team roles;
+- Ability and willingness to learn quickly.
+We Offer:
+- Free English classes, technical lectures, and courses;
+- 22 working days of paid annual leave;
+- Paid sick leave without requiring a doctor's note;
+- Flexible working hours: you can plan your workday as you prefer, provided you remain available for team collaboration and daily meetings;
+About Us
+AnvilEight is a Python development outsourcing company that provides custom software solutions and mobile development services to businesses and individuals.
+We are a team of around 40 professionals who enjoy tackling challenging projects and delivering high-impact solutions to clients worldwide.
+Our core technology stack includes Python 3.x, Django, and React.js. We also have a mobile development team specializing in iOS and Android applications.
+We follow the Scrum framework, with structured backlogs and daily Scrum meetings.
+
+Необхідні навички
+Python, Django, PostgreSQL
+Вимоги до володіння мовами
+Англійська: B2 – Вище середнього
+Українська: C2 – Вільний
+
+Виключно від 2 років досвіду
+Тільки віддалено
+Україна
+Країни, де розглядаємо кандидатів
+Англійська B2 – Вище середнього
+Українська C2 – Вільний
+Python
+Зайнятість: Fulltime
+Домен: Fintech
+Сервісна компанія

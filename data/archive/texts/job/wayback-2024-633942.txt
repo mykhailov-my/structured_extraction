@@ -1,0 +1,43 @@
+Senior Java Big Data Engineer (AWS Python Kafka)
+Luxoft
+
+Team is responsible for the building the group of services, which will inject data from upstream systems into Nordstrom Analytical Platform, transform and store. The system will provide access to already aggregated profile. The goal of the project is to sped up delivery of all data, enabling fresher data and quicker action.
+Also, a candidate must be ready for periodical 12/7 hours of on-call support.
+Responsibilities:
+- new features implementation
+- MR review for other team members
+- bugfix of existing features
+- refactor/redesign existing code base
+- improve test coverage
+- build and ship product artefacts to dev/prod cluster
+- infrastructural updates
+Mandatory Skills Description:
+- 5 years of experience with Java 8-11+
+- Spring Framework
+- Experience with AWS (S3, SQS, DDB, Lambda)
+- 1+ Experience with Python development
+- Apache Kafka or any other messaging tool
+- expertise with SQL and/or DWH
+- Experience with version control, build, CI/CD tool (Git/GitLab)
+- Understanding of core concepts of Big Data (Common, Spark, Hive)
+- Experience with JIRA, Confluence
+- Familiarity with Agile development methodology (Scrum)
+- Clear communication skills (will communicate across all regions)
+Nice-to-Have Skills:
+- Experience with Teradata, Elastic Search or Airflow
+- Practical usage of Kubernetes
+- Terraform
+- Apache Airflow
+
+from Upper-Intermediate
+Considering with Pre-Intermediate
+Only from 5 years of experience
+Office or Remote
+Ukraine
+Countries where we consider candidates
+Java
+AWS (S3, SQS, DDB, Lambda), 1+ Experience with Python development
+Domain: Other
+Outsource
+Office:
+Ukraine

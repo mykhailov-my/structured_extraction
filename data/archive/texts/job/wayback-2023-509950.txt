@@ -1,0 +1,37 @@
+Python developer
+AppReal
+
+Customer is looking for self-motivated, dynamic and experienced backend developer . We are the leading AI-driven visual search and recommendation technology for retails.
+Customer's help retailers, marketplaces, and mobile device manufacturers deliver unprecedented customer engagement with visual AI solutions that connect shoppers with the products that inspire them
+We are looking for team player who can reason and communicate his opinions, as well as accept others’ approaches, clean coder with readable, beautiful, and maintainable code. One who recognises code issues and continuously searches for better solutions. Every engineer has input into our product process and will have a real impact as part of a small and awesome team.
+What You’ll do
+* Work with the product team to design new solutions.
+* Improve current production environment and add new features.
+* Find and address performance issues.
+* Participate in design and code reviews.
+* Frequent shipping of code to production.
+Requirements
+* 3+ years as backend developer.
+* Experience working with microservice architecture.
+* Experience with docker.
+* Experience building features across the full stack, from back-end to front-end.
+* 3+ years experience in Linux and NoSQL / SQL Databases - elastic / postgres / mongo - A must.
+* You’re a fast learner and can contribute from day one.
+* You have strong opinions on what makes a good API.
+About AppReal
+AppReal-VR is an outsourcing development software company, with offices in Tel Aviv and R&D center at Kyiv (Ukraine). AppReal-VR offers software development services for companies and individuals who wish to outsource their development. AppReal-VR specializes in Virtual Reality and Augmented Reality development, as well as Games and Gaming. AppReal-VR offers different development models such as fixed price project and dedicated team.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Category: Python
+English: Intermediate
+3 years of experience
+Domain: E-commerce / Marketplace
+Office/Remote of your choice
+Outsource
+Ukraine (Kyiv)
+Only candidates from Europe and Ukraine

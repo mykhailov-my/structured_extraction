@@ -1,0 +1,31 @@
+Senior Python Developer
+Luxoft
+
+You will join Data Architecture/Engineering group. We are responsible for company's data architecture and infrastructure, including data ingestion, processing and internal distribution, as well as analytical platforms.
+Among other projects you will build out an advanced analytical platforms (implemented in Python) and contribute to its improvement, stability, scalability and new features. You will interact with researchers, portfolio managers, infrastructure teams and data architects.
+The role requires great coding and communication skills, disciplined software engineering practices and a thirst for technology.
+Responsibilities: please look at the project description
+Mandatory Skills:
+- Python, SQL
+- Experience with CI/CD and tests
+- Docker and cloud concepts
+- Relational and NoSQL databases
+- Experience in building scalable systems
+- Development webservices in Python is a big plus!
+- System deployment (in and out of containers)
+Nice-to-Have Skills:
+- Node.js
+- React/Angular.js
+- AWS/GCP
+About Luxoft
+Luxoft (NYSE:LXFT) is a global consulting partner that offers end-to-end digital solutions to solve clients’ complex business challenges.
+We are a new class of digital service provider that combines consulting, strategy, and engineering at scale. We use this to drive business change by applying engineering excellence, deep domain expertise, and our senior software engineering talent to improve your client’s customer experience, boost your operational efficiency, and strengthen your competitive advantage.
+We have expertise in automotive, financial services, healthcare, life sciences, telecommunications, and other industries. As a highly committed partner, we take customer challenges as our own. Our dedication stems from a passion for technology and a bespoke attention to your needs.
+Company website:
+[link]
+
+Python
+Kyiv
+Киев
+3 years or more
+English Upper Intermediate

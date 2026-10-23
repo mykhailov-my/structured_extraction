@@ -1,0 +1,41 @@
+Python/Django REST API Backend Developer
+Smart UI
+to $1600
+
+We are a growing web agency looking for an experienced Python/Django REST API Backend Developer to join our team. The ideal candidate will have at least 2 years of experience in Python/Django web development, a passion for coding, and a desire to learn and grow.
+Responsibilities:
+- Collaborate with the team to develop high-quality, scalable REST APIs using Python/Django
+- Write clean, maintainable, and efficient code
+- Design and implement low-latency, high-availability, and performance applications
+- Integrate data storage solutions using MySQL, PostgreSQL, and MongoDB
+- Develop and maintain APIs and integrate with third-party APIs
+- Implement security and data protection measures
+- Collaborate with the front-end team to ensure seamless integration of the front-end and back-end systems
+Requirements:
+- Аt least 2 years of experience in Python/Django web development
+- Experience in Cryptocurrencies must have
+- Strong proficiency in Python and Django
+- Experience with SQL and NoSQL databases
+- Familiarity with Git and agile development methodologies
+- Strong problem-solving and analytical skills
+- Ability to work collaboratively in a team environment
+Bonus skills:
+- Experience with Linux server administration
+- Experience with AWS or other cloud services
+- Familiarity with Docker or other containerization technologies
+- Familiarity with DevOps practices
+If you are passionate about web development and have the skills and experience we are looking for, we would love to hear from you. We offer a competitive salary, a positive work environment, and opportunities for growth and advancement.
+To apply, please send your resume, cover letter, and portfolio.
+Thank you for your interest in our agency! We look forward to hearing from you.
+
+Development
+Python
+Only from Beginner/Elementary
+Only from 1 year of experience
+$800-1600
+Full Remote
+Ukraine
+Countries where we consider candidates
+REST API, Python, Django, backend
+Domain: Other
+Outsource

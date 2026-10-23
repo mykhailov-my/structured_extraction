@@ -1,0 +1,55 @@
+Senior AQA Engineer (Python) (#14342447)
+N-iX
+
+N-iX is looking for a talented AQA Engineer (Python)
+About customer:
+With over 30 years of experience in designing, manufacturing and maintaining on-board communication and control systems, our customer is a leading, trusted partner for railway operators and train builders worldwide. Worldwide over 25,000 vehicles are equipped with our on-board solutions
+Its Passenger Information Systems are high quality, tailor-made solutions that offer the flexibility, user-friendliness and stability that our clients ask for.
+Our various types of on-board control systems such as our bogie monitoring systems are innovative yet reliable products which are designed specifically for the railway business.
+Trains and trams all around the world are equipped with our solutions, from New Zealand over India, to France, Canada and the US.
+Responsibilities:
+• Define test design for API tests;
+• Implement defined test design in test automation scripts in python;
+• Analyze test execution result and provide feedback to developers and managers — Improve test reliability and readability
+• Collaborate with dev engineers and business partners to deliver highest quality
+Requirements:
+• Proficient in Python
+• Experience with Python Behave
+• Experience related to testing of REST API
+• Familiarity with scrum
+• At least Upper-Intermediate English
+• Experience related to testing of embedded products would be a plus
+• Analytical mind and problem-solving skills
+We offer:
+• Flexible working hours
+• A competitive salary and good compensation package
+• 18 business days of payable annual free-time
+• 10 days of paid sick leave
+• A masseur and a corporate doctor
+• Healthcare & sport benefits
+• An inspiring, comfy, clean and safe office
+Professional growth:
+• Challenging tasks and innovative projects
+• Meetups and events for professional development
+• An individual development plan
+• Mentorship program
+Fun:
+• Corporate events and outstanding parties
+• Exciting team buildings
+• Memorable anniversary presents
+• A fun zone where you can play video games, foosball, ping pong, and more
+About N-iX
+N-iX is an Eastern European software development service company that helps businesses across the globe expand their engineering capabilities and develop successful software products. Founded in 2002, we have come a long way and increased our presence in six countries spanning Europe and the US.
+With more than 1,400 specialists, N-iX offers expert solutions in cloud computing, data analytics, machine learning, business intelligence, embedded software, and IoT, covering a wide variety of sectors including finance, manufacturing, supply chain, telecom, energy, etc.
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA Automation
+Lviv
+Office/Remote of your choice
+Outstaff
+3 years of experience
+English Upper Intermediate
+Ukraine only candidates 🇺🇦

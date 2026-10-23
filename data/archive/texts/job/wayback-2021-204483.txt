@@ -1,0 +1,38 @@
+Python Team Lead #8477
+Lohika
+
+The product is a software platform aiming to automate payroll processes. It provides a world-class payroll backend that automates direct deposit, tax calculation, filing, remittance, etc.
+MAIN TASKS AND RESPONSIBILITIES:
+Lead a team according to established processes while tightly collaborating with the stakeholders.
+Take part in requirements analysis, tasks planning, estimation and distribution between the team members.
+Suggest technical and functional improvements to add value to the product.
+Research and evaluate technical options to implement business requirements.
+Write quality and maintainable code in a fast-paced professional software engineering environment
+EDUCATION, SKILLS AND EXPERIENCE:
+MUST HAVE:
+2+ years of TL experience.
+5+ years of commercial SW development experience.
+Confident Python skills.
+Experience with Django REST framework
+Experience with AWS
+Profound SQL knowledge. Experience with PostgreSQL or/and MySQL.
+Experience with PyTest.
+Experience with source code management systems such as Git, Mercurial or Subversion.
+Good knowledge of all phases of the development lifecycle.
+At least Upper-Intermediate level of English.
+WOULD BE A PLUS:
+Zappa library
+Django
+TypeScript, React
+BS\MS in Computer science or related field
+About Lohika
+Lohika Official web site: [link] Lohika is the IT software development company specializing in product innovation and engineering services for cutting-edge technology companies. Founded in 2001, we have grown to 1000+ Software Engineers and 6 development offices all over Ukraine (Kyiv, Lviv, Rivne and Odesa).
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Odesa
+5 years of experience
+English Upper Intermediate

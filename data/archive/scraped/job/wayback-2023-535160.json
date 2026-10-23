@@ -1,0 +1,28 @@
+{
+  "doc_id": "wayback-2023-535160",
+  "url": "https://djinni.co/jobs/535160-senior-python-software-engineer/",
+  "snapshot": "https://web.archive.org/web/20230331230548/https://djinni.co/jobs/535160-senior-python-software-engineer/",
+  "captured_at": "2023-03-31T23:05:48",
+  "posted": null,
+  "year": 2023,
+  "active": false,
+  "layout": "v2",
+  "collected_at": "2026-10-23T06:20:12+00:00",
+  "title": "Senior Python Software Engineer",
+  "company": "CodeIT",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Vinnytsia",
+    "Category: Python",
+    "English: Upper-Intermediate",
+    "5 years of experience",
+    "Office/Remote of your choice",
+    "Outsource",
+    "Ukraine (Vinnytsia, Kharkiv)",
+    "Only candidates from Ukraine"
+  ],
+  "description": "We are inviting a Senior Python Software Engineer to join our team. The project is a hosting platform. We are modernizing an old-school data center company into a cloud-focused organization and building out the infrastructure and tools from the scratch. We are working with CDN, CRM, and API via VM.\nRequired skills\n• 5+ years of commercial experience with Python\n• Excellent knowledge of Django+DRF (optionally - FastAPI/Flask+SQLAlchemy)\n• Strong experience with Celery, knowledge of any message broker (RabbitMQ preferred)\n• Good knowledge of PostgreSQL (any other SQL database knowledge would be a plus)\n• Strong experience in writing unit tests\n• Strong Docker, Docker-Compose skills\n• Cloud development experience (AWS or Google Cloud preferred)\n• CI/CD experience and ability to do simple deployments without DevOps\n• Good Linux knowledge\n• 2+ years experience of direct and intensive voice communication with English-speaking clients, including non-technical ones\n• Strong experience of decomposing high-level requirements into ready-to-do tech tasks\n• Good in writing tech documentation\n• English level: upper-intermediate and higher\n• Experience in playing a lead role on a project\n• Experience in working directly as part of the clients team without project manager\n• Canonical Ubuntu MaaS expertise for bare metal management\nWill be a plus\n• Experience in pre-sales activities\n• Experience with container orchestration systems like Kubernetes, AWS ECS, Docker-Swarm\n• Mentorship experience\n• Configuration management with Ansible and Juju\nResponsibilities\n• Develop effective & scalable code and support the already created one\n• Improve functionality of existing systems\n• Review code for acceptance criteria, robustness, style, and maintainability\n• Coordinate internal team to redo user requirements into technical solutions\n• Architecture new modules, providing system suggestions to a customer\n• Creating and supporting technical documentation\n• Communication with a client and other stakeholders (meetings and writing group chat discussions).\n• Providing time estimates for tasks and projects\nBeing a member of the CodeIT team means\n• Career Path and growth opportunities (seniority level system, individual development plan, technical leads)\n• Compensation of participation in conferences and workshops, invited experts\n• Development of soft skills (people management and emotional intelligence training)\n• Free access to the company account on Udemy educational platform\n• Internal library\n• Corporate English courses and communication with clients from English-speaking countries\n• Experienced and supportive team members\n• Paid time off (vacation, sick-leave, remote work)\n• Legal support\n• Well-equipped offices located in Kharkiv, Vinnytsia, and Sofia\nAbout CodeIT\nCodeIT is a software development company launched in 2007. Based in Kharkiv (Ukraine) CodeIT has no geographical boundaries for its business – our partnership history includes cooperation with businesses from small to enterprise-level, startups and government organizations based in 20 countries around the globe. We are focusing our primary activity on:\nFull-stack web development;\nCustom iOS and Android mobile applications development;\nAutomated and manual quality assurance;\nWeb design creation;\nIT consulting, etc.\nCompany website:\n[link]\nDOU company page:\n[link]"
+}

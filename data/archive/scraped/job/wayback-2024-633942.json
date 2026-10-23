@@ -1,0 +1,31 @@
+{
+  "doc_id": "wayback-2024-633942",
+  "url": "https://djinni.co/jobs/633942-senior-java-big-data-engineer-aws-python-kafk/",
+  "snapshot": "https://web.archive.org/web/20241005022612/https://djinni.co/jobs/633942-senior-java-big-data-engineer-aws-python-kafk/",
+  "captured_at": "2024-10-05T02:26:12",
+  "posted": null,
+  "year": 2024,
+  "active": false,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "Senior Java Big Data Engineer (AWS Python Kafka)",
+  "company": "Luxoft",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "from Upper-Intermediate",
+    "Considering with Pre-Intermediate",
+    "Only from 5 years of experience",
+    "Office or Remote",
+    "Ukraine",
+    "Countries where we consider candidates",
+    "Java",
+    "AWS (S3, SQS, DDB, Lambda), 1+ Experience with Python development",
+    "Domain: Other",
+    "Outsource",
+    "Office:",
+    "Ukraine"
+  ],
+  "description": "Team is responsible for the building the group of services, which will inject data from upstream systems into Nordstrom Analytical Platform, transform and store. The system will provide access to already aggregated profile. The goal of the project is to sped up delivery of all data, enabling fresher data and quicker action.\nAlso, a candidate must be ready for periodical 12/7 hours of on-call support.\nResponsibilities:\n- new features implementation\n- MR review for other team members\n- bugfix of existing features\n- refactor/redesign existing code base\n- improve test coverage\n- build and ship product artefacts to dev/prod cluster\n- infrastructural updates\nMandatory Skills Description:\n- 5 years of experience with Java 8-11+\n- Spring Framework\n- Experience with AWS (S3, SQS, DDB, Lambda)\n- 1+ Experience with Python development\n- Apache Kafka or any other messaging tool\n- expertise with SQL and/or DWH\n- Experience with version control, build, CI/CD tool (Git/GitLab)\n- Understanding of core concepts of Big Data (Common, Spark, Hive)\n- Experience with JIRA, Confluence\n- Familiarity with Agile development methodology (Scrum)\n- Clear communication skills (will communicate across all regions)\nNice-to-Have Skills:\n- Experience with Teradata, Elastic Search or Airflow\n- Practical usage of Kubernetes\n- Terraform\n- Apache Airflow"
+}

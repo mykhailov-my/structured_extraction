@@ -1,0 +1,37 @@
+Lead Python developer
+luxoft.com
+
+Project Description:
+We are looking for engineers to join the Rates Risk Technology Team that is developing real time risk system. The application serves a wide variety of stakeholders such as Traders, Risk Managers and Financial Controllers and its mission is to provide accurate and timely valuations of trades and their sensitivity to market factors. The types of project undertaken by the team ranges from architecture decisions, regulatory driven, business process automation, intraday risk, to large scale risk and valuation impacting changes. This is a challenging and exciting opportunity to work within G10 Rates Risk Technology, cooperating with multiple trading desks, market risk managers and financial controllers to develop this strategically important platform.
+Responsibilities:
+- Develop Python toolsets that will help to validate batch performance problems and build possible optimization approaches
+- Lead small team with 1 Snr Python dev on it
+- Liaise with Bank internal development teams based mainly in Poland to drive towards a world class risk application
+- Deliver on time regulatory commitments
+- Be proactive and ensure the software developed by the Team remains compliant with prescribed best practices
+- Properly document work
+Mandatory Skills:
+- 5+ years in Python
+- Expertise in at least one popular Python framework (like Django, Flask or Pyramid)
+- Knowledge of object-relational mapping (ORM)
+- Basic understanding of front-end technologies (.Net)
+- Familiarity with event-driven programming in Python
+Nice-to-Have Skills:
+- Knowledge of financial derivatives pricing and risk
+- Templating, Pandas, Numpy
+- Experience of working with commercial or in-house quant pricing libraries
+- C# or Java knowledge
+About luxoft.com
+Luxoft (NYSE:LXFT) is a global consulting partner that offers end-to-end digital solutions to solve clients’ complex business challenges.
+We are a new class of digital service provider that combines consulting, strategy, and engineering at scale. We use this to drive business change by applying engineering excellence, deep domain expertise, and our senior software engineering talent to improve your client’s customer experience, boost your operational efficiency, and strengthen your competitive advantage.
+We have expertise in automotive, financial services, healthcare, life sciences, telecommunications, and other industries. As a highly committed partner, we take customer challenges as our own. Our dedication stems from a passion for technology and a bespoke attention to your needs.
+With over two decades of consistent, timely delivery and management of complex projects, we now serve over 280 active clients. With our headquarters in Zug, Switzerland and 42 global locations, we operate in 21 countries across five continents, providing you with robust global delivery platform. With about 12,700 employees, we have the best technology talent to support your business needs.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+5 years of experience
+English Upper Intermediate

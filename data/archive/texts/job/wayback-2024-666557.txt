@@ -1,0 +1,28 @@
+Trainee Developer (Perl, Python, UNIX shell)
+GlobalLogic
+
+Project Description
+The Client’s software helps leading companies around the world put technology at the forefront of business transformation, improving the delivery and consumption of digital services.
+This role is to join the R&D team responsible for building and maintaining the Discovery product.
+Requirements:
+- 0-1 years of scripting language development skills (Perl, Python, UNIX shell)
+- Overall work experience of 0-1 years, ideally in 1st or 2nd level Support or Junior System Administrator role, user-level experience in either Linux/UNIX or Windows environments(ideally both UNIX/Linux and Windows)
+- Understanding of software development process and best practices (code clarity, code testing, code quality, unit test, CI/CD)
+- Very Good to Excellent English language skills, both oral and written
+- Collaborative and cross-team work experience
+Responsibilities:
+- Analyze and evaluate software product fingerprint requirements (ex of vendors: Oracle, IBM, Microsoft…)
+- Design, develop, test, and maintain software product fingerprints
+- Write automation scripts to perform automated tests
+- Document knowledge gained for internal use as well as used by our customers.
+- Actively participate in process improvement efforts
+
+Operations (Ops)
+Sysadmin
+Only from Intermediate
+No experience
+Full Remote
+Ukraine
+Python scripting
+Domain: Other
+Outsource

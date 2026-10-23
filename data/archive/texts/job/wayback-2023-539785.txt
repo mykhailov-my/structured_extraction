@@ -1,0 +1,91 @@
+Python with AWS/Azure/GCP certificate
+Soft Industry Alliance Ltd
+
+We are looking for Senior Python Developer for a long-term project.
+The project is connected with a smart city. The goal of creating a smart city is to improve the quality of life using urban informatics technology to improve service efficiency and meet the needs of residents. The main goal is access to counters and other city systems from the phone.
+The world is changing, and we must adapt! In the last few years, utility industries have started renovating to adapt to forever increasing needs of water, electricity, and other resources by introducing smart city functions at a global scale. We are trying to further this change with our platform.
+We are putting all our efforts into perfecting water usage functionality by implementing various monitoring and alerting tools for our customers. To do this we try to utilize the best-suited technologies for it and use all our previous experience to create a platform that would monitor over 20 million devices hourly.
+Under secure requirements, it is obligatory to have AWS Certificate or Azure Cloud Certificate, or Google Cloud Certificate (existing or expired at least).
+We are looking for engineers, who are willing to experiment, learn new skills, and new ways of approaching interesting and complex tasks.
+We value people:
+– who are keen to express themselves, even if it might not be a popular opinion;
+– who are enthusiastic about saving natural resources from depletion by helping us with our mission;
+– who are willing to work on a large-scale project with a quite big range of functionality;
+– who puts team effort higher than personal gain;
+– who values quality over quantity.
+Stack:
+– 5 + years experience with Python;
+– Lambdas (where most of our code sits);
+– Terraform (where all our configuration sits);
+– Redshift / DynamoDB / Athena / S3(Data-lake) (where all our data sits);
+– SQS / SNS / API-GW (how we are communicating inside the platform);
+– Amazon Kinesis / Glue / Spark (how we are transforming incoming data).
+Other technologies/services/frameworks we are using:
+– Cognito;
+– Quicksight;
+– PowerBI;
+– React(for frontend app);
+– Kibana stack;
+– CircleCI;
+– Redis.
+We offer:
+Possibility to work remotely;
+Join us!
+Ми шукаємо Senior Python Developer для довгострокового проекту.
+Проект пов'язаний з smart city.
+Метою створення smart city є покращення якості життя за допомогою міських інформаційних технологій для підвищення ефективності обслуговування та задоволення потреб мешканців.
+Про проект
+Світ змінюється, і ми повинні адаптуватися! За останні кілька років комунальні галузі почали оновлюватись, щоб адаптуватися до постійно зростаючих потреб у воді, електроенергії та інших ресурсах, запроваджуючи функції розумного міста у глобальному масштабі. Ми намагаємося продовжити ці зміни за допомогою нашої платформи.
+На даний момент ми докладаємо всіх зусиль для вдосконалення функціональності використання води, впроваджуючи різні інструменти моніторингу та оповіщення для наших клієнтів. Для цього ми намагаємося використовувати найкраще підходящі для цього технології та використовуємо весь наш попередній досвід для створення платформи, яка могла б контролювати понад 20 мільйонів пристроїв щогодини.
+Проект триває вже другий рік. Основна мета – доступ до лічильників та інших систем міста з телефону. Як розумний будинок, але в масштабах міста. Усі дані будуть у хмарі, тому важливі AWS або інші хмарні рішення.
+Команда 10+ людей
+Основна мова програмування: Python
+Most of the code is located: lambdas
+Сonfiguration location: Terraform
+Data storage services: Redshift / DynamoDB / Athena / S3(Data-lake)
+Сommunicating inside platform: Kafka / SQS / SNS / API-GW
+Services for streaming data, and data integration service: Amazon Kinesis / Glue
+Вимоги
+5+ роки досвіду програмування на Python;
+Технології які використовуються
+- Quicksight
+- PowerBI
+- React(for frontend app)
+- Kibana stack
+- CircleCI
+- Redis
+Рівень англійської мови: вище середнього (повністю англомовна команда)
+Досвід роботи в AWS ( сертифікація AWS/Azure/Google Cloud certificate є обов'язковою умовою розгляду кандидата).
+Часовий пояс проекту (в якому поясі потрібно буде працювати кандидату): Європа
+Ми шукаємо інженерів, які готові експериментувати, вивчати нові навички та нові підходи цікаві та складні завдання.
+Ми цінуємо людей:
+- які прагнуть висловити себе, навіть якщо це може бути непопулярна думка,
+- які з ентузіазмом рятують природні ресурси від виснаження, допомагаючи нам у виконанні нашої місії
+- які готові працювати над масштабним проектом з досить широким функціоналом
+- хто ставить командні зусилля вище особистої вигоди
+- і хто цінує якість над кількістю
+Етапи:
+1. Співбесіда з рекрутером.
+2. Технічна співбесіда
+Ми пропонуємо:
+Свобода прийняття рішень та реалізації ідей;
+Віддалений формат роботи;
+Приєднуйтесь до нас!
+About Soft Industry Alliance Ltd
+Funded in 2000, today Soft Industry Alliance has become an effective team of 100+ IT professionals with strong practical experience. We have high-skilled developers, business analysts, testers, and project managers to work on your project.
+Our team has fulfilled complex B2B, B2C, and B2E projects in various fields such as industrial and business automation, business modeling and decision-making, transport, logistics, interactive education and media, the hotel and restaurant business, and retail.
+Our expertise and tech vision can serve you in bringing your ideas to life and helping your business grow!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Chernihiv
+Category: Python
+AWS , Python
+English: Upper-Intermediate
+5 years of experience
+Full Remote
+Outsource
+Ukraine (Chernihiv)

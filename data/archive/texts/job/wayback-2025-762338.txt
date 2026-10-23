@@ -1,0 +1,35 @@
+Junior AQA Engineer (Python+Selenium) (IRC274456)
+GlobalLogic
+
+Job Description
+1+ year of hands-on experience in Python Web Automation testing;
+Strong knowledge and experience in Selenium;
+Experience in developing automated test scripts;
+Understanding of Page Object pattern, knowledge of other automation patterns;
+Good working knowledge of at least one Linux/Unix-based platform as well as Windows;
+Experience in QA methodologies, a clear understanding of QA processes and artifacts;
+Experience with Scrum/Agile;
+Good communication and problem-solving skills;
+Good written and verbal English communication skills developed interpersonal skills;
+Highly motivated, energetic, and able to easily switch between assignments. Ready to challenge!
+Job Responsibilities
+Candidates with solid experience in test automation, automation framework development, and a desire to try new things are welcomed.
+Responsibilities:
+Working with Selenium test automaiton framework;
+Developing new and updating existing automation scripts;
+Debugging issues and creating bug reports;
+Documentation creation;
+Communication with international team (US)
+Department/Project Description
+Our Customer is one of the biggest companies on the market of home entertainment consumer electronics devices that strives to provide their clients with high-quality products and services.
+Project goals include automation testing of the video and audio content and other services available via digital media players using a custom test automation framework.
+
+Only from 1 year of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+English B1 - Intermediate
+QA Automation
+Employment: Fulltime
+Domain: Media
+Outsource

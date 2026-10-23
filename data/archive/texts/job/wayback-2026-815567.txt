@@ -1,0 +1,50 @@
+Backend Python Developer
+codeIMPL
+
+About the company
+codeIMPL was launched in 2018 with a large knowledge and experience in mobile development.
+Since that we help businesses and individuals establish their presence on any modern device and
+platform — mobile, web, etc.
+Our clients are large worldwide companies, that develop important and significant solutions in
+FinTech, Blockchain, DeFi, Health & Fitness, Gambling domains.
+In codeIMPL we use modern, innovative technologies and approaches that allow us to support any
+solution and provide the foundation for its future scaling and enhancement.
+About the product
+Project: fintech, payment system.
+Responsibilities
+● Develop and maintain asynchronous backend services (FastAPI, ARQ, service-oriented and
+microservice applications).
+● Write clean, testable, and maintainable code.
+● Participate in design discussions and suggest improvements to performance and developer
+experience.
+● Collaborate openly with backend, frontend, DevOps, and product teams.
+Requirements
+● 3+ years of hands-on experience with Python (asyncio, typing, pydantic);
+● Solid experience with SQLAlchemy 2.0 and Alembic;
+● Proficiency in writing unit and integration tests (Pytest/Unittest);
+● Hands-on experience with FastAPI and async task processing (ARQ/Celery/RQ);
+● Database skills: PostgreSQL (indexes, transactions, RLS). Knowledge of
+TimescaleDB/ClickHouse is a plus;
+● Experience in database query optimisation (EXPLAIN, keyset pagination, batching);
+● Understanding of idempotency and outbox/event sourcing principles;
+● Experience with Docker, docker-compose, local environments;
+● Basic knowledge of Kubernetes and AWS (SQS, RDS, S3) is a plus;
+● Hands-on experience with creating and supporting PCI DSS compliant applications is a plus;
+● Experience in creating skills, commands and agents for Claude AI is a plus;
+● Understanding of observability (structured logs, traces, metrics).
+We offer:
+● Full-time remote job;
+● Paid annual leave;
+● Work with professional team and friendly atmosphere;
+● Minimum of bureaucracy.
+
+Only from 3 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B1 - Intermediate
+Ukrainian Native
+Python
+Employment: Fulltime
+Domain: Fintech
+Product

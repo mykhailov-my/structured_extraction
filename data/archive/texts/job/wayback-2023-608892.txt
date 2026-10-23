@@ -1,0 +1,68 @@
+Senior Data Scientist (Python)
+Sigma Software
+
+Unleash your ambition as a Senior Data Scientist! We are looking for a professional who not only has impressive experience in data science but is also ready to take on a driver role, contributing to our Data Competency Center within Sigma Software. The role will involve Solution assessment, pre-sales activities under supervision, architecture design composition, and more.
+PROJECT
+We are a team of 160+ professionals. We are very different, but a few things make us a true team: a genuine passion for our work, friendliness, and inexhaustible optimism, no matter what.
+We use Agile with technical excellence in place and Kanban approaches to do great work and make customers happy. Our goal is to offer our clients the best expertise in different domains to bring value to their business and become the best tech partner.
+Job Description
+– Work closely with the client (PO) as well as other Team Leads to clarify the tech requirements and expectations
+– Translate complex business problems into actionable data-driven questions or hypotheses. This will involve working with stakeholders to understand the underlying issues and defining the specific questions that need to be answered through data analysis
+– Collect data from various sources, identify and address data quality issues, and convert the data into a format suitable for analysis and modeling. This will involve using data wrangling techniques, data cleaning tools, and data quality checks
+– Apply statistical methods, data visualization techniques, and machine learning algorithms to uncover hidden patterns, trends, and anomalies within the data. These insights will inform the development of effective models and solutions
+– Select and apply appropriate machine learning or statistical models to address specific business problems. This involves understanding the problem at hand, choosing the right algorithms, training the models on the prepared data, and evaluating their performance
+– Work with engineers to integrate trained models into production environments, ensuring that they can be used to make real-time predictions or decisions. This involves deploying the models, monitoring their performance, and maintaining them over time
+– Effectively communicate complex data-driven insights and recommendations to stakeholders in a clear, concise, and actionable manner. This involves using storytelling techniques, visualizations, and presentations to effectively convey the findings and their implications for business decisions
+– Continuously research and stay up-to-date with the latest advancements in data science, including new algorithms, techniques, and tools, and explore emerging technologies and methodologies. This involves attending conferences, reading research papers, and experimenting with new approaches
+– Suggest and contribute to training and improvement plans regarding analytical data engineering skills, standards, and processes
+Qualifications
+– 3-5+ years of experience with Python or R
+– Experience with AWS/Azure
+– Expertise in machine learning algorithms, including linear regression, clustering, classification, and recommendation systems
+– Proven ability to create clear, concise, and compelling visualizations using tools like ggplot2, matplotlib, or plotly, Power BI, Tableau, and Qlik
+– Conceptual understanding of data analysis fundamentals, encompassing ETL, data warehousing, and unstructured data
+– A comprehensive grasp of deep learning fundamentals, including activation functions, backpropagation, CNNs, Transformers, transfer learning, and generative models
+– Expertise in evaluating and selecting the most appropriate deep learning model for a given task, including assessing model performance metrics, identifying potential biases, and comparing different model architectures
+PERSONAL PROFILE
+– Analytical and Problem-Solving Skills:
+– Demonstrated problem-solving and analytical thinking skills, with a proven track record of applying these skills to real-world challenges to identify problems, gather relevant data, and develop creative solutions
+– Continuous learning mindset, ensuring you stay up-to-date with the latest advancements in deep learning and adapt skills accordingly
+– Actively participate in the evaluation of new tools for analytical data engineering or data science
+Реалізуй свої амбіції на посаді Senior Data Scientist! Ми шукаємо професіонала, який не тільки має вражаючий досвід у галузі науки про дані, але й готовий взяти на себе роль лідера, що сприятиме розвитку нашого Центру компетенції даних у Sigma Software. Посада включатиме оцінку рішень, передпродажну діяльність під наглядом, розробку архітектури та багато іншого.
+В нашій команді понад 160 професіоналів. Ми дуже різні, але є кілька речей, які роблять нас справжньою командою: непідробна пристрасть до своєї роботи, дружелюбність і невичерпний оптимізм, незважаючи ні на що.
+Ми використовуємо Agile з технічною досконалістю та підходами Kanban, щоб виконувати свою роботу на високому рівні та робити клієнтів щасливими. Наша мета — запропонувати нашим клієнтам найкращу експертизу в різних галузях, щоб принести користь їхньому бізнесу та стати найкращим технічним партнером.
+ВИМОГИ
+– 3-5 років досвіду роботи з Python або R
+– Досвід роботи з AWS/Azure
+– Експертиза в алгоритмах машинного навчання, включаючи лінійну регресію, кластеризацію, класифікацію та рекомендаційні системи
+– Підтверджена здатність створювати чіткі, лаконічні та переконливі візуалізації за допомогою таких інструментів, як ggplot2, matplotlib або plotly, Power BI, Tableau та Qlik
+– Концептуальне розуміння основ аналізу даних, включаючи ETL, сховища даних та неструктуровані дані
+– Комплексне розуміння основ глибинного навчання, включаючи функції активації, зворотне поширення, нейронні мережі, трансформатори, трансферне навчання та генеративні моделі
+– Експертиза в оцінці та виборі найбільш відповідної моделі глибинного навчання для конкретної задачі, включаючи аналіз показників ефективності моделі, виявлення потенційних викривлень та порівняння різних архітектур
+ОБОВ’ЯЗКИ
+– Тісно співпрацювати з клієнтом (PO), а також з іншими Team Lead для уточнення технічних вимог та очікувань
+– Перетворювати складні бізнес-проблеми на конкретні запитання або гіпотези, що ґрунтуються на даних. Це передбачає роботу зі стейкхолдерами, щоб зрозуміти основні проблеми та визначити конкретні питання, на які потрібно відповісти за допомогою аналізу даних
+– Збирати дані з різних джерел, визначати та вирішувати проблеми якості даних, а також перетворювати дані в формат, придатний для аналізу та моделювання. Це передбачає використання методів обробки даних, інструментів очищення даних та перевірку якості даних
+– Застосовувати статистичні методи, методи візуалізації даних та алгоритми машинного навчання, щоб виявити приховані закономірності, тенденції та аномалії в даних. Ці знання допоможуть розробити ефективні моделі та рішення
+– Підбирати та застосовувати відповідні моделі машинного навчання або статистичні моделі для вирішення конкретних бізнес-проблем. Це передбачає розуміння проблеми, вибір правильних алгоритмів, тестування моделей на підготовлених даних та оцінку їхньої ефективності
+– Співпрацювати з інженерами, для інтеграції натренованих моделей у виробниче середовище, забезпечуючи можливість їх використання для прогнозування або прийняття рішень у реальному часі. Це передбачає розгортання моделей, моніторинг їхньої продуктивності та підтримку з часом
+– Ефективно доносити до зацікавлених сторін складні аналітичні висновки та рекомендації на основі даних у чіткий, стислий і зрозумілий спосіб, що спонукає до дій. Це передбачає використання технік сторітелінгу, візуалізації та презентацій для ефективного донесення результатів та їхнього впливу на бізнес-рішення
+– Постійно досліджувати та бути в курсі останніх досягнень у науці про дані, включаючи нові алгоритми, методи та інструменти, а також вивчати нові технології та методології. Це передбачає відвідування конференцій, вивчення наукових робіт та експерименти з новими підходами
+– Пропонувати та долучатися до планів навчання та вдосконалення навичок, стандартів та процесів інженерії аналітичних даних
+About Sigma Software
+Sigma Software is a place where Nordic Traditions meet Ukrainian Spirit to create Superior Software. We combine the best practices and approaches from Swedish and Ukrainian cultures. Taking high demand for quality, minimal hierarchy, freedom of decision-making, and attention to every opinion from Swedes, as a Ukrainian company we demonstrate flexibility and dedication to every project and every customer.
+We are IT consulting and software product company with development offices in Ukraine, Sweden, the USA, Canada, Poland, and Australia. We deliver smartest solutions to our customers in the areas of government, telecommunications, advertising, automotive, gaming, and others. Being a part of Sigma Group, one of the largest Nordic IT corporations, we are a global player with more than 5000 employees in 12 countries and over 1500 in Ukraine.
+We work with startups, software houses, and enterprises providing the products and services that suit our clients the most. Company`s R&D centers are mastering the trending technologies and directions: Infotainment, AR/VR, Blockchain, Machine Learning, Data Science, Artificial Intelligence, and others.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+English: Upper-Intermediate
+3 years of experience
+Office or Remote
+Outsource
+Ukraine
+Only candidates from Europe and Ukraine

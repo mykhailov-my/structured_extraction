@@ -1,0 +1,30 @@
+Middle to Senior AQA (Python)
+GlobalLogic
+
+We have an exciting opportunity for an experienced and passionate engineer to join our growing technology team within the WPP division, focusing on building technology products for world’s leading media agencies. The successful candidate will work alongside QA, developers and other members of the scrum teams.
+Our client is a global data products and technology company. They are on a mission to transform marketing by building the fastest, most connected data platform that bridges marketing strategy to scaled activation.
+They work with agencies and clients to transform the value of data by bringing together technology, data and analytics capabilities. Delivering this through the AI-enabled media and data platform for the next era of advertising.
+The client is endlessly curious. Their team of thinkers, builders, creators and problem solvers are over 1,000 strong, across 20 markets around the world. Our client’s culture is based on mutual trust, sharing, building, and learning together. They value simplicity, maintainability, automation, and metrics.
+Requirements:
+- Proven professional Test Automation experience
+- Knowledge of Testing Best Practices
+- Experience with Cucumber, Gherkin, or other BDD testing tools
+- Experience writing automated tests for UI and API testing using Python and Playwright
+- Knowledge of SQL
+- Knowledge of mocking objects for testing
+- Experience working in an Agile/Scrum development process
+- Experience using AI-powered tools (e.g., for test case generation, code assistance, or test optimization) in daily work
+Job responsibilities:
+- Developing automated test framework and ensure quality of the application
+- Coordination with the rest of the team working on different layers of the infrastructure. Therefore, a commitment to collaborative problem solving, sophisticated design and quality product is essential
+- Experience using AI-powered tools (e.g., for test case generation, code assistance, or test optimization) in daily work is mandatory
+
+Only from 4 years of experience
+Full Remote
+Poland, Romania
+Countries where we consider candidates
+English C1 - Advanced
+Python
+Employment: Fulltime
+Domain: Media
+Outsource

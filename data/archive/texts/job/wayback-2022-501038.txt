@@ -1,0 +1,43 @@
+Senior Backend engineer (Python)
+Unit Group
+
+We’re at the forefront of multiple trends, uniquely combining cloud computing, Big Data, Machine Learning, and other cutting-edge fields into an intelligent, dynamic, and robust cybersecurity SaaS platform running on the public cloud of customer choice.
+We are growing quickly, and we’re looking for capable, creative and self-motivated people to grow with us. If you’d like to advance your career while being at the intersection of multiple global trends (cloud adoption, SaaS, machine learning, cybersecurity, and more), we’d love to hear from you!
+The Role
+We are looking for an experienced Backend Engineer to join our R&D team. We are looking for an exceptionally talented backend developer experienced with modern cloud native technologies to join our R&D team, building web security multi-cloud products and services.
+Primary Responsibilities:
+Drive innovation, build and improve the product
+Ensure the technical feasibility of cloud designs
+Optimize application for maximum speed and scalability
+Help to define technical requirements and architecture, and execute best-in-class implementation
+Requirements:
+A team player that can thrive in a very dynamic environment
+Experience in backend development on cloud GCP/AWS/Azure
+Experience with writing design and architecture documents
+Proficient in Python - 5+
+Experience with K8S, Docker and Ingress gateways
+Experience with microservices
+Familiarity with Go (advantage)
+Scrum Master Experience
+Experience with the K8S toolchain and ecosystem, such as Promoteus, Gafana and Argo
+Understanding of web applications security chall
+Fluent in English, verbal and written
+About Unit Group
+Welcome to UNIT GROUP
+UNIT Group is an international IT services and end-to-end solutions provider designed to help clients improve their competitiveness and efficiency.
+Since 2005, UNIT Group provides services to over 120 clients located throughout the world, in the high-tech, commercial and industrial sectors, across a dozen key vertical markets and employs over 50 experts who are highly educated in software, computers, engineering and business management.
+Since 2014, UNIT Group has been deeply involved in high-tech ventures, acting as early stage investor, incubator and accelerator.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+Python , Microservices , Docker , Kubernetes
+English: Advanced/Fluent
+5 years of experience
+Full Remote
+Product
+Austria, Czechia, Germany, Poland, Romania
+Only candidates from Europe

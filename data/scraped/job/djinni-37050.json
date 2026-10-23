@@ -1,0 +1,32 @@
+{
+  "doc_id": "djinni-37050",
+  "url": "https://djinni.co/jobs/37050-python-engineer/",
+  "category": "Python",
+  "published": "Thu, 22 Oct 2026 11:28:27 +0300",
+  "collected_at": "2026-10-22T16:52:13+00:00",
+  "title": "Python Engineer",
+  "company": "AnvilEight",
+  "salary": "",
+  "skills": [
+    "Python",
+    "Django",
+    "PostgreSQL"
+  ],
+  "languages": [
+    "Англійська: B2 – Вище середнього",
+    "Українська: C2 – Вільний"
+  ],
+  "facts": [
+    "Виключно від 2 років досвіду",
+    "Тільки віддалено",
+    "Україна",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська B2 – Вище середнього",
+    "Українська C2 – Вільний",
+    "Python",
+    "Зайнятість: Fulltime",
+    "Домен: Fintech",
+    "Сервісна компанія"
+  ],
+  "description": "Technical Requirements:\n- Strong knowledge of Python 3.x;\n- Experience with Django REST Framework. GraphQL experience is also welcome;\n- Familiarity with AWS or GCP or Azure;\n- Experience with PostgreSQL or MySQL;\n- Understanding of API design principles and RESTful APIs;\n- Experience integrating LLM-powered features into products, including retrieval, AI agents, tool calling, and structured outputs;\n- Hands-on experience with AI coding agents such as Claude Code;\n- Experience with n8n or similar workflow automation tools, including building and maintaining automated workflows and integrating APIs and AI services;\n- Basic knowledge of Git and Webpack;\n- At least one year of commercial development experience.\nExperience with React.js would be a significant advantage.\nNon-Technical Qualifications and Skills:\n- Strong written English and good spoken English communication skills;\n- Understanding of the Scrum framework and team roles;\n- Ability and willingness to learn quickly.\nWe Offer:\n- Free English classes, technical lectures, and courses;\n- 22 working days of paid annual leave;\n- Paid sick leave without requiring a doctor's note;\n- Flexible working hours: you can plan your workday as you prefer, provided you remain available for team collaboration and daily meetings;\nAbout Us\nAnvilEight is a Python development outsourcing company that provides custom software solutions and mobile development services to businesses and individuals.\nWe are a team of around 40 professionals who enjoy tackling challenging projects and delivering high-impact solutions to clients worldwide.\nOur core technology stack includes Python 3.x, Django, and React.js. We also have a mobile development team specializing in iOS and Android applications.\nWe follow the Scrum framework, with structured backlogs and daily Scrum meetings."
+}

@@ -1,0 +1,56 @@
+Senior Python Developer
+ITSG Global
+$5300-7500
+
+If you are a highly motivated individual with a genuine interest in technology a passion to deliver cutting-edge products, we have the perfect job for you!
+We are seeking a sharp and experienced Python Developer to work with our team to deliver top-class and innovative software solutions. You will join an international team creating enterprise software that enables organizations to manage unstructured data. Systems operating on billions of files and petabytes of data, must respond to the need for scalability and operate in an optimal manner in terms of performance.
+The system is used by the most respected organizations in their industries - media and entertainment, research computing, higher education, and the USA Federal government.
+Join our team and become an expert in solving problems in high-quality software development.
+Duties and responsibilities:
+Your ultimate goal is to create a high-quality product using robust and agile software
+Participate in all phases of the software development lifecycle
+Help design and implement functional requirements
+Build efficient back-end features in Python
+Streamline TDD / CI / CD practices
+Prepare technical documentation
+Write reusable, testable, and efficient code
+Design and implement of low-latency, high-availability, and performant PostgreSQL solutions
+Implementation of security and data protection
+Performance tuning, improvement, balancing, usability, automation
+Requirements:
+Solid (5+ years) experience as Python Developer
+Sharp analytical and problem-solving skills
+Practical experience in agile-oriented processes and tools
+Knowledge of SQL (PostgreSQL is a plus)
+Experience with Linux / Bash and / or CI / CD / Jenkins is a plus
+Familiarity with Amazon Web Services (AWS) is a plus
+Minimum Bachelor's degree in information technology, computer science, or physics/mathematics field
+Good English and communication skills
+We offer:
+We are offering superb career growth opportunities, great compensation and benefits.
+Salary: 130 - 180+ vat /h PLN
+Possibility to choose a working system (100% remotely, hybrid or on-site in Warsaw),
+Work in an experienced team of experts
+Using the latest tools and technologies in everyday work,
+Individual training and the possibility of promotion,
+Benefits: English lessons, Multisport cards, and private medical insurance, integration events.
+Recruitment process:
+Phone call with a recruiter about your experience and expectations.
+Task - code review
+Online technical interview
+Decision
+About ITSG Global
+We’re ITSG Global - a modern and experienced software development company. We’ve been using the latest technologies to help our Clients to grow effectively since 2007. Our experience in Big Data, VR, IoT, UI/UX and other fields allowed us to deliver high quality services for companies like Starfish Storage, Device Insight, Craftguide, BEN Energy and many more.
+We have proven experience in helping Clients to free up the value using our technological advantage. We have adapted the entire company's operations to understand our Clients'​ business needs before we develop technology for them.
+ITSG's strength lays in our collaboration style which is the main factor that makes our Clients quickly achieve stable business results.
+For 14 years, ITSG has been providing Clients with innovative IT solutions and interactive marketing projects. Our staff consists of first-class specialists in the field of software engineering and data management.
+Company website:
+[link]
+
+Python
+Warsaw
+Poland
+5 years of experience
+English Upper-Intermediate
+Full Remote
+Outsource

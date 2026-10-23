@@ -1,0 +1,37 @@
+Senior Python developer
+GIST army
+
+We are looking for a Senior Python developer to join our friendly team.
+Requirements:
+— Bachelor’s Degree in Computer Science or similar
+— 5+ years of experience building, maintaining and delivering data-based products
+— Advanced Level with Programming Languages: Python
+— Strong familiarity with database languages, SQL Server, SSIS
+— Strong familiarity with version control systems: Git, SVN
+— Strong familiarity with agile development
+— Experience with developing object-oriented, enterprise-sized systems
+— Desirable experience with Programming Languages: C#, .Net
+— Desirable experience with: Airflow, AWS, Kafka, Docker
+— Desirable experience with every layer of an Enterprise system (from Database to UX).
+We offer:
+— Professional and career growth;
+— Best team;
+— Compatible and stable salaries;
+— Flexible working time.
+Responsibilities:
+— As a Data Engineer, a person will have the opportunity to shape the future of company, by building and maintaining business-critical customer-facing applications and helping deliver the next generation of our information retrieval and analytics.
+— A Data Engineer will be responsible for creating and maintaining the pipelines to assemble different data sets, all this following an architecture defined by the company.
+— A Data Engineer should write maintainable code, and work in a professional software engineering and teamwork environment (source control, shortened release cycles, continuous integration/deployment, documentation, agile development).
+— A Data Engineer should have excellent analytical and critical thinking skills, should show initiative and a positive attitude.
+About GIST army
+We are all about Fintech, bringing Fintech B2B solutions to global customers. As a top provider of B2B services, we help our customers make the decisions and follow the paths they need. With Blockchain, cryptocurrencies, BI and a variety of technologic advances taking place in recent years, we are especially situated to help our customers with their biggest business challenges.
+GIST R&D team’s target is developing software solutions maximizing the performance of the core business. Current team size is 40+ people. New products development we start in 2018 requires team to grow for additional 40 people this year. We are looking for software development experts ready to bring their knowledge and contribute to building the new, best in the class, software product.
+R&D team is concentrated in Kiev, and the company serves clients worldwide. We do qualitative software products to enable the business becoming more efficient and successful.
+Company website:
+[link]
+
+Python
+Kyiv
+Киев, Харьков, remote
+5 years or more
+English Upper Intermediate

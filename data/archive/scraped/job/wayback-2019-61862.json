@@ -1,0 +1,24 @@
+{
+  "doc_id": "wayback-2019-61862",
+  "url": "https://djinni.co/jobs/61862-sr-python-developers-for-product-company-khar/",
+  "snapshot": "https://web.archive.org/web/20190715195653/https://djinni.co/jobs/61862-sr-python-developers-for-product-company-khar/",
+  "captured_at": "2019-07-15T19:56:53",
+  "posted": null,
+  "year": 2019,
+  "active": false,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:09+00:00",
+  "title": "Sr Python developers for product company [Kharkov]",
+  "company": "MedeAnalytics",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Kharkiv",
+    "Харьков",
+    "2 years or more",
+    "English Pre-Intermediate"
+  ],
+  "description": "This is a rapidly growing US based business specializing in medical documentation and medical image management. The software is very popular in dermatology, aesthetics, plastic surgery, vein treatment, medical spa and wound care fields.\nWhat we de (Product description itself and role of this product in the world, perspectives, plans)\nRxPhoto is a HIPPA compliant cloud storage photo management software. RxPhoto’s tools make medical practices more productive and successful in the dermatology, aesthetics, plastic surgery, vein treatment and wound care fields. It allows practices to take control of their clinical photography from capturing a photo to expectation management and marketing.\nThe RxPhoto platform combines mobile and cloud technology to streamline the process of capturing and managing medical photos.\nAre there any similar products at the market?\nYes\nWho is leading the development process? And How the development process is built?\nWe run an off shore / on shore model. Ethan Evans is the operations manager and he oversees all aspects of the development process. On-shore we have project managers, business analysts and senior technical lead developers. All projects are managed in Jira. Tasks are put in Jira and estimated by developers prior to start. We use a combination of agile and waterfall. Agile in that we do 2 week sprints. Waterfall in that the entire project is deisgned and all requirements written before the project starts. Code is checked in by off shore resources and reviewed by our on-shore senior developers.\nTechnical questions:\nHow the project is built:\nUsed technologies\niOS / Python / AWS / Angular\nHow do you use VCS?\nGithub\nDo you have general coding style and do you follow it?\nYes.\nIs there any code review conducted and do you do refactoring?\nYes\nIs there any “legacy code”? (Is codebase conducted?)\nYes\nCan I look at the sample of your source code?\nYes\nWhat professional qualities we are looking for? (Please add maybe years of experience)\nDjango 1.x (including legacy versions) and Django 2\nDjango Rest Framework 2.x and 3.x\nPillow\nCelery\nWeasyprint\nPostgreSQL experience (as developer not admin)\nRedis\nMemcached\nWhat are my responsibilities? (What I will do everyday, examples of daily to ask)\nBest if discussed with the existing developers.\nWhy is this position open?\nWe are trying to hire our own developers and grow our development team in Ukraine.\nAbout perspectives and general information\nProspect of growth/development in this position?\nAbsolutely.\nWhat (as a company) we are doing for the community?\nImproving the level of healthcare by streamlining the process of capturing and cataloguing medical photography.\nHow are we as a company different from others?\nWe are the most advanced mobile solution for medical photography on the market.\nConditions:\nIs there a probationary period and how long does it last?\n60 Days\nAre there any overtimes (additional hours), how often are they, what approach to payment?\nYes. We can have a bonus structure over time.\nWhat is the work schedule? Is it possible to work remotely some days?\nFlexibe, yes you can take a couple of remote days\nNumber of vacation days? 20\nNumber of paid sick days per year? Up to 10\nIs there a possibility for business trips, and where? Not during the first year\nIs relocation possible outside of Ukraine and how is the company willing to support it? Not during the first year\nWhat kind of office do you have? (rooms)\nWhat other social benefits do you have? We work on it\nGeneral\nWhat is the office address: we haven´t opened it yet but it will be on Kosmichna street\nBy process:\nIs there a test task? No\nHow many stages of the interview is there, with whom? With CEO and the other one with Tech Lead\nInterview in English? Yes\nWho will check the candidate’s profiles? CEO\nAbout MedeAnalytics\nПривет, меня зовут [name], представляю продуктовую компанию MedeAnalytics\nCompany website:\n[link]"
+}

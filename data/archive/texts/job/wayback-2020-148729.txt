@@ -1,0 +1,41 @@
+Senior Python / Software Integration Developer
+GeeksForLess
+
+The product works on a direct basis with the end user’s network and, depending on the client’s needs, performs an analysis on the network’s vulnerability, analyses the network for routes discrepancy or its routes failures, analyses the rules and policies of firewalls that are part of the network.
+Requirements and duties:
+• 3+ years of experience with Python 3 and SQL (primarily DML).
+• 3+ years of experience developing on Linux.
+• 3+ years of RESTful / SOAP APIs experience.
+• Familiarity with Python profiling & performance tweaking.
+• Familiarity with Flask / Django in production environments.
+• SDLC best practices — CI/CD, SOLID, Anti-Patterns, Design Patterns, TDD.
+• Good working knowledge of unit testing and continuous integration.
+• Strong Architectural design capabilities and experience.
+• Full Ownership, highly motivated and used to being autonomous.
+• Networking Knowledge, preferably also Network security.
+• Excellent soft skills — communication and customer management skills.
+• Proven ability to write processes and procedures documents for customers.
+• Solve business needs with short-term deliverables.
+• Constantly improve and promote long-term architectural goals.
+• Participate in customer calls providing discovery to determine integration effort.
+• Be a major part of integration projects lifecycle — from initiation, to requirements, effort estimations, design, implementation, testing and delivery.
+• Create Level of Effort Estimates for integration work.
+• Design and develop leveraging various 3rd party APIs and communication protocols.
+• Provide consultancy and support for customers who use API.
+• Communicate effectively with various background technical and non-technical people, Including direct contact with our customers.
+• Develop and be part of full testing with customers and PS engineers.
+• Be main point of contact for all integrations field issues and problems.
+• Serve in a global role — work during other time zone when and if required.
+• Be a part of a leading cyber security company in the industry.
+About GeeksForLess
+Our company has come a long way from the small projects implementation to the level of established trust relationships with the world's IT Leaders. We are proud of our highly professional teams of developers located in in Mykolaiv, Lviv, Kyiv(Ukraine), Krakow (Poland) and Clark Freeport Zone, Angeles City, Philippines. We constantly invest in the comfort of our employees.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, Lviv, Mykolaiv, remote
+5 years of experience
+English Upper Intermediate

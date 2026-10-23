@@ -1,0 +1,22 @@
+Automation QA Engineer (Python)
+Epam
+
+Hot vacancy for Automation QA Engineer (Python) who is ready to join strong and friendly team of professionals.
+If you have 1-2 years of experience as AQA, have technical background and at least intermediate level of English - feel free to contact me directly.
+Our customer is one of the leaders of cloud file sharing and mobile collaboration solutions. Our project is about developing solution that enhances business productivity by enabling the secure creation, editing, viewing, access, printing, and sharing of enterprise content on popular smart phones and tablets via Mobile Apps, providing users with a unified view into enterprise content for finding, editing, and sharing data. Provides secure mobile file sharing solutions via private, public, and hybrid cloud deployments. You will be responsible for implementing new functionality along with improving existing code base.
+REQUIREMENTS
+• 2+ years of automation testing experience;
+• Good knowledge of Python;
+• Good knowledge of REST, SOAP;
+• Experience in API automation testing;
+• Good knowledge of continuous integration tools;
+• Experience in communication with customer – voice/email/chat;
+• Experience of back-end testing is a plus;
+• Experience in performance testing is a plus;
+• Good spoken and written English.
+
+QA Automation
+Kharkiv
+Харьков, Днепр
+At least a year
+English Intermediate

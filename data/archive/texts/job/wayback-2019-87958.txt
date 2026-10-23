@@ -1,0 +1,50 @@
+Senior/ Lead Python Developer
+Intellias
+
+We have few Senior Python Developer openings and one Lead Python Developer opening.
+It is a government-owned company operating under the Ministry of Health and working as a key enabler of E-Health innovation in Saudi Arabia, with business trips.
+Project Overview
+Our Client is a government-owned company operating under the Ministry of Health and working as a key enabler of E-Health innovation in Saudi Arabia. Their objectives are to contribute to transforming the Saudi health ecosystem and elevating the services of the Health Sector by launching sustainable products and activating partnerships between the public and private sectors.
+Description
+We are looking for a Senior Python Developer to build functional and efficient server-side applications.
+Senior Python Developer responsibilities include participating in all phases of the software development lifecycle and coaching junior developers. If you’re a seasoned developer with a love for back-end technologies, we’d like to meet you.
+Your ultimate goal is to create high-quality products that meet customer needs.
+Responsibilities
+-Writing reusable, testable, and efficient code;
+-Design and implementation of low-latency, high-availability, and performant applications;
+-Implementation of security and data protection;
+-Integration of data storage solutions may include databases, key-value stores, S3 stores, etc;
+-Build efficient back-end features in Python;
+-Integrate front-end components into applications;
+-Prepare technical documentation;
+-Implement software enhancements and suggest improvements.
+Skills
+-Expert in Python, with knowledge of at least one Python web framework such as Django, Flask;
+-Familiarity with some ORM (Object Relational Mapper) libraries;
+-Able to integrate multiple data sources and databases into one system;
+-Good understanding of server-side templating;
+-Basic understanding of front-end technologies, such as JavaScript, HTML5, and CSS3;
+-Understanding of accessibility and security compliance;
+-Knowledge of user authentication and authorization between multiple systems, servers, and environments;
+-Understanding of fundamental design principles behind a scalable application;
+-Understanding of the differences between multiple delivery platforms, such as mobile vs desktop, and optimizing output to match the specific platform;
+-Able to create database schemas that represent and support business processes;
+-Strong unit test and debugging skills;
+-Proficient understanding of code versioning tools such as Git, Mercurial or SVN;
+-Experience with Python frameworks (e.g. Django, Flask, Bottle);
+-Familiarity with microservice architecture;
+-Familiarity with Amazon Web Services (AWS) and REST API;
+-Understanding of databases and SQL;
+-Minimum 5 years experience in Python development;
+-Higher Education: Bachelor’s Degree.
+About Intellias
+He is short presentation about Intellias:
+[link] .
+Company website:
+[link]
+
+Python
+Kyiv
+Киев, Харьков, Львов
+2 years or more
+English Intermediate

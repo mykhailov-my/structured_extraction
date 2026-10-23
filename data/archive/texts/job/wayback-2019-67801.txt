@@ -1,0 +1,43 @@
+Regular/Senior Python Developer
+Luxoft
+
+We are loooking Regular/Senior Python Developer join our team
+Project Description:
+You will join Data Architecture/Engineering group. We are responsible for company data architecture and infrastructure, including data ingestion, processing and internal distribution, as well as analytical platforms.
+Among other projects you will build out an advanced analytical platforms (implemented in Python) and contribute to its improvement, stability, scalability and new features. You will interact with researchers, portfolio managers, infrastructure teams and data architects.
+The role requires great coding and communication skills, disciplined software engineering practices and a thirst for technology.
+Responsibilities:
+Researching, designing, implementing and managing software programs
+Testing and evaluating new programs
+Identifying areas for modification in existing programs and subsequently developing these modifications
+Writing and implementing efficient code
+Determining operational practicality
+Developing quality assurance procedures
+Deploying software tools, processes and metrics
+Maintaining and upgrading existing systems
+Working closely with other developers, business and systems analysts
+Mandatory Skills:
+- Python
+- React/Angular.js
+- SQL
+- Experience with CI/CD and tests
+- Relational and NoSQL databases
+- Experience in building scalable systems
+- experience with UI/UX development
+Nice-to-Have Skills:
+- Node.js
+- Docker and cloud concepts
+- AWS/GCP
+About Luxoft
+Luxoft (NYSE:LXFT) is a global consulting partner that offers end-to-end digital solutions to solve clients’ complex business challenges.
+We are a new class of digital service provider that combines consulting, strategy, and engineering at scale. We use this to drive business change by applying engineering excellence, deep domain expertise, and our senior software engineering talent to improve your client’s customer experience, boost your operational efficiency, and strengthen your competitive advantage.
+We have expertise in automotive, financial services, healthcare, life sciences, telecommunications, and other industries. As a highly committed partner, we take customer challenges as our own. Our dedication stems from a passion for technology and a bespoke attention to your needs.
+With over two decades of consistent, timely delivery and management of complex projects, we now serve over 280 active clients. With our headquarters in Zug, Switzerland and 42 global locations, we operate in 21 countries across five continents, providing you with robust global delivery platform. With about 12,700 employees, we have the best technology talent to support your business needs.
+Company website:
+[link]
+
+Python
+Kyiv
+Киев
+2 years or more
+English Upper Intermediate

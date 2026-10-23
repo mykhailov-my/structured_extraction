@@ -1,0 +1,37 @@
+Middle Python Developer
+NordWhale
+
+Looking for a Middle Python Developer in Ukraine (remote) for exciting projects in our outsource company!
+The project is connected with the insurance company. We help them to build a data-driven approach to correct workers’ compensation.
+Requirements:
+- 2+ years of experience with Python and Django;
+- 2+ years of experience with Vue.js or React;
+- Practical knowledge of PostgreSQL;
+- Experience with pattern design.
+As a plus:
+- Socket io
+- Unit-testing
+We offer:
+- Remote job with a flexible schedule
+- Competitive salary
+- The newest technology stack
+- Opportunity to grow and develop your core skills
+- A possibility to implement interesting projects from scratch
+- Work in a team of professionals
+Про компанію Nordwhale
+Great projects need outstanding people. Nordwhale is not just a development company. It's a tightly knit team of like-minded professionals who are enthusiastic about what they do and have the necessary experience to offer top-notch services. The Nordwhale team has worked for large companies and startups, so we know how to make sure we propose exactly what you need. We take pride in our work and our clients' success.
+Сайт компанії:
+[link]
+Сторінка компанії на DOU:
+[link]
+About nordwhale
+Great projects need outstanding people. Nordwhale is not just a development company. It's a tightly knit team of like-minded professionals who are enthusiastic about what they do and have the necessary experience to offer top-notch services. The Nordwhale team has worked for large companies and startups, so we know how to make sure we propose exactly what you need. We take pride in our work and our clients' success.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Remote
+2 years of experience
+English Intermediate

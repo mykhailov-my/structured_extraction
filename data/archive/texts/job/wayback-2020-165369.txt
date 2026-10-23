@@ -1,0 +1,43 @@
+AI Engineer / Python Developer
+intellecteu.com
+
+As an AI Engineer, you will be one of the founding members of IntellectEU's AI & data tribe. This implies that you will not only work on client projects but also help to define a strategy for expanding the technical team in a future-proof and scalable way.
+Responsibilities
+Tweak ML models and algorithms to apply to data sets.
+Focus on the development of production-ready, scaleable AI-pipelines, and models.
+Deploy AI-pipelines and models using one of the big cloud providers (client specific).
+Make use of A/B testing frameworks to test model quality.
+Make use of processes and tools to monitor and analyze model performance and data accuracy.
+Create and maintain optimal, scaleable data pipeline architectures for a variety of clients.
+Assemble large, complex data sets that meet functional / non-functional business requirements.
+Build the infrastructure required for optimal extraction, transformation, and loading of data from a wide variety of data sources using SQL and Cloud provider's ‘big data’ technologies.
+Assess the effectiveness and accuracy of new data sources and data gathering techniques.
+Qualifications
+Knowledge of a variety of machine learning techniques and their real-world advantages/drawbacks.
+Specific knowledge of Time Series Forecasting is a plus.
+Strong problem-solving skills.
+Experience using Python and AI-related libraries (Keras, Tensorflow, Pytorch, sci-kit-learn, pandas...) to manipulate data and draw insights from large data sets.
+A successful history of manipulating, processing and extracting value from large disconnected datasets.
+Experience with big data tools such as Hadoop, Spark or Kafka
+Experience with data pipeline and workflow management tools.
+Experience with different cloud providers (GCP, AWS, Azure).
+Strong project management and organizational skills.
+Highly proficient in spoken and written English.
+Working at IntellectEU
+Passionate and friendly team in an innovative, casual, positive, and open work environment.
+Interesting and challenging projects involving emerging technologies.
+Competitive salary and benefits package.
+Great opportunities for personal and professional development as well as the chance to change the way the business works in the financial world.
+Business travel opportunities.
+International experience in a stable company: the company has offices in Antwerp, Kyiv, New York, Lisbon, Viseu, Dubai, and Sydney and works in the market for over 14 years.
+About IntellectEU
+What is IntellectEU? IntellectEU is all about innovation in the entire financial field. Since 2003 we have broadened our expertise in SWIFT and Blockchain domains, have increased our marketplace by having offices in Belgium, Ukraine, USA and Portugal and have become trusted by hundreds of customers across the US, Europe and Africa.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+3 years of experience
+English Upper Intermediate

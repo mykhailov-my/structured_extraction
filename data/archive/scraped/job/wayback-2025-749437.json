@@ -1,0 +1,29 @@
+{
+  "doc_id": "wayback-2025-749437",
+  "url": "https://djinni.co/jobs/749437-senior-backend-engineer-javascript-and-python/",
+  "snapshot": "https://web.archive.org/web/20250715155617/https://djinni.co/jobs/749437-senior-backend-engineer-javascript-and-python/",
+  "captured_at": "2025-07-15T15:56:17",
+  "posted": "2025-07-02",
+  "year": 2025,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "Senior Backend Engineer (JavaScript and Python) for Iris Finance",
+  "company": "Lumnix",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from Upper-Intermediate",
+    "Only from 5 years of experience",
+    "Full Remote",
+    "Countries of Europe or Ukraine",
+    "Countries where we consider candidates",
+    "Python",
+    "Python, Git, Docker, REST API, Node.js",
+    "Domain: Fintech",
+    "Startup",
+    "Test task is needed"
+  ],
+  "description": "About Iris Finance\nIris Finance is a venture-backed AI-powered platform built specifically for consumer brands. It connects to sources like banks, POS systems, and advertising platforms to deliver daily profit & loss snapshots, cash flow plans, and peer benchmarking - all in real time. With integrations across finance, e‑commerce, and marketing tools, Iris provides the clarity and automation brands need to grow confidently\nWhat You’ll Do\n- Design, implement, and maintain core backend services using JavaScript and Python.\n- Deliver end-to-end integrations, owning the full lifecycle from design and architecture through implementation and deployment.\n- Make architecture decisions - defining data models, and ensuring systems are scalable, maintainable, and secure.\n- Build and manage reliable API endpoints, ensuring smooth data flow between internal systems.\n- Write clean, well-tested code to process and transform financial data.\n- Monitor service health, troubleshoot issues, and ensure system reliability and performance.\n- Partner with product, data, and frontend teams to define integration requirements and API contracts.\n- Create tools and dashboards to track system usage, performance, and data integrity.\n- Review and improve code quality, and contribute to best practices in testing, documentation, and deployment.\nWhat We’re Looking For\n- Demonstrated ability to work independently - managing your own workload, making decisions, and delivering results without heavy oversight.\n- 4+ years of professional experience in software engineering, focused on back-end, integration, or data engineering roles.\n- Proficiency in JavaScript (Node.js) and Python, with experience building RESTful APIs.\nHands-on integration experience with external APIs (OAuth, pagination, webhook handling, rate limiting, retries, etc.).\n- Strong data modeling skills — familiarity with JSON, SQL/NoSQL, schemas, data validation, and transformations.\n- Experience with cloud infrastructure (AWS, GCP, or similar) and containerization (Docker, Kubernetes).\n- Excellent debugging and monitoring practices: logging, metrics, tracing, and automated alerting.\n- Strong communication & collaboration skills; ability to work with cross-functional teams.\n- Bonus: Familiarity with financial systems (accounting platforms, bank APIs, POS systems) and ML-enhanced data pipelines.\nWhat We Offer\n- Competitive salary aligned with market standards, with annual salary reviews.\n- A friendly, collaborative startup environment where you can drive impact in a mission-critical space for growing consumer brands.\n- High-growth opportunity - join early and help shape a cutting-edge product used by high-velocity, finance-driven companies.\n- Access to modern tech stack, including serverless/cloud-native solutions, event-driven pipelines, and experimentation with LLMs/AI for data validation.\n- Generous time off, flexible work arrangements, and commitment to work-life balance."
+}

@@ -1,0 +1,37 @@
+Python + Node.js + React Developer
+Techbar
+
+About the Company:
+We are collaborating with an Israeli startup in the marketing technology (MarTech) space. The company is building an AI-powered platform that collects information from chatbots to analyze brand awareness and provides actionable recommendations on how to improve it.
+The product uses Large Language Models (LLMs) to help businesses understand their customers and make data-driven marketing decisions.
+Responsibilities:
+- Develop and maintain platform features using Python, Node.js, and React
+- Work closely with the AI team to integrate LLM-based solutions
+- Build and improve APIs for smooth data exchange
+- Collaborate with the team to design and implement new features
+- Write clean, efficient, and well-documented code
+Requirements:
+- Strong experience with Python
+- Solid hands-on experience with Node.js and React
+- Good understanding of web application development and integrations
+- Upper-Intermediate English level or higher for team communication
+- Ability to work independently and in a startup environment
+Nice to Have:
+- Experience working with LLMs or other AI-based solutions
+- Understanding of chatbot integrations
+- Knowledge of marketing analytics systems
+Why Join Us:
+- Opportunity to work on an innovative AI-driven product from scratch
+- Be part of a fast-growing startup with a global vision
+- Fully remote position with flexible schedule
+- Real impact on the product and company growth
+
+Only from 5 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Python
+Employment: Fulltime
+Domain: SaaS
+Outstaff

@@ -1,0 +1,36 @@
+{
+  "doc_id": "wayback-2026-842115",
+  "url": "https://djinni.co/jobs/842115-full-stack-developer-python-react/",
+  "snapshot": "https://web.archive.org/web/20260901211010/https://djinni.co/jobs/842115-full-stack-developer-python-react/",
+  "captured_at": "2026-09-01T21:10:10",
+  "posted": "2026-08-10",
+  "year": 2026,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Full Stack Developer (Python/React)",
+  "company": "Synergy Way",
+  "salary": "",
+  "skills": [],
+  "languages": [
+    "English: B2 - Upper Intermediate",
+    "Ukrainian: Native"
+  ],
+  "facts": [
+    "Only from 1 year of experience",
+    "Hybrid Remote",
+    "Ukraine",
+    "Countries where we consider candidates",
+    "English B2 - Upper Intermediate",
+    "Ukrainian Native",
+    "Fullstack",
+    "Employment: Fulltime",
+    "Domain: Energy / Utilities",
+    "Outsource",
+    "Office:",
+    "Ukraine",
+    "(Lviv)",
+    "Test task is needed"
+  ],
+  "description": "About the project\nA service-oriented EnergyTech platform for electricity trading, consumption-data aggregation, and market hedging across energy markets. Built on multiple Django/DRF backends with React SPAs on top, plus AI/LLM-assisted analytics and a customer portal with enterprise SSO. The product is live and revenue-generating - we’re building out new services and setting modern development standards.\nResponsibilities:\n— Develop backend services with Python, Django + DRF;\n— Build React SPAs (Vite, MUI, Recharts);\n— Work with business logic and cross-service integrations;\n— Implement AI/LLM features using LangChain + OpenAI;\n— Write and maintain tests.\nRequired skills:\n— 1+ years of commercial experience as a Full-stack/Software Developer;\n— Strong Python, Django and DRF;\n— React and JavaScript/TypeScript;\n— PostgreSQL, Redis, Celery;\n— Third-party API integration;\n— Git and testing;\n— Experience with AI coding tools (Claude Code, Cursor or similar);\n— English: Upper-intermediate or higher.\nWill be a plus:\n— LangChain / OpenAI or other LLM integration;\n— Vite, MUI, Recharts;\n— Azure, Docker, CI/CD.\nWe offer:\n— Opportunities for career growth and personal development, to help you improve your skills and achieve your goals;\n— No micromanagement - your ideas and initiatives are always encouraged;\n— Educational programs that are covered by the company at 30% of the expense;\n— Paid vacation leave and public holidays (21 vacation days annually);\n— Competitive financial compensation with regular performance reviews;\n— Outdoor team activities are paid for by the company;\n— English language improvement through extensive communication;\n— The chance to work alongside highly experienced and enthusiastic IT professionals who are ready to share their knowledge and help you gain invaluable experience in a live IT environment."
+}

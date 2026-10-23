@@ -1,0 +1,23 @@
+Senior Python Developer with LLM experience
+Uasoftdev
+
+What We’re Looking For
+- Strong proficiency in Python (5+ years experience)
+- Practical experience with LLM frameworks/tools, including:- Vector databases (especially Weaviate)
+- LangChain, Crew-AI, or LlamaIndex
+- Ability to work independently and integrate with existing dev teams
+- Solid understanding of software architecture and modular code design
+Nice to Have
+- Experience deploying LLM-powered applications in production
+- Familiarity with API development, containerization (Docker), or cloud platforms
+- Understanding of prompt engineering and retrieval-augmented generation (RAG) concepts
+
+Only from Upper-Intermediate
+Only from 5 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+Python
+Python, LLM
+Domain: Other
+Outstaff

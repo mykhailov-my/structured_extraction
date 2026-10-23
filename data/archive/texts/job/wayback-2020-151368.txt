@@ -1,0 +1,48 @@
+Python-Angular Full stack developer
+KMI Learning
+
+Ищем Python fullstack программиста с Angular, для расширения нашей команды.
+Проект крутой, это корпоративная LMS, на текущем этапе проект активно модернизируется, полностью меняется архитектура. Задачи интересные.
+Full stack мы понимаем как с "уклоном в бэкенд", но иногда есть задачи с Front side.
+Requirements:
+• 2+ years of commercial applications development as a software engineer
+• Experienced in using Python 3.0 in production environment
+• Have practice in writing REST API’s using Django framework
+• Experienced in using JS and Angular JS in commercial development
+• Have practical experience in MSSQL usage
+• Have practice in writing unit tests
+• Intermediate level (written) English
+• Bachelor's degree in computer science or related technical fields
+• Version-control systems expertise Git
+Pluses:
+• Experience in Docker containers usage
+• Experience in Kubernetes usage
+• Experience in ElasticSearch usage
+• Experience in RabbitMQ usage
+• Experience of working in a team with extensive usage of branching and continuous integration methods
+• Experience in writing technical documentation
+• Unix/Linux systems programming experience
+Responsibilities:
+• Develop and support reliable and high performance online services, help integrate them into company’s products
+• Create accurate task duration estimate and complete all work in a timely basis
+• Use good communication and writing skills and create documentation where required
+• Safeguard the company's assets including source code, tools, technical know-how
+• Actively participate in team working on project by making recommendations on how to improve product quality as well as group productivity
+• Demonstrate a desire to learn and grow professionally
+We offer:
+• Competitive salary level
+• Office (very close to the subway)
+• Perfect working conditions
+• Flexible working time c 11-20.
+• Remote work if it's necessary
+• min bureaucracy (15 people whole team)
+About KMI Learning
+KMI is an end-to-end eLearning company with all the technology and services that virtually any organization needs to launch an eLearning initiative or take an existing one to the next level. From our learning management system (LMS) and custom content development services, to a full range of integration, hosting and implementation services, we offer the support necessary to develop and support outward facing online academies and inward facing employee training programs.
+Company website:
+[link]
+
+Python
+Kyiv
+Kyiv, remote, Poltava
+3 years of experience
+English Intermediate

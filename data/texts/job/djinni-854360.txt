@@ -1,0 +1,37 @@
+Python Backend Engineer
+CML Team
+
+We're seeking a talented Python Backend Developer to build reliable backend services for data-heavy SaaS platforms, integrations, and AI-powered products for clients in the US and Europe. If you enjoy owning backend features from data model to production, we'd love to hear from you!
+Core Competence:
+- At least 3 years of professional experience in backend development, with strong Python skills and hands-on experience building production applications.
+- Strong experience with FastAPI and asynchronous programming; experience with Django or Flask is also relevant.
+- Solid knowledge of PostgreSQL, including database design, indexing, migrations, and query optimization.
+- Experience building REST APIs and background jobs for production applications.
+- Proficiency with Docker, CI/CD, and at least one major cloud platform such as AWS, GCP, or Azure.
+- Experience writing automated tests with pytest and following production-quality development practices.
+Preferred Qualifications:
+- Experience working with LLM APIs, RAG features, or AI-powered applications.
+- Knowledge of Celery, Redis, or other queue and background-processing systems.
+- Experience with Supabase, multi-tenant SaaS platforms, or role-based access control.
+- Experience integrating third-party APIs such as Stripe, HubSpot, Google, or Twilio.
+- Upper-intermediate level of English for clear and effective communication in a global team.
+What We Offer You:
+- Competitive compensation aligned with your skills, experience, and career ambitions.
+- An innovative work environment with opportunities to build modern SaaS and AI-powered products and continuously develop your backend expertise.
+- Direct communication with clients from the US and Europe and the opportunity to contribute to technical decisions.
+- Long-term cooperation with opportunities to move between projects and continue growing with the team.
+
+Необхідні навички
+PostgreSQL, Docker, Git, Django, FastAPI, REST API, SQL початковий рівень, Redis
+Вимоги до володіння мовами
+Англійська: B2 – Вище середнього
+
+Виключно від 3 років досвіду
+Тільки віддалено
+Країни Європи та Україна
+Країни, де розглядаємо кандидатів
+Англійська B2 – Вище середнього
+Python
+Зайнятість: Fulltime
+Домен: Other
+Змішана (сервісно-продуктова)

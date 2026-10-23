@@ -1,0 +1,54 @@
+Python software engineer
+Logivations
+
+Python software engineer (Lviv or ready to relocate only)
+Compensation depends on professional experience and is discussed individually
+Logivations
+IT; 50–250 employees
+Lviv, Ternopil's'ka Street, 19.
+3.0 km from center
+Full-time. On-site. We are also ready to hire a student, a person with disabilities, a veteran. Higher education.
+Job description
+Logivations is developing the most advanced robots navigated and controlled by Artificial Intelligence.
+Join our team and learn about the latest IT technologies and cooperate closely with your colleagues in Munich. You will have the chance to see your algorithms in in real life action.
+We are looking for a Python software engineer in Lviv.
+Your Profile
+Experienced in software engineering and software architecture
+• Experienced with Python
+• Experience with embedded systems is a plus
+• Experience with 3D simulations, such as Gazebo, is a plus
+• Experience with CV/ML is a plus
+• Personal initiative, structured way of working and creativity
+• Strong communication skills, willingness to take responsibility and
+focus on results
+Education: Completed studies in the field of Computer Science or Mathematics or similar educations
+At least intermediate level of English
+Your Tasks
+• Design and development of computer vision applications using a python stack
+• Design and improve software architectures for real-time applications
+• Develop for PC and embedded targets
+• Integrate latest deep learning and computer vision algorithms
+• Integrate with other components based on ROS2 and gstreamer
+We offer you
+A very interesting and challenging job
+Official work on contract basis
+Payment in Euro
+Optimal working environment and workplace in a quiet office with garden
+Are you interested? We are happy to receive your CV or resume in English.
+About Logivations
+Logivations is an international consulting and technology company with headquarters in Munich. Many well-known German and international customers trust in the holistic approach by Logivations and W2MO - Supply chain, location planning, optimization and Deep Machine Learning - integrated in one solution.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Lviv
+Category: Python
+Machine Learning , Python
+English: Intermediate
+No experience
+Office Work
+Product
+Relocate, Germany, Ukraine (Lviv)
+Only candidates from Ukraine

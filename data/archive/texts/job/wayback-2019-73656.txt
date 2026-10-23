@@ -1,0 +1,44 @@
+Python Team Lead (Scrapy)
+Newxel
+
+For our US based client Ladders we are looking for Python Team Lead with extensive Python/Scrapy experience.
+Required skills:
+• Experience of being a technical/team lead
+• 5+ years of experience as a Python Developer on commercial projects
+• Good scraping and crawling experience using Scrapy (more than 1 year of experience)
+• Solid understanding of software development principles and best practices
+• Experience working in an Agile environment
+• Good level of English
+We offer:
+• Adequate management
+• Competitive salary
+• Health insurance
+• Team buildings
+• Dynamic and friendly work environment
+• Modern and comfortable office near the Vystavkovyi center
+Responsibilities:
+• coordination of developers activity;
+• implement development best practices;
+• technical guidance and coaching of team members;
+• active involvement and control of team’s expansion
+• developing quality code;
+• creating new web scrapers using Scrapy;
+• automation of manual scraping processes (large scope);
+• adding different types of scraping (social media, financial info, etc.);
+• adding autofilling posibilities in future.
+Project description:
+For our US based client Ladders ([link] ) we are looking for Senior Software Developer with extensive Python/Scrapy experience.
+Ladders is the leading $100K+ professional community. We focus on the careers, professional growth and office lifestyle of the top 25% of the workforce. With Ladders News, we provide the information and entertainment that our audience needs for lifelong career success, while Ladders Jobs is the largest source for $100K+ jobs in the US and Canada. Our mission is to “lead the leaders” -- our 10 million members represent the leading people in their companies, their communities, and their organizations.
+About Newxel
+Newxel is an IT Staffing provider that helps to connect business with talented developers in Ukraine.
+Our mission is to help fast-growing organizations get professional engineers by building and launching offshore development teams and R&D centers in Ukraine.
+One more goal for us is to help numerous talented IT guys from Ukraine to find their dream job, evolve and gain new skills and experience in successful companies from around the world sharing their values and goals.
+Join us!
+Company website:
+[link]
+
+Python
+Kyiv
+Киев
+5 years or more
+English Intermediate

@@ -1,0 +1,36 @@
+Python Developer
+AI DATAVERSE
+
+Technology Stack:
+- Python, FastAPI, SQLAlchemy (PostgreSQL), Django
+- Celery & Celery Beat, asyncio, asyncpg, aiohttp
+- Redis (cache, queue, pubsub) or Pika + RabbitMQ (queue, pubsub)
+Websocket, Uvicorn, AWS S3, Firebase, Docker
+Responsibilities:
+- Collaborate with the product team to develop new features.
+- Maintain and update existing functionality.
+- Implement and optimize modern technologies.
+- Integrate with payment systems.
+- Work with mobile applications, including push notification delivery.
+Requirements:
+- 3+ years of software engineering experience in Python
+- Experience with high-traffic systems handling thousands of requests per minute
+- In-depth understanding of the product aspect and the ability to propose enhancements
+- Experience with PostgreSQL
+- Knowledge of asynchronous programming and multithreading
+- Experience with FastAPI
+- Experience with Django
+- Solid understanding of WebSocket
+Will be a plus:
+- Full Stack / Frontend development experience.
+- Knowledge of HTML / CSS / Bootstrap and other frontend stack tools.
+If you are ready to join a dynamic team and leverage your skills in a project with great potential, we would be delighted to welcome you aboard!
+
+Development
+Python
+Only from 5 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Python, Python/Django/Django-rest-framework, PostgreSQL
+Domain: SaaS
+Product

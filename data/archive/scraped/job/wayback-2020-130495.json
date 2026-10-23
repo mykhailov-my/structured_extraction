@@ -1,0 +1,23 @@
+{
+  "doc_id": "wayback-2020-130495",
+  "url": "https://djinni.co/jobs/130495-senior-python-engineer/?from=related_jobs",
+  "snapshot": "https://web.archive.org/web/20200924144415/https://djinni.co/jobs/130495-senior-python-engineer/?from=related_jobs",
+  "captured_at": "2020-09-24T14:44:15",
+  "posted": null,
+  "year": 2020,
+  "active": false,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:10+00:00",
+  "title": "Senior Python Engineer",
+  "company": "Luxoft",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Kyiv",
+    "5 years of experience",
+    "English Upper Intermediate"
+  ],
+  "description": "Senior Python Engineer (Financial Project)\nProject Description:\nWe are looking for the star Python Developer who is not afraid of work and challenges! Gladly becoming a partner with famous financial institution, we are gathering a team of professionals with wide range of skills to successfully deliver business value to the client. T-shade concept of people is the one we follow in the hiring process, but let's talk about the project itself.\nOur client is one of leaders in Financial Market and looking for strengthening its front-tier risk calculation and management. It involves a lot of different sub-systems to get integrated and make them working as the one meeting high quality standards including performance and robustness. Core system to interact with is FinCad F3. Technology stack we are targeting at is Kafka, Java, Python, Kubernetes, AWS.\nPython is the core language of FinCad F3 framework for integration, math and financial modeling, reporting. The python engineers will work closely with business and IT stakeholders to integrate F3 into the bank's landscape (directly or via Kafka-based framework that's being engineered now) and build analytical financial models calculating various inputs to bank's business. Skills required: solid core python, multi-threading and -tasking, asyncio, pandas and numpy, hands-on with API engineering, performance optimization, data science experience, ideally grid computing (Spark and alike).\nAre you the one who is willing to dig deep into Financial Market? Are you T-shaped person who is not afraid of doing variety of work? Then we suit you perfectly! Submit your CV and our team is going to reach to you asap!\nResponsibilities:\n- Deployment of the application components (FinCad F3 - Python Microservices) into new hosting infrastructure\n- Engineering of Kafka-based communication medium between upstream applications and FinCad's F3 python based platform\n- Establishment of AppDynamic, Splunk, Prometheus, Kibana powered monitoring platform\n- Performing testing of various types: from performance and load testing to fail and DR\n- basic data science experience (data analysis)\nMandatory Skills:\nStreams, NumPy, Linter, Multithreading, Kafka Streams, Cache, Pandas, PyTest, Python, SonarQube, Microservices, API, Async-IO\nPython Experience 5+ years\nNice-to-Have Skills:\nJavaScript, MS SQL, Java\nAbout Luxoft\nLuxoft (NYSE:LXFT) is a global consulting partner that offers end-to-end digital solutions to solve clients’ complex business challenges.\nWe are a new class of digital service provider that combines consulting, strategy, and engineering at scale. We use this to drive business change by applying engineering excellence, deep domain expertise, and our senior software engineering talent to improve your client’s customer experience, boost your operational efficiency, and strengthen your competitive advantage.\nWe have expertise in automotive, financial services, healthcare, life sciences, telecommunications, and other industries. As a highly committed partner, we take customer challenges as our own. Our dedication stems from a passion for technology and a bespoke attention to your needs.\nWith over two decades of consistent, timely delivery and management of complex projects, we now serve over 280 active clients. With our headquarters in Zug, Switzerland and 42 global locations, we operate in 21 countries across five continents, providing you with robust global delivery platform. With about 12,700 employees, we have the best technology talent to support your business needs.\nCompany website:\n[link]\nDOU company page:\n[link]"
+}

@@ -1,0 +1,56 @@
+Trainee / Junior Python Developer (on-site)
+Logic Craft
+to $600
+
+We're a fast-growing tech company building modern, innovative digital products - and we're looking for a Python Developer to join our team in Lviv. If you care about clean code, solid architecture, and working in an environment where your input actually matters, keep reading.
+What you'll be doing
+You'll be part of a cross-functional team working on real, meaningful projects - building scalable backend solutions, designing APIs, and helping shape the technical decisions that move our products forward.
+What we're looking for
+- Solid hands-on experience with Python
+- Strong knowledge of Django and Django REST Framework
+- Good understanding of OOP principles and clean code practices
+- Experience working with relational databases - MySQL and/or PostgreSQL
+- Confident use of Git and version control workflows
+- Responsible, self-motivated, and comfortable working both independently and as part of a team
+What we offer
+- Full-time, in-office position in Lviv
+- Official employment and a competitive salary based on your skills and experience
+- Company-provided equipment
+- A well-structured work schedule
+- A friendly, supportive team and a comfortable office environment
+- Mentorship and guidance from experienced colleagues
+- Interesting and technically challenging projects to grow on
+How to apply
+Send us your CV - we review every application and get back to candidates promptly. This could be the start of something great.
+
+Необхідні навички
+Django, 6 months, REST API, 6 months, Python, 6 months
+Вимоги до володіння мовами
+Django: 6 months
+REST API: 6 months
+Python: 6 months
+E-commerce / Marketplace: 6 months
+English: B1 - Intermediate
+Ukrainian: Native
+
+No experience
+$300-600
+Office Work
+Ukraine
+Countries where we consider candidates
+English B1 - Intermediate
+Ukrainian Native
+Python
+Django
+6 months
+REST API
+6 months
+Python
+6 months
+Employment: Fulltime
+Domain: E-commerce / Marketplace
+Outstaff
+Office:
+Ukraine
+(Lviv)
+Test task is needed

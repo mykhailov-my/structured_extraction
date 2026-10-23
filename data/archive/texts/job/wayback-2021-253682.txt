@@ -1,0 +1,87 @@
+Python Developer (A)
+PSR
+$2000-3500
+
+3+ years of Python, Expertise with data formats and protocols — REST, SOAP,
+JSON, XML, HTTP, FTP, AS2, EDI;
+Experience with data sources such as MySQL or
+MS SQL servers;
+Remote, ~2-3,5k Only from UA
+About project
+The R&D team within Chatbot direction, engaged
+in implementation of new technologies for process and
+communicational automation.
+Ideal candidate should have production experience using
+Microsoft AI’s development platform, technical development
+experience, with granular understanding of tools and
+frameworks to support conversational experiences such
+as Microsoft Bot Framework, and NLP services such
+as Microsoft LUIS Experience with Azure Cognitive services
+or similar.
+Requirements
+● 3+ years of experience working with Python programming
+language and building production solutions using this
+language;
+● Deep understanding of conversational AI (i.e., chatbots,
+intelligent chat, virtual assistants), natural language
+processing (NLP) and the leading platforms for developing
+conversational AI solutions;
+● Provide architectural technology assessments;
+● Expertise with data formats and protocols — REST, SOAP,
+JSON, XML, HTTP, FTP, AS2, EDI;
+● Experience with data sources such as MySQL or
+MS SQL servers;
+● Experience with Microsoft Bot Framework/Azure Bot
+Service, including Azure Cognitive Services such as LUIS,
+QnA Maker, etc;
+● Experience working in Agile environment;
+● At least Upper-Intermediate English.
+As a plus
+● Knowledge in C#;
+● Understanding of Azure Infrastructure and tools;
+● Experience with Python-Django, Django-admin, Django
+RESTful API, MongoDB.
+Responsibilities
+● Development and implementation of the Chatbot
+solutions;
+● Development and training of NLP models for intelligent
+chatbots using Cognitive Services and custom models;
+● Development of back-offices to manage chatbots;
+● Close communication with product team;
+● Code review and code quality control;
+● Support UAT and rollout phases.
+We Offer
+● Competitive salary with a bonus for
+performance;
+● Official employment;
+● Medical Insurance;
+● Friendly and Collaborative environment;
+● Corporate events, including sports.
+Metinvest Digital is a Ukrainian IT company that specializes in the digital transformation of big business
+and implements projects in Ukraine, Europe and North America.
+We develop, implement and maintain comprehensive IT solutions for the construction of terrestrial and
+cloud infrastructure, information systems development, system integration, data migration,
+cybersecurity and information security. Metinvest Digital is an IT business partner of the Metinvest
+Group and implements projects of digital transformation of production and business units of the Group
+to obtain economic effect throughout the chain: processes-technologies-end users. We serve more than
+30 holding companies worldwide.
+Metinvest Digital is a certified Microsoft partner at the Gold level and SAP at the Silver level. Our
+expertise in the implementation and integration of SAP-systems is unique in content and scale not only
+for Ukraine but also for the countries of Central and Eastern Europe.
+About PSR Company
+PSR Company is an international IT recruitment agency founded in 2007. For more than 14 years, our recruiters have been successfully filling vacancies for our clients all over the world. Our portfolio includes more than 150 global clients including European Commission, Ernst&Young, Samsung, 3DLOOK, Rakuten, GFK, and others
+During the hiring process you are usually limited by the city or country. PSR erases the boundaries for you, looking for highly qualified and motivated professionals, ready to relocate anywhere in the world.
+We nurture and encourage in our team the enviroment that includes trust, mutual respect, and professional growth and development.
+Our recruitment team includes professionals who possess significant experience in IT industry. They know how and where to find the best candidates within the shortest period of time.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Remote
+Office/Remote of your choice
+Product
+2 years of experience
+English Intermediate
+Ukraine only candidates 🇺🇦

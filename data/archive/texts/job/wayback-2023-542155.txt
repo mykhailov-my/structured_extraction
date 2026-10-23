@@ -1,0 +1,37 @@
+QA Automation Engineer (Python, Azure/cloud) - work only from Poland
+Luxoft
+
+Project Description:
+We are looking for Quality Assurance (QA) engineer to develop and execute exploratory and automated tests to ensure product quality. QA engineer will participate in designing and implementing tests, debugging and defining corrective actions. You will also review system requirements and track quality assurance metrics (e.g. defect densities and open defect counts.)
+Responsibilities:
+• Preparing corrections in the MLX documentation and user support
+• Testing MLops tools from the end user perspective
+• Participate in the Agile process as part of a cross functional engineering team
+• Create detailed, comprehensive and well-structured test plans and test cases
+Mandatory Skills Description:
+• Strong knowledge of software QA methodologies, tools and processes
+• Experience in Cloud services (Azure / GCP services preferably)
+• Experience and good understanding of Python
+• Github
+• Hands-on experience with automated testing tools
+Nice-to-Have Skills:
+• Very good English language skills
+• Strong communication skills, ability to work directly with client and to lead junior team members
+• Problem solving and analytical skills
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA Automation
+Category: QA Automation
+Azure , Python
+English: Intermediate
+2 years of experience
+Office/Remote of your choice
+Outsource
+Poland
+Only candidates from Europe

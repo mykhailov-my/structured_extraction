@@ -1,0 +1,44 @@
+Python Developer
+AllStars-IT
+
+Wizer is building the next frontier in the evolution of consumer intelligence, supercharging enterprise brands and marketing agencies with automation and augmented analytics solutions.
+Required skills:
+2+ years of experience building complex Django/Python projects
+Solid understanding of Web (back-end) technologies
+Knowledge of OOP principles
+Experience with working SQL
+Experience with the following development practices: continuous integration
+BSC in computer science/computer engineering
+Intermediate English
+As a plus:
+Experience working with a Linux, Docker and Cloud (AWS/Google) environment
+NoSQL databases
+TDD
+DDD
+Responsibilities:
+Collaborate with your peers to innovate and design new features
+Build high-quality back-end software in Python
+Take part in team activities such as design reviews, code reviews, live demos to stakeholders, etc.
+We offer
+High salary
+Medical insurance
+Extra bonuses for Educational/Sports Courses
+Private Chef (free breakfast and lunch)
+Ability to growth as Meet-up speaker
+Different kind of corporate parties
+Interesting and challenging work in a dynamically developing company;
+Professional development opportunities;
+Modern and comfortable office with billiard room, game room, rest room and perfect location in BC “Gulliver”, in the center of Kyiv.
+About AllStars-IT
+AllStars-IT Ukraine is part of the leading international Group "AllStars-IT Group", providing IT services with its headquarters in Israel.
+AllStars-IT Group was incorporated in 2004. Today it is headed by proven professionals excelling in business development and at the same time being highly technically competent. We have more than 600 Engineers worldwide.
+Within our Ukrainian office we work with Cross-platform Software Development, Cloud Computing, Data-Driven Technologies, QA, V&V, Testing and Continuous Integration. Leaded by Israeli High Tech management, with vast experience, our team serves world brands such as: Intel, Microsoft, IBM, SAP, Motorola & many more.
+AllStars-IT Ukraine offers great career development opportunities, projects with multinational companies, comfortable office in the famous city tower Gulliver Business Center, friendly and highly motivated team.
+Company website:
+[link]
+
+Python
+Kyiv
+Киев
+2 years or more
+English Intermediate

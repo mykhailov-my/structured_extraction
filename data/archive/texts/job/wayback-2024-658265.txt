@@ -1,0 +1,40 @@
+Middle Python Developer in Test(Apps)
+Ajax Systems
+
+About project:
+Ajax is an ecosystem whose work is impossible without high-quality and easy-to-use applications. Manual testers and the automation team are responsible for the operation of this part of the Ajax world. They have just developed a framework that allows you to recreate any situation imaginable by our QA. We are testing on iOS / AOS platforms using Appium.
+What is a technically interesting vacancy?:
+The project is actively developing, so you can influence its outcome at the start. Today, the basic functionality has been developed, which is enough to write tests, but there is a large area of uncovered cases, for the automation of which it is necessary to develop new functionality of the framework.
+Responsibilities:
+- Develop, maintain, and own automated testing frameworks;
+- Design and implement test scripts (Python3, pytest);
+- Analyse results of the test runs (Allure);
+- Writting bug reports of found issues and support their life cycle;
+- Recommends improvements to the testing processes to create efficiencies;
+- Estimates effort required for own work;
+Required skills:
+- 2+ years of experience writing and executing tests in Python3;
+- Strong knowledge of software QA methodologies, tools and processes;
+- Experience with CI/CD Tools (Jenkins, Bitbucket, etc.);
+- Experience in working with bug trackers;
+- Knowledge UNIX/Linux OS;
+- Knowledge of client server architecture;
+Nice-to-Have Skills:
+- Experience in automation GUI-testing;
+- Experience with gRPC;
+
+QA
+QA Automation
+Kyiv
+from 1 year of experience
+Considering with no experience
+Office Work
+Worldwide
+Countries where we consider candidates
+Python, Pytest, Selenium, Appium, JIRA / Git / Jenkins / code review
+Domain: Security
+Product
+Office:
+Ukraine
+(Kyiv)
+Test task is needed

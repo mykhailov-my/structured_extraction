@@ -1,0 +1,28 @@
+{
+  "doc_id": "wayback-2025-755705",
+  "url": "https://djinni.co/jobs/755705-python-node-js-fullstack-developer/",
+  "snapshot": "https://web.archive.org/web/20250915031436/https://djinni.co/jobs/755705-python-node-js-fullstack-developer/",
+  "captured_at": "2025-09-15T03:14:36",
+  "posted": "2025-07-28",
+  "year": 2025,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "Python Node.js Fullstack Developer",
+  "company": "Luxoft",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from 3 years of experience",
+    "Full Remote",
+    "Ukraine",
+    "Countries where we consider candidates",
+    "English B2 - Upper Intermediate",
+    "Python",
+    "Employment: Fulltime",
+    "Domain: Other",
+    "Outsource"
+  ],
+  "description": "One of the biggest UK rail network companies operating with rail infrastructure and asset management has a need to develop and support enterprise-level information systems.\nAlign the data science initiatives with the overall business goals. This could range from improving customer satisfaction, enhancing operational efficiency, to driving sales growth.\n- Responsibilities:\nSoftware development\nUnit/integration testing\nAzure environment configuration\nCustomer communications\n- Mandatory Skills Description:\n3+ years of experience\nAzure App service implementation and deployment.\nFastapi and asyncio (asynchronous programming)\nAuth (OAuth, JWT, Microsoft authentication flow).\nDocs (OpenAPI, Swagger).\nSQL Alchemy or alternative DB integration libraries.\nPython, Pytest\nJS, Node\nSQL\nGIT and collaborative workflows\nBash, shell scripting.\n- Nice-to-Have Skills Description:\nAzure Container Management (docker, container registries, CI/CD to app services).\nCI/CD approaches\nSecurity across Azure (key vault, app service configuration, auth).\nVirtual Machine deployment\nFamiliarity with storage accounts and their components"
+}

@@ -1,0 +1,36 @@
+Python Engineer
+Lohika
+
+We are looking for a Python Engineer to join a team of professionals to build an End-To-End Site Reliability Engineering (SRE) platform that brings together AI-driven Incident Resolution, Blameless Postmortems, SLOs/Error Budgets, and Reliability Insights reports and dashboards, enabling businesses
+ABOUT THE PROJECT:
+We are looking for a Python Engineer to join a team of professionals to build an End-To-End Site Reliability Engineering (SRE) platform that brings together AI-driven Incident Resolution, Blameless Postmortems, SLOs/Error Budgets, and Reliability Insights reports and dashboards, enabling businesses
+MAIN TASKS AND RESPONSIBILITIES:
+Take part in requirements analysis, tasks planning, estimation and distribution between the team members
+Suggest technical and functional improvements to add value to the product
+Research and evaluate technical options to implement business requirements
+Write quality and maintainable code in a fast-paced professional software engineering environment
+EDUCATION, SKILLS AND EXPERIENCE:
+3+ years experience using Python technologies
+Experience with Google Cloud Platform (GCP, preferable) or Amazon Web Services (AWS)
+Experience with Mongo DB or similar
+upper-Intermediate English
+WOULD BE A PLUS:
+Codding experience using Golang
+Front-end experience (preferable React)
+Experience with Kubernetes
+Experience with Slack Bot or MS Teams Bot integration experience with Jira, ServiceNow, Prometeus, Datadog etc.
+About Lohika
+Lohika Official web site: [link] Lohika is the IT software development company specializing in product innovation and engineering services for cutting-edge technology companies. Founded in 2001, we have grown to 1000+ Software Engineers and 6 development offices all over Ukraine (Kyiv, Lviv, Rivne and Odesa).
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, Lviv, Odesa
+Office/Remote of your choice
+Outsource
+3 years of experience
+English Intermediate
+Ukraine only candidates 🇺🇦

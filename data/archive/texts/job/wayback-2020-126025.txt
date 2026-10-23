@@ -1,0 +1,57 @@
+Senior Python Engineer
+Codeminders
+
+Codeminders is looking for a Senior Python Engineer.
+Requirements:
+* Experience in designing, building and debugging large distributed systems
+* Proficiency in server-side coding in Python 2 and 3
+* Experience in one or more of Kafka, ZK, RabbitMQ, Redis, Couchbase, MongoDB, and MySQL
+* In-depth understanding of API cache design and caching technologies
+* Good understanding of Google Protocol Buffers
+* Experience building RESTful APIs and have good knowledge of RESTful design patterns
+* Knowledge of Java will be a big plus
+* Understanding of media(audio/video) encoding/decoding will be plus
+* Knowledge of JavaScript (nodeJS) technologies will be plus
+* Self-starter who is ready to work on a fast-paced early-stage project without daily direction/hand-holding
+* Good verbal and writing English language communication skills
+Founded in California in 2004, Codeminders develops software for high-tech companies located predominantly in Silicon Valley. While we work on a broad range of products, our primary focus is on modern technologies such as AI, mobile, video conferencing, and cloud computing. You will have a chance to work on innovative software products envisioned in the heart of Silicon Valley. Many of our customers are startups, but some are established companies with millions of users.
+At Codeminders you will have a chance to work closely with world-class engineers from both the US and Ukraine and learn the newest technologies, tools, and development processes.
+Some of the benefits of working for Codeminders are:
+Salary based on individual qualifications, experience, and interview results
+Outstanding job stability with great opportunities for professional growth and advancement
+Western management practices
+Prospect of business travel to the US and Еurope
+Modern and comfortable office in Kyiv within walking distance from “Vasylkivska” subway station
+Great benefits package including medical, education, and fitness
+Reimbursement for moving expenses for out-of-town candidates
+Flexible working hours (including opportunities to periodically work from home)
+Performance bonuses and annual salary reviews
+Choice of desktop or a laptop as the main workstation
+Bicycle and car-friendly office
+In-office gym
+Regular team-building events
+About Codeminders
+Founded in California in 2004, Codeminders develops software for high-tech companies located predominantly in Silicon Valley. While we work on a broad range of products, our primary focus is on modern technologies such as AI, mobile, video conferencing, and cloud computing. You will have a chance to work on innovative software products envisioned in the heart of Silicon Valley. Many of our customers are startups, but some are established companies with millions of users. At Codeminders you will have a chance to work closely with world-class engineers from both the US and Ukraine and learn the newest technologies, tools, and development processes.
+Some of the benefits of working for Codeminders are:
+• Salary based on individual qualifications, experience, and interview results
+• Outstanding job stability with great opportunities for professional growth and advancement
+• Western management practices
+• Prospect of business travel to the US and Еurope
+• Modern and comfortable office in Kyiv within walking distance from “Vasylkivska” subway station
+• Great benefits package including medical, education, and fitness
+• Reimbursement for moving expenses for out-of-town candidates
+• Flexible working hours (including opportunities to periodically work from home)
+• Performance bonuses and annual salary reviews
+• Choice of desktop or a laptop as the main workstation
+• Bicycle and car-friendly office In-office gym
+• Regular team-building events
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, remote
+5 years of experience
+English Intermediate

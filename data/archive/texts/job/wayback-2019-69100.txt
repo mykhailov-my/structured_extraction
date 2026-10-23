@@ -1,0 +1,29 @@
+Python Engineer
+Ciklum
+
+Every day, millions of new videos are uploaded across these social platforms. The upload and consumption rates of online video are growing exponentially over time. We’re looking for top-notch engineers to help us solve some of these challenging big data problems.
+Tubular Labs is at the forefront of the digital video revolution. Tubular’s products ingest information about online videos across major social platforms (Facebook, Youtube, Instagram, Twitter, etc) and make this information available via an intuitive and analytically insightful single-page web application and restful API, all while aiming to provide sub-second response times.
+Every day, millions of new videos are uploaded across these social platforms. The upload and consumption rates of online video are growing exponentially over time. We’re looking for top-notch engineers to help us solve some of these challenging big data problems.
+Our stack:
+- Python 3.7, Scala
+- ElasticSearch, MySQL, Redis, Spark + S3
+- Apache Kafka, Thrift, Consul
+- AWS, Terraform, Salt, Jenkins, Mesos/Kubernetes, Docker
+- Influx, ELK
+Our values:
+- We believe in trust, transparency, and collaboration so we know our problems and working together on solving various challenges. We like sharing wins and open to learn from mistakes.
+- We measure success by customer satisfaction. By applying learn/adapt/advance principle we strive to provide smooth experience with unique video industry insights.
+- We love to learn and open to new ideas. We switched from Hadoop to S3, from Hive to Spark, from monolith to microservices, from RabbitMQ to Kafka. - All these transitions (and others) came from engineer suggestions. Your ideas will likewise be heard.
+- We believe that online video industry is huge part of the future and what we do at Tubular is unique and contributing to the growth of the industry. Your contributions will enable us to accomplish this goal.
+About Ciklum
+Ciklum is a top-five global Software Engineering and Solutions Company. Our 3,000+ IT professionals are located in the offices and delivery centres in Ukraine, Belarus, Poland and Spain.
+As Ciklum's employee, you'll have the unique possibility to communicate directly with the client when working in Extended Teams. Besides, Ciklum is the place to make your tech ideas tangible. The Vital Signs Monitor for the Children’s Cardiac Center as well as Smart Defibrillator, the winner of the IoT World Hackathon in the USA, are among the cool things Ciklumers have developed.
+Ciklum is a technology partner for Google, Intel, Micron, and hundreds of world-known companies. We are looking forward to seeing you as a part of our team!
+Company website:
+[link]
+
+Python
+Kyiv
+Киев
+3 years or more
+English Upper Intermediate

@@ -1,0 +1,50 @@
+Senior Python/.NET Developer (Investment Bank)
+Luxoft
+
+Luxoft are looking for Senior Python/.NET Developer (Investment Bank) Quarantine Remote
+Position Senior Python/.NET Developer (Investment Bank)
+Location Kyiv
+Project Description
+The goal of this project will be to ensure that when the company rolls out the forthcoming update of booking system, there will be no impact to our front office pricing and risk systems. This will involve multiple iterations of testing, troubleshooting, and code changes. This role would therefore be suited to somebody who is interested in testing and test automation as well as software development, while improving their knowledge of derivative and structured products across the equity/rates/fx asset classes.
+Responsibilities
+• Testing and Development of front office systems within EMEA Markets Engineering, and in particular, trade caching and translation.
+• Provide support of the platform, including overnight according to a rota
+• Implementation of best practice including test coverage, regression test tools, issue tracking, build & deployment
+• Coordinate with a global user base, quants, and engineering teams
+Skills
+Must have
+Good knowledge of object oriented programming principles
+Python or C#
+Excellent communication skills
+Understanding the financial sector and have some experience of concepts and the sort of culture that exists in banking environments
+Results driven, with a strong sense of accountability
+A proactive, motivated approach.
+The ability to operate with urgency and prioritize work accordingly
+Strong decision making skills, the ability to demonstrate sound judgement
+A structured and logical approach to work
+Strong problem solving skills
+Excellent interpersonal skills
+Excellent attention to detail and accuracy
+Strong numerical skills
+Nice to have
+o Database knowledge including T-SQL
+o .NET Core
+o Unix/Linux
+o Java, XSLT, messaging middleware
+Languages
+English: B2 Upper Intermediate
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Quarantine Remote
+Outsource
+3 years of experience
+English Upper Intermediate
+Ukraine only candidates 🇺🇦

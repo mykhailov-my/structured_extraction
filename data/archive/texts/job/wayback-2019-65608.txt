@@ -1,0 +1,38 @@
+Strong Middle Python Engineer (HERE Maps project)
+Intellias
+
+The public transportation team focuses on providing the best experience of using public transport to navigate around and across cities.
+This is achieved by collecting timetables and real-time data from all possible kinds of public transport authorities, merging it into a huge graph of all possible multi-mode public transport routes, then searching for optimal routes now or at a specific time. Public transport routing is exposed as a iOS/Android/web app for consumers (Here Wego) and a web API for enterprise partners.
+Requirements:
+∙ 3+ years of relevant professional experience,
+∙ Bachelor or Masters In Computer Science, Software Engineering or similar technical degree,
+∙ Relevant command of written and spoken English,
+∙ Excellent track record of previous work, including dynamic client-server applications,
+∙ Strong competence in Python, some experience in CSS and JavaSript,
+∙ Experience with relational databases (we use PostgresSQL and Sqlite) and documents store solutions (MongoDB and Elastic Search),
+∙ A passion for Linux-based server development, and for choosing the right language and technology for the problem at hand,
+∙ Ability to clearly communicate complex solutions with technical and non-technical colleagues.
+Nice to have:
+∙ Experience with AWS and Docker,
+∙ Experience with data modeling, knowledge of algorithms, data structures and threads,
+∙ Experience with other programming languages and techniques such as XML, JSON, shell scripting, Ruby, PERL, C, C++, GoLang, Webdav,
+∙ Experience with database design,
+∙ A demonstrated interest in location-based services, or software,
+∙ Full-stack web development,
+∙ Knowledge of GIS, kml and geojson would be a plus.
+Responsibilities:
+∙ Take the whole ownership over the project,
+∙ Architectural decision making,
+∙ Dealing with Data Engineers and Product owners,
+∙ Align business needs with Architecture.
+About Intellias
+Intellias - cмартова та комфортна компанія з дружніми відносинами в командах, а також гнучким та ефективним менеджментом та особливими умовами для кожного працівника.
+Подробиці за посиланням: [link]
+Company website:
+[link]
+
+Python
+Kyiv
+Киев, Львов
+3 years or more
+English Intermediate

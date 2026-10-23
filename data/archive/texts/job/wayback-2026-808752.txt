@@ -1,0 +1,51 @@
+Full-Stack Software Engineer (Python)
+KaaIoT
+to $4900
+
+Requirements:
+- Proficiency with React and TypeScript for frontend development
+- Strong backend development experience with Python and PostgreSQL, including schema design and migrations (SQLAlchemy + Alembic)
+- Deep understanding of asynchronous programming and event-driven systems (Python async, background processing, integrations)
+- Experience with workflow orchestration tools
+- Hands-on experience working with Apache Airflow, including DAG's and backend integrations
+- Experience in building or designing data pipelines, including orchestration, data processing and integrations (batch and/or streaming)
+- Build and maintain infrastructure using Terraform, Kubernetes and Helm
+- Experience deploying and operating services on Kubernetes, including maintaining Helm charts
+- Ability to work highly autonomously, proactively clarify requirements and driving work forward with minimal supervision
+- Strong communication skills and experience working in distributed teams
+Nice-to-Have:
+- Familiarity with FastAPI
+- Experience with Bazel build system (training can be provided)
+- Experience with CI/CD pipelines
+- Prior experience in environments with limited product management and high ownership
+Key Responsibilities:
+- Design, build and deliver full-stack features using Python, PostgreSQL, React and TypeScript
+- Take ownership of features from initial, sometimes ambiguous ideas to production, including:
+- clarifying requirements and assumptions
+- technical design
+- implementation
+- testing, deployment and monitoring
+- Design and maintain integration-heavy backend services, collaborating with other teams and consuming internal API's
+- Work closely with Apache Airflow pipelines (seamless integration with backend services)
+- Design and implement scalable backend systems using PostgreSQL
+- Proactively identify risks, dependencies and gaps in requirements, and drive solutions
+- independently
+- Build and maintain infrastructure using Terraform, Kubernetes, and Helm
+- Collaborate with team members in regular syncs to discuss progress, blockers and demos
+- Participate in code reviews, design discussions and cross-team technical coordination
+About the Project:
+We’re hiring a Full-Stack Software Engineer (Python + React) to join a fast-paced, highly autonomous team. This role is ideal for an engineer who is comfortable working across the stack, passionate about writing clean and scalable code, and capable of driving features end-to-end - from design to infrastructure provisioning to production monitoring.
+Engineers are trusted to make decisions, ask the right questions and deliver production-ready solutions. The work spans backend services, Airflow-driven workflows, infrastructure and frontend with a strong emphasis on building reliable, well-integrated systems that scale.
+You will work closely with cross-functional teams to build new features from scratch.
+
+Only from 3 years of experience
+$4000-4900
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Fullstack
+Employment: Fulltime
+Domain: Other
+Outsource

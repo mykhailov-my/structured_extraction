@@ -1,0 +1,48 @@
+Python Developer
+SupportYourApp
+
+We're looking for a talented Python Developer to work on a very ambitious project within AI & ML industry (data sets, data labeling etc.)
+If you love to create new products and grow, it's the best time to join our team.
+Must have:
+- Python 3.6+ & Django 2.2 experience 2+ years
+- Django REST Framework experience
+- REST APIs development experience
+- OOP principles solid understanding
+- PostgreSQL knowledge
+- Nginx work experience
+- WebKit deep understanding
+- Git good knowledge
+- Docker good knowledge
+Will be a great plus:
+- JavaScript (ES6+) knowledge
+- Image processing experience on Python & JS (opencv, canvas)
+- Experience with web sockets
+- Experience with Celery
+- Exprience with Datumaro
+- Vue.js
+We Offer:
+- Flexible Business hours;
+- State-of-the-art offices (check it on DOU). It is considered to be one of the best workspace in 2019, according to "The Village";
+- Compensation in USD (Financial and professional growth);
+- Paid intensive training and trial period;
+- Great management with no bureaucracy;
+- Good bonuses for referring friends (referral program);
+- SupportYourApp Medical Policy;
+- Coffee, tea, candy, season fruit, and vegetables;
+- Various sports events and team-building;
+- Partial compensation for SportLife membership;
+- Corporate Library.
+We'd love to meet you and talk in-depth about your experience and project tasks!
+Waiting for your resume ;)
+About SupportYourApp
+Human + Tech customer support service that powers Unicorn and acclaimed tech companies worldwide.
+We work with 25 countries and provide BPO solutions in 31 languages. SupportYourApp is passionate about technology and helping people around the world getting the most meaningful experience possible while using the products of the most innovative tech companies.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+2 years of experience
+English Intermediate

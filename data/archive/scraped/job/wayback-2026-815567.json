@@ -1,0 +1,29 @@
+{
+  "doc_id": "wayback-2026-815567",
+  "url": "https://djinni.co/jobs/815567-backend-python-developer/",
+  "snapshot": "https://web.archive.org/web/20260711052413/https://djinni.co/jobs/815567-backend-python-developer/",
+  "captured_at": "2026-07-11T05:24:13",
+  "posted": null,
+  "year": 2026,
+  "active": false,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Backend Python Developer",
+  "company": "codeIMPL",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from 3 years of experience",
+    "Full Remote",
+    "Countries of Europe or Ukraine",
+    "Countries where we consider candidates",
+    "English B1 - Intermediate",
+    "Ukrainian Native",
+    "Python",
+    "Employment: Fulltime",
+    "Domain: Fintech",
+    "Product"
+  ],
+  "description": "About the company\ncodeIMPL was launched in 2018 with a large knowledge and experience in mobile development.\nSince that we help businesses and individuals establish their presence on any modern device and\nplatform — mobile, web, etc.\nOur clients are large worldwide companies, that develop important and significant solutions in\nFinTech, Blockchain, DeFi, Health & Fitness, Gambling domains.\nIn codeIMPL we use modern, innovative technologies and approaches that allow us to support any\nsolution and provide the foundation for its future scaling and enhancement.\nAbout the product\nProject: fintech, payment system.\nResponsibilities\n● Develop and maintain asynchronous backend services (FastAPI, ARQ, service-oriented and\nmicroservice applications).\n● Write clean, testable, and maintainable code.\n● Participate in design discussions and suggest improvements to performance and developer\nexperience.\n● Collaborate openly with backend, frontend, DevOps, and product teams.\nRequirements\n● 3+ years of hands-on experience with Python (asyncio, typing, pydantic);\n● Solid experience with SQLAlchemy 2.0 and Alembic;\n● Proficiency in writing unit and integration tests (Pytest/Unittest);\n● Hands-on experience with FastAPI and async task processing (ARQ/Celery/RQ);\n● Database skills: PostgreSQL (indexes, transactions, RLS). Knowledge of\nTimescaleDB/ClickHouse is a plus;\n● Experience in database query optimisation (EXPLAIN, keyset pagination, batching);\n● Understanding of idempotency and outbox/event sourcing principles;\n● Experience with Docker, docker-compose, local environments;\n● Basic knowledge of Kubernetes and AWS (SQS, RDS, S3) is a plus;\n● Hands-on experience with creating and supporting PCI DSS compliant applications is a plus;\n● Experience in creating skills, commands and agents for Claude AI is a plus;\n● Understanding of observability (structured logs, traces, metrics).\nWe offer:\n● Full-time remote job;\n● Paid annual leave;\n● Work with professional team and friendly atmosphere;\n● Minimum of bureaucracy."
+}

@@ -1,0 +1,37 @@
+{
+  "doc_id": "wayback-2026-806873",
+  "url": "https://djinni.co/jobs/806873-senior-python-developer/",
+  "snapshot": "https://web.archive.org/web/20260227012454/https://djinni.co/jobs/806873-senior-python-developer/",
+  "captured_at": "2026-02-27T01:24:54",
+  "posted": "2026-02-23",
+  "year": 2026,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Senior Python developer",
+  "company": "TechMagic",
+  "salary": "",
+  "skills": [
+    "AWS",
+    "2 years"
+  ],
+  "languages": [],
+  "facts": [
+    "Only from 5 years of experience",
+    "Office, Remote",
+    "Countries of Europe or Ukraine",
+    "Countries where we consider candidates",
+    "English B2 - Upper Intermediate",
+    "Ukrainian Native",
+    "Python",
+    "AWS",
+    "2 years",
+    "Employment: Fulltime",
+    "Domain: Security",
+    "Outsource",
+    "Office:",
+    "Ukraine",
+    "(Kyiv, Lviv)"
+  ],
+  "description": "We are looking for a Senior Python Engineer to join our Secure Infrastructure Access (SIA) team. This team provides secure, brokered Remote Desktop access to Windows servers without exposing credentials or opening inbound network access. In this role you will be using AWS serverless architecture, AWS CDK & Python to design, develop, test, secure & deploy services from planning to production.\nThe team works in full collaboration with security architects, product managers and other development teams.\nWhat We’re Looking For\n- 5+ years of experience in Python development.\n- 2+ years of hands-on experience building and deploying serverless applications on AWS.\n- Strong problem-solving and analytical skills, with a passion for clean, maintainable code.\n- Excellent communication and teamwork abilities, with the confidence to lead and influence.\n- Self-driven, proactive, and eager to learn and share knowledge.\nBonus Points For\n- Experience with CI/CD tools (e.g., Jenkins, Git, Artifactory).\n- Background in SaaS application development.\n- Solid understanding of security best practices, including OWASP guidelines and threat modeling.\n- Proficiency in AWS CDK for infrastructure as code.\nWhat You’ll Do\n- Deliver E2E features and enhancements while keeping the highest quality and security standards\n- Practice all software development life cycle in agile oriented environment\n- Research and implement sophisticated Cyber security mechanisms\n- Explore new technologies and tools to keep us using cutting edge solutions\n- Help guide and contribute to feature design and implementation to bring the product to the next level\n- Participate in continuous and iterative engineering cycles with emphasis on code quality, supportability, scalability, and performance\nWork Schedule\nFull-time working day.\nInterview Stages\n- HR interview with our recruiter\n- Technical interview with the Engineering Manager (1 hour)\n- Coding interview (2 hours)\n- Final HR interview with the Tech Lead"
+}

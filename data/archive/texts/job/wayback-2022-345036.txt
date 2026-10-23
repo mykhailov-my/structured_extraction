@@ -1,0 +1,51 @@
+Middle Python Developer
+SOC Prime
+
+We are growing and looking for a new member of our team!
+Let's start your successful career in a cybersecurity product company.
+We are looking for a Python Developer who will be an integral member of the SOC Prime RnD team.
+You Have:
+• Solid experience in back-end development with Python
+• Experience with popular Python frameworks
+• Experience working with Docker
+• Understanding of dev best practices: TDD, Code Review, CI/CD, GitFlow
+• OOP experience and deep understanding of SOLID principles
+•Expertise in building microservice architecture
+• Understanding of microservices design patterns
+• Good understanding of database design (PostgreSQL)
+• English level – intermediate or better
+You Will:
+• Create Python backend microservices
+• Maintain high-quality development standards
+What we can offer:
+• Competitive salary;
+• Paid annual leave;
+• The ability to attend conferences, webinars, and other events that will enhance your professional skills;
+• Regular corporate events and team building;
+• Medical and COVID insurances;
+• English classes;
+• Minimum bureaucracy;
+• Opportunities for professional development and personal growth;
+• Competitive salary, reasonable and fair working conditions, flexible schedule;
+• Work in a great product company;
+• Team of strong IT professionals working in a vibrant product environment
+• Short Fridays;
+• A friendly and young team of professionals.
+Working conditions:
+• 5-day work week (now we have mix remote and office work);
+• 8-hour working day (flexible schedule);
+• Spacious, comfortable office near the metro and the center of Kyiv
+About SOC Prime
+SOC Prime is the only Threat Detection Marketplace where researchers monetize their content to help security teams defend against attacks faster and more efficiently than ever. Powered by its Detection as Code platform, SOC Prime curates the most up-to-date Sigma-based threat detection content from over 300 researchers and natively delivers it via subscription to 20+ SIEM and XDR platforms at more than 6,000 enterprises, governments and MDRs worldwide.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Office/Remote of your choice
+Product
+2 years of experience
+English Intermediate
+Ukraine only candidates 🇺🇦

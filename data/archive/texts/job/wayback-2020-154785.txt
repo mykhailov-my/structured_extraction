@@ -1,0 +1,36 @@
+Middle Python Full Stack Developer
+A-HR
+
+We are looking for an experienced Python Developer who is inspired by what he/she does.
+About the company:
+Global Media Publisher that creates world-class content, both for editorial and video directions.
+Your professional qualities:
+- 2+ years of experience in Python
+- Good knowledge of Python 3
+- Experience with SQL
+- Knowledge of HTML, CSS, JavaScript
+Nice to have:
+- Knowledge of Python frameworks (Flask/Django)
+- Experience with serverless
+- Experience with NoSQL
+- Experience with MongoDB
+What's in it for you:
+- Comfortable working conditions: an office with all the modern conveniences (including free lunch and snacks, game rooms, and many other amenities)
+- Professional growth: lectures and seminars, access to required literature, paid training and courses outside the company
+- Fair compensation that allows employees to focus on project development and their own professional growth
+- Health insurance
+- Corporate events and team building, where we celebrate the successes and achievements of our teams and the company
+About A-HR
+A-HR
+Професійні HR та бізнес рішення для досягнення амбітних цілей.
+Наші експерти реалізовують проекти будь-якої складності.
+​Приділяємо особливу увагу баченню та прагненням клієнта.
+Працюємо та вдосконалюємо сервіс з 2016 року.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+2 years of experience

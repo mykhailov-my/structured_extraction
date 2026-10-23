@@ -1,0 +1,67 @@
+Senior Automation (Python/Java) QA Engineer for Ciklum Digital
+Ciklum
+
+We are looking for a Senior Automation QA Engineer to join our team on a full-time basis. Ciklum is building a team to work on various projects whose primary goal is to improve and automate the customer’s business processes, reducing the time and efforts required for various operations.
+Responsibilities
+● Develop automated backend tests
+● Integrate automated scripts into CI/CD process
+● Develop, maintain and expand automated testing infrastructure
+● Devise and document test frameworks, coding standards, preferred design patterns, and development methodologies
+● Ensure code quality with peer reviews to ensure guidelines and standards are followed
+● Define Quality Metrics and implement measurements to determine test effectiveness, testing efficiency, and measure the overall quality of the Product as a part of test automation process
+● Make conclusion and report about the quality of the product under test
+● Collaborate with other members of the QA team to automate the manual test processes
+● Manage, analyze and mitigate testing risks
+● Onboarding of new team members on the project
+Requirements (Hard skills):
+● 4+ years of professional experience in QA Automation of complex backend/API testing
+● Deep understanding of SOLID, OOP principles and design patterns, hands-on experience applying them into test frameworks
+● Experience with different test runners
+● Experience with Linux; shell scripting: Python, bash
+● Coding proficiency in Python/Java (with readiness to switch to Python)
+● Knowledge of SQL and no-SQL DBs (PostgreSQL, MongoDB, Redis etc.)
+● Experience of working with version control systems (e.g. GIT, SVN and others)
+● Strong experience with continuous integration processes and tools (Jenkins or similar). CI tools setup, tuning and configuration
+● Virtualization (Docker, Kubernetes, Ansible, etc)
+● Understanding of the fundamentals of test theory and methodology
+● Experience of working in an Agile Scrum/Kanban development environment
+● BS in Computer Science, Computer Engineering, or related technical discipline
+● Good English skills – Strong Intermediate or higher
+Desirable (Hard skills):
+● Experience in development
+● Knowledge of File Systems (NAS) / Block-level Storage / storage networking protocols
+● Experience with message brokers/queues: SQS, SNS, Kafka, RabbitMQ, etc
+● Experience with cloud solutions like AWS, Microsoft Azure
+● Integration of GDPR principles in automated testing
+Personal skills (soft skills):
+● Works under general direction, accepts guidance and has work reviewed at agreed milestones.
+● Has working-level contact with customers and colleagues.
+● May supervise others or make decisions which impact the work assigned to individuals or phases of projects.
+● Performs a range of work, sometimes complex and non-routine.
+● Demonstrates effective communication skills.
+● Plans, schedules and monitors own work (and that of others where applicable) competently.
+● Contributes fully to the work of teams.
+What's in it for you:
+- Career growth opportunities
+- Realization of your innovative ideas in building new Ciklum Solutions and Services
+- Friendly collaborative teams and enjoyable working environment
+- Professional skills development and training programs
+- Variety of knowledge sharing, training and self-development opportunities
+- State of the art, cool, centrally located offices with warm atmosphere which creates really good working conditions
+- Medical insurance and sport discounts etc.
+About Ciklum International
+Ciklum is a top-five global Digital Solutions Company for Fortune 500 and fast-growing organisations alike around the world.
+Our 3,000+ Developers located in the Delivery Centres across the globe, provide our clients with a range of services including outsourcing software development, Enterprise App Development, Quality Assurance, Security, R&D, Big Data & Analytics.
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA Automation
+Relocate, Ukraine
+3 years of experience
+English Intermediate
+Ukraine only candidates 🇺🇦
+Full Remote
+Outsource
+Relocation costs coverage

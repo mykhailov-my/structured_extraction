@@ -1,0 +1,35 @@
+Trainee Python AQA
+GlobalLogic
+
+Description
+Our Customer is one of the biggest companies on the market of home entertainment consumer electronics devices that strives to provide their clients with high-quality products and services.
+Project goals include automation of tests and processes for new firmware releases; creating tools and reports to help other teams perform better and get data and summaries more easily.
+Requirements
+• Good Python knowledge and experience
+• Experience in the usage of automated testing frameworks
+• Experience in BDD AUtomation
+• Good Software Testing skills (good knowledge of test design and testing techniques; excellent reporting and documentation skills)
+• At least intermediate English level
+• Self-motivated person who is able to work independently and in the team
+• Good communication skills
+• Ability to learn new technologies quickly
+Job responsibilities
+• Working with automated test framework
+• Creating automated scripts, tools and reports
+• Debugging issues and creating bug reports
+• Developing test plans for new features and ensure good level of test coverage
+• Contributing to team processes
+• Communication with clients and team members
+
+No experience
+Hybrid Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+QA Automation
+Employment: Fulltime
+Domain: Other
+Outsource
+Office:
+Ukraine
+(Lviv)

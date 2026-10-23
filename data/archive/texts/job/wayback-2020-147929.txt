@@ -1,0 +1,33 @@
+Middle Python Developer
+StartupSoft
+
+On behalf of METER, StartupSoft is looking for Software Engineer (Python) to join our Food Division project.
+The METER Food Division designs software and hardware products used in the food industry to measure and monitor food quality and safety in the manufacturing process.
+The ideal candidate will have experience with and passion for creating, designing, and writing desktop and web application software
+Qualifications and Skills
+* Experience with Python (2 or more years);
+* Experience with Django framework;
+* Knowledge of PostgreSQL;
+* Proficient in AWS (EC2, RDS)
+* English: intermediate + and higher;
+* Self-driven, highly technical and ready to face challenges;
+* Strong problem-solving abilities.
+Will be a plus
+* skills in jQuery, React
+Responsibilities
+* To continue the development of the platform that helps to automate processes at GourmetGorilla.
+* Most of the work will be on the back-end.
+* There might be small tweaks on front-end.
+About StartupSoft
+StartupSoft connects elite Ukrainian engineers & hustlers with top startups from Silicon Valley.
+We don’t “rent” employees to “clients”, rather we place engineers directly with well-funded, product startups as an integral part of their team.
+We strive to replicate the in-house experience with a remote team.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Lviv
+2 years of experience
+English Intermediate

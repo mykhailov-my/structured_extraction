@@ -1,0 +1,33 @@
+Junior Python Developer for Telegram bot based project
+Zring.tech
+$500-750
+
+Used tools and technology stack:
+GitHub Actions for CI/CD, backend flask-based python application, SQL database, Docker containers for applications, Telegram bot for frontend
+Responsibilties:
+Develop telegram bot as frontend
+Develop HTTP API backend services
+Develop database models
+Requirements:
+Basic knowledge of REST APIs
+Experience with telegram bots frameworks
+Good knowledge of relational databases (MySQL/PostgreSQL)
+Strong Python and OOP knowledge
+What do we offer?
+Long-term contract and tax compensations
+Flexible schedule and possibility to work entirely remotely
+20 working days of paid vacation and unlimited paid sick leaves
+About Zring.tech
+Zring.tech is startup company which develop online education platform to help university students.
+Company website:
+[link]
+
+Python
+Category: Python
+GIT , Python , Flask , telegram bots , SQL , PostgreSQL , Docker
+English: Pre-Intermediate
+No experience
+Domain: Education
+Full Remote
+Product
+Ukraine

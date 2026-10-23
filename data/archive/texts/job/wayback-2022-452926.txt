@@ -1,0 +1,51 @@
+Python Engineer
+Svitla
+
+Experience:
+- BS Degree preferably in Computer Science or Information Systems
+- 5+ years in a related technology role
+- Deep development experience in Python, but we are open to other experiences if you are willing to learn the languages we use
+- Experience with Web-based Frameworks: Django/Flask, FastAPI, etc.
+- Experience with Integration with various 3rd party services (like Shopify, Magento, etc.)
+- Experience in architecting, development, and deployment platform for running containerized services
+- 2+ years of experience in Kubernetes
+- Good knowledge of Docker and deployment life cycle (Storage, Docker Registry, Images)
+- Strong expertise in building/interacting with RESTful services
+- Experience processing large amounts of structured and unstructured data in streaming and batch
+- Experience with cloud infrastructure (AWS)
+- Experience in running, using, and troubleshooting industry-standard messaging and data technologies such as Spark, RabbitMQ, Active MQ, PostgreSQL
+- Experience with Infrastructure as Code using Terraform
+- English - Upper Intermediate or higher
+Responsibilities:
+The following are intended to be examples of the accountabilities for which the person in this position is responsible. This position is not intended to be complete or all-inclusive and does not preclude management from assigning other or related functions for which the individual has demonstrated competency through performance.
+- Design and implement solutions for assigned projects, independently and with teammates
+- Support current integrations, write and integrate software components
+- Drive performance tuning, automation, monitoring, and testability
+- Provide analysis, design changes, recommendation of upgrades, and maintenance of software
+- Help drive the underlying technology stack
+- Collaborate closely with Scrum and Product development teams
+- Participate in the requirements refining, estimate, and user story development
+- Create and drive better metrics, monitoring initiatives to gain valuable insights from the Wondersign cloud services
+- Embrace and institute best practices and coding standards within the team
+- Contribute to research technologies and fast prototyping
+- Compose detailed design specifications
+- Troubleshooting all build and deployment issues
+- Actively participate in root cause analysis and design sessions
+About Svitla
+Svitla Systems is a multinational software development company headquartered in Silicon Valley, with business and development offices throughout the US, Mexico, and Europe (Ukraine, Poland, Western Europe). Svitla is an outspoken advocate of workplace flexibility, best known for its well-established remote culture, individual approach to our teammate’s professional and personal growth, and family-like environment.
+Since 2003, Svitla has served a wide range of clients, from innovative start-ups in California to mega-large corporations such as Ingenico, AstraZeneca, and Ancestry. At Svitla, developers work with clients’ teams directly, building lasting and successful partnerships, as a result of seamless integration with on-site processes.
+Svitla Systems’ global mission is to build a business that contributes to the well-being of our partners, personnel and their families, improves our communities, and makes a lasting difference in the world. Join us!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+Python, Django
+English: Upper-Intermediate
+5 years of experience
+Office/Remote of your choice
+Outsource
+Ukraine, Poland, Canada
+Only candidates from Ukraine

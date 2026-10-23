@@ -1,0 +1,51 @@
+Python Developer (Gamedev)
+Beetroot
+
+We are looking for a Python Developer to support games in the DAR Open Network.
+Our client is now working on an innovative blockchain-based game.
+The team comprises nearly 20 people dedicated to game development, covering various aspects such as art, quality assurance (QA), development, blockchain, and client services. The team's focus is not only on one game but also on other projects that are currently being set up.
+This game itself involves two core pillars: land management and mining sessions. Players own mining plots utilized by other players, earning $DAR rent fees in a play-to-earn model. The mining sessions feature side-scrolling action-adventure gameplay, where players gather resources to increase their mining power and progress through a traditional progression system. The game includes additional features such as synchronous competitions and on-chain games.
+This product aims to provide players with an immersive gaming experience while pioneering innovative gameplay mechanics and leveraging blockchain technology to introduce new opportunities for player ownership and engagement.
+It is an exciting opportunity for a tech-driven person with a broad skill set to join a dynamic environment and be part of a global team.
+In our collaboration model, you will work and communicate directly with the development team on the client side.
+What you'll do in this role
+— Participate in all aspects of game development from planning to creating and optimization game modules and documentation of the backend.
+— Define technical requirements and architectural choices by working closely with other departments in an international team.
+— Write code and tests, build prototypes, resolve issues, and profile and analyze bottlenecks.
+— Manage and optimize scalable distributed systems in the cloud.
+Design robust and scalable APIs.
+— Endorse a knowledge sharing and collaboration mindset.
+— Collaborate closely with Game Design and Product Management.
+We're looking for
+— 3+ years of professional experience in backend development
+— Extensive knowledge in programming languages and frameworks: Python with Django and Typescript in Node.js projects.
+— Extensive experience with designing robust and scalable RESTful APIs.
+— Experience with relational as well as document-based database systems
+— Experience in interacting with EVM-based smart contracts.
+— Profound experience in software architecture, design patterns, optimization and unit testing
+— Strong problem analysis skills with the ability to find simple, robust and efficient solutions for complex problems
+— Experience with code versioning tools such as git and documentation tools such as confluence
+— Fluent in written and spoken English
+How to knock our socks off
+— Preferably also experience with Golang
+— Degree in Computer Science, Computer Engineering
+— Preferably experience with managing and optimizing scalable distributed systems in the AWS cloud
+— Naming five or more dishes that include Beetroot, besides borshch 😉
+✔ Not checking every box?
+This job looks very exciting, but you hesitate to apply because of the confidence gap? Reach out to us anyway! Beetroot is an inclusive workplace that considers all applicants. Equality is one of our core values. We're committed to providing equal opportunity and a sense of belonging for all Beetroot consultants and candidates. So let's discover together whether we could be an excellent fit for each other.
+
+Development
+Python
+Kyiv
+from Upper-Intermediate
+Considering with no english
+from 3 years of experience
+Considering with 1 year of experience
+Hybrid Remote
+Office attendance is required
+Ukraine
+Python / Django, TypeScript, NodeJS
+Domain: Blockchain / Crypto
+Outstaff
+Office:
+(Ivano-Frankivsk, Kyiv, Lviv, Odesa)

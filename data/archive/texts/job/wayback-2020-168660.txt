@@ -1,0 +1,49 @@
+Full-stack Python/Django Web Developer (Middle+)
+SoftFormance
+
+SoftFormance team is looking for Python full-stack developer at Middle+ level to join our team remotely or in Lviv office. Projects you'll be working on are in AdTech and MarketingTech industries - SaaS platforms for digital marketers.
+*Required Skills*
+— 2+ years experience developing and deploying Python/Django websites
+— HTML/CSS: skills to quickly prototype page from mockup
+— strong Javascript skills and experience working with jQuery, Angular (or ReactJS);
+— MySQL/PostgreSQL
+— Git repository
+— English: intermediate level+
+*Nice to have*
+— Celery
+— Redis
+— MongoDB
+— RabbitMQ
+— Django Channels
+— Python Flask web framework
+*We offer you*
+— in-office or remote position with a flexible daily schedule
+— competitive salary
+— Social Package and bunch of bonuses
+— interesting and dynamic projects
+— good team and well-organized management processes
+— regular career opportunities
+*Your Duties*
+— develop and deploy high-quality Python/Django websites
+— on time and on budget
+— write unit tests and technical docs
+— participate in regular team meetings
+— follow internal management procedures
+*About us*
+We create digital marketing tools (AdTech and MarketingTech niches) for our clients from US and Western Europe. Some projects are long-term while others take just 3-6 months. Thus you’ll always have a chance to try different technologies and projects.
+About SoftFormance
+We work on different web projects for US and Western Europe clients. Some are long-term, others take 3-6 months. So you’ll always have an opportunity to switch to the other project after some time.
+Currently, we focus on 3 types of web applications:
+* Social Media and Digital Marketing automation and analytics tools and services (usually SaaS),
+* Business automation tools, ERP, CRM, back-offices, intranets,
+* Online Marketplaces and eCommerce portals.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Lviv
+Lviv, remote
+2 years of experience
+English Intermediate

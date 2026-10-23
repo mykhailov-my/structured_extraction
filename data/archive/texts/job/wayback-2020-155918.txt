@@ -1,0 +1,42 @@
+Middle Python Developer ( Flask or Django)
+Exadel
+
+We are looking for a motivated Python Developer to come and join our team of professionals. If you are passionate about technology, constantly seeking to learn and improve your skill set, then you are the type of person we are looking for!
+About the Customer:
+The Customer’s company is a startup from Ghent solving a huge pain that restaurants currently have with handling incoming food-delivery orders. It develops the systems of managing restaurant’s online channels via automated connectivity of Online Ordering to POS.
+The Company’s young and international team currently counts 28 ambitious enthusiasts, who work, innovate, and celebrate success together. They have experienced founders with a huge network and already some of the biggest chains that are working with us.
+About the Project:
+Project is aimed at integrating third party online ordering platforms, and connecting online food ordering players such as Ubereats, Foodora, Takeaway.com and Deliveroo with the restaurant POS enabling the customers to spend more time on their business and less time typing orders.
+As our Middle Backend Developer with Python knowledge, you will write well-tested code and seek challenges that inspire you. Some examples of your responsibilities include:
+Responsibilities:
+Build API integrations for leading national and global delivery websites
+Be inventive with the huge amount of data and innovating with it
+Create Machine to Machine (M2M) Authorization
+Anticipate problems with server load and prevent them ahead of time
+You might even be in touch with customers directly, as you are keen to hear what you can improve on
+Requirements:
+2.5 - 3 years of experience, including 1 year or more of recent experience developing in Python
+Experience with building Web/REST APIs
+Knowledge of Flask (we use Eve) or Django
+Strong Intermediate to Upper-Intermediate English
+Able to work and learn in a self-directed manner and as part of a team
+Great attention to detail
+What we count as a plus:
+Your knowledge of databases includes NoSQL (ideally MongoDB)
+You are familiar with SaaS products or worked on a product with frequent releases
+Understanding of Docker or Kubernetes (we are currently switching)
+You have worked with a TDD approach before
+Basic cloud knowledge (Azure / Google Cloud / AWS… but knowing accuweather doesn’t count)
+Previous mocking and testing of APIs with Postman
+About Exadel Kharkiv
+Exadel is a global software application development company providing innovative technology solutions to its clients. If you’re looking to grow your career in a dynamic environment rich with opportunity, Exadel has many exciting career choices.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kharkiv
+Kharkiv, Odesa
+2 years of experience
+English Intermediate

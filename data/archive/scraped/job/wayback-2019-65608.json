@@ -1,0 +1,24 @@
+{
+  "doc_id": "wayback-2019-65608",
+  "url": "https://djinni.co/jobs/65608-strong-middle-python-engineer-here-maps-proje/",
+  "snapshot": "https://web.archive.org/web/20190819022850/https://djinni.co/jobs/65608-strong-middle-python-engineer-here-maps-proje/",
+  "captured_at": "2019-08-19T02:28:50",
+  "posted": null,
+  "year": 2019,
+  "active": false,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:10+00:00",
+  "title": "Strong Middle Python Engineer (HERE Maps project)",
+  "company": "Intellias",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Kyiv",
+    "Киев, Львов",
+    "3 years or more",
+    "English Intermediate"
+  ],
+  "description": "The public transportation team focuses on providing the best experience of using public transport to navigate around and across cities.\nThis is achieved by collecting timetables and real-time data from all possible kinds of public transport authorities, merging it into a huge graph of all possible multi-mode public transport routes, then searching for optimal routes now or at a specific time. Public transport routing is exposed as a iOS/Android/web app for consumers (Here Wego) and a web API for enterprise partners.\nRequirements:\n∙ 3+ years of relevant professional experience,\n∙ Bachelor or Masters In Computer Science, Software Engineering or similar technical degree,\n∙ Relevant command of written and spoken English,\n∙ Excellent track record of previous work, including dynamic client-server applications,\n∙ Strong competence in Python, some experience in CSS and JavaSript,\n∙ Experience with relational databases (we use PostgresSQL and Sqlite) and documents store solutions (MongoDB and Elastic Search),\n∙ A passion for Linux-based server development, and for choosing the right language and technology for the problem at hand,\n∙ Ability to clearly communicate complex solutions with technical and non-technical colleagues.\nNice to have:\n∙ Experience with AWS and Docker,\n∙ Experience with data modeling, knowledge of algorithms, data structures and threads,\n∙ Experience with other programming languages and techniques such as XML, JSON, shell scripting, Ruby, PERL, C, C++, GoLang, Webdav,\n∙ Experience with database design,\n∙ A demonstrated interest in location-based services, or software,\n∙ Full-stack web development,\n∙ Knowledge of GIS, kml and geojson would be a plus.\nResponsibilities:\n∙ Take the whole ownership over the project,\n∙ Architectural decision making,\n∙ Dealing with Data Engineers and Product owners,\n∙ Align business needs with Architecture.\nAbout Intellias\nIntellias - cмартова та комфортна компанія з дружніми відносинами в командах, а також гнучким та ефективним менеджментом та особливими умовами для кожного працівника.\nПодробиці за посиланням: [link]\nCompany website:\n[link]"
+}

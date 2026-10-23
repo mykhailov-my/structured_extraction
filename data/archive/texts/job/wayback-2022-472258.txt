@@ -1,0 +1,39 @@
+Senior QA (Java+Python) Engineer, Media Conglomerate (Poland)
+DataArt
+
+Client
+DataArt is involved in the software transformation of key business areas of a US-based global music conglomerate.
+Position Overview
+This project will allow you to gain experience in working with complex systems and will introduce you to different aspects of the music business.
+Technology Stack
+Requirements
+- 4+ years of automated testing experience
+- Skills in working with automation tools (for Web /API/ Unit tests)
+- Knowledge and skills in programming (OOP, Java, Python (preferable)
+- Knowledge of test types and ways to organize them in the testing of various kinds of applications
+- Strong knowledge of databases and skills with DBMS (one of the following: MSSQL, Oracle, MySQL, PostgreSQL, etc.)
+- Good spoken English
+Nice to have
+- Making test documentation (test plans, test cases, etc.)
+- Knowledge and experience of working and integrating with CI (TeamCity, Jenkins)
+- Experience with Clouds (AWS)
+- Ability to learn and master new technologies
+About DataArt
+DataArt is a global software engineering firm. With over 20 years of experience, teams of highly-trained engineers around the world, deep industry sector knowledge, and ongoing technology research, we help clients create custom software that improves their operations and opens new markets. DataArt started out as a company of friends and has a special culture that distinguishes it from other IT outsourcers, such as:
+- Flat structure. There are no “bosses” and “subordinates”.
+- We hire people not to a project, but to the company. If the project (or your work in it) is over, you go to another project or to a paid “Idle”.
+- Flexible schedule, ability to change projects, to work from home, to try yourself in different roles.
+- Minimal bureaucracy and micromanagement, convenient corporate services
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA Automation
+Category: QA Automation
+English: Pre-Intermediate
+5 years of experience
+Office/Remote of your choice
+Outsource
+Poland
+Only candidates from Europe and Ukraine

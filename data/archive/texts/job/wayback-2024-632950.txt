@@ -1,0 +1,33 @@
+Python Developer (+Strong AWS)
+Yael Acceptic
+
+Join our team as an experienced Python Developer, where you will take a role in building and optimizing our AWS cloud infrastructure. This position requires hands-on experience with AWS services, proficiency in Python, and a strong background in deploying and managing infrastructure using Terraform.
+Responsibilities:
+- Identify and plan improvements to the implementation;
+- Be a key team member in design and development;
+- Maintaining infrastructures and environments of all types from dev to production;
+- Security monitoring and administration.
+Requirements:
+- 3+ years of experience in Python;
+- 3+ years hands on experiences with AWS cloud services (VPC, API Gateway, EC2, ALB, NLB, Lambda, RDS, IAM);
+- Working experience with DB technologies (SQL, non-SQL);
+- Experience deploying and managing infrastructure with terraform;
+- Hands on experiences with container technology (Docker, ECR, ECS);
+- Experience with Terraform;
+- Experience with CI/CD platformsand tools;
+- Experience with design and develop API (YAML, Swagger, FastAPI etc);
+- At least an Upper-Intermediate level of English.
+
+from Upper-Intermediate
+Considering with no english
+from 3 years of experience
+Considering with 1 year of experience
+Office or Remote
+Ukraine
+Countries where we consider candidates
+Python
+AWS EC2, AWS, AWS Lambda, Python
+Domain: Fintech
+Outstaff
+Office:
+Ukraine

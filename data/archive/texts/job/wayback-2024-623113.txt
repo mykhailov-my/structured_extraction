@@ -1,0 +1,29 @@
+QA Automation Engineer (Java+Python)
+Commit Offshore
+
+Responsibilities
+● Develop and implement tools for automated testing (Linux, Java, Python Docker, Kubernetes, Typescript)
+● Play an essential role in the development cycles and deliver high quality products
+● Closely interact with Developers and Support around customer issues
+● Investigate software issues that arise as a result of testing
+● Develop automation infrastructure for systems that operate at a scale amongst the highest in the world
+● Gain in-depth experience working with Docker
+● This is a challenging position that requires the development of testing tools that will ensure a resistance system that can scale up to high loads.
+Requirements
+● 5+ years of experience with automation development in object-oriented programming languages (Java and Python)
+● Understanding: in Java script testing (selenium), load testing (Blazemiter)
+● Experience with Docker
+● Bug detection abilities and ability to perform root cause detection analysis
+● Experience with CI/CD tools like Jenkins, Shippable, TravisCI, or similar
+● Experience with writing automation tests and frameworks for applications in Linux/ Unix environments.
+For AQA Java we need someone that work on a large scale systems, used Jmeter and has computer science degree (must have).
+
+QA
+QA Automation
+from Upper-Intermediate
+Considering with Pre-Intermediate
+Only from 5 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Domain: SaaS
+Product

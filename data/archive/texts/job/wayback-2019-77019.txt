@@ -1,0 +1,36 @@
+Python developer (middle/senior)
+Alnicko Development
+
+Для участия в проектах по разработке продуктов электроники ищем в команду (Dnipro) Python разработчиков разного уровня (middle/senior). Необходимо знание Linux, врожденная любовь к конструированию "hardware", коммуникабельность и знание англ. языка.
+As a member of Alnicko Development’s team, you’ll do the following:
+• Develop multiprocessing, subprocessing, threading modules,
+• Code, debug using of HTTP/S, Websockets, MQTT,
+• Perform unit and integration testing, logging,
+• Using of Git workflow,
+• Programming solutions for Linux (good knowledge).
+Будет плюсом:
+• GUI knowledge,
+• Experience using of cloud technologies such as Amazon Web Services (AWS), Google Cloud etc.,
+• Experience using of low-level interfaces such as UART, SPI, I2C, USB,
+• TDD.
+Предлагаем:
+Приглашаем всех, кому интересна разработка завершенных продуктов и есть желание сменить профиль деятельности. Мы разрабатываем портативные и носимые устройства, IoT беспроводную электронику, видеокамеры, промышленную технику.
+Что отличает команду Alnicko Development от других:
+• Участие в разработке прорывных продуктов для рынков ЕС и США,
+• Преимущественно молодой, но профессиональный коллектив инженеров,
+• Хорошо организованный процесс и командная работа,
+• Комфортный офис в центре города.
+Обязанности:
+Python developer (Linux based solutions)
+About Alnicko Development
+Alnicko Development works with Customers from Israel, Europe, China, and engineers have a proven track records of successfully completed projects for clients from USA, Israel, Australia, New Zealand, Japan and France.
+Competitive pricing makes our services a cost-effective solution to any business.
+We ensure timely delivery of hardware products on a regular basis.
+Company website:
+[link]
+
+Python
+Dnipro
+Днепр
+3 years or more
+English Intermediate

@@ -1,0 +1,52 @@
+Strong Junior Python Scraping Developer
+Dataforest
+
+Dataforest is looking for a Python Scraping Developer to join our team and work on the Dropship project — a cutting-edge data intelligence platform for e-commerce analytics.
+Requirements:
+- 1+ year of commercial experience in high-load web scraping
+- Strong experience with Playwright or similar browser automation tools
+- Hands-on experience with requests and HTTP-based data extraction
+- Solid understanding of async programming and/or multithreading
+- Experience working with AWS infrastructure (Lambda, ECS)
+- Experience with databases and brokers: PostgreSQL, Redis, Kafka
+- Ability to design reliable, scalable scraping pipelines
+- Tiktok scraping experience
+Nice to Have:
+- Strong skills in logging, monitoring, and alerting for scripts and pipelines
+- Experience handling anti-bot protections, rate limits, and high-traffic environments
+- Understanding of data pipelines and integration with downstream systems
+Responsibilities:
+- Develop and maintain scalable scraping solutions for dropshipping use cases
+- Optimize performance and stability under high load
+- Implement proper logging, monitoring, and failure handling
+- Collaborate with backend and data teams to integrate scraped data into pipelines
+We offer:
+- Working in a fast-growing company;
+- Great networking opportunities with international clients, challenging tasks;
+- Personal and professional development opportunities;
+- Competitive salary fixed in USD;
+- Paid vacation and sick leaves;
+- Flexible work schedule;
+- Friendly working environment with minimal hierarchy;
+- Team building activities, corporate events.
+
+Необхідні навички
+Data Scraping, 1 year, Web Scrapping, 1 year, Playwright, 1 year, AWS, 1 year, PostgreSQL, 1 year
+
+Only from 1 year of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+Data Scraping
+1 year
+Web Scrapping
+1 year
+Playwright
+1 year
++ 3 more
+Employment: Fulltime
+Domain: Machine Learning / Big Data
+Outsource

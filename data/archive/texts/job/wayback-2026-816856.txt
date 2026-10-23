@@ -1,0 +1,42 @@
+Middle/Middle+ Python Developer
+IvorySoft
+
+IvorySoft is a people-first software engineering and IT consulting company. We provide complex technological solutions for startups and businesses from the USA, UK, Nordic countries, and Canada.
+To meet our ambitious goals, we are looking for a Middle Python Developer to join the growing team that helps to create clean energy solar and storage solutions for all.
+🎯ABOUT THE PROJECT:
+The customer is a leading US-based company specializing in large-scale clean electrification solutions for commercial, industrial, public sector, and community solar customers. Their comprehensive services encompass every stage of the process. From inception to operation, the company handles the origination, development, ownership, and operation of solar generation, energy storage, and electric vehicle charging infrastructure at local sites throughout the country.
+❗️The project is under NDA ❗️
+(details will be provided during a final call with the customer's team)
+RESPONSIBILITIES:
+👨‍💻Design, develop, and maintain complex software solutions using Python.
+👨‍💻Write clean, scalable, and maintainable code.
+👨‍💻Collaborate with cross-functional teams to define, design, and ship new features.
+👨‍💻Perform code reviews and ensure adherence to coding standards.
+👨‍💻Stay up-to-date with the latest technology trends and best practices.
+REQUIREMENTS:
+💻 3+ of experience in Python development.
+💻Strong knowledge of Python, Chalice/FastApi
+💻Experience with database design and management.
+💻Excellent problem-solving and analytical skills.
+💻Strong communication skills and the ability to work in a team environment.
+💻 Experience with github/ github Actions;
+💻 Good to have (not a strong requirement): Graphql; Cloudformation; AWS Lambda; AWS Cognito.
+💻Experience with Agile methodologies is a plus.
+
+Необхідні навички
+FastAPI, 3 years, Python, 4 years
+
+Only from 4 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+FastAPI
+3 years
+Python
+4 years
+Employment: Fulltime
+Domain: SaaS
+Outstaff

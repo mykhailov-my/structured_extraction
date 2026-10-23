@@ -1,0 +1,23 @@
+{
+  "doc_id": "wayback-2021-181645",
+  "url": "https://djinni.co/jobs/181645-python-backend-engineer/",
+  "snapshot": "https://web.archive.org/web/20210127224922/https://djinni.co/jobs/181645-python-backend-engineer/",
+  "captured_at": "2021-01-27T22:49:22",
+  "posted": null,
+  "year": 2021,
+  "active": false,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:11+00:00",
+  "title": "Python backend engineer",
+  "company": "Webdevelop",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Remote",
+    "2 years of experience",
+    "English Intermediate"
+  ],
+  "description": "Мы разрабатываем онлайн решение для генерации автоматический ответов с использованием нейронных сетей. (кому интересно мы работаем в партнерсте с open-ai и используем gtp3). На данный мы занимаемся разработкой user dashboard, подключение платежных систем и тп.\nТребования к вам:\n- Разработка бизнес решений, те нужно будет понимать бизнес процессы и предлагать технические решения исходя из требований бизнеса\n- Разработка restfull решений на базе python и aiohttp\n- Поддержка фукнционала для django-admin\n- Разработка unit testов\nНеобходимые навыки\n— python, python 3, на достаточно хорошем уровне\n— django (мы держим один микросервис для админки на джанго)\n— restful api, microservices, unit tests\n— tdd\n— linux/docker\nЗнания golang И GCP будут плюсом\nAbout Webdevelop\nHi! We are a motivated team of developers who enjoy their work. We are remote - part of us is located in the USA, part in Ukraine and one guy is from Russia. We tried to fire him but he made a comeback.\nFrom the technical perspective, we try to be upstream but we are not using technology in production till we don't get enough understanding of that technology.\nOne in a year we getting all together in Kyiv to drink some beer, to have fun and to exchange knowledge and new skills\nCompany website:\n[link]\nDOU company page:\n[link]"
+}

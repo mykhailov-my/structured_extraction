@@ -1,0 +1,38 @@
+Python Node.js Fullstack Developer
+Luxoft
+
+One of the biggest UK rail network companies operating with rail infrastructure and asset management has a need to develop and support enterprise-level information systems.
+Align the data science initiatives with the overall business goals. This could range from improving customer satisfaction, enhancing operational efficiency, to driving sales growth.
+- Responsibilities:
+Software development
+Unit/integration testing
+Azure environment configuration
+Customer communications
+- Mandatory Skills Description:
+3+ years of experience
+Azure App service implementation and deployment.
+Fastapi and asyncio (asynchronous programming)
+Auth (OAuth, JWT, Microsoft authentication flow).
+Docs (OpenAPI, Swagger).
+SQL Alchemy or alternative DB integration libraries.
+Python, Pytest
+JS, Node
+SQL
+GIT and collaborative workflows
+Bash, shell scripting.
+- Nice-to-Have Skills Description:
+Azure Container Management (docker, container registries, CI/CD to app services).
+CI/CD approaches
+Security across Azure (key vault, app service configuration, auth).
+Virtual Machine deployment
+Familiarity with storage accounts and their components
+
+Only from 3 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Python
+Employment: Fulltime
+Domain: Other
+Outsource

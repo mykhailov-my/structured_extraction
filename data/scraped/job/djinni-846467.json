@@ -1,0 +1,31 @@
+{
+  "doc_id": "djinni-846467",
+  "url": "https://djinni.co/jobs/846467-senior-backend-developer-python-docker/",
+  "category": "Python",
+  "published": "Thu, 22 Oct 2026 16:00:49 +0300",
+  "collected_at": "2026-10-22T16:52:01+00:00",
+  "title": "Senior Backend Developer (Python/Docker)",
+  "company": "Luxoft",
+  "salary": "",
+  "skills": [
+    "Python",
+    "Docker",
+    "MongoDB",
+    "REST API"
+  ],
+  "languages": [
+    "Англійська: B2 – Вище середнього"
+  ],
+  "facts": [
+    "Виключно від 5 років досвіду",
+    "Тільки віддалено",
+    "Україна",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська B2 – Вище середнього",
+    "Python",
+    "Зайнятість: Fulltime",
+    "Домен: Healthcare / MedTech",
+    "Сервісна компанія"
+  ],
+  "description": "- We're seeking a strong and creative Software Developer eager to solve problems of scale and work on cutting edge and open-source technologies. In this project, you will have the opportunity to write code that will impact thousands of users every month. You'll implement your critical thinking and technical skills to develop cutting edge software, and you'll have the opportunity to interact with teams across disciplines.\nIn Luxoft, our culture is one that strives on solving difficult problems focusing on product engineering based on hypothesis testing to empower people to come up with ideas. Great Place to Work Institute certifies us as one of the Top 10 companies to work for in Mexico and other geographies, and we do it with a truly flexible environment, high impact projects in Agile environments, a culture focused on results, training and strong support to grow your career.\n- Responsibilities:\n- Work closely with other engineers, designers, and management teams to rapidly build, iterate, test, and deploy new features and products and main a high-quality robust codebase\n- Improve and scale the existing products and tools\n- Launch new projects from ideation to completion\n- Actively support your team's deployed software\n- Drive the development team towards the goal by integrating skills and experiences.\n- design integration with 3rd parties (Python AWS interoperability role)\n- work with Auths (Authorizations) process - connect to many different systems interoperability via healthcare data / companies / health systems / EMR\n- Work with QA, product management, and operations in an Agile environment.\n- Develop and support data-driven product decisions in a high energy high-impact team.\n- Participate in the resolution of production issues and lead efforts toward solutions.\n- To maintain legacy applications and participate in the migration to newer technology in the mid-term if needed.\n- Collaborate and drive research to find the solution to system bugs and issues.\n- Mandatory Skills Description:\n- 5+ years of professional software development experience\n- Strong understanding of Computer Science fundamentals in data structures, algorithms, and design patterns\n- Advanced proficiency in Python 3.12+ as software or data engineering\n- MongoDB, ideally with Beanie ODM (async) for persistence layer\n- OAuth/OIDC + JWT — auth via Keycloak and Descope; backend is provider-agnostic, works off JWT claims\n- Docker / docker-compose — everything runs in containers\n- Mastery of API design (REST), FastAPI (async)\n- Comprehensive grasp of databases (SQL/NoSQL)\n- Expertise in cloud services\n- Experience with Event-Driven Microservices Identity management/OAuth\n- Experience with observability, tracing, and other cloud-native patterns\n- Nice-to-Have Skills Description:\n- Healthcare interoperability resources (FHIR) R4, SMART Health Links/Cards (SHL/SHC)\n- JWE decryption\n- Testing discipline: pytest + Cucumber/Playwright E2E\n- QR/image decoding (pyzbar/zbar)\n- storage connector integration (Google Drive, OneDrive, Box, SMTP, FHIR servers)\n- Observability: OpenTelemetry, Prometheus\n- infrastructure: Apache Kafka, AWS Secrets Manager\n- Languages:- English: B2 Upper Intermediate"
+}

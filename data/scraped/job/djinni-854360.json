@@ -1,0 +1,35 @@
+{
+  "doc_id": "djinni-854360",
+  "url": "https://djinni.co/jobs/854360-python-backend-engineer/",
+  "category": "Python",
+  "published": "Wed, 21 Oct 2026 10:38:23 +0300",
+  "collected_at": "2026-10-22T16:52:25+00:00",
+  "title": "Python Backend Engineer",
+  "company": "CML Team",
+  "salary": "",
+  "skills": [
+    "PostgreSQL",
+    "Docker",
+    "Git",
+    "Django",
+    "FastAPI",
+    "REST API",
+    "SQL початковий рівень",
+    "Redis"
+  ],
+  "languages": [
+    "Англійська: B2 – Вище середнього"
+  ],
+  "facts": [
+    "Виключно від 3 років досвіду",
+    "Тільки віддалено",
+    "Країни Європи та Україна",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська B2 – Вище середнього",
+    "Python",
+    "Зайнятість: Fulltime",
+    "Домен: Other",
+    "Змішана (сервісно-продуктова)"
+  ],
+  "description": "We're seeking a talented Python Backend Developer to build reliable backend services for data-heavy SaaS platforms, integrations, and AI-powered products for clients in the US and Europe. If you enjoy owning backend features from data model to production, we'd love to hear from you!\nCore Competence:\n- At least 3 years of professional experience in backend development, with strong Python skills and hands-on experience building production applications.\n- Strong experience with FastAPI and asynchronous programming; experience with Django or Flask is also relevant.\n- Solid knowledge of PostgreSQL, including database design, indexing, migrations, and query optimization.\n- Experience building REST APIs and background jobs for production applications.\n- Proficiency with Docker, CI/CD, and at least one major cloud platform such as AWS, GCP, or Azure.\n- Experience writing automated tests with pytest and following production-quality development practices.\nPreferred Qualifications:\n- Experience working with LLM APIs, RAG features, or AI-powered applications.\n- Knowledge of Celery, Redis, or other queue and background-processing systems.\n- Experience with Supabase, multi-tenant SaaS platforms, or role-based access control.\n- Experience integrating third-party APIs such as Stripe, HubSpot, Google, or Twilio.\n- Upper-intermediate level of English for clear and effective communication in a global team.\nWhat We Offer You:\n- Competitive compensation aligned with your skills, experience, and career ambitions.\n- An innovative work environment with opportunities to build modern SaaS and AI-powered products and continuously develop your backend expertise.\n- Direct communication with clients from the US and Europe and the opportunity to contribute to technical decisions.\n- Long-term cooperation with opportunities to move between projects and continue growing with the team."
+}

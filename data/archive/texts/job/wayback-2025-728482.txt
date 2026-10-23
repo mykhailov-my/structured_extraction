@@ -1,0 +1,63 @@
+Senior Python Cloud Engineer (IRC261179)
+GlobalLogic
+
+The Digital Health organization is technology team which focused on next generation Digital Health capabilities which deliver on the Medicine mission and vision to deliver Insight Driven Care. This role will operate within the Digital Health Applications & Interoperability subgroup of the broader Digital Health team, focused on patient engagement, care coordination, AI, healthcare analytics & interoperability amongst other advanced technologies which enhance our product portfolio with new services, while improving clinical & patient experiences.
+Authorization and Authentication platform & services for Digital Health
+Secure cloud platform for storing and managing medical images (DICOM compliant). Leverages AWS for cost-effective storage and access, integrates with existing systems (EHR, PACS), and offers a customizable user interface
+Job Description
+Top priority:
+1. Python
+2. HealthCare Interoperability Tools: Previous experience with integration engines such as Intersystems
+- Secondary: Epic, Cerner, Lyniate, Redox, Mirth Connect, etc…
+3. EHR / EMR
+4. AWS
+5. Terraform
+• Terraform
+• AWS Platform: Working experience with AWS services - in particular serverless architectures (S3, RDS, Lambda, IAM, API Gateway, etc…) supporting API development in a microservices architecture
+• Programming Languages: Python (strong programming skills)
+• Data Formats: Experience with JSON, XML and other relevant data formats
+• CI/CD Tools: experience setting up and managing CI/CD pipelines using GitLab CI, Jenkins, or similar tools
+• Scripting and automation: experience in scripting language such as Python, PowerShell, etc…
+• Monitoring and Logging: Familiarity with monitoring & logging tools like CloudWatch, ELK, Dynatrace, Prometheus, etc…
+• Source Code Management: Expertise with git commands and associated VCS (Gitlab, Github, Gitea or similar)
+NICE TO HAVE
+• Strongly Preferred: Infrastructure as Code: Experience with Terraform and CloudFormation - Proven ability to write and manage Infrastructure as Code (IaC)
+• Documentation: Experience with markdown and in particular Antora for creating technical documentation
+• Experience working with Healthcare Data, including HL7v2, FHIR and DICOM
+• FHIR and/or HL7 Certifications
+• Building software classified as Software as a Medical Device (SaMD)
+• Understanding of EHR technologies such as EPIC, Cerner, etc…
+• Experience implementation enterprise grade cyber security & privacy by design into software products
+• Experience working in Digital Health software
+• Experience developing global applications
+• Strong understanding of SDLC – Waterfall & Agile methodologies
+• Software estimation
+• Experience leading software development teams onshore and offshore
+Job Responsibilities
+• Develops, documents, and configures systems specifications that conform to defined architecture standards, address business requirements, and processes in the cloud development & engineering.
+• Involved in planning of system and development deployment as well as responsible for meeting compliance and security standards.
+• API development using AWS services
+• Experience with Infrastructure as Code (IaC)
+• Actively identifies system functionality or performance deficiencies, executes changes to existing systems, and tests functionality of the system to correct deficiencies and maintain more effective data handling, data integrity, conversion, input/output requirements, and storage.
+• May document testing and maintenance of system updates, modifications, and configurations.
+• May act as a liaison with key technology vendor technologists or other business functions.
+• Function Specific: Strategically design technology solutions that meets the needs and goals of the company and its customers/users.
+• Leverages platform process expertise to assess if existing standard platform functionality will solve a business problem or customization solution would be required.
+• Test the quality of a product and its ability to perform a task or solve a problems.
+• Perform basic maintenance and performance optimization procedures in each of the primary operating systems.
+• Ability to document detailed technical system specifications based on business system requirements
+• Ensures system implementation compliance with global & local regulatory and security standards (i.e. HIPAA, SOCII, ISO27001, etc…)
+
+Only from Upper-Intermediate
+from 5 years of experience
+Considering with 4 years of experience
+Office or Remote
+Ukraine
+Countries where we consider candidates
+Data Engineer
+Python, AWS, HL7, InterSystem
+Domain: Healthcare / MedTech
+Outsource
+Office:
+Ukraine
+(Lviv)

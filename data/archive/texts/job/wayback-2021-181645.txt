@@ -1,0 +1,29 @@
+Python backend engineer
+Webdevelop
+
+Мы разрабатываем онлайн решение для генерации автоматический ответов с использованием нейронных сетей. (кому интересно мы работаем в партнерсте с open-ai и используем gtp3). На данный мы занимаемся разработкой user dashboard, подключение платежных систем и тп.
+Требования к вам:
+- Разработка бизнес решений, те нужно будет понимать бизнес процессы и предлагать технические решения исходя из требований бизнеса
+- Разработка restfull решений на базе python и aiohttp
+- Поддержка фукнционала для django-admin
+- Разработка unit testов
+Необходимые навыки
+— python, python 3, на достаточно хорошем уровне
+— django (мы держим один микросервис для админки на джанго)
+— restful api, microservices, unit tests
+— tdd
+— linux/docker
+Знания golang И GCP будут плюсом
+About Webdevelop
+Hi! We are a motivated team of developers who enjoy their work. We are remote - part of us is located in the USA, part in Ukraine and one guy is from Russia. We tried to fire him but he made a comeback.
+From the technical perspective, we try to be upstream but we are not using technology in production till we don't get enough understanding of that technology.
+One in a year we getting all together in Kyiv to drink some beer, to have fun and to exchange knowledge and new skills
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Remote
+2 years of experience
+English Intermediate

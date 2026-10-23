@@ -1,0 +1,38 @@
+DevOps Engineer with Python
+Luxoft
+
+Project Description:
+One of the world's largest providers of products and services to the energy industry has a need to develop and support cloud-based enterprise information system in Oil & Gas domain.
+Our project is stable, long-term and constantly adopts new technologies.
+We are developing a custom system for managing events and notifying all subscribers (services, VMs, etc.) for cloud platforms.
+Work supposes close cooperation with Customer team located in Houston and following Agile principles.
+Our team is senior, supportive and friendly.
+Responsibilities:
+Writing Python/PowerSheell/Shell Agents (scripts) to process events
+Building and deploying infrastructure using tools such as GitLab CI/CD, Terraform, Ansible, Docker, K8s
+Support and creation of new Microservices for the needs of the system
+Mandatory Skills Description:
+2+ years of experience
+Experience with Python, experience with any shell scripting language, hands on working knowledge around standard AWS and Azure services, such has EC2, S3/Azure Storage, Lambda/Azure functions
+Linux and Windows administration
+Nice-to-Have Skills:
+Understanding of Cloud Security in AWS/Azure specifically IAM Roles & Polices, GIT Lab CI/CD, Terraform, Ansible.
+Understanding of container orchestration technologies (eg. Docker, Kubernetes).
+Understanding of working with and developing RESTful APIs and microservices
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+DevOps
+Category: DevOps
+Python
+English: Upper-Intermediate
+2 years of experience
+Office or Remote
+Outsource
+Ukraine
+Only candidates from Ukraine

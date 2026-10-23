@@ -1,0 +1,48 @@
+Python Developer
+Vimmi Communications
+
+Job Description:
+As the Senior Python Backend Developer, you will be responsible for designing, implementing, and maintaining a high-load microservices architecture with a focus on reliability, scalability, and exceptional code quality. You will work closely with cross-functional teams to ensure seamless integration and high availability, handling millions of transactions while maintaining robust system performance.
+This role demands expertise in managing complex backend systems, optimizing performance under heavy load, and ensuring that the technical solutions align with high standards of quality and reliability.
+Requirements:
+- 6+ years of Experience in Python backend development, particularly with high-load systems and scalable microservices;Strong expertise in microservices architecture and technical patterns, with a focus on observability, logging (especially ELK stack), and proactive quality monitoring;
+- Proficiency with one or more frameworks such as FastAPI, Tornado, AIOHTTP;
+- Experience with AI-tool for accelerating software engineering (Compilot, AWS Q for Dev);
+- Practical experience in developing AI agents, including orchestration, tool calling, memory, and workflow automation;
+- Hands-on experience with Amazon Bedrock, AWS AgentCore, and LLM orchestration frameworks such as LangChain;
+- Advanced experience with relational and NoSQL databases (e.g., Postgres, MongoDB) and ORMs;
+- Hands-on experience with event-driven architectures and message brokers, especially Apache Kafka (topics/partitions, consumer groups, delivery semantics, schema evolution);
+- Hands-on experience with AWS services and Python SDK (boto3), especially S3 and SQS,
+- Practical experience with Redis (caching);
+- Solid experience deploying containerized applications on Kubernetes and Docker;
+- Deep understanding of the SDLC, CI/CD processes, and maintaining high code quality;
+- Familiarity with Linux systems, command-line operations and troubleshooting solution;
+- Proactive, goal and result oriented, open-minded, systematic thinker, and strong communication skills.
+Key Responsibilities:
+- Architect, develop, and optimize high-load backend services and RESTful APIs, emphasizing performance and scalability;
+- Implement and maintain a robust microservices architecture that ensures high availability and efficient resource management under demanding loads;
+- Drive quality standards through comprehensive observability and logging (especially with the ELK stack), proactive monitoring, and high-level troubleshooting;
+- Collaborate with DevOps to manage containerized deployments on Kubernetes and Docker, ensuring seamless integration and smooth operation;
+- Leverage frameworks such as FastAPI, Tornado, AIOHTTP, to build efficient, high-performing applications.
+- Optimize relational (Postgres) and NoSQL (MongoDB) databases, utilizing ORMs for structured data handling and efficient retrieval;
+- Establish best practices in code quality, implementing CI/CD pipelines, unit testing, and adhering to the full SDLC;
+- Work closely with other developers to maintain coding standards, provide mentorship, and drive continuous improvement in performance and quality;
+- Design, build, and operate AI-driven services and intelligent agents using Amazon Bedrock, AWS AgentCore, and LangChain, integrating LLMs into production-grade backend systems.
+What we offer:
+- Career planning, regular performance review;
+- Paid leave days;
+- Free medical insurance;
+- Sports reimbursement according to Company HR Policies;
+- English lessons, speaking club;
+- The company provides support in the maintenance of all documentation for private entrepreneurs.
+
+Only from 6 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+Employment: Fulltime
+Domain: Other
+Product

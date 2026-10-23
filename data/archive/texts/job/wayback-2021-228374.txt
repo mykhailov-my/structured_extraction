@@ -1,0 +1,28 @@
+Python developer
+Zaly
+
+Small team, high quality code, solid product, long term, interesting roadmap (Analytics, ML)
+We are looking for an experienced Python engineer who is proficient with Python, Postgres, SQL. A commitment to collaborative problem solving, sophisticated design, and quality products are important.
+Responsibilities:
+Developing new application features
+Design multi-user resource efficient solutions
+Building reusable components for future use
+Optimizing services for maximum performance
+Technical skills:
+Strong proficiency in Python
+Strong experience in working with databases (PostgreSQL) and SQL language
+Experience in using a Web framework (Django, Pyramid) is a strong plus
+Experience in implementing Reporting and Analytics is a strong plus
+Ability to understand business requirements and translate them into technical requirements
+Experience in speech analysis is a plus (not required)
+Non-technical skills:
+Team player
+Excellent time-management skills
+Great interpersonal and communication skills
+About Zaly
+A small but happy California corporation.
+
+Python
+Remote
+remote
+3 years of experience

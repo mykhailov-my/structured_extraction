@@ -1,0 +1,80 @@
+Middle Automation Engineer (Python)
+Forte Group
+
+Forte Group is looking for a Middle Automation Engineer to join the leading provider of digital health technologies that develops novel medical device solutions for the world’s major medical device organizations, start-ups, and entrepreneurial clinicians.
+As a Middle SDET/Automation Engineer you will be a part of an agile team where your role will be in developing a core automation framework and implementing automated tests that verify the E2E functionality of a mobile application and Bluetooth wearable devices.
+As part of our automated test practices, we introduce several quality gates, such as Smoke, Regression, Performance, API-level, and Functional test suites in multiple product areas.
+Technologies/Tools
+● Language: Python
+● Automation Frameworks: Appium, PyTest
+● CI/CD: Jenkins, GitLab
+● Tools: Jira, TestRail, Confluence
+● Platforms: Mobile App
+Qualifications and Skills
+● Experience with test automation for native mobile application
+● Proven ability to develop maintainable, high-quality automated test scripts in Python
+● Experience producing key test assets (requirements gathering, test cases, test plans, test reports)
+● Experience with software testing (Functional, Integration, Regression, Smoke, UAT)
+● Experience with testing APIs and Back-End Services
+● Familiar with CI/CD and source control systems such as Git/GitHub/GitLab
+Responsibility
+● Develop automated test scenarios and test suites
+● Provide clear reporting over the execution of the automated tests
+● Review and approve PRs, provide feedback on code improvements
+● Writing and maintenance of test cases
+● Validation of new functionality
+● Contribute to continuous improvement of the product testing strategy
+Personal qualities
+● Intermediate English or better
+● Good verbal and written communication skills
+● Curiosity to learn environmental systems to be able to locate issues more precisely
+● Ability to deal with ambiguity and focus on problem-solving
+We offer
+● Experience working with colleagues locally and abroad
+● Opportunities for self-realization
+● Friendly team and enjoyable working environment
+● Engineering, corporate and social events
+● Social package: professional & soft skills trainings, medical & family care programs, sports
+● Free English classes
+About Forte Group Inc.
+Who we are?:
+An IT consulting and software delivery company
+Forte Group is a global full-spectrum software development company delivering outstanding digital solutions. We are a network of more than 500 innovators, product leaders, engineers, and professionals spanning three continents with global offices.
+Back in 2000, we were a tiny company focused on QA. Throughout the years, we’ve grown into a full-spectrum custom software delivery partner with top-tier customers. Today, Forte Group has over 580 employees working out of eight offices in the United States, Colombia, Ukraine, Belarus, and Poland, including 55 employees in Kyiv and 120 in Ternopil.
+Our clients: DocuSign, Relativity, Sphera, Tinder, Insureon, GPShopper, Follett, SwiftIQ, Lawyer Exchange, and more
+Over the years, we’ve cooperated with more than 300 clients globally, and we’ve developed great software that’s been used by more than nine million people ‒ that’s equivalent to the population of London or even Switzerland!
+What we do?:
+Coding, engineering, and rock ‘n’ roll
+Forte Group provides full lifecycle software development services ‒ from architecture and UI design to development to maintenance. We help mid-market and large enterprises extend the capabilities of their existing software products and systems, build products from scratch, and augment software engineering teams to accelerate and enhance delivery.
+Our team consists of like-minded professionals ready for a tech challenge. You name it, we’ve probably already done it. Our portfolio features projects for clients in the banking, financial services, healthcare, IoT, life sciences, logistics, manufacturing, supply chain, media and entertainment, and retail industries. To add value and achieve solution scalability, we use Agile methodology.
+Our technology focus:
+.NET, Java, JavaScript (React.js, Node.js, and Knockout.js), Oracle, Hybris, Salesforce, PHP, QA/QC, SDET, Mobile Development (iOS and Android), and Talent Management.
+What’s in it for you?
+We encourage life-long learning and welcome employee initiatives. We support non-profit IT organizations, technology hubs, and community events to raise awareness, create new job opportunities, and discover talent. We have been Ternopil IT Cluster residents since 2016.
+We offer:
+●Experience working with multicultural distributed teams
+●Opportunities for self-realization while working on challenging projects using new technologies and tools
+●A friendly and enjoyable working environment with a fully equipped workplace
+●Social, corporate, and knowledge-sharing events
+●Possibilities for career development and professional growth
+●A measurable personal development plan (PDP)
+●Extended health insurance plans
+●Various sports activities and gym membership coverage
+●Five fully-paid sick days a year
+●Flexible WFH and WFO options
+●External training compensation and in-office English classes
+●Individual and group sessions with a psychologist
+●Corporate and team-building events
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA Automation
+Kyiv
+Kyiv, Kharkiv, Lviv, Dnipro, Odesa, Vinnitsia, Ivano-Frankivsk
+Office/Remote of your choice
+Outsource
+2 years of experience
+English Intermediate
+Ukraine only candidates 🇺🇦

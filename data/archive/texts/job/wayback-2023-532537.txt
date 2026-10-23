@@ -1,0 +1,48 @@
+Middle Python/Django Developer in product company
+Graintrack
+
+GrainTrack is a SaaS CTRM for managing grain trading companies.
+What we expect from you:
+General:
+- Experience in developing enterprise-level client (web) server applications
+- Design patterns, writing SOLID-supported code
+- Understanding of CI/CD features (stateless, 12 Factor App, Docker)
+- Continuous self-development
+- Self-organization, responsibility for the result (product specifics)
+Django (DRF):
+- Python, practices, tools
+- Django ORM experience (architecture, performance)
+- Modularity, principles of distribution of responsibility (RESTful API)
+- Work with database, migrations
+- PostgreSQL, writing/supporting complex queries, procedures/views testing, the ability to write testable code and tests
+What you will do:
+- Work on your product, which is used every day by customers from all over the world in combat mode
+- Development of new product features and integrations with other systems
+- Participation in architectural and product sessions
+- Development with the code prepared for automated unit testing and test coverage
+- Search and implementation of new technologies and best practices, mini projects
+We provide:
+- Ability to work remotely
+- Convenient work schedule with an understanding of when you need to get sick or take a vacation
+- Relevant salary
+- Developing yourself and your skills, learning new things
+- A team that works as one and moves in a clear direction
+About Graintrack
+GrainTrack is a SaaS CTRM for managing a grain trading companies
+- Product company operating since 2015
+- Clients in and outside of Ukraine
+- We are located in the center of Kyiv
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+Python , Python / Django , PostgreSQL , SaaS
+3 years of experience
+Domain: Fintech
+Office/Remote of your choice
+Product
+Ukraine
+Only candidates from Europe and Ukraine

@@ -1,0 +1,71 @@
+QA Automation Engineer (Python, Build and Own) — Middle to Senior
+RealAd
+to $4500
+
+About the Company
+We're a European product company building automation for enterprise clients in regulated industries. Our systems process thousands of business transactions daily through web portals — correctness and reliability aren't aspirational, they're the product. A single wrong number in production isn't a failed test, it's a real-world operational impact on our clients.
+The company is established and intentionally lean — experienced engineers, tight processes, zero bureaucracy. Leadership is hands-on — people who write code, debug production, and review PRs alongside the team, not just write requirements. Decisions happen in hours, ownership is real, and AI tools are part of our daily workflow — not an experiment. Our clients are in Italy, Germany, and the UK. You'll join an experienced team, remote-first.
+Your Mission
+Build and own automated workflows that interact with enterprise web platforms. You're both the builder and the quality guardian: you write the automation, verify it actually works correctly on real data, monitor production, and fix issues when they surface. This isn't "write tests for someone else's code" — it's "own the automation end to end."
+What You'll Do
+Core automation
+- Build Python workflows that drive enterprise web portals (Playwright)
+- Design error handling, retry logic, and exception flows — the portal will be down sometimes, and the automation needs to handle it
+- Process transactions end-to-end through forms, validations, and confirmations
+Quality & monitoring
+- Verify outputs — build validation scripts, cross-check against source data, ensure accuracy
+- Instrument for observability — logging, dashboards, success-rate tracking
+- Investigate anomalies proactively, not reactively
+Collaboration
+- Active participation in team ceremonies — daily and weekly syncs, planning, retros. Video on, present, engaged.
+- Real-time communication on Slack during working hours — fast responses, not "I'll reply tomorrow"
+- Proactive status updates — flag risks and delays within hours, not days
+- Clear written English for PRs, issue descriptions, and documentation
+What We're Looking For
+Must-have
+- Python, 2+ years of production experience
+- Browser automation — Playwright, Selenium, Cypress, or similar in real projects
+- Quality-first mindset — "Does it actually work correctly?" is your default question
+- Production-aware — you check whether your code works in prod, not just on your machine
+- Active AI coding tool usage with the habit of verifying AI output, not rubber-stamping it
+- High-quality communication — you stay online, responsive, and engaged during working hours. If you prefer a low-communication, head-down-for-days style, this team won't feel right.
+- Written English (B1+) — PRs, issues, docs
+- Ukrainian FOP contractor — or able to register before start; we hire directly, not via EOR or staffing
+- Overlapping CET business hours — active participation in team ceremonies with video on
+Strong plus
+- Experience transitioning from QA automation to development, or a combined QA+dev role
+- AWS basics (ECS, S3, CloudWatch)
+- Docker
+- SQL (PostgreSQL) for data verification
+- Workflow orchestration (Prefect, Airflow, Celery, or similar)
+What We Offer
+- Remote-first — work from anywhere in Ukraine or EU
+- AI-native environment — we provide licenses for Claude Code, Cursor, or equivalent
+- Level-based compensation — $2,200-4,500 net/mo, positioned at Middle, Senior, or Lead based on demonstrated depth. Structured review after probation.
+- Direct impact — your work protects real client operations in production
+- Lean team — no bureaucracy, decisions happen in hours, your contribution is visible
+- Stack: Python, Playwright, AWS, PostgreSQL, Docker, CI/CD
+Why This Role
+You'll work directly with engineering leadership that stays in the code — writing automation, debugging production, and reviewing PRs with you. No layer between who decides and who builds, no HR filter between you and product decisions. The role has ~60% production maintenance (debugging broken selectors, fixing overnight failures, investigating data anomalies) and ~40% building new automation workflows. If you want pure greenfield coding all day, this isn't it. If you want ownership of something real in production, it is.
+We hire at Middle, Senior, or Lead — we don't pre-define your level. The interview decides based on demonstrated technical depth and ownership. Compensation scales accordingly within the $2,200-4,500 net band. A structured review after probation adjusts level and pay based on actual performance.
+A Note on the Hire
+This posting is sourced through RealAd. The role itself is a direct hire into an established European product company — a permanent seat in an experienced engineering team working on the company's own automation platform. Not agency, not outstaffing, not contract consulting. The employer's name is disclosed at the first interview, once mutual interest is confirmed.
+Interview Process
+We respect your time. Our process is:
+- Application review (≤24h) — we read your profile and cover message. Strong fits get a short behavioral form (12–15 min) to explore work style, ownership, and past experience.
+- Two interviews (30–45 min each) — first with the CTO: technical scenarios, ownership, AI demo, your questions. Second with our tech lead: implementation details and team fit.
+- Feedback within 48 hours after each stage — pass, decline, or move-forward update. Final offers follow within 5 business days of the last shortlisted interview.
+You'll know where you stand at every stage, in writing.
+
+from 2 years of experience
+Considering with 1 year of experience
+$2200-4500
+Considering up to $5000
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B1 - Intermediate
+QA Automation
+Employment: Fulltime
+Domain: SaaS
+Product

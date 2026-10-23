@@ -1,0 +1,34 @@
+Senior Python engineer
+SplitMetrics
+
+SplitMetrics is a product driven company where the quality of solutions and the speed of development have a direct impact on business and success.
+In this role you will:
+— Build scalable high load systems using Python.
+— Work with Big data. Adapt the product to work with a large amount of data (> 200-400 million records per day). Develop partitioning, sharding, moving to hypertables.
+— Recycle systems for receiving tracker events to keep the load 1-5k ops and more.
+— Transfer the product to Python 3.x and Kubernetes (in active phase).
+— Improve system reliability.
+— Design, build, deploy, monitor and maintain products.
+We’re looking for person who have:
+— Excellent knowledge of Python 5+ years.
+— Experience with Django, Django Rest Framework.
+— Experience with data storages like PostgreSQL, MongoDB, Redis.
+— Experience in building solutions based on micro-services and scaling such systems.
+— Experience with modern CI/CD approaches and tools.
+— Experience setting up and improving the development process.
+— Solid knowledge of standard web technology (HTTP, HTML5, client/server model, security principals).
+— Strong focus on business implications when making decisions on architecture.
+We offer a unique opportunity to join a growing Dev team and get exceptional experience in SaaS industry. We apply best practices and keep customers in focus at all times. All SplitMetrics team members strive to be high performers, problem solvers, and team players with passion, integrity and effectiveness. At the same time, we stay human and laugh at ourselves.
+We stand to attract exceptional people who have ‘’that extra something’’ and really enjoy what they do. Are you ready to jump onboard with us?
+About SplitMetrics
+It’s SplitMetrics, and we’re a team of 60 super talented and wonderful people. Each of us passionately contributes to 2 platforms we’re proud of – SearchAdsHQ and SplitMetrics. Our mission is to empower mobile marketers with an ecosystem of easy-to-use tools and powerful services for mobile growth.
+With SearchAdsHQ, you easily manage and optimize Apple Search Ads campaigns. With SplitMetrics, you run A/B tests to validate your ideas at the pre-launch stage or to optimize your App Store pages for the topmost conversion. The world’s largest mobile publishers like Rovio, ZiMAD, Yandex, my.com, and hundreds of other companies use SplitMetrics and SearchAdsHQ to conquer the App Store and Google Play.
+Company website:
+[link]
+
+Python
+Kyiv
+Kyiv, Minsk
+Office/Remote of your choice
+Product
+3 years of experience

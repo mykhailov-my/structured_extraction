@@ -1,0 +1,53 @@
+Strong Junior/Middle Python Engineer
+Fluvius
+
+Required Skills:
+- 2+ years of experience with Python;
+- Experience in projects related to video recordings or live streaming is required;
+- Experience with React.js will be a plus;
+- Experience with NLP will be a plus, but not required at all;
+- Normal technical and coding skills with a passion for system architecture;
+- Proactive, normal communication skills, and empathetic, team player;
+- Experience with AWS ecosystem is a plus;
+- Experience working with databases - MongoDB, Elastic search, Redis, etc.;
+- Upper Intermediate or higher English level.
+Responsibilities:
+- Integrating new features to the web application
+- Supporting platform and improving it, through customer requests
+- Efficient communication with all stakeholders in-time
+- Bugs fixing
+- Reporting
+- Having positive leader--subordinate relations with the team
+- Be curious and interested in self-development
+- Be happy and energetic
+Project description:
+All-in-one tool from recording to reporting. Meeting recorder, Auto Summary, Live coaching & Conversation Intelligence.
+A conversation intelligence software, designed specifically for sales professionals to effortlessly keep track of their calls and meetings. The app makes it easy to collect and manage customer data, identify and encourage best performing practices as well as keep everyone on the same page.
+What we offer:
+- Healthy workplace environment
+- Strong and friendly development team
+- Competitive reward
+- Compensation for education
+- Flexible schedule
+- 15 paid vacation days, 7 paid days-off
+About Fluvius
+Life Story
+“Fluvius started on October, 2015 by Georgiy Gres living in Austria that times. The growing of the company from nothing to 7 people in a team and 5 simultaneous projects was very amazing and ambitious way of development during all the following year.
+In less than 8 months after the start we moved to our first office as the organisational culture and operational communications of the team required this. We were happy. The business developed was good until we acceded 10 people and the management became hard. In the result and fortunately, our business was bankrupt on the eve of the new year and we were gaining fabulous experience from that! Based on this experience, knowledge of business administration and skills of programming, the great initial set of business processes in combination with agile organisational structure was developed.
+Thereby, Fluvius provides stunning level of services in web and mobile development nowadays, having 100% of satisfied clients mainly thanks to Anton Yakushin for the excellent quality of the code, as well as to Georgiy Gres for our strong business-processes and systems. Special thanks to all our partners and employees for solving hard problems, accepting of innovations and development for the better!
+Fluvius always stays at the source of success of its clients, since the Client is the core value. Moreover, we heavily strive to make successful the clients of our clients providing rather the complex interactive business support, than only the programming services.”
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kharkiv
+Category: Python
+Python , React.js , AWS
+English: Upper-Intermediate
+2 years of experience
+Full Remote
+Outstaff
+Ukraine (Kharkiv)
+Only candidates from Ukraine

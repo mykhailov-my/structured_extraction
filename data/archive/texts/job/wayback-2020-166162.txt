@@ -1,0 +1,44 @@
+Middle/Senior Python QT Developer
+Sigma Software
+
+We are looking for a Python Developer with the passion for working in a creative and challenging environment using QT5 Framework.
+We work with a studio that creates visual effects, character animation and film design. Their artists have worked on big-budget films and TV shows for years. We are on a mission to create a budgeting tool helping to quickly calculate visual effects costs for film-makers. To give you more details, the project goal is the creation of an application for quick budgeting and cost assessments of visual effects for future films. The platform will automatically generate detailed budget information for each shot with visual notes.
+We are in need for an independent Python Developer who will facilitate film makers' life by creating a budgeting tool for visual effects studio. Your experience with QT5 will contribute to this important mission of ours.
+If you would like to deliver the solution for the company creating outstanding visual effects, character animation, and design for big-budget films and TV shows, then you are welcome to join!
+Responsibilities
+Design separate components, modules, classes, etc.
+Code, debug, document, and maintain portions of software
+Perform unit testing
+Participate in peer design and code reviews
+Participate in estimation and planning sessions
+Provide assistance to test engineers
+Participate in conference calls and face-to-face meetings with the Customer
+Contribute to development of technical project documentation and user documentation
+Comply with the best engineering practices, technical standards, and quality criteria set forth on the project
+Report status and progress according to the project and Company demands
+Spot current deficiencies in the development process, adopted procedures and engineering practices, environment configurations, etc., and suggest improvements
+Escalate technical issues to the Architect, Team Lead, and Project Manager
+Improve your qualification within the area(s) of expertise at various training courses, seminars, and/or other educational organisations
+Requirements
+At least 5 years of experience developing software in production environment
+Solid experience with Python
+At least 2+ years of experience with QT5 and understanding of its core concepts
+Experience with Python bindings for QT5: QT for Python a.k.a. PySide2 or PyQT5
+Good understanding of software design concepts, principles and patterns: OOD, SOLID, IoC, GoF, Clean Architecture
+Experience with various software development tools, e.g. IDEs, Version Control, Issue Trackers, etc.
+Knowledge of Python web frameworks (Django, Flask) will be plus
+At least Intermediate level of English
+About Sigma Software
+Sigma Software предоставляет высококачественные ИТ услуги для клиентов в таких сферах, как электронный бизнес, документооборот, телекоммуникации, военная отрасль, авиационно-космическая промышленность, банковское дело, финансы и недвижимость, а также в сфере туризма, индустрии развлечений и разработки игр.
+Три основных направления бизнеса компании — разработка и поддержка программного обеспечения, разработка программного обеспечения на заказ, в том числе разработка решений под мобильные устройства, ИТ консалтинг в различных сферах, в частности в сфере электронного бизнеса, документооборота и работы с проблемной задолженностью.
+Свои услуги мы предоставляем в основном для компаний, расположенных в Западной Европе и США. Офисы в Харькове и Одессе работают с 2005 года. В 2014 открылись новые офисы в Киеве, Львове, Варшаве (Польша) и Сан-Хосе (США).
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, Kharkiv, Lviv, Dnipro, Odesa, remote
+5 years of experience
+English Intermediate

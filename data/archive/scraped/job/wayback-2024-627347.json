@@ -1,0 +1,27 @@
+{
+  "doc_id": "wayback-2024-627347",
+  "url": "https://djinni.co/jobs/627347-python-developer/",
+  "snapshot": "https://web.archive.org/web/20240719085213/https://djinni.co/jobs/627347-python-developer/",
+  "captured_at": "2024-07-19T08:52:13",
+  "posted": null,
+  "year": 2024,
+  "active": false,
+  "layout": "v3",
+  "collected_at": "2026-10-23T06:20:13+00:00",
+  "title": "Python Developer",
+  "company": "AI DATAVERSE",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Development",
+    "Python",
+    "Only from 5 years of experience",
+    "Full Remote",
+    "Countries of Europe or Ukraine",
+    "Python, Python/Django/Django-rest-framework, PostgreSQL",
+    "Domain: SaaS",
+    "Product"
+  ],
+  "description": "Technology Stack:\n- Python, FastAPI, SQLAlchemy (PostgreSQL), Django\n- Celery & Celery Beat, asyncio, asyncpg, aiohttp\n- Redis (cache, queue, pubsub) or Pika + RabbitMQ (queue, pubsub)\nWebsocket, Uvicorn, AWS S3, Firebase, Docker\nResponsibilities:\n- Collaborate with the product team to develop new features.\n- Maintain and update existing functionality.\n- Implement and optimize modern technologies.\n- Integrate with payment systems.\n- Work with mobile applications, including push notification delivery.\nRequirements:\n- 3+ years of software engineering experience in Python\n- Experience with high-traffic systems handling thousands of requests per minute\n- In-depth understanding of the product aspect and the ability to propose enhancements\n- Experience with PostgreSQL\n- Knowledge of asynchronous programming and multithreading\n- Experience with FastAPI\n- Experience with Django\n- Solid understanding of WebSocket\nWill be a plus:\n- Full Stack / Frontend development experience.\n- Knowledge of HTML / CSS / Bootstrap and other frontend stack tools.\nIf you are ready to join a dynamic team and leverage your skills in a project with great potential, we would be delighted to welcome you aboard!"
+}

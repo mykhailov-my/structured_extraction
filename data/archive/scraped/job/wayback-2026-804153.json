@@ -1,0 +1,28 @@
+{
+  "doc_id": "wayback-2026-804153",
+  "url": "https://djinni.co/jobs/804153-data-engineer-python-etl/",
+  "snapshot": "https://web.archive.org/web/20260218174055/https://djinni.co/jobs/804153-data-engineer-python-etl/",
+  "captured_at": "2026-02-18T17:40:55",
+  "posted": "2026-02-12",
+  "year": 2026,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Data Engineer (Python ETL)",
+  "company": "VARTEQ",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from 4 years of experience",
+    "Full Remote",
+    "Worldwide",
+    "Countries where we consider candidates",
+    "English B2 - Upper Intermediate",
+    "Python",
+    "Employment: Fulltime",
+    "Domain: Fintech",
+    "Outstaff"
+  ],
+  "description": "We’re looking for an experienced Data Engineer (Python ETL Engineer) to join our team and lead the migration of data integration pipelines from Mulesoft and Informatica to Python-based solutions for a fintech company working with payment solutions.\nKey Responsibilities\n- Lead the design and implementation of ETL pipelines using Python to replace existing Mulesoft and Informatica solutions\n- Architect robust, scalable, and secure data integration frameworks\n- Implement ETL orchestration and monitoring systems to ensure data pipeline reliability\n- Optimize data processing workflows for performance and efficiency\n- Collaborate with DevOps, data teams, and stakeholders to deliver high-quality data solutions\nRequired Skills\n- 4+ years of Python programming experience\n- Strong ETL development experience (data extraction, transformation, loading)\n- ETL orchestration and monitoring expertise\n- Experience designing and implementing data pipelines at scale\nProficiency with databases: PostgreSQL, MySQL, or MongoDB\nStrong understanding of data integration patterns and best practices\nNice-to-Have Skills\n- Apache Airflow or similar orchestration tools (Luigi, Prefect, Dagster)\n- Experience with Mulesoft\n- Experience with Informatica products\n- Familiarity with AI development tools (Claude Code, Gemini CLI)\n- Experience with containerization (Docker) and orchestration platforms\n- Knowledge of cloud data platforms (AWS, GCP, Azure)\n- Leadership experience\nWhat We Offer\n- Fully remote work\n- International team with clear processes\n- Paid vacation, holidays, and sick leave"
+}

@@ -1,0 +1,58 @@
+Junior Python Developer
+Data-ox
+$400-600
+
+We're looking for a Junior Python Developer to join the team of asmall team (5-6 people) consisting of Project Manager, 3-4 Python developers and QA. The team develops various projects (usually "from scratch"). Customers are mainly from the USA and Europe. Position can be fully remote.
+We are looking for a Python developer to join our team.
+You will work in a small team (5-6 people) consisting of Project Manager, 3-4 Python developers and QA. The team develops various projects (usually "from scratch"). Customers are mainly from the USA and Europe. The advantage of projects from scratch is the choice of technologies.
+Your team will mainly build data scraping, aggregation and business processes automation solutions. Expect a lot of R&D work.
+Our working conditions are quite comfortable: a workplace with two monitors, a playroom, a kitchen, etc. We are located in the center of Mykolaiv at the intersection of Pushkinskaya st. and Potemkinskaya st.
+We have a quite low hierarchy: you can come to founders directly and discuss any issue.
+Requirements for a candidate:
+Hard skills (must have):
+- strong Python 3.x
+- strong knowledge of SQL
+- experience in using Git
+- knowledge of Linux
+Will be a plus:
+- experience with REST services
+- knowledge of XPath
+- basic knowledge of Docker;
+- basic knowledge of Redis;
+- basic knowledge of RabbitMQ;
+- experience with Aio;
+- experience in developing web scrapers;
+- experience with Selenium;
+- HTML/CSS experience.
+Soft skills:
+- be team player;
+- result orientation;
+- open mind for new technologies and solutions.
+We offer:
+• comfortable workplace with two monitors;
+• new technologies;
+• low hierarchy and open communication;
+• day off on holidays in Ukraine;
+• paid vacation (20 days);
+• convenient location (with parking) in the city center.
+About DataOx
+We rebranded to DataOx in spring 2020!
+We're a software development company focused on the best services for the business. We try not just to carry out tasks, but also thoroughly understand the client's business needs, that allows implementing truly valuable software solutions.
+Our Services:
+• Web Scraping Services;
+• Custom Software Development;
+• Data Management Systems;
+• Custom Software Development.
+If you have solid knowledge and experience with Java, Spring, Python welcome to our team!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Mykolaiv
+Full Remote
+Outsource
+1 year of experience
+English Intermediate
+Test task is needed

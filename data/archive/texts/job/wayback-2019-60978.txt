@@ -1,0 +1,32 @@
+Python/Golang developers to build OpenInfra automation
+Sardina Systems
+
+Exciting OpenInfra software platform company, building on OpenStack and Kubernetes, looking for Python developers and Golang developers to join the team.
+We are an OpenInfra software platform company, building on OpenStack and Kubernetes, looking for Python/Golang developers to join our team build a number of automation software components.
+Your responsibilities:
+- Develop components in our platform, extending on and replacing (where necessary) current code, to update with new functionalities
+- Contribute ideas for making the applications better and easier to use
+Your qualifications:
+Required:
+- Knowledge of Python/Golang
+- Clear understanding of fundamentals of operating systems
+- At least some experience in system administration and/or network administration
+Bonus:
+- Experience with analytics systems
+- Knowledge of C
+- Knowledge of Erlang
+- Knowledge of hypervisors (such as KVM, Xen, HyperV, VMware) and/or containers
+- Experience with cloud and container management/orchestration with OpenStack, Kubernetes, OpenNebula, CloudStack, vSphere
+Language skills:
+- Russian
+- English (written English would be sufficient)
+About Sardina Systems
+Sardina Systems is a multi-award-winning OpenInfra cloud platform software company, building on OpenStack and Kubernetes. Sardina FishOS provide enterprise cloud operators with an automated, fully integrated, production-ready software platform, including tools for the Deploy, Operate and Upgrade phases.
+Company website:
+[link]
+
+Python
+Kharkiv
+Харьков, Москва, Санкт Петербург, remote
+No experience
+English Intermediate

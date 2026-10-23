@@ -1,0 +1,30 @@
+{
+  "doc_id": "wayback-2024-642557",
+  "url": "https://djinni.co/jobs/642557-junior-python-developer-irc218290/",
+  "snapshot": "https://web.archive.org/web/20240430014923/https://djinni.co/jobs/642557-junior-python-developer-irc218290/",
+  "captured_at": "2024-04-30T01:49:23",
+  "posted": null,
+  "year": 2024,
+  "active": false,
+  "layout": "v2",
+  "collected_at": "2026-10-23T06:20:13+00:00",
+  "title": "Junior Python Developer IRC218290",
+  "company": "GlobalLogic",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Development",
+    "Python",
+    "Lviv",
+    "Only from Intermediate",
+    "Only from 2 years of experience",
+    "Python, CSS, HTML, Flask, jQuery, Docker",
+    "Domain: Media",
+    "Office or Remote",
+    "Outsource",
+    "Ukraine",
+    "(Lviv)"
+  ],
+  "description": "Description:\nOur Customer is one of the biggest companies on the market of home entertainment consumer electronics devices that strives to provide their clients with high-quality products and services.\nProject goals include automation testing of the video and audio content and other services available via digital media players using a custom test automation framework.\nRequirements:\n- At least 2 year of commercial development experience with project-related technologies stack (Python and jQuery)\n- Hands-on experience with developing and testing Web services\n- Strong knowledge and experience in Python;\n- Good working knowledge of at least one Linux/Unix-based platform as well as Windows;\n- Experience in QA methodologies, a clear understanding of QA processes and artifacts;\n- Excellent written and verbal English communication skills developed interpersonal skills;\n- Hands-on experience with automation systems;\n- Good debugging skills, verbal and written communication skills;\n- Knowledge of continuous integration tools (Jenkins/Hudson, TeamCity, Maven, Gradle);\n- Experience working with remote teams\nResponsibilities:\nBack-end Development:\nDesign, develop, and maintain server-side components of web applications using Python, Flask framework, SQLite, and SQLAlchemy.\nImplement database schemas, queries, and optimizations to ensure efficient data storage and retrieval.\nIntegrate TSDuck functionality into the application to meet specific requirements.\nWrite unit tests\nFront-end Development:\nDesign and implement responsive and user-friendly interfaces using HTML, CSS, jQuery, and Handlebars.\nImplement client-side functionality to enhance user experience and interactivity.\nBe familiar with RESTful APIs and integration of third-party services.\nPerform manual testing of UI\nDeployment:\nIndependently manage deployment processes using Docker and GitLab.\nUtilize GitLab for version control and CI/CD pipelines for automated testing and deployment.\nTelevision Expertise:\nWork with live TV streams and PSI cards to develop features tailored to the television industry.\nAbout GlobalLogic\nGlobalLogic, a Hitachi Group Company, is a leader in digital engineering. We put people first. As part of our team, you will grow, be challenged, and expand your skill set working alongside highly experienced and talented people.\nIn Ukraine, GlobalLogic is:\n- one of the TOP-3 largest IT companies\n- 6,000+ professionals\n- 90%+ of our projects involve complex R&D\n- fully autonomous offices are located in Kyiv, Kharkiv, Lviv, and Mykolaiv, along with 10 temporary mini-offices across Ukraine\nWhat is GlobalLogic in numbers:\n- 29,000+ engineers\n- 20+ countries\n- 500+ active clients\n- 50+ product engineering centers\n- Headquartered in Silicon Valley\nCompany website:\n[link]\nDOU company page:\n[link]"
+}

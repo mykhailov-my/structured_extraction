@@ -1,0 +1,52 @@
+Trainee Python Developer (Internship)
+Gotoinc
+
+Enhance your Python skills and unlock exciting job opportunities with our internship program!
+Ideal for university tech students, Python beginners, and graduates of specialized courses with basic Python knowledge. If you're proficient in Java, .NET, Ruby, or any other programming language but find Python unfamiliar, don't worry – we're here to help you master it. All you need is the desire to learn and apply Python practically. We focus on hands-on experience rather than just theory.
+Best of all, this training is completely free.
+Our candidate has:
+- At least a B2 level of English;
+- Understanding of OOP;
+- Experience with JS, HTML, CSS;
+- Experience with SQL / PostgreSQL / MySQL;
+- Experience with Git;
+- Proficiency in working autonomously and delivering results;
+- The ability to search for the necessary information;
+- Eagerness to learn and adapt in a fast-paced and dynamic work environment;
+- Excellent communication skills and the ability to work collaboratively in a team.
+What are you going to do?
+- Study and finish 2 complete courses;
+- Learn the fundamentals of programming, patterns and best practices;
+- Engage in educational projects;
+- Get practical experience in building web applications;
+- Get practical experience with 3rd party services and integrations.
+In order to get into training, you need:
+- Send your CV;
+- Take a short call in English with the Recruiter;
+- Send code samples (or pet-projects) from your Github;
+- Pass a technical interview (in English) with a short live-coding session and get positive feedback;
+- Have your own equipment for work.
+Our education system:
+- After 3 months of training, those who pass it will be accepted for a probation period in the company (3 months) with real commercial projects;
+- Format: full-time and full-remote training 5 days/week;
+- You’ll have a mentor during the Internship period who will lead you the way;
+- The opportunity to take part in internal projects;
+- During the training, you will perform practical tasks, on the basis of the verification of which the knowledge gained will be assessed. The final stage is an interview, after successful completion of which you will receive the position of Junior Python Developer at Gotoinc.
+We suggest:
+- Full REMOTE approach;
+- A comprehensive educational program;
+- An experienced mentor who helps you on your way and gives a valuable feedback;
+- Practicing your English on our English days when all our communication is in English;
+- The opportunity to obtain a Junior Python developer position at Gotoinc for the best students
+Waiting for your application!
+
+Development
+Python
+Only from Upper-Intermediate
+No experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+OOP, HTML / CSS / JavaScript, MySQL/PostgreSQL, SQL, Git, Backend development
+Domain: Other
+Outsource

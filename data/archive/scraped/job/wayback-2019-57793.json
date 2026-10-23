@@ -1,0 +1,24 @@
+{
+  "doc_id": "wayback-2019-57793",
+  "url": "https://djinni.co/jobs/57793-middle-python-aqa-here/",
+  "snapshot": "https://web.archive.org/web/20190720194825/https://djinni.co/jobs/57793-middle-python-aqa-here/",
+  "captured_at": "2019-07-20T19:48:25",
+  "posted": null,
+  "year": 2019,
+  "active": false,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:10+00:00",
+  "title": "Middle Python AQA, HERE",
+  "company": "Intellias",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "QA Automation",
+    "Kyiv",
+    "Киев, Харьков, Львов",
+    "3 years or more",
+    "English Upper Intermediate"
+  ],
+  "description": "Проект HERE Maps – глобальний лідер на ринку геолокаційних рішень та сервісів. Його продукти використовуються в автомобільній промисловості, портативній електроніці, транспортній інфраструктурі та логістиці, торгівлі та маркетингу, телекомунікаціях.\nProject Overview:\nThe NDS is a registered society of car manufacturers, system suppliers and map suppliers. The objective of the initiative is to standardize a physical storage format for car navigation systems.\nOne of the drawbacks of today's navigation systems is that each system needs its own physical format for navigational data. A direct exchange of map data between different navigation systems is not possible. A standardized binary format, which also provides new features, offers many new opportunities.\nThe key objective is compatibility and interoperability allowing the exchange of navigational data between systems that comply with Navigation Data Standard. NDS supports standard navigation building blocks like e.g. map display, routing, POIs and location selection as well as advanced navigation content. Plus, NDS provides a common database format and harmonized update concepts for different systems. This ensures flexibility regarding content update, including incremental and partial updates. Moreover, database content can be enriched without changing basic structures.\nResponsibilities:\n- Follow, improve and implement processes to assure that we are reaching the agreed quality standards;\n- Customer issue analysis and dispatching, bug triage coordination;\n- Build quality monitoring and related issue resolution;\n- Maintain engineering documentation and reports;\n- Creation, execution and maintenance of automated tests using Python (and Java in future) and in house test framework;\n- Collaborate with the product team to develop test scenarios for both existing and new features;\n- Writing and maintaining test specifications;\n- Work environment setup and configuration, test results analysis;\n- Research and assess new technologies and test tools;\n- Ability to travel on business purpose.\nRequirements:\n- B.Sc. or M.Sc. in Computer Science (or equivalent);\n- Minimum of 3 years’ experience in software engineering industry;\n- Awareness of test strategies;\n- Experience working following SCRUM or other agile development methodologies;\n- Ability to effectively and efficiently manage multiple tasks;\n- Hands on experience developing automated test scripts in Python and Java ( both Java and Python middle stable skills);\n- Strong Knowledge of SQL;\n- Upper-intermediate level of English, well-developed communication skills;\n- Knowledge of Hadoop/MapReduce will be an advantage;\n- Experience with continuous integration systems (i.e. Jenkins);\n- Experience with Gerrit will be an advantage.\nAbout Intellias\nIntellias\nСмартова та комфортна компанія з дружніми відносинами в командах, а також гнучким та ефективним менеджментом та особливими умовами для кожного працівника\nCompany website:\n[link]"
+}

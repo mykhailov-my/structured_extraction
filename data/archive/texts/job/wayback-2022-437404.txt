@@ -1,0 +1,43 @@
+Python Developer
+Jelvix
+
+Jelvix is a Kharkiv-based IT company. The domains we work in are Enterprise, Healthcare, Retail, Fintech, etc. Jelvix team is trusted by clients from the most advanced economies: the USA, Germany, the UK, Canada.
+Jelvix is looking for Python Developer for a long-term American project in the Automotive domain.
+Requirements:
+- Experience with Python (at least 3 years)
+- Upper-Intermediate level of spoken and written English
+- Experience with AWS
+- Good SQL skills
+Nice to have:
+- Data analytics (Jupyter Notebooks, AWS SageMaker / ML, Tableau or similar)
+Responsibilities:
+- Continuous feature improvements, continuous improvement to data schemas / improvements to data collection quality
+- Provisioning new telematics data providers and configuring source data interfaces
+- Development of service metrics and alerting
+- Operational incident investigations (e.g. responding to service downtime)
+We offer:
+- Work schedule is flexible — fixed amount of hours that you need to work per month
+- Ability to work remotely
+- 20 days off per year (10 days every 6 months are charged), unused days do not burn out
+- Reimbursement of 5 sick days per year
+- Office located in the city center (parking area available) and summer rest zone
+- Partial compensation for external courses/conferences (after the completion of the Adaptation Period)
+- Partial compensation for external professional certifications
+- English group lessons in the office with teachers (free of charge; 2 times a week)
+- Reimbursement for sports or massage
+- Large library with a scheduled purchase of new books every half a year
+- Yearly Individual Development Plan (after the completion of the Adaptation Period)
+About Jelvix
+A global leader in software development that helps companies overtake the competition, Jelvix specializes in complex, sophisticated software development to help companies digitally transform their business and their industry. Get world-class enterprise engineering, design and technology consulting services to skyrocket your operations, customer service, and automate business processes.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Ukraine
+3 years of experience
+English Upper-Intermediate
+Only candidates from Ukraine
+Full Remote
+Outsource

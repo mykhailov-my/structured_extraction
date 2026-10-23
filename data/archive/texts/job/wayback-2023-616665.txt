@@ -1,0 +1,52 @@
+Middle/Senior Full Stack (Python / React.js / TypeScript)
+Kozak Agency
+
+We are looking for a Python Developer for an outstaff project.
+About the project: it is a legal technology tool that lets lawyers use everyday words to make changes to documents instantly and accurately. The project’s mission is to make legal work less annoying, boring, and frustrating
+Client’s location: EST time zone
+Start date: in 2-3 weeks
+Workload: full-time
+Duration: 3-6 months
+Requirements:
+- Minimum 3 years of experience developing web applications using React
+- Solid understanding of the following programming languages: TypeScript, JavaScript, and Python
+- Additional experience with: React development with functional components; REST API architecture, construction, and consumption
+- Advanced Microsoft Word
+- Upper-Intermediate English
+Preferred:
+- Machine Learning: Building and managing training datasets for intent detection and training models
+- Microsoft Word Add-In Design
+- PostgreSQL experience
+- Python libraries (i.e. Flask, Marshmallow)
+We offer:
+- cooperation with a stable company with well-established processes and a positive atmosphere;
+- experience in project management of different levels of complexity, methodology, and approaches;
+- flexible schedule: Mon-Fri (8 hours a day);
+- a decent level of remuneration with regular reviews of the results of cooperation;
+- corporate library for self-development;
+- extensive loyalty program.
+About Kozak Agency
+We are a rapidly expanding software development company with almost 40 talented developers specializing in web development, mobile development, and cloud-based solutions.
+Our firm expertise encompasses a wide range of contemporary web and mobile development tools. The most frequently demanding and widely used out of a list of our tech instruments are JavaScript and its modern frameworks, Node.js-based tools and frameworks, relational and non-relational databases, cloud computing platforms, mobile development languages and frameworks.
+As the company thriving to meet the most distinctive client necessities we are extremely flexible in terms of development and provide a broad spectrum of development services onwards from turn-key basis solutions to uniquely tailored client requests.
+Nowadays, in the comprehensive range of numerous industry fields, we have been attempting to diversify our portfolio with previously unexplored realms of activity.
+The list of fields we already possess rock-solid expertise includes finance, education, healthcare, marketplaces, social networks, legal services, real estate, logistics and transportation, energy and utilities, blockchain, and others.
+Throughout a period of our decently long journey, we as the company successfully developed and launched over 100 web products and brought unforgettable experience to plenty of end users.
+The geography of customers embraces a significant part of the world globe: US, UK, Israel, EU, Australia, Canada are amongst the most common ones.
+Kozak Agency company this is a friendly environment for professionals and also a great web development community.
+There is a cozy space where we can arrange our meetings and team buildings.
+We believe that a high level of communication is an important part of people's success and strong partnerships.
+Looking forward to hearing from your CV!
+Join our team and become a new part of our community.
+Company website:
+[link]
+
+Python
+Category: Python
+English: Upper-Intermediate
+3 years of experience
+Domain: Fintech
+Full Remote
+Outstaff
+Ukraine
+Only candidates from Ukraine

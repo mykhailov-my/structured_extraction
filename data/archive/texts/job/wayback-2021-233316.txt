@@ -1,0 +1,33 @@
+Senior Python(Flask) Developer
+Global Teams
+$5000-6000
+
+We are looking for a Senior Python Developer for remote work in our worldwide team. We need a manager who wants to take part in something big and assume responsibility for the success of a new and innovative e-commerce project.
+The right candidate will be someone with an open mind who loves to solve problems and who strives to take their projects to the next level.
+- Main soft skills requirements for candidates:
+1. Strong background with python 4+ years.
+2. Experience with Python 3 version.
+3. Experience creating API with and Restplus.
+4. Experience with the following frameworks: SQLAlchemy, Celery, Marshmallow.
+5. Strong background working with MySQL and MongoDB Databases.
+6. Experience with Kubernetes and Docker.
+- Main soft skills requirements for candidates:
+1. Strong desire and a proactive attitude to work.
+2. Strong problem-solving abilities.
+3. Flexibility and team player.
+We are an all-in-one, leading dropshipping platform that automates all actions for the user, from finding smart and hot-selling products to product uploading, price & stock monitoring the suppliers’ sites, customer support system, price optimization system, and more.
+The company is global and has teams all over the world. Teams vary in size and frequently
+collaborate with each other, providing our employees the unique opportunity to learn and work with teammates from around the world. Every employee plays a key role in growing the company and has the responsibility for the success of the company.
+About Global Teams
+We are Global Teams, founded in 2014 to help you grow your business by drawing on the talents of dedicated IT professionals based in Ukraine.
+We began as a software development outsourcing company, but quickly realized that remote work is the future. We added a curated outstaffing service, giving clients more control over their remote teams while reducing expenses and any administrative challenges they may encounter.
+Today, Global Teams has expanded to include over 150 experienced software developers and other professionals in Ukraine, with offices in Kyiv, Ukraine, and Tel Aviv, Israel.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Remote
+remote
+3 years of experience

@@ -1,0 +1,62 @@
+Senior Python Backend Developer
+Performa HR-agency
+
+Ми шукаємо Senior Python Backend Developer у продуктову команду, яка розробляє real-time платформу для крос-біржового арбітражу на perpetual futures.
+Це технічно складний FinTech/crypto продукт із фокусом на швидкість виконання, стабільність, роботу з біржами та обробку даних у real-time.
+Технологічний стек:
+- Python 3.11+, asyncio, FastAPI, Pydantic
+- PostgreSQL, SQLAlchemy async, Alembic, TimescaleDB
+- Redis
+- NATS JetStream, Kafka
+- aiohttp, httpx, WebSockets
+- ccxt та API криптобірж
+- AWS, Docker, GitHub Actions
+- Prometheus, Grafana, OpenTelemetry
+Проєкт працює з Binance, MEXC, BingX, Bybit та іншими біржами.
+Що потрібно буде робити:
+- розвивати Python backend та існуючу мікросервісну архітектуру;
+- працювати з real-time market data та execution flow;
+- інтегрувати нові криптобіржі та підтримувати існуючі інтеграції;
+- працювати з REST API та WebSockets;
+- оптимізувати latency та продуктивність системи;
+- працювати з PostgreSQL, Redis, Kafka/NATS;
+- забезпечувати надійність системи при помилках, часткових відмовах та проблемах із зовнішніми API;
+- працювати з trading logic: ордери, risk checks, retry/rollback, reconciliation;
+- підтримувати observability та моніторинг системи.
+Що ми очікуємо:
+- 3+ роки комерційного досвіду з Python Backend;
+- хороший практичний досвід з asyncio та асинхронним Python;
+- досвід із FastAPI / Pydantic;
+- впевнене знання PostgreSQL та SQL;
+- досвід із distributed/event-driven системами та хоча б одним із брокерів: Kafka, NATS або RabbitMQ;
+- розуміння concurrency, race conditions, retries, idempotency та partial failures;
+- досвід інтеграції сторонніх API;
+- самостійність та здатність працювати з технічно складними задачами.
+Важливий момент:
+На проєкті основний фокус саме на async Python. Тут не використовуються Django/DRF та Celery, тому нам важливий кандидат, який має реальний досвід роботи з asyncio та розуміє, як працюють конкурентність і event loop.
+Умови:
+- Формат: remote;
+- Графік: 9:00–18:00 або 10:00–19:00;
+- Оплата: у USD, двічі на місяць;
+- невелика продуктова команда: Product Owner, Architect, Backend, Frontend, DevOps;
+- мінімум бюрократії та багато самостійності.
+Процес найму:
+- Коротка онлайн-зустріч із рекрутером.
+- Технічна співбесіда з CTO.
+- Офер.
+На технічному етапі основний фокус буде на asyncio, concurrency, distributed systems, queues та поведінці системи при часткових відмовах.
+
+Вимоги до володіння мовами
+Англійська: A2 - Елементарний
+Українська: C2 – Вільний
+
+Виключно від 3 років досвіду
+Тільки віддалено
+Весь світ
+Країни, де розглядаємо кандидатів
+Англійська A2 - Елементарний
+Українська C2 – Вільний
+Python
+Зайнятість: Fulltime
+Домен: Blockchain / Crypto
+Змішана (сервісно-продуктова)

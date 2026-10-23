@@ -1,0 +1,48 @@
+Software Engineer (Python)
+Matoffo
+
+We are looking for an experienced Software Engineer (Python) to join our professional team.
+You will be involved in architecting, implementing, and delivering projects. This will require you to work both independently and as a part of a team. Our team is the perfect place to develop your skills in an environment based on mutual trust and respect.
+About client:
+Our client is a venture-backed company founded in 2019 by a unique group of experts in wireless, cybersecurity, and web scale and have been a part of foundational companies like Meru Networks, Aruba Networks, Cisco, Aerohive, Google, Uber, NetApp, and Akamai. The entire team is passionately dedicated to marrying web scale concepts to new wireless technologies to finally break the cost curve of wireless networking.
+Required Qualifications:
+- Design and implementation of web services, including API design;
+- Has experience throughout the software development lifecycle, from initial design, to implementation, to maintenance;
+- Strong dedication to quality software, with focus on testing;
+- Fluent in Python;
+- Experience in microservices;
+- Experience throughout the software development lifecycle, from initial design, to implementation, to maintenance;
+- Strong sense of self-motivation, organization, and attention to detail;
+- Strong analytical skills;
+- B2 level of English is a must (both speaking and writing).
+Preferable Qualifications:
+- Experience with databases. SQL, and NoSQL;
+- Message Queues (Kafka/RabbitMQ/SNS/SQS etc);
+- Good understanding of authN and authZ.
+We offer:
+- Full remote with flexible business hours;
+- Medical insurance;
+- Competitive compensation commensurate with your experience and skills;
+- Amazing opportunities for professional growth within a top-notch team of professionals;
+- Modern technologies, popular on the market;
+- Not boring English classes;
+- Cloud training and certification
+- Interesting customers and projects;
+- An excellent team with a friendly atmosphere.
+About Matoffo
+Matoffo is a cloud native company who visions cloud computing as the home for tech products. Our primary focus is AWS cloud solutions, we are an official AWS Select Tier Services Partner, that demonstrates we have trained and certified teammates, as well as great customer experience. Our team of top-notch engineers specialize in Cloud solutions, we develop scalable cloud native applications, provide DevOps services which facilitate innovations and allow release products faster, build reliable and secure cloud infrastructure for our clients from the US and Europe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+Python , back-end
+English: Upper-Intermediate
+5 years of experience
+Domain: Hardware / IoT
+Full Remote
+Outstaff
+Ukraine
+Only candidates from Europe and Ukraine

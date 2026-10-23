@@ -1,0 +1,63 @@
+Senior Python Developer
+Edvantis Software
+$4500-5000
+
+We’re opening the position of Senior Python Developer to extend the existing customer team. They provide SAAS solutions that help companies to optimize their businesses. These solutions include business planning & execution, processes automation, and optimization.
+We’re opening the position of Senior Python Developer to extend the existing customer team. They provide SAAS solutions that help companies to optimize their businesses. These solutions include business planning & execution, processes automation, and optimization. The Customer’s platform leverages industry-leading artificial intelligence (AI) and machine learning (ML) for better predictions and prevention of disruptions across businesses. Customers value our experience and want to extend a team to develop new functionality.
+Responsibilities:
+- Work together with the machine learning experts, engineers, and project managers to advance the data science products
+- Design and develop data-intensive distributed systems in Python with a focus on data engineering
+- Work in an Agile team with an emphasis on quality, testability, and automation
+- Develops quality software (including effective test code) according to clean code principles
+- Participates in team activities such as backlog grooming, planning, daily stand-ups, and retrospectives
+- Implementing data enrichment and cleansing routines
+- Implementing features, preparing modeling data sets, feature selection
+Requirements:
+- 3+ years of Python programming experience
+- Experience in Python SDK development
+- Productizing PoCs from Jupyter notebook
+- Flask/Fast API experience
+- Azure developer experience is preferable
+- Experience with Pytest
+- Bachelor’s Degree in Computer Science or related fields
+We offer:
+- Career and professional growth
+- Competitive salary
+- Friendly and highly professional teams
+- Big and comfortable office, own parking area, restaurants nearby
+- Medical insurance coverage for employees (Сovid-19 included), plus an option for family insurance coverage at a corporate rate
+- Paid 12 sick leaves and all holidays
+- Paid 18 working vacation days
+- English/German language courses
+- Аbility to work remotely (we provide all equipment)
+About Edvantis
+We are large enough to solve a complex problem, smart enough to care about every project. Edvantis’ goal is to help our clients achieve more via software engineering as a service.
+We are a mature vendor with our HQ in Berlin, Germany, and our development centers in Lviv, Ukraine, and Wroclaw, Poland. By partnering with us you benefit from complete transparency, top talent, established processes, and long-term commitment to every client. We deliver for SAP, BigCommerce, and Smiths Detection among others.
+Key numbers:
+•15+ years of experience
+•300+ employees
+•30+ active Clients
+•400+ projects delivered
+•90% of Clients refer us
+Key services:
+•Executive IT Advisory
+•IT Consulting
+•Engineering: Software & Hardware
+•Capacity: Managed Team & Staff Augmentation
+•Business Process Outsourcing
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Ukraine
+(Ivano-Frankivsk, Kyiv, Lviv
++ 2 more cities
+)
+5 years of experience
+English Upper-Intermediate
+Ukraine only candidates 🇺🇦
+Office/Remote of your choice
+Outsource

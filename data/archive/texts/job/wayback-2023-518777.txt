@@ -1,0 +1,49 @@
+Python Developer (Middle)
+Helix Global LLC
+
+We are looking for an employee in a project that develops online games.
+Let's create a cool product with us:)
+Your future responsibilities:
+— Development of network applications;
+— Development of automation tools.
+The following skills are mandatory:
+— Experience in a similar position at least 3+ years;
+— Deep understanding of the multiprocessing, multithreading and asynchronous concepts
+— Experience with Debian-based Linux distributions;
+— Understanding of client-server architecture;
+— Understanding of the principles of the HTTP protocol;
+— Experience in developing unit-tests, including for asynchronous code;
+— Experience with SQLAlchemy and MariaDB/MySQL (experience with MariaDB will be a plus)
+— Experience with Git.
+The following skills are desirable:
+— Experience in developing networked applications using asynchronous framework(-s) (AsynclO/Aiohttp/Tornado/Sanic, willing to train)
+— Experience in Tornado will be a plus
+— Experience with RabbitMQ, Kafka, Nats, Redis, MariaDB/MySQL/PostgreSQL/CockroachDB
+— Experience with Docker, Docker compose;
+— Experience with AWS/Azure;
+— Experience with GitLab.
+What we offer:
+— Flexible schedule — You will have the opportunity to choose where you want to work — at one of our comfortable offices or home. We ensure comprehensive company-paid 17 paid days off during the year; unlimited sick leaves and you can request an unpaid leave of absence.
+— Learning and professional growth — Expert communities paid certifications and professional events.
+— Growth environment — Achieving your goals is much easier with a strong team by your side. It is made up of industry experts and technology enthusiasts who work together towards a common vision.
+We value honesty, openness, friendliness, positive attitude, independence.
+Let’s create a cool product with us:)
+About Helix Global LLC
+Helix Global LLC is an international full-lifecycle IT outsource company.
+We have 12 years of expertise in Information Technologies and Services, with more than 15 offices all over the world. Currently, we have more than 352 successfully implemented projects in E-commerce, Business Process Ecosystem, Omni Channel Marketing, Business Intelligence Consultation, Big Data services, Payment Platforms.
+We provide products that help businesses in driving acquiring, converting, retaining, and strengthening the relationships with its B2B customers.
+Our company has a high potential of growth in Eastern European region. We aim to provide big opportunities to our employees for career growth and professional development.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+Debian , Linux , http , SQL , MariaDB
+English: Intermediate
+3 years of experience
+Domain: Gamedev
+Full Remote
+Product
+Bulgaria, Georgia, Lithuania, Poland, Slovakia

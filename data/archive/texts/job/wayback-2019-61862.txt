@@ -1,0 +1,75 @@
+Sr Python developers for product company [Kharkov]
+MedeAnalytics
+
+This is a rapidly growing US based business specializing in medical documentation and medical image management. The software is very popular in dermatology, aesthetics, plastic surgery, vein treatment, medical spa and wound care fields.
+What we de (Product description itself and role of this product in the world, perspectives, plans)
+RxPhoto is a HIPPA compliant cloud storage photo management software. RxPhoto’s tools make medical practices more productive and successful in the dermatology, aesthetics, plastic surgery, vein treatment and wound care fields. It allows practices to take control of their clinical photography from capturing a photo to expectation management and marketing.
+The RxPhoto platform combines mobile and cloud technology to streamline the process of capturing and managing medical photos.
+Are there any similar products at the market?
+Yes
+Who is leading the development process? And How the development process is built?
+We run an off shore / on shore model. Ethan Evans is the operations manager and he oversees all aspects of the development process. On-shore we have project managers, business analysts and senior technical lead developers. All projects are managed in Jira. Tasks are put in Jira and estimated by developers prior to start. We use a combination of agile and waterfall. Agile in that we do 2 week sprints. Waterfall in that the entire project is deisgned and all requirements written before the project starts. Code is checked in by off shore resources and reviewed by our on-shore senior developers.
+Technical questions:
+How the project is built:
+Used technologies
+iOS / Python / AWS / Angular
+How do you use VCS?
+Github
+Do you have general coding style and do you follow it?
+Yes.
+Is there any code review conducted and do you do refactoring?
+Yes
+Is there any “legacy code”? (Is codebase conducted?)
+Yes
+Can I look at the sample of your source code?
+Yes
+What professional qualities we are looking for? (Please add maybe years of experience)
+Django 1.x (including legacy versions) and Django 2
+Django Rest Framework 2.x and 3.x
+Pillow
+Celery
+Weasyprint
+PostgreSQL experience (as developer not admin)
+Redis
+Memcached
+What are my responsibilities? (What I will do everyday, examples of daily to ask)
+Best if discussed with the existing developers.
+Why is this position open?
+We are trying to hire our own developers and grow our development team in Ukraine.
+About perspectives and general information
+Prospect of growth/development in this position?
+Absolutely.
+What (as a company) we are doing for the community?
+Improving the level of healthcare by streamlining the process of capturing and cataloguing medical photography.
+How are we as a company different from others?
+We are the most advanced mobile solution for medical photography on the market.
+Conditions:
+Is there a probationary period and how long does it last?
+60 Days
+Are there any overtimes (additional hours), how often are they, what approach to payment?
+Yes. We can have a bonus structure over time.
+What is the work schedule? Is it possible to work remotely some days?
+Flexibe, yes you can take a couple of remote days
+Number of vacation days? 20
+Number of paid sick days per year? Up to 10
+Is there a possibility for business trips, and where? Not during the first year
+Is relocation possible outside of Ukraine and how is the company willing to support it? Not during the first year
+What kind of office do you have? (rooms)
+What other social benefits do you have? We work on it
+General
+What is the office address: we haven´t opened it yet but it will be on Kosmichna street
+By process:
+Is there a test task? No
+How many stages of the interview is there, with whom? With CEO and the other one with Tech Lead
+Interview in English? Yes
+Who will check the candidate’s profiles? CEO
+About MedeAnalytics
+Привет, меня зовут [name], представляю продуктовую компанию MedeAnalytics
+Company website:
+[link]
+
+Python
+Kharkiv
+Харьков
+2 years or more
+English Pre-Intermediate

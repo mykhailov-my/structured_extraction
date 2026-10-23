@@ -1,0 +1,29 @@
+{
+  "doc_id": "wayback-2026-817587",
+  "url": "https://djinni.co/jobs/817587-python-engineer/",
+  "snapshot": "https://web.archive.org/web/20260713034500/https://djinni.co/jobs/817587-python-engineer/",
+  "captured_at": "2026-07-13T03:45:00",
+  "posted": null,
+  "year": 2026,
+  "active": false,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Python Engineer",
+  "company": "WeAreBrain",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from 4 years of experience",
+    "Full Remote",
+    "EU",
+    "Countries where we consider candidates",
+    "English B2 - Upper Intermediate",
+    "Ukrainian Native",
+    "Python",
+    "Employment: Fulltime",
+    "Domain: Other",
+    "Agency"
+  ],
+  "description": "We are looking for a skilled Python Engineer (Middle+) to join our team building platform for building AI agents and serverless automation with fine-grained access control.\nImportant!\nThis role involves some travel to the Netherlands to collaborate closely with the client, run in-person consulting sessions at the WeAreBrain office in Amsterdam, and occasionally visit the client’s office. Candidates must have the flexibility and ability to travel within Europe.\nAbout the Project:\nIt's a platform for building AI-powered applications. It brings together multi-provider LLM agents, serverless Python functions, persistent state, database querying, file storage, and template rendering — all behind a single API with role-based access control.\nThat platform allows customers to build:\n- Internal copilots per department\n- Process automation agents\n- AI-powered internal tools\n- AI features inside your own products\nOur stack includes Python (FastAPI, LangChain), React portals, and cloud-native infrastructure (Kubernetes, Docker, GitHub Actions).\nFor teams building AI\n- No more rebuilding auth, memory, RAG and integrations\n- Faster delivery of production-grade tools\n- Shared standards across all AI initiatives\nFor IT, security & leadership\n- One place to enforce data access rules\n- One place to audit AI behavior\n- Full ownership of data in a private security perimeter\n- Fewer uncontrolled risks\nTech Stack:\n— Python 3.11+, FastAPI, Flask\n— SQLAlchemy, PostgreSQL, MongoDB, Redis, Alembic\n— PaddleOCR, Tesseract, custom NLP models\n— Docker, Kubernetes, GitHub Actions\n— React + TypeScript + Vite (frontend)\nResponsibilities:\n— Develop, test, and maintain Python microservices and agentic AI workflows\n— Collaborate with frontend, DevOps, and business owner to deliver seamless solutions\n— Write clean, readable, and well-documented code using type hints and Pydantic model\n— Participate in code reviews and contribute to continuous improvement\n— Ensure system stability, security, and compliance (AVG/GDPR)\n— Research and prototype new technologies (LLMs, OCR, cloud-native patterns)\n— Support CI/CD, testing, and deployment automation\nQualifications:\n— 5+ years of professional Python experience, ideally with microservices or AI/NLP project\n— Experience with FastAPI, SQL/NoSQL databases, and cloud infrastructure\n— Familiarity with Docker, Kubernetes, and GitHub Actions\n— Understanding of REST APIs, authentication (OAuth2, JWT), and security best practices— Experience with frontend integration\n— Good communication and collaboration skills; fluent English (B2+)\n— Bachelor’s degree in Computer Science, Software Engineering, or related field\n— Experience with testing frameworks (Pytest, etc.)\nWhat we offer:\n*Flexible working conditions\n*Competitive salary depending on your experience with a comprehensive benefits package, which includes a monthly €50 stipend to cover work-from-home expenses, and an allocation of 25 vacation days.\n*After one year, WeAreBrain offers access to a Team Reward Program for all employees.\n*Innovative Exploration: Seize the chance to pioneer your department, venturing into uncharted territories, and experimenting with fresh ideas that push boundaries.\n*Entrepreneurial: Immerse yourself in a true entrepreneurial environment where every team member is an owner.Office Perks: We organise lunch in the office and have monthly gatherings for drinks and bites, fostering our team spirit.\n*Remote Work Flexibility: Our team has the freedom to work remotely, allowing you to achieve a healthy work-life balance that suits your preferences.\n*Professional Growth: We value your growth. Take advantage of diverse opportunities and resources designed to nurture your professional development.\n*A creative and dynamic work environment.\nApply for the job\nDo you want to join our team as our new Senior Python Engineer? Then we’d love to hear about you!"
+}

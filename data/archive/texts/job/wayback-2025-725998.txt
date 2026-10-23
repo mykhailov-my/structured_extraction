@@ -1,0 +1,35 @@
+Full Stack Engineer (Python + React)
+CodeLions
+
+We're looking for motivated people who treat every project as their own and are always open to new ideas and approaches.
+Join the CodeLions team as a Full Stack Engineer and become part of the rapidly developing company! 💙
+Requirements:
+- 3+ years of experience in React and Python;
+- Strong knowledge of MySQL, Postgres
+- Able to propose creative solutions to complex problems;
+- Good communication and self-learning skills;
+- Level of English: Upper-Intermediate, both writing and speaking;
+70% - React / 30% - Python
+Responsibilities:
+- Responsible for implementing quality code that satisfies code quality best practices;
+- Support the estimation of the user stories and associated tasks;
+- Responsible for the quality of the project;
+- Propose refactoring, modifications, and improvements;
+- Propose technologies or architectures;
+- Participate in code review;
+- Follow agreed workflows and standards, and propose process improvement when necessary.
+Interview stages:
+- HR interview (20 minutes)
+- Tech interview (1 hour)
+
+Only from Upper-Intermediate
+Only from 2.5 years of experience
+Office or Remote
+Ukraine
+Countries where we consider candidates
+Fullstack
+Python, React
+Domain: E-commerce / Marketplace
+Outsource
+Office:
+Ukraine

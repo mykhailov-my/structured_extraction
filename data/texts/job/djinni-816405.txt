@@ -1,0 +1,65 @@
+System Administrator
+Tango Me/Танго Мі
+
+Responsibilities
+- Support users (L1-L3)
+- Configure internal systems
+- Diagnose and troubleshoot technical issues
+- Maintain, troubleshoot & upgrade the network infrastructure
+- Install and maintain servers, devices and firewall
+- Monitor infrastructure
+- Ensure the smooth deployment of new SaaS applications
+- Configure & troubleshoot IDP, RBAC, Jira, GCP, AD (DC, NPS), Radius
+- Update technical documentation
+Requirements
+Experience and ownership:
+- 3+ years iт SysAdmin role with strong onsite presence
+- Ability to be the primary IT owner for the Kyiv office day to day (walk-ups, incidents, projects), with structured escalation to the global Corp IT team
+- Strong hands-on troubleshooting across endpoints, identity, network, and AV
+Endpoints and device lifecycle (macOS and Windows)
+- Strong macOS and Windows support skills, including diagnostics, OS upgrades, drivers, and common corporate apps
+- Experience managing macOS with Jamf (Jamf Pro preferred): enrollment, profiles, policies, patching, software deployment, FileVault
+- Experience managing Windows with Intune: enrollment, configuration profiles, compliance policies, app deployment, patching baselines
+- Full equipment lifecycle ownership: provisioning, enrollment, inventory, repairs/RMA, loaners, secure wipe, and disposal
+Identity, access, and productivity tooling
+- Working knowledge of Okta: user lifecycle, group-based access, MFA troubleshooting, app assignments, and SSO troubleshooting
+- Google Workspace administration basics: user/group management and practical troubleshooting (login, email, permissions)
+- Atlassian tooling basics: Jira and Confluence user management, groups/permissions, and common access issues
+- Understanding of least-privilege access and clean access request handling
+Office networking and infrastructure
+- Strong office network troubleshooting: LAN/WiFi issues, switch port basics, AP troubleshooting, DHCP/DNS symptoms, VPN client issues
+- Familiarity with firewalls (FortiGate preferred): user VPN troubleshooting, basic policy understanding, and collaboration with network owners
+- Understanding of VPN concepts
+Security and IT hygiene
+- Good security instincts: phishing awareness, safe handling of credentials, device security baselines, patching urgency, and incident discipline
+Communication and collaboration
+- Good English for documentation and coordination with the global team
+- Service-oriented mindset, clear updates, and ability to handle interruptions while keeping control of priorities
+Nice-to-have
+- Familiarity with certificate-based access concepts and auth integrations such as SCEP, AD, LDAP, RADIUS
+- Basic scripting/automation (Bash, PowerShell, Python) to reduce manual setup and speed up repetitive tasks
+- Familiarity with public cloud concepts used in corporate tooling (GCP preferred; AWS/Azure acceptable), especially IAM and networking basics
+- Experience supporting printers, access control vendors, and office buildouts/refreshes
+What we offer:
+- International company with several offices in different locations : Tel-Aviv, Kyiv, Warsaw, Limassol.
+- Granting an Option;
+- A professional environment with great people to work with;
+- Competitive salary, performance review;
+- Flexible working hours, no one here tracks your work time because our culture is built on trust and cooperation;
+- Social and welfare packages;
+- 20 working days paid vacation and 100% sick leaves coverage;
+- Opportunities to make a difference, to develop and grow;
+- Regular corporate celebrations, team buildings and fun activities;
+- Comfortable office close to the metro station. Our Kyiv office is open 24/7 with all safety and health measures in place.
+
+Виключно від 3 років досвіду
+Тільки офіс
+Україна
+Країни, де розглядаємо кандидатів
+Sysadmin
+Зайнятість: Fulltime
+Домен: Entertainment / Streaming
+Продуктова компанія
+Офіс:
+Україна
+(Київ)

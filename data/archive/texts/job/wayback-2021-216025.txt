@@ -1,0 +1,35 @@
+Middle/Senior automation engineer (Python)
+Luxoft
+
+Middle/Senior Automation Test Engineer (Python) - Kiev.
+Project Description:
+Work for a core delivery team inside Luxoft Automotive Division to develop the new incumbent of a suite of products. These products are focused on the development and delivery of the Rear seat entertainment system inside the automotive area. For being able to fulfill the customer expectations we need additional experienced automation QAs. You will work in a challenging environment with intercultural and international teams where the company culture and language is a mix of German and English. In this role, you will be part of the Development Team for premium OEM.
+Responsibilities:
+This position requires a highly-motivated individual with strong problem-solving and technical skills. The prime duty is to ensure the successful delivery of a quality product by writing and executing tests on a daily basis, build and maintain test framework and integrate your testing solutions to CI/CD infrastructure
+Mandatory Skills Description:
+- Strong SoftWare testing background (certificate is a plus)
+- 3+ years of SoftWare testing experience
+- 3+ years of experience in Test Automation
+- 2+ Good Python knowledge
+- Experience with distributed VCS (preferably - git)
+- Confident linux/unix console user
+- Hands-on UI testing experience using Page Object pattern
+- Excellent performance and time management
+- Good communication skills (Intermediate+ English)
+Nice-to-Have Skills:
+- Hands-on experience with Qt and Squish is a plus
+- Experience in automotive SW testing is a plus
+- Experience in CI/CD
+- Experience in Robot Framework and Squish
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA Automation
+Kyiv
+3 years of experience
+English Upper Intermediate

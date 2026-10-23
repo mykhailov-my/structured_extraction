@@ -1,0 +1,29 @@
+{
+  "doc_id": "wayback-2026-810648",
+  "url": "https://djinni.co/jobs/810648-senior-c-software-developer-with-python/",
+  "snapshot": "https://web.archive.org/web/20260311091519/https://djinni.co/jobs/810648-senior-c-software-developer-with-python/",
+  "captured_at": "2026-03-11T09:15:19",
+  "posted": "2026-03-11",
+  "year": 2026,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Senior C++ Software Developer (with Python)",
+  "company": "Luxoft",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from 5 years of experience",
+    "Full Remote",
+    "Ukraine",
+    "Countries where we consider candidates",
+    "English B2 - Upper Intermediate",
+    "C++",
+    "Employment: Fulltime",
+    "Domain: Healthcare / MedTech",
+    "Outstaff",
+    "Test task is needed"
+  ],
+  "description": "- Our client is a global leader in Innovative Orthodontics.\nSoftware Engineer in Client's team will work on CAD/CAM Automation project for Clear Aligners mass production. Engineer will develop ecosystem for 3D geometry processing pipeline with a focus on product logic, software infrastructure, and CLI/3D GUI tooling. This role is focused on backend and system-level engineering. The position does not require direct development of 3D geometry algorithms, but strong engineering fundamentals and interest in the domain are highly valued.\n- Responsibilities:\n• Develop and maintain the 3D geometry processing pipeline ecosystem\n• Implement core product logic and distributed backend services\n• Develop and support CLI/3D tooling\n• Work on scalable, reliable system architecture\n• Collaborate with cross-functional teams on CAD/CAM automation solutions\n• Ensure high-quality, reliable, and scalable code\n• Participate in code reviews and contribute to continuous improvement\n• Work with the team's toolchain and technologies (C++, Python, C#, Go, CMake, Bazel, Protobuf, gRPC, Docker, AWS EKS, etc.)\n- Mandatory Skills Description:\n• Strong C++ expertise (core requirement)\n• Solid backend engineering experience\n• Good knowledge of Python (secondary language)\n• Golang is a plus\n• Experience building scalable distributed systems\n• Strong understanding of software architecture and system design\n• Degree in Computer Science / Applied Mathematics\nTeam uses next technologies:\nHigh Development: CMake, Bazel, Conan, Protobuf, gRPC.\nMid Runtime: Docker, AWS EKS.\nLow CI/CD: Atlassian Bamboo, Jenkins, Helm, Portainer.\nMid Monitoring: Prometheus, Grafana, Loki, Clickhouse.\n- Nice-to-Have Skills Description:\nInterest and initiative in 3D geometry algorithms development\nExperience in:\n• CAD/CAM systems\n• 3D processing pipelines\n• Gaming engines\n- Languages:- English: C1 Advanced"
+}

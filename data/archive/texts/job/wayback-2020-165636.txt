@@ -1,0 +1,35 @@
+Senior Python Developer
+Ciklum
+
+On behalf of Explorium, Ciklum is looking for a Senior Python Developer to join our Kyiv team on a full-time basis.
+Responsibilities
+Develop new features and Back End infrastructure enhancements on Explorium’s data science platform
+Collaborate with data science and data acquisition teams to integrate new data sources and data pipelines into the product
+Understanding business priorities, participate in feature design and incremental delivery of a SaaS application
+Working in an Agile environment, at a sustainable pace, in two-week sprints
+Requirements
+5+ years of experience in Back End development, preferably in Python
+BSc/BA in Computer Science or equivalent military background
+Working knowledge of CI\CD
+Familiar with AWS technologies (including Lambdas and DynamoDB), Redis, Postgres (or any other relational db) – advantage
+Experience in serverless solutions and micro-services architecture – advantage
+Ability to write, read, and speak fluently in English
+What's in it for you
+Variety of knowledge sharing and training opportunities
+Unique working environment where you will have a chance to communicate and work directly with clients
+Competitive salary Career and professional growth Possibility to work for a big, global and successful company
+Long-term employment with 20 working-days paid vacation and other social benefits
+State of the art, cool, centrally located offices with warm atmosphere, which creates really good working conditions
+Ability to improve English communication skills by working in a diverse and distributed team of professionals and meeting with customers
+About Ciklum International
+Ciklum is a top-five global Digital Solutions Company for Fortune 500 and fast-growing organisations alike around the world.
+Our 3,000+ Developers located in the Delivery Centres across the globe, provide our clients with a range of services including outsourcing software development, Enterprise App Development, Quality Assurance, Security, R&D, Big Data & Analytics.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+3 years of experience
+English Intermediate

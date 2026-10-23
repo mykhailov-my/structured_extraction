@@ -1,0 +1,46 @@
+Lead Python Engineer (Django)
+Enkonix
+
+If you are a Team/Tech Lead with excellent Django experience and you are seeking for new challenging tasks and interesting projects, this opportunity is right for you!
+We are looking for a self-starter who is capable of staying on track and pursuing solutions without supervision.
+You will work directly with the US client and will be the main person when it comes to making design, strategic and technical decisions.
+The product is a web communications platform that will be built from scratch.
+It allows users of social networks (such as Facebook) to place phone calls directly to other users without the need for telephone numbers.
+We use the Kanban methodology and the following technology stack:
+* Front-end - JavaScript (ES6), Vue.js, SSR, WebSockets, Bootstrap, Sass.
+* Back-end - Python, Django REST Framework, Django Channels, Redis, Celery.
+* And Git, CI/CD with Jenkins, Nginx, Swagger.
+Skills and Qualifications:
+* 7+ years working in software development.
+* 1+ years of experience in leading a team.
+* Proficiency with Python, Django and Django REST framework.
+* Hands-on experience with PostgreSQL, Celery, Redis.
+* Advanced knowledge of Pandas.
+* Previous experience with Amazon Web Services (EC2, S3) and Git.
+* Unit and integration testing expertise.
+* Upper-Intermediate English.
+* Excellent communications, organizational, and problem-solving skills.
+* In-depth understanding of web applications architecture.
+* Previous experience of working directly with a foreign client is a plus.
+Responsibilities:
+* Build a new development team from scratch and provide strong technical guidance to them.
+* Liaise with the client on aligning and reviewing a product roadmap, its vision, and project scope.
+* Lead on architecture design, development, and technology choices to ensure the app’s high performance.
+* Manage the team on a daily basis including distributing tasks and helping to solve the tech issues.
+The office is located near m. Universitet.
+You will join a startup-like and friendly environment where you can influence the product from scratch and develop new ways of implementing features and architecture improvements, in addition to:
+* No bureaucracy and no boring meetings.
+* Performance and remuneration review every 6 months.
+* Paid vacation (24 business days), holidays and sick days.
+* English lessons with a native speaker.
+About Enkonix
+Founded in 2016, Enkonix is providing a full-cycle development for European, Australian and US growing startups and established companies, where each team works as an integrated part of the customer’s organization.
+Our main focus is to create products with a specific purpose using the cutting-edge technologies and to inherit the client's best practices expanding our capabilities.
+Company website:
+[link]
+
+Python
+Kyiv
+Киев
+5 years or more
+English Upper Intermediate

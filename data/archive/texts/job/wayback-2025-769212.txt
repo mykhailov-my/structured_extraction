@@ -1,0 +1,42 @@
+Junior Python
+IGM Technology Corp.
+
+IGM Technology is a company that provides a SaaS solution designed to automate all of the manual aspects of the Financial Processes with our four modules:
+Disclosure Management, Account Reconsolidation, Tax Provisioning, Internal Control.
+Key Responsibilities:
+- Analyze existing business processes and identify areas where RPA and data automation can drive efficiency.
+- Develop, optimize, and maintain complex SQL queries in PostgreSQL to extract and transform large datasets.
+- Tune query performance using tools such as indexes, cursors, query plans, and execution analysis.
+- Write ETL scripts in Python for automation and data processing.
+- Experience working with APIs, JSON, and automation frameworks.
+- Knowledge of data governance, privacy, and compliance standards.
+- Collaborate with RPA developers and business analysts to design and support end-to-end automation workflows.
+- Monitor and maintain data pipelines and automation scripts to ensure accuracy, reliability, and performance.
+- Write/support automation and configuration scripts in JavaScript.
+Required Qualifications:
+- Advanced proficiency in SQL, particularly with PostgreSQL:- Ability to write optimized, readable queries.
+- Knowledge of query optimization techniques.
+- Experience with indexes, cursors, CTEs, and execution plans.
+- Solid working knowledge of Python (Numpy, Pandas or similar libraries) for automation scripting and data manipulation.
+- Solid working knowledge of Javascript and Json for configuration and automation scriptiong
+- Understanding of relational database principles, data normalization, and performance tuning.
+- Strong problem-solving skills, with a detail-oriented and analytical mindset.
+- Effective communication skills for cross-functional collaboration.
+Preferred / Nice to Have
+- Experience with Apache Airflow or similar tools.
+- Familiarity with JavaScript, Java.
+Knowledge of data visualization tools (e.g., Power BI, or custom dashboards).
+
+Необхідні навички
+Python
+
+No experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Python
+Python
+Employment: Fulltime
+Domain: SaaS
+Product

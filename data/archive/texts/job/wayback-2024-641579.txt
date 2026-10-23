@@ -1,0 +1,47 @@
+Python Developer
+Dataforest
+
+Looking for a Python Developer to join the Dataforest team. If you are looking for a friendly team, a healthy working environment, and a flexible schedule ‒ you have found the right place to send your CV.
+Skills requirements:
+• 1 year+ commercial experience with Python;
+• Experience with web scrapping and html parsing;
+• Experience with SQL;
+• Experience with Web automation;
+• Experience with libraries/ frameworks: Beautifulsoup, selenium, lxml;
+Optional skills (as a plus):
+• Experience with NoSQL and in-memory DB;
+• Experience with Pandas.
+• Experience with Flask, Flask-RESTful
+• Experience with linux, AWS, GCP;
+• Experience with 2captcha, anticaptcha;
+• Experience with pyautogui;
+• Experience with virtualdisplay.
+Key responsibilities:
+• Develop scraping and parsing solutions;
+• Develop API, ETL pipelines, other data integration services ;
+• Collaborate with Project Managers to solve customer problems;
+• Optimize applications regarding project requirements;
+• Collaborate with team members, take part in meetings, brainstorms.
+We offer:
+• Great networking opportunities with international clients, challenging tasks;
+• Building interesting projects from scratch using new technologies;
+• Personal and professional development opportunities;
+• Competitive salary nominated in USD;
+• Paid vacation and sick leaves, medical insurance;
+• Flexible work schedule;
+• Friendly working environment with minimal hierarchy;
+• Team building activities, corporate events.
+
+Development
+Python
+from Intermediate
+Considering with Beginner/Elementary
+Only from 1 year of experience
+Office or Remote
+Office:
+Ukraine
+, Remote:
+python, scraping, SQL/NoSQL, BeautifulSoup
+Domain: Machine Learning / Big Data
+Outsource
+Test task is needed

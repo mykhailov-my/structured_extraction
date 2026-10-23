@@ -1,0 +1,23 @@
+Data Engineer (Python)
+TenViz
+
+We're looking for help in improving and innovating around our data workflow - particularly with ETL (extract, transform, load).
+You would build an ETL Pipeline: search, load data from different sources (metadata) with different structures, design and update the database structure, clean and maintain data
+Requirements:
+- minimum one year of experience with SQL (PostgreSQL) and ETL process
+- experience working with Python/Django/Pandas/Numpy/Git
+- Intermediate English
+About TenViz Predictive Analytics
+TenViz is a FinTech product company, managed from NY, redefining the way people use their Mathematical/Statistical background in Ukraine.
+Company website:
+tenviz.com
+DOU company page:
+[link]
+
+Python
+Remote
+Full Remote
+Outstaff
+1 year of experience
+English Upper Intermediate
+Ukraine only candidates 🇺🇦

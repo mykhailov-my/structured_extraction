@@ -1,0 +1,26 @@
+{
+  "doc_id": "djinni-816405",
+  "url": "https://djinni.co/jobs/816405-system-administrator/",
+  "category": "Sysadmin",
+  "published": "Wed, 21 Oct 2026 16:41:16 +0300",
+  "collected_at": "2026-10-22T16:50:38+00:00",
+  "title": "System Administrator",
+  "company": "Tango Me/Танго Мі",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Виключно від 3 років досвіду",
+    "Тільки офіс",
+    "Україна",
+    "Країни, де розглядаємо кандидатів",
+    "Sysadmin",
+    "Зайнятість: Fulltime",
+    "Домен: Entertainment / Streaming",
+    "Продуктова компанія",
+    "Офіс:",
+    "Україна",
+    "(Київ)"
+  ],
+  "description": "Responsibilities\n- Support users (L1-L3)\n- Configure internal systems\n- Diagnose and troubleshoot technical issues\n- Maintain, troubleshoot & upgrade the network infrastructure\n- Install and maintain servers, devices and firewall\n- Monitor infrastructure\n- Ensure the smooth deployment of new SaaS applications\n- Configure & troubleshoot IDP, RBAC, Jira, GCP, AD (DC, NPS), Radius\n- Update technical documentation\nRequirements\nExperience and ownership:\n- 3+ years iт SysAdmin role with strong onsite presence\n- Ability to be the primary IT owner for the Kyiv office day to day (walk-ups, incidents, projects), with structured escalation to the global Corp IT team\n- Strong hands-on troubleshooting across endpoints, identity, network, and AV\nEndpoints and device lifecycle (macOS and Windows)\n- Strong macOS and Windows support skills, including diagnostics, OS upgrades, drivers, and common corporate apps\n- Experience managing macOS with Jamf (Jamf Pro preferred): enrollment, profiles, policies, patching, software deployment, FileVault\n- Experience managing Windows with Intune: enrollment, configuration profiles, compliance policies, app deployment, patching baselines\n- Full equipment lifecycle ownership: provisioning, enrollment, inventory, repairs/RMA, loaners, secure wipe, and disposal\nIdentity, access, and productivity tooling\n- Working knowledge of Okta: user lifecycle, group-based access, MFA troubleshooting, app assignments, and SSO troubleshooting\n- Google Workspace administration basics: user/group management and practical troubleshooting (login, email, permissions)\n- Atlassian tooling basics: Jira and Confluence user management, groups/permissions, and common access issues\n- Understanding of least-privilege access and clean access request handling\nOffice networking and infrastructure\n- Strong office network troubleshooting: LAN/WiFi issues, switch port basics, AP troubleshooting, DHCP/DNS symptoms, VPN client issues\n- Familiarity with firewalls (FortiGate preferred): user VPN troubleshooting, basic policy understanding, and collaboration with network owners\n- Understanding of VPN concepts\nSecurity and IT hygiene\n- Good security instincts: phishing awareness, safe handling of credentials, device security baselines, patching urgency, and incident discipline\nCommunication and collaboration\n- Good English for documentation and coordination with the global team\n- Service-oriented mindset, clear updates, and ability to handle interruptions while keeping control of priorities\nNice-to-have\n- Familiarity with certificate-based access concepts and auth integrations such as SCEP, AD, LDAP, RADIUS\n- Basic scripting/automation (Bash, PowerShell, Python) to reduce manual setup and speed up repetitive tasks\n- Familiarity with public cloud concepts used in corporate tooling (GCP preferred; AWS/Azure acceptable), especially IAM and networking basics\n- Experience supporting printers, access control vendors, and office buildouts/refreshes\nWhat we offer:\n- International company with several offices in different locations : Tel-Aviv, Kyiv, Warsaw, Limassol.\n- Granting an Option;\n- A professional environment with great people to work with;\n- Competitive salary, performance review;\n- Flexible working hours, no one here tracks your work time because our culture is built on trust and cooperation;\n- Social and welfare packages;\n- 20 working days paid vacation and 100% sick leaves coverage;\n- Opportunities to make a difference, to develop and grow;\n- Regular corporate celebrations, team buildings and fun activities;\n- Comfortable office close to the metro station. Our Kyiv office is open 24/7 with all safety and health measures in place."
+}

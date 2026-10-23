@@ -1,0 +1,50 @@
+Senior Technical Project Manager
+synosonic.com
+
+Senior Technical Project Manager
+Location: Brussels or Geel, Belgium
+Work mode: Near-site, with regular on-site presence
+Engagement: Long-term consultancy assignment
+Expected duration: 4 years
+Expected start: December, subject to contract award and signature
+Synosonic is looking for an experienced Technical Project Manager for a digital solutions programme at a large European public-sector organisation. The work supports systems used for grants, proposal evaluation and audit management.
+This is a senior delivery role that combines project leadership with a strong technical background. You’ll coordinate a 5–10 person Agile team and work with business and technical stakeholders to keep delivery on track.
+What you’ll do
+- Plan and manage scope, schedule, budget, resources, quality and risks.
+- Lead project planning, estimation, requirements refinement and change control.
+- Coordinate a 5–10 person development team in an Agile/Scrum environment.
+- Work with business managers, technical teams and other stakeholders.
+- Prepare roadmaps, work breakdown structures, status reports, dashboards and risk registers.
+- Review deliverables and support code quality, security and test coverage.
+- Coordinate work across frontend, backend, APIs, databases, cloud deployment and CI/CD.
+- Facilitate project meetings and communicate progress, risks and decisions clearly.
+What we’re looking for
+- A university degree equivalent to EQF Level 7, typically a Master’s degree or five years of higher education.
+- At least 15 years of professional IT experience.
+- Senior experience managing technical projects or software delivery.
+- English or French at B2 level or higher.
+- Strong knowledge of project planning, budgeting, risk management and stakeholder coordination.
+- Experience with Agile/Scrum and recognised project management methods such as PRINCE2 or PMBOK.
+- Experience with tools such as Jira, Microsoft Project, Confluence or SharePoint.
+- A broad technical background in enterprise software delivery. Relevant technologies include Java, Spring Boot, Hibernate, REST APIs, JavaScript, HTML/CSS, PostgreSQL or Oracle, WebLogic/JEE, AWS or Azure, CI/CD, Docker and Kubernetes.
+- Experience with API security, testing, code quality and software architecture.
+Please describe which technologies you have used hands-on and where your experience is in technical delivery oversight.
+Assignment details
+The assignment requires on-site presence in Brussels or Geel one day per week. Additional on-site attendance may occasionally be requested at short notice. Remote work, where permitted, must be performed from an EU Member State
+
+Необхідні навички
+Проектний менеджмент, Agile / Scrum, Jira & Confluence, Керівництво командою, Планування проєкту, Комунікація, Управління ризиками, Kanban
+Вимоги до володіння мовами
+Англійська: C1 – Просунутий
+
+Виключно від 10 років досвіду
+Гібридний формат роботи
+Бельгія
+Країни, де розглядаємо кандидатів
+Англійська C1 – Просунутий
+Project Manager
+Зайнятість: Fulltime
+Домен: HRTech
+Аутстафінгова компанія
+Офіс:
+Бельгія

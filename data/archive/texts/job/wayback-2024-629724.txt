@@ -1,0 +1,43 @@
+Python AI/ML Engineer
+Trembit
+
+Trembit is video solution provider that helps clients to utilize video streaming in full with their products. We make R&D or use existing video solutions. Among them: video chats, telehealth, broadcast studios, video convertion, transcribe and recording in real-time.
+Project Technologies:
+Python, Open-source LLM’s, OpenAI, AWS, GCP.
+Project duration: 6+ months.
+Tasks:
+— Conduct in-depth investigations into AI/ML domains aligned with our company interests, ensuring our projects remain at the forefront of technological advancements.
+— Perform comprehensive analyses of client requirements, crafting AI-driven proposals that address their unique challenges and objectives.
+— Expertly select and meticulously optimize Large Language Models (LLMs) or other AI instruments to suit project-specific needs, ensuring peak performance and efficiency.
+— Design and implement sophisticated AI-powered APIs, focusing on capabilities like transcription, summarization, and advanced image processing, and ensure their seamless integration into both demonstration settings and live operational environments.
+Must have skills (hard, technical):
+— Knowledge and experience with Python.
+— Solid understanding of machine learning concepts, algorithms, and techniques.
+— Understanding principles of LLMs, open-source and commercials, training, deploying, optimizing.
+— Upper-Intermediate English or higher (ability to speak with the clients verbally).
+Must have skills (soft):
+— Own problems end-to-end, and are willing to pick up whatever knowledge you’re missing to get the job done.
+— Have the ability to move fast in an environment where things are sometimes loosely defined and may have competing priorities or deadlines.
+— Excellent communication and teamwork skills, with the ability to collaborate effectively with cross-functional teams.
+As a plus skills (hard, technical):
+— Knowledge of cloud platforms (e.g., AWS, Azure, GCP) and experience with containerization (e.g., Docker) is a plus.
+— Knowledge of the LangChain framework.
+— Basic knowledge of NumPy, WebSockets, oAuth.
+— Experience with OpenCV and TensorFlow.
+Education: Technical education (Math oriented).
+Interview stages:
+Technical part (1 stage): tech online interview with СТО+CEO.
+Work schedule:
+The full-time work — 100% remote. Flexible workday (start from 8.00 to 11.00).
+
+Development
+Python
+Kyiv
+from Upper-Intermediate
+Considering with Pre-Intermediate
+Only from 3 years of experience
+Full Remote
+Worldwide
+ML, AI, Python
+Domain: Other
+Outsource

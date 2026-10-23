@@ -1,0 +1,32 @@
+Middle Python Full-Stack Developer for InfluencerDB
+Daxx
+
+InfluencerDB is a SaaS platform, that develops software that helps to select the-best-in-class influencers on the market and acts as a facilitator for monitoring marketing campaigns as well as a brand channel. InfluencerDB is an influencer marketing technology company, operating as a SaaS model.
+Responsibilities:
+Write APIs and backend code
+Write frontend components
+Integrate components into SPA and wire with APIs
+Write automated tests for backend and frontend
+Requirements:
+At least 2 years of experience with Python
+Good skills in frontend development (Vue.js)
+Attention to code quality and maintainability
+Ability to work independently
+Upper-Intermediate English
+Daxx offers:
+Direct cooperation with the customer
+Dedicated HR/ Client Manager
+Competitive salary, medical insurance, 20 working vacation days
+Regular corporate events, team buildings, etc.
+About Daxx
+Daxx is a Dutch IT company that offers dedicated team IT services to international IT companies.
+Founded in 1999 and headquartered in the Netherlands, Daxx has offices in Kyiv, Kharkiv, and Dnipro employing over 400 staff. Daxx offers an exciting and comfortable environment to work in with interesting clients and interesting projects.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kharkiv
+2 years of experience
+English Intermediate

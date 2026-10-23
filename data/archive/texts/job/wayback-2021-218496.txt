@@ -1,0 +1,26 @@
+Python REST API Developer
+Threat Informant
+
+We are seeking a developer with experience in Python OOP development to develop, maintain and update existing packages that are used to communicate with services such as DynamoDB, Elasticsearch, etc… and implement in existing REST APIs
+Our team develops web applications for conference management and IT security. We develop microservices using AWS with technologies such as DynamoDB, SES, S3, etc… Position is remote with fairly flexible working hours.
+We are seeking a developer with experience in Python OOP development to develop, maintain and update existing packages that are used to communicate with services such as DynamoDB, Elasticsearch, etc… and implement in existing REST APIs
+Required Experience:
+• REST API design & development
+• OOP
+• NoSQL or Document DBs
+• AWS Dynamodb, API Gateway, Lambda, SES, SQS, Cognito
+• Redis
+• Marshmallow
+Desired Experience:
+• Serverless
+• Django/Flask
+• Websockets
+About Threat Informant
+We have a small team of developers that are working on building applications that are typically only used internally.
+Company website:
+[link]
+
+Python
+Remote
+1 year of experience
+English Intermediate

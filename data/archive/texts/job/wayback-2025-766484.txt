@@ -1,0 +1,62 @@
+Senior Python Engineer with Data background
+Levi9 Ukraine
+
+🔹Who we are!
+At Levi9, we are passionate about what we do. We love our work and together in a team, we are smarter and stronger. We are looking for skilled team players who make change happen. Are you one of these players?
+🔹About the project
+Our client is a leading media company in Western Europe, delivering high-quality content across various platforms, including newspapers, magazines, radio, TV, websites, apps, and podcasts. Their brands reach millions of people daily, shaping the media landscape with independent and trusted journalism.
+🔹About the job
+You’ll be working on a personalisation engine that serves all customers of our client, across all media offerings. The customer team is a cross-functional- with data engineers, ML engineers, and data scientists.
+🔹Responsibilities
+- Maintain and extend our recommendation back-end.
+- Support operational excellence through practices like code review and pair programming.
+- The entire team is responsible for the operations of our services. This includes actively monitoring different applications and their infrastructure as well as intervening to solve operational problems whenever they arise.
+🔹Your key skills:
+- analyze and troubleshoot technical issues
+- communicate about technical and functional requirements with people outside of the team
+🔹Required qualifications:
+- a positive and constructive mindset and give feedback accordingly
+- high standards for the quality of the work you deliver
+- a degree in computer science, software engineering, a related field, or relevant prior experience
+- 5+ years of software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience
+- can-do and growth mentality that communicates clearly
+- affinity with data analysis
+- a natural interest in digital media products
+🔹The candidate should have:
+- Experience in building microservices in Python and supporting large-scale applications
+- Experience building APIs with FastAPI
+- Experience in developing applications in a Kubernetes environment
+- Developing batch jobs in Apache Spark (pyspark or Scala)
+- Developing streaming applications for Apache Kafka in Python (experience with Kafka is a big plus)
+- Working with CI/CD pipelines
+- Writing Infrastructure as Code with Terraform
+- AWS certification at the Associate level or higher, or willingness to obtain it
+- Nice to have: machine learning knowledge
+🔹9 reasons to join us:
+- Today we're working with the technology of tomorrow.
+- We don't wait for a change. We are the change.
+- We're experts in creating experts (Levi9 academy, Lead9 program for leaders).
+- No micromanagement. We are free birds with a clear understanding of what the high performance is!
+- Learning in Levi9 never stops (unlimited Udemy for business, meetups, English&German courses, Professional trainings).
+- Here you can train your body and mind.
+- We've gathered the best locations - comfortable, cozy and pet-friendly offices in Kyiv (5 minutes from Olimpiyska metro station) and Lviv, with regular offline internal events
+- We have master's degree in work-life balance.
+- We are actively supporting Ukraine with constant donations and volunteering
+
+Необхідні навички
+FastAPI, 2 years
+
+Only from 5 years of experience
+Hybrid Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Python
+FastAPI
+2 years
+Employment: Fulltime
+Domain: Advertising / Marketing
+Outsource
+Office:
+Ukraine
+(Kyiv, Lviv)

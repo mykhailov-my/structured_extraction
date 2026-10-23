@@ -1,0 +1,47 @@
+Junior Python Developer (full stack)
+Synergy Way
+
+We are currently seeking a motivated and skilled Junior Python Developer with a passion for full-stack development.
+Required skills:
+- Minimum of one year of hands-on experience with Python, Django, and Django ORM;
+- Good understanding of JavaScript/Typescript and practical experience with it;
+- OOP, SOLID, Design Patterns;
+- Code reviews and adherence to best coding practices;
+- Understanding how to work with SQL and Postgres databases;
+- Knowledge of AI integration concepts;
+- Experience in working with REST API;
+- Familiar with version control using Git and containerization with Docker;
+- At least Intermediate in English.
+Will be a plus:
+- Practical experience with ML frameworks: OpenCV, Tensorflow/PyTorch;
+- Understanding how to work with Pandas and Numpy;
+- Cloud platform experience (AWS, GCP, or Azure);
+- Practical experience with JS frameworks React/Vue;
+- Experience with Linux (sh/bash);
+- Unit testing.
+We offer:
+Opportunities for career growth and personal development, to help you improve your skills and achieve your goals;
+Educational programs that are covered by the company at 30% of the expense;
+Paid vacation leave and public holidays (21 vacation days annually);
+Competitive salary with regular performance reviews;
+Outdoor team activities are paid for by the company;
+English language improvement through extensive communication;
+The chance to work alongside highly experienced and enthusiastic IT professionals who are ready to share their knowledge and help you gain invaluable experience in a live IT environment.
+About Synergy Way
+Synergy Way is a technology company offering high-end software solutions and services to businesses. With deep domain expertise in logistics, eCommerce, and custom software development, the company consistently goes beyond its client’s expectations by bringing together technology, talent, innovation, and the highest quality standards.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Lviv
+Category: Python
+Python3 , Django , Design Patterns/SOLID/OOP , JavaScript/Typescript , AWS/Azure/GCP , MySQL/Postgres
+English: Intermediate
+1 year of experience
+Domain: E-commerce / Marketplace
+Office Work
+Outsource
+Ukraine (Lviv)
+Only candidates from Ukraine

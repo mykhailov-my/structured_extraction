@@ -1,0 +1,28 @@
+Python Developer
+ITExpert
+
+Американська продуктова компанія знаходиться в пошуку Python Backend Developer для віддаленої роботи по Україні.
+Компанія розробляє платформу на базі штучного інтелекту у сфері будівництва. Клієнти можуть швидко замовити буд. матеріали або товари для дому з найкращими цінами у постачальників у швидкі терміни. Головний офіс у Лос-Анджелесі, СТО в Лондоні.
+🔸Мають невеликий стартап зі співробітниками з України та Польщі. Всі працюють по нашій тайм зоні (GMT+2). Трекінг часу не використовують.
+🔸Проект пишеться з нуля.
+🔸Tech stack: Python\Django і React Native, хостяться на Heroku, можливо в майбутньому переїдуть на AWS,
+використовують Zoho як внутрішню CRM/
+🔸Команда: 3 Backend розробники, 2 Frontend розробники. Загалом в компанії 20 розробників.
+🔸Пропонують: 20 днів відпустки + лікарняні, техніку, опціони.
+Важливий досвід з Django (особливо DRF), розмовна англійська, досвід самостійного збору вимог у бізнесу.
+Буде плюсом досвід з системами повнотекстового пошуку та системами аутентифікації.
+About ITExpert
+IT-recruiting agency ITExpert has been on the market for over 7 years. We help companies around the world to successfully close IT positions. We are looking for developers, QA, DevOps, CTOs for FinTech, E-commerce, SaaS and PaaS products, Machine Learning and AI and other areas. We work with languages from Java to Ruby.
+We treat both the client and the candidate with equal respect. We don't just close the position. We give our best 200%. So, for example, our recruiters help with resume writing, select a relevant vacancy according to all the wishes of the candidate and try to always be in touch.
+Company website:
+[link]
+
+Python
+Category: Python
+Django , Python / Django , Python/Django/Django-rest-framework , Django Rest Framework
+English: Upper-Intermediate
+3 years of experience
+Full Remote
+Product
+Ukraine
+Only candidates from Europe and Ukraine

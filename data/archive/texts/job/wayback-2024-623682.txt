@@ -1,0 +1,49 @@
+Full-stack Developer (Python, Node.js, React)
+Merge Rocks
+
+We are looking for a Senior Full-stack Engineer (Python, Node.js, React) who will join a team of a Pypestream product.
+You would be embedded in the Pypestream Pro team and be working directly with the production team on their existing product offerings. Updating Python code, improving it, and adding features and functionality to the frontend (React) and some middleware (NodeJS).
+This platform will be a combination of low code / no code tools that will be developed by our engineering team and be used by our customers to create customer service automation solutions which can be delivered to their customers. We are looking for a “difference maker” Senior Engineer who’s proficient with front-end and backend technologies and is truly a full-stack developer that enjoy’s creating amazing front-end technology but can write optimized and performant back-end code — someone who loves to be part of the end-to-end development process. As a Senior Engineer, you’ll translate product requirements into true product technology solutions that will ship to our customers in a timely manner and committed to both quality and security. You’ll work directly with our Product team to ensure that you have an understanding of the requirements and will coach, mentor and lead your teammates through to successful launches of releases and follow and help develop engineering "best practice“’. As a Senior Engineer you will be a difference maker on the team and lead by example with a “Give a damn” mentality, motivated, and great with figuring out solutions to a given problem.
+What we expect
+- 6+ years of demonstrable experience
+- Strong proficiency in Python
+- Strong proficiency in GraphQL
+- Proficiency in Node.js, React.js
+- Proficiency with PostgreSQL or another SQL technology
+- Experience with common front-end tooling and technologies: Webpack, NPM, NPM Publishing, Cypress, ViTest, Sass (SCSS), Pub/Sub, Websockets, JSON Schema, Isomorphic rendering, Monorepo experience, Prettier, Eslint, Stylelint, etc
+- Self-starter with good communication skills and at a senior level who can take on complicated tasks.
+- Experience with code versioning tools with Git, Github Actions
+- Experience State Management, ideally x-state
+- Strong understanding of Web Components (i.e. Lit Element)
+Nice to have
+- Docker, Container experience
+- Worked with automation tools such as UIPath, Blue Prisma or n8n
+- Chat bot experience
+- Developing low code / no code tooling
+- Design Systems
+What you’ll be doing?
+- Work as a full-stack developer on existing offering and be working with Python, Node.js and React.
+- Updating Python code, improving it, but also adding features and functionality to the frontend (React) and also some middleware (NodeJS).
+- Lead small to mid-sized engineering projects but also be a highly productive individual contributor.
+- Write modern, high quality frontend / full-stack glue code connecting backend and frontend systems; “back of the frontend” application / business logic.
+- Shared responsibility in code reviews, tag-team on solving problems.
+- Contribute in improving automated testing coverage (unit, E2E, VRT).
+- Writing modern, high quality frontend / full-stack glue code connecting backend and frontend systems; “back of the frontend” application / business logic
+- Conduct Cross-team collaboration (other frontend / full-stack engineers, design, and product)
+- Provide feedback on design (Figma) comps, product requirement docs; break down and define the work (for self + delegation)
+- Help your team write better, more maintainable code.
+Hiring Process
+Pre-screen interview with a recruiter;
+Technical interview with CTO;
+Final interview with the client.
+
+Development
+Python
+from Upper-Intermediate
+Considering with Pre-Intermediate
+Only from 5 years of experience
+Full Remote
+Worldwide
+Python, Fullstack
+Domain: E-commerce / Marketplace
+Product

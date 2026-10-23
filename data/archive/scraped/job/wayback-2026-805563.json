@@ -1,0 +1,28 @@
+{
+  "doc_id": "wayback-2026-805563",
+  "url": "https://djinni.co/jobs/805563-python-team-lead/",
+  "snapshot": "https://web.archive.org/web/20260713101740/https://djinni.co/jobs/805563-python-team-lead/",
+  "captured_at": "2026-07-13T10:17:40",
+  "posted": null,
+  "year": 2026,
+  "active": false,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Python Team Lead",
+  "company": "Syndicode",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from 8 years of experience",
+    "Full Remote",
+    "EU",
+    "Countries where we consider candidates",
+    "English C1 - Advanced",
+    "Python",
+    "Employment: Fulltime",
+    "Domain: Mobile",
+    "Outsource"
+  ],
+  "description": "About us\nSyndicode is a value-driven software development partner with a globally distributed team of engineers, designers, architects, and IT managers. We are united by the mission to provide our clients with software products and services that perform, look, and work as designed.\nWe believe that our people and culture sustain Syndicode’s success. Our team is unified by shared principles like: Accountability, Involvement, Excellence, Visibility, Integrity, Innovation, Win-Win, and Flexibility. Syndicoders are professionals who pursue self-improvement through continual learning, are eager to introduce improvements to work processes, and can analyze a variety of sources to make sound, timely decisions.\nIf it sounds like you, apply to our jobs and become a new Syndicoder!\nAbout the role\nAs a Python Team Lead, you will be responsible for the backend architecture that supports the mobile application. You will lead the development team, make critical architectural decisions, ensure high availability and performance of APIs used by mobile apps, and promote technical excellence throughout the project.\nWhat you’ll be doing\n- Lead and manage a cross-functional engineering team of back-end, web, or mobile developers\n- Own technical architecture decisions and drive the overall backend and API strategy\n- Define development standards, code review processes, and testing practices across the team\n- Coordinate work between backend and client engineers to ensure seamless API contracts and integration\n- Hands-on contribution to critical backend services and infrastructure using Python (FastAPI/Django)\n- Build and optimize scalable, service-oriented systems supporting real-time features\n- Ensure platform security, GDPR compliance, and audit logging\n- Mentor and grow engineers technically and professionally, fostering a culture of ownership and quality\nWhat you’ll need\n- 6+ years of professional software development experience, with strong Python backend expertise\n- 2+ years of experience leading or managing engineering teams\n- Proven experience building and shipping products that span web and mobile platforms\n- Deep understanding of RESTful API design\n- Strong experience with relational databases (PostgreSQL), data modeling, and query optimization\n- Experience with cloud platforms (AWS or GCP), containerized deployments (Docker, Kubernetes), and CI/CD pipelines\n- Familiarity with mobile development workflows, release cycles, and platform-specific constraints\n- Solid understanding of testing strategies (unit, integration, e2e) and quality assurance practices across backend and mobile\n- Experience with event-driven architectures, message queues (Redis, RabbitMQ, or Kafka)\n- Strong understanding of asynchronous programming (asyncio, async/await) and concurrency patterns in Python\n- Strong understanding of authentication, authorization, and security best practices\n- Excellent communication skills with the ability to align technical and non-technical stakeholders\nNice to have\n- Experience with AI/ML integration, vector databases (Pinecone, Weaviate, pgvector), or recommendation systems\n- Experience with NoSQL or non-relational databases (MongoDB, DynamoDB, Cassandra, or similar)\n- Hands-on experience with or close collaboration with teams building client applications (React, React Native, Flutter, Next.js, or similar web/mobile frameworks)\n- Experience with real-time systems (WebSockets, live streaming, push notifications)\n- Background in marketplace, e-commerce, or content-driven platform engineering\n- Experience with multi-language/localization systems\n- Exposure to tax/VAT compliance logic or fintech-adjacent workflows\n- Experience scaling teams and processes during rapid growth phases\nWhat you’ll get at Syndicode\n- 15 days of vacation, 11 days off for holidays, and 20 sick leave days per year\n- Fully remote job\n- Educational support\n- Internal tech meetups\n- Continuous feedback within teams and departments\n- Top-notch team\n- Ability to participate in decision-making and bring new ideas\n- Self-management: opportunity to manage your time and plan your activities\n- Dynamic fast-growing environment: we react and adapt quickly to the world and market changes."
+}

@@ -1,0 +1,30 @@
+{
+  "doc_id": "wayback-2024-633435",
+  "url": "https://djinni.co/jobs/633435-mlops-python-/",
+  "snapshot": "https://web.archive.org/web/20240908104252/https://djinni.co/jobs/633435-mlops-python-/",
+  "captured_at": "2024-09-08T10:42:52",
+  "posted": null,
+  "year": 2024,
+  "active": false,
+  "layout": "v3",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "MLOps (Python)",
+  "company": "Particles Global",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Data and Analytics",
+    "Data Science",
+    "ML / AI",
+    "Only from Upper-Intermediate",
+    "Only from 3 years of experience",
+    "Full Remote",
+    "Worldwide",
+    "Countries where we consider candidates",
+    "ML, LLM, Python, FastAPI",
+    "Domain: Gamedev",
+    "Outstaff"
+  ],
+  "description": "The customer of Particles Global - The USA-based company - (develops AI-powered software for faster, easier, & smarter accounts payable) - is looking for an ML Ops with Python Developer.\nAbout the company: The team is a mixed data and engineering team with 10 people led by the Director of Data and Engineering. They use a modified scrum methodology (2 weeks sprints). The role will involve development, deployment and maintenance of LLMs and ML models on a team with another Data and ML Ops team member (who speaks Ukrainian). They work a flexible schedule, but developers will need to be available at 10am-2pm New York Time (EST).\nRequirements:\n- Intermediate machine learning knowledge (pandas, numpy, scikit learn, lightgbm, xgboost);\n- Python knowledge;\n- Fast API framework;\n- Experience with ML inference;\n- LLM deployment (Langchain, Open AI, Vertex AI, etc);\n- Capacity to work independently;\n- Good communication skills.\nNice to have:\nKubeflow/Kserve framework for ML;\nRay framework;\nKubernetes knowledge;\nTerraform knowledge;\nInterview process:\n1. Initial 30 minute call with the customer.\n2. A short technical assignment.\n3. 60 minute final technical call with the customer."
+}

@@ -1,0 +1,38 @@
+Middle/Senior Python Developer
+A-LISTWARE
+$3500-5000
+
+Our customer:
+A vulnerability management optimization platform that helps you prioritize and allocate team resources to increase work efficiency.
+Required experience and skills:
+3+ years of experience with Python, Flask;
+Knowledge of cybersecurity;
+Experience with AWS – Cognito, S3, Secret manager;
+Experience with APIs;
+Understanding of OOP in Python;
+Experience with Design Patterns.
+Advantages:
+Experience with DevOps / CI/CD;
+Experience with MongoDB;
+Experience with Apache airflow.
+Working conditions:
+5-day working week, 8-hour working day, flexible schedule;
+All public holidays are days off;
+Vacation covered by the company;
+Remote work.
+About A-LISTWARE
+A-Listware is a tech company offering challenging and rewarding programming job opportunities for Ukrainian engineers. We work with international customers from product development to outsourcing and outstaffing.
+We are located in the center of Kharkiv, yet in a quiet street with lovely cafes. Have cosy office, friendly family atmosphere and lots of fun! Come and join us!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+English: Upper-Intermediate
+3 years of experience
+Full Remote
+Outstaff
+Ukraine
+Only candidates from Europe and Ukraine

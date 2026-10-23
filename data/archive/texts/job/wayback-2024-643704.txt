@@ -1,0 +1,42 @@
+Middle Java Developer with Python knowledge
+Scalors
+
+On behalf of our new Client, Scalors is looking for a Middle Java Developer to join a client team for full-remote job on a full-time basis.
+*About the client:* The clients company is the partner for subscription commerce solutions, digital transformation and the outsourcing of marketing, sales, IT processes and payment transactions.The company is an owner-managed investment company. Client's core business is investing in companies as an entrepreneur.
+As an innovative hub, client bundles the expertise of several relevant disciplines and within various industries along the value chain.
+The conpany is the absolute pioneer in subscription commerce and has been managing B2C customers in subscription models in its own holdings for decades.
+Tasks and responsibilities:
+- Design, develop and implement user-friendly software applications and systems
+- Collaborate with other team members to understand requirements and develop technical solutions
+- Ensure code quality through careful review and testing
+- Actively participate in code reviews and technical discussions
+- Ongoing development of existing systems and integration of new technologies
+Requirements:
+- Completed studies in computer science, software engineering or a comparable qualification
+- Sound knowledge of the following programming language: Java ( Python will be a great plus)
+- Experience with modern development tools and frameworks
+- Good problem-solving skills and a high degree of initiative
+- Ability to work in a team and excellent communication skills
+- ERP experience
+- Fluent English
+About Scalors
+SCALORS is a German software outsourcing company, which has development centers across Europe and recruits IT specialists all over the world for permanent employment in Germany, Austria and Switzerland. We've specialized in building cost-efficient software teams in Ukraine. You work with us as a German contractual partner. This means that you have no monetary insecurities and a very high level of legal security.
+Stay tuned for open vacancies on scalors.com!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Development
+Java
+Kyiv
+from Upper-Intermediate
+Considering with Intermediate
+Only from 3 years of experience
+Python, Java
+Domain: Other
+Full Remote
+Outsource
+Ukraine
+(Kyiv)
+, Germany

@@ -1,0 +1,55 @@
+Senior Python Developer
+Global Teams
+
+We are looking for Senior Python developer for work in our worldwide team. We need a
+developer who wants to take part in something big and assume responsibility for the success of a
+new and innovative e-commerce project.
+We are an all-in-one, leading dropshipping platform that automates all actions for the user, from
+finding smart and hot-selling products to product uploading, price & stock monitoring the
+suppliers’ sites, customer support system, price optimization system, and more.
+The company is global and has teams all over the world. Teams vary in size and frequently
+collaborate with each other, providing our employees the unique opportunity to learn and work
+with teammates from around the world. Every employee plays a key role in growing the
+company and has the responsibility for the success of the company.
+What is required of you:
+-Main hard skills requirements for candidates:
+1. Strong background with Python 4+ years;
+2. Experience with Python 3 version;
+3. Experience working with background tasks using Celery
+4. Strong background with DBs - MySQL and MongoDB;
+5. Strong experience with Kubernetes and Docker;
+6. Experience with AWS.
+7. Managerial experience will be as a plus.
+8. Experience with collaborative interface design tools like Figma – will be as a plus.
+-Main soft skills requirements for candidates:
+1. Strong desire and a proactive attitude to work;
+2. Flexibility and team-player;
+3. English - at least Intermediate level.
+4. Strong problem-solving abilities
+5. Ability to independently perform your tasks
+Will be a plus:
+Ability to work in a time zone close to the US is huge advantage.
+Ready to offer:
+Social benefits, paid vacations, sick-leaves;
+Career possibilities with growing team;
+Modern office;
+Excellent Medical Insurance (health, dental, etc.);
+Gym membership;
+Onsite English classes for different levels and with different programs;
+Presents from the company for birthdays, anniversaries, weddings, and the birth of the child.
+The right candidate will be someone with an open mind who loves to solve problems and who
+strives to take their projects to the next level.
+If you are interested in this position, please send us your CV!
+About Global Teams
+We are Global Teams, founded in 2014 to help you grow your business by drawing on the talents of dedicated IT professionals based in Ukraine.
+We began as a software development outsourcing company, but quickly realized that remote work is the future. We added a curated outstaffing service, giving clients more control over their remote teams while reducing expenses and any administrative challenges they may encounter.
+Today, Global Teams has expanded to include over 150 experienced software developers and other professionals in Ukraine, with offices in Kyiv, Ukraine, and Tel Aviv, Israel.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+3 years of experience
+English Intermediate

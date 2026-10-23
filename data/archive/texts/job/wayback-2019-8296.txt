@@ -1,0 +1,28 @@
+Senior full stack Python/Django developer
+Initech
+
+nitech (an Israeli boutique outsourcing company) is looking for a senior web server-side developer to work with us remotely on a full-time or near full-time basis.
+The job offer is for individuals only, not relevant for companies.
+We are a projects company, so we work on multiple projects and we also have some internal products, for example this: [link]
+The position will include working on different projects over period of time, some from scratch, some maintenance, some consulting. Our activities are diverse.
+We don't offer enterprise position (working in a same team for 10 years on the same code).
+Minimum job requirements are as follows:
++ passionate about code
++ 7+ years of Python/Django development (using OO, frameworks)
++ emphasis on server-side developement with performance / security orientation
++ control of full stack of web application with focus on server-side
++ administration skills in Linux, SSL, AWS
++ dba-level control of popular relational DBs (MySQL, PostgreSQL)
++ excellent written English
+Working with us is both challenging and rewarding experience.
+Are you up for the task?
+Apply now!
+About Initech
+IniTech is an innovative software company that develops digital products for startups and online businesses. We are experts at understanding the client’s vision and needs, be it in app/web development and/or UX/UI design. We know how to listen, analyze and build appealingly clean and highly functionable products. Our systematic and professional approach allows us to create a wide range of digital products. We excel both in building brand-new systems and taking care of the code developed by others. Our services cover the full product life-cycle (functional analysis, UX, design, architecture, development, manual and automated testing, devops and maintenance).
+Company website:
+[link]
+
+Python
+Remote
+5 years or more
+English Advanced/Fluent

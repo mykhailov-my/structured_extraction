@@ -1,0 +1,34 @@
+Senior Full-Stack .Net Developer + Python or TypeScript
+Gemicle
+
+Are you passionate about designing and developing cutting-edge solutions in a dynamic and scalable microservices environment? Do you thrive on the excitement of owning your code from concept to production, including the creation of automation tests and deployment? If so, we want you to join our team:)
+Responsibilities:
+- Design and develop full-stack end-to-end solutions in a scalable microservices-based environment.
+- Own your code from design to production, seeing the full picture including automation tests and deployment.
+- Participating in code reviews and technical discussions, providing mentorship.
+Requirements:
+- At least 5+ years of experience in full-stack development
+- Experience with C#/.NET Core
+- Experience in SQL/NoSQL databases.
+- Strong microservices architecture knowledge.
+- Experience in working with tens of TBs in the shortest possible time
+- Experience with Python or Typescript as a second language.
+- Mentoring experience
+- Upper-Intermediate+ English
+Advantages:
+- B.Sc. in computer science or equivalent.
+- Experience with Docker and Orchestration Infrastructures (K8S).
+- Experience with GCP services would be a plus.
+
+Development
+Fullstack
+from Upper-Intermediate
+Considering with Intermediate
+from 5 years of experience
+Considering with 4 years of experience
+Full Remote
+Ukraine
+.Net, Python, JavaScript / TypeScript, SQL/NoSQL
+Domain: Other
+Product
+Test task is needed

@@ -1,0 +1,67 @@
+Python Engineer
+WeAreBrain
+
+We are looking for a skilled Python Engineer (Middle+) to join our team building platform for building AI agents and serverless automation with fine-grained access control.
+Important!
+This role involves some travel to the Netherlands to collaborate closely with the client, run in-person consulting sessions at the WeAreBrain office in Amsterdam, and occasionally visit the client’s office. Candidates must have the flexibility and ability to travel within Europe.
+About the Project:
+It's a platform for building AI-powered applications. It brings together multi-provider LLM agents, serverless Python functions, persistent state, database querying, file storage, and template rendering — all behind a single API with role-based access control.
+That platform allows customers to build:
+- Internal copilots per department
+- Process automation agents
+- AI-powered internal tools
+- AI features inside your own products
+Our stack includes Python (FastAPI, LangChain), React portals, and cloud-native infrastructure (Kubernetes, Docker, GitHub Actions).
+For teams building AI
+- No more rebuilding auth, memory, RAG and integrations
+- Faster delivery of production-grade tools
+- Shared standards across all AI initiatives
+For IT, security & leadership
+- One place to enforce data access rules
+- One place to audit AI behavior
+- Full ownership of data in a private security perimeter
+- Fewer uncontrolled risks
+Tech Stack:
+— Python 3.11+, FastAPI, Flask
+— SQLAlchemy, PostgreSQL, MongoDB, Redis, Alembic
+— PaddleOCR, Tesseract, custom NLP models
+— Docker, Kubernetes, GitHub Actions
+— React + TypeScript + Vite (frontend)
+Responsibilities:
+— Develop, test, and maintain Python microservices and agentic AI workflows
+— Collaborate with frontend, DevOps, and business owner to deliver seamless solutions
+— Write clean, readable, and well-documented code using type hints and Pydantic model
+— Participate in code reviews and contribute to continuous improvement
+— Ensure system stability, security, and compliance (AVG/GDPR)
+— Research and prototype new technologies (LLMs, OCR, cloud-native patterns)
+— Support CI/CD, testing, and deployment automation
+Qualifications:
+— 5+ years of professional Python experience, ideally with microservices or AI/NLP project
+— Experience with FastAPI, SQL/NoSQL databases, and cloud infrastructure
+— Familiarity with Docker, Kubernetes, and GitHub Actions
+— Understanding of REST APIs, authentication (OAuth2, JWT), and security best practices— Experience with frontend integration
+— Good communication and collaboration skills; fluent English (B2+)
+— Bachelor’s degree in Computer Science, Software Engineering, or related field
+— Experience with testing frameworks (Pytest, etc.)
+What we offer:
+*Flexible working conditions
+*Competitive salary depending on your experience with a comprehensive benefits package, which includes a monthly €50 stipend to cover work-from-home expenses, and an allocation of 25 vacation days.
+*After one year, WeAreBrain offers access to a Team Reward Program for all employees.
+*Innovative Exploration: Seize the chance to pioneer your department, venturing into uncharted territories, and experimenting with fresh ideas that push boundaries.
+*Entrepreneurial: Immerse yourself in a true entrepreneurial environment where every team member is an owner.Office Perks: We organise lunch in the office and have monthly gatherings for drinks and bites, fostering our team spirit.
+*Remote Work Flexibility: Our team has the freedom to work remotely, allowing you to achieve a healthy work-life balance that suits your preferences.
+*Professional Growth: We value your growth. Take advantage of diverse opportunities and resources designed to nurture your professional development.
+*A creative and dynamic work environment.
+Apply for the job
+Do you want to join our team as our new Senior Python Engineer? Then we’d love to hear about you!
+
+Only from 4 years of experience
+Full Remote
+EU
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+Employment: Fulltime
+Domain: Other
+Agency

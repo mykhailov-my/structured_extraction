@@ -1,0 +1,47 @@
+Junior/Middle Python developer
+DevelopsToday
+
+Our engineering team is expanding and seeking a talented Junior Python Developer to build full-stack web applications across diverse industries including sports, healthcare, machine learning, fin-tech, hiring and eCommerce.
+Dive into the world of Python development with us and be part of our journey to drive innovation using modern technologies and best practices.
+What you'll be working on:
+- 🐍 Build REST APIs with Python and modern frameworks like FastAPI
+- 💻 Crafting simple user interfaces for your APIs
+- ✨ Assuring application stability with comprehensive unit and integration testing
+- 🏗 Orchestrating app deployments using Gunicorn, UVicorn, Nginx, and Docker
+Experience that will help you to do the job:
+- Profound knowledge of FastAPI, Django, Django REST, or comparable frameworks, crafting solutions using the MVC pattern
+- Experience in describing or creating database structures with Django ORM, SQLAlchemy, or similar libraries
+- Familiarity with raw SQL queries, SQL query optimization, and database structure normalization
+- Proficiency in writing tests using tools like Pytest, Faker, or their equivalents
+- Experience in packaging and deploying applications using Docker, including writing Dockerfiles and cluster descriptions with Docker-Compose
+- English Upper-Intermediate or higher
+Experience that will be a plus:
+- Experience in setting up CI/CD pipelines
+- Deployment know-how on cloud platforms such as Google Cloud, AWS, Azure, or Digital Ocean
+We care for our team, therefore we offer:
+- 🚀 Interesting and challenging projects with modern technology stack
+- ✅ Code reviews and constant feedback on your work
+- 💪 Culture encouraging and promoting professional growth and development
+- 💻 Modern working environment
+- 💸 Competitive salary in USD with regular reviews based on your results
+- 💲 Salary payment options that are convenient for you considering your local country regulations
+- ⌚ Fully remote work in the team with well-established remote work processes (our team members located in 7+ different countries, and we encourage diversity)
+- 🎤 English speaking clubs
+- 🏖 Paid sick leave and vacation - 15 business days (21 calendar days) of annual vacation
+- 👾 Online weekly team activities
+- 🫶 Coverage of monthly psychologist support sessions
+
+Необхідні навички
+Python
+
+Only from 1 year of experience
+Full Remote
+Worldwide
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Python
+Python
+Employment: Fulltime
+Domain: Other
+Outstaff
+Test task is needed

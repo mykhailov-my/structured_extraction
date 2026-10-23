@@ -1,0 +1,44 @@
+Middle+ Backend Python Developer
+Develux
+
+Компания Develux занимается разработкой основного продукта с 2014 года в нише education, рынок - US.
+Мы активно расширяемся, DEV-команда на сегодняшний день - 20 специалистов.
+Сейчас ищем опытного Python developer'a для развития основного продукта и запуска новых.
+Стэк продукта: AWS (вся инфраструктура на сервисах амазона), Python 3.6 - 3.7, Django, DRF, Redis, postgresql, mongodb, Angular, Ionic, React Native.
+Требования:
+- 3+ лет коммерческого опыта с Python;
+- 2+ года в проектах с серверными системами;
+- опыт проектирования и внедрения БД SQL и NoSQL;
+- четкое понимание высокого качества кода, модульного тестирования и других методов проектирования.
+Будет плюсом:
+- опыт работы с AWS;
+- опыт с Django;
+- English - Upper Intermediate+
+Обязанности:
+- анализ и оценка приоритетности по внедрению бизнес-требований;
+- влияние на архитектуру и дизайн кода;
+- улучшение технических стандартов, инструментов и процессов;
+- проверка дизайна и кода.
+Что предлагаем:
+- гибкий график работы (начало дня с 8:00 до 11:00 и 8 рабочих часов + 1 час обеда);
+- опция Remote-занятости;
+- работаем на технике Apple;
+- офис находится рядом со ст. м. Печерская;
+- выплаты дохода в USD каждое 1-е число месяца;
+- компенсация паркинга;
+- компенсация тренингов/курсов 50% либо 100%;
+- English Speaking Environment;
+- Pizza Fridays/тимбилдинги/компенсация обедов;
+- развитие в команде опытных и открытых к предложениям по улучшению процессов специалистов :)
+About Develux
+Develux offers full-cycle custom software development services that align with your company’s unique needs and goals.
+Develux owns product service as well as outsourcing services.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+3 years of experience
+English Intermediate

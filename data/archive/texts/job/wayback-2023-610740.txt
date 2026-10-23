@@ -1,0 +1,46 @@
+Middle/Senior BE engineer with Python knowledge
+Global17 East
+
+We are seeking a seasoned Backend Engineer who possesses a passion for crafting cutting-edge solutions. This role involves contributing to the development of our innovative, startup-like projects leveraging computational science and AI for the automation of construction planning.
+We expect you to have
+• 2+ years of backend development experience in Django or Node.js for commercial applications.
+• Strong DB architecture knowledge, at least mySQL language. Other relational or non-relational languages (e.g. no-SQL) is a plus.
+• Basic understanding of front-end technologies, such as JavaScript, HTML5, and CSS3
+• User authentication and authorization between multiple systems, servers, and environments
+• Understanding fundamental design principles behind a scalable application.
+• Experience with containerized applications.
+• Familiarity with DevOps processes, including continuous integration and continuous deployment (CI/CD)
+• Fluency in English
+• B.Sc. in Computer Science or a related field
+Nice to have
+• Experience with Python development for commercial applications.
+• Experience with test-driven development (TDD) and proficiency in writing unit tests
+• Understanding of Python optimization for fast applications with low memory footprint.
+• Experience with scalable python development
+• Familiarity with C# and .NET development.
+• German language skills
+What we offer
+• Competitive salary
+• Modern open space office in downtown Kyiv with dedicated desk & top technical equipment
+• Remote-friendly work environment
+• Among other fringe benefits we offer 4 weeks of paid holiday and paid Ukrainian holidays
+• Opportunity to co-create disruptive technologies for the construction sector
+• We invest in your professional growth and development
+About Global17 East
+At Global 17 East - Building Information Technology (BIT), we are a dynamic and diverse team working on the future of construction technology. We build disruptive digital workflows and innovate Mechanical, Electrical, and Plumbing (MEP) engineering processes and business models.
+Global 17 East BIT is the digitalization entity of the HHM group ([link]). With over 200 qualified employees at locations across Switzerland, Ukraine, Poland and Spain, HHM has been known for 70 years for high-quality engineering in building technology. This experience forms the basis of our technology and service business. Since 2020, BIT AG has built a reputation for thought leadership in Building Information Modeling (BIM) and workflow automation and is supporting architects, planners, and manufacturers with solutions such as the BUILDing360 BIM Suite for Revit.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Category: Python , SQL
+Django , NodeJS , Node JS , MySQL , SQL , HTML / CSS / JavaScript , Fluent English
+English: Advanced/Fluent
+3 years of experience
+Office or Remote
+Product
+Ukraine (Kyiv)
+Only candidates from Ukraine

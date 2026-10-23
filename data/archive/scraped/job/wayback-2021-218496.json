@@ -1,0 +1,23 @@
+{
+  "doc_id": "wayback-2021-218496",
+  "url": "https://djinni.co/jobs/218496-python-rest-api-developer/",
+  "snapshot": "https://web.archive.org/web/20210416030935/https://djinni.co/jobs/218496-python-rest-api-developer/",
+  "captured_at": "2021-04-16T03:09:35",
+  "posted": "2021-03-18",
+  "year": 2021,
+  "active": true,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:11+00:00",
+  "title": "Python REST API Developer",
+  "company": "Threat Informant",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Remote",
+    "1 year of experience",
+    "English Intermediate"
+  ],
+  "description": "We are seeking a developer with experience in Python OOP development to develop, maintain and update existing packages that are used to communicate with services such as DynamoDB, Elasticsearch, etc… and implement in existing REST APIs\nOur team develops web applications for conference management and IT security. We develop microservices using AWS with technologies such as DynamoDB, SES, S3, etc… Position is remote with fairly flexible working hours.\nWe are seeking a developer with experience in Python OOP development to develop, maintain and update existing packages that are used to communicate with services such as DynamoDB, Elasticsearch, etc… and implement in existing REST APIs\nRequired Experience:\n• REST API design & development\n• OOP\n• NoSQL or Document DBs\n• AWS Dynamodb, API Gateway, Lambda, SES, SQS, Cognito\n• Redis\n• Marshmallow\nDesired Experience:\n• Serverless\n• Django/Flask\n• Websockets\nAbout Threat Informant\nWe have a small team of developers that are working on building applications that are typically only used internally.\nCompany website:\n[link]"
+}

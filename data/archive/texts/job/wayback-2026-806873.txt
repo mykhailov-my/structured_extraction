@@ -1,0 +1,49 @@
+Senior Python developer
+TechMagic
+
+We are looking for a Senior Python Engineer to join our Secure Infrastructure Access (SIA) team. This team provides secure, brokered Remote Desktop access to Windows servers without exposing credentials or opening inbound network access. In this role you will be using AWS serverless architecture, AWS CDK & Python to design, develop, test, secure & deploy services from planning to production.
+The team works in full collaboration with security architects, product managers and other development teams.
+What We’re Looking For
+- 5+ years of experience in Python development.
+- 2+ years of hands-on experience building and deploying serverless applications on AWS.
+- Strong problem-solving and analytical skills, with a passion for clean, maintainable code.
+- Excellent communication and teamwork abilities, with the confidence to lead and influence.
+- Self-driven, proactive, and eager to learn and share knowledge.
+Bonus Points For
+- Experience with CI/CD tools (e.g., Jenkins, Git, Artifactory).
+- Background in SaaS application development.
+- Solid understanding of security best practices, including OWASP guidelines and threat modeling.
+- Proficiency in AWS CDK for infrastructure as code.
+What You’ll Do
+- Deliver E2E features and enhancements while keeping the highest quality and security standards
+- Practice all software development life cycle in agile oriented environment
+- Research and implement sophisticated Cyber security mechanisms
+- Explore new technologies and tools to keep us using cutting edge solutions
+- Help guide and contribute to feature design and implementation to bring the product to the next level
+- Participate in continuous and iterative engineering cycles with emphasis on code quality, supportability, scalability, and performance
+Work Schedule
+Full-time working day.
+Interview Stages
+- HR interview with our recruiter
+- Technical interview with the Engineering Manager (1 hour)
+- Coding interview (2 hours)
+- Final HR interview with the Tech Lead
+
+Необхідні навички
+AWS, 2 years
+
+Only from 5 years of experience
+Office, Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+AWS
+2 years
+Employment: Fulltime
+Domain: Security
+Outsource
+Office:
+Ukraine
+(Kyiv, Lviv)

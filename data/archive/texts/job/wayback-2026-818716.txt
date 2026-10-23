@@ -1,0 +1,47 @@
+Python Backend Engineer (Django, API Integrations)
+Softblues
+
+Project:
+Warehouse & Inventory Management System (Amazon FBA integration)
+We are building a warehouse management system that integrates with Amazon SP-API to manage inventory, inbound shipments, and logistics workflows for sellers.
+The system processes:
+- Inventory synchronization
+- Shipment lifecycle management
+- Amazon inbound planning workflows
+Responsibilities
+- Integrate with Amazon SP-API (inventory, catalog, shipments)
+- Implement backend logic for shipment workflows and inventory updates
+- Build and maintain asynchronous processing using Celery
+- Design and maintain REST APIs (Django REST Framework)
+- Handle complex multi-step API flows (preview → confirmation patterns)
+- Ensure data consistency between internal system and Amazon
+- Implement retry logic, error handling, and rate limiting
+- Work with PostgreSQL data models for inventory and shipments
+Requirements
+Must have:
+- 3+ years of Python experience
+- Strong experience with Django / DRF
+- Experience integrating third-party APIs
+- Experience with Celery or similar async tools
+- Understanding of REST API design and authentication
+- Experience with PostgreSQL
+Nice to have:
+- Experience with Amazon SP-API
+- Experience in e-commerce or logistics systems
+- Experience with Kubernetes / AWS
+Tech Stack
+- Python, Django, DRF
+- PostgreSQL, Redis
+- Celery
+- AWS (S3, Secrets Manager)
+- Kubernetes (EKS)
+
+Only from 5 years of experience
+Full Remote
+Worldwide
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Python
+Employment: Fulltime
+Domain: Other
+Outsource

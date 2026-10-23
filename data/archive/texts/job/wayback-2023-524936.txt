@@ -1,0 +1,46 @@
+Middle Python Developer
+Kyrrex
+
+Наші очікування від кандидата:
+— Досвід роботи Python Developer в продуктових компаніях від 3-х років
+— Досвід роботи з блокчейном, на крипто-проєктах буде в пріорітеті
+— Досвід роботи з API шлюзами (побудова, налаштування, багатозадачність та комплексні запити)
+— Знання PostgreSQL
+— Знання Automatic tests (pytest, unittest)
+— Англійска мова - Intermediate
+Що потрібно робити:
+— Побудова алгоритмів для високочастотної торгівлі та торгових сценаріїв
+Коротко про умови:
+— цікавий продукт, моживості для розвитку
+— віддалена робота
+— гнучкий графік
+— відпустка - 24 календарних дні
+— оплачуваний лікарняний
+About the project
+“Social Trading Terminal” Project
+The project is based on the Social Trading Terminal product. The product was developed and launched in 2019, but due to market conditions, it was stopped and postponed.
+Product includes:
+a system for managing exchange operations on different CEXs in one interface, Additional advanced functionality for trading (multi-level Take Profit, Stop Loss, Trailing, complex orders, long-term portfolio management, portfolio manager, goal achievement signals, customizable Telegram bot (if the candidate has experience with bots will be great) for automatic confirmation of transactions, customizable news feed, etc.).
+Social trading - remote asset management
+About Kyrrex
+Kyrrex is a fast-growing IT company that develops and provides FinTech products and services.
+We are committed to transform the cryptocurrency market and create a global financial product system without geographic and legal boundaries.
+We develop technological products and services using innovative features and build an effective project management system. This approach allows us to create high-quality and popular products.
+We believe that our people are the foundation of our success. Our team consists of smart, creative, and enthusiastic people: developers, designers, marketing specialists working on our products, and striving for excellence in everything they do. Kyrrex is always open to talented people who are truly passionate about their job and the IT industry.
+We believe that cryptocurrencies and blockchain can revolutionize financial markets and our day-to-day life. Our goal is to unleash the potential and make available usage of cryptocurrencies for hundreds of millions of people.
+Join us and become part of global changes!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+Python , MySQL/PostgreSQL , pytest , unittest
+English: Intermediate
+3 years of experience
+Domain: Blockchain / Crypto
+Full Remote
+Product
+Ukraine
+Only candidates from Europe and Ukraine

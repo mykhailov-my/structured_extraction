@@ -1,0 +1,29 @@
+Middle Python Developer
+OSSystem
+
+Шукаємо Python розробника на медичний проєкт
+Що ми очікуємо:
+- Не менше 4-х років комерційного досвіду Python розробник.
+- Досвід роботи з SQLAlchemy, PostgreSQL
+- Вміння проектувати API, працювати з OpenAPI/Swagger
+- Навички адміністрування серверів, зокрема – робота з Docker
+- Досвід роботи з хмарною архітектурою - AWS
+- Досвід роботи з CI tools (Jenkins)
+- Англійська мова - не нижче upper-intermediate
+About OSSystem
+OSSystem - сучасна українська IT-компанія, яка вже понад 15 років надає IT-послуги в Україні і в усьому світі. Ми займаємося розробкою, технічним супроводом і тестуванням різного програмного забезпечення і продуктів. Наші клієнти - невеликі і середні компанії, що ведуть свій бізнес, технологічні компанії-розробники ПЗ і стартапи з живими і робочими ідеями.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Category: Python
+English: Upper-Intermediate
+3 years of experience
+Domain: Healthcare / MedTech
+Office/Remote of your choice
+Outsource
+Ukraine
+Only candidates from Europe and Ukraine

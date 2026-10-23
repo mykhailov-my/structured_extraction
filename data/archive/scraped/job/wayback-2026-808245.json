@@ -1,0 +1,30 @@
+{
+  "doc_id": "wayback-2026-808245",
+  "url": "https://djinni.co/jobs/808245-full-stack-developer-python-react/",
+  "snapshot": "https://web.archive.org/web/20260314091836/https://djinni.co/jobs/808245-full-stack-developer-python-react/",
+  "captured_at": "2026-03-14T09:18:36",
+  "posted": "2026-02-27",
+  "year": 2026,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:15+00:00",
+  "title": "Full Stack Developer (Python/React)",
+  "company": "ScrumLaunch",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "from 5 years of experience",
+    "Considering with 4 years of experience",
+    "Full Remote",
+    "Countries of Europe or Ukraine",
+    "Countries where we consider candidates",
+    "English B2 - Upper Intermediate",
+    "Ukrainian C1 - Advanced",
+    "Fullstack",
+    "Employment: Fulltime",
+    "Domain: Healthcare / MedTech",
+    "Outsource"
+  ],
+  "description": "We’re looking for a Full-Stack Developer with strong Python backend experience and modern React / Next.js frontend skills to help build secure, scalable AI-powered healthcare applications.\nYou’ll work on APIs, data-intensive systems, and intuitive UIs used for clinical insights and AI-driven workflows.\nBackend Requirements (Python)\nRequired\n- 4+ years of professional experience with Python\n- Experience with PostgreSQL or other relational databases\n(schema design, indexing, query optimization)\n- Experience building RESTful and async APIs\n(FastAPI, asyncio, aiohttp, or similar)\n- Strong understanding of Python concurrency and parallelism\n- Experience with ORMs (SQLAlchemy or similar)\n- Background job systems (Celery, RQ, or similar concepts)\n- Experience integrating AI / LLM services\n(OpenAI, Anthropic Claude, LlamaIndex)\n- Experience with vector search / embeddings\n(pgvector, OpenSearch, Pinecone, or similar)\n- Message queues: Redis, RabbitMQ, Kafka\n- Familiarity with AWS: S3, EC2, RDS, CloudFront, SES, OpenSearch\n- Experience writing tests with pytest (including async tests)\nNice to have\n- Experience with HIPAA compliance\n- Background in healthcare, medical data, or EMR systems\n- Familiarity with FHIR APIs\nFrontend Requirements (React)\nRequired\n- 3+ years of experience with React 18+\n- Strong TypeScript skills (strict mode)\n- Experience with Next.js (App Router, SSR concepts)\n- Tailwind CSS (utility-first, responsive layouts)\n- Component libraries: Radix UI or similar\n- State management: Zustand and/or React Context\n- Data fetching: SWR or similar\n- Forms: React Hook Form + validation libraries\n- Data tables (TanStack Table, virtual scrolling)\n- Frontend testing: Jest, React Testing Library\n- Familiarity with Feature-Sliced Design (FSD)\n- Strong understanding of accessibility (WCAG 2.1 AA)\n- Experience with WebSockets for real-time features\n- PDF rendering (PDF.js or similar)\n- Comfortable with Git workflows and code reviews\nBackend Responsibilities\n- Design, implement, and maintain secure, well-documented APIs\n- Build backend services for AI chat and clinical insights\n- Parse and process data from documents, EMRs, and third-party APIs\n- Design and optimize PostgreSQL data models\n- Efficiently handle large datasets and historical patient records\n- Integrate backend systems with LLMs and vector databases\nFrontend Responsibilities\n- Build and maintain responsive, accessible UI components\n- Implement complex UI features: forms, tables, dashboards, real-time updates\n- Follow Feature-Sliced Design principles\n- Manage global and feature-level state effectively\n- Integrate frontend with backend APIs\n- Optimize performance for large datasets\n- Build data visualizations and clinical timelines\n- Monitor and improve Core Web Vitals and bundle size\nBenefits\n- Opportunities to work on diverse and challenging projects;\n- A supportive and collaborative team environment;\n- 12 vacation days per year;\n- 5 sick days per year;\n- English classes;\n- Access to therapist and psychologist support for mental well-being."
+}

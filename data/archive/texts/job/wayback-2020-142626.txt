@@ -1,0 +1,56 @@
+Middle Python Developer
+Amazing Apps
+
+We are looking for an experienced Mid-level Python Developer who is ready to drive a team working on developing the world’s #1 applications in the Health & Fitness category. We use modern tech stack Python 3, SQL/NoSQL, Lambda/API Gateway/SQS/CloudFormationCloudWatch)
+Your professional qualities:
+2+ years experience in Python
+Good knowledge of Python 3
+Experience with SQL/NoSQL
+Experience with AWS services (Lambda/API Gateway/SQS/CloudFormation/CloudWatch)
+Nice to have:
+Knowledge of Python frameworks (Flask/Django)
+Experience with serverless
+Experience with MongoDB
+Challenges you'll need to meet:
+Creating and maintaining back-end architecture
+Developing and supporting API
+Working with AWS services (Lambda/API Gateway/SQS/CloudFormation/CloudWatch)
+For your success we offer:
+Comfortable working conditions
+Cozy office with all necessary conditions including game room, fitness equipment, massage chair and others nice things
+Flexible working hours with ability to work remotely several days a month
+20 working days of paid vacation
+Free lunches at the office, fruites, ice-creams, healthy snacks and drinks
+Well-being
+Health insurance from the first work month
+Paid sick leaves
+Corporate doctor at the office
+Yoga-time with personal coach
+Growth and development
+Individual budget on external training and courses, meetups and seminars
+Online and offline corporate library
+Individual online English lessons
+Team of skilled professionals that share knowledge and support each other
+Below you can find some of our apps:
+Yoga Go — bit.ly/appleYogaGo / bit.ly/androidYogaGo
+Muscle Booster — bit.ly/appleMB / bit.ly/androidMBapp
+With us, you’ll find an opportunity to develop and implement your own ideas while helping make the world a better place.
+About Amazing Apps
+Amazing apps is about creating mobile applications that improve the Health of Millions of People around the World.
+We are proud of the fact that we are located in Ukraine, but we are successfully building a global IT-Product company.
+We currently have 100+ people in our team.
+The main distinguishing feature of Amazing People is their desire to constantly grow, develop and learn new things.
+Why do people like to work at Amazing Apps?
+• We work on creating and developing our own projects. There is no outsourcing.
+• The company values the initiative of its workers and their ability to work independently.
+• The ideas and suggestions of everyone are heard, and good ideas are quickly implemented and tested out.
+• Clearly stated goals and priorities help workers focus on important tasks and organize their work properly.
+• Weekly meetings with managers give employees the opportunity to get feedback about their work and understand how to achieve the best results.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+2 years of experience

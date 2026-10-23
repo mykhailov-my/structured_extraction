@@ -1,0 +1,51 @@
+Junior Python Developer
+DATAOX
+
+We are a leading scraping company looking for a motivated Junior Python Developer to join our team. As a Junior Python Developer specializing in scraping, you will play a crucial role in developing and maintaining robust scraping solutions to collect and analyze data from various sources. You will work closely with our experienced team to deliver high-quality scraping solutions that meet client requirements.
+Client description:
+English speaking customers.
+Team description:
+You’ll work in a small team (3-7 people) including PM and Tech Lead. The head of the team is a project manager.
+Language requirement:
+English - Pre-Intermediate;
+Key Qualifications:
+- 1 years of experience with Python;
+- Proficiency in Git;
+- A solid grasp of Object-Oriented Programming;
+- Proficient with databases such PostgreSQL;
+- Familiarity with Docker and Docker Compose;
+Responsibilities:
+- Collaborate with the development team to design, develop, and maintain scraping applications and tools
+- Implement efficient scraping algorithms and techniques to collect data from diverse websites and APIs
+- Write clean and well-structured code in Python to ensure reliable and scalable scraping solutions
+- Develop automated scraping scripts to handle complex data extraction scenarios
+- Perform data cleaning, validation, and transformation to ensure data accuracy and integrity
+- Troubleshoot and resolve issues and challenges
+- Stay updated with the latest web techniques, tools, and best practices
+- Take part in cooperation with clients to understand their requirements and provide technical guidance
+- Assist in testing, deployment, and documentation of projects
+Will be a plus:
+- Experience with Fast API, Django, and ReactJS;
+- Proficient with databases such as NoSQL;
+- Proficient with Redis;
+- Proficient with RabbitMQ;
+- Familiarity with HTML5, and CSS3;
+Schedule and format of work:
+Remote, five-day workweek with an 8-hour workday
+Benefits you get choosing current position:
+- The opportunity to participate in exciting and innovative projects.
+- Work in a friendly and close-knit team of professionals.
+- Possibility of remote work.
+- Continuous professional development and training.
+Next steps and HR process:
+Test task → HR interview → Technical interview → Final interview → Offer
+
+Development
+Python
+Only from Pre-Intermediate
+Only from 1 year of experience
+Full Remote
+Ukraine
+Domain: Other
+Outsource
+Test task is needed

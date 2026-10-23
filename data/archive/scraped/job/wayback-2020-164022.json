@@ -1,0 +1,23 @@
+{
+  "doc_id": "wayback-2020-164022",
+  "url": "https://djinni.co/jobs/164022-senior-c-with-python/",
+  "snapshot": "https://web.archive.org/web/20201202065316/https://djinni.co/jobs/164022-senior-c-with-python/",
+  "captured_at": "2020-12-02T06:53:16",
+  "posted": "2020-11-03",
+  "year": 2020,
+  "active": true,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:11+00:00",
+  "title": "Senior C# with Python",
+  "company": "Luxoft",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    ".NET",
+    "Kyiv",
+    "3 years of experience",
+    "English Upper Intermediate"
+  ],
+  "description": "The scope of the project is to collect data from different sources, merge and analyze electrical readings to identify fault conditions.\nProject Description:\nWith that having on place the solution is designated to keep the history of analytical runs, provide user a search capabilities and reports similarity scoring across different runs to help with further troubleshooting.\nTechnology stack:\n- .Net Core 3.1\n- Angular\n- Python\n- Matlab\n- SQL\n- Azure\nResponsibilities:\n• Work on implementation of micro services and APIs integrated with client apps and other services;\n• Build software solutions for extraction, transformation, and loading of data from a variety of data sources using SQL and Azure 'big data' technologies;\n• Implement data flows connecting operational systems, BI systems, and the big data platform;\n• Build real-time, reliable, scalable, high-performing, distributed, fault tolerant systems;\n• Create data tools for analytics and data scientist team members that assist them in their ML endeavors;\n• Design and develop code, scripts and data pipelines that leverage structured and unstructured data;\n• Implement measures to address data privacy, security, compliance.\nMandatory Skills:\nASP NET Core, .NET Core, Microservices, SQL, MongoDB, Microsoft Azure Cloud Platform, Python\n• BS in computer science or related STEM field;\n• Strong knowledge of .Net Core platform and ASP.Net Core framework;\n• Experience with building solutions in Microsoft Azure cloud and microservice architecture;\n• Experience with databases - SQL, MongoDB;\n• Experience with ETL/ELT pipelines;\n• Experience in Python;\n• Demonstrated teamwork, strong communication skills, and collaborative in complex engineering projects.\nNice-to-Have Skills:ETL\nAbout Luxoft\nLuxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.\nLuxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.\nCompany website:\n[link]\nDOU company page:\n[link]"
+}

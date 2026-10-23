@@ -1,0 +1,52 @@
+Senior Backend (Python) Engineer
+Argument staffing agency
+
+We are looking for a self-motivated and goal oriented Senior Back End Engineer who would like to be a part of a team working on brand new startup projects for foreign customers.
+Требования:
+Python - 5+ лет
+This is a great opportunity to define and implement a large scale zero trust solution that allows companies to provide employees seamless and secure access to internal and cloud-based resources. You will be part of a passionate and high energy team that is creating compelling, new and innovative online technologies. This position requires someone who thrives on finding innovative solutions to real problems.
+REQUIREMENTS
+B.Sc in Computer Science, Computer Engineering or related technical discipline
+5 years hands-on experience in building and delivering large scale application into production
+Strong proficiency in Python. Django experience is a big advantage.
+Hands-on experience in a public cloud environment (AWS, Azure, GCP)- GCP is a big advantage
+Passionate in writing high quality and clean code - OOP, SOLID, etc.
+Experience in building systems in a micro-services architecture
+Excellent verbal and written English
+Hands on experience with both relational and no-SQL databases
+Excellent communication skills and being able to work independently or in a full team
+Optional, but a major plus:
+Hands on experience with docker/k8s is a big plus
+Experience building GraphQL APIs
+Building CI pipelines
+Familiar with Async programming concepts
+Knowledge in basic computers networking
+Technical Leadership/Mentoring experience
+RESPONSIBILITIES
+Develop large scale security solution
+Design and architect a micro-services system
+Take ownership on entire lifecycle management
+Keep innovating while working on bleeding edge technologies
+Mentor junior engineers
+WE OFFER
+People-oriented management without bureaucracy
+Friendly climate inside the company – previous employees have come back often
+Flexible working hours
+100% paid sick leave
+Paid participating in the sports events
+Educational budget
+Paid sick leave 9 days
+Paid vacation - 18 working days
+ABOUT THE PROJECT
+The project is building a modern remote access solution that simplifies and improves the way businesses secure access to their on-prem and cloud-based network resources. The project is backed by leading investors such as Accel, 8VC, and WndrCo, who each share our belief that in a world where workforces are becoming increasingly distributed, it is critical to be able to effectively secure access to apps, data, and environments.
+About Argument
+Рекрутинговое агентство «Аргумент» ищет и находит таланты для компаний с 2003-го года. Последние 7 лет мы специализируемся на поиске именно IT- специалистов. Среди наших клиентов есть как и совсем небольшие компании, так и те, чьи имена у всех на слуху. Аутсорс, аутстаф, стартапы, разработка собственного продукта… Самые разные технологии, самые разные проекты… У нас нет ограничений или предпочтений по работе с тем или иным видом видом IT-бизнеса. И мы искренне радуемся, когда Вы находите свою компанию мечты, а компания – нужный пазл в свою команду.
+let's go to success with us ;)
+Company website:
+[link]
+
+Python
+Kyiv
+Kyiv, Kharkiv
+5 years of experience
+English Upper Intermediate

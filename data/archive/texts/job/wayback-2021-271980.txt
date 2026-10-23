@@ -1,0 +1,35 @@
+Senior Python Developer
+Luxoft
+
+We are looking for engineers to join the Rates Risk Technology Team that is developing real time risk system.
+Responsibilities
+- Integrate new Risk calculations on Python
+- Liaise with Bank internal development teams based mainly in Poland to drive towards a world class risk application
+- Deliver on time regulatory commitments
+Skills
+Must have
+- 3+ years in Python
+- Expertise in at least one popular Python framework (like Django, Flask or Pyramid)
+Nice to have
+- Knowledge of financial derivatives pricing and risk
+- Templating, Pandas, Numpy
+- Experience of working with commercial or in-house quant pricing libraries
+- C# or Java knowledge
+Languages
+English: B2 Upper Intermediate
+VR-59636
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Quarantine Remote
+Outsource
+3 years of experience
+English Upper Intermediate
+Ukraine only candidates 🇺🇦

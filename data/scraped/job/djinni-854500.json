@@ -1,0 +1,30 @@
+{
+  "doc_id": "djinni-854500",
+  "url": "https://djinni.co/jobs/854500-cybersecurity-specialist-security-engineer/",
+  "category": "Security",
+  "published": "Wed, 21 Oct 2026 17:04:25 +0300",
+  "collected_at": "2026-10-22T16:50:05+00:00",
+  "title": "Cybersecurity Specialist / Security Engineer",
+  "company": "Avion",
+  "salary": "",
+  "skills": [],
+  "languages": [
+    "Англійська: B1 – Середній",
+    "Українська: Носій мови"
+  ],
+  "facts": [
+    "Виключно від 3 років досвіду",
+    "Тільки офіс",
+    "Весь світ",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська B1 – Середній",
+    "Українська Носій мови",
+    "Security",
+    "Зайнятість: Fulltime",
+    "Домен: Fintech",
+    "Продуктова компанія",
+    "Офіс:",
+    "Кіпр"
+  ],
+  "description": "Ми шукаємо досвідченого Cybersecurity Specialist / Security Engineer, який очолить захист нашої серверної, мережевої та хмарної інфраструктури. Шукаємо фахівця, здатного самостійно вести повний цикл роботи з загрозами та інцидентами: Detect → Analyze → Assess Risk → Contain → Remediate → Verify → Document.\n📌 Основні обов'язки:\n- Захист інфраструктури: Забезпечення безпеки серверної, мережевої та хмарної інфраструктури компанії.\n- Моніторинг та аналіз: Постійний моніторинг подій ІБ, виявлення атак, сканувань, аномальної активності та спроб несанкціонованого доступу.\n- Incident Response: Оперативне реагування на інциденти: аналіз, локалізація, усунення наслідків та проведення Root Cause Analysis (RCA).\n- Управління уязвимостями: Проведення регулярного аудиту інфраструктури та підтримка процесів Vulnerability Management.\n- Hardening: Укріплення (hardening) Linux/Windows серверів і мережевих сервісів.\n- Мережева безпека: Налаштування та супровід Firewall, WAF, IDS/IPS, VPN і DDoS Protection.\n- Web/API Security: Контроль безпеки Web/API-сервісів та розуміння основних векторів атак.\n- Access Management: Управління доступом до production-інфраструктури та критичних систем.\n- Документація та політики: Розробка та підтримка security policies, процедур та Incident Response Playbooks.\n- Крос-командна взаємодія: Тісна співпраця з DevOps, системними адміністраторами, DBA та розробниками з питань безпеки.\n🎯 Вимоги до кандидата (Must Have):\n- Досвід: Від 3 років активної роботи у сфері Cybersecurity / Information Security.\n- Мережі та протоколи: Відмінне розуміння TCP/IP, DNS, HTTP/HTTPS, TLS, VPN, NAT та мережевої маршрутизації.\n- ОС: Упевнене адміністрування Linux.\n- Мережевий захист: Практичний досвід налаштування Firewall, WAF, ACL та мережевої сегментації.\n- WAF / CDN / DDoS: Досвід роботи з Cloudflare або аналогічними рішеннями.\n- Web Security: Глибоке розуміння OWASP Top 10 та векторів атак на Web/API.\n- Vulnerability Management: Досвід роботи зі сканерами уразливостей (Nessus, OpenVAS, Qualys тощо), знання CVE/CVSS та вміння оцінювати реальні ризики.\n- SIEM / Logging: Досвід роботи з SIEM, IDS/IPS, централізованим збором та аналізом логів (system, network, application, web server).\n- Forensics & Incident Response: Досвід розслідування безпекових інцидентів та роботи з IOC (Indicators of Compromise).\n- IAM & PAM: Розуміння концепцій RBAC, MFA, PAM, Least Privilege.\n- Container Security: Досвід роботи з Docker та розуміння принципів безпеки контейнерів.\n- Application Security: Понимание принципів SAST, DAST, Dependency та Secret Scanning.\n- Автоматизація: Навички написання скриптів для автоматизації задач ІБ на Bash / Python.\n🔐 Zero Trust Architecture (Mandatory):\n- Практичний досвід роботи з Zero Trust Network Access (ZTNA) рішеннями та проектування/впровадження Zero Trust підходу.\n- Впровадження ZTNA для доступу співробітників та адміністраторів до внутрішньої інфраструктури.\n- Перехід на Identity-based access замість доступу на основі мережі/IP.\n- Реалізація Device Trust / Device Posture, MFA та Conditional Access.\n- Застосування принципів Least Privilege Access та Microsegmentation.\n- Налаштування Short-lived access / тимчасового привілейованого доступу.\n- Контроль та аудит адміністративних сесій, інтеграція Zero Trust з IAM / SSO / IdP.\n- Побудова захищеного доступу до Linux, Windows, баз даних, внутрішніх Web-сервісів та адмін-панелей.\n- Досвід роботи з рішеннями класу: Cloudflare Zero Trust, Teleport, BeyondTrust, CyberArk, Tailscale, Zscaler або аналогами.\n🌟 Буде перевагою (Nice to Have):\n- Cloud Security: Досвід роботи з безпекою AWS / Azure / GCP.\n- Kubernetes Security: Захист та аудит K8s кластерів.\n- SIEM / IDS Tools: Досвід з Wazuh, Suricata, Snort, ELK/OpenSearch, Loki/Grafana.\n- Secrets Management: Практика роботи з HashiCorp Vault або аналогами.\n- Offensive Security: Досвід проведення Pentest або участь у Red Team exercises, Threat Modeling.\n- SOAR & Automation: Побудова Security Monitoring та автоматизація Incident Response.\n- Комплаєнс: Знання ISO 27001, PCI DSS, SOC 2 або аналогічних стандартів.\n🌍 Локація: Офіс на Пафосі (Кіпр).\n❗Допомагаємо з релокейтом на надаємо робочу візу.\n📍Обов'язкове проходження поліграфу.\n👉 Відправляй свій відгук прямо зараз — і ми зв'яжемося з тобою для короткого знайомства! 🛡️"
+}

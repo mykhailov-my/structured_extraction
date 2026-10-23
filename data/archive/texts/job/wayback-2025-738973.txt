@@ -1,0 +1,33 @@
+Senior Python (Django) Developer
+Digis
+
+About the Project
+USA-based company providing Governance, Risk Management, and Compliance software tailored for the pharmacy benefit management industry. The platform helps organizations navigate evolving laws and regulations by offering structured compliance workflows.
+- Stage: Established, ongoing project (4+ years).
+- Team: 2 Backend Developers, 1 Frontend Developer, 1 QA, 1 PM (all from Digis), 1 Product Owner.
+- Project Duration: Long-term.
+- Project country and TimeZone: USA. CST, work by 11 PM Kyiv time
+Key Requirements:
+- 4+ years of hands-on experience with Django.
+- 1+ year working with PostgreSQL.
+- Upper-Intermediate English (B2+) — frequent and extended communication in English.
+- Experience with REST APIs, Celery, Docker, and AWS is a plus.
+- Strong analytical mindset and ability to contribute to solution architecture.
+Advantages of the Project
+- Engaged Client — The client actively participates in daily stand-ups and ensures tasks are clearly defined with full documentation or design specs.
+- Code Quality Focus — Emphasis on technical excellence and openness to refactoring and process improvements.
+- Structured Process — Scrum: clear task estimation, planning, and transparent workflows via Jira.
+- Fully Digis-Driven Tech Team — All tech specialists, including the PM, are part of Digis.
+If you’re a senior-level Python developer looking to join a stable and well-structured project where you can make a real impact, we’d love to connect!
+Apply now and let’s talk!
+
+Only from Upper-Intermediate
+from 5 years of experience
+Considering with 4 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+Python
+Python, Django, PostgreSQL
+Domain: Other
+Outsource

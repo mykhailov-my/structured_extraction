@@ -1,0 +1,38 @@
+Python Team Lead
+Cyngular Security
+
+We’re looking for an experienced Python Team Lead to join our fast-growing startup. This is a unique opportunity to take ownership, drive technical direction, and lead a talented team working on cutting-edge cloud-based solutions in the cybersecurity space.
+As a Team Lead, you’ll be responsible for leading Python development initiatives, overseeing system design and implementation, and working closely with product and security teams. The role focuses heavily on integrating data from cloud providers (AWS, Azure, GCP) and building scalable pipelines and services, not backend or full-stack application development.
+Key Responsibilities:
+- Lead and mentor a team of Python developers.
+- Own the architecture, development, and deployment of Python-based services.
+- Guide integrations with cloud-native data sources (CloudTrail, Activity Logs, DNS, VPC, etc.).
+- Set coding standards, enforce best practices, and ensure high code quality.
+- Collaborate cross-functionally with security researchers, product managers, and DevOps.
+Requirements:
+- 5+ years of hands-on Python development experience.
+- 2+ years of experience leading a development team.
+- Proven track record working with AWS Lambda, Azure Functions, or GCP Functions.
+- Experience with cloud messaging systems like SQS, or Azure Service Bus.
+- Proficiency with cloud SDKs (boto3 or Azure/GCP equivalents).
+- Experience in structured development environments (Git workflows, code reviews, CI/CD).
+Nice to Have:
+- Strong background in cybersecurity or working with telemetry data.
+- Experience building serverless or distributed event-driven architectures.
+Who You Are:
+- A strong leader and clear communicator who thrives in a startup environment.
+- Comfortable with fast iterations, shifting priorities, and high ownership.
+- A hands-on technologist who leads by example.
+Note: Interviews will be conducted in English.
+Join us and help shape the future of cloud security
+
+Only from Upper-Intermediate
+Required knowledge of Ukrainian
+Only from 5 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+Python
+Python
+Domain: SaaS
+Startup

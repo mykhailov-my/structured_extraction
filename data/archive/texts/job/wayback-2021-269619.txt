@@ -1,0 +1,54 @@
+Middle/Senior Python(Django) Engineer
+AgileEngine
+
+We are looking for a proactive, highly motivated and talented Senior Python Engineer who will join a team responsible for developing and maintaining several web-based software systems and services.
+We are looking for a proactive, highly motivated and talented Senior Python Engineer who will join a team responsible for developing and maintaining several web-based software systems and services.
+This team strives to create scalable, and optimized solutions to provide our users with safe and efficient access to our online services.
+What is required?
+- 4+ years of professional software development experience.
+- Python / Django development experience
+- Experience with container tools like Docker and Kubernetes
+- Experience with message brokers like RabbitMQ and Kafka
+- Comfortable working in both a cooperative environment and independently on assigned tasks
+- Creative, motivated, resourceful and passionate
+- Strong communication & troubleshooting skills
+What will be a plus?
+- Experience working with the following Frontend technologies:
+- Modern Front End Web development & functional programming paradigms
+-2+ yrs experience in React, Redux, and related frameworks
+-ES2018+ (ES9) JavaScript syntax or TypeScript
+-Common tools like webpack, npm
+-Revision control software (e.g. Git/Github)
+-Agile tools (e.g. Jira)
+- Experience with the following would be desirable, but not required:
+-Modern Front End Mobile development
+What you will do:
+- Creating intuitive and visually appealing user interfaces;
+- Writing software that consumes data from a RESTful API;
+- Creating and maintaining organized and efficient data models and APIs
+- Back end programming following software development life cycle;
+- Participating in daily planning activities such as Scrum meetings;
+- Troubleshooting and problem solving;
+- Participating in internal management meetings;
+- Developing and documenting tasks and performing code reviews;
+- Troubleshooting deployed applications;
+- Collaborating with various development, devops, data science, and R&D teams within the organization;
+- Other duties as assigned
+About the project
+Our client is a global leader in precision agriculture and independent data management solutions — their entire team is passionate about the possibilities of agriculture and is relentless in the pursuit of optimizing success for each and every grower. Their approach to customer service is partnership — Client take their cue from their growers. And client continually strives to find the best solutions delivered in the best way possible.
+About AgileEngine
+AgileEngine is a privately held company established in 2010 and HQed in the Washington DC area.
+We rank among the fastest-growing US companies on the Inc 5000 list and the top-3 software developers in DC on Clutch.
+Facebook, Play Store, and the Webby Awards featured the apps we’ve built.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Remote
+Office/Remote of your choice
+Outsource
+2 years of experience
+English Intermediate
+Ukraine only candidates 🇺🇦

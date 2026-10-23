@@ -1,0 +1,47 @@
+Senior Python developer
+TechMagic
+
+We are looking for a skilled Senior Python Developer to join a fast-growing fintech product team building an AI-powered platform that helps finance teams gain real-time cash visibility, automate reconciliation, and forecast cash flow—all powered by AI.
+Requirements:
+- 5+ years of experience as a backend engineer on large-scale projects
+- Strong Python 3.x skills (3+ years)
+- Experience with FastAPI, Flask, or Django
+- Knowledge of SQL and NoSQL databases (PostgreSQL, Redis)
+- Experience with AWS cloud infrastructure
+- Familiarity with API design and implementation
+- Solid understanding of software architecture, clean code principles, and testing
+- Intermediate English level or higher
+Will be a plus:
+- Experience in microservices architecture
+- Familiarity with Kubernetes and container orchestration
+- Knowledge of CI/CD tools (e.g., GitHub Actions, Jenkins)
+- Background in fintech or treasury management systems
+- Understanding of event-driven architectures and data streaming with Kafka
+- Exposure to AI/ML technology integrations
+Responsibilities:
+- Design and develop robust, scalable backend services
+- Architect cloud-native solutions in a distributed environment
+- Collaborate with data science teams to integrate AI into core features
+- Build and maintain RESTful APIs and microservices
+- Participate in code reviews and provide technical feedback
+- Work closely with the product and customer success teams to understand and solve user challenges
+- Cooperate with cross-functional teams including frontend, DevOps, and product
+Product
+The platform replaces Excel-based workflows with automated, real-time visibility into cash positions. Backed by top-tier VCs with $10M+ in funding, the team is building cutting-edge tools to support better financial decision-making.
+Work Schedule: Full-time working day in our office (flexible hours) or remote
+Interview stages:
+1-st stage — call with the Recruiter
+2-nd stage — interview with the Python developer and the Recruiter
+3-rd stage — client interview
+
+Only from Intermediate
+Only from 5 years of experience
+Office or Remote
+Ukraine
+Countries where we consider candidates
+Python
+Domain: Fintech
+Outsource
+Office:
+Ukraine
+(Kyiv, Lviv)

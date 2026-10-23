@@ -1,0 +1,47 @@
+Junior Python Developer (Scraping)
+Dataforest
+
+Looking for a Python Developer (Scraping) to join the Dataforest team. If you are looking for a friendly team, a healthy working environment, and a flexible schedule ‒ you have found the right place to send your CV. Ready to consider final year students with commercial experience.
+Skills Requirements:
+• 6+ months commercial experience with Python;
+• Experience with Web scrapping/Data gathering/Cleaning and Visualization;
+• Experience with Web automation;
+• Experience with libraries/ frameworks: Beautifulsoup, selenium, lxml.
+• Experience with SQL;
+Key responsibilities:
+• Develop scraping and parsing solutions;
+• Develop API, ETL pipelines, other data integration services ;
+• Collaborate with Project Managers to solve customer problems;
+• Optimize applications regarding project requirements;
+• Collaborate with team members, take part in meetings, brainstorms.
+Optional skills (as a plus):
+• Experience with NoSQL and in-memory DB;
+• Experience with Pandas.
+• Experience with Flask, Flask-RESTful
+• Experience with linux, AWS, GCP;
+• Experience with 2captcha, anticaptcha;
+• Experience with pyautogui;
+• Experience with virtualdisplay.
+We offer:
+• Great networking opportunities with international clients, challenging tasks;
+• Building interesting projects from scratch using new technologies;
+• Personal and professional development opportunities;
+• Competitive salary nominated in USD;
+• Paid vacation and sick leaves, medical insurance;
+• Flexible work schedule;
+• Friendly working environment with minimal hierarchy;
+• Team building activities, corporate events.
+
+Only from Intermediate
+Only from 0.5 years of experience
+Office or Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+Python
+Python, web scraping, Data Scraping & Processing, Selenium, Beautifulsoup
+Domain: Machine Learning / Big Data
+Outsource
+Office:
+Ukraine
+(Kyiv)
+Test task is needed

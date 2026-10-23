@@ -1,0 +1,52 @@
+Senior/Middle Backend (Python) Developer
+Spacebus
+$2500-4000
+
+SpaceBus is out-staff family-type company without any bureaucracy, micro, and middle management. Work fully remote with flexible hours.
+We are looking for developers from Azerbaijan, Turkey, Georgia and
+other countries. The communication in company only in ENGLISH!
+We are a family-type company without any bureaucracy, micro, and middle management.
+In our company, you can connect directly with co-founders.
+We try to hire great and exciting, proactive people. Soft skills and life values for us are more important than hard skills. Also we appreciate the sense of humor in people.
+Our goals🎯 : Create a company based on people with the same life values and go to the moon by the space bus🚀🚌
+We are an out-staff company, that's why in most cases we don't know the project previously you will work, but usually, it is big teams and interesting projects.
+Also, we are interested in developing our developers, that way we have special programs for improving soft/hard skills and English classes.
+We like online games and sport, mainly run and gym. But anyway we will be ok with different hobbies or activities. We try to make the team with the same interest, and we will be happy if you like us.
+🔖We offer:
+* Flexible schedule
+* Fully remote
+* Short hiring process
+* Social package
+* Availability to change the project
+* Long term contract
+* Interesting projects and teams
+* Development plan for developers skills
+* Salary revision every six months
+* English classes
+* Learning materials
+⚙️ Requirements:
+- 4+ years of experience in Python development
+- Experience in frameworks (Django Rest, Flask, FastAPI)
+- Knowledge of AWS
+- Hands-on experience with SQL and NoSQL databases
+- Experience in Docker, Kubernetes,
+- Good knowledge of TDD, SOLID principles
+- Knowledge of basic data structures and algorithms
+- Experience in the microservices architecture model
+- Experience in maintaining and debugging live software systems
+- Upper-Intermediate level of spoken and written English
+We wait for your CV and give you a response ASAP!
+Let's go to the moon on the space bus 🚀🚌
+About SpaceBus
+SpaceBus is an offshore development agency. Our specialization is building remote developing teams. Among our clients, you can find Yamaha, Benefits Cosmetics, and HD Supply.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Azerbaijan, Turkey, Ukraine
+5 years of experience
+English Intermediate
+Full Remote
+Outstaff

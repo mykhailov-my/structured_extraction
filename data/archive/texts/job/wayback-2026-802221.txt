@@ -1,0 +1,56 @@
+Junior Python Full-Stack Developer
+CrewRed
+
+We partner with startups and enterprises to build products across healthcare, fintech, eCommerce, and AI. For you, this means variety - different projects, fresh challenges, and growth that doesn't stall. No years maintaining one legacy codebase.
+If you want to grow quickly and work on things that actually ship - keep reading.
+What You'll Do
+- Build and ship features - from small tasks to full modules as you grow
+- Write clean code and learn best practices through code reviews
+- Work alongside experienced engineers who'll help you level up
+- Learn how production apps are built and scaled
+- See different products and industries - faster learning curve
+What We Work With
+⚡ Python, FastAPI, Django, Pydantic, PostgreSQL, uv, Ruff, React, TypeScript, Next.js, Tailwind
+Gets You Extra Points
+- Familiar with SQLModel, Alembic
+- Used AI coding tools (Cursor, Claude Code, Copilot)
+- Hands-on experience with any LLM integration
+- Basic prompt engineering skills
+What You Bring
+- Solid understanding of Python and basic React/TypeScript
+- Understanding of REST APIs
+- Basic experience with SQL databases
+- English: Intermediate+
+- Willingness to learn and take feedback
+What You Get
+Work & Growth:
+- Fully remote, flexible hours
+- Structured code reviews
+- Senior engineers who help you level up
+- English practice sessions
+Compensation:
+- Salary in USD
+- Performance reviews twice a year
+- 15 days paid vacation + sick leave
+
+Необхідні навички
+Django, 6 months, Flask, 6 months, AIOHTTP, 6 months, MongoDB, 6 months, PostgreSQL, 6 months
+
+Only from 1 year of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+Django
+6 months
+Flask
+6 months
+AIOHTTP
+6 months
++ 10 more
+Employment: Fulltime
+Domain: Other
+Outstaff
+Test task is needed

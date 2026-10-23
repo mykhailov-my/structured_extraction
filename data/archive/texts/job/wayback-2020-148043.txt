@@ -1,0 +1,65 @@
+Senior Python Engineer
+Dev.Pro
+
+You will work on our web-based application and the new mobile app, which provide a wide range of challenges.
+The person we are looking for can play a key role in influencing how the whole software development process and delivery will be set up, maintained and improved.
+There is an opportunity to work on everything from full stack web (Python 3.8, Django 2.2.10, React, numerous modern web APIs like WebGL, WebAudio, etc., Postgres), to a scalable video rendering pipeline, to a cross-platform mobile app leveraging Flutter and native code as well.
+We’ll welcome a specialist who loves to:
+• Take responsibility for making technical decisions and getting them implemented
+• Be involved in planning, designing and implementing ideas as well as supporting infrastructure
+• Evaluate technical solutions, identify risks, perform estimation together with the team
+• Create apps as a Full stack developer using the Django and React development frameworks
+• Work closely with BA, QA, and external stakeholders
+Required skills:
+• 4 years experience in software development using Python
+• At least 1 year of experience with React
+• Hands-on experience with Django
+• Experience with Heroku
+• Participation in the full software lifecycle of applications
+• Very good interpersonal and communication skills
+• Upper-Intermediate level of English
+Benefits
+• 18-20 paid time off days per year
+• 5 absence due to illness days and 21 day of extraordinary medical leave per year
+• Medical Insurance and Healthcare Kit
+• Extensive corporate professional training programs, workshops, ESL and conferences
+• Team buildings, corporate parties and Dev-Pro Hangouts
+• Visa support
+About Dev-Pro
+Dev-Pro is a US-based outsource software development company with 8+ years’ experience. A
+high level of technical knowledge (25% of our developers are Senior) as well as communication
+and visibility are Dev-Pro’s key distinguishing features.
+Dev-Pro has experience working with projects of various size and complexity, from innovative
+startups to market leaders, due to its established infrastructure and flexible management. We
+have expertise in Point of Sale, Exchange market, SaaS, CRM development and integrations
+(Salesforce, Dynamics), Big Data, social networks of various types, etc.
+Web Technologies: Node.js, Angular.js, HTML, CSS
+Development Languages: JavaScript, .NET, Python, Ruby on Rails, C++, PHP, Java
+Mobile Development: iOS, Android, Apache Cordova, React Native
+Clouds: AWS, Azure, GCP, Rackspace, UpCloud
+Databases: MySQL, MS SQL Server, PostgreSQL, Cassandra, Hypertable, OrientDB
+Data Storage Solutions: MongoDB, Redis, Couchbase, Riak, Neo4j, RavenDB, MemCache
+Blockchain Technologies: Ethereum, Solidity, HyperLedger, EOS
+Full text search: Elasticsearch, Apache Lucene, Apache Solr, Sphinx
+CMS: Wordpress
+DevOps tools: Docker, Kubernetes, Ansible, Terraform
+Deployment: Jenkins, TeamCity, CircleCl, Gitlab CI
+Industry Standards: PCI DSS, SOX
+You will join a company with a culture of experience, cross-pollination, high standards and
+productivity, and strengthen your overall management, leadership and communication skills.
+Benefits:
+1) Health insurance
+2) Relocation package
+3) English classes
+4) More details: [link]
+Get on board and Get IT Done with Dev-Pro!
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, Kharkiv, Dnipro, remote
+3 years of experience
+English Intermediate

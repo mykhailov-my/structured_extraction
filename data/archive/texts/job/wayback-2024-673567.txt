@@ -1,0 +1,46 @@
+Senior Python Developer
+Onicore
+to $5000
+
+Onicore is a FinTech company specializing in developing products for cryptocurrency operations.
+👉 We are looking for an experienced specialist to join the backend team for a recent exchanger project (no legacy).
+The latest technology, cool team, and the ability to influence product development are included.
+Your skills:
+• 5+ yrs as a Python backend developer;
+• Multi-threading and asynchronous software development;
+• Having knowledge and understanding of network principles (TCP / IP, DNS, HTTP, SSL);
+• Database experience (PostgreSQL);
+• Having knowledge of infrastructure principles, AWS Amazon cloud and Google Cloud;
+• Experience with Git;
+• Agile team working experience;
+• Ukrainian language - fluent.
+Would be a plus experience with:
+- FastAPI;
+- Blockchain and Cryptocurrencies;
+- FinTech sphere;
+- Telegram bots development.
+What's in it for you?
+🏥 Medical insurance
+🤓 Paid courses, conferences, training sessions, workshops etc.
+💂 English classes
+💪 Sport compensation
+💼 Legal assistance
+🧗‍♂️ Motivated and goal-oriented team
+🧑‍💻 Direct impact on the development of the product
+💻 Corporate laptops
+Feel free to ask any questions :)
+
+from 5 years of experience
+Considering with 4 years of experience
+$4500-5000
+Considering up to $5500
+Office or Remote
+Worldwide
+Countries where we consider candidates
+Python
+MySQL/PostgreSQL/MongoDB, Python, Fast API, AWS, Google Cloud
+Domain: Fintech
+Product
+Office:
+Ukraine
+(Kyiv)

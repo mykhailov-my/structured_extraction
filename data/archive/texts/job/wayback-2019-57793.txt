@@ -1,0 +1,42 @@
+Middle Python AQA, HERE
+Intellias
+
+Проект HERE Maps – глобальний лідер на ринку геолокаційних рішень та сервісів. Його продукти використовуються в автомобільній промисловості, портативній електроніці, транспортній інфраструктурі та логістиці, торгівлі та маркетингу, телекомунікаціях.
+Project Overview:
+The NDS is a registered society of car manufacturers, system suppliers and map suppliers. The objective of the initiative is to standardize a physical storage format for car navigation systems.
+One of the drawbacks of today's navigation systems is that each system needs its own physical format for navigational data. A direct exchange of map data between different navigation systems is not possible. A standardized binary format, which also provides new features, offers many new opportunities.
+The key objective is compatibility and interoperability allowing the exchange of navigational data between systems that comply with Navigation Data Standard. NDS supports standard navigation building blocks like e.g. map display, routing, POIs and location selection as well as advanced navigation content. Plus, NDS provides a common database format and harmonized update concepts for different systems. This ensures flexibility regarding content update, including incremental and partial updates. Moreover, database content can be enriched without changing basic structures.
+Responsibilities:
+- Follow, improve and implement processes to assure that we are reaching the agreed quality standards;
+- Customer issue analysis and dispatching, bug triage coordination;
+- Build quality monitoring and related issue resolution;
+- Maintain engineering documentation and reports;
+- Creation, execution and maintenance of automated tests using Python (and Java in future) and in house test framework;
+- Collaborate with the product team to develop test scenarios for both existing and new features;
+- Writing and maintaining test specifications;
+- Work environment setup and configuration, test results analysis;
+- Research and assess new technologies and test tools;
+- Ability to travel on business purpose.
+Requirements:
+- B.Sc. or M.Sc. in Computer Science (or equivalent);
+- Minimum of 3 years’ experience in software engineering industry;
+- Awareness of test strategies;
+- Experience working following SCRUM or other agile development methodologies;
+- Ability to effectively and efficiently manage multiple tasks;
+- Hands on experience developing automated test scripts in Python and Java ( both Java and Python middle stable skills);
+- Strong Knowledge of SQL;
+- Upper-intermediate level of English, well-developed communication skills;
+- Knowledge of Hadoop/MapReduce will be an advantage;
+- Experience with continuous integration systems (i.e. Jenkins);
+- Experience with Gerrit will be an advantage.
+About Intellias
+Intellias
+Смартова та комфортна компанія з дружніми відносинами в командах, а також гнучким та ефективним менеджментом та особливими умовами для кожного працівника
+Company website:
+[link]
+
+QA Automation
+Kyiv
+Киев, Харьков, Львов
+3 years or more
+English Upper Intermediate

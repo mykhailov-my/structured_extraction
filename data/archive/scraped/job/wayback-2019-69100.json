@@ -1,0 +1,24 @@
+{
+  "doc_id": "wayback-2019-69100",
+  "url": "https://djinni.co/jobs/69100-python-engineer/",
+  "snapshot": "https://web.archive.org/web/20190921150630/https://djinni.co/jobs/69100-python-engineer/",
+  "captured_at": "2019-09-21T15:06:30",
+  "posted": null,
+  "year": 2019,
+  "active": false,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:10+00:00",
+  "title": "Python Engineer",
+  "company": "Ciklum",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Kyiv",
+    "Киев",
+    "3 years or more",
+    "English Upper Intermediate"
+  ],
+  "description": "Every day, millions of new videos are uploaded across these social platforms. The upload and consumption rates of online video are growing exponentially over time. We’re looking for top-notch engineers to help us solve some of these challenging big data problems.\nTubular Labs is at the forefront of the digital video revolution. Tubular’s products ingest information about online videos across major social platforms (Facebook, Youtube, Instagram, Twitter, etc) and make this information available via an intuitive and analytically insightful single-page web application and restful API, all while aiming to provide sub-second response times.\nEvery day, millions of new videos are uploaded across these social platforms. The upload and consumption rates of online video are growing exponentially over time. We’re looking for top-notch engineers to help us solve some of these challenging big data problems.\nOur stack:\n- Python 3.7, Scala\n- ElasticSearch, MySQL, Redis, Spark + S3\n- Apache Kafka, Thrift, Consul\n- AWS, Terraform, Salt, Jenkins, Mesos/Kubernetes, Docker\n- Influx, ELK\nOur values:\n- We believe in trust, transparency, and collaboration so we know our problems and working together on solving various challenges. We like sharing wins and open to learn from mistakes.\n- We measure success by customer satisfaction. By applying learn/adapt/advance principle we strive to provide smooth experience with unique video industry insights.\n- We love to learn and open to new ideas. We switched from Hadoop to S3, from Hive to Spark, from monolith to microservices, from RabbitMQ to Kafka. - All these transitions (and others) came from engineer suggestions. Your ideas will likewise be heard.\n- We believe that online video industry is huge part of the future and what we do at Tubular is unique and contributing to the growth of the industry. Your contributions will enable us to accomplish this goal.\nAbout Ciklum\nCiklum is a top-five global Software Engineering and Solutions Company. Our 3,000+ IT professionals are located in the offices and delivery centres in Ukraine, Belarus, Poland and Spain.\nAs Ciklum's employee, you'll have the unique possibility to communicate directly with the client when working in Extended Teams. Besides, Ciklum is the place to make your tech ideas tangible. The Vital Signs Monitor for the Children’s Cardiac Center as well as Smart Defibrillator, the winner of the IoT World Hackathon in the USA, are among the cool things Ciklumers have developed.\nCiklum is a technology partner for Google, Intel, Micron, and hundreds of world-known companies. We are looking forward to seeing you as a part of our team!\nCompany website:\n[link]"
+}

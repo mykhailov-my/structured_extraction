@@ -1,0 +1,62 @@
+Junior Python Developer IRC218290
+GlobalLogic
+
+Description:
+Our Customer is one of the biggest companies on the market of home entertainment consumer electronics devices that strives to provide their clients with high-quality products and services.
+Project goals include automation testing of the video and audio content and other services available via digital media players using a custom test automation framework.
+Requirements:
+- At least 2 year of commercial development experience with project-related technologies stack (Python and jQuery)
+- Hands-on experience with developing and testing Web services
+- Strong knowledge and experience in Python;
+- Good working knowledge of at least one Linux/Unix-based platform as well as Windows;
+- Experience in QA methodologies, a clear understanding of QA processes and artifacts;
+- Excellent written and verbal English communication skills developed interpersonal skills;
+- Hands-on experience with automation systems;
+- Good debugging skills, verbal and written communication skills;
+- Knowledge of continuous integration tools (Jenkins/Hudson, TeamCity, Maven, Gradle);
+- Experience working with remote teams
+Responsibilities:
+Back-end Development:
+Design, develop, and maintain server-side components of web applications using Python, Flask framework, SQLite, and SQLAlchemy.
+Implement database schemas, queries, and optimizations to ensure efficient data storage and retrieval.
+Integrate TSDuck functionality into the application to meet specific requirements.
+Write unit tests
+Front-end Development:
+Design and implement responsive and user-friendly interfaces using HTML, CSS, jQuery, and Handlebars.
+Implement client-side functionality to enhance user experience and interactivity.
+Be familiar with RESTful APIs and integration of third-party services.
+Perform manual testing of UI
+Deployment:
+Independently manage deployment processes using Docker and GitLab.
+Utilize GitLab for version control and CI/CD pipelines for automated testing and deployment.
+Television Expertise:
+Work with live TV streams and PSI cards to develop features tailored to the television industry.
+About GlobalLogic
+GlobalLogic, a Hitachi Group Company, is a leader in digital engineering. We put people first. As part of our team, you will grow, be challenged, and expand your skill set working alongside highly experienced and talented people.
+In Ukraine, GlobalLogic is:
+- one of the TOP-3 largest IT companies
+- 6,000+ professionals
+- 90%+ of our projects involve complex R&D
+- fully autonomous offices are located in Kyiv, Kharkiv, Lviv, and Mykolaiv, along with 10 temporary mini-offices across Ukraine
+What is GlobalLogic in numbers:
+- 29,000+ engineers
+- 20+ countries
+- 500+ active clients
+- 50+ product engineering centers
+- Headquartered in Silicon Valley
+Company website:
+[link]
+DOU company page:
+[link]
+
+Development
+Python
+Lviv
+Only from Intermediate
+Only from 2 years of experience
+Python, CSS, HTML, Flask, jQuery, Docker
+Domain: Media
+Office or Remote
+Outsource
+Ukraine
+(Lviv)

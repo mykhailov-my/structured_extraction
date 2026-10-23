@@ -1,0 +1,53 @@
+QA Manual/Automation Engineer (with Python)
+Luxoft
+
+Project Description:
+Development of monitoring and diagnostics system. It fulfils both local and remote data access and analytics requirement, as well as local and remote troubleshooting purpose.
+Responsibilities:
+Work with the Product Owner to define test cases that prove the acceptance criteria for incoming user stories for the Web apps.
+• Create functional and non-functional UI
+• Communicate clearly in English with the development engineers regarding test expectations and defects.
+• Use defect tracking tools to log and clearly describe defects and conditions for reproducing them.
+• Contribute to design and estimation conversations.
+• Contribute to the quality of the solutions by identifying issues in architecture, design and implementation
+• Contribute to our Agile development process as a scrum team member from requirements analysis and design up through final feature acceptance and deployment
+Mandatory Skills Description:
+• At least 6 years of creating and executing test cases
+• Working knowledge of functional and non-functional software testing, the software test life cycle, and various test design methodologies (function, performance, accessibility, scenario etc.).
+• Test cases creation and execution based on Customer and Software requirements
+• Python 3+ years of experience
+• Experience of setting up testing framework from scratch
+• Experience in testing of Backend (API) and data quality
+• Knowledge of API testing tooling like Postman, Swagger
+• DBs basics and SQL database usage expert
+• Familiar with IoT and Time series data handing knowledge
+• Linux knowledge
+• Experience with AWS services
+• CI/CD (Jenkins)
+• Experience with Performance testing
+• Good soft skills in communication.
+• Exemplary verbal and written communication skills (English).
+• Creative problem-solver capable of creating and reproducing interesting software bugs.
+Nice-to-Have Skills:
+- Experience in cooperation with QA automation team
+- AWS Green Grass
+- Experience or knowledge of Industrial protocols (Modbus)
+Languages:
+English: B2 Upper Intermediate
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA Automation
+Category: QA Automation
+Python
+English: Upper-Intermediate
+5 years of experience
+Office or Remote
+Outsource
+Ukraine
+Only candidates from Ukraine

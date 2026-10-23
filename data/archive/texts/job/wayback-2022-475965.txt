@@ -1,0 +1,71 @@
+Senior Python Engineer
+Skillers
+
+Overview
+Every day, somewhere in the world, important decisions are made. Whether it is a private equity company deciding to invest millions into a business or a large corporation implementing a new strategic direction, these decisions impact employees, customers and other stakeholders.
+Consulting and private equity firms come when they need to gather knowledge, critical to ensuring they make the right decision. It is our mission to provide them with this knowledge efficiently and collaboratively.
+In the four years since the company was founded, we have grown to 250 colleagues. This year alone, we are on track to more than double in size! In order to support this growth, we raised a $10m Series A round led by Smedvig Capital.
+Creating knowledge
+Our talented client service teams use a combination of their initiative and leading technology to locate industry experts all around the world. These experts will have significant experience in various industries and provide insights to our clients via conference calls and surveys.
+Curating knowledge
+Our market-leading platform curates insight which helps our clients to make bigger, better decisions with less effort. We believe in the right insights and not the most insights.
+Collecting knowledge
+Insight can sometimes be found within your own organization, hidden within terabytes of files and folders. Our platform helps to surface these insights when they are needed.
+Who we are looking for
+We are looking for an exceptional Engineer to join our rapidly expanding business, develop and support our services
+Responsibilities:
+- Gain a deep understanding of our team culture and development process Develop, maintain and deliver business-critical services
+- Working with business leaders to architect appropriate technical solutions to business problems
+- Build a deep partnership with the team lead and team's product owner Lead the technical architecture of your product suite
+- Ensure high code quality standards and rigorous processes are followed Participate in the active coding of your products
+Requirements:
+- Advanced English language skills
+- You must be passionate about our mission, supporting our colleagues and our clients in the discovery of knowledge. You will be spending your time ensuring our mission is a successful one and so a passion for the product and the problem is vital.
+- You have at least 4 years of experience developing commercial code in Python Experience with building easy-scale, fault-tolerant SOA applications Experience with Redis, ElastiCache, AWS services (SQS, S3, RDS)
+- Good understanding of DevOps (Kubernetes, Docker CI/CD)
+- Understanding how to build logging and monitoring systems
+- You have experience creating a suite of services integrated via API
+Good to know:
+- Python 3 annotations
+- Experience with ElasticSearch, AI
+- Natural language processing skills (NLTK)
+- Experience with Dramatiq
+- Experience with pythonic linters such a flake8, pylint, bandit
+About Skillers
+Skillers is a globally operating Kyiv-based IT recruitment agency since 2005. We are tech-savvy, quality recruitment advocates with 1500+ successful placements record.
+Skillers is a member of NPA Worldwide - the oldest recruiting network operating throughout CIS countries, Europe, Asia, USA.
+What we are good at:
+• delivering individually crafted recruitment solutions for our clients;
+• staffing the most technically challenging job openings.
+We can speak the same language with our clients and candidates as we take an active part in the IT community and network.
+Our services:
+- Technical recruitment (IT Recruitment, Telecom & Engineering recruitment, Contract/Project Recruitment, Executive Search, Interim Management)
+- Contract recruitment / Outstaffing / Outsourcing / Dedicated team
+Services
+- Global IT recruitment (relocation of CIS specialists, NPA network worldwide recruitment, remote developers)
+- Soft Skills training, Career & Life Coaching, Recruitment consulting
+Our expertise:
+R&D and products development: FinTech, Video, Multimedia gadgets and software, IoT, Blockchain, Networking, Firmware, Healthcare, Automotive, Mobile apps, AdTech, CAD
+Game Development: 3D games (incl. AAA), 2D games, AR/VR/HR
+Web Development: eCommerce, CRM, ERP
+IT infrastructure Administration: Network, System & Network, DevOps / SysOps / TechOps, Cyber Security
+Executive / Leadership: C-Level / V-Level positions, Technical Management, HR Leadership
+Some facts about us:
+- one of the oldest agencies in Ukraine specializing solely in IT/Telecom recruitment
+- successfully placed candidates across Ukraine and abroad (Germany, China, Sweden, the US etc.)
+- in 2007 started contributing to the development of the Ukrainian IT HR/Recruiting community by establishing IT recruiter school and organizing HR Fridays and HR Breakfasts
+- the number of our successful placements surpassed 1500
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+Python, AWS
+English: Upper-Intermediate
+3 years of experience
+Full Remote
+Product
+Ukraine
+Only candidates from Ukraine

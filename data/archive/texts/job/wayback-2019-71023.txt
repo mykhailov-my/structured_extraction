@@ -1,0 +1,47 @@
+Senior\Lead Python Developer
+Sigma Software
+
+Do you want to challenge yourself by creating from scratch a high-performing data-driven marketing platform and work with the state-of-the-art technology stack? Then you just have to participate in this exciting media project!
+PROJECT
+Our team is developing a powerful marketing mechanism being able to manage up to billions of complex records, such as video metadata, and provide tools for performing all kinds of analysis, auditing, auto-correction of advertising campaigns targeting, etc.
+We are planning to integrate the system with such social media platforms as YouTube, Facebook, Instagram as well as various services like GoogleAds and AWS services (Lambdas, DynamoDB, SQS/SNS, Cognito, IAM, S3, CloudFormation, CodePipeline, VPC). So as a technical specialist you will have a bunch of complex puzzles to solve and a lot of decisions to make. Sounds like a challenge, right?
+But don’t worry, we have got you covered – you will be provided with the best tools and will be surrounded with true IT professionals who will support you in the process of creating this high-performing and responsive marketing platform.
+Are you up for a challenge? We are waiting for you in our team!
+RESPONSIBILITIES
+- Design separate components, modules, classes, database tables, etc.
+- Code, debug, document, and maintain portions of software
+- Perform unit and integration testing
+- Participate in peer code and design reviews
+- Participate in estimation and planning sessions
+- Contribute to development of technical project documentation and user documentation
+- Provide assistance to test engineers and support personnel in solving technical issues of software installation and its operation
+- Participate in conference calls and face-to-face meetings with the Customer and Customer’s partners
+- Comply with the best engineering practices, technical standards, and quality criteria set forth on the project
+- Report status and progress according to the project and Company demands
+- Spot current deficiencies in the development process, adopted procedures and engineering practices, environment configurations, etc., and suggest improvements
+- Escalate technical issues to the Architect, Team Lead, and Project Manager
+- Improve your qualifications within the area(s) of expertise at various training courses, seminars, and/or other educational events
+REQUIREMENTS
+- At least 4 years’ experience developing software in production environment
+- Solid experience with Python
+- Experience with AWS Serverless
+- AWS stack: Lambdas, DynamoDB, SQS, Cognito, IAM, S3, CloudFormation
+- At least Intermediate level of English
+PERSONAL PROFILE
+- High level of self-organization, attention to details
+- Strong communication skills
+- Creative and innovative
+About Sigma Software
+Sigma Software provides superior IT services to сustomers in such segments as Automotive, Aviation, Construction/Real Estate, Gambling/Gaming, Telecom, Media/Advertising, Finance and Banking, Information Technology, Healthcare, Energy.
+The company named to the list of World's 100 Best Outsourcing Providers.
+Volvo, SAS, Oath Inc., Fortum, IGT (previously GTECH), PUMB, Formpipe Software, JLOOP, Vergence Entertainment, Collective, Genera Networks, Viaplay, and others are among company’s clients. They choose us because of timely, quick and efficient communication, trustful relationships, personal attention, desire and ability to solve problems, and flexibility.
+Sigma Software is a part of Sigma Group, one of the largest IT corporations on Scandinavian market. Sigma Group employs 5,000+ people in more than 11 countries.
+Sigma Software has 950+ specialists in Ukraine (Kharkiv, Kyiv, Lviv, Odesa, and Sumy), Poland (Warsaw), and the USA (New York, San Jose, Bellevue, and Los Angeles), Sweden (Stockholm), Australia (Melbourne).
+Company website:
+[link]
+
+Python
+Kyiv
+Киев, Харьков, Львов, Днепр, Одесса, Винница
+5 years or more
+English Intermediate

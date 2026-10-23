@@ -1,0 +1,70 @@
+Junior strong Python Software Engineer
+Blackthorn Vision
+
+We are seeking a talented Python Engineer to join our dynamic team. As a Python Engineer, you will be crucial in developing and maintaining our software solutions. The ideal candidate should have 1.5+ years of commercial experience in Python development and strong attention to detail. You will be responsible for turning requirements and recipes into functional code, ensuring the quality and efficiency of our software products. We encourage you to apply if you take pride in your work and thrive in a collaborative environment.
+This is a part-time role with the potential for full-time employment after three months.
+Requirements:
+- Bachelor's degree in Computer Science, Engineering, or a related field;
+- 1.5+ years of commercial experience in Python development;
+- Strong proficiency in Python programming language and its libraries/frameworks;
+- Excellent problem-solving skills and attention to detail;
+- Working knowledge of MySQL (ability to write select statements with joins);
+- Strong communication and interpersonal skills;
+- Upper-intermediate level of English IS A MUST;
+- Takes pride in delivering high-quality work and strives for excellence.
+Nice to have
+- Experience with web development frameworks such as Plotly Dash or Flask;
+- Familiarity with database systems such as MySQL;
+- Knowledge of front-end technologies such as HTML, CSS, and JavaScript;
+- Experience with version control systems (e.g., Git);
+- Familiarity with Agile development methodologies.
+Responsibilities:
+- Develop high-quality software solutions using Python and MySQL.
+- Write clean, efficient, and maintainable code with a strong attention to detail.
+- Can follow and implement recipes of known plays.
+- Troubleshoot, debug, and resolve software defects on time.
+About Blackthorn Vision
+Blackthorn Vision — a custom software development company from Ukraine, Eastern Europe. For more than 10 years we’ve been helping technology companies build and improve their software products by scaling their tech teams or completely taking over delivery of their project.
+QUICK FACTS:
+• 14 years on the market
+• Microsoft partner
+• 2 development centers in Ukraine
+• 120+ colleagues on board
+• 70+ successfully completed long-term projects
+• Fortune 500 companies in the portfolio
+• 25+ countries
+• 5+ years of average client engagement
+• less than 10% employee turnover rate
+TECHNOLOGY FOCUS — .NET, Golang, JavaScript, React.js, Angular, TypeScript, Node.js, Native iOS (Swift), Android (Kotlin), Xamarin, AWS, Azure, Google Cloud.
+INDUSTRIES and DOMAINS — Energy, Oil & Gas, FinTech, Biotechnology, Healthcare, Budgeting & Accounting, Hospitality, Industrial Automation, Manufacturing, Interner of Things, Computer Software, Clouds & CyberSecurity.
+WHY BLACKTHORN VISION:
+• exciting and challenging work in a friendly and professional environment;
+• excellent career opportunities and competitive salary;
+• flexible work schedule;
+• professional development program with internal seminars on technical topics;
+• courses, certifications, and access to the corporate library;
+• free English classes;
+•18 working days of paid vacation (24 calendar days), 5 full-paid sick leave days;
+• medical insurance;
+• maternity leave;
+• IT club membership;
+• employee referral program;
+• recognition program with gifts and awards;
+• pet-friendly and eco-friendly;
+• direct and easy communication with management and a lot more...
+BLACKTHORN VISION — A CULTURE WHERE YOUR OPINION IS ALWAYS VALUED!
+Yes, technology is our love, but people who use it to transform the world, break barriers, and open new horizons are our true passion. We take care of out-of-the-box thinkers by providing the best environment possible for creativity without pressure, and for a career that leaves space for a happy life.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Development
+Python
+Only from Upper-Intermediate
+Only from 1 year of experience
+Python, MySQL
+Domain: Other
+Office or Remote
+Outsource
+Ukraine

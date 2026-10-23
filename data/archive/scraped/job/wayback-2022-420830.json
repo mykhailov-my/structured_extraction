@@ -1,0 +1,25 @@
+{
+  "doc_id": "wayback-2022-420830",
+  "url": "https://djinni.co/jobs/420830-data-engineer-python-data-warehouse-poland-/",
+  "snapshot": "https://web.archive.org/web/20220521095350/https://djinni.co/jobs/420830-data-engineer-python-data-warehouse-poland-/",
+  "captured_at": "2022-05-21T09:53:50",
+  "posted": "2022-05-13",
+  "year": 2022,
+  "active": true,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:11+00:00",
+  "title": "Data Engineer (Python), Data Warehouse (POLAND)",
+  "company": "DataArt",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Data Engineer",
+    "Relocate, Bulgaria, Georgia, Kazakhstan, Poland",
+    "5 years of experience",
+    "English Intermediate",
+    "Office/Remote of your choice",
+    "Outsource"
+  ],
+  "description": "Our client is a travel accessories company creating top-quality suitcases and bags. They seek to make travelling easier and enhance the whole experience. They are expanding the team to build a Data warehouse.\nPROJECT OVERVIEW:\nAt the moment, the project is in its active phase, most of the work is being carried out in the context of the transition from Airflow to the combination of D365 + Boomi and the development of new data pipelines for the client's e-commerce platform. Also, currently transitioning from Heroku to AWS.\nTEAM:\nThe project team consists of the Team Leader + 2 Data Integrations Engineers + close collaboration with other Data Analysts team and Boomi Developers.\nPOSITION OVERVIEW:\nWe are looking for a Strong Middle/Senior Engineer, with solid experience in Airflow, hands-on experience building data pipelines with Python, and familiarity with D365, AWS, and Redshift. Experience with Boomi will be a plus (or eager to learn).\nTECHNOLOGY STACK:\nJava/Groovy, Snowflake/Redshift, AWS/Azure, Python.\nResponsibilities:\n- Design, run, and maintain scalable data pipelines and related data warehouse for client's e-commerce platform, ERP, 3PLs and their 3rd party services\n- Partner with designers, product managers, and engineers to ensure the system is robust and dependable\n- Mentor your colleagues and help them through the process, including code reviews\n- Catch bugs and monitor data quality so that the production data is accurate and accessible to key stakeholders and business processes\n- Review and upgrade client's technology, data structures, and practices.\nRequirements:\n- 5+ years of software development experience\n- 4+ years of experience building data pipelines with Python\n- 4+ years of experience with distributed data storage systems/formats & data stores like Snowflake or Redshift (or other Big data systems)\n- 2+ years of experience building Kafka based pipelines to stream messages with good exposure to handling failure scenarios\n- Proficiency in MS Dynamics\n- Excellent understanding of relational databases, including SQL\n- Ability to work with and process large datasets\n- Familiarity with batch processing/real-time systems using technologies such as Spark, MapReduce, NoSQL, Hive, etc.\n- Strong knowledge of Java or Groovy\n- Prior experience with a major cloud provider such as AWS or Azure\n- Ability to work independently and come up with thoughts to improve processes.\nNice to have:\n- Proficiency in Linux/Unix\n- Experience with Scala and Airflow\n- Exposure to Continuous Integration/Continuous Deployment & Test Driven Development\n- Experience with Boomi will be a plus (or eager to learn).\nAbout DataArt\nDataArt is a global software engineering firm. With over 20 years of experience, teams of highly-trained engineers around the world, deep industry sector knowledge, and ongoing technology research, we help clients create custom software that improves their operations and opens new markets. DataArt started out as a company of friends and has a special culture that distinguishes it from other IT outsourcers, such as:\n- Flat structure. There are no “bosses” and “subordinates”.\n- We hire people not to a project, but to the company. If the project (or your work in it) is over, you go to another project or to a paid “Idle”.\n- Flexible schedule, ability to change projects, to work from home, to try yourself in different roles.\n- Minimal bureaucracy and micromanagement, convenient corporate services\nCompany website:\n[link]\nDOU company page:\n[link]"
+}

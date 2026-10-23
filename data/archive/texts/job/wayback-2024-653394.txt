@@ -1,0 +1,48 @@
+Junior Python Developer
+Datavise
+
+Join the team of professional data scientists and web engineers! Datavise works with impact-first companies from all around the globe, using a data-driven approach and continuously increasing our operational effectiveness.
+REQUIRED SKILLS:
+- Knowledge of Python, Django, or Flask (1 year or more)
+- Knowledge of FastAPI
+- Experience working with Cloud providers AWS/Azure/GCP
+- Knowledge of SQL
+- Understanding of the HTTP protocol and RESTful APIs, GraphQL
+- Command of Linux/UNIX environment (shell, scripting, tools)
+- Unit tests
+- Knowledge of HTML/CSS and Ajax
+- Upper-intermediate English
+- Basic data analysis, probability theory and statistic
+A PLUS:
+- Knowledge of one of the modern frameworks such as Angular / ReactJS / Vue
+BENEFITS PACKAGE:
+- Extensive experience and remote work possibilities
+- Hands-on training support and help with creating/updating profile
+- Paid vacation and sick days
+- Insurance compensation
+- Partial compensation of gym membership, English courses, books, materials for developing etc
+- Unique company that is focused on the solutions development for specific business niches
+- Opportunity to get more experience with events, conferences, seminars, master classes and training at the company’s expense
+- Best management and team support: we are always happy to hear from colleagues about their business & technology ideas
+- Opportunity to implement your ideas on our internal projects
+- Regular salary revision
+RESPONSIBILITIES:
+- Development of components and applications in Python / Django / FastAPI
+- Working with Large Language Models
+- Working with Data Infrastructure (Airflow, Kafka, Vector databases, etc.)
+- Maintenance of existing applications
+- Tasks estimation
+- Writing technical documentation and reports
+Bachelor's degree in computer science, math or related, current students are also acceptable (NTUU "KPI", KMA, KNU, UCU).
+
+Development
+Python
+from Upper-Intermediate
+Considering with Intermediate
+from 1 year of experience
+Considering with 0.5 years of experience
+Full Remote
+Worldwide
+Python, Django/Flask/Aiohttp/FastApi, AWS, Azure, GCP, SQL, REST / GraphQL
+Domain: Machine Learning / Big Data
+Agency

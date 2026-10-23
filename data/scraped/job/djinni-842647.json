@@ -1,0 +1,28 @@
+{
+  "doc_id": "djinni-842647",
+  "url": "https://djinni.co/jobs/842647-senior-python-backend-developer/",
+  "category": "Python",
+  "published": "Wed, 21 Oct 2026 17:02:43 +0300",
+  "collected_at": "2026-10-22T16:50:11+00:00",
+  "title": "Senior Python Backend Developer",
+  "company": "Performa HR-agency",
+  "salary": "",
+  "skills": [],
+  "languages": [
+    "Англійська: A2 - Елементарний",
+    "Українська: C2 – Вільний"
+  ],
+  "facts": [
+    "Виключно від 3 років досвіду",
+    "Тільки віддалено",
+    "Весь світ",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська A2 - Елементарний",
+    "Українська C2 – Вільний",
+    "Python",
+    "Зайнятість: Fulltime",
+    "Домен: Blockchain / Crypto",
+    "Змішана (сервісно-продуктова)"
+  ],
+  "description": "Ми шукаємо Senior Python Backend Developer у продуктову команду, яка розробляє real-time платформу для крос-біржового арбітражу на perpetual futures.\nЦе технічно складний FinTech/crypto продукт із фокусом на швидкість виконання, стабільність, роботу з біржами та обробку даних у real-time.\nТехнологічний стек:\n- Python 3.11+, asyncio, FastAPI, Pydantic\n- PostgreSQL, SQLAlchemy async, Alembic, TimescaleDB\n- Redis\n- NATS JetStream, Kafka\n- aiohttp, httpx, WebSockets\n- ccxt та API криптобірж\n- AWS, Docker, GitHub Actions\n- Prometheus, Grafana, OpenTelemetry\nПроєкт працює з Binance, MEXC, BingX, Bybit та іншими біржами.\nЩо потрібно буде робити:\n- розвивати Python backend та існуючу мікросервісну архітектуру;\n- працювати з real-time market data та execution flow;\n- інтегрувати нові криптобіржі та підтримувати існуючі інтеграції;\n- працювати з REST API та WebSockets;\n- оптимізувати latency та продуктивність системи;\n- працювати з PostgreSQL, Redis, Kafka/NATS;\n- забезпечувати надійність системи при помилках, часткових відмовах та проблемах із зовнішніми API;\n- працювати з trading logic: ордери, risk checks, retry/rollback, reconciliation;\n- підтримувати observability та моніторинг системи.\nЩо ми очікуємо:\n- 3+ роки комерційного досвіду з Python Backend;\n- хороший практичний досвід з asyncio та асинхронним Python;\n- досвід із FastAPI / Pydantic;\n- впевнене знання PostgreSQL та SQL;\n- досвід із distributed/event-driven системами та хоча б одним із брокерів: Kafka, NATS або RabbitMQ;\n- розуміння concurrency, race conditions, retries, idempotency та partial failures;\n- досвід інтеграції сторонніх API;\n- самостійність та здатність працювати з технічно складними задачами.\nВажливий момент:\nНа проєкті основний фокус саме на async Python. Тут не використовуються Django/DRF та Celery, тому нам важливий кандидат, який має реальний досвід роботи з asyncio та розуміє, як працюють конкурентність і event loop.\nУмови:\n- Формат: remote;\n- Графік: 9:00–18:00 або 10:00–19:00;\n- Оплата: у USD, двічі на місяць;\n- невелика продуктова команда: Product Owner, Architect, Backend, Frontend, DevOps;\n- мінімум бюрократії та багато самостійності.\nПроцес найму:\n- Коротка онлайн-зустріч із рекрутером.\n- Технічна співбесіда з CTO.\n- Офер.\nНа технічному етапі основний фокус буде на asyncio, concurrency, distributed systems, queues та поведінці системи при часткових відмовах."
+}

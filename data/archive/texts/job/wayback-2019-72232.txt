@@ -1,0 +1,33 @@
+Python developer
+Langate
+
+Requirements:
+• Solid, enterprise level skills in Python;
+• APIs: REST/JSON, SOAP/XML;
+• Databases: MySQL, InfluxDB;
+• Environments: AWS
+Requirements:
+• Solid, enterprise level skills in Python;
+• APIs: REST/JSON, SOAP/XML;
+• Databases: MySQL, InfluxDB;
+• Environments: AWS;
+• Tools: Github, Jira;
+• Experience with Data Science will be a plus;
+• Strong analytical skills;
+• English — upper-intermediate
+Responsibilities:
+• Designing and developing the server side architecture using Python Frameworks;
+• Plan, develop and grow in collaboration with other talented developers
+About the project:
+You will worked on the project that leverages machine learning and AI to deliver predictive solutions for clients is capable of improving decision-making and reducing risk for leading industry partners.
+Prediction lies at the heart of decision-making under uncertainty.
+About Langate
+Langate is a comprehensive IT services and technology company headquartered in the New York City metro area since 1996. We offer innovative, industry-focused solutions via Managed IT, Private Cloud, and Software Development services and have a proven track record for success delivering flexible, cost-effective solutions without compromising on quality.
+Company website:
+[link]
+
+Python
+Kharkiv
+Харьков, Львов, Днепр, Одесса, Винница
+3 years or more
+English Intermediate

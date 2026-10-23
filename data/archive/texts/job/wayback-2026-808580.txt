@@ -1,0 +1,49 @@
+Senior Backend / Data Engineer (Python, Typescript, AWS)
+Devico
+to $4000
+
+About Us:
+We are building technology that makes sustainability and decarbonization core elements of modern business. Our software provides partners with advanced carbon management tools that simplify compliance, reduce emissions, and support success in a sustainable economy.
+Our mission is to automate and scale carbon management processes, helping companies optimize operations, reduce emissions across products and supply chains, and contribute meaningfully to the fight against global climate change.
+Position Overview:
+We are seeking a highly skilled and versatile Senior Backend / Data Engineer to join our team in Berlin.
+You bring strong expertise in data engineering, solid Python skills, and hands-on experience with AWS. You are comfortable designing and managing complex data processes and cloud infrastructures.
+Responsibilities:
+- Develop and maintain backend architecture and scalable data pipelines;
+- Collaborate closely with product managers and engineers to build a world-class data platform;
+- Shape core data capabilities and contribute to strategic technical decisions;
+- Ensure reliability, performance, and scalability of data systems in production.
+Requirements:
+- 5+ years of experience working with large-scale data in production environments;
+- Strong proficiency in Python and TypeScript;
+- Experience with web frameworks and familiarity with DevOps, MLOps, and/or DataOps practices;
+- Hands-on experience with AWS, CloudFormation, and CDK for infrastructure management;
+- Strong understanding of scalable databases and cloud-based data pipelines;
+- Excellent communication and teamwork skills;
+- Openness to learning, experimenting, and acknowledging knowledge gaps;
+- Upper-Intermediate English or higher.
+What We Offer:
+- A key role in advancing impactful climate technology;
+- Strong growth opportunities within a rapidly expanding company;
+- A dynamic and supportive work environment that values innovation, initiative, and diversity.
+
+Необхідні навички
+Python, 5 years, Node.js, 3 years, TypeScript, 3 years
+
+Only from 5 years of experience
+$2000-4000
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Data Engineer
+Python
+5 years
+Node.js
+3 years
+TypeScript
+3 years
+Employment: Fulltime
+Domain: Other
+Outsource

@@ -1,0 +1,31 @@
+Senior Python Developer
+Grid Dynamics
+
+This is an application that allows a user to work on the design of their room/flat. They can choose the room type and size, add windows and doors, add all required furniture to the room plan. This application helps to visualize your room and understand what furniture and other staff fit the whole design. Once finished, all of your items on the board can be added to the cart and purchased. There is an option to make HD image with your room design, which you can save in a separate section in the application.
+There are also more opportunities that we have, like the development of a separate version for a mobile devices, the reports automatization and 360 Viewer, recommendation engine integrated into the application.
+Details on tech stack
+AWS (AWS Lambda, AWS Batch, CloudSearch, AWS S3), Python (backend), PostgreSQL, GraphQL API, ETL processes, microservices architecture
+React JS (FE)
+Min requirements to the candidate
+- experience in python
+- capability to build systems from scratch
+- knowledge in AWS (AWS Lambda, AWS Batch, CloudSearch, AWS S3)
+- capable of supporting existing system architecture and creating a new one from scratch
+- good grasp of systems architecture, system designs, including branching systems and multiple years of experience in working with them
+- good English level
+Selling points for this demand (what is good about project / client / team / etc)
+- Work as a part of a great team
+- Be involved into the processes building
+- Great client and friendly onsite team
+About Grid Dynamics
+Grid Dynamics is a world-class expert company with highly scalable distributed solutions and CI/CD. We help one of the biggest financial companies on the East Coast to solve the challenging problems that affect the entire development organizations, like building enterprise web services with millisecond response time, or improving development processes by introducing Agile, test automation, TDD, and CI/CD processes.
+Company website:
+[link]
+
+Python
+Category: Python
+English: Upper-Intermediate
+3 years of experience
+Office/Remote of your choice
+Outsource
+Poland, Azerbaijan

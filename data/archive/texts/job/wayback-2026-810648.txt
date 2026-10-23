@@ -1,0 +1,45 @@
+Senior C++ Software Developer (with Python)
+Luxoft
+
+- Our client is a global leader in Innovative Orthodontics.
+Software Engineer in Client's team will work on CAD/CAM Automation project for Clear Aligners mass production. Engineer will develop ecosystem for 3D geometry processing pipeline with a focus on product logic, software infrastructure, and CLI/3D GUI tooling. This role is focused on backend and system-level engineering. The position does not require direct development of 3D geometry algorithms, but strong engineering fundamentals and interest in the domain are highly valued.
+- Responsibilities:
+• Develop and maintain the 3D geometry processing pipeline ecosystem
+• Implement core product logic and distributed backend services
+• Develop and support CLI/3D tooling
+• Work on scalable, reliable system architecture
+• Collaborate with cross-functional teams on CAD/CAM automation solutions
+• Ensure high-quality, reliable, and scalable code
+• Participate in code reviews and contribute to continuous improvement
+• Work with the team's toolchain and technologies (C++, Python, C#, Go, CMake, Bazel, Protobuf, gRPC, Docker, AWS EKS, etc.)
+- Mandatory Skills Description:
+• Strong C++ expertise (core requirement)
+• Solid backend engineering experience
+• Good knowledge of Python (secondary language)
+• Golang is a plus
+• Experience building scalable distributed systems
+• Strong understanding of software architecture and system design
+• Degree in Computer Science / Applied Mathematics
+Team uses next technologies:
+High Development: CMake, Bazel, Conan, Protobuf, gRPC.
+Mid Runtime: Docker, AWS EKS.
+Low CI/CD: Atlassian Bamboo, Jenkins, Helm, Portainer.
+Mid Monitoring: Prometheus, Grafana, Loki, Clickhouse.
+- Nice-to-Have Skills Description:
+Interest and initiative in 3D geometry algorithms development
+Experience in:
+• CAD/CAM systems
+• 3D processing pipelines
+• Gaming engines
+- Languages:- English: C1 Advanced
+
+Only from 5 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+C++
+Employment: Fulltime
+Domain: Healthcare / MedTech
+Outstaff
+Test task is needed

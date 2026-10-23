@@ -1,0 +1,73 @@
+Senior Python Developer
+Devcom
+to $5000
+
+We are looking for a skilled Strong middle / Senior Python Developer with strong experience in Django, Flask, and microservices to build a vehicle management platform from scratch for a UK-based automotive client. This role involves integrating AI solutions, working with cloud services (AWS/Azure), and ensuring a successful go-live with ongoing opportunities to support and enhance the product in production.
+Work mode: full-time employee
+We are open to considering candidates for remote collaboration who are currently based in Europe, including those from Ukraine
+Industry: Automotive (UK-based business customer)
+New project from scratch
+Current team: You will work directly with the CTO/ tech lead on the client side. The client team also includes a Project Manager and Product Owner. From our side, there is a Backend Developer, DevOps, Frontend Developer, and QA. Since this is a new project, there will be only one developer from our side at the beginning.
+Required Skills & Experience:
+English proficiency of at least B2 (direct work with CTO/tech lead on client side)
+6+ years of experience in software development
+4+ years of commercial experience with Python
+Expertise with: FastAPI, Sanic, Flask, Django
+Strong proficiency in microservices architecture and RESTful API development
+Knowledge in building both synchronous(REST, ProtoBuf, etc) and asynchronous(Queue, Redis signals, etc) microservice communications
+Hands-on experience with AWS or Azure
+RDBMS expertise (e.g., PostgreSQL, MySQL), creating analytical queries for analysis of diverse data
+Proven ability to take ownership and work on a project from scratch
+Optional skills:
+Experience with AI Agents, Embeddings, PyTorch, or TensorFlow
+Basic knowledge of React, Angular, or VueJS
+Familiarity with low-code/no-code platforms (e.g., ReTool, AppSmith)
+Experience with NoSQL databases
+Willingness to learn additional technologies (.Net, Node.js, Serverless)
+What do we offer:
+Salary $4000 — 5000 (depends on the results of the interview)
+Performance review every six months
+Professional development in a team of highly qualified specialists
+Dynamic and interesting work
+Opportunities for career and professional development
+Strong mentorship, providing valuable guidance and support to grow as a skilled specialist.
+Direct communication with English-speaking clients
+Recognition gifts and awards
+Employee referral program
+New benefit program with the opportunity for compensation to cover the following expenses of their choice:
+▪ Sports activities (these can be one-time sessions or monthly or annual subscriptions)
+▪ Payment of medical expenses (treatment and preventive procedures at the dentist, services, and consultations with doctors, medical examinations, and tests)
+▪ Psychologist consultations
+▪ Medical insurance
+▪ Training for the development of professional skills (hard and soft skills), including the purchase of necessary educational literature
+▪ Courses in traditional arts and creativity (such as drawing, music, photography).
+▪ Individual English language improvement classes
+21 working days — paid vacations
+10 paid sick leaves
+IT club membership
+Offices equipped with generators and Starlinks
+If you want more details, write to me or send me a resume through the site.
+The next step is a short interview with HR — 15-30 minutes.
+Then — an interview with your future manager — 60 minutes.
+In case of success — offer!
+I will organize all stages ASAP
+We highly value transparency and communication. Our recruitment process includes feedback at every stage, ensuring that you are consistently informed and engaged.
+So if you’re a person who loves teamwork and communicating with interesting people — you’re more than welcome to our team :)
+Olha Melnychuk
+HR Manager, DevCom
+
+Необхідні навички
+Python
+
+Only from 4 years of experience
+$4000-5000
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English C1 - Advanced
+Required knowledge of Ukrainian
+Python
+Python
+Employment: Fulltime
+Domain: Automotive
+Outsource

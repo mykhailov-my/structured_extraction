@@ -1,0 +1,31 @@
+Middle Python Developer
+IT Staff
+
+В крупную компанию которая занимается доставкой продуктов нужен Middle Python Developer
+Необходимые навыки:
+Отличное знание Python 2/3;
+Опыт решения алгоритмических задач;
+Опыт работы с фреймворком Django;
+Опыт работы с документо-ориентированными БД (CouchDB);
+Опыт работы с реляционными БД (PostgreSQL);
+Опыт работы с полнотекстовым поиском (Solr);
+Понимание принципов кеширования данных и опыт работы с key-value хранилищами (Redis);
+Знание принципов асинхронного программирования (asyncio, aiohttp);
+Опыт написания тестов (unittest, pytest);
+Знание всех процессов разработки и развертывания веб-приложений (Git, CI/CD, Linux, Docker);
+Умение работать в команде.
+Обязанности:
+Разрабатывать чистый и поддерживаемый код;
+Решать интересные и сложные задачи;
+Развиваться как разработчик;
+Обмениваться знаниями и опытом с другими командами.
+About IT Staff
+An international recruiting agency IT Staff was founded in 2012 in London, United Kingdom as a part of an international outsourcing company Karlson Group.
+As for today, more than 30 IT Recruiters at IT Staff recruiting agency deal with personnel selection in Europe and CIS.
+Company website:
+[link]
+
+Python
+Kyiv
+Киев
+At least a year

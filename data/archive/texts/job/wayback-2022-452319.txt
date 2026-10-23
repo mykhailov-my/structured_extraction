@@ -1,0 +1,21 @@
+Python Developer for Blocket
+UAtalents
+
+Так, підїхала дуже крута можливість від компанії Blocket. Про цю компанію знають усі tech специ зі Швеції. Blocket - то найбільший і найпопулярніший торговий майданчик в Швеції з приблизно 12,3 мільйонами активних користувачів щомісяця, які генерують 100 мільйонів сеансів.
+Кого шукають?
+Бекенд девелопера до команди Motor. Це найпотужніший і найбільший відділ у фінансовому сенсі зростання всієї компанії Blocket. Короче кажучи, двигун! Він охоплює роботу з приватними користувачами, які хочуть купити або продати автомобіль.
+Що потрібно для бекенд розробника тут? 4 роки досвіду, незалежність своїх рішучих дій в плані імплементації нових фіч та знання Python, Kafka, SQL (PostgreSQL), Event-driven systems, Distributed systems and microservices
+About UAtalents
+We match Ukrainians displaced due to the war with best European employers
+Company website:
+[link]
+
+Python
+Category: Python
+Python, Kafka, MySQL/PostgreSQL, Micro-service architecture
+English: Intermediate
+3 years of experience
+Hybrid Remote
+Product
+Sweden
+Only candidates from Europe and Ukraine

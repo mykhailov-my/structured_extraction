@@ -2,11 +2,16 @@
 
 ```text
 texts/<doc_type>/<doc_id>.txt     one raw text per file, UTF-8, as found (don't tidy it up)
+scraped/<doc_type>/<doc_id>.json  the scraped record the text was made from, with its URL
 golden/<doc_type>/<doc_id>.json   the hand-labelled answer for the text with the same doc_id
 ```
 
-`job` holds job postings, `cv` candidate profiles. The `synthetic-001` files are made up to
-show the format; delete them once real data is in.
+- `djinni-<job id>`: public job postings crawled from djinni.co by `python main.py crawl-jobs`.
+- `archive/`: the same two folders for postings from past years, `wayback-<year>-<job id>`,
+  read from the Wayback Machine by `python main.py crawl-archive`. They aren't labelled and
+  aren't part of the experiment; they are for comparing requirements across years.
+- `synthetic-001`: made up to show the format; delete them once real labels exist.
+- There is no source of CVs yet: Djinni's candidate profiles may not be crawled.
 
 ## What the homework asks for
 

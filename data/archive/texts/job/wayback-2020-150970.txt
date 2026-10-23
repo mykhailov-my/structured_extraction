@@ -1,0 +1,27 @@
+Python developer
+COXIT
+
+COXIT is an expert C++/Python Agency based in Lviv. We are looking for a remote or coworking based, full-time or part-time backend developer to join the Agency for working on interesting US-Based projects.
+COXIT is an expert C++/Python Agency based in Lviv. We are looking for a remote or coworking based, full-time or part-time backend developer to join the Agency for working on interesting US-Based projects.
+Experience with the following libraries/packages required:
+- Setuptools
+- Unittests
+- Threading
+- Multiprocessing
+- Socket
+- Argparce
+Your code style, best practices usage, and OOP knowledge is very important.
+English knowledge that is enough to communicate with the clients is required.
+Your salary depends on the technical interview.
+About COXIT
+We are an agency that provides services of IT consulting, software development, and team extension. Our agency members are experienced in low-level programming for Unix OSs, Data Mining/Big Data projects, DB Administration, Web Development. Our mission is to help our clients in building complex systems and add value to their business.
+Our services include — consulting, requirements gathering, infrastructure creation, and set up, implementation of the solution based on communicated requirements and client needs.
+Company website:
+coxit.co
+DOU company page:
+[link]
+
+Python
+Lviv
+1 year of experience
+English Intermediate

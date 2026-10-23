@@ -1,0 +1,56 @@
+Junior Python Developer (Integrations)
+Precoro
+
+Precoro is an innovative AI-powered procurement centralization & automation platform, helping companies eliminate manual tasks and control purchasing activities across all subsidiaries. With over 1,000 customers in more than 80 countries, Precoro has proven its ability to create real business value and deliver substantial cost savings.
+Over the past 10 years, we have:
+— Gathered 100+ best specialists on our team
+— Launched 10 large-scale integrations (including with Amazon, Slack, and Google)
+— Helped 1000+ clients improve purchasing operations
+We’re looking for a results-driven Junior Python Developer to accelerate our integration development process and deliver new integrations faster.
+This role is critical for expanding our connectivity capabilities and meeting the growing demand for seamless data flow between our systems and third-party applications.
+Your tech stack: Python, REST API, MySQL, Docker, Git
+Nice to have: experience with 3rd party integrations, Redis, Swagger/OpenAPI, PHP
+Important: Our team works from the office in Obolon, as we believe working together offline helps us build strong, long-term collaboration.
+If this sounds like you - we’d love to hear from you!
+Your responsibilities will include:
+- Building new features while working closely with the entire team.
+- Developing and optimizing key product business processes.
+- Improving code quality to the highest standards: writing tests and implementing best practices.
+- Enhancing the REST API architecture to make the product more stable and scalable.
+- Taking ownership of results: meeting deadlines and achieving goals.
+- Maintaining proactive and open communication with teammates.
+Why you’ll love working at Precoro:
+- Trust-based management: No micromanagement—your ideas and initiatives are always encouraged.
+- Supportive team culture: You’re not alone, our team is open, honest, and always ready to help.
+- Reimbursement for professional learning: We invest in your growth through courses, lectures, and more.
+- Flexible hours: We care about results, not how long you sit at your desk.
+- 26 days off annually (15 vacation days + 11 public holidays): Work-life balance is a priority for us.
+- Medical insurance (after six months) and Unlimited sick leave without requiring a medical certificate. Your health matters most.
+- Pet-friendly offices in Kyiv: Love your furry friend? Bring them along!
+- Supporting Ukraine: We proudly assist the Armed Forces and contribute to projects that bring victory closer.
+Hiring Process
+Our hiring is quick and straightforward:
+- Interview with a recruiter (45 minutes)
+- Technical interview with a hiring manager (1 hour)
+Join a team that values trust, transparency, and open communication. You can read more about Precoro’s values at this link.
+We foster an environment where everyone is encouraged to contribute ideas, challenge the status quo, and drive business growth!
+
+Необхідні навички
+Python, 1 year
+
+from 1 year of experience
+Considering with no experience
+Office Work
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+Python
+1 year
+Employment: Fulltime
+Domain: Fintech
+Product
+Office:
+Ukraine
+(Kyiv)

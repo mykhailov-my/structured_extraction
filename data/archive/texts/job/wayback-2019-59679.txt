@@ -1,0 +1,31 @@
+Senior QA automation engineer (Python) (D)
+Luxoft
+
+Work for a core delivery team inside Luxoft Automotive Division to develop the new incumbent of a suite of products.
+These products are focused on the development and delivery of HMI for head unit inside the automotive area. For being able to fulfill the customer expectations we need additional experienced automation QAs. You will work in a challenging environment with intercultural and international teams where the company culture and language is a mix of German and English. In this role you will be part of the HMI development Team for premium OEM.
+Responsibilities:
+This position requires a highly-motivated individual with strong problem solving and technical skills. The prime duty is to ensure the successful delivery of a quality product by writing and execution tests on a daily basis. Automation testing 70%, Manual - 30%
+Mandatory Skills:
+- Strong SW testing background (certificate is a plus)
+- 3+ years of SW testing experience
+- 3+ years of experience in Test Automation
+- 2+ Good Python knowledge
+- Experience with distributed VCS (preferably - git)
+- Confident linux/unix console user
+- Excellent performance and time management
+- Good communication skills (Intermediate+ English)
+Nice-to-Have Skills:
+- Hands-on UI testing experience using Page Object pattern
+- Hands-on experience with Qt and Squish is a plus
+- Experience in automotive SW testing is a plus
+About Luxoft
+Luxoft provides high-end business solutions to clients across the globe. With deep domain expertise in the finance, telecom, energy, automotive, travel and aviation industries, the company consistently goes beyond its clients’ expectations by bringing together technology, talent, innovation, and the highest quality standards.
+We offer international delivery capabilities through our network of state-of-the-art delivery centers around the world. Luxoft`s customers benefit from the right mix of technology skills, industry knowledge, proprietary processes, methodologies, and a choice of engagement models.
+Company website:
+[link]
+
+QA Automation
+Kyiv
+Киев
+3 years or more
+English Intermediate

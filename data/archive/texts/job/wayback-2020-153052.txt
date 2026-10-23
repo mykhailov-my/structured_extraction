@@ -1,0 +1,37 @@
+Senior Full-stack developer (React+Python)
+Beetroot
+
+We’re thrilled to once more look to expand our team with awesome people. This time, we’re looking for an ambitious Full-stack (React+Python) developer to join the family and work with our client in the ed-tech product based out of Stockholm, Sweden.
+Our client has created a platform that works in the education field. This is a cloud platform for schools, that help teachers to handle their administration (like scheduling, attendance, students’ health checks, etc.) and cooperation with parents and school boards. If changing the educational process sounds like something you have been dreaming of doing, then this may be for you.
+In our collaboration model, you will work and communicate directly with the development team on the client-side.
+Responsibilities:
+Deliver new functions and products to the platform.
+Upgrade the mobile app and a part connected to students’ health.
+After becoming accustomed to the platform, update existing functions, and fix bugs.
+What we’re looking for:
+At least 3 years of experience with Javascript & jQuery
+Professional with CSS / LESS / SASS
+Fluent with React
+Knowledge of Backbone & Underscore
+Knowledge of TDD
+Experience of work with Git
+You love borsch!
+Bonus:
+Knowledge of Python and Django rest framework
+Docker
+Fabric
+Apache Cordova
+AWS
+OAuth
+About Beetroot
+Beetroot specializes in building dedicated teams of developers and designers for clients around the world.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, Kharkiv, Odesa, Zhytomyr, Ivano-Frankivsk, Khmelnytskiy
+5 years of experience
+English Upper Intermediate

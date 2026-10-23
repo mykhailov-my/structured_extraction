@@ -1,0 +1,19 @@
+Middle/Senior Python Developer (AI experience)
+Altexsoft
+
+Vacancy description
+We are developing an AI-powered solution that leverages the latest advancements in machine learning and intelligent automation. You will collaborate with a team of skilled and experienced professionals to implement key components of the system. This role offers the opportunity to contribute to a strategically planned AI product, influence technical decisions, and work with modern, high-impact technologies.
+Required skills
+3+ years of experience in software development using Python Experience with RAG models and familiarity with LlamaIndex, Haystack Understanding of AI/ML principles and practical experience with AI tools like LangChain, AutoGen or CrewAI Experience with SQL and NoSQL databases Familiarity with MCP – the ability to structure and manage contextual data for LLM interactions Experience with writing and implementing APIs (e.g. REST API) DevOps experience: FastAPI, Docker, CI/CD, AWS, Azure, etc.
+Responsibilities
+Design and develop RAG architectures for AI-driven applications using Python Build and maintain AI Agents capable of autonomous reasoning and task execution Integrate models into applications and optimize performance Collaborate with team members in an agile environment, participating in planning, code reviews, and stand-ups.
+
+Only from Intermediate
+Only from 3 years of experience
+Full Remote
+EU
+Countries where we consider candidates
+Python
+Python, LangChain, LangGraph, REST API, Docker, CI/CD, MySQL, Python3, llamaindex, AI/ML
+Domain: Travel / Tourism
+Outsource

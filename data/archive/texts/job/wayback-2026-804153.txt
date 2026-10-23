@@ -1,0 +1,39 @@
+Data Engineer (Python ETL)
+VARTEQ
+
+We’re looking for an experienced Data Engineer (Python ETL Engineer) to join our team and lead the migration of data integration pipelines from Mulesoft and Informatica to Python-based solutions for a fintech company working with payment solutions.
+Key Responsibilities
+- Lead the design and implementation of ETL pipelines using Python to replace existing Mulesoft and Informatica solutions
+- Architect robust, scalable, and secure data integration frameworks
+- Implement ETL orchestration and monitoring systems to ensure data pipeline reliability
+- Optimize data processing workflows for performance and efficiency
+- Collaborate with DevOps, data teams, and stakeholders to deliver high-quality data solutions
+Required Skills
+- 4+ years of Python programming experience
+- Strong ETL development experience (data extraction, transformation, loading)
+- ETL orchestration and monitoring expertise
+- Experience designing and implementing data pipelines at scale
+Proficiency with databases: PostgreSQL, MySQL, or MongoDB
+Strong understanding of data integration patterns and best practices
+Nice-to-Have Skills
+- Apache Airflow or similar orchestration tools (Luigi, Prefect, Dagster)
+- Experience with Mulesoft
+- Experience with Informatica products
+- Familiarity with AI development tools (Claude Code, Gemini CLI)
+- Experience with containerization (Docker) and orchestration platforms
+- Knowledge of cloud data platforms (AWS, GCP, Azure)
+- Leadership experience
+What We Offer
+- Fully remote work
+- International team with clear processes
+- Paid vacation, holidays, and sick leave
+
+Only from 4 years of experience
+Full Remote
+Worldwide
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Python
+Employment: Fulltime
+Domain: Fintech
+Outstaff

@@ -1,0 +1,46 @@
+Senior Python Developer with experience in Django and AWS
+DataArt
+
+Client
+Our client is the world’s leading music company, committed to artistry, innovation, and entrepreneurship.
+Position overview
+We are looking for a Senior Python Developer with strong expertise in Django and AWS to join our Release Products team. This role offers high autonomy and ownership, requiring you to design, build, and maintain production-ready backend services while contributing to infrastructure and CI/CD improvements.
+You will work closely with a senior engineering team, taking responsibility for the production system and ensuring scalability, reliability, and performance. Ideal candidates are T-shaped engineers who thrive in fast-paced environments, can make independent technical decisions, and have hands-on experience with modern cloud and container technologies.
+The project is exploring AI tools and approaches. We’re looking for someone interested in AI and familiar with the latest developments in the field.
+Responsibilities
+- Build and maintain Django backend services
+- Own features end-to-end
+- Contribute to infrastructure and CI/CD where applicable
+- Work directly with a senior engineering team with minimal oversight
+- Take responsibility for the production system, including troubleshooting and operational ownership
+Requirements
+- 6+ years of professional engineering experience
+- Experience as a senior or lead-level contributor
+- Production Django experience (not just Python)
+- Strong in API design, data modeling, and performance optimization
+- Solid AI skills and fluency in using AI tools, or a strong willingness and motivation to work with AI
+- AWS expertise, including hands-on experience with EKS (not just theoretical Kubernetes)
+- Experience with CI/CD pipelines using GitHub Actions
+- Ability to troubleshoot production issues and ensure system stability
+- Comfortable operating with high autonomy and making technical decisions independently
+- Ability to ramp up quickly in existing production systems
+- Strong communication skills and proactive approach
+- T-shaped engineer (deep in one area, strong in another)
+- Experience across backend + frontend or backend + infrastructure
+- Used to working with experienced teams and minimal process
+
+Only from 6 years of experience
+Office, Remote, Hybrid Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+Employment: Fulltime
+Domain: Media
+Outsource
+Office:
+Ukraine
+(Dnipro, Ivano-Frankivsk, Kyiv
++ 3 more cities
+)

@@ -1,0 +1,47 @@
+Python Engineer
+AnvilEight
+
+As an engineer, you will be involved in architecting, implementing and delivering projects that are challenging from technical point of view.
+You’ll be given real autonomy and responsibility, as well as be able to contribute to offer features and implement improvements.
+This role involves the following requirements:
+- Strong knowledge of Python 3.x language;
+- Django Rest Framework or Flask analog. Alternatively, GraphQL;
+- Comfort with AWS/Ubuntu/RDS;
+- PostgreSQL or MySQL;
+- Celery with RabbitMQ;
+- Understanding of API design; RESTful API
+- Git and Webpack (basic experience);
+- More than one year of commercial experience;
+- Experience with React.js will be a huge bonus;
+Non-technical Qualification and Skills:
+- Excellent read & write capabilities and reasonable spoken English;
+- Understanding of Scrum framework and roles in a team;
+- Ability and desire to learn things fast;
+We offer:
+- Free English classes, technical lectures and courses;
+- You get 22 working days of annual leave;
+- We pay for your illness. We don't need a sick list.
+- An ability to plan your working day: you come and go as you please provided that you have enough time to interact with the team and participate in daily meetings.
+- Modern cozy office in the city center (Kooperativna street);
+About Us:
+AnvilEight is Python development outsourcing company that provides custom software solutions and mobile development services to both businesses and individuals.
+Today, we are an enthusiastic team of 40 members, looking forward to being challenged and to deliver high impact services to our clients all around the world.
+Presently, the main stack of technologies consists (but not limited to) of the Python 3.x, Django, React.js.
+We also have a mobile team which specializes in iOS and Android application development.
+Our main development framework is Scrum. We organize backlogs and do daily Scrum meetings.
+At this moment the company is registered in Kharkiv, Ukraine, and London, United Kingdom.
+The head office is located in Kharkiv at Kooperativna street.
+About AnvilEight
+The company provides software development services to its customers.
+We create web and mobile applications for both businesses and individuals.
+At this moment the company is registered in Kharkiv, Ukraine and London, United Kingdom.
+The head office is located in Kharkiv while the new office in London is now being established.
+We aim to be experts in Python language and related frameworks.
+Company website:
+[link]
+
+Python
+Kharkiv
+Харьков
+At least a year
+English Intermediate

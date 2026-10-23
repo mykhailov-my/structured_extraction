@@ -1,0 +1,66 @@
+Medical Imaging Engineer (Python)
+Amplifier AI
+
+Remote | EU Time Zone (CET ±4 hours) | Full-Time
+Competitive salary based on experience | Equity options available
+About Amplifier AI
+We’re building the next generation of surgical planning software for interventional radiology and cardiothoracic surgery. Our platform turns CT scans into interactive 3D models that help surgeons plan complex procedures—from endovascular aortic repair (EVAR) to transcatheter aortic valve implantation (TAVI) and beyond.
+Our core library powers 17+ clinical analysis pipelines that perform automated anatomical segmentation, vessel centerline extraction, hemodynamic measurements, and risk stratification. Every algorithm we ship has a direct impact on patient outcomes.
+We’re a small, focused team where your code goes from PR to operating-room screen in weeks, not quarters. If you want to work on technically challenging problems that genuinely matter, keep reading.
+What You’ll Work On
+This isn’t a generic backend role. Here’s what a typical month might look like:
+• Extending our NNUnet-based segmentation pipelines (we run 15+ trained models across organs, vessels, bones, and tumors) and validating results against clinical ground truth
+• Building automated measurement workflows—think aortic neck angulation, iliac tortuosity indices, or landing-zone diameter calculations that feed directly into surgical reports
+• Developing new workspace modules: designing the data flow from raw DICOM volumes through preprocessing, AI inference, post-processing, and 3D scene generation
+• Optimizing inference performance for GPU and CPU execution, including memory-aware scheduling and adaptive resolution strategies
+• Working with SimpleITK, NumPy, and our in-house volume processing library to manipulate medical images at the voxel level—resampling, label morphology, island filtering, ROI extraction
+• Collaborating directly with radiologists and surgeons to translate clinical requirements into algorithmic specifications
+Our Tech Stack
+• Language: Python 3.12+ (modern typing, dataclasses, async patterns)
+• Medical Imaging: SimpleITK, NIfTI volumes, DICOM processing
+• AI/ML: NNUnet framework, PyTorch, custom inference pipelines
+• Infrastructure: Docker, NVIDIA GPU compute, CI/CD with automated testing
+• 3D Visualization: Unity integration (you won’t write C#, but your Python outputs drive the 3D viewer)
+• Tools: Git, Jira, Confluence, VS Code / PyCharm
+What We’re Looking For
+Must-haves:
+• Strong Python fundamentals: you write clean, typed, well-structured code and understand performance trade-offs
+• Experience with NumPy/SciPy for numerical computing—you’re comfortable thinking in arrays and transforms
+• Familiarity with medical imaging concepts (DICOM, NIfTI, voxel spaces, coordinate systems) or strong willingness to learn quickly
+• Understanding of machine learning inference pipelines, even if you’re not training models from scratch
+• Ability to work independently in a remote-first environment with 4+ hours of overlap with CET business hours
+Nice-to-haves:
+• Experience with SimpleITK or ITK for image registration, segmentation, or morphological operations
+• Background in NNUnet or similar medical segmentation frameworks
+• Knowledge of 3D geometry: meshes, centerline extraction, spatial transforms
+• Contributions to open-source scientific Python projects
+• Domain experience in radiology, surgical planning, or health-tech
+A Few Things to Know
+To set expectations clearly, here’s what this role involves:
+• The codebase is scientifically dense—you’ll work with Hounsfield units, anatomical coordinate systems, and clinical measurement standards. Curiosity about the domain is essential.
+• We’re a startup. Processes are evolving, requirements shift, and you’ll sometimes need to figure things out from first principles rather than following established playbooks.
+• This is primarily a backend/algorithmic role. If you’re looking for frontend or web development work, this isn’t the right fit.
+• We care deeply about code quality—type hints, meaningful tests, clear documentation. We review each other’s work carefully.
+Why Join Us
+• Direct clinical impact: your code helps surgeons plan life-saving procedures more accurately
+• Technically deep work at the intersection of AI, medical imaging, and 3D visualization
+• Small team, big ownership: you’ll shape architecture decisions and see your ideas go to production
+• Flexible remote setup with asynchronous communication and minimal meetings
+• Competitive compensation with equity participation
+How to Apply
+Send us your CV along with a short note covering:
+1. A brief description of the most technically challenging Python project you’ve worked on—what made it hard, and how you solved it.
+2. Your experience (if any) with medical imaging, numerical computing, or ML inference—even if it’s from a different domain.
+3. Your availability and time zone.
+No cover letter template needed—just be direct. We review every application personally.
+
+Only from 5 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian C1 - Advanced
+Python
+Employment: Fulltime
+Domain: Other
+Product

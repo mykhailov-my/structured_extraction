@@ -1,0 +1,39 @@
+Strong Middle/Senior Full Stack (Python+React) Developer
+1648 Factory
+
+1648Factory is looking for a Python Developer!
+The client is a leading Consulting company from Germany. They are now looking to expand the portfolio of products for existing and new clients. You’ll be working on a project which is data-driven.
+Requirements:
+- 4+ years of experience with Python (Flask, Django).
+- Experience with React or/and Angular.
+- Langchain.
+- Azure.
+- Gitlab.
+- OOP.
+- Experience of implementing complex user stories.
+- Upper-intermediate English.
+Responsibilities:
+- Developing complex functionality on Python.
+- Implementing complex user stories.
+- Work with product owners, developers, and quality analysts to drive delivery and participate in all phases of software development.
+We offer:
+- A working environment with plenty of scope for creativity.
+- Independent work with a well-rehearsed team in the background.
+- Remote work from Ukraine.
+- Competitive salary with a long term contract.
+- Attractive compensation package (20 days of vacation, 5 sick days — 100% compensation).
+- Super-experienced international team.
+- Trust and support from the management team.
+- High degrees of responsibility and autonomy.
+- Agile teams where your ideas and solutions are valued.
+
+Development
+Fullstack
+from Upper-Intermediate
+Considering with Pre-Intermediate
+Only from 3 years of experience
+Full Remote
+Ukraine
+Python, React.js, Angular, Django
+Domain: Fintech
+Outsource

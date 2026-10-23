@@ -1,0 +1,35 @@
+AI Automation Engineer
+CML Team
+
+We're seeking a talented AI Automation Engineer to build reliable AI-powered workflows that automate real business processes for clients in the US and Europe. If you're experienced with n8n, Make, APIs, and LLM integrations and enjoy turning manual processes into efficient automated systems, we'd love to hear from you!
+Core Competence:
+- At least 3 years of professional experience in automation, backend development, or a related technical role, with hands-on experience building and maintaining production workflows.
+- Practical experience building workflows with n8n, Make, Zapier, or similar automation platforms.
+- Working knowledge of JavaScript or Python for building custom logic, services, and integrations.
+- Strong understanding of REST APIs, webhooks, OAuth, and third-party system integrations.
+- Practical experience integrating OpenAI, Claude, or similar LLM APIs into automated workflows.
+- Experience implementing error handling, retries, logging, monitoring, and human approval steps to ensure reliable automation.
+Preferred Qualifications:
+- Experience integrating HubSpot, Salesforce, Airtable, Google Workspace, Microsoft 365, or similar business platforms.
+- Experience with voice or SMS automation using Twilio, GoHighLevel, or related tools.
+- Experience self-hosting n8n using Docker.
+- Understanding of workflow documentation and designing automations that can be maintained by client teams.
+- Upper-intermediate level of English for clear and effective communication with international clients.
+What We Offer You:
+- Competitive compensation aligned with your skills, experience, and career ambitions.
+- An innovative work environment with opportunities to build practical AI automation solutions using modern LLMs, workflow platforms, and business integrations.
+- Direct communication with clients from the US and Europe and the opportunity to understand their processes and design effective solutions.
+- Long-term cooperation with opportunities to move between projects and continue growing with the team.
+
+Вимоги до володіння мовами
+Англійська: B2 – Вище середнього
+
+Виключно від 3 років досвіду
+Тільки віддалено
+Країни Європи та Україна
+Країни, де розглядаємо кандидатів
+Англійська B2 – Вище середнього
+Python
+Зайнятість: Fulltime
+Домен: Other
+Змішана (сервісно-продуктова)

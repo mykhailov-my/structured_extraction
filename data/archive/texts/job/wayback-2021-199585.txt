@@ -1,0 +1,41 @@
+Python Full Stack Team Lead
+Luxoft
+
+The first integrated health platform in the market focused on what consumers are demanding in today's digital world.
+We strongly believe that precision digital health not only leads to the avoidance of preventable chronic disease but also improves overall well-being.
+If you are passionate about the future of healthcare, come join us!
+You will enjoy working with some of the best and brightest while conquering new challenges and expanding your skillset. As a member of a small but rapidly growing team, you will have opportunities for growth and advancement, leadership, and learning all aspects of the business.
+Responsibilities
+Design, implementation, and maintenance of products using Python, Django, React, and other modern technologies
+Help mentor other developers to improve their career development and coding abilities
+Work closely with management teams to rapidly build, iterate, test, and deploy new features and products and main a high-quality robust codebase
+Improve and scale the existing products and tools
+Launch new projects from ideation to completion
+Monitor and reduce cybersecurity product risk
+You will safeguard sensitive data by following policies and training concerning your security and privacy responsibilities
+Skills
+Must have:
+5+ years of professional programming experience
+3+ years of Python/Django experience
+3+ years of React, or equivalent experience
+Exceptional and demonstrable web development experience
+Strong experience in full-stack development from spec/concept to UI implementation and back-end development
+Strong experience with relational and/or NoSQL databases
+Strong experience with cloud-based infrastructure
+Comfort with Linux/Unix command line
+Experience working closely with design and PM individuals/teams
+Nice to have:
+React Native
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Kyiv, remote
+2 years of experience
+English Upper Intermediate

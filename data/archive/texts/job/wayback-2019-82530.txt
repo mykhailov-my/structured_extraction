@@ -1,0 +1,79 @@
+Python Software Engineer
+Don't Panic Recruitment
+
+proSapient is a primary research platform that helps our partners conduct primary research around the globe.
+Kyiv office is located in city center near Pecherska metro station.
+proSapient is a primary research platform that helps our partners conduct primary research around the globe. Our core business is to connect investors with industry experts who can provide insight into their industries. Our platform leverages AI and ML to offer a wide variety of features that are unique to us. Our business has grown rapidly and in the last 18 months, our headcount has grown from 2 people to 44 people (split between Kiev, UK and USA).
+Kyiv office is located in city center near Pecherska metro station.
+The Role
+We are looking for a talented Python developer to join our Python team who will be looking after all microservice architectures.
+You will play a central role designing, creating, implementing and maintaining all of these services.
+New ideas as well as new technologies are always welcome and so if you are tired to work with python2, old framework or legacy code, you are at the right place.
+Who you are
+• You love Python!
+• Proactive
+• Solid communicator
+• Happy to learn and enjoy challenges
+• Working experience as Python Software Engineer \ Developer for at least 2 years
+• Knowledges at least of one popular Python Web Framework such as Django, Flask, Odoo, Sanic, Tornado, aiohttp
+• Good understanding how python interpreter works
+• Experience with RDBMS - PostgreSQL or MySQL \ MariaDBIt will be advantage if
+• Python 3 annotations
+• Experience with phone calls systems (VoIP)
+• Natural language processing skills
+• Interest and/or experience in DevOps (Kubernetes, Docker CI/CD, Logging and monitoring systems etc)
+• Experience with pythonic linters such a pylint, bandit
+• Experience with NoSQL databases such a MongoDB, Consul, CockroachDB
+• Experience with other programming languages such a Rust and Golang
+- Understanding and knowledges of microservices architecture patterns such a pipeline, event-based etc
+Technical stack (only Prothon Team)
+- Python 3.7 (golang and rust can be too in future)
+- Frameworks: Django, Flask, Starlette, Click (be ready to aiohttp \ asyncio, sanic)
+- ORM: SQLAlchemy (ORM and Core), Django ORM, Peewee, Databases (above SQLAlchemy Core)
+- Databases: PostgreSQL, MongoDB, Elasticsearch, Consul, Vault (be ready to CockroachDB, PerconaDB, OrientDB, Redis)
+- Ops \ DevOps: Docker, Docker-compose, Kubernetes \ HELM, GCE \ GKE, AWS \ ES2 \ S3, RabbitMQ, Ansible, Nginx, OpenTracing, Prometheus, Grafana
+- Others: Linux, bash, plsql, Kibana, Jira, Gitlab (Gitlab CI\CD too), Slack
+What we offer:
+- a team of professionals to work and grow with;
+- high salary;
+- hipster and comfy office in the city center with all necessary equipment and software;
+- regular salary review;
+- paid sick leave (100%);
+- time to refactor the improvement of existing solutions;
+- time to think through the architecture for the implementation of new features;
+- flexible scheduling at will;
+- dinners once a week at the expense of the company;
+- work with modern and scalable technologies and frameworks
+periodic team building.Team:
+Elixir:
+3 sr dev, 1 front, 1 qa
+Python:
+2 sr dev, 1 mid devTeam in faces:
+Jordan Shlosberg - Сo Founder
+Eugene Yalanskyi - Python Team Leader
+Yurii Shtrikker - Software Engineer
+About Don't Panic Recruitment
+Don’t Panic recruitment has a proven track record of helping business owners leverage the benefits of offshore outsourcing to stimulate business growth.
+WE PROVIDE PREMIUM OFFSHORE STAFFING SOLUTIONS
+What stands between you and your perfect candidate?
+Lack of time - you don’t have time to look for candidates when you need to scale your business fast.
+Lack of skills - you are expert at what you do, but to find, contact, convince and shortlist prospects requires a totally different set of skills.
+Lack of genuineness - Outsource companies and freelancers are not the case, you need someone motivated by something other than money.
+Lack of network - The power of recruiter’s network often pays off big time. We are in touch with other recruiters, whom we have done a favor and are very likely to return it in order to maintain mutually beneficial relationship.
+1. High Quality, Low-Cost Talent
+Our experienced recruitment team will help you hire the best employees available. We will find a person as if he/she was to join your family.
+2. 24/7 Communication
+We know how volatile the world of startups can be, in order to support you at any given moment we promise to reply 24/7. We take pride in our responsiveness and how we address emergencies.
+3. Full Service Support
+We can take care of IT, HR, payroll, account management and admin tasks so you can focus on managing your team, or we can simply find the developer you need. Be it remote or relocate position.
+4. 474590 Developers database
+Our database is so big we can use the luxury of shortlisting only the candidates genuinely interested in your company’s product, not just people willing to make money.
+Don’t panic recruitment is strongly positioned with executive management team in Kiev Ukraine.
+Company website:
+[link]
+
+Python
+Kyiv
+Киев
+3 years or more
+English Intermediate

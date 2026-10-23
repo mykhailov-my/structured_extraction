@@ -1,0 +1,28 @@
+{
+  "doc_id": "wayback-2025-745935",
+  "url": "https://djinni.co/jobs/745935-senior-python-developer-with-llm-experience/",
+  "snapshot": "https://web.archive.org/web/20250717190315/https://djinni.co/jobs/745935-senior-python-developer-with-llm-experience/",
+  "captured_at": "2025-07-17T19:03:15",
+  "posted": null,
+  "year": 2025,
+  "active": false,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "Senior Python Developer with LLM experience",
+  "company": "Uasoftdev",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from Upper-Intermediate",
+    "Only from 5 years of experience",
+    "Full Remote",
+    "Countries of Europe or Ukraine",
+    "Countries where we consider candidates",
+    "Python",
+    "Python, LLM",
+    "Domain: Other",
+    "Outstaff"
+  ],
+  "description": "What We’re Looking For\n- Strong proficiency in Python (5+ years experience)\n- Practical experience with LLM frameworks/tools, including:- Vector databases (especially Weaviate)\n- LangChain, Crew-AI, or LlamaIndex\n- Ability to work independently and integrate with existing dev teams\n- Solid understanding of software architecture and modular code design\nNice to Have\n- Experience deploying LLM-powered applications in production\n- Familiarity with API development, containerization (Docker), or cloud platforms\n- Understanding of prompt engineering and retrieval-augmented generation (RAG) concepts"
+}

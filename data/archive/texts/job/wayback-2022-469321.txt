@@ -1,0 +1,57 @@
+Senior Python Developer
+Matrix
+$5000-7000
+
+Matrix Eastern Europe, the offshore division of Matrix IT, one of the leading global R&D services companies with more than 10,000 professionals, is looking for a Senior Python Developer to join one of our teams- Argus!
+Location - POLAND!
+Here is our offer:
+• Remote work and flexible working hours
+• Professional and career benefits
+• Top-quality work environment
+• Free Hebrew and Business English classes
+• Online sports activities
+• Celebrating online happy hours
+• Additional 20 days of paid leave
+Argus consulting activities, including supporting OEMs and Tier 1s building up and executing their cybersecurity processes, risk management, and security concepts. Activities include analyzing future designs, use cases, and architectures and identifying potential security gaps, and suggesting appropriate solutions. Dive into the details of embedded system design, automotive networks, and architectures as well as operating system security
+in order to design cost-effective security strategies and implementations.
+Job description:
+● Work on a leading Cyber product used by industry leaders
+● Develop and design tools and processes for automotive network research
+● Work with Network researchers on Data analysis, Deep packet inspection and filtering
+● Technically lead product features developments
+● Mentor and share knowledge with team members
+● Own research tools, support ongoing projects and integrations
+Requirements:
+● At least 4 years of experience with Python hands-on development
+● Analyze complex requirements and identify efficient design options
+● Ability to write clean well-documented code, well-tested (unit tests, integration tests)
+● Team player, Effectively communicate and collaborate with colleagues and stakeholders
+● high self-learning abilities and a get-things-done attitude
+Advantages:
+● BSC computer sciences or equivalent
+● Firm understanding of C/C++
+● Cyber Security background: algorithms and network security
+● Familiarity with networking technologies and protocols, CAN BUS is a plus
+● Experience with embedded systems
+● Experience with developing Intrusion detection or similar security solutions
+● Good familiarity with CI/CD environments and tools, like Linux, Docker, Jenkins and Git
+● Familiar with Python advanced features
+About Matrix
+Matrix Global Eastern Europe is an outsourcing company that is part of Matrix IT - a leading Israeli IT company with more than 11,000 employees globally. We work with high-tech companies, IT organizations, and start-ups. Matrix offers services in various fields such as software engineering, technical support, test automation, and more.
+Our core values are:
+-Agility,
+-Transparency & Reliability,
+-Diversity & Unique Corporate Culture
+-Innovation & Strive for Excellence.
+We have more than 1,800 professionals in Israel and Eastern Europe, in established long-term partnerships. We've been operating in the Polish market since 2020, offering fully remote, long-term positions with potential for personal growth!
+Company website:
+[link]
+
+Python
+Category: Python
+English: Upper-Intermediate
+5 years of experience
+Full Remote
+Outsource
+Poland
+Only candidates from Europe and Ukraine

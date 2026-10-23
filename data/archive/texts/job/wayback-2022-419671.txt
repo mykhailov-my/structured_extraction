@@ -1,0 +1,54 @@
+Python Developer
+Enapps
+to $2500
+
+Are you a person who is in love with Python but also an investigator who is in search of a vibrant career in a product company?
+Are you eager to grow professionally and ready to constant ideas generating?
+Looks like we are your perfect match!
+This is a unique opportunity to join a small but fast-growing and independent software company that is gaining huge ground in the traditional ERP software field. Having offices in Lviv and London, the company keeps on expanding and raising awareness about the brand, we are now looking to onboard a couple of Python Developers who will become part of the Ukraine team, contributing to the company growth, and shaping its future success.
+— We recognize that our most important resource is our people.
+— We respect innovation and collaboration, which promote an environment that embraces new changes.
+— We celebrate our unique talents and value a continuous improvement mindset.
+Count your points below to understand how likely you are to fit the position:
++3 for 1+ years experience using Python
++1 for each: experience in a similar role/framework would be ideal (Flask, Django), knowledge of GIT, Linux, Shell
+x2 of the previous result if you worked with SQL (Postgress or other relational databases)
++2 if you worked in ERP product
++2 for good English (intermediate, because you need to read documentation)
++1 for excellent communication skills
++1 for open-mindedness and respect for diversity
++1 for the professional attitude and work ethic
++1 if continuous self-development means a lot for you
+DevOps background and/or CI/CD experience would be an advantage.
+What will you do?
+• Development of Python modules (MVC) for our product (Areas: Accounting/ CRM/ Logistics/ Manufacturing/ Projects)
+• Integrating our product with third-party applications in various areas of the complex system
+• Engage in continuous system improvement (including Code Review)
+• Mentorship possibilities
+We offer a stimulating, cultured, and energetic working environment designed to create unparalleled career experiences to develop lifelong skills personally and professionally. We present equal opportunities for career development which we actively promote and assist with in every way.
+What else?
+• market salary
+• a friendly multicultural team
+• comfortable working schedule (3 days in office, 2 remote)
+• 20 working days of paid vacation + public holidays
+• 1 week of paid sick leave
+• Health insurance program
+• English classes
+• corporate events and activities
+• and we are still adding items to this list!
+We are a community where great relationships, open communication, learning, leading, and growing enrich our lives daily.
+Apply now on and don’t forget to share your score on the cover letter!
+About Enapps
+Enapps are a UK company delivering a world-class ERP (Enterprise Resource Planning) system targeted at Small and Medium-sized businesses in the UK.
+The platform is feature-rich and being a software author utilising an open-source framework, we can deliver customised solutions to meet the specific requirements of each individual company. Enapps can truly offer bespoke solutions to empower businesses with a complete end-to-end system. The Enapps team commands years of ERP experience, serving industries such as manufacturing, distribution and project-based businesses.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Lviv
+Ukraine
+(Lviv)
+Office Work
+Product

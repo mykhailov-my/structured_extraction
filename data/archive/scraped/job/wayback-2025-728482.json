@@ -1,0 +1,32 @@
+{
+  "doc_id": "wayback-2025-728482",
+  "url": "https://djinni.co/jobs/728482-senior-python-cloud-engineer-irc261179-/",
+  "snapshot": "https://web.archive.org/web/20250421022354/https://djinni.co/jobs/728482-senior-python-cloud-engineer-irc261179-/",
+  "captured_at": "2025-04-21T02:23:54",
+  "posted": "2025-04-08",
+  "year": 2025,
+  "active": true,
+  "layout": "v4",
+  "collected_at": "2026-10-23T06:20:14+00:00",
+  "title": "Senior Python Cloud Engineer (IRC261179)",
+  "company": "GlobalLogic",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Only from Upper-Intermediate",
+    "from 5 years of experience",
+    "Considering with 4 years of experience",
+    "Office or Remote",
+    "Ukraine",
+    "Countries where we consider candidates",
+    "Data Engineer",
+    "Python, AWS, HL7, InterSystem",
+    "Domain: Healthcare / MedTech",
+    "Outsource",
+    "Office:",
+    "Ukraine",
+    "(Lviv)"
+  ],
+  "description": "The Digital Health organization is technology team which focused on next generation Digital Health capabilities which deliver on the Medicine mission and vision to deliver Insight Driven Care. This role will operate within the Digital Health Applications & Interoperability subgroup of the broader Digital Health team, focused on patient engagement, care coordination, AI, healthcare analytics & interoperability amongst other advanced technologies which enhance our product portfolio with new services, while improving clinical & patient experiences.\nAuthorization and Authentication platform & services for Digital Health\nSecure cloud platform for storing and managing medical images (DICOM compliant). Leverages AWS for cost-effective storage and access, integrates with existing systems (EHR, PACS), and offers a customizable user interface\nJob Description\nTop priority:\n1. Python\n2. HealthCare Interoperability Tools: Previous experience with integration engines such as Intersystems\n- Secondary: Epic, Cerner, Lyniate, Redox, Mirth Connect, etc…\n3. EHR / EMR\n4. AWS\n5. Terraform\n• Terraform\n• AWS Platform: Working experience with AWS services - in particular serverless architectures (S3, RDS, Lambda, IAM, API Gateway, etc…) supporting API development in a microservices architecture\n• Programming Languages: Python (strong programming skills)\n• Data Formats: Experience with JSON, XML and other relevant data formats\n• CI/CD Tools: experience setting up and managing CI/CD pipelines using GitLab CI, Jenkins, or similar tools\n• Scripting and automation: experience in scripting language such as Python, PowerShell, etc…\n• Monitoring and Logging: Familiarity with monitoring & logging tools like CloudWatch, ELK, Dynatrace, Prometheus, etc…\n• Source Code Management: Expertise with git commands and associated VCS (Gitlab, Github, Gitea or similar)\nNICE TO HAVE\n• Strongly Preferred: Infrastructure as Code: Experience with Terraform and CloudFormation - Proven ability to write and manage Infrastructure as Code (IaC)\n• Documentation: Experience with markdown and in particular Antora for creating technical documentation\n• Experience working with Healthcare Data, including HL7v2, FHIR and DICOM\n• FHIR and/or HL7 Certifications\n• Building software classified as Software as a Medical Device (SaMD)\n• Understanding of EHR technologies such as EPIC, Cerner, etc…\n• Experience implementation enterprise grade cyber security & privacy by design into software products\n• Experience working in Digital Health software\n• Experience developing global applications\n• Strong understanding of SDLC – Waterfall & Agile methodologies\n• Software estimation\n• Experience leading software development teams onshore and offshore\nJob Responsibilities\n• Develops, documents, and configures systems specifications that conform to defined architecture standards, address business requirements, and processes in the cloud development & engineering.\n• Involved in planning of system and development deployment as well as responsible for meeting compliance and security standards.\n• API development using AWS services\n• Experience with Infrastructure as Code (IaC)\n• Actively identifies system functionality or performance deficiencies, executes changes to existing systems, and tests functionality of the system to correct deficiencies and maintain more effective data handling, data integrity, conversion, input/output requirements, and storage.\n• May document testing and maintenance of system updates, modifications, and configurations.\n• May act as a liaison with key technology vendor technologists or other business functions.\n• Function Specific: Strategically design technology solutions that meets the needs and goals of the company and its customers/users.\n• Leverages platform process expertise to assess if existing standard platform functionality will solve a business problem or customization solution would be required.\n• Test the quality of a product and its ability to perform a task or solve a problems.\n• Perform basic maintenance and performance optimization procedures in each of the primary operating systems.\n• Ability to document detailed technical system specifications based on business system requirements\n• Ensures system implementation compliance with global & local regulatory and security standards (i.e. HIPAA, SOCII, ISO27001, etc…)"
+}

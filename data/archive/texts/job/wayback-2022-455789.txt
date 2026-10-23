@@ -1,0 +1,43 @@
+Middle/Senior Full stack developer (Python, ReactJS)
+ITernal Group
+
+This platform helps merchants online with services, which include automated shopping carts and website design to reach omni-channel retail merchandising and content management.
+Requirements:
+• Strong in Python, ReactJs, Javascript, HTML, CSS, and Bootstrap.
+• Experience in working with various JS libraries and frameworks is a plus.
+• Must have experience in responsive, cross-browser compatibility, and adaptable web designing.
+• Ability to work independently.
+We offer:
+• Possibility to influence the development of the project.
+• Friendly professional staff and warm atmosphere.
+• The environment where you can implement your ideas.
+• Flexible schedule and opportunities to work remotely (8 hours workday).
+• Paid vacation and sick leaves.
+• Participation in educational activities and thematic conferences.
+• Team parties and corporate events.
+About ITernal Group
+We are the ITernal Group, an association of companies established in 2019. Our group includes Rademade, Lenal and the service department of Rozdoum.
+All companies in the group have over 8 years of experience in the outsourcing services market. As a result, ITernal provides expertise in niches: eHealth, Marketplaces, Fintech, eCommerce, Logistics and ERP.
+We help our clients in:
+— Accelerating the development of the current product;
+— Building CI / CD processes and changing the product delivery process;
+— Integrating existing solutions;
+— Building a product from scratch and opening our own R&D center in Ukraine.
+The key shareholders in the company are UFuture and InSoft partners.
+We took the best of 2 worlds: culture and values from small family-type companies and stability and consistency from the corporate world.
+We really care about the market modernisation so in ITernal you’ll have an opportunity to work with the newest technologies: NodeJS, Ruby, Java, Kotlin, VueJS, ReactJS, ReactNative, modern cloud providers as Azure, AWS, Google Cloud and follow the SCRUM framework.
+You’ll have a chance to take part in pre-sale, create the processes and find the best way of self and company development.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Category: Python
+Phyton, React / Redux, HTML / CSS / JavaScript / TypeScript
+English: Upper-Intermediate
+3 years of experience
+Full Remote
+Outsource
+Ukraine
+Only candidates from Europe and Ukraine

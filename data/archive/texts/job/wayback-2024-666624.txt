@@ -1,0 +1,32 @@
+Python developer
+procontactive.com
+
+Обовʼязки
+•⁠ ⁠Розробка ПЗ на базі Python під запити компанії
+Вимоги:
+•⁠ ⁠Досвід Python розробки від 1г року.
+•⁠ ⁠Робота з Git та іншими інструментами розробника
+•⁠ ⁠Досвід роботи з Linux
+•⁠ Знання - BotAPI, MTProto/Docker/SQL(postgres, sqlite)/Flask/Django, Fast API/SQLAlchemy/Celery
+•⁠ ⁠Досвід розробки ПЗ/софта/ботів з нуля
+•⁠ ⁠Наявність успішних кейсів смежного/необхідного формату
+•⁠ ⁠Англійська мова - середній рівень і вище
+•⁠ ⁠Досвід роботи з базами даних PostgreSQL або іншими
+•⁠ ⁠Вміння працювати в команді та брати на себе відповідальність за виконання поставлених завдань
+Ми пропонуємо:
+•⁠ ⁠Цікаві проекти та можливість професійного зростання
+•⁠ ⁠Графік роботи 5/2 з 9:00 - 19:00
+•⁠ ⁠Дружній колектив та підтримку на кожному етапі роботи
+
+Development
+Python
+Kyiv
+Only from Intermediate
+from 1 year of experience
+Considering with no experience
+Office Work
+Ukraine
+Domain: Other
+Agency
+Office:
+(Kyiv)

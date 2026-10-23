@@ -1,0 +1,23 @@
+{
+  "doc_id": "wayback-2021-187280",
+  "url": "https://djinni.co/jobs/187280-senior-python-developer/",
+  "snapshot": "https://web.archive.org/web/20210126020918/https://djinni.co/jobs/187280-senior-python-developer/",
+  "captured_at": "2021-01-26T02:09:18",
+  "posted": null,
+  "year": 2021,
+  "active": false,
+  "layout": "v1",
+  "collected_at": "2026-10-23T06:20:11+00:00",
+  "title": "Senior Python Developer",
+  "company": "21 Creative Agency",
+  "salary": "",
+  "skills": [],
+  "languages": [],
+  "facts": [
+    "Python",
+    "Kyiv",
+    "3 years of experience",
+    "English Intermediate"
+  ],
+  "description": "We are an actively developing company and now we are looking for a Senior Python Developer. The domain is Gambling.\nRequirements:\n- 4+ years of experience as Software Engineer (minimum 2 years Python\nSoftware Engineer )\n- Deep understanding and using SOLID principles, patterns, and algorithm\n- Experience in designing database structures (both SQL NoSQL)\n- Experience in building a microservice architecture\n- Experience in building unit test architecture\n- Understanding the work of the HTTP protocol\nWill be a plus:\n- experience with next web frameworks Aiohttp, Tornado, Django\n- independence in decision making\nResponsibilities:\n- Development of a new project architecture based on your own experience and ideas\n- Changing existing project functionality to new technologies using service/ microservice approach.\n- Support for existing solutions\n- The leadership of the BackEnd team\n- Mentoring of new employees\nWe offer:\n- Bonuses and other compensations\n- Competitive compensation level\n- Full-time job in a comfortable office\n- Interesting and challenging work in a dynamically developing company\n- Paid courses, training, conferences, and business trips\n- Paid vacation/sick leave\n- Free lunches and snacks\nAbout the project:\nOur main idea is a rejection of a monolithic project and moving all functionality to services /microservices. The monolithic project was done with Python 2.7 (Tornado) using technologies such as Redis, Postgresql, MongoDB. New services we create with actual Python, the last one was Python 3.8. As the result, we strive to completely abandon the monolith and transfer the project to separate services/microservices.\nAbout 21 Creative Agency\nMarketing & Advertising\nКреативное агенство / Дизайн / Видео / Фото / 3D / Маркетинг\nCompany website:\n[link]\nDOU company page:\n[link]"
+}

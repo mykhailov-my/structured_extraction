@@ -1,0 +1,35 @@
+Sr. Backend Engineer (Python/Go)
+Zoolatech
+
+We are hiring an entrepreneurial Senior Backend Engineer who can move incredibly fast while delivering a high-quality, high-scale, and robust consumer product for our client Reddit.
+Project Description
+Our mission is to bring the community and belonging to everyone in the world. Reddit is a community of communities where people can dive into anything through experiences built around their interests, hobbies, and passions. With more than 50 million people visiting 100,000+ communities daily, it is home to the most open and authentic conversations on the internet. From pets to parenting, skincare to stocks, there’s a community for everybody on Reddit.
+The Economy and Special Projects teams are among the most innovative, forward-looking teams at Reddit. We are a fast-moving and entrepreneurial organization within Reddit, dedicated to building new monetizable experiences that users and communities love. With our track record of rapid execution and experimentation, we have been doubling revenue steadily year over year. Today, the Econ org is responsible for established products like Avatar, Premium, Awards and up and coming projects like Talk, Powerups, and more.
+We are hiring an entrepreneurial Senior Backend Engineer who can move incredibly fast while delivering a high-quality, high-scale, and robust consumer product. You'll work on the highest impact project with a team of brilliant engineers like yourself. In addition to building technology, you’ll contribute to the product and business strategy.
+Responsibilities
+• Design, build and ship backend services powering experiences for millions of daily users.
+• Move fast while balancing quality. We can’t afford extensive bureaucracy, and we also can’t afford show-stopping bugs. We need people who can balance speed with quality while quickly building brand-new products.
+• Contribute meaningfully to team strategy. We need everyone’s viewpoint to make great decisions and encourage active participation in planning for the future.
+• Communicate effectively, within the team and across disciplines. Work closely with product managers and designers to craft compelling user experiences.
+Skills Required
+• 5+ years of backend development experience with multiple parts of the backend stack, from databases to networking to efficient computing.
+• Ability to design and implement large-scale distributed systems (AWS/GCP experience preferred but not required).
+• Curiosity and ability to autonomously make trade-offs with the business impact in mind.
+• Excellent communication skills. You must be able to collaborate effectively with teams in a fully remote environment and discuss complex topics with technical and non-technical audiences.
+About Zoolatech
+Zoolatech is a boutique service provider, specializing in high-end software development. We are based in Silicon Valley with a Development Center in Kyiv, Ukraine. Although ZoolaTech is a relatively young player on the Eastern European market, we have deep roots and years of experience of working within Ukrainian and American high tech industries. The size of our clientele varies from Fortune 500 to inspiring startups. We are not an outsourcer in a traditional sense, rather we specialize in helping our Clients scale by extending their teams to Eastern Europe.
+Over the years, we have learned that in our industry people are the most important asset, and so we treat our employees as such. We set our working environment in a way that allows individuals thrive and grow professionally, as well as personally. As much as we are dedicated to providing the best possible services to our Clients, we are just as dedicated to helping our Employees reach their professional dreams and ambitions.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Ukraine
+(Kyiv)
+5 years of experience
+English Upper-Intermediate
+Only candidates from Europe
+Full Remote
+Outsource

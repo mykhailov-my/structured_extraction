@@ -1,0 +1,56 @@
+Python/Django Developer
+Flexipy OÜ
+
+We’re looking for a Python/Django Developer with 1-3 years of commercial experience to join our team. You’ll work on developing a Fintech SaaS analytics platform from the ground up – a system that unifies financial, customer, and cohort data for recurring-revenue businesses. Familiarity with AI development tools like Cursor AI, Claude, or similar is required.
+Key Responsibilities:
+- Design, build, and maintain efficient, reusable, and reliable Python code using Django & Django Rest Framework;
+- Develop back-end components to improve the responsiveness and overall performance of the applications;
+- Implement security and data protection solutions;
+- Optimize applications for maximum speed and scalability;
+- Collaborate with the engineering team to design and launch new features;
+- Maintain code quality, organization, and automatization;
+Technical Skills and Knowledge:
+- Strong knowledge of Python 3.x, including understanding of its data structures, design patterns, and writing robust, clean, and maintainable code;
+- Proficient in Django web framework and DRF for building scalable and secure RESTful APIs;
+- Experience with Django ORM and its migration system;
+- AI-powered development tools, Cursor AI, Claude, or similar;
+- Strong understanding of database systems such as PostgreSQL, MySQL, and capable of integrating multiple data sources and databases into one system;
+- Proficiency in creating database schemas that represent and support business processes;
+- Docker, Docker Compose, CI/CD;
+- Experience with version control tools, particularly Git;
+- Basic understanding of front-end technologies, such as JavaScript, HTML5, and CSS3, is desirable to coordinate with front-end developers;
+Soft Skills:
+- Ability to identify issues and implement solutions;
+- Must have excellent interpersonal and communication skills to work effectively within a team;
+- Able to adapt in a fast-moving environment and learn quickly new technologies as needed;
+What We Value Most:
+- Honesty. Be open with yourself and the team. If something’s wrong or unclear, say it right away;
+- Responsibility. Do what you promise, unless something truly prevents it;
+- Attention. Small details matter – they often make the biggest difference;
+- Loyalty. We value long-term collaboration and mutual growth;
+- Self-organization. We trust you to manage your time, set priorities, and follow our shared goals;
+Advantages of Working with Us:
+- Transparency. No bureaucracy or micromanagement, we focus on trust and results;
+- Freedom. No screen trackers, your performance is measured by outcomes, not activity;
+- Impact. You can shape processes, suggest ideas, take ownership, and be proud of your results;
+- Growth. We’re a young, ambitious team. If you aim to become a future Lead Developer, this is the right place to grow;
+Terms of Cooperation:
+- Location: Ukraine (remote);
+- Schedule: Flexible, starting between 8:00–11:00, with an 8-hour workday;
+- Paid trial period: 1–2 months;
+- Compensation: It depends on experience and skills. We are young and open to discussing adequate ranges only;
+- Vacation: 20 days;
+- Sick leave: 5 days (additional days require approval);
+- Meetings: Daily syncs, weekly planning;
+Languages:
+- English: B2+;
+
+Only from 1 year of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Python
+Employment: Fulltime
+Domain: SaaS
+Outsource

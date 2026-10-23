@@ -1,0 +1,50 @@
+Python Developer
+Omilia CIS
+
+We are looking for a Python Developer to join our team/
+You will be part of a talented software team that delivers the latest in Virtual Assistant technologies in Banks and Mobile Network Operators across the world.
+REQUIREMENTS
+Mandatory Requirements
+- 3 years experience in Python and proven knowledge of Python development
+- Experience with DJANGO
+- Experience with REST API & JSON
+- Ability to work under pressure and on strict deadlines
+- Upper-Intermediate use (both oral & written) of the English language
+Optional Requirements
+- AI and NLP technologies
+- Speech related technologies
+RESPONSIBILITIES
+- Python 3 application development
+- Designing and developing high-volume, low-latency applications for mission-critical systems geared for high availability and performance
+- Contribute to all phases of the development lifecycle
+- Consistently produce well designed, testable, and efficient code
+- Ensure designs are in compliance with specifications
+- Prepare and produce releases of software components
+- Support continuous improvement by investigating alternatives and technologies and presenting these for architectural review
+BENEFITS
+- Building successful cutting-edge technology products that are making a global impact in the service industry
+- Compensation fixed in US Dollars
+- Loyalty bonus 90% of fixed compensation twice a year
+- Work From Home policy applicable
+- Healthcare plan (medical insurance, sports compensation, etc)
+- Proficient and fun-to-work-with colleagues
+- Long-term employment with 24 working days vacation
+- Apple gear
+- With Omilia, you will be able to travel to Greece for team buildings at our amazing HQ offices
+About Omilia Natural Language Solutions Ltd
+___1___ Omilia is the leading provider of Conversational AI Technology in B2B market (Voice bots, Chatbots, Voice Biometrics, NLU, Machine Learning).
+___2___ Omilia established in 2002 in Athens, Greece.
+___3___ Omilia is a (Product) Software Development Company with HQ in Athens and subsidiary in Kyiv.
+___4___ In Ukraine we employ more than 50 IT specialists and more than 250 IT specialists worldwide (Greece, Czech Republic, Poland, South Africa, USA, Canada).
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Quarantine Remote
+Product
+2 years of experience
+English Upper Intermediate
+Test task is needed

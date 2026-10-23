@@ -1,0 +1,42 @@
+Python Software Engineer
+Data Science UA
+
+Data Science UA is a service company with strong data science and AI expertise. Our journey began in 2016 with uniting top AI talents and organizing the first Data Science tech conference in Kyiv. Over the past 9 years, we have diligently fostered one of the largest Data Science & AI communities in Europe.
+About the role:
+We are looking for a Python Software Engineer to join our team and help us build an on-premise software pipeline for real-time computer vision. The system ingests camera streams (primarily RTSP), stores frames in a shared data layer, runs CV/AI engines for preprocessing and inference, applies inference logic to produce decisions, and sends results to Database/Portal/Alerting/Control integrations.
+Responsibilities:
+- Build and maintain the Camera Module to reliably ingest RTSP streams, decode frames, and handle reconnect/keep-alive/packet loss.
+- Implement the Shared Data layer for raw and processed frame exchange across processes with backpressure and safe lifecycle management.
+- Integrate and operate CV/AI Engines in Python (preprocess, inference, postprocess) with configurable model loading and runtime selection.
+- Develop the Inference Logic layer that orchestrates cropping, batching, filtering, classification, and decision output formatting.
+- Implement connectors for Database & Portal (event persistence, evidence references) and for Alerting & Control (events/hooks for downstream automation).
+- Ensure production readiness on Linux with observability (logs/metrics), health checks, and robust error handling.
+Requirements:
+Must-have:
+- Strong Python, OOP, clean architecture, typing preferred.
+- Solid experience with multiprocessing/concurrency (process lifecycle, IPC patterns, queues/shared memory).
+- Comfortable working in Linux (systemd/service mindset, networking basics, profiling/debugging).
+- Familiarity with CV/AI tooling, and some related Python libraries such as numpy, opencv (cv2), and torch or tensorflow.
+- Ability to work with streaming data and reliability constraints (timeouts, retries, resource cleanup).
+Should-have:
+- Experience with RTSP/RTP streaming and common issues (UDP vs TCP interleaved, jitter, packet loss, camera timeouts).
+- Performance optimization (profiling, memory management, zero-copy patterns).
+- Exposure to inference acceleration stacks (TensorRT/OpenVINO) or GPU deployment.
+- Experience designing event schemas and integration with DB/message queues.
+We offer:
+- Free English classes with a native speaker and external courses compensation;
+- PE support by professional accountants;
+- Medical insurance;
+- Team-building events, conferences, meetups, and other activities;
+- There are many other benefits you’ll find out at the interview.
+
+Only from 5 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+Employment: Fulltime
+Domain: Machine Learning / Big Data
+Product

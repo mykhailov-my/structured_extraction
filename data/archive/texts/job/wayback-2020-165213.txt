@@ -1,0 +1,38 @@
+Software Test Automation Engineer (Java/Python)
+EPAM Systems
+
+We are looking for a Software Test Automation Engineer (Java/Python)
+RESPONSIBILITIES
+The candidate will be required to work with cross functional teams including Development and Application Support
+Active participation is required in daily and weekly status meetings
+The candidates should possess the ability to understand and test complex backend systems deployed into multiple environments, as well as demonstrate the desire to build their domain knowledge of the products they support
+As a member of the QA team you will be involved in writing test cases (and, possibly, test plan) and scripts, test case automation and execution of all the testing required to ensure that the software meets business requirements and is high quality one
+You will perform functional testing (which includes application integration, system, system / network integration and acceptance testing) and non-functional testing (such as performance, volume, load and fallback testing)
+REQUIREMENTS
+Candidate should have expert (3+years) knowledge of: Python, SQL, database load scripts. Good knowledge of Java and MySQL/MariaDB is a big plus
+Performance tuning: ability to tune SQL statements and understanding of indexing strategies
+Candidate should have strong background in software engineering in testing discipline
+Active application testing and test automations work
+Participates in requirement refinements and reviews, functional specification reviews, technical design reviews and contributes to development project estimates, scheduling and test plans
+Proactively identifies and resolves potential problems / issues including authoring of technical specifications
+Regularly informs manager on his progress and progress of project, identifying risks early in the process
+Reviews the testing approach used by the team and proposes improvements in order to maintain high quality of the product
+Provides test coverage, test case / suite runs and other QA reports needed
+WE OFFER
+Competitive compensation depending on experience and skills
+Individual career path
+Social package - medical insurance, sports
+Sick leave and regular vacation
+Partial coverage of costs for certification and IT conferences
+English classes with certified English teachers
+Flexible work hours
+About EPAM Systems
+EPAM Systems is a leading global provider of digital platform engineering and software development services, with more than 36,700+ employees worldwide.
+Company website:
+[link]
+DOU company page:
+[link]
+
+QA Automation
+Vinnitsia
+3 years of experience

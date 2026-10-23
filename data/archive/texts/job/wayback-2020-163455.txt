@@ -1,0 +1,54 @@
+Senior Python Engineer
+N-iX
+
+N-iX welcomes a Senior Python Engineer to join our team.
+Our client is a fast-growing company and the premier provider of Risk-Based Monitoring and Data Quality Oversight solutions to Bio-Pharmaceutical and Medical Device organizations. Our products utilize advanced statistical algorithms to determine the quality of clinical trial data both during and following study execution.
+Role description:
+In this role, you will collaborate with skilled engineers, Squad leads, and our lead application architect to find elegant and manageable solutions to new and complex product needs. As a member of the Engineering team, you will join a friendly and talented group of Python developers, within a dynamic scale-up company facing great engineering challenges.
+Responsibilities:
+- Building product functionality by writing clean, efficient, and maintainable code
+- Covering functionality with tests
+- Solve complex performance problems and architectural challenges
+- Work with the product and design teams to understand end-user requirements, formulate use cases, and then translate that into a pragmatic and effective technical solution
+- Increase test coverage via unit tests and integration tests
+- Analyze challenging problems and successfully deliver results
+Requirements:
+- 5+ years of software development experience
+- Strong knowledge and experience in designing and development of Web solutions built on OOP background
+- Hands-on experience with Python
+- Rich experience creating REST-based web-services
+- Experience and solid knowledge of SQL and NoSQL databases (preferably MySQL and MongoDB)
+- Experience in Continuous Integration and Continuous Delivery practices
+- Working experience with Django or Flask web frameworks
+- Strong knowledge of design and architectural patterns
+- Understanding of design principles behind scalable and testable applications
+- Conversational English
+- Experience of building and deploying web applications in the cloud (Azure) would be a plus
+We offer:
+- Flexible working hours
+- A competitive salary and good compensation package
+- Best hardware
+- A masseur and a corporate doctor
+- Healthcare & sport benefits
+- An inspiring, comfy, clean, and safe office
+Professional growth:
+- Challenging tasks and innovative projects
+- Meetups and events for professional development
+- An individual development plan
+- Mentorship program
+Fun:
+- Corporate events and outstanding parties
+- Exciting team buildings
+- Memorable anniversary presents
+- A fun zone where you can play video games, foosball, ping pong, and more
+About N-iX
+Founded in 2002, N-iX is a custom software development company with a core business of providing Dedicated Development Team / Own Development Center service. A team of about 200 professionals, with headquarter in Lviv, a tech hub in western Ukraine, we host teams ranging from 5 to 40 developers that work across all technology stacks.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+5 years of experience
+English Intermediate

@@ -1,0 +1,33 @@
+Python Developer (Middle)
+InStandart
+
+Приглашаем в свою команду Python developers с опытом работы в данной должности от 2х лет! Херсон, офис (гибкий график работы).
+Навыки, которые Вам понадобятся для эффективной работы:
+* Familiarity with Python, OOP
+* Proficient at building web application using Django, Flask
+* Version control system experience (Mercurial, Git)
+* MySQL
+* English pre-intermediate and higher
+Мы предлагаем:
+* комфортные условия труда в современном офисе в центре (вблизи парковой зоны) города;
+* работу в дружной и веселой команде профессионалов;
+* интересные задачи и возможности для развития;
+* перспективы профессионального и карьерного роста;
+* уроки английского языка в офисе компании (бесплатно);
+* гибкий график работы;
+* оплачиваемый отпуск и overtime;
+* ароматный натуральный кофе/чай., настольный теннис (можно заниматься профессионально) в офисе компании (бесплатно);
+* регулярные веселые корпоративные/командные мероприятия.
+Уровень заработной платы обсудим по результатам собеседования :)
+Будем рады рассмотреть Вашу кандидатуру!
+About InStandart
+InStandart - Ukrainian custom software development company. We provide the full project lifecycle management including gathering requirements, development, testing, deploy and support.
+Our mission is - to build innovative solutions that make YOUR life safer, easier, more effective and fun.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kherson
+2 years of experience

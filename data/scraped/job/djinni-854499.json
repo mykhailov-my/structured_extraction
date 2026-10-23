@@ -1,0 +1,36 @@
+{
+  "doc_id": "djinni-854499",
+  "url": "https://djinni.co/jobs/854499-senior-full-stack-php-developer-laravel-react/",
+  "category": "Fullstack",
+  "published": "Wed, 21 Oct 2026 16:50:25 +0300",
+  "collected_at": "2026-10-22T16:50:32+00:00",
+  "title": "Senior Full-Stack PHP Developer (Laravel + React/Vue)",
+  "company": "Intetics",
+  "salary": "",
+  "skills": [
+    "React.js",
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "REST API",
+    "Next.js",
+    "PostgreSQL",
+    "Git"
+  ],
+  "languages": [
+    "Англійська: B2 – Вище середнього"
+  ],
+  "facts": [
+    "Виключно від 5 років досвіду",
+    "Тільки віддалено",
+    "Країни Європи та Україна",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська B2 – Вище середнього",
+    "Fullstack",
+    "Зайнятість: Fulltime",
+    "Домен: Other",
+    "Змішана (сервісно-продуктова)",
+    "Є тестове завдання"
+  ],
+  "description": "Intetics Inc., a leading American technology company specializing in custom software application development, distributed professional teams creation, software product quality assessment, and “all-things-digital” solutions, is looking for a Senior Full-Stack PHP Developer (Laravel + React/Vue) to join its innovative team.\nProject Responsibilities\nBuild and maintain scalable, full-stack web applications using Laravel on the back end and React/Vue on the front end\nContribute to architecture decisions for applications built to scale: service design, data modeling, caching, and queue-based processing\nDesign and build RESTful APIs and integrations with internal and third-party systems\nDevelop reusable Laravel packages and front-end components shared across projects\nOwn quality and performance: refactor legacy code, optimize queries, and improve response times\nWrite automated tests and take part in code reviews and CI/CD improvements\nDocument technical decisions, APIs, and specifications\nWork with product, design, QA, and engineering teams to scope and deliver features\nEnsure software development best practices and timely delivery of product functionality\nCandidate's Portrait\nWe're looking for a full-stack developer who owns features end to end, from database design and APIs to the React/Vue interface users actually interact with. You'll build and scale business-critical web applications, working closely with product, design, and QA teams to transform requirements into reliable, maintainable, and high-performing software. We value engineers who understand the bigger picture, question unclear requirements early, and care about long-term maintainability as much as delivery.\nMust-haves:\n5+ years of professional experience with modern OOP PHP (8.x)\n3+ years of hands-on experience with Laravel\nStrong knowledge of the Laravel ecosystem: Eloquent, Queues, Jobs, Events, Service Container, Middleware, Authentication\n3+ years of production experience with React or Vue\nStrong TypeScript and modern JavaScript skills\nExperience designing RESTful APIs, including authentication, validation, and error handling\nSolid SQL skills (MySQL or PostgreSQL)\nExperience with schema design, indexing, and query optimization\nHands-on experience with Redis and queue-based architectures\nExperience with automated testing (PHPUnit, Pest, Jest, Vitest, or Playwright)\nComfortable with Git-based workflows, pull requests, and CI/CD pipelines\nExperience working in AI-assisted development environments (Copilot, Cursor, Claude Code, etc.)\nStrong analytical and problem-solving skills\nGood written and spoken English\nNice-to-have:\nInertia.js, Livewire, or Next.js/Nuxt\nTailwind CSS\nDocker and cloud infrastructure (AWS, Forge, Vapor)\nStatic analysis tools (PHPStan, Larastan)\nCode quality and formatting tools (Pint)\nReal-time features (WebSockets, Reverb)\nRabbitMQ or other message brokers\nMicroservices architecture experience\nExperience with event platforms\nExperience with ticketing systems\nExperience with payment integrations (Stripe, PayPal)"
+}

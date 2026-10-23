@@ -1,0 +1,46 @@
+Junior Python Developer
+Come Back Agency
+to $1000
+
+Come Back Agency is a rapidly growing company in the digital field, specializing in developing brands, creating web projects, and designing mobile applications. As we expand our operations, we are currently seeking a skilled and dedicated Python Developer to join our team.
+US schedule. Working hours from 04:00 pm to 00:00 am EET;
+Responsibilities:
+- Collaborate with our design and development teams to create and maintain web applications and services using Python.
+- Develop backend components, connect applications with third-party services, and support frontend developers with integrating their work.
+- Write reusable, testable, and efficient code using Python frameworks such as Django or Flask.
+- Implement security and data protection measures in applications.
+- Troubleshoot and debug Python-related issues.
+- Stay up to date with the latest industry trends and best practices in Python development.
+Requirements:
+- Proven experience as a Python Developer, with a portfolio of previous projects.
+- Proficiency in Python, with a good understanding of at least one Python web framework (e.g., Django, FastAPI).
+- Strong knowledge of object-oriented programming and design patterns.
+- Familiarity with RESTful APIs and web services.
+- Experience working with relational databases (e.g., MySQL, PostgreSQL) and NoSQL databases (e.g., MongoDB).
+- Understanding of web standards and optimization techniques.
+- Ability to work collaboratively in a team environment.
+- Excellent problem-solving and debugging skills.
+- Strong attention to detail and the ability to meet project deadlines.
+- AI prompting, OpenAI api.
+- Would be a plus: knowledge of LangChain, LangGraph.
+We offer:
+- Salary in USD.
+- The adaptation period is determined individually for each candidate.
+- A USA-based company, focused solely on the American market.
+- English lessons provided to further improve fluency.
+- Paid vacation and sick days.
+- Fully remote work
+- Opportunities for career growth and professional development.
+
+Only from 0.5 years of experience
+$600-1000
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B1 - Intermediate
+Required knowledge of Ukrainian
+Python
+Employment: Fulltime
+Domain: Other
+Agency
+Test task is needed

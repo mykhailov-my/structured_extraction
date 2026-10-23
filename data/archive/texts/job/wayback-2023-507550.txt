@@ -1,0 +1,72 @@
+Middle Python Developer
+Jooble Ukrainian Product 🇺🇦
+
+Jooble — is a global product-based IT company that operates in 69 countries. The company’s product is a job search website with more than 90M monthly users.
+Our purpose — Help people all over the world find their dream jobs!
+We are looking for a Python Developer on the SEO team.
+Jooble — is a global product-based IT company that operates in 69 countries. The company’s product is a job search website with more than 90M monthly users.
+Jooble is a remote-first company. We believe that talented people can create cool projects no matter where they are. Yet if you like to work from the office — for all employees we have created closed corporate workspaces in Kyiv, and Lutsk that are free to be used anytime.
+Our purpose — Help people all over the world find their dream jobs!
+We are looking for a Python Developer on the SEO team.
+As a Python developer, you will:
+- Collect data analysis;
+- Support for existing SEO services (web, scripts, CRM);
+- Distribute new services/scripts.
+Technology stack:
+- Python 3.6+
+- flask
+- beautifulsoup
+- requests
+- threading
+Requirements:
+- 2 years of commercial experience in Python development;
+- Confident knowledge of SQL (you can write complex queries with join/group by);
+- The ability to read, analyze, refactor, review and maintain someone else’s code;
+- Familiar with the git version control system;
+- Knowledge of HTML, CSS, JavaScript;
+- Experience with OOP;
+- Website parsing experience.
+Would be a plus:
+- Experience in SEO;
+- Experience with regex.
+Why Jooble?
+- You are free to choose the location of your workspace: you may work from home or in one of the most comfortable and modern corporate workspaces in Kyiv, Uzhgorod, or Lutsk, or you may combine.
+- Our headquarters is located near the Taras Shevchenko metro station. - - Everything in the office is running smoothly: we have a generator, fuel supply, and Starlink.
+- We are offering health insurance.
+- We care about the Mental health of our employees, so we offer 50% compensation for a session with a psychologist, and we also cooperate with the Wellbeing Company psychological support service.;
+- The 8-hours working day, the beginning time of which you may choose on your own.
+- We supply you with all the necessary equipment for a comfortable working experience.
+- We cover 50% of the cost of training, courses, webinars, etc.
+- We cover 50% of the cost of any language courses.
+- 20 vacation days + 10 additional days to your vacation per year.
+- You can take 4 sick days per year without the need for sick leaves.
+- Regular online and offline events to maintain team spirit.
+If in the job description, you see yourself and eagerly want to become a member of our team, please send us your CV, and our recruiter will reach you.
+Watch an interesting video about the work in Jooble: [link]
+More on our Instagram page:
+[link]
+About Jooble
+Jooble — is a global product-based IT company which operates in 69 countries. Company’s product is a job search website with more than 90M monthly users.
+The company has been operating in the online recruitment market since 2006. In its — years of existence, the company has gone from a startup founded by two students to a global employment platform.
+Today, Jooble is among the TOP-10 websites in the world in terms of traffic in the Jobs And Employment segment, according to SimilarWeb.
+Jooble is a remote-first company. We believe that talented people can create cool projects no matter where they are. Company’s headquarters are located in Kyiv. Offices in Kyiv, Uzhgorod and Lutsk are available for employees to visit at any time they want.
+Currently, there are 590 professionals in our team who communicate in 25 different languages.
+Here are some exciting resources where you can find out more about our company:
+Jooble’s history Ain.ua — [link]
+Everything about Jooble team in a minute and a half :)
+[link]
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Kyiv
+Category: Python
+Python , SQL , Django , Flask , Beautiful Soup , MSSQL
+English: Intermediate
+2 years of experience
+Office/Remote of your choice
+Product
+Ukraine (Kyiv, Uzhhorod)
+Only candidates from Europe and Ukraine

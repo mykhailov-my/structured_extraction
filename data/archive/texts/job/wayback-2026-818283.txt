@@ -1,0 +1,75 @@
+Full-Stack AI Engineer (Python / Vue)
+EnderTuring
+to $7000
+
+About the company
+Ender Turing is a product-focused AI startup building conversation intelligence solutions used in real production environments by international companies.
+Founded in 2020, we are a focused team of 9 engineers and product specialists building and operating a production-grade AI platform that processes large-scale customer communication data across voice and chat channels.
+Our systems help companies optimize operations through AI-driven speech and text analytics.
+Our clients include companies such as Uniqa Insurance Group, OTP Bank, Aventus Group, Nova Pay, Fozzy Group, Dobrobut hospitals and others, operating across markets including Spain, Mexico, USA, Germany, Poland, Czech Republic, Estonia, Colombia and Ukraine.
+Small team. Global footprint. Real production systems.
+What you’ll work on
+• Backend development for high-load conversation processing services
+• Building real-time analytics dashboards and data visualizations
+• Integrating LLM-powered features (transcription, sentiment analysis, summaries)
+• Developing scalable services and data pipelines
+• Integrations with CRM and contact center systems (Zendesk, Genesys, Vicidial etc.)
+You will work across the stack and own features end-to-end, from architecture decisions to production deployment.
+Tech stack
+Backend
+Python 3.11+, FastAPI, SQLAlchemy, Celery, Redis, PostgreSQL
+Frontend
+Vue 3, TypeScript, Vuetify, Vite, WebSockets
+AI / Data
+LLM APIs, speech processing pipelines
+Infrastructure
+Docker, Kubernetes, AWS / GCP, OpenSearch, Traefik
+Tooling
+Git, GitHub Actions, pytest, pre-commit
+Requirements
+• 5+ years of experience shipping production software
+• Strong backend development with Python
+• Experience with modern frontend frameworks (Vue / React)
+• Ability to work across backend and frontend components
+• Experience with scalable systems and APIs
+• Comfortable using AI tools to accelerate development
+• Self-driven engineer able to take ownership of features
+What we offer
+• Work on real AI systems used by international companies
+• Small, experienced engineering team
+• High ownership and fast product iterations
+• Remote-first environment
+• Direct impact on product and architecture
+Interview process
+- HR conversation
+- Founder discussion
+- Technical interview
+- Technical deep-dive (live coding / architecture discussion)
+- Small take-home task (1–2 hours)
+How to apply
+Please send:
+• Your GitHub profile
+• A project you’re proud of
+• A short note on why startups, why now, and why Ender Turing
+
+Необхідні навички
+Back end, 4 years, Front end, 4 years, AI/ML API, 4 years
+
+Only from 5 years of experience
+$5000-7000
+Full Remote
+Worldwide
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Fullstack
+Back end
+4 years
+Front end
+4 years
+AI/ML API
+4 years
+Employment: Fulltime
+Domain: SaaS
+Startup
+Test task is needed

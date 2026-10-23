@@ -1,0 +1,39 @@
+Python Developer for AI-Powered Applications
+Abyss
+
+Join Abyss: Build AI-Powered Widgets and Shape the Future of AI Applications!
+Abyss is a trailblazing startup revolutionizing the digital landscape with an online hub for AI Widgets—small, user-friendly tools powered by AI that solve specific tasks. These widgets are Python-powered applications fueled by cutting-edge tools, solutions, and AI models. Hosted at abysshub.com, our platform connects Innovators (brilliant Python developers) with Explorers (users seeking smart, AI-driven solutions).
+Creating a widget is easy: upload your Python project, add input fields, and it’s ready to be used by you or anyone else.
+What Developers Can Expect from Abyss
+- Effortless Deployment: Turn your Python scripts into apps quickly—without the hassle of complex setup.
+- Free Hosting: Share your widgets at no cost, removing financial barriers.
+- Test Your Ideas: Build a basic version to validate your MVP and see if it resonates with users.
+- Community Exposure: Get feedback and visibility from a growing user base of AI enthusiasts.
+- Monetisation: Set a price for your widgets and start earning. As Abyss grows, so will your opportunities to profit.
+What We're Looking For
+We’re looking for Python developers to test the platform, by creating widgets directly or sharing Python projects for us to transform them into widgets ourselves.
+Ideally, we are looking for people who are:
+- Proficient in Python
+- Passionate about AI
+- Familiar with LLM APIs
+- Curious and excited about new technologies
+- Skilled in Prompt Engineering (designing inputs for AI models to get the best outputs—think of it as guiding the AI to perform effectively)
+Your Rewards
+- Fee per Widget: If selected, You will get paid a fee for each widget you build, ranging from $10 to $200 based on complexity and the task it solves. If you have a ready list of clients or build the widget yourself, you could earn even more.
+- Marketplace Revenue: As well as getting paid per widget, you will retain full ownership over them. Set your own price and earn revenues they generate on our marketplace once it is active.
+- Potential Full-Time Role: Top candidates may be offered a full-time remote position at Abyss.
+Why Join Now?
+Abyss is in its early stages—get in now to shape its future while building your portfolio. You will be more than welcome to get as involved as you want in navigating the platform's growth by sharing suggestions, criticisms or any other feedback.
+Note: Candidates passing the initial screening will complete a quick and simple test task—a chance to showcase your Python skills by building one widget in 1-2 hours (or less if you’ve got a project ready to go!).
+
+Only from Intermediate
+Only from 1 year of experience
+Full Remote
+Worldwide
+Countries where we consider candidates
+Python
+API, OpenAI, OpenAPI, Python, LLM, LLMs, AI, Automation, LLM/Llama/Mistral/GPT/RAG/FAISS, ChatGPT
+Employment: Part-time
+Domain: Other
+Startup
+Test task is needed

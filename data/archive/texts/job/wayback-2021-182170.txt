@@ -1,0 +1,25 @@
+Senior DevOps with Python
+Luxoft
+
+We're building a project for market leading large Germany based company with 440,000 customers worldwide.
+Originally known for leadership in enterprise resource planning (ERP) software, the company has evolved to become a market leader in end-to-end enterprise application software, database, analytics, intelligent technologies, and experience management. A top cloud company with 200 million users worldwide, the company helps businesses of all sizes and in all industries to operate profitably, adapt continuously, and achieve their purpose.
+Responsibilities:
+Gathering requirements.
+Architecture design.
+Solutions preparation and delivery.
+Code delivery & review.
+Participation in technical meetings.
+Mandatory Skills:Kubernetes, Python, Elasticsearch, CI/CD
+Nice-to-Have Skills: REST, Git, Logstash, Scrum Methodology, Cloud, OpenStack, Kibana, Linux, Docker,
+About Luxoft
+Luxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.
+Luxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Sysadmin
+Kyiv
+3 years of experience
+English Upper Intermediate

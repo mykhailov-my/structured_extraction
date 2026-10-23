@@ -1,0 +1,54 @@
+Senior/Lead Data Engineer (Python/AWS)
+GlobalLogic
+
+Description
+The GlobalLogic technology team is focused on next-generation health capabilities that align with the client’s mission and vision to deliver Insight-Driven Care. This role operates within the Health Applications & Interoperability subgroup of our broader team, with a focus on patient engagement, care coordination, AI, healthcare analytics, and interoperability. These advanced technologies enhance our product portfolio with new services while improving clinical and patient
+experiences.
+Requirements
+An AWS Data Engineer designs, develops, and maintains scalable data solutions using AWS cloud services.
+Key Responsibilities:
+• Design, build, and manage ETL (Extract, Transform, Load) pipelines using AWS services (e.g., Glue, Lambda, EMR, Redshift, S3).
+• Develop and maintain data architecture (data lakes, warehouses, databases) on AWS.
+• Implement data quality and governance solutions.
+• Automate data workflows and monitor pipeline health.
+• Ensure data security and compliance with company policies.
+Required Skills:
+• Proficiency with AWS cloud services, especially data-related offerings (S3, Glue, Redshift, Athena, EMR, Kinesis, Lambda).
+• Strong SQL and Python skills.
+• Experience with ETL tools and frameworks.
+• Familiarity with data modelling and warehousing concepts.
+• Knowledge of data security, access management, and best practices in AWS.
+Preferred Qualifications:
+• AWS certifications (e.g., AWS Certified Data Analytics – Speciality, AWS Certified Solutions Architect).
+• Background in software engineering or data science.
+• Hands-on experience with Oracle Database and log-based Change Data Capture (CDC) replication using AWS Database Migration Service (DMS) for near real-time data ingestion.
+Job responsibilities
+– Develops, documents, and configures systems specifications that conform to defined architecture standards, address business requirements, and processes in the cloud development & engineering.
+– Involved in planning of system and development deployment, as well as responsible for meeting compliance and security standards.
+– API development using AWS services in a scalable, microservices-based architecture
+– Actively identifies system functionality or performance deficiencies, executes changes to existing systems, and tests functionality of the system to correct deficiencies and maintain more effective data handling, data integrity, conversion, input/output requirements, and storage.
+– May document testing and maintenance of system updates, modifications, and configurations.
+– May act as a liaison with key technology vendor technologists or other business functions.
+– Function Specific: Strategically design technology solutions that meet the needs and goals of the company and its customers/users.
+– Leverages platform process expertise to assess if existing standard platform functionality will solve a business problem or if a customisation solution would be required.
+– Test the quality of a product and its ability to perform a task or solve a problem.
+– Perform basic maintenance and performance optimisation procedures in each of the primary operating systems.
+– Ability to document detailed technical system specifications based on business system requirements
+– Ensures system implementation compliance with global & local regulatory and security standards (i.e. HIPAA, SOCII, ISO27001, etc.)
+What we offer
+Culture of caring. At GlobalLogic, we prioritize a culture of caring. Across every region and department, at every level, we consistently put people first. From day one, you’ll experience an inclusive culture of acceptance and belonging, where you’ll have the chance to build meaningful connections with collaborative teammates, supportive managers, and compassionate leaders.
+Learning and development. We are committed to your continuous learning and development. You’ll learn and grow daily in an environment with many opportunities to try new things, sharpen your skills, and advance your career at GlobalLogic. With our Career Navigator tool as just one example, GlobalLogic offers a rich array of programs, training curricula, and hands-on opportunities to grow personally and professionally.
+Interesting & meaningful work. GlobalLogic is known for engineering impact for and with clients around the world. As part of our team, you’ll have the chance to work on projects that matter. Each is a unique opportunity to engage your curiosity and creative problem-solving skills as you help clients reimagine what’s possible and bring new solutions to market. In the process, you’ll have the privilege of working on some of the most cutting-edge and impactful solutions shaping the world today.
+Balance and flexibility. We believe in the importance of balance and flexibility. With many functional career areas, roles, and work arrangements, you can explore ways of achieving the perfect balance between your work and life. Your life extends beyond the office, and we always do our best to help you integrate and balance the best of work and life, having fun along the way!
+High-trust organization. We are a high-trust organization where integrity is key. By joining GlobalLogic, you’re placing your trust in a safe, reliable, and ethical global company. Integrity and trust are a cornerstone of our value proposition to our employees and clients. You will find truthfulness, candor, and integrity in everything we do.
+
+Only from 5 years of experience
+Full Remote
+Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Data Engineer
+Employment: Fulltime
+Domain: Healthcare / MedTech
+Outsource

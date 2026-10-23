@@ -1,0 +1,37 @@
+Senior Python Developer
+EPAM Systems
+
+Currently, we are looking for Senior Developer with experience with 3+ years of experience with Python, experience with Kubernetes and cloud working experience to join our team.
+3+ years of experience with Python
+Linux architecture knowledge
+Open Source projects working experience
+Experience with Kubernetes
+Libvirt, OpenStack knowledge
+AWS/Azure/Google cloud knowledge
+Linux kernel-mode/user-mode programming experience
+Virtualization technology understanding
+Windows/Linux/FreeBSD kernel internals understanding
+Knowledge of Ansible, Bash, Docker
+JavaScript/HTML web programming experience
+Ability to improve existing code
+Ability to solve complex problems
+Higher technical education
+English B1+
+About EPAM Systems
+EPAM Systems is a leading global provider of digital platform engineering and software development services, with more than 36,700+ employees worldwide.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Ivano-Frankivsk
+Ukraine
+(Ivano-Frankivsk, Lviv, Ternopil
++ 2 more cities
+)
+3 years of experience
+English Intermediate
+Only candidates from Ukraine
+Office/Remote of your choice
+Outsource

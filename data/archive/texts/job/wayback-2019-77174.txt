@@ -1,0 +1,40 @@
+Regular\Senior Python developer (Big Data)
+Luxoft
+
+We are loooking Regular\Senior Python developer (Big Data) join our team
+Project Description:
+Разработка программы лояльности и кросс-продажи. Построение техналогии real time marketing для автоматизации банковских продаж on-line. Задачи предполагают работу с Highload системами и с высокотехнологичными компонентами такими как HBASE, KAFKA. Используются технологии Spark streaming и Batch/Streaming.
+Responsibilities:
+Разработка кода.
+Проведение code-review.
+Участие в дизайне архитектуры программно-аппаратных комплексов, решающих бизнес-задачи Заказчика.
+Создание технической документации.
+Mandatory Skills:
+Python 3;
+Linux;
+Понимание архитектуры Hadoop;
+Знание фреймворка Spark:
+- Streaming;
+- Structured Streaming;
+- SparkSQL
+HBase;
+Sqoop
+Nice-to-Have Skills:
+Cloudera Hadoop Distribution;
+Java 8;
+SSL/TLS;
+Kerberos;
+Kafka
+Hive
+About Luxoft
+Luxoft (NYSE:LXFT) is a global consulting partner that offers end-to-end digital solutions to solve clients’ complex business challenges.
+We are a new class of digital service provider that combines consulting, strategy, and engineering at scale. We use this to drive business change by applying engineering excellence, deep domain expertise, and our senior software engineering talent to improve your client’s customer experience, boost your operational efficiency, and strengthen your competitive advantage.
+We have expertise in automotive, financial services, healthcare, life sciences, telecommunications, and other industries. As a highly committed partner, we take customer challenges as our own. Our dedication stems from a passion for technology and a bespoke attention to your needs.
+With over two decades of consistent, timely delivery and management of complex projects, we now serve over 280 active clients. With our headquarters in Zug, Switzerland and 42 global locations, we operate in 21 countries across five continents, providing you with robust global delivery platform. With about 12,700 employees, we have the best technology talent to support your business needs.
+Company website:
+[link]
+
+Python
+Kyiv
+Киев
+3 years or more

@@ -1,0 +1,42 @@
+Middle Python Developer (with mentoring experience)
+Uvik Software
+
+About the Role
+We are looking for a motivated Python Developer who is ready to take ownership of production support for a B2B e-commerce platform.
+The role is focused on ensuring system stability, resolving incidents, and coordinating technical tasks within the team. New feature development is not part of the scope.
+We value responsibility, proactivity, and strong communication skills, as the position requires active involvement in discussions and close collaboration with stakeholders.
+Requirements
+- Strong Python 3.x knowledge (2 years of experince and more)
+- Production experience with Django
+- Solid understanding of Django ORM and DRF Strong SQL skills and query optimization
+- Experience with PostgreSQL / MySQL / MS SQL Server
+- Solid understanding of OOP and SOLID principles
+- English level B2+ and higher
+Responsibilities
+- Ensure stability and reliability of the production system
+- Investigate and resolve incidents (root cause analysis)
+- Review and validate support-related code changes
+- Optimize backend performance and database queries
+- Coordinate the support team
+- Communicate with stakeholders regarding incidents and system status
+- Make technical decisions within the existing architecture
+Nice to have:
+- Celery / Redis Async programming
+- Experience with e-commerce or B2B platforms
+Important
+- English level B2+ and higher
+- High level of ownership and accountability
+- Ability to handle critical production incidents
+- Strong communication skills
+- Stress resilience
+
+Only from 2 years of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+English B2 - Upper Intermediate
+Ukrainian Native
+Python
+Employment: Fulltime
+Domain: E-commerce / Marketplace
+Outstaff

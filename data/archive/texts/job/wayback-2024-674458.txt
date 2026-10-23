@@ -1,0 +1,48 @@
+Python Django Developer
+Octy
+
+About us:
+At Octy, we’re dedicated to transforming startup ideas into successful businesses. With 8 years of experience, we’ve launched over 35 apps, raised more than $5M for our clients, and built two startups of our own. Our remote team of experts is here to develop, launch, and scale startups with tailored solutions across backend, frontend, and DevOps. If you're passionate about working with cutting-edge technology in a supportive, growth-driven environment, start your message with "Hello Octy!"
+Required skills:
+- 1+ year of commercial experience as a Python Django Engineer
+- OOP, SOLID, Design Patterns, Architectural Patterns
+- Experience working with Django REST Framework to create APIs
+- Knowledge of GraphQL and PostgreSQL
+- Ability to work with Docker to deploy and manage the application
+- experience with Celery, Redis, ElasticSearch.
+- experience with Cloud providers, DevOps, CI/CD
+- experience with Unit, integration, E2E tests
+- English B2 or upper.
+Additional skills:
+- Experience with JS, HTML, CSS
+- Experience with microservice
+- Experience with unit/integration/e2e tests
+- Knowledge of Vue.js for frontend interface development
+- Experience with AWS services (EC2, API Getaway, Lambda, SQS)
+- Knowledge of Flutter
+Responsibilities:
+- Developing and integrating new functionality for our platform using Python, Django, Django REST Framework, Vue.js and Docker
+- Designing and optimizing the user interface to improve the user experience ion.
+- Write clean, testable, maintainable code, and continue to grow your development skills;
+- Communicate with all team members during the search for ideas.
+We offer:
+- Young and friendly team
+- Competitive salary
+- Fully remote work
+- Flexible schedule
+- 4 calendar weeks of paid vacation
+- 10 days of paid sick leave
+- Corporate events and team buildings
+- Corporate-funded training
+- Paid expos and conferences (online or offline)
+- Providing with all necessary equipment
+We offer a project-based role with the potential for full-time employment upon successful completion of the project.
+
+Only from Intermediate
+Only from 1 year of experience
+Full Remote
+Countries of Europe or Ukraine
+Countries where we consider candidates
+Python
+Domain: Mobile
+Outsource

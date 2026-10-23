@@ -1,0 +1,33 @@
+Senior Python Web Scraper
+Uptarget
+$3000-5000
+
+THE POSITION CONSIDERS TO BE A DIRECT HIRING IN THE CUSTOMER’S COMPANY!
+Необхідні навички
+1.Strong background with Python 4+ years.
+2.Experience with Python 2.7 version.
+3.Experience with the following frameworks: Scrapy, Boto3, BeautifulSoup.
+4.Strong background working with Redis Database.
+5.Experience web scraping retail sites like Amazon, AliExpress
+6.Strong desire and a proactive attitude to work.
+7.English — at least Intermediate level.
+8.Strong problem-solving abilities.
+9.Flexibility and team player.
+10.Ability to work in a timezone close to the US (12:00 — 20:00 Kyiv time)
+Буде плюсом
+1.Experience creating API with Flask.
+2.Experience with Kubernetes and Docker.
+Про проект
+It’s an all-in-one, leading dropshipping platform that automates all actions for the user, from finding smart and hot-selling products to product uploading, price & stock monitoring the suppliers’ sites, customer support system, price optimization system, and more. The company is global and has teams all over the world. Teams vary in size and frequently collaborate with each other, providing our employees the unique opportunity to learn and work with teammates from around the world. Every employee plays a key role in growing the company and has the responsibility for the success of the company. THE POSITION CONSIDERS TO BE A DIRECT HIRING IN THE CUSTOMER’S COMPANY!
+About Uptarget
+We offer consulting and architecture planning in order to define the best product outline in terms of technical implentation and best market practices.
+Company website:
+[link]
+DOU company page:
+[link]
+
+Python
+Remote
+Full Remote
+Outstaff
+5 years of experience
