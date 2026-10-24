@@ -1,0 +1,28 @@
+{
+  "title": "Python Developer (IoT)",
+  "seniority": null,
+  "company_type": "agency",
+  "domain": "miltech",
+  "employment": "full_time",
+  "work_formats": ["office"],
+  "candidate_location": "ukraine",
+  "candidate_countries": [],
+  "office_cities": ["Kyiv"],
+  "min_experience_years": 3.0,
+  "salary": null,
+  "languages": [],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "middle", "years": 3.0, "must_have": true},
+    {"skill": "async_programming", "name": "multithreading, multiprocessing, asynchronous programming", "level": "middle", "years": null, "must_have": true},
+    {"skill": "linux", "name": "Linux (Ubuntu, Debian)", "level": "senior", "years": null, "must_have": true},
+    {"skill": "other", "name": "SBC platforms (Raspberry Pi, Orange Pi, Nvidia Jetson)", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "Hardware interfaces (GPIO, I2C, SPI, UART, MODBUS)", "level": "junior", "years": null, "must_have": true},
+    {"skill": "numpy", "name": "NumPy", "level": "junior", "years": null, "must_have": false},
+    {"skill": "computer_vision", "name": "openCV", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "SciPy", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "ROS/ROS2", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [],
+  "domain_experience": [],
+  "legal": []
+}

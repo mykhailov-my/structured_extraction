@@ -1,0 +1,64 @@
+Python Developer (Middle+) — Internal Product
+CRMOZ
+до $4000
+
+At CRMOZ, we are an official partner of Zoho Corp. with over 10 years of experience in delivering exceptional IT services, including Zoho software implementation, integration, and ongoing support. Our clients span across various industries worldwide, and our focus is on providing tailored, high-quality solutions to meet their unique business needs.
+We are currently looking for a skilled Python Developer to join our team to work on a long-term internal product, designed to improve business process automation, data handling, and operational efficiency within the company. This is not a client-facing project — the product is being developed in-house and owned entirely by our team.
+Who You Are:
+We’re looking for a proactive and detail-oriented Python Developer with at least a Middle level of experience, who enjoys solving practical business problems through clean, scalable backend development. You’ll take part in building and evolving a product from the ground up in close collaboration with analysts and stakeholders.
+Key Responsibilities:
+- Backend Development: Build and maintain internal services and APIs using Python.
+- Data Handling: Develop tools for collecting, processing, and managing structured/unstructured data.
+- System Integration: Create and maintain integrations with third-party systems and APIs.
+- Automation: Identify opportunities and implement solutions to automate internal operations.
+- Database Work: Design and optimize relational and non-relational databases.
+- Code Quality: Write maintainable, testable, and well-documented code.
+- Team Collaboration: Work closely with analysts, PMs, and other developers to align on business needs and deliver solutions.
+Required Experience With:
+- RAG (Retrieval-Augmented Generation)
+- LLMs (Large Language Models, e.g. OpenAI, Claude)
+- Vector Databases (e.g. Pinecone, FAISS, Chroma)
+- Scraping (e.g. BeautifulSoup, Playwright, Selenium)
+- Embedding Models (e.g. OpenAI Embeddings, SentenceTransformers)
+- Data Analysis & Manipulation: pandas, numpy, polars
+- Visualization: matplotlib, seaborn, plotly, altair
+- Machine Learning: scikit-learn, xgboost, lightgbm, catboost
+- Deep Learning: TensorFlow, PyTorch, Keras
+- Natural Language Processing (NLP): spaCy, transformers (Hugging Face), NLTK, gensim
+Your Skills and Experience:
+- 2+ years of commercial experience with Python
+- Strong knowledge of Python frameworks: FastAPI, Flask, Django
+- Experience with building and consuming RESTful APIs, SOAP, GraphQL
+- Good understanding of relational databases (e.g., PostgreSQL, MySQL)
+- Confident with Git and version control workflows
+- English — Intermediate+ (written and spoken)
+Nice to Have but Not Required:
+- Experience with microservices architecture
+- Familiarity with Docker or cloud platforms (AWS/GCP)
+- Basic understanding of CI/CD workflows
+We Offer:
+- Remote-first position: Work from anywhere with a flexible schedule.
+- Internal product ownership: No external client pressure — focus on long-term value and quality.
+- Competitive salary: Based on experience and performance.
+- Growth opportunities: Shape the product and grow within the team.
+
+Необхідні навички
+FastAPI, Flask, Django, GraphQL, PostgreSQL, MySQL, RAG, LLM
+Вимоги до володіння мовами
+Англійська: B1 – Середній
+Українська: Носій мови
+
+від 2 років досвіду
+Також розглядаємо з досвідом 1 рік
+$1500-4000
+Розглядаємо до $4500
+Тільки віддалено
+Україна
+Країни, де розглядаємо кандидатів
+Англійська B1 – Середній
+Українська Носій мови
+Python
+Зайнятість: Fulltime
+Домен: Other
+Сервісна компанія
+Є тестове завдання

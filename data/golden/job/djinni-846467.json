@@ -1,0 +1,46 @@
+{
+  "title": "Senior Backend Developer (Python/Docker)",
+  "seniority": "senior",
+  "company_type": "outsource",
+  "domain": "healthcare",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 5.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "algorithms", "name": "data structures, algorithms", "level": "senior", "years": null, "must_have": true},
+    {"skill": "software_design", "name": "design patterns", "level": "senior", "years": null, "must_have": true},
+    {"skill": "python", "name": "Python 3.12+", "level": "senior", "years": null, "must_have": true},
+    {"skill": "mongodb", "name": "MongoDB", "level": "middle", "years": null, "must_have": true},
+    {"skill": "other", "name": "Beanie ODM", "level": "middle", "years": null, "must_have": false},
+    {"skill": "security", "name": "OAuth/OIDC, JWT, Keycloak, Descope, identity management", "level": "middle", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker / docker-compose", "level": "senior", "years": null, "must_have": true},
+    {"skill": "rest_api", "name": "API design (REST)", "level": "expert", "years": null, "must_have": true},
+    {"skill": "fastapi", "name": "FastAPI (async)", "level": "expert", "years": null, "must_have": true},
+    {"skill": "sql", "name": "SQL databases", "level": "senior", "years": null, "must_have": true},
+    {"skill": "nosql", "name": "NoSQL", "level": "senior", "years": null, "must_have": true},
+    {"skill": "cloud", "name": "cloud services", "level": "expert", "years": null, "must_have": true},
+    {"skill": "software_architecture", "name": "Event-Driven Microservices, cloud-native patterns", "level": "junior", "years": null, "must_have": true},
+    {"skill": "observability", "name": "observability, tracing, OpenTelemetry, Prometheus", "level": "middle", "years": null, "must_have": true},
+    {"skill": "other", "name": "FHIR R4, SMART Health Links/Cards", "level": "middle", "years": null, "must_have": false},
+    {"skill": "testing", "name": "E2E testing discipline", "level": "middle", "years": null, "must_have": false},
+    {"skill": "pytest", "name": "pytest", "level": "middle", "years": null, "must_have": false},
+    {"skill": "playwright", "name": "Playwright E2E", "level": "middle", "years": null, "must_have": false},
+    {"skill": "other", "name": "Cucumber", "level": "middle", "years": null, "must_have": false},
+    {"skill": "computer_vision", "name": "QR/image decoding (pyzbar/zbar)", "level": "middle", "years": null, "must_have": false},
+    {"skill": "kafka", "name": "Apache Kafka", "level": "middle", "years": null, "must_have": false},
+    {"skill": "aws", "name": "AWS Secrets Manager", "level": "middle", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "problem_solving", "name": "Eager to solve problems of scale", "level": "middle", "must_have": true},
+    {"skill": "critical_thinking", "name": "Critical thinking", "level": "middle", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": []
+}

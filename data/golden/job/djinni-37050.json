@@ -1,0 +1,43 @@
+{
+  "title": "Python Engineer",
+  "seniority": null,
+  "company_type": "outsource",
+  "domain": "fintech",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 1.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true},
+    {"language": "ukrainian", "level": "c2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python 3.x", "level": "senior", "years": null, "must_have": true},
+    {"skill": "drf", "name": "Django REST Framework", "level": "junior", "years": null, "must_have": true},
+    {"skill": "graphql", "name": "GraphQL", "level": "junior", "years": null, "must_have": false},
+    {"skill": "aws", "name": "AWS", "level": "basic", "years": null, "must_have": true},
+    {"skill": "gcp", "name": "GCP", "level": "basic", "years": null, "must_have": true},
+    {"skill": "azure", "name": "Azure", "level": "basic", "years": null, "must_have": true},
+    {"skill": "postgresql", "name": "PostgreSQL", "level": "junior", "years": null, "must_have": true},
+    {"skill": "mysql", "name": "MySQL", "level": "junior", "years": null, "must_have": true},
+    {"skill": "rest_api", "name": "API design principles and RESTful APIs, integrating APIs", "level": "junior", "years": null, "must_have": true},
+    {"skill": "llm", "name": "LLM-powered features, structured outputs", "level": "junior", "years": null, "must_have": true},
+    {"skill": "rag", "name": "retrieval", "level": "junior", "years": null, "must_have": true},
+    {"skill": "ai_agents", "name": "AI agents, tool calling", "level": "junior", "years": null, "must_have": true},
+    {"skill": "ai_coding_tools", "name": "AI coding agents such as Claude Code", "level": "middle", "years": null, "must_have": true},
+    {"skill": "other", "name": "n8n", "level": "junior", "years": null, "must_have": true},
+    {"skill": "git", "name": "Git", "level": "basic", "years": null, "must_have": true},
+    {"skill": "other", "name": "Webpack", "level": "basic", "years": null, "must_have": true},
+    {"skill": "react", "name": "React.js", "level": "junior", "years": null, "must_have": false},
+    {"skill": "agile", "name": "Scrum", "level": "basic", "years": null, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "basic", "years": null, "must_have": true}
+  ],
+  "soft_skills": [
+    {"skill": "self_learning", "name": "Ability and willingness to learn quickly", "level": "middle", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": []
+}

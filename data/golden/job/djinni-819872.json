@@ -1,0 +1,41 @@
+{
+  "title": "Python Developer — Automation Platform (Middle to Senior)",
+  "seniority": "middle",
+  "company_type": "product",
+  "domain": "saas",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 1.0,
+  "salary": {"min_amount": 2200, "max_amount": 4500, "currency": "USD", "period": "month"},
+  "languages": [
+    {"language": "english", "level": "b1", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "middle", "years": 2.0, "must_have": true},
+    {"skill": "playwright", "name": "Playwright", "level": "junior", "years": null, "must_have": true},
+    {"skill": "selenium", "name": "Selenium", "level": "junior", "years": null, "must_have": true},
+    {"skill": "ai_coding_tools", "name": "AI coding tools, verifying AI output", "level": "middle", "years": null, "must_have": true},
+    {"skill": "airflow", "name": "Airflow", "level": "junior", "years": null, "must_have": false},
+    {"skill": "celery", "name": "Celery", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "Prefect", "level": "junior", "years": null, "must_have": false},
+    {"skill": "rest_api", "name": "REST API design and implementation", "level": "junior", "years": null, "must_have": false},
+    {"skill": "fastapi", "name": "FastAPI", "level": "junior", "years": null, "must_have": false},
+    {"skill": "flask", "name": "Flask", "level": "junior", "years": null, "must_have": false},
+    {"skill": "etl", "name": "Data pipelines, ETL, data validation", "level": "junior", "years": null, "must_have": false},
+    {"skill": "aws", "name": "AWS basics (ECS, S3, Lambda, CloudWatch)", "level": "basic", "years": null, "must_have": false},
+    {"skill": "postgresql", "name": "SQL (PostgreSQL)", "level": "junior", "years": null, "must_have": false},
+    {"skill": "docker", "name": "Docker", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "ownership", "name": "Production ownership mindset", "level": "middle", "must_have": true},
+    {"skill": "communication", "name": "High-quality communication, responsive during working hours", "level": "senior", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": [
+    {"condition": "contract_type", "detail": "Ukrainian FOP, or able to register before start", "must_have": true},
+    {"condition": "time_zone", "detail": "Overlapping CET business hours", "must_have": true}
+  ]
+}

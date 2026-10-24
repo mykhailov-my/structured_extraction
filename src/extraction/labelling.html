@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Golden labels</title>
+<style>
+  :root {
+    --bg: #f6f6f3; --panel: #ffffff; --text: #1c1c1a; --muted: #6b6b65; --line: #e1e0d9;
+    --input: #ffffff; --accent: #2c64d6; --on-accent: #ffffff; --ok: #1f8a4e; --bad: #c03a2b;
+    --soft: #eef2fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151514; --panel: #1e1e1c; --text: #ebeae4; --muted: #a3a29b; --line: #35352f;
+      --input: #262623; --accent: #6d9bff; --on-accent: #0d1424; --ok: #52c58a; --bad: #ff8073;
+      --soft: #232a3b;
+    }
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  header {
+    position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; gap: 8px 12px;
+    align-items: center; padding: 10px 16px; background: var(--panel);
+    border-bottom: 1px solid var(--line);
+  }
+  h1 { font-size: 15px; margin: 0; }
+  h2 {
+    font-size: 12px; margin: 20px 0 6px; text-transform: uppercase; letter-spacing: .05em;
+    color: var(--muted);
+  }
+  .bar { width: 140px; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; }
+  .bar > div { height: 100%; width: 0; background: var(--ok); transition: width .2s; }
+  .muted { color: var(--muted); }
+  .spacer { flex: 1; }
+  #jump { width: auto; max-width: 340px; }
+  main {
+    display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 16px;
+    padding: 16px; align-items: start;
+  }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+  #posting { position: sticky; top: 66px; }
+  #where { font-size: 12px; margin-bottom: 8px; }
+  #text {
+    margin: 0; font: inherit; white-space: pre-wrap; overflow-wrap: anywhere; overflow: auto;
+    max-height: calc(100vh - 130px);
+  }
+  @media (max-width: 960px) {
+    main { grid-template-columns: minmax(0, 1fr); }
+    #posting { position: static; }
+    #text { max-height: 50vh; }
+  }
+  label { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--muted); }
+  label.inline { flex-direction: row; align-items: center; gap: 5px; color: var(--text); font-size: 14px; }
+  input, select, button { font: inherit; color: var(--text); }
+  input:not([type=checkbox]), select {
+    width: 100%; min-width: 0; padding: 5px 7px; background: var(--input);
+    border: 1px solid var(--line); border-radius: 6px;
+  }
+  input.invalid { border-color: var(--bad); }
+  input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 0; }
+  .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px 12px; }
+  .wide { grid-column: 1 / -1; }
+  .two { grid-column: span 2; }
+  @media (max-width: 600px) { .grid { grid-template-columns: minmax(0, 1fr); } .two { grid-column: auto; } }
+  .row { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+  #salary { margin-top: 6px; gap: 8px; }
+  #salary input { width: 110px; }
+  #salary select { width: auto; }
+  .caption { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+  button {
+    padding: 5px 10px; background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
+    cursor: pointer;
+  }
+  button:hover:not(:disabled) { border-color: var(--accent); }
+  button:disabled { opacity: .4; cursor: default; }
+  button.primary { background: var(--accent); color: var(--on-accent); border-color: var(--accent); font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; font-size: 12px; font-weight: 500; color: var(--muted); padding: 4px; }
+  td { padding: 3px 4px; vertical-align: middle; }
+  td.check { text-align: center; width: 44px; }
+  td.number { width: 76px; }
+  td.remove { width: 30px; }
+  .remove button { border: none; background: none; color: var(--muted); padding: 2px 6px; }
+  .legend { font-size: 12px; color: var(--muted); margin: 6px 0 0; }
+  .actions {
+    position: sticky; bottom: 0; display: flex; gap: 10px; align-items: center; margin: 16px -16px -14px;
+    padding: 10px 16px; background: var(--panel); border-top: 1px solid var(--line); border-radius: 0 0 8px 8px;
+  }
+  #status.ok { color: var(--ok); }
+  #status.bad { color: var(--bad); }
+  #errors { color: var(--bad); margin: 8px 0 0; padding-left: 18px; }
+  #comparison { margin-top: 18px; background: var(--soft); border-radius: 8px; padding: 4px 14px 12px; }
+  #comparison td { border-top: 1px solid var(--line); overflow-wrap: break-word; }
+  .badge { font-size: 12px; padding: 2px 8px; border-radius: 10px; background: var(--soft); cursor: help; }
+  kbd { font: 11px ui-monospace, Menlo, monospace; border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Golden labels</h1>
+  <div class="bar"><div id="bar"></div></div>
+  <span id="progress" class="muted"></span>
+  <span class="spacer"></span>
+  <span id="agreement" class="badge" hidden></span>
+  <button id="prev" title="Previous posting" aria-label="Previous posting">←</button>
+  <select id="jump" aria-label="Posting"></select>
+  <button id="next" title="Next posting" aria-label="Next posting">→</button>
+</header>
+<main>
+  <section class="panel" id="posting">
+    <div class="muted" id="where"></div>
+    <pre id="text"></pre>
+  </section>
+  <section class="panel" id="form">
+    <div class="grid">
+      <label class="wide">Title <input id="title"></label>
+      <label>Seniority <select id="seniority"></select></label>
+      <label>Company type <select id="company_type"></select></label>
+      <label>Domain <select id="domain"></select></label>
+      <label>Employment <select id="employment"></select></label>
+      <label>Min. experience, years <input id="min_experience_years" type="number" min="0" step="0.5"></label>
+      <div><div class="caption">Work formats</div><div class="row" id="work_formats"></div></div>
+      <label>Candidates from <select id="candidate_location"></select></label>
+      <label class="two" id="countries_label">Countries, ISO codes <input id="candidate_countries" placeholder="POL, ROU"></label>
+      <label class="wide">Office cities <input id="office_cities" placeholder="Kyiv, Lviv"></label>
+      <div class="wide">
+        <label class="inline"><input type="checkbox" id="has_salary"> Salary</label>
+        <div class="row" id="salary">
+          <input id="min_amount" type="number" min="1" placeholder="min" aria-label="Salary from">
+          <input id="max_amount" type="number" min="1" placeholder="max" aria-label="Salary up to">
+          <select id="currency" aria-label="Currency"></select>
+          <select id="period" aria-label="Period"></select>
+        </div>
+      </div>
+    </div>
+    <div id="tables"></div>
+    <p class="legend">
+      Level: basic, knows the basics · junior, has used it with help · middle, on their own ·
+      senior, in depth, designs with it · expert, an authority. Years only when the posting gives
+      them. <kbd>Enter</kbd> in a text cell adds a row. Rules: data/golden/README.md.
+    </p>
+    <ul id="errors"></ul>
+    <div id="comparison" hidden></div>
+    <div class="actions">
+      <button id="save" class="primary">Save</button>
+      <span class="muted"><kbd>⌘S</kbd></span>
+      <span id="status" role="status"></span>
+    </div>
+  </section>
+</main>
+<datalist id="hard-skill-list"></datalist>
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+let postings = [], options = {}, index = 0, docId = null, lastSelection = "";
+const skills = new Map();  // id -> {id, name, area, aliases}
+const aliases = new Map();  // any name, folded -> id
+
+// Each list of the label is a table; its columns say how to edit and read a field.
+const TABLES = {
+  hard_skills: {title: "Hard skills", columns: [
+    {key: "skill", type: "skill", label: "Skill"},
+    {key: "name", type: "text", label: "As written"},
+    {key: "level", type: "select", label: "Level", options: "skill_level", required: true},
+    {key: "years", type: "number", label: "Years"},
+    {key: "must_have", type: "check", label: "Must"},
+  ]},
+  soft_skills: {title: "Soft skills", columns: [
+    {key: "skill", type: "select", label: "Quality", options: "soft_skill", required: true},
+    {key: "name", type: "text", label: "As written"},
+    {key: "level", type: "select", label: "Level", options: "skill_level", required: true},
+    {key: "must_have", type: "check", label: "Must"},
+  ]},
+  languages: {title: "Languages", columns: [
+    {key: "language", type: "select", label: "Language", options: "language", required: true},
+    {key: "level", type: "select", label: "Lowest level", options: "language_level", blank: "— not given"},
+    {key: "must_have", type: "check", label: "Must"},
+  ]},
+  domain_experience: {title: "Domain experience", columns: [
+    {key: "domain", type: "select", label: "Domain", options: "domain", required: true},
+    {key: "years", type: "number", label: "Years"},
+    {key: "must_have", type: "check", label: "Must"},
+  ]},
+  legal: {title: "Legal conditions", columns: [
+    {key: "condition", type: "select", label: "Condition", options: "legal_condition", required: true},
+    {key: "detail", type: "text", label: "Detail", nullable: true, placeholder: "EST, FOP, 18+"},
+    {key: "must_have", type: "check", label: "Must"},
+  ]},
+};
+
+// Unsaved work survives a reload, in this browser only; storage may be refused.
+const drafts = {
+  get(id) { try { return JSON.parse(localStorage.getItem("draft2:" + id)); } catch { return null; } },
+  set(id, label) { try { localStorage.setItem("draft2:" + id, JSON.stringify(label)); } catch {} },
+  drop(id) { try { localStorage.removeItem("draft2:" + id); } catch {} },
+};
+
+async function api(path, init) {
+  try {
+    const response = await fetch(path, init);
+    return {ok: response.ok, body: await response.json()};
+  } catch {
+    return {ok: false, body: {errors: ["The server isn't answering: is `python main.py label` running?"]}};
+  }
+}
+
+function fillSelect(select, values, blank) {
+  select.replaceChildren();
+  if (blank !== undefined) select.append(new Option(blank, ""));
+  for (const value of values) select.append(new Option(value.replaceAll("_", " "), value));
+}
+
+const fold = (text) => text.toLowerCase().replace(/[^\p{L}\p{N}+#]/gu, "");
+
+// A skill id for whatever was typed: an id, or a name postings use for it.
+function skillFor(text) {
+  const typed = text.trim();
+  if (skills.has(typed)) return typed;
+  return aliases.get(fold(typed)) || null;
+}
+
+function makeInput(column, value) {
+  let input;
+  if (column.type === "select") {
+    input = document.createElement("select");
+    fillSelect(input, options[column.options], column.blank ?? "— choose");
+    input.value = value ?? "";
+  } else if (column.type === "check") {
+    input = Object.assign(document.createElement("input"), {type: "checkbox", checked: value ?? true});
+  } else if (column.type === "number") {
+    input = Object.assign(document.createElement("input"), {type: "number", min: 0, step: 0.5, value: value ?? ""});
+  } else {
+    input = Object.assign(document.createElement("input"), {value: value ?? "", placeholder: column.placeholder || ""});
+    if (column.type === "skill") {
+      input.setAttribute("list", "hard-skill-list");
+      input.placeholder = "type to search";
+    }
+  }
+  input.dataset.key = column.key;
+  input.setAttribute("aria-label", column.label);
+  return input;
+}
+
+function addRow(name, record = {}, after = null, focus = false) {
+  const table = TABLES[name];
+  const row = document.createElement("tr");
+  for (const column of table.columns) {
+    const td = document.createElement("td");
+    td.className = column.type;
+    const input = makeInput(column, record[column.key]);
+    td.append(input);
+    row.append(td);
+    if (column.type === "text" || column.type === "skill") {
+      input.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          event.preventDefault();
+          addRow(name, {}, row, true);
+          changed();
+        }
+      });
+    }
+  }
+  const skill = row.querySelector('[data-key="skill"]');
+  if (skill && skill.tagName === "INPUT") {
+    skill.addEventListener("change", () => {
+      const id = skillFor(skill.value);
+      if (id) skill.value = id;
+      skill.classList.toggle("invalid", !id);
+      const written = row.querySelector('[data-key="name"]');
+      if (id && id !== "other" && !written.value) written.value = skills.get(id).name;
+    });
+  }
+  const remove = Object.assign(document.createElement("button"), {textContent: "✕", title: "Remove"});
+  remove.setAttribute("aria-label", "Remove");
+  remove.addEventListener("click", () => {
+    row.remove();
+    count(name);
+    changed();
+  });
+  const td = document.createElement("td");
+  td.className = "remove";
+  td.append(remove);
+  row.append(td);
+  const body = $(`${name}-rows`);
+  if (after) after.after(row);
+  else body.append(row);
+  if (focus) row.querySelector("input, select").focus();
+  count(name);
+}
+
+function count(name) {
+  const rows = $(`${name}-rows`).rows.length;
+  $(`${name}-count`).textContent = rows ? `(${rows})` : "";
+}
+
+function buildTables() {
+  for (const [name, table] of Object.entries(TABLES)) {
+    const section = document.createElement("section");
+    section.innerHTML =
+      `<h2>${table.title} <span id="${name}-count"></span></h2>` +
+      `<table><thead><tr>${table.columns.map((c) => `<th>${c.label}</th>`).join("")}<th></th></tr></thead>` +
+      `<tbody id="${name}-rows"></tbody></table>`;
+    const buttons = document.createElement("div");
+    buttons.className = "row";
+    const add = Object.assign(document.createElement("button"), {textContent: `+ ${table.title.replace(/s$/, "").toLowerCase()}`});
+    add.addEventListener("click", () => {
+      addRow(name, {}, null, true);
+      changed();
+    });
+    buttons.append(add);
+    if (name === "hard_skills") {
+      const selected = Object.assign(document.createElement("button"), {
+        textContent: "+ Selected text", title: "Select words in the posting first",
+      });
+      selected.addEventListener("click", addSelection);
+      buttons.append(selected);
+    }
+    section.append(buttons);
+    $("tables").append(section);
+  }
+}
+
+function addSelection() {
+  if (!lastSelection) {
+    status("Select a few words in the posting first", "bad");
+    return;
+  }
+  const id = skillFor(lastSelection);
+  addRow("hard_skills", {skill: id || "", name: lastSelection});
+  if (!id) status(`"${lastSelection}" isn't a listed name: pick its skill, or other`, "bad");
+  changed();
+}
+
+const blank = (title) => ({
+  title, seniority: null, company_type: null, domain: null, employment: null, work_formats: [],
+  candidate_location: null, candidate_countries: [], office_cities: [], min_experience_years: null,
+  salary: null, languages: [], hard_skills: [], soft_skills: [], domain_experience: [], legal: [],
+});
+
+const list = (id) => $(id).value.split(",").map((part) => part.trim()).filter(Boolean);
+
+function fill(label) {
+  $("title").value = label.title || "";
+  for (const id of ["seniority", "company_type", "domain", "employment", "candidate_location"]) {
+    $(id).value = label[id] || "";
+  }
+  $("min_experience_years").value = label.min_experience_years ?? "";
+  $("candidate_countries").value = (label.candidate_countries || []).join(", ");
+  $("office_cities").value = (label.office_cities || []).join(", ");
+  for (const box of $("work_formats").querySelectorAll("input")) {
+    box.checked = (label.work_formats || []).includes(box.value);
+  }
+  const salary = label.salary;
+  $("has_salary").checked = Boolean(salary);
+  $("min_amount").value = salary?.min_amount ?? "";
+  $("max_amount").value = salary?.max_amount ?? "";
+  $("currency").value = salary?.currency || "USD";
+  $("period").value = salary?.period || "month";
+  for (const name of Object.keys(TABLES)) {
+    $(`${name}-rows`).replaceChildren();
+    for (const record of label[name] || []) addRow(name, record);
+    count(name);
+  }
+  showDependent();
+}
+
+function collect() {
+  const number = (id) => ($(id).value === "" ? null : Number($(id).value));
+  const label = {
+    title: $("title").value.trim(),
+    seniority: $("seniority").value || null,
+    company_type: $("company_type").value || null,
+    domain: $("domain").value || null,
+    employment: $("employment").value || null,
+    work_formats: [...$("work_formats").querySelectorAll("input:checked")].map((box) => box.value),
+    candidate_location: $("candidate_location").value || null,
+    candidate_countries: list("candidate_countries").map((code) => code.toUpperCase()),
+    office_cities: list("office_cities"),
+    min_experience_years: number("min_experience_years"),
+    salary: $("has_salary").checked
+      ? {min_amount: number("min_amount"), max_amount: number("max_amount"),
+         currency: $("currency").value, period: $("period").value}
+      : null,
+  };
+  for (const [name, table] of Object.entries(TABLES)) {
+    label[name] = [...$(`${name}-rows`).rows].map((row) => {
+      const record = {};
+      for (const column of table.columns) {
+        const input = row.querySelector(`[data-key="${column.key}"]`);
+        const text = column.type === "check" ? null : input.value.trim();
+        if (column.type === "check") record[column.key] = input.checked;
+        else if (column.type === "number") record[column.key] = text === "" ? null : Number(text);
+        else if (column.type === "select") record[column.key] = text || null;
+        else record[column.key] = column.nullable && !text ? null : text;
+      }
+      return record;
+    });
+  }
+  return label;
+}
+
+// The guide's rules the schema can't check; the server checks the schema.
+function problems(label) {
+  const found = [];
+  if (!label.title) found.push("The title is empty.");
+  if (label.salary && label.salary.min_amount === null && label.salary.max_amount === null) {
+    found.push("Salary: give a min or a max, or untick it.");
+  }
+  if (label.candidate_location === "countries" && !label.candidate_countries.length) {
+    found.push("Candidates from countries: list their ISO codes.");
+  }
+  const unknown = label.candidate_countries.filter((code) => !options.country.includes(code));
+  if (unknown.length) found.push(`Not Djinni's country codes: ${unknown.join(", ")}.`);
+  for (const [name, table] of Object.entries(TABLES)) {
+    label[name].forEach((record, i) => {
+      const what = `${table.title}, row ${i + 1}`;
+      for (const column of table.columns) {
+        if (column.required && !record[column.key]) found.push(`${what}: choose the ${column.label.toLowerCase()}.`);
+      }
+      if (name === "hard_skills" && !skills.has(record.skill)) {
+        found.push(`${what}: "${record.skill}" isn't a listed skill; pick one, or other.`);
+      }
+      if (record.skill === "other" && !record.name) found.push(`${what}: say what the other skill is.`);
+      if (record.condition === "other" && !record.detail) found.push(`${what}: say what the condition is.`);
+    });
+  }
+  return found;
+}
+
+function showSalary() { $("salary").hidden = !$("has_salary").checked; }
+function showDependent() {
+  showSalary();
+  $("countries_label").hidden = $("candidate_location").value !== "countries";
+}
+function status(text, kind = "") { $("status").textContent = text; $("status").className = kind; }
+function showErrors(errors) {
+  $("errors").replaceChildren(...errors.map((error) => Object.assign(document.createElement("li"), {textContent: error})));
+}
+
+function changed() {
+  drafts.set(docId, collect());
+  status("Not saved yet: kept as a draft in this browser");
+}
+
+const pct = (x) => `${Math.round(100 * x)}%`;
+
+function renderHeader() {
+  const done = postings.filter((p) => p.done).length;
+  $("progress").textContent = `${done} of ${postings.length} verified`;
+  $("bar").style.width = `${(100 * done) / postings.length}%`;
+  $("jump").replaceChildren(...postings.map((p, i) => new Option(`${i + 1}. ${p.done ? "✓ " : ""}${p.title}`, i)));
+  $("jump").value = index;
+  $("prev").disabled = index === 0;
+  $("next").disabled = index === postings.length - 1;
+}
+
+function renderAgreement(agreement) {
+  const badge = $("agreement");
+  badge.hidden = !agreement;
+  if (!agreement) return;
+  const s = agreement.postings === 1 ? "" : "s";
+  badge.textContent = `You and Claude agree on ${pct(agreement.agreement)} (${agreement.postings} posting${s})`;
+  badge.title = Object.entries(agreement.fields).map(([field, value]) => `${field}: ${pct(value)}`).join("\n");
+}
+
+function show(value) {
+  if (value === null || value === undefined) return "—";
+  if (Array.isArray(value)) return value.length ? value.join(", ") : "—";
+  if (typeof value === "object" && "name" in value) {
+    const [key] = Object.keys(value).filter((k) => k !== "name");
+    return `${value.name}: ${show(value[key])}`;
+  }
+  return typeof value === "object" ? JSON.stringify(value) : String(value);
+}
+
+function renderComparison(comparison) {
+  const box = $("comparison");
+  box.hidden = !comparison;
+  if (!comparison) return;
+  const heading = Object.assign(document.createElement("h2"), {textContent: "Against Claude's original label"});
+  const summary = document.createElement("p");
+  summary.textContent = comparison.differences.length
+    ? `Field by field, Claude's label matches yours on ${pct(comparison.agreement)}, scored like a model. Where they differ:`
+    : "Claude's label matches yours on every field.";
+  const parts = [heading, summary];
+  if (comparison.differences.length) {
+    const table = document.createElement("table");
+    table.innerHTML = "<thead><tr><th>Field</th><th>Yours</th><th>Claude's</th></tr></thead>";
+    const rows = table.createTBody();
+    for (const difference of comparison.differences) {
+      const field = TABLES[difference.field] ? `${difference.field} without a pair` : difference.field;
+      const row = rows.insertRow();
+      for (const text of [field, show(difference.yours), show(difference.claude)]) row.insertCell().textContent = text;
+    }
+    parts.push(table);
+  }
+  box.replaceChildren(...parts);
+}
+
+async function open(i) {
+  index = Number(i);
+  docId = postings[index].doc_id;
+  const {ok, body} = await api(`/api/postings/${docId}`);
+  if (!ok) {
+    showErrors(body.errors || ["Can't load the posting."]);
+    return;
+  }
+  $("text").textContent = body.text;
+  $("text").scrollTop = 0;
+  $("where").textContent = `Posting ${index + 1} of ${postings.length} · ${docId}`;
+  const draft = drafts.get(docId);
+  fill(draft || body.label || blank(body.text.split("\n", 1)[0]));
+  showErrors([]);
+  if (draft) status("Not saved yet: kept as a draft in this browser");
+  else if (body.verified) status("Verified", "ok");
+  else if (body.label) status("Not verified yet: check the label against the text, then save");
+  else status("");
+  renderComparison(body.comparison);
+  renderHeader();
+}
+
+async function save() {
+  const label = collect();
+  const found = problems(label);
+  if (found.length) {
+    showErrors(found);
+    status("Not saved", "bad");
+    return;
+  }
+  const {ok, body} = await api(`/api/postings/${docId}`, {
+    method: "PUT", headers: {"Content-Type": "application/json"}, body: JSON.stringify(label),
+  });
+  if (!ok) {
+    showErrors(body.errors || ["Not saved."]);
+    status("Not saved", "bad");
+    return;
+  }
+  drafts.drop(docId);
+  postings[index].done = true;
+  showErrors([]);
+  status("Saved and verified", "ok");
+  renderHeader();
+  renderComparison(body.comparison);
+  renderAgreement(body.agreement);
+}
+
+async function start() {
+  const {ok, body} = await api("/api/postings");
+  if (!ok) {
+    showErrors(body.errors || ["Can't load the postings."]);
+    return;
+  }
+  ({postings, options} = body);
+  for (const skill of options.hard_skill) {
+    skills.set(skill.id, skill);
+    for (const name of [skill.id, skill.name, ...skill.aliases]) aliases.set(fold(name), skill.id);
+    const label = [skill.name, skill.area, skill.aliases.join(", ")].filter(Boolean).join(" · ");
+    $("hard-skill-list").append(Object.assign(document.createElement("option"), {value: skill.id, label}));
+  }
+  fillSelect($("seniority"), options.seniority, "— none named");
+  fillSelect($("company_type"), options.company_type, "— not stated");
+  fillSelect($("domain"), options.domain, "— not stated");
+  fillSelect($("employment"), options.employment, "— not stated");
+  fillSelect($("candidate_location"), options.candidate_location, "— not stated");
+  fillSelect($("currency"), options.currency);
+  fillSelect($("period"), options.period);
+  for (const value of options.work_formats) {
+    const label = Object.assign(document.createElement("label"), {className: "inline"});
+    label.append(Object.assign(document.createElement("input"), {type: "checkbox", value}), value);
+    $("work_formats").append(label);
+  }
+  buildTables();
+  renderAgreement(body.agreement);
+  const first = postings.findIndex((p) => !p.done);
+  await open(first === -1 ? 0 : first);
+}
+
+$("prev").addEventListener("click", () => open(index - 1));
+$("next").addEventListener("click", () => open(index + 1));
+$("jump").addEventListener("change", (event) => open(event.target.value));
+$("save").addEventListener("click", save);
+$("has_salary").addEventListener("change", showSalary);
+$("candidate_location").addEventListener("change", showDependent);
+$("form").addEventListener("input", (event) => {
+  if (!event.target.closest("#comparison")) changed();
+});
+document.addEventListener("selectionchange", () => {
+  const selection = document.getSelection();
+  if (selection.rangeCount && $("text").contains(selection.anchorNode)) {
+    lastSelection = selection.toString().trim().replace(/\s+/g, " ").slice(0, 80);
+  }
+});
+document.addEventListener("keydown", (event) => {
+  if ((event.metaKey || event.ctrlKey) && event.key === "s") {
+    event.preventDefault();
+    save();
+  }
+});
+start();
+</script>
+</body>
+</html>

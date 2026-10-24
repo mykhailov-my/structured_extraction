@@ -1,0 +1,44 @@
+Junior Python Developer (work only on weekends)
+Elogic
+до $400
+
+About the Role:
+We are seeking a motivated Junior Python Developer to join our growing team in a support and bug-fixing role and work on weekends (Saturday and Sunday) from 7:00 to 23:00 by GMT+3. The ideal candidate will have hands-on experience with Python and Django, as well as familiarity with AWS services such as EC2 and S3. You will be responsible for troubleshooting, debugging, and resolving issues in existing applications, optimizing database performance using PostgreSQL, and working within cloud-based environments.
+Key Responsibilities:
+- Work on weekends (Saturday and Sunday) from 7:00 to 23:00.
+- Troubleshoot and fix bugs in existing web applications using Python and Django.
+- Debug and optimize database performance using PostgreSQL.
+- Manage and maintain applications on AWS, including EC2 and S3.
+- Work closely with cross-functional teams to identify, diagnose, and resolve software issues.
+- Write clean, efficient, and well-documented code following best practices.
+- Assist in implementing security and data protection best practices.
+- Provide technical support and assistance to end-users and stakeholders.
+Requirements:
+- 1+ years of experience working with Python and Django.
+- Experience with relational databases, particularly PostgreSQL.
+- Familiarity with AWS services such as EC2 and S3.
+- Strong debugging and problem-solving skills.
+- Understanding of RESTful API development and integration.
+- Basic knowledge of front-end technologies (HTML, CSS, JavaScript) is a plus.
+- Ability to work in a collaborative team environment.
+- Excellent written and verbal communication skills.
+Preferred Qualifications:
+- Experience with containerization (Docker) and orchestration (Kubernetes) is a plus.
+- Knowledge of CI/CD pipelines and automation.
+- Understanding of security best practices in web applications.
+- Previous experience working in an Agile development environment.
+
+Вимоги до володіння мовами
+Англійська: B2 – Вище середнього
+
+від 2 років досвіду
+Також розглядаємо з досвідом 1 рік
+$300-400
+Тільки віддалено
+Весь світ
+Країни, де розглядаємо кандидатів
+Англійська B2 – Вище середнього
+Python
+Зайнятість: Неповна / Парт-тайм
+Домен: Other
+Аутстафінгова компанія

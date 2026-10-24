@@ -1,0 +1,39 @@
+{
+  "title": "Full-stack Python / TypeScript (React) - work during EST time",
+  "seniority": null,
+  "company_type": "outstaff",
+  "domain": "other",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "worldwide",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 6.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "senior", "years": null, "must_have": true},
+    {"skill": "typescript", "name": "TypeScript", "level": "senior", "years": null, "must_have": true},
+    {"skill": "react", "name": "React", "level": "senior", "years": null, "must_have": true},
+    {"skill": "mysql", "name": "MySQL", "level": "middle", "years": null, "must_have": true},
+    {"skill": "javascript", "name": "JS", "level": "middle", "years": null, "must_have": true},
+    {"skill": "html_css", "name": "CSS (SCSS), HTML", "level": "middle", "years": null, "must_have": true},
+    {"skill": "git", "name": "Git", "level": "middle", "years": null, "must_have": true},
+    {"skill": "linux", "name": "Linux", "level": "middle", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "middle", "years": null, "must_have": true},
+    {"skill": "aws", "name": "AWS", "level": "middle", "years": null, "must_have": true},
+    {"skill": "elasticsearch", "name": "OpenSearch (ElasticSearch)", "level": "middle", "years": null, "must_have": true},
+    {"skill": "mongodb", "name": "Mongo", "level": "middle", "years": null, "must_have": true},
+    {"skill": "php", "name": "PHP", "level": "junior", "years": null, "must_have": false},
+    {"skill": "java", "name": "Java", "level": "junior", "years": null, "must_have": false},
+    {"skill": "csharp", "name": ".NET", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "Magento", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [],
+  "domain_experience": [],
+  "legal": [
+    {"condition": "time_zone", "detail": "EST", "must_have": true}
+  ]
+}

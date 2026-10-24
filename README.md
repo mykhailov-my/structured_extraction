@@ -2,8 +2,9 @@
 
 Turns messy Djinni texts (job postings and candidate CVs) into JSON that matches a schema, and
 measures which model, prompt and sampling settings should do it in production. It compares a
-cheap hosted model on [OpenRouter](https://openrouter.ai) with a local one on
-[Ollama](https://ollama.com), scored on a hand-labelled golden set.
+24B hosted model with a 9B open-weight one small enough for a laptop, both through
+[OpenRouter](https://openrouter.ai) (the 9B one can run on [Ollama](https://ollama.com)
+instead), scored on a golden set of 30 labelled Python postings.
 
 This is Homework 1 of the AI Engineering course ("Structured Extraction Service") and the first
 part of the course project. A crawler that fills `data/` comes next, then RAG and an agent on
@@ -11,15 +12,16 @@ top of the extracted data.
 
 ## Quick start
 
-You need [uv](https://docs.astral.sh/uv/) (it installs Python 3.12 itself), an OpenRouter API
-key, and Ollama for the local model.
+You need [uv](https://docs.astral.sh/uv/) (it installs Python 3.12 itself) and an OpenRouter
+API key. Ollama is needed only to run the open model on your own machine (`qwen-local`).
 
 ```bash
 make setup     # install dependencies, create .env from .env.example; put the key in .env
-make models    # ollama pull qwen3.5:4b (~3.5 GB)
+make models    # optional, for qwen-local: ollama pull qwen3.5:9b (~6.6 GB)
 make data      # optional: crawl more job postings from djinni.co
 make archive   # optional: every Djinni posting in the Wayback Machine (about a week)
 make postings  # all collected postings in one format: data/postings/<year>.jsonl
+make label     # check the golden labels in a page in your browser
 make run       # every experiment in config.yaml, then the metrics
 ```
 
@@ -32,8 +34,10 @@ make run       # every experiment in config.yaml, then the metrics
 | `python main.py eval` | Re-scores stored results without calling a model. |
 | `python main.py extract FILE` | Extracts one file and prints the JSON, for trying out a prompt. |
 | `python main.py check` | Counts texts and golden labels and validates the labels. |
+| `python main.py label` | Opens a page in your browser for checking the golden labels: a posting beside a form holding its label from `data/golden/job/`. Saving marks the posting verified, and the page then shows where your label differs from Claude's ([data/golden/README.md](data/golden/README.md)). |
 | `python main.py crawl-jobs` | Collects public job postings from djinni.co (see [Collecting data](#collecting-data)). |
 | `python main.py crawl-archive` | Fetches every posting's page from the Wayback Machine into a cache (see [Every posting](#every-posting-the-wayback-machine)). |
+| `python main.py crawl-djinni` | Fetches every posting in a range of job ids from djinni.co into a cache (see [2025–2026](#20252026-straight-from-djinnico)). |
 | `python main.py build-postings` | Writes every collected posting, live and archived, in one format to `data/postings/<year>.jsonl`. |
 | `make test`, `make lint` | Offline unit tests; ruff. |
 
@@ -52,14 +56,25 @@ text ─► prompt vN: system (rules + JSON schema) + user (the text)
         failed
 ```
 
-- **Schemas** (`src/extraction/schemas.py`): `JobPosting` (11 fields) and `CandidateProfile` (10)
-  have enums (seniority, CEFR English level, work format, company type, currency), a nested
-  `Salary` and lists of skills, locations and domains. Both share one vocabulary so jobs and
-  candidates can be matched later. Names, contacts, links and employer names are not extracted.
+- **Schemas** (`src/extraction/schemas.py`): `JobPosting` has 16 fields and follows what Djinni
+  records. Company type, domain, employment, work formats, where candidates may be (Ukraine,
+  Europe and Ukraine, the EU, worldwide, or listed countries) and language levels are enums
+  of Djinni's own values. They come from its job filters and the fact lines of 1,051 postings.
+  Salary is a nested object. The requirements are five lists: hard skills, soft skills,
+  languages, domain experience and legal conditions such as a time zone or military
+  registration. A skill has a level, from basic through junior, middle and senior to expert,
+  and the years when the posting gives them. Hard skills take one of 88 ids in 16 areas
+  (`src/extraction/skills.py`), built from Djinni's skill tags. Technologies keep their own
+  id; practices share one, so REST, OpenAPI and API integration are all `rest_api`. Anything
+  else is `other` plus its name. `CandidateProfile` (10 fields) shares the vocabulary, so jobs
+  and candidates can be matched later. Names, contacts, links and employer names are not
+  extracted.
 - **One interface, two providers** (`src/extraction/providers/`). `OpenRouterProvider` uses the
   OpenAI-compatible API with `response_format: json_schema` in strict mode, and is routed only to
   upstreams that support it. `OllamaProvider` passes the schema as `format`, which makes decoding
-  follow it. The pipeline only sees `Provider.complete()`.
+  follow it. The pipeline only sees `Provider.complete()`. The experiment runs both models on
+  OpenRouter; `qwen-local` in `config.yaml` runs the same 9B weights on Ollama with no code
+  change.
 - **The schema sent to models is portable.** `$ref`s are inlined and constraints such as
   `exclusiveMinimum` are removed, because strict modes reject them. Pydantic still checks them on
   the answer, and a violation goes down the repair path.
@@ -90,7 +105,7 @@ for error analysis.
 | Valid | Share of documents with a schema-valid answer, first try or after the repair call. |
 | 1st pass | Valid without the repair call. |
 | Failed, Errors | Still invalid after the repair; the provider kept failing, so there was no answer. |
-| Accuracy | Mean over fields of the per-field score on golden documents. Enums and numbers need an exact match, and null = null counts as correct. Free text uses word-level F1. Lists use F1 over normalised items (`Node.js` = `nodejs`). Nested objects are scored per leaf (`salary.max_amount`). A failed document scores 0 on every field; provider errors are left out and counted under Errors. |
+| Accuracy | Mean over fields of the per-field score on golden documents. Enums and numbers need an exact match, and null = null counts as correct. Free text uses word-level F1. Lists use F1 over normalised items (`Node.js` = `nodejs`). Nested objects are scored per leaf (`salary.max_amount`). The requirement lists are paired by id (`python` with `python`; two `other` items by their own words): `hard_skills` is the F1 of the ids, and `hard_skills.level`, `.years` and `.must_have` are scored on the pairs. Free text inside a requirement (`name`, `detail`) isn't scored. A failed document scores 0 on every field; provider errors are left out and counted under Errors. |
 | p50, p95 | Seconds per document for the whole extraction, including the repair call and retry waits. The local model is loaded before the first document, so loading isn't counted. |
 | $ / 1k docs | Mean cost per document × 1000, as billed by OpenRouter (`usage.cost`); 0 for the local model. |
 
@@ -186,11 +201,32 @@ python main.py build-postings   # all of them in one format, data/postings/<year
 `data/archive/` holds the earlier 50-a-year sample of Python postings, in the layout `crawl-jobs`
 uses; `data/postings/` has all of them too.
 
+### 2025–2026 straight from djinni.co
+
+Djinni keeps closed postings online too, and any posting loads by its job id: `/jobs/<id>-x/`
+redirects to it. Job ids grow in order, so a range of ids is every posting of a stretch of
+time; 2025 starts at about 700,000, and the newest is about 855,000 (October 2026), about
+150,000 postings in all.
+
+```bash
+python main.py crawl-djinni --ids 700000-   # 2025 up to the newest posting, into .cache/djinni/
+```
+
+Djinni answers in about 0.4 s, but it blocks IPs that ask too fast, and the block also covers
+browsing Djinni from that network. 8 workers at 0.5 s each were blocked within about 10
+seconds on 23 October 2026. The crawler stops at the first HTTP 403, block page or lasting 429;
+the defaults, one worker at 3 s, make 2025–2026 about five days. `build-postings` reads
+`.cache/djinni/` too. Djinni's own page wins over an archived copy, and keeps the copy's date
+when the page, closed by now, shows none.
+
 ## Data and prompts
 
-- `data/texts/<doc_type>/<doc_id>.txt` holds the raw texts and
-  `data/golden/<doc_type>/<doc_id>.json` the hand labels; the rules are in
-  [data/README.md](data/README.md). The `synthetic-*` files only show the format.
+- `data/texts/job/` holds the 30 texts of the experiment, Djinni Python postings from
+  2025–2026, and `data/golden/job/<doc_id>.json` their labels. Claude wrote them, and a
+  person checks each one in `make label`, which records it in `data/golden/verified.txt`. The
+  rules and notes on the hard cases: [data/golden/README.md](data/golden/README.md). The rest
+  of `data/`:
+  [data/README.md](data/README.md).
 - `prompts/<doc_type>/<version>.yaml` are the prompt versions (system, user and repair
   templates). Every change is logged in [prompts/CHANGELOG.md](prompts/CHANGELOG.md).
 
@@ -205,6 +241,7 @@ src/extraction/
   pipeline.py        one document: call, validate, repair once, retries
   runner.py          the experiment matrix and reuse of stored results
   evaluate.py        metrics and reports
+  labelling.py       the labelling page (labelling.html) and its local server
   collect/           Djinni crawlers (live site, Wayback Machine), the one posting format
   cli.py             commands
 prompts/             versioned prompts and CHANGELOG.md
@@ -219,9 +256,12 @@ REPORT.md            the comparison report
 - [x] Boilerplate: schemas, both providers, validation with one repair, metrics
 - [x] Crawler for Djinni job postings (CVs: no source that may be used)
 - [x] Archive crawler: Python postings 2019–2026, for how requirements changed
-- [ ] Every posting in the archive, in one format (crawl running)
-- [ ] An LLM grades each requirement: hard skill, soft skill, legal or residence; depth 0–100
-- [x] 30+ texts
-- [ ] 10+ golden labels
-- [ ] Steps 1–2 (baseline and measurements): checkpoint 24.10
+- [ ] Every posting in the archive, in one format (archive crawl paused; 2025–2026 Python
+  postings fetched from djinni.co)
+- [x] Schema v2: Djinni's own enums; requirements by kind, each skill with a level and its years
+- [x] 30 texts: Python postings, 2025–2026
+- [x] Golden labels: all 30, written by Claude (10 is the homework's minimum)
+- [ ] The labels checked by hand in `make label`: 0 of 30
+- [x] Steps 1–2 (baseline and measurements): checkpoint 24.10; accuracy is against Claude's
+  labels until they're checked
 - [ ] Prompt v2 and REPORT.md: deadline 27.10

@@ -1,0 +1,33 @@
+{
+  "title": "Middle/Middle Strong Python Developer (Fintech platform)",
+  "seniority": "middle",
+  "company_type": "outstaff",
+  "domain": "fintech",
+  "employment": "full_time",
+  "work_formats": ["office", "remote"],
+  "candidate_location": "ukraine",
+  "candidate_countries": [],
+  "office_cities": ["Lviv"],
+  "min_experience_years": 3.0,
+  "salary": {"min_amount": 2500, "max_amount": 4000, "currency": "USD", "period": "month"},
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "middle", "years": 3.0, "must_have": true},
+    {"skill": "celery", "name": "Celery", "level": "senior", "years": null, "must_have": true},
+    {"skill": "rabbitmq", "name": "RabbitMQ", "level": "senior", "years": null, "must_have": true},
+    {"skill": "elasticsearch", "name": "ElasticSearch", "level": "senior", "years": null, "must_have": true},
+    {"skill": "redis", "name": "Redis", "level": "senior", "years": null, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "middle", "years": null, "must_have": true},
+    {"skill": "drf", "name": "Django REST framework", "level": "middle", "years": null, "must_have": true},
+    {"skill": "other", "name": "CRM/CDP solutions", "level": "junior", "years": null, "must_have": false},
+    {"skill": "ci_cd", "name": "CI/CD pipelines", "level": "middle", "years": null, "must_have": false},
+    {"skill": "docker", "name": "Docker, Docker Compose", "level": "middle", "years": null, "must_have": false},
+    {"skill": "kubernetes", "name": "Kubernetes, Helm charts", "level": "middle", "years": null, "must_have": false},
+    {"skill": "aws", "name": "AWS", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [],
+  "domain_experience": [],
+  "legal": []
+}

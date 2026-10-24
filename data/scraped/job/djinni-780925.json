@@ -1,0 +1,39 @@
+{
+  "doc_id": "djinni-780925",
+  "job_id": 780925,
+  "url": "https://djinni.co/jobs/780925-lead-python-aws-cloud-engineer-irc280820/",
+  "source": "djinni.co",
+  "snapshot": null,
+  "captured_at": "2026-10-24T06:12:59",
+  "posted": null,
+  "date": "2025-11-04",
+  "year": 2025,
+  "active": false,
+  "layout": "v4",
+  "title": "Lead Python AWS Cloud Engineer IRC280820",
+  "category": "Python",
+  "company": "GlobalLogic",
+  "salary": "",
+  "skills": [
+    "Python",
+    "AWS",
+    "AWS S3",
+    "Web services",
+    "Terraform"
+  ],
+  "languages": [
+    "Англійська: B2 – Вище середнього"
+  ],
+  "facts": [
+    "Виключно від 7 років досвіду",
+    "Тільки віддалено",
+    "Україна",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська B2 – Вище середнього",
+    "Python",
+    "Зайнятість: Fulltime",
+    "Домен: Healthcare / MedTech",
+    "Сервісна компанія"
+  ],
+  "description": "The Digital Health organization is technology team which focused on next generation Digital Health capabilities which deliver on the Medicine mission and vision to deliver Insight Driven Care.\nThis role will operate within the Digital Health Applications & Interoperability subgroup of the broader Digital Health team, focused on patient engagement, care coordination, AI, healthcare analytics & interoperability amongst other advanced technologies which enhance our product portfolio with new services, while improving clinical & patient experiences.\nAs part of the GlobalLogic team, you will grow, be challenged, and expand your skill set working alongside highly experienced and talented people.\nIf this sounds like an exciting opportunity for you, send over your CV!\nRequirements\n- Bachelor’s degree with 7+ years of experience with a bachelor’s degree\n- OR Master’s degree with a minimum of 5 years relevant experience\n- OR PhD with 3 years relevant experience\n- Strong product mindset: Effective at timeline estimation, stakeholder management, and product prioritization\n- AWS Platform: Working experience with AWS services – in particular serverless architectures (S3, RDS, Lamba, IAM, API Gateway, etc…) supporting API development in a microservices architecture\n- Programming Languages: Strong programming skills in Python\n- Tools and Frameworks: Prior experience with Terraform, Databases (Relational and NoSQL), and Django framework\n- Data Formats: Experience with JSON, Protobuf, Avro, XML or other schema based data formats\n- CI/CD Tools: experience setting up and managing CI/CD pipelines using GitLab CI, Jenkins, or similar tools\n- Scripting and automation: experience in scripting language such as Python, PowerShell, etc…\n- Monitoring and Logging: Familiarity with monitoring & logging tools like CloudWatch, ELK, Dynatrace, Prometheus, etc…\n- Source Code Management: Expertise with git commands and associated VCS (Gitlab, Github, Gitea or similar) Documentation: Experience documentation as code for creating technical documentation\nNICE TO HAVE\nPrevious Healthcare or Medical Device experience\nWorking knowledge and experience implementation healthcare data exchange solutions with FHIR and HL7v2 standards\nFamiliarity with FastAPI\nBuilding software classified as Software as a Medical Device (SaMD)\nUnderstanding of EHR technologies such as EPIC, Cerner, etc…\nExperience implementation enterprise grade cyber security & privacy by design into software products\nStrong understanding of SDLC – Waterfall & Agile methodologies\nExperience leading software development teams onshore and offshore\nJob responsibilities\n- Supports development and execution of the organization’s cloud strategy from a technical perspective, including design, planning, integration, maintenance and support of cloud architecture.\n- Works with stakeholders across the organization to evaluate cloud systems and identify appropriate solutions.\n- Responsible for complete end to end project management for the assigned project(s) which includes project planning, delivery, client interaction, trouble shooting and implementation support.\n- Drives the application of principles, theories and concepts based on the Cloud Stack and determines the best course of action.\n- Assesses opportunities for application and process improvement and prepares documentation to share with team members and other affected parties.\n- Requires sound technical knowledge combined with reasonable understanding of business issues."
+}

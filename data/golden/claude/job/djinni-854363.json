@@ -1,0 +1,32 @@
+{
+  "title": "AI Automation Engineer",
+  "seniority": null,
+  "company_type": "mixed",
+  "domain": "other",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 3.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": false}
+  ],
+  "hard_skills": [
+    {"skill": "other", "name": "n8n, Make, Zapier or similar automation platforms", "level": "middle", "years": null, "must_have": true},
+    {"skill": "javascript", "name": "JavaScript", "level": "junior", "years": null, "must_have": true},
+    {"skill": "python", "name": "Python", "level": "junior", "years": null, "must_have": true},
+    {"skill": "rest_api", "name": "REST APIs, webhooks, third-party system integrations", "level": "senior", "years": null, "must_have": true},
+    {"skill": "security", "name": "OAuth", "level": "senior", "years": null, "must_have": true},
+    {"skill": "llm", "name": "OpenAI, Claude or similar LLM APIs", "level": "middle", "years": null, "must_have": true},
+    {"skill": "observability", "name": "error handling, retries, logging, monitoring, human approval steps", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "HubSpot, Salesforce, Airtable, Google Workspace, Microsoft 365", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "Voice or SMS automation: Twilio, GoHighLevel", "level": "junior", "years": null, "must_have": false},
+    {"skill": "docker", "name": "Docker (self-hosting n8n)", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "Workflow documentation, automations client teams can maintain", "level": "basic", "years": null, "must_have": false}
+  ],
+  "soft_skills": [],
+  "domain_experience": [],
+  "legal": []
+}

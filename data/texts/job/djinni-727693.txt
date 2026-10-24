@@ -1,0 +1,50 @@
+Senior Python Developer
+Stasypassion
+до $3500
+
+Vacancy: Senior Python Developer
+Position Overview
+The company is developing a high-load cybersecurity platform focused on protecting confidential data and business documentation.
+We are looking for an experienced Python developer to contribute to the development of scalable solutions and the integration of modern technologies.
+Key Responsibilities:
+- Develop and maintain backend architecture using Python (FastAPI/Flask)
+- Design and optimize databases (PostgreSQL, MongoDB, Neo4j)
+- Implement and configure caching solutions (Redis) to enhance performance
+- Integrate and work with AWS services (Lambda, RDS, Boto3)
+- Develop and maintain APIs while collaborating with the frontend team
+- Work within an international team of cybersecurity experts
+Required Skills & Competencies:
+- 5 years of commercial experience in Python development
+- Proficiency in FastAPI or Flask
+- Strong knowledge of relational and NoSQL databases (PostgreSQL, MongoDB, Neo4j)
+- Experience working with AWS (Lambda, RDS, Boto3)
+- Experience with caching mechanisms using Redis
+- Understanding of CI/CD principles and containerization (Docker, Kubernetes)
+- English – Intermediate or higher (for team communication)
+Nice to Have:
+- Experience with high-load distributed systems
+- Knowledge of GraphQL, WebSockets
+- Experience designing complex system architectures
+Benefits & Perks:
+- Remote work – flexible schedule with no office restrictions
+- Global team – collaboration with international experts
+- Cutting-edge technologies – work with the latest tools and frameworks
+- Bonuses – training, professional courses, corporate events
+- Paid leave – 20 days of paid vacation, 10 sick days
+📩 If you're interested in this position, send your resume, and let's arrange an interview!
+
+Вимоги до володіння мовами
+Англійська: B1 – Середній
+Українська: Носій мови
+
+Виключно від 5 років досвіду
+$2500-3500
+Тільки віддалено
+Країни Європи та Україна
+Країни, де розглядаємо кандидатів
+Англійська B1 – Середній
+Українська Носій мови
+Python
+Зайнятість: Fulltime
+Домен: SaaS
+Продуктова компанія

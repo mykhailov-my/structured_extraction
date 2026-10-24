@@ -1,9 +1,11 @@
 """Every collected posting in one format: data/postings/<year>.jsonl, one `Posting` a line.
 
-`build_postings` reads the Wayback Machine's pages from the crawl cache (see djinni_archive)
-and the postings crawled from djinni.co (data/scraped/job/). A posting found in both is kept
-once, from djinni.co. The files are rebuilt whole each time, so a parser fix reaches every
-posting without downloading anything again.
+`build_postings` reads the pages in the crawl caches, the Wayback Machine's (see
+djinni_archive) and djinni.co's (see djinni_ids), and the postings `crawl-jobs` collected
+(data/scraped/job/). A posting found in several is kept once, from djinni.co when it is there,
+and keeps the date its archived copy showed when Djinni's page, closed by now, shows none. The
+files are rebuilt whole each time, so a parser fix reaches every posting without downloading
+anything again.
 
 Dates: `posted` is the date a page shows, when it shows one; closed postings and the pages
 from May 2024 to early 2025 show none. Djinni hands out job ids in order, so `date` is
@@ -12,7 +14,6 @@ than every dated one stays undated.
 """
 
 import bisect
-import gzip
 import json
 import logging
 import statistics
@@ -25,18 +26,29 @@ from pathlib import Path
 
 from extraction.collect import ParseError, Posting, scrubbed, write_file
 from extraction.collect.djinni_archive import Capture, captures, parse_snapshot
+from extraction.collect.pagecache import read_page
 
 log = logging.getLogger(__name__)
 
 _NEIGHBOURS = 50  # dated postings on each side whose median dates an undated one
+ARCHIVE, DJINNI = "web.archive.org", "djinni.co"
 
 
-def build_postings(cache_dir: Path, scraped_dir: Path, out_dir: Path) -> Counter[int | None]:
+def build_postings(
+    archive_dir: Path, djinni_dir: Path, scraped_dir: Path, out_dir: Path
+) -> Counter[int | None]:
     """Write every posting to `out_dir`/<year>.jsonl (undated.jsonl for the rest); returns how
     many each year has."""
-    by_job = _archived(cache_dir)
-    for path in sorted(scraped_dir.glob("djinni-*.json")):
-        posting = Posting.from_json(json.loads(path.read_text(encoding="utf-8")))
+    live = [
+        Posting.from_json(json.loads(path.read_text(encoding="utf-8")))
+        for path in sorted(scraped_dir.glob("djinni-*.json"))
+    ]
+    by_job: dict[int, Posting] = {}
+    # The more trusted source last: an archived copy, then Djinni's page, then the feed crawl.
+    for posting in [*_cached(archive_dir, ARCHIVE), *_cached(djinni_dir, DJINNI), *live]:
+        earlier = by_job.get(posting.job_id)
+        if earlier is not None and earlier.posted and not posting.posted:
+            posting = replace(posting, posted=earlier.posted)
         by_job[posting.job_id] = posting
     years: dict[int | None, list[Posting]] = defaultdict(list)
     for posting in dated(by_job.values()):
@@ -65,17 +77,17 @@ def dated(postings: Iterable[Posting]) -> list[Posting]:
     return result
 
 
-def _archived(cache_dir: Path) -> dict[int, Posting]:
-    """A posting from each cached page, parsed in parallel; the oldest capture of a posting
-    when there are several."""
+def _cached(cache_dir: Path, source: str) -> list[Posting]:
+    """A posting from each page in a crawl cache, parsed in parallel; the oldest capture of a
+    posting when there are several."""
     lines = [
         line
-        for path in sorted(cache_dir.glob("*-*.txt"))  # the index answers: all-2021.txt, ...
+        for path in sorted(cache_dir.glob("*.txt"))  # "timestamp url": all-2021.txt, index.txt
         for line in path.read_text(encoding="utf-8").splitlines()
     ]
     known = {capture.key: capture for group in captures(lines).values() for capture in group}
     pages = sorted((cache_dir / "pages").glob("*.html.gz"))
-    tasks = [(path, known[key]) for path in pages if (key := path.name[:-8]) in known]
+    tasks = [(path, known[key], source) for path in pages if (key := path.name[:-8]) in known]
     if len(tasks) < len(pages):
         log.warning("%d cached pages aren't in the index; skipped", len(pages) - len(tasks))
     found: dict[int, Posting] = {}
@@ -90,13 +102,13 @@ def _archived(cache_dir: Path) -> dict[int, Posting]:
                 found[result.job_id] = result
     for reason, count in failures.most_common():
         log.warning("%d pages unreadable: %s", count, reason)
-    return found
+    return list(found.values())
 
 
-def _read_page(task: tuple[Path, Capture]) -> Posting | str:
+def _read_page(task: tuple[Path, Capture, str]) -> Posting | str:
     """The posting on a cached page, or why there is none."""
-    path, capture = task
-    html = gzip.decompress(path.read_bytes()).decode("utf-8")
+    path, capture, source = task
+    html = read_page(path)
     try:
         snapshot = parse_snapshot(html, capture.captured_at.date())
     except ParseError as e:
@@ -105,8 +117,8 @@ def _read_page(task: tuple[Path, Capture]) -> Posting | str:
     return Posting(
         job_id=capture.job_id,
         url=capture.url,
-        source="web.archive.org",
-        snapshot=capture.snapshot,
+        source=source,
+        snapshot=capture.snapshot if source == ARCHIVE else None,
         captured_at=capture.captured_at.isoformat(),
         posted=posted,
         date=None,

@@ -1,0 +1,38 @@
+Python Web Crawling Specialist
+Meta Sistem
+
+About us
+XPLN has been on the market for over 7 years, focusing on data crawling, collection, and analysis for our clients. We are looking for a skilled Python developer with strong expertise in web crawling and data scraping to join our team.
+Key Responsibilities
+- Develop and maintain web scraping solutions using Scrapy, Selenium, and Playwright
+- Handle various bot protections (e.g., Cloudflare) and implement advanced bypass techniques
+- Work with MongoDB and PostgreSQL to store and manage large data sets
+- Integrate services using FastAPI and Kafka for data processing and communication
+- Monitor and troubleshoot issues using the ELK stack
+- Optimize scraping workflows for scalability and performance
+Requirements
+- 3+ years of commercial web crawling experience
+- Strong Python skills and understanding of asynchronous/concurrent programming
+- Hands-on experience with proxy management, headless browsers, and automation frameworks
+- Familiarity with Linux environments, Git, and containerization tools (e.g., Docker)
+- Proven ability to handle website restrictions, CAPTCHAs, or other anti-bot measures
+- Good communication and teamwork skills
+- Good spoken English
+
+Необхідні навички
+Python, Git, Docker, PostgreSQL, Django, Selenium, Scrapy, Web Scraping
+Вимоги до володіння мовами
+Англійська: B2 – Вище середнього
+
+від 3 років досвіду
+Також розглядаємо з досвідом 2 роки
+Тільки офіс
+Молдова
+Країни, де розглядаємо кандидатів
+Англійська B2 – Вище середнього
+Python
+Зайнятість: Fulltime
+Домен: Fintech
+Продуктова компанія
+Офіс:
+Молдова

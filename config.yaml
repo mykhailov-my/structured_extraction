@@ -4,7 +4,7 @@
 
 experiment:
   doc_types: [job]                 # folders under data/texts/; cv waits for a source of CVs
-  models: [mistral-small, qwen-local]
+  models: [mistral-small, qwen-9b]
   prompts: [v1]                    # prompts/<doc_type>/<version>.yaml
   sampling: [greedy, nucleus]
 
@@ -13,7 +13,7 @@ models:
   # https://openrouter.ai/models works if it supports structured outputs.
   mistral-small:
     provider: openrouter
-    model: mistralai/mistral-small-3.2-24b-instruct  # ~$0.09 in / $0.25 out per 1M tokens
+    model: mistralai/mistral-small-3.2-24b-instruct  # $0.075 in / $0.20 out per 1M tokens
     timeout_s: 60
   # Other cheap ones with structured outputs, temperature and top_p (per 1M tokens, Oct 2026):
   #   google/gemma-3-12b-it          $0.05 / $0.15
@@ -21,10 +21,19 @@ models:
   #   mistralai/mistral-nemo         $0.03 / $0.03
   # More OpenRouter request fields go under `extra_body`, e.g. {provider: {sort: latency}}.
 
-  # Local, through Ollama: `make models` pulls it (~3.5 GB).
+  # The open-weight model, small enough for a 16 GB laptop, run through OpenRouter as well:
+  # the same weights as `qwen-local` without installing Ollama.
+  qwen-9b:
+    provider: openrouter
+    model: qwen/qwen3.5-9b         # $0.17 in / $0.25 out per 1M tokens
+    timeout_s: 120
+    extra_body:
+      reasoning: {enabled: false}  # qwen3.5 reasons by default; extraction doesn't need it
+
+  # The same model on this machine, through Ollama: `make models` pulls it (~6.6 GB).
   qwen-local:
     provider: ollama
-    model: qwen3.5:4b
+    model: qwen3.5:9b
     timeout_s: 300                 # a laptop can be slow on long texts
     num_ctx: 8192                  # Ollama's default window is too small for schema + text
     think: false                   # qwen3.5 reasons by default; extraction doesn't need it

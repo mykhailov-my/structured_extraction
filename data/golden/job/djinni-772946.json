@@ -1,0 +1,40 @@
+{
+  "title": "Senior Python Developer (AdTech)",
+  "seniority": "senior",
+  "company_type": "outsource",
+  "domain": "advertising",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 5.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python and its ecosystem", "level": "senior", "years": 5.0, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "junior", "years": null, "must_have": true},
+    {"skill": "flask", "name": "Flask", "level": "junior", "years": null, "must_have": true},
+    {"skill": "fastapi", "name": "FastAPI", "level": "junior", "years": null, "must_have": true},
+    {"skill": "sql", "name": "SQL databases", "level": "junior", "years": null, "must_have": true},
+    {"skill": "nosql", "name": "NoSQL", "level": "junior", "years": null, "must_have": true},
+    {"skill": "database_design", "name": "data modeling", "level": "junior", "years": null, "must_have": true},
+    {"skill": "aws", "name": "AWS (EC2, S3, Lambda, RDS), cloud-native development", "level": "junior", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "middle", "years": null, "must_have": true},
+    {"skill": "kubernetes", "name": "Kubernetes", "level": "junior", "years": null, "must_have": true},
+    {"skill": "ci_cd", "name": "CI/CD pipelines", "level": "basic", "years": null, "must_have": true},
+    {"skill": "git", "name": "Git", "level": "basic", "years": null, "must_have": true},
+    {"skill": "testing", "name": "automated testing", "level": "basic", "years": null, "must_have": true}
+  ],
+  "soft_skills": [
+    {"skill": "problem_solving", "name": "Strong problem-solving skills", "level": "senior", "must_have": true},
+    {"skill": "attention_to_detail", "name": "Attention to detail", "level": "middle", "must_have": true},
+    {"skill": "ownership", "name": "Ability to work independently", "level": "middle", "must_have": true},
+    {"skill": "communication", "name": "Excellent communication", "level": "senior", "must_have": true},
+    {"skill": "teamwork", "name": "Excellent collaboration skills", "level": "senior", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": []
+}

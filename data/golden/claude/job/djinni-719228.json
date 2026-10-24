@@ -1,0 +1,43 @@
+{
+  "title": "Senior Python Engineer",
+  "seniority": "senior",
+  "company_type": "outstaff",
+  "domain": "advertising",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 6.0,
+  "salary": {"min_amount": 6000, "max_amount": 7000, "currency": "USD", "period": "month"},
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "senior", "years": 6.0, "must_have": true},
+    {"skill": "fastapi", "name": "FastAPI", "level": "junior", "years": null, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "junior", "years": null, "must_have": true},
+    {"skill": "flask", "name": "Flask", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "CherryPy", "level": "junior", "years": null, "must_have": true},
+    {"skill": "grpc", "name": "gRPC", "level": "junior", "years": null, "must_have": true},
+    {"skill": "message_queues", "name": "message queues, message brokers", "level": "junior", "years": null, "must_have": true},
+    {"skill": "sql", "name": "relational databases, plain queries", "level": "junior", "years": null, "must_have": true},
+    {"skill": "nosql", "name": "non-relational databases", "level": "junior", "years": null, "must_have": true},
+    {"skill": "redis", "name": "Redis", "level": "junior", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "junior", "years": null, "must_have": true},
+    {"skill": "aws", "name": "AWS (EC2, S3, RDS, Lambda)", "level": "junior", "years": null, "must_have": true},
+    {"skill": "gcp", "name": "GCP", "level": "junior", "years": null, "must_have": true},
+    {"skill": "orm", "name": "ORM", "level": "junior", "years": null, "must_have": true},
+    {"skill": "software_architecture", "name": "microservices architecture, scalable systems", "level": "junior", "years": null, "must_have": true},
+    {"skill": "rabbitmq", "name": "RabbitMQ", "level": "basic", "years": null, "must_have": true},
+    {"skill": "kafka", "name": "Kafka", "level": "basic", "years": null, "must_have": true},
+    {"skill": "observability", "name": "OpenTelemetry, DataDog", "level": "junior", "years": null, "must_have": false},
+    {"skill": "elasticsearch", "name": "OpenSearch", "level": "junior", "years": null, "must_have": false},
+    {"skill": "pytest", "name": "PyTest", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "adaptability", "name": "Fast-paced startup environment", "level": "senior", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": []
+}

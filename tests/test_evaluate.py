@@ -2,23 +2,52 @@ from datetime import UTC, datetime
 
 import pytest
 
-from extraction.evaluate import leaf_fields, percentile, score, score_run
+from extraction.evaluate import (
+    leaf_fields,
+    match_records,
+    percentile,
+    score,
+    score_document,
+    score_run,
+)
 from extraction.pipeline import Attempt
 from extraction.results import ExtractionResult
 from extraction.schemas import JobPosting
+
+
+def skill(skill, name=None, level="middle", years=None, must_have=True):
+    return {
+        "skill": skill,
+        "name": name or skill,
+        "level": level,
+        "years": years,
+        "must_have": must_have,
+    }
+
 
 LABEL = {
     "title": "Python Developer",
     "seniority": "middle",
     "company_type": None,
     "domain": "fintech",
+    "employment": "full_time",
     "work_formats": ["remote"],
-    "locations": ["Kyiv"],
+    "candidate_location": "ukraine",
+    "candidate_countries": [],
+    "office_cities": ["Kyiv"],
     "min_experience_years": 3.0,
-    "english_level": "b1",
     "salary": {"min_amount": 3000, "max_amount": None, "currency": "USD", "period": "month"},
-    "must_have_skills": ["Python", "Django"],
-    "nice_to_have_skills": [],
+    "languages": [{"language": "english", "level": "b1", "must_have": True}],
+    "hard_skills": [
+        skill("python", "Python", years=3.0),
+        skill("django", "Django", level="junior"),
+        skill("other", "Telegram bots"),
+    ],
+    "soft_skills": [
+        {"skill": "communication", "name": "Communication", "level": "middle", "must_have": True}
+    ],
+    "domain_experience": [{"domain": "fintech", "years": 1.0, "must_have": False}],
+    "legal": [{"condition": "military_registration", "detail": None, "must_have": True}],
 }
 
 
@@ -59,8 +88,66 @@ def test_leaf_fields_flatten_nested_models():
     kinds = dict(leaf_fields(JobPosting))
     assert kinds["salary.max_amount"] == "exact"
     assert kinds["title"] == "text"
-    assert kinds["must_have_skills"] == "list"
+    assert kinds["work_formats"] == "list"
     assert "salary" not in kinds
+
+
+def test_a_list_of_objects_is_scored_by_id_then_on_the_pairs():
+    kinds = dict(leaf_fields(JobPosting))
+    assert kinds["hard_skills"] == "records"
+    assert (kinds["hard_skills.level"], kinds["hard_skills.years"]) == ("exact", "exact")
+    assert "hard_skills.skill" not in kinds  # what the pairs are made by
+    assert "hard_skills.name" not in kinds  # free text only names the skill
+    assert kinds["legal.must_have"] == "exact" and "legal.detail" not in kinds
+
+
+def test_records_pair_by_id_and_other_records_by_their_words():
+    expected = [skill("python"), skill("other", "Telegram bots"), skill("other", "Svelte")]
+    predicted = [
+        skill("other", "Telegram bots API"),
+        skill("python", "Python 3"),
+        skill("other", "Vue"),
+    ]
+    pairs = match_records(expected, predicted)
+    assert [(want["name"], got["name"]) for want, got in pairs] == [
+        ("python", "Python 3"),
+        ("Telegram bots", "Telegram bots API"),
+    ]
+    # An `other` named after a listed skill is a miss: the answer should have used the id.
+    assert match_records([skill("python")], [skill("other", "Python")]) == []
+
+
+def test_score_document_scores_requirements_and_reports_the_misses():
+    predicted = {
+        **LABEL,
+        "hard_skills": [
+            skill("python", "Python", level="senior", years=3.0),  # a level too high
+            skill("other", "telegram bots"),
+            skill("kubernetes", "K8s"),  # not asked for
+        ],
+    }
+    scores, misses = score_document(leaf_fields(JobPosting), LABEL, predicted)
+    assert scores["hard_skills"] == pytest.approx(2 / 3)  # 2 pairs among 3 skills and 3
+    assert scores["hard_skills.level"] == 0.5
+    assert scores["hard_skills.years"] == 1.0
+    assert scores["languages"] == scores["legal.must_have"] == scores["title"] == 1.0
+    assert sorted(misses, key=lambda miss: miss[0]) == [
+        ("hard_skills", pytest.approx(2 / 3), ["django"], ["kubernetes"]),
+        (
+            "hard_skills.level",
+            0.0,
+            {"name": "python", "level": "middle"},
+            {"name": "python", "level": "senior"},
+        ),
+    ]
+
+
+def test_requirement_fields_go_unscored_when_nothing_pairs():
+    scores, _ = score_document(
+        leaf_fields(JobPosting), LABEL, {**LABEL, "hard_skills": [skill("go")]}
+    )
+    assert scores["hard_skills"] == 0.0
+    assert "hard_skills.level" not in scores
 
 
 def test_null_counts_as_an_answer():

@@ -1,0 +1,48 @@
+{
+  "doc_id": "djinni-764691",
+  "job_id": 764691,
+  "url": "https://djinni.co/jobs/764691-junior-python-software-engineer/",
+  "source": "djinni.co",
+  "snapshot": null,
+  "captured_at": "2026-10-24T06:13:13",
+  "posted": null,
+  "date": "2025-08-29",
+  "year": 2025,
+  "active": false,
+  "layout": "v4",
+  "title": "Junior Python Software Engineer",
+  "category": "Python",
+  "company": "Keymakr",
+  "salary": "до $700",
+  "skills": [
+    "Python",
+    "Linux",
+    "REST API",
+    "Git",
+    "Flask",
+    "Django",
+    "Celery",
+    "Redis",
+    "RabbitMQ",
+    "Docker"
+  ],
+  "languages": [
+    "Англійська: B2 – Вище середнього",
+    "Українська: Носій мови"
+  ],
+  "facts": [
+    "Виключно від 2 років досвіду",
+    "$550-700",
+    "Тільки віддалено",
+    "Країни Європи та Україна",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська B2 – Вище середнього",
+    "Українська Носій мови",
+    "Python",
+    "Зайнятість: Fulltime",
+    "Домен: Machine Learning / Big Data",
+    "Продуктова компанія",
+    "Є тестове завдання"
+  ],
+  "description": "Keymakr is a leading provider of high-quality data annotation services for machine learning and artificial intelligence applications. We specialize in delivering accurate and scalable annotation solutions that empower businesses to develop cutting-edge AI models. Our team is dedicated to excellence, innovation, and customer satisfaction.\nWe are looking for a motivated Junior Python Software Engineer to help build, maintain, and improve internal tools and services. This role offers a great opportunity to grow your technical skills while contributing to real-world projects and automation processes.\nTechnical Skills:\n- 2+ years of experience in Software development\n- 1+ years of practical experience with Python.\n- Knowledge of RESTful API design and implementation.\n- Experience in scripting and automating workflows, including working with APIs for task automation.\n- Understanding of software design principles, particularly SOLID.\n- Basic knowledge of Linux systems and familiarity with the Linux command line.\n- Proficiency with version control systems (e.g., Git, GitHub, Bitbucket).\n- Practical experience with web frameworks like Flask, Django, or FastAPI.\n- Familiarity with Celery, Redis, and RabbitMQ.\n- Hands-on experience with containerization tools like Docker.\n- Skilled in writing unit and integration tests.\n- Knowledge of cloud platforms (e.g., AWS, Azure, GCP)\nProblem-Solving Skills:\n- Strong analytical thinking and problem-solving capabilities.\n- Ability to debug, troubleshoot, and optimize code effectively.\nNice-to-Have Skills:\n- Basic understanding of frontend technologies (HTML, CSS, JavaScript).\n- English at an intermediate level or higher (to read and understand technical documentation).\n- Familiarity with Agile development methodologies.\n- Understanding of CI/CD pipelines and DevOps practices.\nResponsibilities:\n- Developing and maintaining tools and applications for the company’s infrastructure.\n- Designing, supporting, and maintaining internal services.\n- Transforming and storing data in various formats (e.g., JSON, XML, CSV).\n- Automating workflows using APIs.\n- Researching, configuring, and integrating third-party software into company processes.\n- Providing general IT support and troubleshooting."
+}

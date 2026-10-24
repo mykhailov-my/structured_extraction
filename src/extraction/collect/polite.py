@@ -39,6 +39,9 @@ class PoliteClient:
         return self
 
     def __exit__(self, *exc_info: object) -> None:
+        self.close()
+
+    def close(self) -> None:
         self._http.close()
 
     def get(self, url: str) -> httpx.Response:

@@ -1,0 +1,33 @@
+{
+  "title": "Python / Django Developer",
+  "seniority": null,
+  "company_type": "product",
+  "domain": "other",
+  "employment": "part_time",
+  "work_formats": ["remote"],
+  "candidate_location": "worldwide",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 1.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b1", "must_have": true},
+    {"language": "ukrainian", "level": "native", "must_have": true},
+    {"language": "russian", "level": "native", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "middle", "years": null, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "middle", "years": null, "must_have": true},
+    {"skill": "other", "name": "ERP / CRM systems", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "Object storage, MinIO", "level": "junior", "years": null, "must_have": true},
+    {"skill": "linux", "name": "Linux server environment", "level": "basic", "years": null, "must_have": true},
+    {"skill": "networking", "name": "Domains and basic server infrastructure", "level": "junior", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "junior", "years": null, "must_have": true},
+    {"skill": "ci_cd", "name": "CI/CD (autodeploy)", "level": "basic", "years": null, "must_have": true},
+    {"skill": "other", "name": "File systems, file managers", "level": "junior", "years": null, "must_have": false},
+    {"skill": "software_architecture", "name": "scalable backend architectures", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [],
+  "domain_experience": [],
+  "legal": []
+}

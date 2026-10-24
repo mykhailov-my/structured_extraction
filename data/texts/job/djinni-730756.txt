@@ -1,0 +1,59 @@
+Middle/Middle Strong Python Developer (Fintech platform)
+Newsoft
+до $4000
+
+We are looking for a Middle/Middle Strong Python Developer to join our team and contribute to the development of an advanced fintech platform. This platform empowers brokers and financial institutions by providing a comprehensive, scalable solution for managing financial services.
+Requirements:
+- 3+ years of hands-on experience in Python development, working on complex and scalable applications.
+- Proven experience in developing and maintaining large-scale projects in a production environment.
+- Strong knowledge of Celery, RabbitMQ, ElasticSearch, and Redis for building efficient and high-performance applications.
+- Proficiency in Django and Django REST framework.
+- Upper-intermediate or higher English proficiency, enabling effective communication within an international team.
+Nice-to-Have Skills:
+- Experience in developing CRM/CDP solutions.
+- Proficiency in CI/CD pipelines.
+- Hands-on experience with Docker, Docker Compose, Kubernetes, and Helm charts.
+- Experience working with AWS.
+Responsibilities:
+- Development of reusable, testable, and efficient code.
+- Design and implementation of performant and easy-to-use APIs used by both internal and external clients.
+- Implementation of security and data protection standards in collaboration with our.
+- security team.
+- Knowledge and experience sharing with other teams within TradeCore, especially Python developers.
+Interview stages:
+- HR interview (30 minutes).
+- Technical interview (1 hour).
+- Interview with the customer (1 hour).
+- Job offer🎉🎉🎉
+We offer:
+- Competitive salary.
+- Challenging tasks and projects.
+- Opportunities for professional development and growth.
+- Flexible working hours.
+- New hardware.
+- Free English lessons.
+- Table tennis and yoga classes.
+- Availability of generators and Starlinks in the office.
+- Small gym in the office.
+- Adjustable height tables.
+- Regular office fruit delivery and other benefits.
+Let’s create value together!
+
+Необхідні навички
+Django
+Вимоги до володіння мовами
+Англійська: B2 – Вище середнього
+
+Виключно від 3 років досвіду
+$2500-4000
+Офіс або віддалено
+Україна
+Країни, де розглядаємо кандидатів
+Англійська B2 – Вище середнього
+Python
+Зайнятість: Fulltime
+Домен: Fintech
+Аутстафінгова компанія
+Офіс:
+Україна
+(Львів)

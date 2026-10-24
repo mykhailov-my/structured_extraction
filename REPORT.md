@@ -5,9 +5,11 @@
 
 ## Setup
 
-- **Data:** _N_ job postings and _M_ CVs from Djinni, _K_ of them hand-labelled (`data/README.md`).
-- **Models:** `mistralai/mistral-small-3.2-24b-instruct` on OpenRouter; `qwen3.5:4b` on Ollama
-  (_hardware_).
+- **Data:** 30 Djinni Python postings from 2025–2026, _K_ of them hand-labelled
+  (`data/golden/README.md`).
+- **Models:** `mistralai/mistral-small-3.2-24b-instruct` (24B) and the open-weight
+  `qwen/qwen3.5-9b`, which fits a 16 GB laptop, both on OpenRouter; `qwen-local` runs the same
+  9B model on Ollama.
 - **Prompts:** v1 (baseline), v2 (_what changed_); see `prompts/CHANGELOG.md`.
 - **Sampling:** greedy (temperature 0, top_p 1) and nucleus (temperature 0.7, top_p 0.9).
 

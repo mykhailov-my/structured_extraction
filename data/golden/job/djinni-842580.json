@@ -1,0 +1,31 @@
+{
+  "title": "Strong Middle AI Engineer",
+  "seniority": "middle",
+  "company_type": "outsource",
+  "domain": "other",
+  "employment": "full_time",
+  "work_formats": ["office", "remote"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": ["Lviv"],
+  "min_experience_years": 3.0,
+  "salary": {"min_amount": 3000, "max_amount": 4000, "currency": "USD", "period": "month"},
+  "languages": [
+    {"language": "english", "level": "c1", "must_have": true},
+    {"language": "ukrainian", "level": "native", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "middle", "years": 3.0, "must_have": true},
+    {"skill": "ai", "name": "AI-powered applications", "level": "middle", "years": null, "must_have": true},
+    {"skill": "software_design", "name": "software design", "level": "senior", "years": null, "must_have": true},
+    {"skill": "react", "name": "React", "level": "junior", "years": null, "must_have": false},
+    {"skill": "nodejs", "name": "Node.js", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "problem_solving", "name": "Strong problem-solving skills", "level": "senior", "must_have": true},
+    {"skill": "ownership", "name": "Independently own features with minimal supervision", "level": "middle", "must_have": true},
+    {"skill": "communication", "name": "Excellent communication, working directly with international clients", "level": "senior", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": []
+}

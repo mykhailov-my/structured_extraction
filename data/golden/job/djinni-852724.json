@@ -1,0 +1,40 @@
+{
+  "title": "Agentic Engineer / Technical Lead",
+  "seniority": "lead",
+  "company_type": "outsource",
+  "domain": "other",
+  "employment": "full_time",
+  "work_formats": ["office", "remote"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": ["Lviv", "Kyiv"],
+  "min_experience_years": 7.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true},
+    {"language": "ukrainian", "level": "native", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "senior", "years": 8.0, "must_have": true},
+    {"skill": "typescript", "name": "TypeScript", "level": "senior", "years": 5.0, "must_have": true},
+    {"skill": "ai_coding_tools", "name": "Claude Code, GitHub Copilot, Cursor, Codex", "level": "senior", "years": null, "must_have": true},
+    {"skill": "ai_agents", "name": "hooks, skills, MCP servers, plugins for AI coding agents", "level": "senior", "years": null, "must_have": true},
+    {"skill": "security", "name": "security risks of AI agents, Secure SDLC", "level": "middle", "years": null, "must_have": true},
+    {"skill": "git", "name": "Git, Git internals", "level": "junior", "years": null, "must_have": true},
+    {"skill": "ci_cd", "name": "CI/CD, GitHub Actions", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "Regulated enterprise environment", "level": "junior", "years": null, "must_have": true},
+    {"skill": "postgresql", "name": "PostgreSQL", "level": "middle", "years": null, "must_have": true},
+    {"skill": "rest_api", "name": "REST API", "level": "middle", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "middle", "years": null, "must_have": true},
+    {"skill": "rust", "name": "Rust", "level": "middle", "years": null, "must_have": false},
+    {"skill": "other", "name": "OPA / Semgrep", "level": "middle", "years": null, "must_have": false},
+    {"skill": "llm", "name": "LLM evaluation (rubrics, graders, test fixtures)", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "leadership", "name": "2+ years as Team Lead", "level": "senior", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": [
+    {"condition": "time_zone", "detail": "UK", "must_have": true}
+  ]
+}

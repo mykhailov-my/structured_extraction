@@ -1,0 +1,48 @@
+{
+  "doc_id": "djinni-744638",
+  "job_id": 744638,
+  "url": "https://djinni.co/jobs/744638-python-developer-middle-internal-product/",
+  "source": "djinni.co",
+  "snapshot": null,
+  "captured_at": "2026-10-24T06:12:26",
+  "posted": null,
+  "date": "2025-06-12",
+  "year": 2025,
+  "active": false,
+  "layout": "v4",
+  "title": "Python Developer (Middle+) — Internal Product",
+  "category": "Python",
+  "company": "CRMOZ",
+  "salary": "до $4000",
+  "skills": [
+    "FastAPI",
+    "Flask",
+    "Django",
+    "GraphQL",
+    "PostgreSQL",
+    "MySQL",
+    "RAG",
+    "LLM"
+  ],
+  "languages": [
+    "Англійська: B1 – Середній",
+    "Українська: Носій мови"
+  ],
+  "facts": [
+    "від 2 років досвіду",
+    "Також розглядаємо з досвідом 1 рік",
+    "$1500-4000",
+    "Розглядаємо до $4500",
+    "Тільки віддалено",
+    "Україна",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська B1 – Середній",
+    "Українська Носій мови",
+    "Python",
+    "Зайнятість: Fulltime",
+    "Домен: Other",
+    "Сервісна компанія",
+    "Є тестове завдання"
+  ],
+  "description": "At CRMOZ, we are an official partner of Zoho Corp. with over 10 years of experience in delivering exceptional IT services, including Zoho software implementation, integration, and ongoing support. Our clients span across various industries worldwide, and our focus is on providing tailored, high-quality solutions to meet their unique business needs.\nWe are currently looking for a skilled Python Developer to join our team to work on a long-term internal product, designed to improve business process automation, data handling, and operational efficiency within the company. This is not a client-facing project — the product is being developed in-house and owned entirely by our team.\nWho You Are:\nWe’re looking for a proactive and detail-oriented Python Developer with at least a Middle level of experience, who enjoys solving practical business problems through clean, scalable backend development. You’ll take part in building and evolving a product from the ground up in close collaboration with analysts and stakeholders.\nKey Responsibilities:\n- Backend Development: Build and maintain internal services and APIs using Python.\n- Data Handling: Develop tools for collecting, processing, and managing structured/unstructured data.\n- System Integration: Create and maintain integrations with third-party systems and APIs.\n- Automation: Identify opportunities and implement solutions to automate internal operations.\n- Database Work: Design and optimize relational and non-relational databases.\n- Code Quality: Write maintainable, testable, and well-documented code.\n- Team Collaboration: Work closely with analysts, PMs, and other developers to align on business needs and deliver solutions.\nRequired Experience With:\n- RAG (Retrieval-Augmented Generation)\n- LLMs (Large Language Models, e.g. OpenAI, Claude)\n- Vector Databases (e.g. Pinecone, FAISS, Chroma)\n- Scraping (e.g. BeautifulSoup, Playwright, Selenium)\n- Embedding Models (e.g. OpenAI Embeddings, SentenceTransformers)\n- Data Analysis & Manipulation: pandas, numpy, polars\n- Visualization: matplotlib, seaborn, plotly, altair\n- Machine Learning: scikit-learn, xgboost, lightgbm, catboost\n- Deep Learning: TensorFlow, PyTorch, Keras\n- Natural Language Processing (NLP): spaCy, transformers (Hugging Face), NLTK, gensim\nYour Skills and Experience:\n- 2+ years of commercial experience with Python\n- Strong knowledge of Python frameworks: FastAPI, Flask, Django\n- Experience with building and consuming RESTful APIs, SOAP, GraphQL\n- Good understanding of relational databases (e.g., PostgreSQL, MySQL)\n- Confident with Git and version control workflows\n- English — Intermediate+ (written and spoken)\nNice to Have but Not Required:\n- Experience with microservices architecture\n- Familiarity with Docker or cloud platforms (AWS/GCP)\n- Basic understanding of CI/CD workflows\nWe Offer:\n- Remote-first position: Work from anywhere with a flexible schedule.\n- Internal product ownership: No external client pressure — focus on long-term value and quality.\n- Competitive salary: Based on experience and performance.\n- Growth opportunities: Shape the product and grow within the team."
+}

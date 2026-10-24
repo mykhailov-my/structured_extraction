@@ -1,0 +1,45 @@
+{
+  "title": "Python AI Multi-agent Engineer",
+  "seniority": null,
+  "company_type": "product",
+  "domain": "ecommerce",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "worldwide",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 3.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b1", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python 3.10+", "level": "senior", "years": null, "must_have": true},
+    {"skill": "llm", "name": "large language models, ollama, OpenAI, Claude", "level": "senior", "years": null, "must_have": true},
+    {"skill": "ai_agents", "name": "multi-agent systems, langraph, smallagents", "level": "senior", "years": null, "must_have": true},
+    {"skill": "ai", "name": "Штучний інтелект (AI)", "level": "middle", "years": null, "must_have": true},
+    {"skill": "rag", "name": "qdrant, fastembed", "level": "junior", "years": null, "must_have": true},
+    {"skill": "langchain", "name": "langchain", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "Langfuse", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "n8n", "level": "junior", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker/Docker Compose", "level": "junior", "years": null, "must_have": true},
+    {"skill": "rabbitmq", "name": "RabbitMQ", "level": "junior", "years": null, "must_have": true},
+    {"skill": "mysql", "name": "MySQL/MariaDB", "level": "junior", "years": null, "must_have": true},
+    {"skill": "clickhouse", "name": "ClickHouse", "level": "junior", "years": null, "must_have": true},
+    {"skill": "database_design", "name": "principles of working with databases", "level": "basic", "years": null, "must_have": true},
+    {"skill": "spark", "name": "big data processing systems", "level": "basic", "years": null, "must_have": true},
+    {"skill": "etl", "name": "real-time data processing and analysis systems", "level": "junior", "years": null, "must_have": true},
+    {"skill": "machine_learning", "name": "machine learning tools", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "Web development", "level": "junior", "years": null, "must_have": false},
+    {"skill": "software_architecture", "name": "scalable, high-performance systems", "level": "basic", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "proactivity", "name": "Interest in AI and drive to innovate", "level": "middle", "must_have": true},
+    {"skill": "self_learning", "name": "Research, experiments and learning on their own", "level": "middle", "must_have": true},
+    {"skill": "problem_solving", "name": "Finding information and solving complex tasks", "level": "middle", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": [
+    {"condition": "citizenship", "detail": "Not from russia or belarus", "must_have": true}
+  ]
+}

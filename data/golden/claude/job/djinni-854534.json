@@ -1,0 +1,58 @@
+{
+  "title": "Senior Backend Engineer (Python)",
+  "seniority": "senior",
+  "company_type": "outsource",
+  "domain": "other",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 7.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true},
+    {"language": "ukrainian", "level": null, "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python backend development", "level": "expert", "years": null, "must_have": true},
+    {"skill": "rest_api", "name": "production services, APIs and integrations", "level": "junior", "years": null, "must_have": true},
+    {"skill": "software_architecture", "name": "distributed systems, microservice architectures, asynchronous data processing", "level": "middle", "years": null, "must_have": true},
+    {"skill": "sql", "name": "relational databases", "level": "junior", "years": null, "must_have": true},
+    {"skill": "postgresql", "name": "PostgreSQL", "level": "junior", "years": null, "must_have": false},
+    {"skill": "database_design", "name": "schema design, query optimisation, troubleshooting", "level": "junior", "years": null, "must_have": true},
+    {"skill": "etl", "name": "data ingestion, processing pipelines, external data sources", "level": "junior", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "middle", "years": null, "must_have": true},
+    {"skill": "kubernetes", "name": "Kubernetes, Helm, OpenShift", "level": "middle", "years": null, "must_have": true},
+    {"skill": "ci_cd", "name": "CI/CD pipelines", "level": "junior", "years": null, "must_have": true},
+    {"skill": "git", "name": "Git workflows", "level": "junior", "years": null, "must_have": true},
+    {"skill": "testing", "name": "automated testing", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "Debugging, investigating issues across services, data flows and deployment environments", "level": "senior", "years": null, "must_have": true},
+    {"skill": "ai_coding_tools", "name": "AI coding assistants", "level": "junior", "years": null, "must_have": true},
+    {"skill": "kafka", "name": "Kafka publishers and consumers", "level": "middle", "years": null, "must_have": false},
+    {"skill": "other", "name": "Dagster or similar data orchestration tools", "level": "junior", "years": null, "must_have": false},
+    {"skill": "cloud", "name": "customer-managed or private-cloud environments", "level": "junior", "years": null, "must_have": false},
+    {"skill": "gcp", "name": "GCP", "level": "basic", "years": null, "must_have": false},
+    {"skill": "aws", "name": "AWS", "level": "basic", "years": null, "must_have": false},
+    {"skill": "azure", "name": "Azure", "level": "basic", "years": null, "must_have": false},
+    {"skill": "bash", "name": "shell scripting", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "Parquet, object storage, metadata management", "level": "basic", "years": null, "must_have": false},
+    {"skill": "ai_agents", "name": "AI agents, MCP interfaces", "level": "junior", "years": null, "must_have": false},
+    {"skill": "llm", "name": "LLM APIs", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "Simulation platforms, digital twins, decision-support systems", "level": "basic", "years": null, "must_have": false},
+    {"skill": "cpp", "name": "C++", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "communication", "name": "Communicating directly with customers and stakeholders, explaining technical concepts to non-technical audiences", "level": "middle", "must_have": true},
+    {"skill": "ownership", "name": "Strong ownership", "level": "senior", "must_have": true},
+    {"skill": "critical_thinking", "name": "Sound technical judgement", "level": "middle", "must_have": true},
+    {"skill": "adaptability", "name": "Comfort working with evolving requirements", "level": "middle", "must_have": true},
+    {"skill": "other", "name": "Understanding of the Ukrainian context", "level": "basic", "must_have": true}
+  ],
+  "domain_experience": [
+    {"domain": "govtech", "years": null, "must_have": false}
+  ],
+  "legal": [
+    {"condition": "business_travel", "detail": "Customer sites within Ukraine", "must_have": true}
+  ]
+}

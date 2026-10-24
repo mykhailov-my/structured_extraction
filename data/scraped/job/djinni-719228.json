@@ -1,0 +1,40 @@
+{
+  "doc_id": "djinni-719228",
+  "job_id": 719228,
+  "url": "https://djinni.co/jobs/719228-senior-python-engineer/",
+  "source": "djinni.co",
+  "snapshot": null,
+  "captured_at": "2026-10-24T06:04:24",
+  "posted": null,
+  "date": "2025-02-17",
+  "year": 2025,
+  "active": false,
+  "layout": "v4",
+  "title": "Senior Python Engineer",
+  "category": "Python",
+  "company": "Adaptiq",
+  "salary": "до $7000",
+  "skills": [
+    "Python",
+    "GCP",
+    "Microservices",
+    "Docker",
+    "gRPC"
+  ],
+  "languages": [
+    "Англійська: B2 – Вище середнього"
+  ],
+  "facts": [
+    "Виключно від 6 років досвіду",
+    "$6000-7000",
+    "Тільки віддалено",
+    "Країни Європи та Україна",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська B2 – Вище середнього",
+    "Python",
+    "Зайнятість: Fulltime",
+    "Домен: Advertising / Marketing",
+    "Аутстафінгова компанія"
+  ],
+  "description": "Who we are:\nAdaptiq is a technology hub specializing in building, scaling, and supporting R&D teams for high-end, fast-growing product companies in a wide range of industries.\nAbout the Product:\nThe AI-driven SaaS platform developed by our client, which is a worldwide leader in the ad-tech and comparison sector. Its adaptable solution empowers advertisers by pinpointing high-intent audiences through advanced big data analytics. It spans various industries, delivering predictive insights and data-backed marketing strategies designed to drive growth. With its robust capabilities, the platform enables brands to enhance their marketing effectiveness, optimize customer engagement, and maximize conversion rates.\nAbout the Role:\nWe're looking for a passionate Senior Backend (Python) Developer to help shape the future of an innovative get-paid-to platform from the ground up. As an early team member, you'll have unprecedented influence on the product direction while working remotely with a Senior collaborative team. You'll own the end-to-end development of Backend and tackle exciting technical challenges.\nThis is a unique opportunity to be part of something big from its early stages – perfect for a developer who thrives on autonomy, loves seeing their code make an immediate impact, and wants to grow alongside a promising startup.\nKey Responsibilities:\n- Build the Backend architecture from the ground up ensuring scalability, performance, and maintainability.\n- Take part in architecture decision-making, design and develop functional solutions, and proactively addressing challenges.\n- Drive technical excellence and quality, taking ownership of technical decisions.\n- Thrive in a dynamic startup environment, where independence, adaptability, and speed are key.\n- Ensure the application remains responsive and high-performing while maintaining scalability to accommodate a growing user base.\nRequired Competence and Skills:\n- 6+ years of experience as a Backend Engineer working with Python\n- Experience working with at least 2 Python frameworks such as FastAPI, Django, Flask, CherryPy, etc.\n- Experience working with gRPC and message queues\n- Experience with both relational and non-relational databases\n- Experience with Redis and Docker\n- Experience with cloud solutions such as AWS (EC2, S3, RDS, Lambda) or GCP\n- Experience with ORM and writing plain queries\n- Experience with microservices architecture\n- Experience working with production environments\n- Experience developing scalable systems serving a large user base\n- Proven track record of working in a fast-paced startup environment.\n- Familiarity with message brokers such as RabbitMQ or Kafka\nNice-to-Have Skills:\n- Experience working with OpenTelemetry, DataDog, OpenSearch, or similar tools\n- Experience with PyTest\nWhy Us?\nWe provide 20 days of vacation leave per calendar year (plus official national holidays of a country you are based in).\nWe provide full accounting and legal support in all countries we operate.\nWe utilize a fully remote work model with a powerful workstation and co-working space in case you need it.\nWe offer a highly competitive package with yearly performance and compensation reviews."
+}

@@ -22,13 +22,20 @@ VALID = {
     "seniority": "middle",
     "company_type": None,
     "domain": None,
+    "employment": None,
     "work_formats": ["remote"],
-    "locations": [],
+    "candidate_location": None,
+    "candidate_countries": [],
+    "office_cities": [],
     "min_experience_years": 3,
-    "english_level": "b1",
     "salary": None,
-    "must_have_skills": ["Python"],
-    "nice_to_have_skills": [],
+    "languages": [{"language": "english", "level": "b1", "must_have": True}],
+    "hard_skills": [
+        {"skill": "python", "name": "Python", "level": "middle", "years": None, "must_have": True}
+    ],
+    "soft_skills": [],
+    "domain_experience": [],
+    "legal": [],
 }
 
 

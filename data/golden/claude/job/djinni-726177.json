@@ -1,0 +1,47 @@
+{
+  "title": "Python Developer",
+  "seniority": null,
+  "company_type": "product",
+  "domain": "ecommerce",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 5.0,
+  "salary": {"min_amount": 4000, "max_amount": 4500, "currency": "USD", "period": "month"},
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true},
+    {"language": "ukrainian", "level": "native", "must_have": true},
+    {"language": "german", "level": null, "must_have": false}
+  ],
+  "hard_skills": [
+    {"skill": "angular", "name": "Angular", "level": "senior", "years": null, "must_have": true},
+    {"skill": "react", "name": "React", "level": "senior", "years": null, "must_have": true},
+    {"skill": "typescript", "name": "Typescript", "level": "senior", "years": null, "must_have": true},
+    {"skill": "python", "name": "Python", "level": "senior", "years": null, "must_have": true},
+    {"skill": "fastapi", "name": "Fastapi", "level": "senior", "years": null, "must_have": true},
+    {"skill": "postgresql", "name": "PostgreSQL", "level": "middle", "years": null, "must_have": true},
+    {"skill": "terraform", "name": "Terraform", "level": "middle", "years": null, "must_have": true},
+    {"skill": "ci_cd", "name": "GitHub Actions", "level": "middle", "years": null, "must_have": true},
+    {"skill": "gcp", "name": "GCP Services / Cloudrun", "level": "middle", "years": null, "must_have": true},
+    {"skill": "other", "name": "PDF Generator", "level": "middle", "years": null, "must_have": true},
+    {"skill": "other", "name": "Image Preview Service", "level": "middle", "years": null, "must_have": true},
+    {"skill": "observability", "name": "Logging & Monitoring", "level": "middle", "years": null, "must_have": true},
+    {"skill": "other", "name": "EDI, B2B", "level": "junior", "years": null, "must_have": false},
+    {"skill": "ai", "name": "AI", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "problem_solving", "name": "A systematic approach to solving tasks", "level": "middle", "must_have": true},
+    {"skill": "ownership", "name": "A responsible approach", "level": "middle", "must_have": true},
+    {"skill": "self_learning", "name": "High rate of self-study", "level": "senior", "must_have": true},
+    {"skill": "teamwork", "name": "Non-conflict", "level": "middle", "must_have": true},
+    {"skill": "time_management", "name": "Punctuality", "level": "middle", "must_have": true},
+    {"skill": "attention_to_detail", "name": "Diligence and accuracy", "level": "middle", "must_have": true},
+    {"skill": "result_orientation", "name": "Focus on the result", "level": "middle", "must_have": true}
+  ],
+  "domain_experience": [
+    {"domain": "logistics", "years": null, "must_have": false}
+  ],
+  "legal": []
+}

@@ -6,7 +6,8 @@ from pydantic import ValidationError
 
 from extraction.schemas import SCHEMAS, JobPosting, Salary, json_schema
 
-GOLDEN = sorted((Path(__file__).parents[1] / "data" / "golden").glob("*/*.json"))
+GOLDEN_DIR = Path(__file__).parents[1] / "data" / "golden"
+GOLDEN = sorted(GOLDEN_DIR.rglob("*.json"))  # yours in <doc_type>/, Claude's in claude/<doc_type>/
 
 
 def _nodes(node):
@@ -45,6 +46,6 @@ def test_salary_needs_an_amount():
         Salary(min_amount=None, max_amount=None, currency="USD", period="month")
 
 
-@pytest.mark.parametrize("path", GOLDEN, ids=lambda path: f"{path.parent.name}/{path.name}")
+@pytest.mark.parametrize("path", GOLDEN, ids=lambda path: str(path.relative_to(GOLDEN_DIR)))
 def test_golden_labels_match_the_schema(path):
     SCHEMAS[path.parent.name].model_validate_json(path.read_bytes())

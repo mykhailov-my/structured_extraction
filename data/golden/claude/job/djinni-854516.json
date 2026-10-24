@@ -1,0 +1,47 @@
+{
+  "title": "Senior Software Engineer (Python)",
+  "seniority": "senior",
+  "company_type": "product",
+  "domain": "other",
+  "employment": "full_time",
+  "work_formats": ["office", "remote"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": ["Kyiv"],
+  "min_experience_years": 4.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b1", "must_have": true},
+    {"language": "ukrainian", "level": "native", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "software_architecture", "name": "architecture design, technical decisions, high-availability systems, component failures", "level": "expert", "years": null, "must_have": true},
+    {"skill": "python", "name": "Python", "level": "senior", "years": null, "must_have": true},
+    {"skill": "async_programming", "name": "asyncio, concurrency, race conditions, synchronization, blocking operations", "level": "middle", "years": null, "must_have": true},
+    {"skill": "message_queues", "name": "Pub/Sub or Message Queue, reliable message processing", "level": "junior", "years": null, "must_have": true},
+    {"skill": "postgresql", "name": "PostgreSQL", "level": "junior", "years": null, "must_have": true},
+    {"skill": "database_design", "name": "data modelling, transactions, indexes, query optimisation", "level": "junior", "years": null, "must_have": true},
+    {"skill": "sqlalchemy", "name": "SQLAlchemy", "level": "middle", "years": null, "must_have": true},
+    {"skill": "redis", "name": "Redis", "level": "middle", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "middle", "years": null, "must_have": true},
+    {"skill": "git", "name": "Git", "level": "middle", "years": null, "must_have": true},
+    {"skill": "ci_cd", "name": "CI/CD", "level": "middle", "years": null, "must_have": true},
+    {"skill": "llm", "name": "LLM models via API", "level": "middle", "years": null, "must_have": true},
+    {"skill": "pytest", "name": "Pytest", "level": "junior", "years": null, "must_have": true},
+    {"skill": "testing", "name": "unit, functional and integration tests; critical scenarios, behaviour under failures", "level": "middle", "years": null, "must_have": true},
+    {"skill": "fastapi", "name": "FastAPI", "level": "junior", "years": null, "must_have": false},
+    {"skill": "typescript", "name": "TypeScript", "level": "junior", "years": null, "must_have": false},
+    {"skill": "vue", "name": "Vue.js 3", "level": "junior", "years": null, "must_have": false},
+    {"skill": "html_css", "name": "HTML/CSS", "level": "junior", "years": null, "must_have": false},
+    {"skill": "aws", "name": "AWS, S3", "level": "junior", "years": null, "must_have": false},
+    {"skill": "kubernetes", "name": "Kubernetes, Helm", "level": "junior", "years": null, "must_have": false},
+    {"skill": "observability", "name": "OpenTelemetry, Prometheus, Sentry", "level": "basic", "years": null, "must_have": false},
+    {"skill": "agile", "name": "Managing development and delivery: planning, coordination, release", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "communication", "name": "Explaining trade-offs and choosing an approach for the product's needs", "level": "middle", "must_have": true},
+    {"skill": "leadership", "name": "Leadership in a technical team", "level": "middle", "must_have": false}
+  ],
+  "domain_experience": [],
+  "legal": []
+}

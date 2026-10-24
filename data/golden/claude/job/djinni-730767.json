@@ -1,0 +1,39 @@
+{
+  "title": "Junior Python Developer (work only on weekends)",
+  "seniority": "junior",
+  "company_type": "outstaff",
+  "domain": "other",
+  "employment": "part_time",
+  "work_formats": ["remote"],
+  "candidate_location": "worldwide",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 1.0,
+  "salary": {"min_amount": 300, "max_amount": 400, "currency": "USD", "period": "month"},
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "junior", "years": 1.0, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "junior", "years": 1.0, "must_have": true},
+    {"skill": "postgresql", "name": "PostgreSQL", "level": "junior", "years": null, "must_have": true},
+    {"skill": "aws", "name": "AWS (EC2, S3)", "level": "basic", "years": null, "must_have": true},
+    {"skill": "rest_api", "name": "RESTful API development and integration", "level": "basic", "years": null, "must_have": true},
+    {"skill": "html_css", "name": "HTML, CSS", "level": "basic", "years": null, "must_have": false},
+    {"skill": "javascript", "name": "JavaScript", "level": "basic", "years": null, "must_have": false},
+    {"skill": "docker", "name": "Docker", "level": "junior", "years": null, "must_have": false},
+    {"skill": "kubernetes", "name": "Kubernetes", "level": "junior", "years": null, "must_have": false},
+    {"skill": "ci_cd", "name": "CI/CD pipelines and automation", "level": "junior", "years": null, "must_have": false},
+    {"skill": "security", "name": "security best practices in web applications", "level": "basic", "years": null, "must_have": false},
+    {"skill": "agile", "name": "Agile", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "problem_solving", "name": "Strong debugging and problem-solving skills", "level": "senior", "must_have": true},
+    {"skill": "teamwork", "name": "Work in a collaborative team environment", "level": "middle", "must_have": true},
+    {"skill": "communication", "name": "Excellent written and verbal communication skills", "level": "senior", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": [
+    {"condition": "time_zone", "detail": "Weekends 7:00-23:00 GMT+3", "must_have": true}
+  ]
+}

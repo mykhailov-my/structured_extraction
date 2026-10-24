@@ -1,0 +1,42 @@
+{
+  "title": "AI Engineer",
+  "seniority": null,
+  "company_type": "product",
+  "domain": "energy",
+  "employment": "full_time",
+  "work_formats": ["office"],
+  "candidate_location": "ukraine",
+  "candidate_countries": [],
+  "office_cities": ["Kyiv"],
+  "min_experience_years": 1.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true},
+    {"language": "ukrainian", "level": "c1", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "machine_learning", "name": "ML / data science / applied AI", "level": "junior", "years": 1.0, "must_have": true},
+    {"skill": "python", "name": "Python", "level": "middle", "years": null, "must_have": true},
+    {"skill": "pandas", "name": "Pandas", "level": "middle", "years": null, "must_have": true},
+    {"skill": "numpy", "name": "NumPy", "level": "middle", "years": null, "must_have": true},
+    {"skill": "scikit_learn", "name": "Scikit-learn", "level": "middle", "years": null, "must_have": true},
+    {"skill": "pytorch", "name": "PyTorch", "level": "middle", "years": null, "must_have": true},
+    {"skill": "tensorflow", "name": "TensorFlow", "level": "middle", "years": null, "must_have": true},
+    {"skill": "aws", "name": "AWS", "level": "junior", "years": null, "must_have": true},
+    {"skill": "gcp", "name": "GCP", "level": "junior", "years": null, "must_have": true},
+    {"skill": "azure", "name": "Azure", "level": "junior", "years": null, "must_have": true},
+    {"skill": "mlops", "name": "MLOps practices, MLflow", "level": "basic", "years": null, "must_have": false},
+    {"skill": "docker", "name": "Docker", "level": "basic", "years": null, "must_have": false},
+    {"skill": "ci_cd", "name": "CI/CD", "level": "basic", "years": null, "must_have": false},
+    {"skill": "kubernetes", "name": "Kubernetes", "level": "basic", "years": null, "must_have": false},
+    {"skill": "nlp", "name": "NLP", "level": "junior", "years": null, "must_have": true},
+    {"skill": "computer_vision", "name": "computer vision", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "Time series, recommender systems", "level": "junior", "years": null, "must_have": true}
+  ],
+  "soft_skills": [
+    {"skill": "analytical_thinking", "name": "Analytical thinking", "level": "middle", "must_have": true},
+    {"skill": "problem_solving", "name": "Solving complex technical problems", "level": "middle", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": []
+}

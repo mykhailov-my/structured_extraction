@@ -1,0 +1,44 @@
+Senior Python Developer
+Tomysoft OG
+
+Vienna onsite, International organization
+We're looking for a software engineer to work in highly restricted environment.
+General requirements:
+- Ready for a daily office (up to 24 days per year remote)
+- Must either already have a work permit in Austria or be a Ukrainian citizenship who relocated after the beginning of the scale invasion (this is a prerequisite for fast residence permit track)
+Mandatory skills (min. 3-5 years of production experience):
+- Django
+- Flask
+- FastApi
+- Relational DBs
+Asset skills:
+- Experience building advanced analytical and statistical software solutions
+- Experience with consuming data from a data lake house or data services (Trino)
+- Experience with Docker and RabbitMQ
+- Experience with Event Sourcing systems
+Hiring process:
+- Introductory call (15-30min)
+- Technical interview
+- Occasionally, an additional interview round or technical assignment
+Benefits:
+- Residence permit obtaining support
+- Adaptation, accommodation search support
+- Austrian social package- 25 days vacation
+- Paid sick leaves
+
+Необхідні навички
+REST API: 3 роки, Python, FastAPI, Django, Flask
+Вимоги до володіння мовами
+Англійська: B2 – Вище середнього
+
+Виключно від 3 років досвіду
+Тільки офіс
+Країни Європи та Україна
+Країни, де розглядаємо кандидатів
+Англійська B2 – Вище середнього
+Python
+Зайнятість: Fulltime
+Домен: Energy / Utilities
+Аутстафінгова компанія
+Офіс:
+Австрія

@@ -1,0 +1,54 @@
+Senior Python Engineer
+Adaptiq
+до $7000
+
+Who we are:
+Adaptiq is a technology hub specializing in building, scaling, and supporting R&D teams for high-end, fast-growing product companies in a wide range of industries.
+About the Product:
+The AI-driven SaaS platform developed by our client, which is a worldwide leader in the ad-tech and comparison sector. Its adaptable solution empowers advertisers by pinpointing high-intent audiences through advanced big data analytics. It spans various industries, delivering predictive insights and data-backed marketing strategies designed to drive growth. With its robust capabilities, the platform enables brands to enhance their marketing effectiveness, optimize customer engagement, and maximize conversion rates.
+About the Role:
+We're looking for a passionate Senior Backend (Python) Developer to help shape the future of an innovative get-paid-to platform from the ground up. As an early team member, you'll have unprecedented influence on the product direction while working remotely with a Senior collaborative team. You'll own the end-to-end development of Backend and tackle exciting technical challenges.
+This is a unique opportunity to be part of something big from its early stages – perfect for a developer who thrives on autonomy, loves seeing their code make an immediate impact, and wants to grow alongside a promising startup.
+Key Responsibilities:
+- Build the Backend architecture from the ground up ensuring scalability, performance, and maintainability.
+- Take part in architecture decision-making, design and develop functional solutions, and proactively addressing challenges.
+- Drive technical excellence and quality, taking ownership of technical decisions.
+- Thrive in a dynamic startup environment, where independence, adaptability, and speed are key.
+- Ensure the application remains responsive and high-performing while maintaining scalability to accommodate a growing user base.
+Required Competence and Skills:
+- 6+ years of experience as a Backend Engineer working with Python
+- Experience working with at least 2 Python frameworks such as FastAPI, Django, Flask, CherryPy, etc.
+- Experience working with gRPC and message queues
+- Experience with both relational and non-relational databases
+- Experience with Redis and Docker
+- Experience with cloud solutions such as AWS (EC2, S3, RDS, Lambda) or GCP
+- Experience with ORM and writing plain queries
+- Experience with microservices architecture
+- Experience working with production environments
+- Experience developing scalable systems serving a large user base
+- Proven track record of working in a fast-paced startup environment.
+- Familiarity with message brokers such as RabbitMQ or Kafka
+Nice-to-Have Skills:
+- Experience working with OpenTelemetry, DataDog, OpenSearch, or similar tools
+- Experience with PyTest
+Why Us?
+We provide 20 days of vacation leave per calendar year (plus official national holidays of a country you are based in).
+We provide full accounting and legal support in all countries we operate.
+We utilize a fully remote work model with a powerful workstation and co-working space in case you need it.
+We offer a highly competitive package with yearly performance and compensation reviews.
+
+Необхідні навички
+Python, GCP, Microservices, Docker, gRPC
+Вимоги до володіння мовами
+Англійська: B2 – Вище середнього
+
+Виключно від 6 років досвіду
+$6000-7000
+Тільки віддалено
+Країни Європи та Україна
+Країни, де розглядаємо кандидатів
+Англійська B2 – Вище середнього
+Python
+Зайнятість: Fulltime
+Домен: Advertising / Marketing
+Аутстафінгова компанія

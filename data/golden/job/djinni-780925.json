@@ -1,0 +1,47 @@
+{
+  "title": "Lead Python AWS Cloud Engineer",
+  "seniority": "lead",
+  "company_type": "outsource",
+  "domain": "healthcare",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 3.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "other", "name": "Bachelor's degree (or Master's, or PhD)", "level": "middle", "years": null, "must_have": true},
+    {"skill": "aws", "name": "AWS (S3, RDS, Lambda, IAM, API Gateway), serverless", "level": "senior", "years": null, "must_have": true},
+    {"skill": "python", "name": "Python", "level": "senior", "years": null, "must_have": true},
+    {"skill": "other", "name": "PowerShell", "level": "junior", "years": null, "must_have": true},
+    {"skill": "software_architecture", "name": "serverless architectures, microservices architecture", "level": "junior", "years": null, "must_have": true},
+    {"skill": "rest_api", "name": "API development, Web services", "level": "middle", "years": null, "must_have": true},
+    {"skill": "terraform", "name": "Terraform", "level": "middle", "years": null, "must_have": true},
+    {"skill": "sql", "name": "Relational databases", "level": "junior", "years": null, "must_have": true},
+    {"skill": "nosql", "name": "NoSQL", "level": "junior", "years": null, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "Schema-based data formats (JSON, Protobuf, Avro, XML)", "level": "junior", "years": null, "must_have": true},
+    {"skill": "ci_cd", "name": "CI/CD pipelines, GitLab CI, Jenkins", "level": "junior", "years": null, "must_have": true},
+    {"skill": "observability", "name": "CloudWatch, ELK, Dynatrace, Prometheus", "level": "basic", "years": null, "must_have": true},
+    {"skill": "git", "name": "git commands, Gitlab, Github, Gitea", "level": "expert", "years": null, "must_have": true},
+    {"skill": "other", "name": "Documentation as code", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "FHIR and HL7v2", "level": "junior", "years": null, "must_have": false},
+    {"skill": "fastapi", "name": "FastAPI", "level": "basic", "years": null, "must_have": false},
+    {"skill": "other", "name": "Software as a Medical Device (SaMD)", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "EHR technologies (EPIC, Cerner)", "level": "basic", "years": null, "must_have": false},
+    {"skill": "security", "name": "enterprise grade cyber security, privacy by design", "level": "junior", "years": null, "must_have": false},
+    {"skill": "agile", "name": "SDLC, Waterfall and Agile", "level": "senior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "other", "name": "Product mindset: estimation, stakeholder management, prioritization", "level": "senior", "must_have": true},
+    {"skill": "leadership", "name": "Leading teams onshore and offshore", "level": "middle", "must_have": false}
+  ],
+  "domain_experience": [
+    {"domain": "healthcare", "years": null, "must_have": false}
+  ],
+  "legal": []
+}

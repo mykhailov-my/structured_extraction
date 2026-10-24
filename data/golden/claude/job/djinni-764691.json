@@ -1,0 +1,47 @@
+{
+  "title": "Junior Python Software Engineer",
+  "seniority": "junior",
+  "company_type": "product",
+  "domain": "ml",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 2.0,
+  "salary": {"min_amount": 550, "max_amount": 700, "currency": "USD", "period": "month"},
+  "languages": [
+    {"language": "english", "level": "b1", "must_have": false},
+    {"language": "ukrainian", "level": "native", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "junior", "years": 1.0, "must_have": true},
+    {"skill": "rest_api", "name": "RESTful API design and implementation, APIs for task automation", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "Scripting and workflow automation", "level": "junior", "years": null, "must_have": true},
+    {"skill": "software_design", "name": "software design principles, SOLID", "level": "basic", "years": null, "must_have": true},
+    {"skill": "linux", "name": "Linux, command line", "level": "basic", "years": null, "must_have": true},
+    {"skill": "git", "name": "Git, GitHub, Bitbucket", "level": "middle", "years": null, "must_have": true},
+    {"skill": "flask", "name": "Flask", "level": "junior", "years": null, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "junior", "years": null, "must_have": true},
+    {"skill": "fastapi", "name": "FastAPI", "level": "junior", "years": null, "must_have": true},
+    {"skill": "celery", "name": "Celery", "level": "basic", "years": null, "must_have": true},
+    {"skill": "redis", "name": "Redis", "level": "basic", "years": null, "must_have": true},
+    {"skill": "rabbitmq", "name": "RabbitMQ", "level": "basic", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "middle", "years": null, "must_have": true},
+    {"skill": "testing", "name": "unit and integration tests", "level": "middle", "years": null, "must_have": true},
+    {"skill": "aws", "name": "AWS", "level": "junior", "years": null, "must_have": true},
+    {"skill": "azure", "name": "Azure", "level": "junior", "years": null, "must_have": true},
+    {"skill": "gcp", "name": "GCP", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "Debugging, troubleshooting, code optimization", "level": "junior", "years": null, "must_have": true},
+    {"skill": "html_css", "name": "HTML, CSS", "level": "basic", "years": null, "must_have": false},
+    {"skill": "javascript", "name": "JavaScript", "level": "basic", "years": null, "must_have": false},
+    {"skill": "agile", "name": "Agile", "level": "basic", "years": null, "must_have": false},
+    {"skill": "ci_cd", "name": "CI/CD pipelines, DevOps practices", "level": "basic", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "analytical_thinking", "name": "Strong analytical thinking", "level": "senior", "must_have": true},
+    {"skill": "problem_solving", "name": "Strong problem-solving capabilities", "level": "senior", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": []
+}

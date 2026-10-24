@@ -1,0 +1,36 @@
+{
+  "title": "Senior Python Developer",
+  "seniority": "senior",
+  "company_type": "product",
+  "domain": "saas",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 5.0,
+  "salary": {"min_amount": 2500, "max_amount": 3500, "currency": "USD", "period": "month"},
+  "languages": [
+    {"language": "english", "level": "b1", "must_have": true},
+    {"language": "ukrainian", "level": "native", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "senior", "years": 5.0, "must_have": true},
+    {"skill": "fastapi", "name": "FastAPI", "level": "middle", "years": null, "must_have": true},
+    {"skill": "flask", "name": "Flask", "level": "middle", "years": null, "must_have": true},
+    {"skill": "postgresql", "name": "PostgreSQL", "level": "senior", "years": null, "must_have": true},
+    {"skill": "mongodb", "name": "MongoDB", "level": "senior", "years": null, "must_have": true},
+    {"skill": "other", "name": "Neo4j", "level": "senior", "years": null, "must_have": true},
+    {"skill": "aws", "name": "AWS (Lambda, RDS, Boto3)", "level": "junior", "years": null, "must_have": true},
+    {"skill": "redis", "name": "Redis", "level": "junior", "years": null, "must_have": true},
+    {"skill": "ci_cd", "name": "CI/CD", "level": "basic", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "basic", "years": null, "must_have": true},
+    {"skill": "kubernetes", "name": "Kubernetes", "level": "basic", "years": null, "must_have": true},
+    {"skill": "software_architecture", "name": "high-load distributed systems, complex system architectures", "level": "junior", "years": null, "must_have": false},
+    {"skill": "graphql", "name": "GraphQL", "level": "junior", "years": null, "must_have": false},
+    {"skill": "websockets", "name": "WebSockets", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [],
+  "domain_experience": [],
+  "legal": []
+}

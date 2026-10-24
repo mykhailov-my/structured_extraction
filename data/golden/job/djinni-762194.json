@@ -1,0 +1,44 @@
+{
+  "title": "Dutch speaking Python Developer",
+  "seniority": null,
+  "company_type": "startup",
+  "domain": "telecom",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "eu",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 3.0,
+  "salary": null,
+  "languages": [
+    {"language": "dutch", "level": "c2", "must_have": true},
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "middle", "years": 3.0, "must_have": true},
+    {"skill": "rest_api", "name": "APIs, RESTful APIs, external APIs", "level": "senior", "years": null, "must_have": true},
+    {"skill": "fastapi", "name": "FastAPI", "level": "senior", "years": null, "must_have": true},
+    {"skill": "software_architecture", "name": "microservices", "level": "senior", "years": null, "must_have": true},
+    {"skill": "other", "name": "User-centric features", "level": "expert", "years": null, "must_have": true},
+    {"skill": "llm", "name": "LLMs, Generative AI", "level": "middle", "years": null, "must_have": true},
+    {"skill": "langchain", "name": "LangChain", "level": "middle", "years": null, "must_have": true},
+    {"skill": "rag", "name": "LlamaIndex, vector databases (Pinecone, Milvus)", "level": "middle", "years": null, "must_have": true},
+    {"skill": "git", "name": "Git", "level": "middle", "years": null, "must_have": true},
+    {"skill": "ci_cd", "name": "CI/CD pipelines", "level": "middle", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "basic", "years": null, "must_have": true},
+    {"skill": "kubernetes", "name": "Kubernetes", "level": "basic", "years": null, "must_have": true},
+    {"skill": "other", "name": "AI solutions for communication, audio/video streaming or chatbots", "level": "junior", "years": null, "must_have": true},
+    {"skill": "cloud", "name": "managing cloud infrastructure", "level": "junior", "years": null, "must_have": true},
+    {"skill": "observability", "name": "monitoring tools", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "Business analysis, product discovery", "level": "junior", "years": null, "must_have": true}
+  ],
+  "soft_skills": [
+    {"skill": "problem_solving", "name": "Excellent problem-solving", "level": "senior", "must_have": true},
+    {"skill": "communication", "name": "Excellent communication skills", "level": "senior", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": [
+    {"condition": "contract_type", "detail": "Self-employed, as an independent businessman", "must_have": true},
+    {"condition": "time_zone", "detail": "CET, 9:00-18:00 Monday-Friday, negotiable", "must_have": false}
+  ]
+}

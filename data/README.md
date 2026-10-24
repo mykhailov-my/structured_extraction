@@ -1,38 +1,37 @@
 # Data
 
 ```text
-texts/<doc_type>/<doc_id>.txt     one raw text per file, UTF-8, as found (don't tidy it up)
-scraped/<doc_type>/<doc_id>.json  the scraped record the text was made from, with its URL
-golden/<doc_type>/<doc_id>.json   the hand-labelled answer for the text with the same doc_id
+texts/job/<doc_id>.txt          the experiment's texts: 30 Djinni Python postings, 2025–2026
+golden/job/<doc_id>.json        the hand label for the text with the same doc_id
+golden/claude/job/<doc_id>.json Claude's labels of five texts, to compare with yours
+golden/README.md                how to label (`make label`), with Claude's five as examples
+scraped/job/<doc_id>.json       the record each text was made from, with its URL
 ```
 
-- `djinni-<job id>`: public job postings crawled from djinni.co by `python main.py crawl-jobs`.
+- `djinni-<job id>`: public job postings from djinni.co. Ten were crawled live by
+  `python main.py crawl-jobs`, and twenty picked from the 2025–2026 Python postings in
+  `postings/` (see [golden/README.md](golden/README.md)). Texts are stored as found: don't tidy
+  them up.
+- `scraped/job/` also keeps the other 20 live postings, which aren't Python or repeat one
+  in `texts/`. They have no text there, so the experiment skips them, while
+  `build-postings` still reads them.
 - `postings/<year>.jsonl` (git-ignored, rebuilt by `python main.py build-postings`): every
   posting collected, live and from the Wayback Machine, one JSON object a line in the one
-  format described in the README. Not labelled and not part of the experiment; it is for
-  comparing requirements across years.
-- `archive/`: an earlier sample, 50 Python postings a year for 2019–2026, in the same two
-  folders as above (`wayback-<year>-<job id>`); `postings/` has them all too.
-- `synthetic-001`: made up to show the format; delete them once real labels exist.
-- There is no source of CVs yet: Djinni's candidate profiles may not be crawled.
+  format described in the README. Not part of the experiment; it is for comparing
+  requirements across years.
+- `archive/`: an earlier sample, 50 Python postings a year for 2019–2026 (`wayback-<year>-<job
+  id>`); `postings/` has them all too.
+- `texts/cv/synthetic-001`: made up to show the CV format. There is no source of CVs: Djinni's
+  candidate profiles may not be crawled.
 
 ## What the homework asks for
 
 - At least 30 texts, at least 10 of them labelled in `golden/`.
 - Genuinely messy: short and long, typos, missing fields, Ukrainian and English mixed.
-- No personal data. Strip names, emails, phone numbers and profile links before committing:
-  this repository is public.
+- No personal data. Texts are scrubbed of emails, phone numbers, links and handles when
+  collected, but names in free text aren't caught: read a text before committing it, as this
+  repository is public.
 
-## Labelling rules
-
-- Write the JSON you want the model to return, with every field of the schema present.
-- If the text doesn't say it, use `null` (or `[]` for a list). Don't guess.
-- Values in English, skills under their usual names (`PostgreSQL`, not `postgress`).
-- Salary is monthly unless the text says otherwise; "від 3500$" is
-  `"min_amount": 3500, "max_amount": null`.
-- English level as CEFR: Upper-Intermediate is `b2` (the full mapping is in
-  `src/extraction/schemas.py`).
-- `python main.py check` validates every label against the schema.
-
-The field descriptions in `src/extraction/schemas.py` are the definitions, and the model reads
-the same descriptions in its prompt.
+The labelling rules are in [golden/README.md](golden/README.md). The field descriptions in
+`src/extraction/schemas.py` are the definitions the models read in their prompt, and
+`python main.py check` validates every label against them.

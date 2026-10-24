@@ -1,0 +1,51 @@
+Strong Middle AI Engineer
+Softcery – Production AI Systems
+до $4000
+
+Softcery builds production-ready conversational AI systems for B2B software platforms. We partner with software companies in the US and UK to build AI agents, copilots, voice interfaces, and conversational layers that integrate directly into their products. Our team focuses on complex AI engineering - building reliable, scalable systems that work with real users, workflows, and product infrastructure. We combine deep AI expertise with strong product thinking to help companies move from AI prototypes to production-ready systems they can own and scale.
+We are looking for a Strong Middle AI Engineer to lead the delivery of AI-powered products for international clients. You'll work on complex AI systems with a strong focus on Voice AI, collaborating directly with clients and taking ownership of features from design to production.
+What You'll Do:
+- Deliver production-ready AI solutions for international clients from concept to deployment.
+- Design and build AI-powered applications with a strong focus on Voice AI and intelligent automation.
+- Integrate LLMs, third-party APIs, and business systems into scalable software solutions.
+- Own technical implementation, make architectural decisions, and ensure high code quality.
+- Collaborate directly with clients to clarify requirements, discuss technical solutions, and deliver business value.
+- Continuously explore new AI technologies and apply them to real-world customer challenges.
+What We're Looking For:
+- 3+ years of commercial experience in Python development.
+- Hands-on experience with developing AI-powered applications.
+- Strong software design and problem-solving skills.
+- Ability to independently own features and deliver projects with minimal supervision.
+- Excellent communication skills and confidence working directly with international clients.
+- English – Advanced (C1).
+Will be a plus:
+- Experience with React and Node.js.
+What We Offer:
+- Structured onboarding – a clear onboarding plan, documented workflows, and a team that has your back.
+- Flexible remote schedule – work from wherever and whenever you're most productive.
+- Learning budget – we cover books, courses, English lessons, and AI tools for your professional growth.
+- Full accounting support – so you can focus on the work, not the paperwork.
+- Time off – 20 paid vacation days, 12 sick days, 2 paid period leave days/month (for women), and your birthday off.
+- IT Cluster membership – access to professional events and networking opportunities in the local tech community.
+🔁 Hiring Process: Screening → Technical interview→ Test Task → Final Interview.
+If you enjoy taking ownership, solving complex engineering challenges, and building AI products that create real business impact, we'd love to meet you 👋
+
+Вимоги до володіння мовами
+Англійська: C1 – Просунутий
+Українська: Носій мови
+
+Виключно від 3 років досвіду
+$3000-4000
+Офіс, Віддалена робота
+Країни Європи та Україна
+Країни, де розглядаємо кандидатів
+Англійська C1 – Просунутий
+Українська Носій мови
+Python
+Зайнятість: Fulltime
+Домен: Other
+Сервісна компанія
+Офіс:
+Україна
+(Львів)
+Є тестове завдання

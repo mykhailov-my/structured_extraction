@@ -1,0 +1,45 @@
+{
+  "doc_id": "djinni-731104",
+  "job_id": 731104,
+  "url": "https://djinni.co/jobs/731104-python-web-crawling-specialist/",
+  "source": "djinni.co",
+  "snapshot": null,
+  "captured_at": "2026-10-24T06:10:10",
+  "posted": null,
+  "date": "2025-04-11",
+  "year": 2025,
+  "active": false,
+  "layout": "v4",
+  "title": "Python Web Crawling Specialist",
+  "category": "Python",
+  "company": "Meta Sistem",
+  "salary": "",
+  "skills": [
+    "Python",
+    "Git",
+    "Docker",
+    "PostgreSQL",
+    "Django",
+    "Selenium",
+    "Scrapy",
+    "Web Scraping"
+  ],
+  "languages": [
+    "Англійська: B2 – Вище середнього"
+  ],
+  "facts": [
+    "від 3 років досвіду",
+    "Також розглядаємо з досвідом 2 роки",
+    "Тільки офіс",
+    "Молдова",
+    "Країни, де розглядаємо кандидатів",
+    "Англійська B2 – Вище середнього",
+    "Python",
+    "Зайнятість: Fulltime",
+    "Домен: Fintech",
+    "Продуктова компанія",
+    "Офіс:",
+    "Молдова"
+  ],
+  "description": "About us\nXPLN has been on the market for over 7 years, focusing on data crawling, collection, and analysis for our clients. We are looking for a skilled Python developer with strong expertise in web crawling and data scraping to join our team.\nKey Responsibilities\n- Develop and maintain web scraping solutions using Scrapy, Selenium, and Playwright\n- Handle various bot protections (e.g., Cloudflare) and implement advanced bypass techniques\n- Work with MongoDB and PostgreSQL to store and manage large data sets\n- Integrate services using FastAPI and Kafka for data processing and communication\n- Monitor and troubleshoot issues using the ELK stack\n- Optimize scraping workflows for scalability and performance\nRequirements\n- 3+ years of commercial web crawling experience\n- Strong Python skills and understanding of asynchronous/concurrent programming\n- Hands-on experience with proxy management, headless browsers, and automation frameworks\n- Familiarity with Linux environments, Git, and containerization tools (e.g., Docker)\n- Proven ability to handle website restrictions, CAPTCHAs, or other anti-bot measures\n- Good communication and teamwork skills\n- Good spoken English"
+}

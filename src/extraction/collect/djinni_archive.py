@@ -16,7 +16,6 @@ time:
 `extraction.collect.postings` turns the cached pages into dated records.
 """
 
-import gzip
 import logging
 import random
 import re
@@ -33,6 +32,14 @@ from bs4 import BeautifulSoup
 from extraction.collect import JobPage, ParseError
 from extraction.collect.djinni_jobs import breadcrumb_category, parse_job
 from extraction.collect.html import fragment_lines, one_line, rich_lines
+from extraction.collect.pagecache import (
+    cached_keys,
+    failed,
+    page_path,
+    read_page,
+    remember_failure,
+    write_page,
+)
 from extraction.collect.polite import FetchError, PoliteClient
 
 log = logging.getLogger(__name__)
@@ -196,11 +203,11 @@ def fetch_pages(
 ) -> int:
     """Fetch a page for every posting that has none in the cache, at most `limit`, in a fixed
     random order so that any part of the crawl is a random sample; returns how many."""
-    pages = {path.name.removesuffix(".html.gz") for path in (cache_dir / "pages").glob("*.gz")}
-    failed = _failed(cache_dir)
+    pages = cached_keys(cache_dir)
+    gone = failed(cache_dir)
     order = random.Random(0).sample(sorted(jobs), len(jobs))
     todo = [
-        [capture for capture in jobs[job] if capture.key not in failed][:_ATTEMPTS]
+        [capture for capture in jobs[job] if capture.key not in gone][:_ATTEMPTS]
         for job in order
         if not any(capture.key in pages for capture in jobs[job])
     ]
@@ -220,11 +227,11 @@ def fetch_pages(
                     if trouble == 10:
                         raise FetchError("the archive keeps failing; run again later") from e
                     continue
-                _remember_failure(cache_dir, capture, f"HTTP {e.status}")
+                _remember(cache_dir, capture, f"HTTP {e.status}")
                 continue
             trouble = 0
             if html is None:
-                _remember_failure(cache_dir, capture, "error page")
+                _remember(cache_dir, capture, "error page")
                 continue
             fetched += 1
             _log_page(f"{number}/{len(todo)}", capture, html)
@@ -267,31 +274,20 @@ def parse_snapshot(html: str, captured: date) -> Snapshot:
 def _snapshot_html(client: PoliteClient, capture: Capture, cache_dir: Path) -> str | None:
     """The archived page, kept gzipped in the cache: a better parser reads it again without
     asking the archive, which is slow. None for an error page instead of the posting."""
-    path = cache_dir / "pages" / f"{capture.key}.html.gz"
+    path = page_path(cache_dir, capture.key)
     if path.exists():
-        return gzip.decompress(path.read_bytes()).decode("utf-8")
+        return read_page(path)
     html = client.get(SNAPSHOT_URL.format(timestamp=capture.timestamp, url=capture.url)).text
     if "<h1" not in html:  # "Your IP address, ..., has been blocked": every posting has a title
         return None
-    path.parent.mkdir(parents=True, exist_ok=True)
-    partial = path.with_suffix(".tmp")  # an interrupted write leaves no broken page behind
-    partial.write_bytes(gzip.compress(html.encode("utf-8")))
-    partial.replace(path)
+    write_page(cache_dir, capture.key, html)
     return html
 
 
-def _failed(cache_dir: Path) -> set[str]:
-    """Captures that were missing or error pages; the archive won't change its mind."""
-    path = cache_dir / "failed.txt"
-    lines = path.read_text(encoding="utf-8").splitlines() if path.exists() else []
-    return {line.split()[0] for line in lines if line}
-
-
-def _remember_failure(cache_dir: Path, capture: Capture, reason: str) -> None:
+def _remember(cache_dir: Path, capture: Capture, reason: str) -> None:
+    """A capture that was missing or an error page; the archive won't change its mind."""
     log.info("  %s: %s", capture.snapshot, reason)
-    cache_dir.mkdir(parents=True, exist_ok=True)
-    with (cache_dir / "failed.txt").open("a", encoding="utf-8") as failed:
-        failed.write(f"{capture.key} {reason}\n")
+    remember_failure(cache_dir, capture.key, reason)
 
 
 def _log_page(progress: str, capture: Capture, html: str) -> None:

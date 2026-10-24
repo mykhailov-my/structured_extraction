@@ -1,0 +1,40 @@
+{
+  "title": "AI / LLM Engineer (Python)",
+  "seniority": null,
+  "company_type": "mixed",
+  "domain": "ml",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 3.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python, production backend development", "level": "senior", "years": null, "must_have": true},
+    {"skill": "fastapi", "name": "FastAPI", "level": "junior", "years": null, "must_have": true},
+    {"skill": "rag", "name": "RAG pipelines, embeddings, vector search, vector databases (Qdrant, pgvector, Pinecone, Weaviate), LlamaIndex", "level": "middle", "years": null, "must_have": true},
+    {"skill": "llm", "name": "OpenAI and Anthropic APIs, structured outputs", "level": "middle", "years": null, "must_have": true},
+    {"skill": "ai_agents", "name": "function calling, multi-step AI agents, LangGraph, MCP servers", "level": "middle", "years": null, "must_have": true},
+    {"skill": "postgresql", "name": "PostgreSQL", "level": "middle", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "middle", "years": null, "must_have": true},
+    {"skill": "rest_api", "name": "REST APIs", "level": "middle", "years": null, "must_have": true},
+    {"skill": "git", "name": "Git", "level": "middle", "years": null, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "junior", "years": null, "must_have": true},
+    {"skill": "redis", "name": "Redis", "level": "junior", "years": null, "must_have": true},
+    {"skill": "sql", "name": "SQL початковий рівень", "level": "basic", "years": null, "must_have": true},
+    {"skill": "langchain", "name": "LangChain, LangSmith", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "Langfuse", "level": "junior", "years": null, "must_have": false},
+    {"skill": "other", "name": "Voice agents, document AI, OCR", "level": "junior", "years": null, "must_have": false},
+    {"skill": "typescript", "name": "TypeScript", "level": "junior", "years": null, "must_have": false},
+    {"skill": "react", "name": "Next.js", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [
+    {"skill": "communication", "name": "Explaining technical concepts and trade-offs to non-technical clients", "level": "middle", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": []
+}

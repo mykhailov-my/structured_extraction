@@ -1,7 +1,7 @@
 # Everything runs through uv, which installs Python 3.12 and the locked dependencies on first use.
 
 .DEFAULT_GOAL := help
-.PHONY: help setup models data archive postings run eval check test lint format
+.PHONY: help setup models data archive postings label run eval check test lint format
 
 help: ## List the targets
 	@grep -E '^[a-z]+:.*## ' $(MAKEFILE_LIST) | awk -F ':.*## ' '{printf "  make %-8s %s\n", $$1, $$2}'
@@ -23,6 +23,9 @@ archive: ## Every Djinni posting's page from the Wayback Machine, cached (about 
 
 postings: ## Every collected posting in one format: data/postings/<year>.jsonl
 	uv run python main.py build-postings
+
+label: ## Write the golden labels in a page in your browser
+	uv run python main.py label
 
 run: ## Run every experiment in config.yaml, then score them (results/)
 	uv run python main.py run

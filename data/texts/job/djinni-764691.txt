@@ -1,0 +1,53 @@
+Junior Python Software Engineer
+Keymakr
+до $700
+
+Keymakr is a leading provider of high-quality data annotation services for machine learning and artificial intelligence applications. We specialize in delivering accurate and scalable annotation solutions that empower businesses to develop cutting-edge AI models. Our team is dedicated to excellence, innovation, and customer satisfaction.
+We are looking for a motivated Junior Python Software Engineer to help build, maintain, and improve internal tools and services. This role offers a great opportunity to grow your technical skills while contributing to real-world projects and automation processes.
+Technical Skills:
+- 2+ years of experience in Software development
+- 1+ years of practical experience with Python.
+- Knowledge of RESTful API design and implementation.
+- Experience in scripting and automating workflows, including working with APIs for task automation.
+- Understanding of software design principles, particularly SOLID.
+- Basic knowledge of Linux systems and familiarity with the Linux command line.
+- Proficiency with version control systems (e.g., Git, GitHub, Bitbucket).
+- Practical experience with web frameworks like Flask, Django, or FastAPI.
+- Familiarity with Celery, Redis, and RabbitMQ.
+- Hands-on experience with containerization tools like Docker.
+- Skilled in writing unit and integration tests.
+- Knowledge of cloud platforms (e.g., AWS, Azure, GCP)
+Problem-Solving Skills:
+- Strong analytical thinking and problem-solving capabilities.
+- Ability to debug, troubleshoot, and optimize code effectively.
+Nice-to-Have Skills:
+- Basic understanding of frontend technologies (HTML, CSS, JavaScript).
+- English at an intermediate level or higher (to read and understand technical documentation).
+- Familiarity with Agile development methodologies.
+- Understanding of CI/CD pipelines and DevOps practices.
+Responsibilities:
+- Developing and maintaining tools and applications for the company’s infrastructure.
+- Designing, supporting, and maintaining internal services.
+- Transforming and storing data in various formats (e.g., JSON, XML, CSV).
+- Automating workflows using APIs.
+- Researching, configuring, and integrating third-party software into company processes.
+- Providing general IT support and troubleshooting.
+
+Необхідні навички
+Python, Linux, REST API, Git, Flask, Django, Celery, Redis, RabbitMQ, Docker
+Вимоги до володіння мовами
+Англійська: B2 – Вище середнього
+Українська: Носій мови
+
+Виключно від 2 років досвіду
+$550-700
+Тільки віддалено
+Країни Європи та Україна
+Країни, де розглядаємо кандидатів
+Англійська B2 – Вище середнього
+Українська Носій мови
+Python
+Зайнятість: Fulltime
+Домен: Machine Learning / Big Data
+Продуктова компанія
+Є тестове завдання

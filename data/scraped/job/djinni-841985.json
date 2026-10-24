@@ -15,20 +15,14 @@
   "company": "Wild.Codes",
   "salary": "",
   "skills": [
-    "Python",
-    "3 роки",
-    "scikit-learn",
-    "3 роки",
-    "Machine Learning",
-    "3 роки",
+    "Python: 3 роки",
+    "scikit-learn: 3 роки",
+    "Machine Learning: 3 роки",
     "NLP",
     "CNN",
     "Agile / Scrum"
   ],
   "languages": [
-    "Python: 3 роки",
-    "scikit-learn: 3 роки",
-    "Machine Learning: 3 роки",
     "Англійська: B1 – Середній",
     "Українська: C2 – Вільний"
   ],
@@ -40,12 +34,6 @@
     "Англійська B1 – Середній",
     "Українська C2 – Вільний",
     "Data Science",
-    "Python",
-    "3 роки",
-    "scikit-learn",
-    "3 роки",
-    "Machine Learning",
-    "3 роки",
     "Зайнятість: Fulltime",
     "Домен: Fintech",
     "Продуктова компанія"

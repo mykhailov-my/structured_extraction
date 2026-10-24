@@ -45,6 +45,7 @@ _CHROME = ", ".join(
         ".badge",  # "Неактивна" in the title, "Швидко відповідає" next to the company
         "h1 .text-danger",  # "(offline)" in the title, in 2024
         ".js-fold-toggle",  # "+ ще 3"
+        "#job_extra_info table",  # the skills' years again, in the sidebar
         ".js-inbox-action-btns",  # apply buttons
         "#job-publication-info",  # date, views, applications
         "#applicant_insights",
@@ -168,12 +169,13 @@ def parse_job(html: str) -> JobPage:
         tag.decompose()
     card = page.select_one("aside .card")
     fact_lists = card.find_all("ul", recursive=False) if card else []
+    skills = _skills(description)  # takes the skills' rows out, leaving the languages' rows
     return JobPage(
         title=one_line(title),
         category=breadcrumb_category(page),
         company=next((name for link in company_links if (name := one_line(link))), ""),
         salary=next((text for text in salaries if _SALARY.search(text)), ""),
-        skills=_skills(description),
+        skills=skills,
         languages=[_label_value(row) for row in description.parent.select(".detail-rows__line")],
         facts=[line for fact_list in fact_lists for line in fragment_lines(fact_list)],
         description="\n".join(rich_lines(description)),
@@ -200,13 +202,24 @@ def feed_date(published: str) -> str | None:
 
 
 def _skills(description: Tag) -> list[str]:
-    """The comma-separated tags under the heading that follows the description."""
+    """The skills under the heading that follows the description: first those asked for with
+    years of experience, as rows ("Django: 3 роки"), then the comma-separated tags. The rows
+    are removed from the page, as the language requirements below are rows of the same kind."""
     heading = description.find_next_sibling("h2")
     block = heading.find_next_sibling() if heading else None
-    fragments = block.stripped_strings if block else []
-    return [
-        skill.strip() for fragment in fragments for skill in fragment.split(",") if skill.strip()
+    if block is None:
+        return []
+    with_years = []
+    for row in block.select(".detail-rows__line"):
+        with_years.append(_label_value(row))
+        row.decompose()
+    tags = [
+        skill.strip()
+        for fragment in block.stripped_strings
+        for skill in fragment.split(",")
+        if skill.strip()
     ]
+    return with_years + tags
 
 
 def _label_value(row: Tag) -> str:

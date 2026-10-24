@@ -1,0 +1,35 @@
+{
+  "title": "Python Web Crawling Specialist",
+  "seniority": null,
+  "company_type": "product",
+  "domain": "fintech",
+  "employment": "full_time",
+  "work_formats": ["office"],
+  "candidate_location": "countries",
+  "candidate_countries": ["MDA"],
+  "office_cities": [],
+  "min_experience_years": 2.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "web_scraping", "name": "web crawling and data scraping", "level": "expert", "years": 3.0, "must_have": true},
+    {"skill": "python", "name": "Python", "level": "senior", "years": null, "must_have": true},
+    {"skill": "async_programming", "name": "asynchronous/concurrent programming", "level": "basic", "years": null, "must_have": true},
+    {"skill": "other", "name": "Proxy management", "level": "middle", "years": null, "must_have": true},
+    {"skill": "selenium", "name": "Selenium, headless browsers, automation frameworks", "level": "middle", "years": null, "must_have": true},
+    {"skill": "other", "name": "Handling CAPTCHAs and anti-bot measures", "level": "senior", "years": null, "must_have": true},
+    {"skill": "linux", "name": "Linux", "level": "basic", "years": null, "must_have": true},
+    {"skill": "git", "name": "Git", "level": "basic", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "basic", "years": null, "must_have": true},
+    {"skill": "postgresql", "name": "PostgreSQL", "level": "junior", "years": null, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "junior", "years": null, "must_have": true}
+  ],
+  "soft_skills": [
+    {"skill": "communication", "name": "Good communication", "level": "middle", "must_have": true},
+    {"skill": "teamwork", "name": "Teamwork", "level": "middle", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": []
+}

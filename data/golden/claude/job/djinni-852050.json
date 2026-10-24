@@ -1,0 +1,36 @@
+{
+  "title": "Senior Python Developer",
+  "seniority": "senior",
+  "company_type": "outstaff",
+  "domain": "energy",
+  "employment": "full_time",
+  "work_formats": ["office"],
+  "candidate_location": "europe_and_ukraine",
+  "candidate_countries": [],
+  "office_cities": ["Vienna"],
+  "min_experience_years": 3.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "senior", "years": null, "must_have": true},
+    {"skill": "rest_api", "name": "REST API", "level": "middle", "years": 3.0, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "middle", "years": 3.0, "must_have": true},
+    {"skill": "flask", "name": "Flask", "level": "middle", "years": 3.0, "must_have": true},
+    {"skill": "fastapi", "name": "FastApi", "level": "middle", "years": 3.0, "must_have": true},
+    {"skill": "sql", "name": "Relational DBs", "level": "middle", "years": 3.0, "must_have": true},
+    {"skill": "data_analysis", "name": "analytical and statistical software solutions", "level": "junior", "years": null, "must_have": false},
+    {"skill": "data_warehouse", "name": "data lake house, data services (Trino)", "level": "junior", "years": null, "must_have": false},
+    {"skill": "docker", "name": "Docker", "level": "junior", "years": null, "must_have": false},
+    {"skill": "rabbitmq", "name": "RabbitMQ", "level": "junior", "years": null, "must_have": false},
+    {"skill": "software_architecture", "name": "Event Sourcing systems", "level": "junior", "years": null, "must_have": false}
+  ],
+  "soft_skills": [],
+  "domain_experience": [],
+  "legal": [
+    {"condition": "work_permit", "detail": "Austria", "must_have": true},
+    {"condition": "citizenship", "detail": "Ukrainian, relocated after the full-scale invasion began", "must_have": true},
+    {"condition": "relocation", "detail": "Vienna, daily office (up to 24 remote days a year)", "must_have": true}
+  ]
+}

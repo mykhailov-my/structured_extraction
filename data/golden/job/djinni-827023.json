@@ -1,0 +1,37 @@
+{
+  "title": "Senior Python Developer",
+  "seniority": "senior",
+  "company_type": "outsource",
+  "domain": "other",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "worldwide",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 7.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "b2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python", "level": "senior", "years": 7.0, "must_have": true},
+    {"skill": "flask", "name": "Flask", "level": "senior", "years": null, "must_have": true},
+    {"skill": "sqlalchemy", "name": "SQLAlchemy", "level": "senior", "years": null, "must_have": true},
+    {"skill": "pandas", "name": "Pandas", "level": "senior", "years": null, "must_have": true},
+    {"skill": "numpy", "name": "NumPy", "level": "senior", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "middle", "years": null, "must_have": true},
+    {"skill": "kubernetes", "name": "Kubernetes", "level": "middle", "years": null, "must_have": true},
+    {"skill": "software_architecture", "name": "software architecture", "level": "expert", "years": null, "must_have": true},
+    {"skill": "software_design", "name": "design patterns", "level": "expert", "years": null, "must_have": true},
+    {"skill": "algorithms", "name": "algorithmic complexity, optimization techniques", "level": "senior", "years": null, "must_have": true}
+  ],
+  "soft_skills": [
+    {"skill": "problem_solving", "name": "Proven track record of solving complex technical and performance problems, handling complex, loosely defined business logic", "level": "senior", "must_have": true},
+    {"skill": "ownership", "name": "Autonomous, owning hard problems end to end", "level": "middle", "must_have": true}
+  ],
+  "domain_experience": [
+    {"domain": "healthcare", "years": null, "must_have": false},
+    {"domain": "sports_fitness", "years": null, "must_have": false}
+  ],
+  "legal": []
+}

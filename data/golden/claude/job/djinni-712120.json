@@ -1,0 +1,33 @@
+{
+  "title": "Trainee/Junior Python/Django Developer",
+  "seniority": "intern",
+  "company_type": "product",
+  "domain": "saas",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "ukraine",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 0.0,
+  "salary": {"min_amount": 100, "max_amount": 350, "currency": "USD", "period": "month"},
+  "languages": [
+    {"language": "english", "level": "a2", "must_have": true},
+    {"language": "ukrainian", "level": "native", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "sql", "name": "SQL", "level": "basic", "years": null, "must_have": true},
+    {"skill": "orm", "name": "ORM", "level": "basic", "years": null, "must_have": true},
+    {"skill": "git", "name": "Git", "level": "junior", "years": null, "must_have": true},
+    {"skill": "django", "name": "Django", "level": "junior", "years": null, "must_have": true},
+    {"skill": "html_css", "name": "HTML5, CSS3, Bootstrap5", "level": "junior", "years": null, "must_have": true},
+    {"skill": "javascript", "name": "JS", "level": "junior", "years": null, "must_have": true},
+    {"skill": "other", "name": "HTMX, Alpine.js", "level": "junior", "years": null, "must_have": false},
+    {"skill": "python", "name": "Python", "level": "junior", "years": null, "must_have": true},
+    {"skill": "postgresql", "name": "PostgreSQL", "level": "basic", "years": null, "must_have": true},
+    {"skill": "docker", "name": "Docker", "level": "basic", "years": null, "must_have": true},
+    {"skill": "agile", "name": "Agile Project Management", "level": "basic", "years": null, "must_have": true}
+  ],
+  "soft_skills": [],
+  "domain_experience": [],
+  "legal": []
+}

@@ -53,6 +53,28 @@ def test_parse_job_reads_the_parts_of_the_page():
     )
 
 
+def test_skills_with_years_stay_whole_and_out_of_the_languages():
+    """Since 2025 a skill can come with the years of experience asked for in it. Those rows
+    look like the language rows, and the sidebar repeats them in a table."""
+    rows = "".join(
+        f'<div class="detail-rows__line"><span class="detail-rows__name">{name}</span>'
+        f'<span class="detail-rows__rule"></span><span class="detail-rows__value">{years}</span>'
+        "</div>"
+        for name, years in (("Go", "3 роки"), ("Kafka", "6 місяців"))
+    )
+    html = JOB_PAGE.replace(
+        "<div><span>Go, PostgreSQL</span>",
+        f'<div class="detail-rows">{rows}</div><div><span>PostgreSQL</span>',
+    ).replace(
+        '<div class="fw-medium">Golang</div>',
+        '<div class="fw-medium">Golang</div><table><tr><td>Go</td><td>3 роки</td></tr></table>',
+    )
+    page = parse_job(html)
+    assert page.skills == ["Go: 3 роки", "Kafka: 6 місяців", "PostgreSQL", "Kafka", "Kubernetes"]
+    assert page.languages == ["Англійська: B2 – Вище середнього"]
+    assert "3 роки" not in page.facts
+
+
 @pytest.mark.parametrize(
     "marks",
     [

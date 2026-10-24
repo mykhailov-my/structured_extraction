@@ -4,7 +4,12 @@ Every leaf field of the schema gets a score from 0 to 1 per golden document:
   - enums and numbers: exact match; null == null is a hit ("not stated" is an answer too);
   - free text: F1 over words ("Senior Python Developer" vs "Python Developer" = 0.8);
   - lists: F1 over normalised items ("Node.js" == "nodejs"; order doesn't matter);
-  - nested objects are flattened ("salary.max_amount"); a null object has null leaves.
+  - nested objects are flattened ("salary.max_amount"); a null object has null leaves;
+  - lists of objects (the requirements) are paired by their first field, an id: python with
+    python. Two `other` items pair by their own words instead: the same name, or one that
+    only adds words to it ("Telegram bots" and "Telegram bots API"). The ids score like a
+    list, and the other fields, free text aside, are scored on the pairs only
+    ("hard_skills.level").
 An answer that failed validation scores 0 on every field. A provider error (no answer at
 all) is left out of accuracy and counted in the error rate instead.
 """
@@ -24,8 +29,9 @@ from extraction.config import Config
 from extraction.data import load_golden
 from extraction.results import ExtractionResult, read_results
 from extraction.schemas import SCHEMAS
+from extraction.skills import OTHER
 
-Kind = Literal["exact", "text", "list"]
+Kind = Literal["exact", "text", "list", "records"]
 
 
 @dataclass
@@ -99,14 +105,16 @@ def score_run(
             mismatches.append(
                 Mismatch(result.run, result.doc_id, "*", 0.0, None, f"<{result.status}> {errors}")
             )
-        for path, kind in fields:
-            want, got = lookup(expected, path), lookup(result.output, path)
-            value = score(kind, want, got) if result.output is not None else 0.0
+            for path, _ in fields:
+                field_scores[path].append(0.0)
+            continue
+        scores, misses = score_document(fields, expected, result.output)
+        for path, value in scores.items():
             field_scores[path].append(value)
-            if value < 1 and result.output is not None:
-                mismatches.append(
-                    Mismatch(result.run, result.doc_id, path, round(value, 2), want, got)
-                )
+        mismatches += [
+            Mismatch(result.run, result.doc_id, path, round(value, 2), want, got)
+            for path, value, want, got in misses
+        ]
     field_accuracy = {path: mean(values) for path, values in field_scores.items() if values}
     latencies = [result.latency_ms / 1000 for result in answered]
     costs = [result.cost_usd for result in answered]
@@ -134,20 +142,81 @@ def score_run(
 
 
 def leaf_fields(model: type[BaseModel], prefix: str = "") -> list[tuple[str, Kind]]:
-    """Dotted paths of the schema's leaf fields and how each one is scored."""
+    """Dotted paths of the schema's leaf fields and how each one is scored. A list of objects
+    is "records", followed by the fields its pairs are scored on: all but the first, the id
+    they pair by, and free text, which only names them."""
     fields: list[tuple[str, Kind]] = []
     for name, info in model.model_fields.items():
         annotation = _without_none(info.annotation)
         path = prefix + name
-        if isinstance(annotation, type) and issubclass(annotation, BaseModel):
+        item = get_args(annotation)[0] if get_origin(annotation) is list else None
+        if _is_model(annotation):
             fields += leaf_fields(annotation, f"{path}.")
-        elif get_origin(annotation) is list:
+        elif _is_model(item):
+            scored = [field for field in leaf_fields(item, f"{path}.")[1:] if field[1] != "text"]
+            fields += [(path, "records"), *scored]
+        elif item is not None:
             fields.append((path, "list"))
         elif annotation is str:
             fields.append((path, "text"))
         else:
             fields.append((path, "exact"))
     return fields
+
+
+def score_document(
+    fields: list[tuple[str, Kind]], expected: dict[str, Any], predicted: dict[str, Any]
+) -> tuple[dict[str, float], list[tuple[str, float, Any, Any]]]:
+    """One answer against its label: the score of every field, and (field, score, expected,
+    predicted) for each miss. A field of records has a score only if some records paired."""
+    scores: dict[str, float] = {}
+    misses: list[tuple[str, float, Any, Any]] = []
+    paired: dict[str, list[tuple[dict[str, Any], dict[str, Any]]]] = {}
+    for path, kind in fields:
+        records, _, key = path.rpartition(".")
+        if records in paired:  # "hard_skills.level": on the pairs only
+            values = []
+            for want, got in paired[records]:
+                values.append(score(kind, want[key], got[key]))
+                if values[-1] < 1:
+                    misses.append((path, values[-1], _named(want, key), _named(got, key)))
+            if values:
+                scores[path] = mean(values)
+            continue
+        want, got = lookup(expected, path), lookup(predicted, path)
+        if kind == "records":
+            want, got = want or [], got or []
+            pairs = paired[path] = match_records(want, got)
+            value = 2 * len(pairs) / (len(want) + len(got)) if want or got else 1.0
+            if value < 1:  # the names left without a pair
+                in_pairs = {id(record) for pair in pairs for record in pair}
+                missed = [_name(record) for record in want if id(record) not in in_pairs]
+                extra = [_name(record) for record in got if id(record) not in in_pairs]
+                misses.append((path, value, missed, extra))
+        else:
+            value = score(kind, want, got)
+            if value < 1:
+                misses.append((path, value, want, got))
+        scores[path] = value
+    return scores, misses
+
+
+def match_records(
+    expected: list[dict[str, Any]], predicted: list[dict[str, Any]]
+) -> list[tuple[dict[str, Any], dict[str, Any]]]:
+    """(expected, predicted) pairs of records with the same id, or, for two `other` records,
+    the same name ignoring case and punctuation, then a name that adds words to the other.
+    A record is in one pair at most."""
+    pairs = []
+    expected, predicted = list(expected), list(predicted)
+    for alike in (_same_name, _other_within):
+        for want in list(expected):
+            got = next((got for got in predicted if alike(_name(want), _name(got))), None)
+            if got is not None:
+                pairs.append((want, got))
+                expected.remove(want)
+                predicted.remove(got)
+    return pairs
 
 
 def lookup(data: dict[str, Any] | None, path: str) -> Any:
@@ -245,6 +314,36 @@ def _without_none(annotation: Any) -> Any:
         if len(args) == 1:
             return args[0]
     return annotation
+
+
+def _is_model(annotation: Any) -> bool:
+    return isinstance(annotation, type) and issubclass(annotation, BaseModel)
+
+
+def _name(record: dict[str, Any]) -> str:
+    """What a record goes by: its first field, as the schema orders them, which is an id; or,
+    for `other`, "other: " and the record's own words."""
+    key = str(next(iter(record.values())))
+    if key != OTHER:
+        return key
+    return f"{OTHER}: {record.get('name') or record.get('detail') or ''}"
+
+
+def _named(record: dict[str, Any], key: str) -> dict[str, Any]:
+    """A record's name and one other field, to show in mismatches.csv."""
+    return {"name": _name(record), key: record[key]}
+
+
+def _same_name(a: str, b: str) -> bool:
+    return _item(a) == _item(b)
+
+
+def _other_within(a: str, b: str) -> bool:
+    """Two `other` records, one of whose names only adds words to the other's."""
+    if not (a.startswith(f"{OTHER}:") and b.startswith(f"{OTHER}:")):
+        return False
+    words_a, words_b = set(_words(a)), set(_words(b))
+    return words_a <= words_b or words_b <= words_a
 
 
 def _item(value: Any) -> str:

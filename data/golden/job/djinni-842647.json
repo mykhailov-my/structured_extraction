@@ -1,0 +1,36 @@
+{
+  "title": "Senior Python Backend Developer",
+  "seniority": "senior",
+  "company_type": "mixed",
+  "domain": "crypto",
+  "employment": "full_time",
+  "work_formats": ["remote"],
+  "candidate_location": "worldwide",
+  "candidate_countries": [],
+  "office_cities": [],
+  "min_experience_years": 3.0,
+  "salary": null,
+  "languages": [
+    {"language": "english", "level": "a2", "must_have": true},
+    {"language": "ukrainian", "level": "c2", "must_have": true}
+  ],
+  "hard_skills": [
+    {"skill": "python", "name": "Python backend", "level": "senior", "years": 3.0, "must_have": true},
+    {"skill": "async_programming", "name": "asyncio, async Python, concurrency, race conditions", "level": "middle", "years": null, "must_have": true},
+    {"skill": "fastapi", "name": "FastAPI", "level": "junior", "years": null, "must_have": true},
+    {"skill": "pydantic", "name": "Pydantic", "level": "junior", "years": null, "must_have": true},
+    {"skill": "postgresql", "name": "PostgreSQL", "level": "middle", "years": null, "must_have": true},
+    {"skill": "sql", "name": "SQL", "level": "middle", "years": null, "must_have": true},
+    {"skill": "software_architecture", "name": "distributed/event-driven systems, retries, idempotency, partial failures", "level": "junior", "years": null, "must_have": true},
+    {"skill": "kafka", "name": "Kafka", "level": "junior", "years": null, "must_have": true},
+    {"skill": "message_queues", "name": "NATS", "level": "junior", "years": null, "must_have": true},
+    {"skill": "rabbitmq", "name": "RabbitMQ", "level": "junior", "years": null, "must_have": true},
+    {"skill": "rest_api", "name": "third-party API integration", "level": "junior", "years": null, "must_have": true}
+  ],
+  "soft_skills": [
+    {"skill": "ownership", "name": "Самостійність (autonomy)", "level": "middle", "must_have": true},
+    {"skill": "problem_solving", "name": "Working on technically complex tasks", "level": "middle", "must_have": true}
+  ],
+  "domain_experience": [],
+  "legal": []
+}

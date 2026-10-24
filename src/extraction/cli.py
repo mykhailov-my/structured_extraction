@@ -10,13 +10,15 @@ from pathlib import Path
 from dotenv import load_dotenv
 from pydantic import ValidationError
 
-from extraction.collect.djinni_archive import FIRST_YEAR, crawl_archive
-from extraction.collect.djinni_jobs import crawl_jobs
-from extraction.collect.polite import FetchError
+from extraction.collect.djinni_archive import FIRST_YEAR, captures, crawl_archive
+from extraction.collect.djinni_ids import FIRST_2025, crawl_ids, listed
+from extraction.collect.djinni_jobs import crawl_jobs, discover
+from extraction.collect.polite import FetchError, PoliteClient
 from extraction.collect.postings import build_postings
 from extraction.config import Config, load_config
 from extraction.data import golden_paths, load_documents
 from extraction.evaluate import evaluate, render_markdown
+from extraction.labelling import DEFAULT_PORT, LabelStore, serve
 from extraction.pipeline import extract
 from extraction.prompts import load_prompt
 from extraction.providers import ProviderError, create_provider
@@ -141,6 +143,15 @@ def _check(config: Config, args: argparse.Namespace) -> int:
     return 1 if problems else 0
 
 
+def _label(config: Config, args: argparse.Namespace) -> int:
+    store = LabelStore(config.data_dir)
+    if not store.order:
+        log.error("no texts to label in data/texts/job/")
+        return 1
+    serve(store, port=args.port, open_browser=not args.no_browser)
+    return 0
+
+
 def _crawl_jobs(config: Config, args: argparse.Namespace) -> int:
     try:
         saved = crawl_jobs(
@@ -173,9 +184,54 @@ def _crawl_archive(config: Config, args: argparse.Namespace) -> int:
     return 0
 
 
+def _crawl_djinni(config: Config, args: argparse.Namespace) -> int:
+    first, last = args.ids
+    urls: dict[int, str] = {}
+    try:
+        with PoliteClient(delay_s=args.delay) as client:
+            if last is None:  # up to the newest posting
+                last = max(int(item.job_id) for item in discover(client))
+            if args.keyword:  # the open postings Djinni lists, and the ones the archive has
+                urls = _archived_urls(config, args.keyword) | listed(client, args.keyword)
+        ids = range(first, last + 1)
+        if args.keyword:
+            ids = sorted(job_id for job_id in urls if first <= job_id <= last)
+            log.info(
+                "%d %s postings to look at, from Djinni's list and the archive",
+                len(ids),
+                args.keyword,
+            )
+        fetched = crawl_ids(
+            config.data_dir.parent / ".cache" / "djinni",
+            ids,
+            urls=urls,
+            workers=args.workers,
+            delay_s=args.delay,
+            limit=args.limit,
+        )
+    except FetchError as e:
+        log.error("crawl stopped: %s", e)
+        return 1
+    log.info("fetched %d pages into .cache/djinni/pages/ (ids %d to %d)", fetched, first, last)
+    return 0
+
+
+def _archived_urls(config: Config, keyword: str) -> dict[int, str]:
+    """Postings with the keyword in their slug that the archive's index lists (crawl-archive
+    --keyword), at their djinni.co URLs."""
+    cache = config.data_dir.parent / ".cache" / "wayback"
+    lines = [
+        line
+        for path in cache.glob(f"{keyword.lower()}-*.txt")
+        for line in path.read_text().splitlines()
+    ]
+    return {job_id: group[0].url.split("?")[0] for job_id, group in captures(lines).items()}
+
+
 def _build_postings(config: Config, args: argparse.Namespace) -> int:
     years = build_postings(
         config.data_dir.parent / ".cache" / "wayback",
+        config.data_dir.parent / ".cache" / "djinni",
         config.data_dir / "scraped" / "job",
         config.data_dir / "postings",
     )
@@ -187,6 +243,12 @@ def _build_postings(config: Config, args: argparse.Namespace) -> int:
 
 def _names(value: str) -> list[str]:
     return [name.strip() for name in value.split(",") if name.strip()]
+
+
+def _id_range(value: str) -> tuple[int, int | None]:
+    """ "700000-854901", or "700000-" for up to the newest posting."""
+    first, _, last = value.partition("-")
+    return int(first), int(last) if last else None
 
 
 def _years(value: str) -> range:
@@ -227,6 +289,11 @@ def _parser() -> argparse.ArgumentParser:
     check = commands.add_parser("check", help="count texts and labels, validate the golden set")
     check.set_defaults(handler=_check)
 
+    label = commands.add_parser("label", help="write the golden labels in a local web page")
+    label.add_argument("--port", type=int, default=DEFAULT_PORT, help="(default: %(default)s)")
+    label.add_argument("--no-browser", action="store_true", help="don't open the page")
+    label.set_defaults(handler=_label)
+
     jobs = commands.add_parser("crawl-jobs", help="collect public job postings from djinni.co")
     jobs.add_argument("--count", type=int, default=20, help="new postings to save (%(default)s)")
     jobs.add_argument(
@@ -249,6 +316,28 @@ def _parser() -> argparse.ArgumentParser:
         "--delay", type=float, default=5.0, help="seconds between requests (%(default)s)"
     )
     archive.set_defaults(handler=_crawl_archive)
+
+    djinni = commands.add_parser(
+        "crawl-djinni", help="fetch every posting in a range of job ids from djinni.co"
+    )
+    djinni.add_argument(
+        "--ids",
+        type=_id_range,
+        default=f"{FIRST_2025}-",
+        help="first-last job id; first- for up to the newest (default: %(default)s, 2025 on)",
+    )
+    djinni.add_argument("--workers", type=int, default=1, help="requests at a time (%(default)s)")
+    djinni.add_argument(
+        "--delay",
+        type=float,
+        default=3.0,
+        help="seconds between a worker's requests (%(default)s); Djinni blocks IPs that rush",
+    )
+    djinni.add_argument(
+        "--keyword", help="only these postings, e.g. Python: Djinni's list and the archive's"
+    )
+    djinni.add_argument("--limit", type=int, help="stop after this many ids")
+    djinni.set_defaults(handler=_crawl_djinni)
 
     postings = commands.add_parser(
         "build-postings", help="every collected posting in one format: data/postings/<year>.jsonl"
