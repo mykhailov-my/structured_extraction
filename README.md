@@ -264,4 +264,6 @@ REPORT.md            the comparison report
 - [ ] The labels checked by hand in `make label`: 0 of 30
 - [x] Steps 1–2 (baseline and measurements): checkpoint 24.10; accuracy is against Claude's
   labels until they're checked
-- [ ] Prompt v2 and REPORT.md: deadline 27.10
+- [x] Prompt v2, the golden set's seniority and level rules: levels improved, seniority
+  didn't ([prompts/CHANGELOG.md](prompts/CHANGELOG.md))
+- [ ] REPORT.md: deadline 27.10
