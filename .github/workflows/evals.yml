@@ -1,0 +1,53 @@
+# Homework 2: on every push and pull request, the tests, then the RAG's evals. The run fails
+# when a metric falls below its threshold in rag.yaml (`python main.py rag all` exits 1).
+# Needs the repository secret OPENROUTER_API_KEY (Settings > Secrets and variables > Actions).
+
+name: evals
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --locked
+
+      - name: Lint and unit tests (offline)
+        run: |
+          uv run ruff check .
+          uv run pytest -q
+
+      # The reranker (bge-reranker-v2-m3, INT8 ONNX, 0.57 GB) downloads once, then comes from
+      # the cache. Embeddings come from data/rag/embeddings.jsonl, committed.
+      - uses: actions/cache@v4
+        with:
+          path: .cache/fastembed
+          key: fastembed-bge-reranker-v2-m3-int8
+
+      - name: No key, no evals
+        if: env.OPENROUTER_API_KEY == ''
+        run: |
+          echo "::error::The OPENROUTER_API_KEY secret is not set, so the evals can't run."
+          exit 1
+
+      - name: RAG evals, failing below the thresholds in rag.yaml
+        run: uv run python main.py rag all
+
+      - name: Keep the results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-results
+          path: evals/results/

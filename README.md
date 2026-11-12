@@ -1,14 +1,23 @@
 # structured_extraction
 
-Turns messy Djinni texts (job postings and candidate CVs) into JSON that matches a schema, and
-measures which model, prompt and sampling settings should do it in production. It compares a
-24B hosted model with a 9B open-weight one small enough for a laptop, both through
-[OpenRouter](https://openrouter.ai) (the 9B one can run on [Ollama](https://ollama.com)
-instead), scored on a golden set of 30 labelled Python postings.
+The course project of the AI Engineering course: the Python job market in Ukraine, as Djinni
+shows it. It has two parts so far, and the block 3 agent will work on the second part's
+corpus.
 
-This is Homework 1 of the AI Engineering course ("Structured Extraction Service") and the first
-part of the course project. A crawler that fills `data/` comes next, then RAG and an agent on
-top of the extracted data.
+- **Block 2, RAG with sources and evals (homework 2):** it answers questions about Djinni
+  postings and official documents on working in Ukrainian IT.
+  - Every claim cites its document and section, and the answer is "not in the documents" when
+    they don't have it.
+  - The evals check retrieval and answers on every push.
+  - See [RAG (block 2)](#rag-block-2) and [REPORT.md](REPORT.md).
+- **Block 1, structured extraction (homework 1):** it turns messy Djinni texts (job postings
+  and candidate CVs) into JSON that matches a schema.
+  - It measures which model, prompt and sampling settings should do it in production. A 24B
+    hosted model and a 9B open-weight one, small enough for a laptop, are compared, both
+    through [OpenRouter](https://openrouter.ai). The 9B one can run on
+    [Ollama](https://ollama.com) instead.
+  - Both are scored on a golden set of 30 labelled Python postings.
+  - The report template is [docs/block1-report.md](docs/block1-report.md).
 
 ## Quick start
 
@@ -22,7 +31,9 @@ make data      # optional: crawl more job postings from djinni.co
 make archive   # optional: every Djinni posting in the Wayback Machine (about a week)
 make postings  # all collected postings in one format: data/postings/<year>.jsonl
 make label     # check the golden labels in a page in your browser
-make run       # every experiment in config.yaml, then the metrics
+make run       # block 1: every experiment in config.yaml, then the metrics
+make rag       # block 2: ingest data/rag/raw/, measure retrieval, answer and score the test set
+make ask Q="Чи розглядає RenovateHub кандидатів без досвіду?"   # block 2: one question
 ```
 
 `make run` is `uv run python main.py run`. Without uv:
@@ -40,6 +51,192 @@ make run       # every experiment in config.yaml, then the metrics
 | `python main.py crawl-djinni` | Fetches every posting in a range of job ids from djinni.co into a cache (see [2025–2026](#20252026-straight-from-djinnico)). |
 | `python main.py build-postings` | Writes every collected posting, live and archived, in one format to `data/postings/<year>.jsonl`. |
 | `make test`, `make lint` | Offline unit tests; ruff. |
+
+## RAG (block 2)
+
+Questions about Python jobs in Ukraine, answered from the documents with the sources cited:
+
+```bash
+make rag     # ingest data/rag/raw/, measure retrieval, answer and score the test set
+make ask Q="Яка компанія годує команду обідами в київському офісі?"
+python main.py rag search "relocation to Portugal" --mode bm25   # or vector, hybrid, rerank
+```
+
+`make rag` is `python main.py rag all`. CI runs the same command on every push and pull
+request (`.github/workflows/evals.yml`) and fails when a metric falls below its threshold in
+`rag.yaml`. It needs `OPENROUTER_API_KEY` in `.env`, or as a repository secret for CI. The
+results go to `evals/results/`, and the analysis is in [REPORT.md](REPORT.md).
+
+```text
+data/rag/raw/  HTML, PDF, DOCX ──► ingest: structure, cleaning, dedup ──► documents.jsonl, manifest.json
+               ──► chunk by sections ──► chunks.jsonl ──► BM25 + bge-m3 vectors (Qdrant) ──► RRF
+               ──► bge-reranker ──► best passages within 1,800 tokens ──► answer with [n] citations
+                                                                      └─► or "not in the documents"
+```
+
+| Step | Code | Output |
+|---|---|---|
+| Corpus | `src/rag/corpus.py` | `data/rag/raw/{djinni,official}/` with `sources.json` |
+| Ingestion | `src/rag/ingest.py` | `data/rag/documents.jsonl`, `data/rag/manifest.json` |
+| Chunking | `src/rag/chunking.py` | `data/rag/chunks.jsonl`, `data/rag/chunks_fixed.jsonl` |
+| Search | `src/rag/search.py` | `data/rag/embeddings.jsonl` (the embedding cache) |
+| Answers | `src/rag/answer.py`, `prompts/rag/` | |
+| Evals | `src/rag/evaluate.py`, `evals/` | `evals/results/` |
+
+### Corpus
+
+62 files in three formats. [`data/rag/manifest.json`](data/rag/manifest.json) lists every
+file: format, size, hashes, status and chunk counts.
+
+- **50 Djinni postings (HTML), 2019–2026.** They are block 1's golden postings, reposts of two
+  of them, and earlier and later postings of eight companies (Luxoft, Sigma Software,
+  GlobalLogic, Ajax Systems, DataArt, N-iX, Intellias, Dataforest). So look-alike postings and
+  outdated versions are there to trip the search up. They are copied from the crawlers'
+  caches without recruiters' names, links and photos, and without contact details in the
+  text.
+- **12 official documents (9 PDF, 3 DOCX), 2016–2026.** They come from government sites, on
+  what postings refer to:
+  - reservation of employees (Resolution 692 amending Resolution 76, the Ministry of Economy's
+    letters, a regional administration's FAQ and form);
+  - military registration;
+  - labour relations under martial law (the Supreme Court's review);
+  - Diia City.
+
+  The copies have the names and direct phones of the officials who signed or prepared them
+  blacked out, and no metadata. FOP taxation is missing: the tax service's sites refuse
+  automated downloads (403), and zakon.rada.gov.ua's robots.txt bars them.
+
+### Ingestion
+
+`python main.py rag ingest` turns each raw file into Markdown with its metadata (source URL,
+title, date or edition, language, company or publisher, hashes).
+
+- **Structure:**
+  - Djinni pages go through the crawler's parser, which drops the page's chrome.
+  - The description's own section titles become headings ("Requirements:", "Що пропонуємо:").
+  - PDF headings come from font size and weight per text block, so a bold word inside a
+    paragraph is not a heading, and a title wrapped over lines is one heading.
+  - Laws' "Розділ", "Глава" and "Стаття" lines are headings whatever their font.
+  - PDF tables are detected and kept as Markdown tables, and so are DOCX tables; bullets and
+    numbered items become list items.
+- **Cleaning:** Unicode NFC; non-breaking and zero-width spaces and soft hyphens; words
+  hyphenated across PDF lines; running headers, footers and page numbers (a line at a page's
+  edge that repeats on most pages).
+- **Deduplication:**
+  - A SHA-256 of the text without the posting's date drops an exact repost: RenovateHub's
+    trainee posting was reposted word for word.
+  - Near-duplicates (word 5-shingles, Jaccard ≥ 0.85) stay, but the older one is marked
+    superseded: the same posting reposted with a change. RenovateHub's January posting
+    required half a year of experience, and the February repost also takes candidates with
+    none.
+  - Editions of one official document are marked the same way.
+  - Superseded versions are kept out of search by default (`--all-versions` brings them back).
+  - In all: 1 duplicate, 4 superseded, 61 documents indexed.
+
+### Chunking
+
+Postings and laws have their own structure, and questions follow it. A question about a
+posting asks about one of its parts: what it requires, what it offers, its conditions (salary,
+format, English). A question about an official document asks about one provision, an article
+or a numbered point, or one of a FAQ's questions. So the chunks follow that structure:
+
+- A section (a heading and what follows it) of up to 400 tokens is one chunk.
+- A longer section is cut between paragraphs, list items or numbered points, into pieces of
+  about 250 tokens, never inside one.
+- Sections under 60 tokens join the next one: a posting's skills, languages and Djinni's
+  details make one chunk.
+- Each chunk starts with a header naming its document and section: "Senior Backend Engineer
+  (Python) — Proxet, 2026-10-21 › Description › Nice to have". Without it, a list of
+  requirements from one posting looks like any other's. With it, the company and the date are
+  in both the BM25 text and the embedding.
+
+The sizes are set by the documents. A posting section is 50–300 tokens, and a FAQ answer or a
+law's point is 100–400. So 250–400 holds one unit whole and stays well inside bge-m3's and the
+reranker's windows. Six of them fit the answer's context budget of 1,800 tokens.
+
+**Compared with fixed-size chunks** (250 tokens, 50 overlapping, the same header without the
+section), on the same 61 documents:
+
+| | Structural | Fixed |
+|---|--:|--:|
+| Chunks | 437 | 424 |
+| Median tokens (header included) | 233 | 283 |
+| Chunks that start or end inside a sentence or list item | 3% / 2% | 81% / 81% |
+| Chunks that mix two or more sections | 0% | 41% |
+| recall@5, search as used (hybrid + rerank) | **0.87** | 0.80 |
+| MRR, search as used | **0.74** | 0.68 |
+| recall@5 / MRR, vectors only | 0.73 / 0.51 | 0.73 / 0.56 |
+
+One posting shows the difference. Proxet's second fixed chunk starts mid-sentence
+("…across services, data flows, and deployment environments."). It holds the end of the
+requirements and the start of the nice-to-haves, and stops inside one ("Familiarity with
+simulation platforms, digital twins,"). So an answer from it can't tell a requirement from a
+plus. The structural chunk "Description › Nice to have" holds that list whole under its
+heading, and the answer cites the section by name.
+
+The retrieval numbers come from 15 questions, so one question moves recall by 0.07. With the
+reranker, structure wins by one question at recall@5 and by 0.06 in MRR. Vectors alone do a
+little better on fixed chunks: they are larger, and the embedding gets more context.
+- Where structure helps: a posting's sections and a FAQ's questions are units of meaning, and
+  their headers say which posting and which part.
+- Where it doesn't: a document with no headings, like Resolution 692's list of amendments, is
+  cut by size either way. Its "replace 2.5 with 3" sentence then lacks the line saying which
+  paragraph it changes (REPORT.md, error 1).
+
+The full table, every search mode on both chunkings, is in
+[evals/results/retrieval.md](evals/results/retrieval.md).
+
+### Search
+
+`src/rag/search.py` has four modes, so that each step is measured on its own:
+
+- `bm25`: lexical, with Ukrainian and English endings cut ("розробника" matches
+  "розробник").
+- `vector`: `baai/bge-m3` embeddings (multilingual, 1,024 dimensions, through OpenRouter) in
+  a Qdrant collection with cosine distance. Embeddings are cached by the text's hash in
+  `data/rag/embeddings.jsonl`, which is committed, so CI embeds only what changed.
+- `hybrid`: the top 30 of each, fused by reciprocal rank fusion (k = 60).
+- `rerank` (the default): the top 20 fused candidates rescored by `BAAI/bge-reranker-v2-m3`.
+  It is a multilingual cross-encoder, run as INT8 ONNX on the CPU through fastembed; it
+  downloads once, 0.57 GB.
+
+Metadata filters work in every mode, in Qdrant's payload filter and in BM25 alike:
+- the kind (`--kind posting|official`);
+- the earliest date (`--since 2025-01-01`);
+- the company;
+- the language;
+- the current version only, the default (`--all-versions` turns it off).
+
+### Answers
+
+`src/rag/answer.py` with `prompts/rag/answer_v1.yaml` (versions and changes in
+[prompts/CHANGELOG.md](prompts/CHANGELOG.md)):
+
+- **"Not in the documents"** comes in two steps.
+  - Before any model call: if the reranker scores even the best passage under 0.2, the
+    answer is "У документах цього немає." / "The documents don't say." On the test set,
+    answerable questions' best passages score 0.90–0.999, and off-topic questions' best
+    passages score 0.003–0.009.
+  - A near miss (the right posting, but it has no salary) gets past that step, so the prompt
+    makes the model say the same when the passages don't answer.
+- **Context budget:** the best passages, in order, while they fit in 1,800 tokens (o200k
+  tokenizer); the best one is cut to fit if it alone is too long.
+- **Sources:** the passages are numbered, and the model puts [n] after every sentence. The
+  numbers map back to the document and section shown under the answer, and the evals check
+  them.
+- **Conflicts:** each passage's header carries the document's date, and the prompt has the
+  newest win. Superseded versions are filtered out before that.
+
+### Evals
+
+[evals/README.md](evals/README.md) describes the files and every metric:
+- retrieval: recall@k and MRR for each mode and chunking;
+- answers: source accuracy (with forbidden sources for traps), key facts, abstention on
+  unanswerable questions and false abstention on answerable ones;
+- an LLM judge from another model family, calibrated against answers a person graded;
+- faithfulness, claim by claim against the passages.
+
+CI fails below the thresholds in `rag.yaml`.
 
 ## How it works
 
@@ -233,8 +430,9 @@ when the page, closed by now, shows none.
 ## Layout
 
 ```text
-main.py              entry point: python main.py
-config.yaml          the experiment: models, sampling, prompt versions
+main.py              entry point: python main.py (python main.py rag ... for block 2)
+config.yaml          block 1's experiment: models, sampling, prompt versions
+rag.yaml             block 2's RAG: models, prompt versions, search settings, CI thresholds
 src/extraction/
   schemas.py         JobPosting, CandidateProfile, the portable JSON schema
   providers/         the Provider interface, OpenRouter, Ollama
@@ -244,11 +442,22 @@ src/extraction/
   labelling.py       the labelling page (labelling.html) and its local server
   collect/           Djinni crawlers (live site, Wayback Machine), the one posting format
   cli.py             commands
-prompts/             versioned prompts and CHANGELOG.md
+src/rag/             block 2
+  corpus.py          picks the postings, strips people from pages, redacts official files
+  ingest.py          HTML, PDF, DOCX to Markdown; cleaning; duplicates and versions
+  chunking.py        by structure, and the fixed-size baseline
+  search.py          BM25, bge-m3 in Qdrant, fusion, the reranker, filters
+  answer.py          the context budget, the answer with sources, "not in the documents"
+  evaluate.py        retrieval and answer metrics, the judge, faithfulness, calibration
+  cli.py             python main.py rag ...
+prompts/             versioned prompts (prompts/rag/ for block 2) and CHANGELOG.md
 data/                texts, scraped records, golden labels; postings/ (git-ignored)
-results/             model outputs and metrics
+data/rag/            block 2's corpus (raw/), documents, chunks, manifest, embedding cache
+evals/               block 2's test sets, hand grades and results
+results/             block 1's model outputs and metrics
 tests/               offline tests with fake providers
-REPORT.md            the comparison report
+.github/workflows/   CI: tests and block 2's evals on every push
+REPORT.md            block 2's report (block 1's template: docs/block1-report.md)
 ```
 
 ## Roadmap
@@ -266,4 +475,9 @@ REPORT.md            the comparison report
   labels until they're checked
 - [x] Prompt v2, the golden set's seniority and level rules: levels improved, seniority
   didn't ([prompts/CHANGELOG.md](prompts/CHANGELOG.md))
-- [ ] REPORT.md: deadline 27.10
+- [ ] Block 1's REPORT (docs/block1-report.md): due 27.10, still a template
+- [x] Block 2: corpus of 62 files in 3 formats, ingestion, chunking, hybrid search with
+  reranking and filters, answers with sources, evals in CI
+- [ ] Block 2: the test set checked by a person, the judge calibrated on hand grades
+  (deadline 13.11)
+- [ ] Block 3: an agent on block 2's corpus

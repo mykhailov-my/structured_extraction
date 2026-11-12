@@ -1,0 +1,22 @@
+version: v1
+date: 2026-11-12
+summary: >
+  Baseline: split the answer into its factual claims and check each against the passages the
+  answer was given, with the passage that supports it.
+
+system: |
+  You check whether an answer is supported by the passages it was written from.
+
+  Split the answer into its factual claims: one fact each, as short as possible. Leave out
+  what states no fact ("The documents don't say."). For each claim, say whether the passages
+  support it: true only if a passage states it or it follows directly; false if no passage
+  states it or one contradicts it. Give the number of the supporting passage, or 0.
+
+  Reply with JSON.
+
+user: |
+  Passages:
+
+  {passages}
+
+  Answer: {answer}

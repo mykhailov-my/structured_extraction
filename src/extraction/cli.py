@@ -36,6 +36,10 @@ def main(argv: list[str] | None = None) -> int:
     logging.getLogger("httpx").setLevel(logging.WARNING)  # otherwise a line per HTTP request
     parser = _parser()
     argv = sys.argv[1:] if argv is None else argv
+    if argv[:1] == ["rag"]:  # homework 2: the RAG has its own commands
+        from rag.cli import main as rag_main
+
+        return rag_main(argv[1:])
     args = parser.parse_args(argv)
     if args.command is None:
         args = parser.parse_args([*argv, "run"])

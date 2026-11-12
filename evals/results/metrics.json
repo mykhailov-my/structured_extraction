@@ -1,0 +1,23 @@
+{
+  "questions": 26,
+  "by_type": {
+    "trap": 7,
+    "answerable": 13,
+    "unanswerable": 6
+  },
+  "source_accuracy": 0.95,
+  "trap_accuracy": 1,
+  "abstention": 1,
+  "false_abstention": 0.05,
+  "key_facts": 0.75,
+  "judge_correct": 0.8269230769230769,
+  "faithfulness": 1,
+  "latency_p50_s": 5.424517521005328,
+  "latency_p95_s": 6.997229332999268,
+  "cost_per_1k_questions_usd": 0.14583403846153845,
+  "judge_cost_per_1k_questions_usd": 0.39850769230769223,
+  "prompts": {
+    "answer": "v1",
+    "judge": "v1"
+  }
+}

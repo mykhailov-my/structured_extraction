@@ -63,3 +63,26 @@ v2.
 - Why: ... (runs and doc ids from results/mismatches.csv)
 - Effect: accuracy 0.xx -> 0.yy, valid xx% -> yy% (results/metrics.md)
 -->
+
+# RAG prompts (homework 2)
+
+The RAG's prompts are `prompts/rag/<name>_<version>.yaml`: `answer` (the answer with its
+sources), `judge` (an answer against the expected one) and `faithfulness` (an answer's claims
+against its passages). `rag.yaml` picks the versions. The same rule as above applies: a
+version with results is frozen, and a change is a new version with an entry here.
+
+## answer v1, judge v1, faithfulness v1 · 2026-11-12
+
+Baseline.
+- **answer:** uses only the numbered passages and cites [n] after every sentence.
+  - It says exactly "У документах цього немає." / "The documents don't say." when the passages
+    don't answer, or answer only part of what was asked.
+  - It keeps to the company and document the question names.
+  - When passages disagree, it takes the newest.
+- **judge:** grades correct, partial or incorrect by the rules a person grades by
+  (evals/README.md), giving its reason first.
+- **faithfulness:** splits the answer into claims and checks each against the passages.
+
+Before any model answers, retrieval already refuses: if the reranker scores even the best
+passage under `min_relevance`, the answer is "not in the documents" and the model isn't
+asked.
