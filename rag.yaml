@@ -4,13 +4,15 @@
 models:
   embeddings: baai/bge-m3                                # OpenRouter, $0.01 per 1M tokens
   reranker: BAAI/bge-reranker-v2-m3-int8                 # local cross-encoder (fastembed, CPU)
-  answer: mistralai/mistral-small-3.2-24b-instruct       # $0.075 in / $0.20 out per 1M tokens
+  answer: openai/gpt-6-luna                              # $0.10 in / $0.50 out per 1M tokens
   judge: anthropic/claude-haiku-5.5                      # $0.10 in / $0.50 out per 1M tokens
+  context: openai/gpt-6-luna                             # the chunks' contexts, once: $0.10 / $0.50
 
 prompts:            # prompts/rag/<name>_<version>.yaml; see prompts/CHANGELOG.md
-  answer: v1
+  answer: v2
   judge: v1
   faithfulness: v1
+  context: v2
 
 search:
   mode: rerank      # bm25, vector, hybrid or rerank
@@ -18,17 +20,21 @@ search:
   rerank_top: 20    # fused candidates the cross-encoder scores
   rrf_k: 60
   k: 6              # passages the answer may use
+  context: true     # search and show each chunk's context (contextual chunk headers)
 
 answer:
-  context_tokens: 1800   # the passages' budget in the prompt
+  context_tokens: 2400   # the passages' budget in the prompt: six, with their contexts
   min_relevance: 0.2     # best passage scored below this by the reranker: "not in the documents"
+  temperature: null      # the model's own: a reasoning model takes no other
+  max_tokens: 3000       # its thinking counts too
 
-# CI fails when a metric of the run falls below its threshold.
+# CI fails when a metric of the run falls below its threshold. Each sits below the committed
+# run with room for the run-to-run spread (REPORT.md: up to 0.06 on the judge).
 thresholds:
-  recall_at_5: 0.80        # retrieval questions, the mode above
-  source_accuracy: 0.75    # answerable questions whose answer cites a right source
-  abstention: 0.85         # unanswerable questions answered "not in the documents"
-  key_facts: 0.65          # expected facts found in the answers
-  judge_correct: 0.65      # the calibrated judge's "correct"
-  faithfulness: 0.80       # claims supported by the passages
+  recall_at_5: 0.90        # retrieval questions, the mode above: one miss of 15 passes
+  source_accuracy: 0.85    # answerable questions whose answer cites a right source
+  abstention: 0.85         # unanswerable questions answered "not in the documents": all 6
+  key_facts: 0.80          # expected facts found in the answers
+  judge_correct: 0.75      # the calibrated judge's "correct"
+  faithfulness: 0.90       # claims supported by the passages
   judge_agreement: 0.70    # the judge agrees with the hand grades

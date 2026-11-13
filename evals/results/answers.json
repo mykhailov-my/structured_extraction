@@ -4,7 +4,7 @@
     "type": "trap",
     "question": "Чи розглядає RenovateHub на позицію Trainee/Junior Python/Django кандидатів без досвіду?",
     "expected": "Так: у вакансії від 17.02.2025 вказано «від 0.5 років досвіду» і «також розглядаємо без досвіду».",
-    "answer": "Так, розглядає.\nвід 0.5 років досвіду\nТакож розглядаємо без досвіду [1].",
+    "answer": "Так, RenovateHub також розглядає кандидатів без досвіду [1].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -12,45 +12,35 @@
     ],
     "passages": [
       "djinni-720067#4",
-      "djinni-720067#1",
       "djinni-720067#3",
+      "djinni-720067#1",
       "djinni-720067#0",
-      "djinni-794469#1",
-      "djinni-720067#2"
+      "djinni-720067#2",
+      "djinni-712774#4"
     ],
-    "best_score": 0.9987749571676535,
-    "latency_s": 5.30005420800444,
+    "best_score": 0.9988043153715069,
+    "latency_s": 7.409087125000951,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
-    "verdict": "correct",
-    "judge_reason": "The answer affirms that RenovateHub considers candidates without experience and quotes the same key facts as the reference (from 0.5 years experience and 'also consider without experience'), with no contradictions; it omits the date 17.02.2025, a minor detail.",
+    "verdict": "partial",
+    "judge_reason": "The answer correctly says yes, RenovateHub considers candidates without experience, matching the reference's core fact, though it omits the specific details (0.5 years experience mention and the 17.02.2025 posting date) that the reference includes.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "The vacancy considers candidates with at least 0.5 years of experience.",
-        "supported": true,
-        "passage": 1
-      },
-      {
-        "claim": "The vacancy also considers candidates without experience.",
-        "supported": true,
-        "passage": 1
-      },
-      {
-        "claim": "The vacancy considers candidates.",
+        "claim": "RenovateHub considers candidates without experience.",
         "supported": true,
         "passage": 1
       }
     ],
-    "answer_sha": "66a1e4f5d53d"
+    "answer_sha": "f6303b3a63a6"
   },
   {
     "id": "q02",
     "type": "answerable",
     "question": "On which days and at what hours does Elogic's junior Python developer work?",
     "expected": "Only on weekends, Saturday and Sunday, from 7:00 to 23:00.",
-    "answer": "Elogic's junior Python developer works on weekends (Saturday and Sunday) from 7:00 to 23:00 by GMT+3 [1][2].",
+    "answer": "Elogic’s junior Python developer works Saturdays and Sundays, from 7:00 to 23:00 [1].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -59,44 +49,39 @@
     "passages": [
       "djinni-730767#1",
       "djinni-730767#0",
-      "djinni-730767#3",
       "djinni-730767#2",
-      "djinni-762194#4",
+      "djinni-730767#3",
+      "djinni-712774#0",
       "djinni-762194#0"
     ],
-    "best_score": 0.9922343179586115,
-    "latency_s": 5.5489808340062154,
+    "best_score": 0.9946956526984656,
+    "latency_s": 8.88067845900514,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer gives the same days (Saturday and Sunday, weekends only) and hours (7:00 to 23:00) as the reference, and the added GMT+3 timezone detail does not contradict it.",
+    "judge_reason": "The answer states weekends (Saturday and Sunday) and hours 7:00 to 23:00, matching the reference fully without contradiction.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "Elogic's junior Python developer works on weekends.",
+        "claim": "Elogic's junior Python developer works Saturdays and Sundays.",
         "supported": true,
         "passage": 1
       },
       {
-        "claim": "The junior Python developer works Saturday and Sunday.",
+        "claim": "Elogic's junior Python developer works from 7:00 to 23:00.",
         "supported": true,
         "passage": 1
-      },
-      {
-        "claim": "The junior Python developer works from 7:00 to 23:00 by GMT+3.",
-        "supported": true,
-        "passage": 2
       }
     ],
-    "answer_sha": "ad203210b1d7"
+    "answer_sha": "b5d7a990dd82"
   },
   {
     "id": "q03",
     "type": "answerable",
     "question": "What Dutch and English levels does PEXLY require from its Python developer?",
     "expected": "Dutch at C2 and English at B2.",
-    "answer": "PEXLY requires a Dutch C2 level and English B2 level or higher for its Python developer position [1][2][3][4][5].",
+    "answer": "PEXLY requires Dutch at C2 level and English at upper-intermediate level (B2) [1][4].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -105,39 +90,44 @@
     "passages": [
       "djinni-762194#0",
       "djinni-762194#9",
-      "djinni-762194#3",
-      "djinni-762194#2",
       "djinni-762194#7",
-      "djinni-762194#6"
+      "djinni-762194#2",
+      "djinni-762194#3",
+      "djinni-762194#8"
     ],
-    "best_score": 0.9954146062296,
-    "latency_s": 6.301771166996332,
+    "best_score": 0.9974145193762042,
+    "latency_s": 6.981958666998253,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer states Dutch C2 and English B2, matching the reference; the added phrase 'B2 level or higher' is a slight extension but does not contradict the reference's B2 requirement.",
+    "judge_reason": "The answer gives Dutch C2 and English B2, matching the reference; describing B2 as upper-intermediate is an accurate equivalent and the citations do not contradict it.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "PEXLY requires a Dutch C2 level for the Python developer position.",
+        "claim": "PEXLY requires Dutch at C2 level.",
+        "supported": true,
+        "passage": 1
+      },
+      {
+        "claim": "PEXLY requires English at upper-intermediate level.",
         "supported": true,
         "passage": 4
       },
       {
-        "claim": "PEXLY requires an English B2 level or higher for the Python developer position.",
+        "claim": "The English requirement is B2.",
         "supported": true,
-        "passage": 2
+        "passage": 1
       }
     ],
-    "answer_sha": "bb2a7d76b1c3"
+    "answer_sha": "ea9992ce9dfb"
   },
   {
     "id": "q04",
     "type": "answerable",
     "question": "Які протоколи передачі даних згадано у вакансії Python Developer (IOT) від Eleven?",
     "expected": "MQTT та HTTP.",
-    "answer": "У вакансії згадано протоколи MQTT та HTTP [1].",
+    "answer": "Згадано протоколи MQTT та HTTP [1].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -145,76 +135,76 @@
     ],
     "passages": [
       "djinni-816082#1",
-      "djinni-816082#3",
       "djinni-816082#2",
+      "djinni-816082#3",
       "djinni-816082#0",
       "djinni-816082#4",
-      "djinni-853661#0"
+      "djinni-712774#2"
     ],
-    "best_score": 0.9897057347600574,
-    "latency_s": 3.844697749998886,
+    "best_score": 0.9981875163381879,
+    "latency_s": 6.67860229100188,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer names MQTT and HTTP, which matches the reference answer exactly; the citation marker does not contradict anything.",
+    "judge_reason": "The answer names MQTT and HTTP, which matches the reference answer exactly; the citation marker [1] is extra formatting and does not contradict anything.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "The job posting mentions the MQTT protocol.",
+        "claim": "MQTT is mentioned as a protocol.",
         "supported": true,
         "passage": 1
       },
       {
-        "claim": "The job posting mentions the HTTP protocol.",
+        "claim": "HTTP is mentioned as a protocol.",
         "supported": true,
         "passage": 1
       }
     ],
-    "answer_sha": "743f7143ee1e"
+    "answer_sha": "261fb37e5546"
   },
   {
     "id": "q05",
     "type": "trap",
     "question": "How many years of experience does DataArt require for a Senior Python Developer?",
     "expected": "The current posting (April 2026, Senior Python Developer with experience in Django and AWS) asks for 6+ years of professional engineering experience. A 2019 posting asked for 3 years or more.",
-    "answer": "DataArt requires 6+ years of professional engineering experience for a Senior Python Developer [4].",
+    "answer": "DataArt requires 6+ years of professional engineering experience [3].",
     "abstained": false,
     "reason": "answered",
     "sources": [
       "djinni-819462"
     ],
     "passages": [
-      "djinni-819462#2",
       "djinni-73202#1",
-      "djinni-73202#3",
+      "djinni-819462#2",
       "djinni-819462#1",
-      "djinni-727693#1",
-      "djinni-827023#1"
+      "djinni-73202#3",
+      "djinni-819462#0",
+      "djinni-727693#1"
     ],
-    "best_score": 0.9936273656190943,
-    "latency_s": 6.773342583997874,
+    "best_score": 0.9990426714008508,
+    "latency_s": 7.867762249996304,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer gives the main required fact, 6+ years of professional engineering experience for a Senior Python Developer, which matches the reference's current posting. It omits the 2019 posting's 3-year figure, but the question asks for the current requirement, so nothing required is contradicted.",
+    "judge_reason": "The answer gives the main fact from the reference, 6+ years of professional engineering experience for the current Senior Python Developer posting, and contradicts nothing. It omits the 2019 posting's 3+ years, which the reference lists as extra context rather than a required fact.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "DataArt requires 6+ years of professional engineering experience for a Senior Python Developer",
+        "claim": "DataArt requires 6+ years of professional engineering experience.",
         "supported": true,
-        "passage": 4
+        "passage": 3
       }
     ],
-    "answer_sha": "dd25e3b0d3dc"
+    "answer_sha": "00dd777212d5"
   },
   {
     "id": "q06",
     "type": "answerable",
     "question": "What anti-bot measures should Meta Sistem's Python web crawling specialist be able to handle?",
     "expected": "Website restrictions, CAPTCHAs and other anti-bot measures; the posting also asks for proxy management and headless browsers.",
-    "answer": "[2] Handle various bot protections (e.g., Cloudflare) and implement advanced bypass techniques.",
+    "answer": "They should be able to handle website restrictions, CAPTCHAs, and other anti-bot measures, including protections such as Cloudflare, using advanced bypass techniques [1][2].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -225,37 +215,52 @@
       "djinni-731104#0",
       "djinni-731104#2",
       "djinni-71023#0",
-      "djinni-819872#3",
-      "djinni-827023#0"
+      "djinni-850751#0",
+      "djinni-819872#0"
     ],
-    "best_score": 0.9948809527706368,
-    "latency_s": 4.75452404099633,
+    "best_score": 0.9982902763669546,
+    "latency_s": 8.490817375000915,
     "abstention_ok": true,
     "source_ok": true,
-    "key_facts": 0,
+    "key_facts": 1,
     "verdict": "partial",
-    "judge_reason": "The answer captures the core fact that the role involves handling bot protections, which matches the reference's 'CAPTCHAs and other anti-bot measures', but it omits the reference's mention of website restrictions and proxy management/headless browsers and adds a Cloudflare example and 'advanced bypass techniques' not stated in the reference.",
+    "judge_reason": "The answer correctly names website restrictions, CAPTCHAs, and other anti-bot measures, matching the reference's main facts. It adds Cloudflare and 'advanced bypass techniques' with citations, which goes beyond the reference and may not be in the posting, but it does not contradict the reference. It omits the proxy management and headless browser requirements the reference mentions.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "The job involves handling various bot protections such as Cloudflare.",
+        "claim": "Candidates should be able to handle website restrictions.",
+        "supported": true,
+        "passage": 1
+      },
+      {
+        "claim": "Candidates should be able to handle CAPTCHAs.",
+        "supported": true,
+        "passage": 1
+      },
+      {
+        "claim": "Candidates should be able to handle other anti-bot measures.",
+        "supported": true,
+        "passage": 1
+      },
+      {
+        "claim": "The role includes handling protections such as Cloudflare.",
         "supported": true,
         "passage": 2
       },
       {
-        "claim": "The job involves implementing advanced bypass techniques for bot protections.",
+        "claim": "The role involves using advanced bypass techniques.",
         "supported": true,
         "passage": 2
       }
     ],
-    "answer_sha": "c39d6e1d5504"
+    "answer_sha": "02498d3e8b8b"
   },
   {
     "id": "q07",
     "type": "answerable",
     "question": "Besides English, which language is an advantage for the Python Developer at DocStudio?",
     "expected": "Spoken German is an advantage; B2 or C1 English is mandatory.",
-    "answer": "Віддалена робота тільки [1].",
+    "answer": "German, specifically spoken German [1].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -263,35 +268,40 @@
     ],
     "passages": [
       "djinni-726177#0",
-      "djinni-762194#3",
-      "djinni-762194#0",
+      "djinni-794469#1",
       "djinni-762194#7",
-      "djinni-706772#0",
-      "djinni-720067#4"
+      "djinni-730756#0",
+      "djinni-819462#2",
+      "djinni-762194#0"
     ],
-    "best_score": 0.864244088358668,
-    "latency_s": 5.076401209000323,
+    "best_score": 0.9214146773843752,
+    "latency_s": 8.368507582999882,
     "abstention_ok": true,
     "source_ok": true,
-    "key_facts": 0,
-    "verdict": "incorrect",
-    "judge_reason": "The reference says German is the advantage language, but the answer is in Ukrainian and says only 'Remote work only [1]', which does not name German or address the language question at all.",
+    "key_facts": 1,
+    "verdict": "correct",
+    "judge_reason": "The answer correctly identifies German (spoken) as the advantage language, matching the main fact in the reference; it omits the B2/C1 English requirement, which is a side detail not asked for in the question.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "Remote work only.",
+        "claim": "The answer is German.",
+        "supported": true,
+        "passage": 1
+      },
+      {
+        "claim": "Spoken German is an advantage for the Python/TypeScript Developer role.",
         "supported": true,
         "passage": 1
       }
     ],
-    "answer_sha": "0a78e17df696"
+    "answer_sha": "d3e3e951a581"
   },
   {
     "id": "q08",
     "type": "answerable",
     "question": "Які брокери повідомлень використовує Senior Python Backend Developer у Performa HR-agency?",
     "expected": "NATS JetStream і Kafka; кандидату потрібен досвід хоча б з одним із брокерів Kafka, NATS або RabbitMQ.",
-    "answer": "[3] NATS JetStream, Kafka",
+    "answer": "Вакансія вказує NATS JetStream і Kafka [2].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -299,40 +309,40 @@
     ],
     "passages": [
       "djinni-842647#3",
-      "djinni-842647#0",
       "djinni-842647#1",
       "djinni-842647#2",
-      "djinni-842647#5",
-      "djinni-842647#6"
+      "djinni-842647#4",
+      "djinni-842647#0",
+      "djinni-842647#5"
     ],
-    "best_score": 0.9740575581114913,
-    "latency_s": 4.850801332999254,
+    "best_score": 0.9886048042292891,
+    "latency_s": 7.713343916999293,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
-    "verdict": "correct",
-    "judge_reason": "The answer names NATS JetStream and Kafka, which matches the main facts in the reference (the brokers used). It omits the note that RabbitMQ is also listed as an acceptable experience option, but the core answer is correct and nothing contradicts the reference.",
+    "verdict": "partial",
+    "judge_reason": "The answer names NATS JetStream and Kafka, which matches the main facts in the reference; it omits the note that RabbitMQ experience is also acceptable, but that is a minor requirement detail rather than a contradiction.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "NATS JetStream is part of the tech stack.",
+        "claim": "The posting lists NATS JetStream and Kafka in its technology stack.",
         "supported": true,
-        "passage": 3
+        "passage": 2
       },
       {
-        "claim": "Kafka is part of the tech stack.",
+        "claim": "The posting is for a Senior Python Backend Developer at Performa HR-agency.",
         "supported": true,
-        "passage": 3
+        "passage": 1
       }
     ],
-    "answer_sha": "00488894e260"
+    "answer_sha": "fdb85ab8ec4e"
   },
   {
     "id": "q09",
     "type": "answerable",
     "question": "What is the maximum salary for Keymakr's Junior Python Software Engineer?",
     "expected": "Up to $700 a month.",
-    "answer": "до $700 [1, 2].",
+    "answer": "The maximum salary is $700 [2].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -343,32 +353,32 @@
       "djinni-764691#3",
       "djinni-764691#1",
       "djinni-764691#2",
-      "djinni-719228#0",
-      "djinni-730767#3"
+      "djinni-730767#0",
+      "djinni-720067#0"
     ],
-    "best_score": 0.9900347749823202,
-    "latency_s": 5.757795417004672,
+    "best_score": 0.9904359945577939,
+    "latency_s": 9.930567165996763,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer states up to $700, matching the reference's maximum salary of $700 a month; the Ukrainian phrasing 'до $700' means 'up to $700', and the citation markers do not change the meaning, though the reference's 'a month' period is omitted.",
+    "judge_reason": "The answer gives the maximum salary as $700, matching the reference's 'Up to $700 a month'; the missing 'a month' period is a minor omission that doesn't change the meaning.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "The salary is up to $700.",
+        "claim": "The maximum salary is $700.",
         "supported": true,
-        "passage": 1
+        "passage": 2
       }
     ],
-    "answer_sha": "1620016b64e2"
+    "answer_sha": "989fc7b26e30"
   },
   {
     "id": "q10",
     "type": "trap",
     "question": "What English level does Proxet require for the Senior Backend Engineer (Python)?",
     "expected": "B2 (Upper-Intermediate), and professional proficiency in English and Ukrainian for customer meetings.",
-    "answer": "Proxet requires a B2 or higher level of English for the Senior Backend Engineer (Python) position [1][2].",
+    "answer": "Proxet requires B2 (upper-intermediate) English [1].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -380,77 +390,72 @@
       "djinni-854534#2",
       "djinni-854534#1",
       "djinni-842647#6",
-      "djinni-849435#4"
+      "djinni-854360#1"
     ],
-    "best_score": 0.9988577996491661,
-    "latency_s": 5.833164958996349,
+    "best_score": 0.9993107291333841,
+    "latency_s": 8.933462000000873,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "partial",
-    "judge_reason": "The answer gives the core fact that B2 English is required, matching the reference, but omits the reference's additional detail about professional proficiency in English and Ukrainian for customer meetings; this is a missing detail rather than a contradiction, and 'B2 or higher' is a minor added nuance.",
+    "judge_reason": "The answer gives the core fact, B2 (upper-intermediate) English, matching the reference, but omits the reference's additional detail about professional proficiency in English and Ukrainian for customer meetings, making it partially complete.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "Proxet requires a B2 or higher level of English for the Senior Backend Engineer (Python) position.",
-        "supported": true,
-        "passage": 1
-      },
-      {
-        "claim": "The Senior Backend Engineer (Python) position at Proxet requires B2 English.",
+        "claim": "Proxet requires B2 (upper-intermediate) English.",
         "supported": true,
         "passage": 1
       }
     ],
-    "answer_sha": "8f52f1980bfe"
+    "answer_sha": "183c79e22447"
   },
   {
     "id": "q11",
     "type": "trap",
     "question": "What English level does Sigma Software ask from Python developers now?",
     "expected": "Upper-Intermediate (B2): the 2025 and 2026 postings ask for it. A 2019 posting asked for Intermediate.",
-    "answer": "Високий рівень володіння англійською мовою на рівні Upper-Intermediate [2, 5].",
+    "answer": "Sigma Software asks for Upper-Intermediate English (B2) [3][5].",
     "abstained": false,
     "reason": "answered",
     "sources": [
-      "djinni-772946"
+      "djinni-851569"
     ],
     "passages": [
-      "djinni-772946#5",
-      "djinni-772946#1",
-      "djinni-71023#2",
-      "djinni-851569#3",
       "djinni-772946#3",
-      "djinni-71023#3"
+      "djinni-772946#1",
+      "djinni-851569#3",
+      "djinni-772946#5",
+      "djinni-851569#1",
+      "djinni-71023#2"
     ],
-    "best_score": 0.9516332011774062,
-    "latency_s": 4.854049124995072,
+    "best_score": 0.9856426053246335,
+    "latency_s": 8.470379124999454,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer states Upper-Intermediate, matching the reference's main fact that current postings require Upper-Intermediate (B2); it omits the 2019 Intermediate comparison, which is a minor omission rather than a contradiction. The citation brackets and Ukrainian phrasing don't change the meaning.",
+    "judge_reason": "The answer gives Upper-Intermediate (B2), which matches the reference's main fact for current postings; it omits the 2019 Intermediate detail, but that is historical context rather than a required fact, and the citations are not contradicted.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "Потрібен високий рівень володіння англійською мовою.",
+        "claim": "Sigma Software asks for Upper-Intermediate English.",
         "supported": true,
-        "passage": 2
+        "passage": 5
       },
       {
-        "claim": "Рівень англійської мови — Upper-Intermediate.",
+        "claim": "Upper-Intermediate English is equivalent to B2 level.",
         "supported": true,
-        "passage": 2
+        "passage": 3
       }
     ],
-    "answer_sha": "8f4dde9c6e52"
+    "answer_sha": "257bc100da7b"
   },
   {
     "id": "q12",
     "type": "trap",
     "question": "Скільки років досвіду потрібно для Middle Python Developer в Ajax Systems?",
     "expected": "Від 2 років комерційної розробки (вакансія від 16.10.2026).",
-    "answer": "Для Middle Python Developer в Ajax Systems потрібно від 2 років досвіду [1].",
+    "answer": "Потрібно щонайменше 2 роки комерційного досвіду [2].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -459,39 +464,34 @@
     "passages": [
       "djinni-853661#5",
       "djinni-853661#1",
-      "djinni-712774#4",
-      "djinni-851569#1",
       "djinni-159551#3",
-      "djinni-796064#3"
+      "djinni-853661#2",
+      "djinni-159551#1",
+      "djinni-712774#4"
     ],
-    "best_score": 0.9959830828492384,
-    "latency_s": 4.0390764999974635,
+    "best_score": 0.9994701908597384,
+    "latency_s": 5.241374208002526,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer states the required experience as at least 2 years, matching the reference's core fact; it omits the 'commercial development' qualifier and the posting date, which are minor details rather than contradictions.",
+    "judge_reason": "The answer states the required minimum of 2 years of commercial experience, matching the reference's main fact; it omits the posting date detail but does not contradict it.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "Ajax Systems has a Middle Python Developer position.",
+        "claim": "Для вакансії потрібно щонайменше 2 роки комерційного досвіду.",
         "supported": true,
-        "passage": 1
-      },
-      {
-        "claim": "The Middle Python Developer position at Ajax Systems requires at least 2 years of experience.",
-        "supported": true,
-        "passage": 1
+        "passage": 2
       }
     ],
-    "answer_sha": "71214d7c6499"
+    "answer_sha": "ccc88e3d18eb"
   },
   {
     "id": "q13",
     "type": "answerable",
     "question": "У якому часовому поясі працюватиме Agentic Engineer / Technical Lead у Temy?",
     "expected": "За часовим поясом Великої Британії (UK time-zone): це проєкт з Великої Британії.",
-    "answer": "Позиція передбачає роботу відповідно до UK time-zone [1].",
+    "answer": "У часовому поясі Великої Британії (UK time zone) [1].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -499,56 +499,56 @@
     ],
     "passages": [
       "djinni-852724#1",
-      "djinni-852724#5",
+      "djinni-852724#4",
       "djinni-852724#3",
       "djinni-852724#2",
-      "djinni-852724#0",
-      "djinni-852724#4"
+      "djinni-852724#5",
+      "djinni-852724#0"
     ],
-    "best_score": 0.9824606161682067,
-    "latency_s": 5.669708041001286,
+    "best_score": 0.9976165567283946,
+    "latency_s": 6.942011333005212,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer states the role works on UK time-zone, matching the reference's main fact (UK time zone); it is brief but contains no contradiction.",
+    "judge_reason": "The answer states the UK time zone, matching the reference's main fact that the role follows UK time, and adds no contradicting details.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "The position involves working according to the UK time-zone.",
+        "claim": "The position involves working in the UK time zone.",
         "supported": true,
         "passage": 1
       }
     ],
-    "answer_sha": "602d5b3ea9e3"
+    "answer_sha": "6e4e2da23597"
   },
   {
     "id": "u01",
     "type": "unanswerable",
     "question": "What salary does Proxet offer for the Senior Backend Engineer (Python)?",
     "expected": "The documents don't say: the posting gives no salary.",
-    "answer": "У документах цього немає.",
+    "answer": "The documents don't say.",
     "abstained": true,
     "reason": "model abstained",
     "sources": [],
     "passages": [
       "djinni-854534#0",
       "djinni-854534#2",
-      "djinni-854534#3",
       "djinni-854534#1",
+      "djinni-854534#3",
       "djinni-719228#1",
-      "djinni-727693#0"
+      "djinni-719228#0"
     ],
-    "best_score": 0.768866043382098,
-    "latency_s": 5.7441040000048815,
+    "best_score": 0.8044706348700175,
+    "latency_s": 7.990149999997811,
     "abstention_ok": true,
     "source_ok": null,
     "key_facts": null,
     "verdict": "correct",
-    "judge_reason": "The reference says the documents don't give a salary, and the answer 'У документах цього немає' ('The documents don't have this') says the same thing in Ukrainian, so it matches the reference.",
+    "judge_reason": "The reference says the documents give no salary, and the answer likewise states the documents don't say, matching the reference without adding contradicting facts.",
     "faithfulness": null,
     "claims": [],
-    "answer_sha": "10d41f20a308"
+    "answer_sha": "6968249e3cc2"
   },
   {
     "id": "u02",
@@ -560,13 +560,13 @@
     "reason": "nothing relevant found",
     "sources": [],
     "passages": [],
-    "best_score": 0.01224069297570116,
-    "latency_s": 4.637134541000705,
+    "best_score": 0.016219510979263673,
+    "latency_s": 6.2478260830030194,
     "abstention_ok": true,
     "source_ok": null,
     "key_facts": null,
     "verdict": "correct",
-    "judge_reason": "The reference says the documents do not contain this information, and the answer also states that the documents lack it, matching the reference without adding contradictory facts.",
+    "judge_reason": "The reference says the documents do not mention a company car among Honeytech's benefits, and the answer likewise states that the documents do not have this information, matching the reference without adding contradictory facts.",
     "faithfulness": null,
     "claims": [],
     "answer_sha": "10d41f20a308"
@@ -581,13 +581,13 @@
     "reason": "nothing relevant found",
     "sources": [],
     "passages": [],
-    "best_score": 0.004349048191353037,
-    "latency_s": 5.205306500000006,
+    "best_score": 0.008744669135491524,
+    "latency_s": 7.067152540999814,
     "abstention_ok": true,
     "source_ok": null,
     "key_facts": null,
     "verdict": "correct",
-    "judge_reason": "The reference says the documents have no Rust posting and so no pay figure; the answer also says the documents don't say, which matches the reference's conclusion without offering any contradicting facts, though it omits the specific reason about no Rust posting.",
+    "judge_reason": "The reference says the documents have no Rust posting and therefore no pay figure; the answer also says the documents don't say, which matches the reference's conclusion without adding contradicting facts, though it omits the reason about no Rust posting.",
     "faithfulness": null,
     "claims": [],
     "answer_sha": "6968249e3cc2"
@@ -597,28 +597,28 @@
     "type": "unanswerable",
     "question": "Does GlobalLogic's Middle/Senior Python Engineer posting offer relocation to Canada?",
     "expected": "The documents don't say.",
-    "answer": "У документах цього немає.",
+    "answer": "The documents don't say.",
     "abstained": true,
     "reason": "model abstained",
     "sources": [],
     "passages": [
       "djinni-850751#3",
       "djinni-850751#1",
-      "djinni-850751#2",
       "djinni-850751#0",
+      "djinni-850751#2",
       "djinni-850751#4",
       "djinni-155191#1"
     ],
-    "best_score": 0.8769361707378905,
-    "latency_s": 6.044194333997439,
+    "best_score": 0.9310754565295273,
+    "latency_s": 11.170844084001146,
     "abstention_ok": true,
     "source_ok": null,
     "key_facts": null,
     "verdict": "correct",
-    "judge_reason": "The reference says the documents don't say whether relocation to Canada is offered, and the answer 'У документах цього немає' ('The documents don't have this') conveys the same meaning in Ukrainian.",
+    "judge_reason": "The reference says the documents don't say whether relocation to Canada is offered, and the answer states exactly that, so it matches.",
     "faithfulness": null,
     "claims": [],
-    "answer_sha": "10d41f20a308"
+    "answer_sha": "6968249e3cc2"
   },
   {
     "id": "u05",
@@ -627,16 +627,22 @@
     "expected": "У документах цього немає.",
     "answer": "У документах цього немає.",
     "abstained": true,
-    "reason": "nothing relevant found",
+    "reason": "model abstained",
     "sources": [],
-    "passages": [],
-    "best_score": 0.15008279797851634,
-    "latency_s": 3.8571253340051044,
+    "passages": [
+      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#10",
+      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#11",
+      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#13",
+      "reservation-resolution-692-amendments-to-76-2026-05-30#11",
+      "reservation-resolution-692-amendments-to-76-2026-05-30#10"
+    ],
+    "best_score": 0.4739806949430424,
+    "latency_s": 7.177316374996735,
     "abstention_ok": true,
     "source_ok": null,
     "key_facts": null,
     "verdict": "correct",
-    "judge_reason": "The reference says the documents do not contain this information, and the answer states exactly that, so it matches.",
+    "judge_reason": "The reference says the documents do not contain the answer, and the system answer says exactly that, so it matches.",
     "faithfulness": null,
     "claims": [],
     "answer_sha": "10d41f20a308"
@@ -646,7 +652,7 @@
     "type": "trap",
     "question": "Якою має бути зарплата заброньованого працівника критично важливого підприємства?",
     "expected": "Не нижче мінімальної зарплати, помноженої на коефіцієнт 3: постанова № 692 від 30.05.2026 замінила коефіцієнт 2,5 на 3. Коефіцієнт 2,5 лишився для критично важливих підприємств на територіях можливих чи активних бойових дій і тимчасово окупованих. Роз'яснення Запорізької ОДА від березня 2026 року ще називає загальний коефіцієнт 2,5.",
-    "answer": "Нарахована щомісячна заробітна плата військовозобов’язаним працівникам критично важливих підприємств повинна бути не нижче за розмір мінімальної заробітної плати по країні, помноженої на коефіцієнт 2,5 [1].\n\nДля військовозобов’язаних працівників критично важливих підприємств, місцезнаходження яких на територіях активних бойових дій, повинна бути нарахована щомісячна заробітна плата не нижче розміру мінімальної заробітної плати по країні [3].",
+    "answer": "За загальним правилом, зарплата має бути не нижче трьох мінімальних зарплат щомісяця протягом відстрочки; змінами від 30.05.2026 поріг 2,5 замінено на 3 [2][3].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -654,86 +660,90 @@
       "reservation-resolution-692-amendments-to-76-2026-05-30"
     ],
     "passages": [
-      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#11",
-      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#6",
       "reservation-resolution-692-amendments-to-76-2026-05-30#2",
+      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#11",
+      "reservation-resolution-692-amendments-to-76-2026-05-30#1",
       "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#12",
-      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#13"
+      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#10"
     ],
-    "best_score": 0.9710317999645323,
-    "latency_s": 5.058595667003829,
+    "best_score": 0.9947870082113454,
+    "latency_s": 15.135706167005992,
     "abstention_ok": true,
     "source_ok": true,
-    "key_facts": 0,
-    "verdict": "incorrect",
-    "judge_reason": "The answer states the general coefficient as 2.5, whereas the reference says resolution No. 692 of 30.05.2026 replaced it with 3 for general critical enterprises, keeping 2.5 only for those in combat or occupied territories; the answer's main fact is outdated and contradicts the reference.",
+    "key_facts": 1,
+    "verdict": "partial",
+    "judge_reason": "The answer gives the main fact correctly (coefficient 3 minimum wages, replacing 2.5 from 30.05.2026), but omits the reference's required detail that 2.5 remains for critical enterprises in territories of possible or active hostilities and occupied areas.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "Monthly wage for military-obligated workers of critically important enterprises must be not below the national minimum wage.",
+        "claim": "The general rule requires that salary be not less than three minimum wages monthly during the deferment.",
         "supported": true,
-        "passage": 1
+        "passage": 3
       },
       {
-        "claim": "The minimum wage threshold for these workers is multiplied by a coefficient of 2.5.",
+        "claim": "The salary threshold for reservation was 2.5 minimum wages before the amendments.",
         "supported": true,
-        "passage": 1
+        "passage": 2
       },
       {
-        "claim": "For military-obligated workers of critically important enterprises located in active combat territories, monthly wage must be accrued not below the national minimum wage.",
+        "claim": "The amendments of 30.05.2026 replaced the threshold of 2.5 with 3.",
+        "supported": true,
+        "passage": 3
+      },
+      {
+        "claim": "The amendments were adopted by Cabinet of Ministers Resolution No. 692 of 30 May 2026.",
         "supported": true,
         "passage": 3
       }
     ],
-    "answer_sha": "6c09269594f4"
+    "answer_sha": "1f8619a2d968"
   },
   {
     "id": "o02",
     "type": "answerable",
     "question": "Як за листом Мінекономіки від 07.08.2026 рахувати середню зарплату для критерію критично важливого підприємства?",
     "expected": "За новою формою Податкового розрахунку: суму рядків 1.1 (нарахована зарплата), 1.3 і 1.4 (оплата перших 5 днів і допомога по тимчасовій непрацездатності) поділити на рядок 092 (кількість працівників, яким нараховано зарплату).",
-    "answer": "Для розрахунку середньої заробітної плати потрібно поділити суму рядків 1.1, 1.3, 1.4 на рядок 092 нової форми Податкового розрахунку [3]. За період береться останній податковий період перед подачею документів [4].",
+    "answer": "За даними нової форми Податкового розрахунку суму рядків 1.1, 1.3 і 1.4 ділять на значення рядка 092 [2].",
     "abstained": false,
     "reason": "answered",
     "sources": [
-      "reservation-average-salary-letter-minekonomiky-2026-08-07",
-      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27"
+      "reservation-average-salary-letter-minekonomiky-2026-08-07"
     ],
     "passages": [
       "reservation-average-salary-letter-minekonomiky-2026-08-07#3",
-      "reservation-average-salary-letter-minekonomiky-2026-08-07#2",
       "reservation-average-salary-letter-minekonomiky-2026-08-07#5",
-      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#14",
-      "reservation-average-salary-letter-minekonomiky-2026-08-07#0"
+      "reservation-average-salary-letter-minekonomiky-2026-08-07#2",
+      "reservation-average-salary-letter-minekonomiky-2026-08-07#4",
+      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#14"
     ],
-    "best_score": 0.9989832393032496,
-    "latency_s": 5.145887792001304,
+    "best_score": 0.9998533368883827,
+    "latency_s": 8.29521241600014,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer gives the same core method as the reference: sum rows 1.1, 1.3 and 1.4 and divide by row 092 of the new Tax Calculation form. The added point about using the last tax period does not contradict the reference.",
+    "judge_reason": "The answer gives the same calculation as the reference: sum of rows 1.1, 1.3 and 1.4 divided by row 092 of the new Tax Calculation form. It omits the explicit parenthetical descriptions of each row and the reference to the Minekonomiky letter, but no required fact is missing or contradicted.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "The average wage is calculated by dividing the sum of rows 1.1, 1.3 and 1.4 by row 092 of the new Tax calculation form.",
+        "claim": "The average wage is calculated using data from the new Tax Calculation form.",
         "supported": true,
-        "passage": 3
+        "passage": 2
       },
       {
-        "claim": "The period used is the last tax period before the document package is submitted.",
+        "claim": "The average wage is calculated by dividing the sum of rows 1.1, 1.3 and 1.4 by row 092.",
         "supported": true,
-        "passage": 4
+        "passage": 2
       }
     ],
-    "answer_sha": "0749a4e8626a"
+    "answer_sha": "be8898ef9097"
   },
   {
     "id": "o03",
     "type": "answerable",
     "question": "Що таке призупинення дії трудового договору?",
     "expected": "Тимчасове припинення роботодавцем забезпечення працівника роботою і тимчасове припинення працівником виконання роботи за трудовим договором у зв'язку зі збройною агресією проти України, що виключає можливість обох сторін виконувати свої обов'язки (стаття 13 Закону № 2136-IX).",
-    "answer": "Призупинення дії трудового договору — це тимчасове припинення роботодавцем забезпечення працівника роботою і тимчасове припинення працівником виконання роботи за укладеним трудовим договором у зв’язку із збройною агресією проти України, що виключає можливість обох сторін трудових відносин виконувати обов’язки, передбачені трудовим договором [1]. Призупинення дії трудового договору не тягне за собою припинення трудових відносин [2].",
+    "answer": "Призупинення дії трудового договору — це тимчасове припинення роботодавцем забезпечення працівника роботою та працівником виконання роботи через збройну агресію проти України, яка унеможливлює виконання обов’язків обома сторонами [1].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -741,48 +751,38 @@
     ],
     "passages": [
       "martial-law-labour-relations-supreme-court-2025-12-24#4",
-      "martial-law-labour-relations-supreme-court-2025-12-24#5",
-      "martial-law-labour-relations-supreme-court-2025-12-24#8",
       "martial-law-labour-relations-supreme-court-2025-12-24#9",
-      "martial-law-labour-relations-supreme-court-2025-12-24#11",
-      "martial-law-labour-relations-supreme-court-2025-12-24#7"
+      "martial-law-labour-relations-supreme-court-2025-12-24#5",
+      "martial-law-labour-relations-supreme-court-2025-12-24#12",
+      "martial-law-labour-relations-supreme-court-2025-12-24#10",
+      "martial-law-labour-relations-supreme-court-2025-12-24#8"
     ],
-    "best_score": 0.999664349529771,
-    "latency_s": 8.587173458006873,
+    "best_score": 0.9994284334934,
+    "latency_s": 6.145147457995336,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer gives the same core definition as the reference: temporary suspension by employer of providing work and by employee of performing work due to armed aggression against Ukraine, making it impossible for both parties to fulfill obligations; the extra note that it does not terminate employment relations is consistent and not contradictory.",
+    "judge_reason": "The answer gives the same core definition as the reference: temporary suspension by the employer of providing work and by the employee of performing work due to armed aggression against Ukraine, making it impossible for both parties to fulfill obligations. It omits the explicit legal citation (Article 13 of Law No. 2136-IX) but includes a citation [1] and no contradictions.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "Призупинення дії трудового договору — це тимчасове припинення роботодавцем забезпечення працівника роботою",
+        "claim": "Призупинення дії трудового договору — це тимчасове припинення роботодавцем забезпечення працівника роботою та працівником виконання роботи.",
         "supported": true,
         "passage": 1
       },
       {
-        "claim": "Призупинення дії трудового договору — це тимчасове припинення працівником виконання роботи за трудовим договором",
+        "claim": "Призупинення дії трудового договору відбувається через збройну агресію проти України.",
         "supported": true,
         "passage": 1
       },
       {
-        "claim": "Призупинення дії трудового договору пов'язане зі збройною агресією проти України",
+        "claim": "Збройна агресія унеможливлює виконання обов’язків обома сторонами трудових відносин.",
         "supported": true,
         "passage": 1
-      },
-      {
-        "claim": "Призупинення дії трудового договору виключає можливість обох сторін виконувати обов'язки за трудовим договором",
-        "supported": true,
-        "passage": 1
-      },
-      {
-        "claim": "Призупинення дії трудового договору не тягне за собою припинення трудових відносин",
-        "supported": true,
-        "passage": 2
       }
     ],
-    "answer_sha": "29ffbbf7905d"
+    "answer_sha": "0d70c768aa5c"
   },
   {
     "id": "o04",
@@ -795,18 +795,18 @@
     "sources": [],
     "passages": [
       "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#12",
-      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#1",
-      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#3",
-      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#15",
-      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#2"
+      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#2",
+      "diia-city-activities-list-explanatory-note-2024-11-04#5",
+      "diia-city-compliance-report-procedure-draft-2021-12-17#26",
+      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#4"
     ],
-    "best_score": 0.25855829112367545,
-    "latency_s": 6.553132833003474,
+    "best_score": 0.9315100866869773,
+    "latency_s": 10.487149250002403,
     "abstention_ok": false,
     "source_ok": false,
     "key_facts": 0,
     "verdict": "incorrect",
-    "judge_reason": "The reference says yes, and that Resolution 692 lists Diia City residents meeting a specific criterion as a qualifying condition. The answer claims the documents don't say, which contradicts the reference's available answer.",
+    "judge_reason": "The reference answer says yes, with the criterion that a Diia City resident meeting point 2 of part 1 of article 5 can be recognised as critical enterprise under Resolution 692. The system answered that the documents don't say, which contradicts the reference's available answer.",
     "faithfulness": null,
     "claims": [],
     "answer_sha": "6968249e3cc2"
@@ -816,7 +816,7 @@
     "type": "answerable",
     "question": "Які види діяльності пропонували додати до переліку Дія Сіті у 2024 році?",
     "expected": "Ремонт і технічне обслуговування електронних компонентів, комп'ютерів, обладнання зв'язку, вимірювальних і оптичних приладів; виробництво батарей і акумуляторів до безпілотних апаратів; дослідження кон'юнктури ринку та інтернет-аналітику для маркетингових кампаній (пояснювальна записка Мінцифри від 04.11.2024).",
-    "answer": "[1] виробництво батарей і акумуляторів для безпілотних суден, транспортних засобів, платформ; ремонт і технічне обслуговування електронних компонентів і плат, комп’ютерів і периферійного устатковання, обладнання зв’язку, інструментів і обладнання для вимірювання, дослідження та навігації, оптичних приладів і фотографічного устатковання тощо\n[2] ремонт і технічне обслуговування електронних компонентів і плат, комп’ютерів і периферійного устатковання, обладнання зв’язку, інструментів і обладнання для вимірювання, дослідження та навігації, оптичних приладів і фотографічного устатковання для використання в оборонній (безпековій), промисловій та побутовій сфері\n[4] виробництво батарей і акумуляторів до безпілотних повітряних суден (літальних апаратів) та/або безпілотних водних (надводних, підводних) суден (апаратів) та/або безпілотних наземних транспортних засобів (апаратів, комплексів, платформ); дослідження конʼюнктури ринку, інтернет аналітика при проведенні маркетингових кампаній та наданні рекламних послуг з використанням програмного забезпечення, розробленого за участю резидента Дія Сіті у мережі Інтернет та/або на пристроях користувачів; дослідження та розробки (крім сфери суспільних та гуманітарних наук)",
+    "answer": "Пропонували додати виробництво батарей і акумуляторів для безпілотних повітряних, водних і наземних засобів; дослідження кон’юнктури ринку та інтернет-аналітику для маркетингових кампаній і рекламних послуг із використанням відповідного програмного забезпечення; а також дослідження й розробки, крім суспільних і гуманітарних наук [2]. Також пропонували включити ремонт і технічне обслуговування електроніки, комп’ютерів, засобів зв’язку, вимірювального, навігаційного, оптичного й фотографічного обладнання [3].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -824,64 +824,48 @@
     ],
     "passages": [
       "diia-city-activities-list-explanatory-note-2024-11-04#2",
-      "diia-city-activities-list-explanatory-note-2024-11-04#5",
-      "diia-city-activities-list-explanatory-note-2024-11-04#0",
       "diia-city-activities-list-explanatory-note-2024-11-04#6",
+      "diia-city-activities-list-explanatory-note-2024-11-04#5",
       "diia-city-activities-list-explanatory-note-2024-11-04#4"
     ],
-    "best_score": 0.9938292799967013,
-    "latency_s": 6.815739249999751,
+    "best_score": 0.9979763940507417,
+    "latency_s": 8.198849791995599,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer covers all three required activity groups: battery/accumulator production for drones (in [1] and [4]), repair and maintenance of electronic components/computers/communication/measuring/optical equipment (in [1] and [2]), and market research and internet analytics for marketing campaigns (in [4]); the extra items like R&D do not contradict the reference.",
+    "judge_reason": "The answer includes all three items in the reference (repair and maintenance of electronics and communications/measuring/optical equipment, battery production for drones, and market research with internet analytics for marketing), and its extra R&D item doesn't contradict the reference.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "The draft proposes adding battery and accumulator production for unmanned vessels, vehicles and platforms to the Diia City activities list.",
-        "supported": true,
-        "passage": 1
-      },
-      {
-        "claim": "The draft proposes adding repair and maintenance of electronic components and boards to the Diia City activities list.",
+        "claim": "The proposal was to add production of batteries and accumulators for unmanned aerial, water and ground vehicles.",
         "supported": true,
         "passage": 2
       },
       {
-        "claim": "The draft proposes adding repair and maintenance of computers, peripheral equipment and communication equipment to the Diia City activities list.",
+        "claim": "The proposal was to add market research and internet analytics for marketing campaigns and advertising services using software developed with a Diia City resident's participation.",
         "supported": true,
         "passage": 2
       },
       {
-        "claim": "The draft proposes adding repair and maintenance of measuring, research and navigation instruments and optical and photographic equipment to the Diia City activities list.",
+        "claim": "The proposal was to add research and development, excluding social and humanities sciences.",
         "supported": true,
         "passage": 2
       },
       {
-        "claim": "The repair and maintenance activities are intended for use in the defense (security), industrial and household sectors.",
+        "claim": "The proposal was to include repair and maintenance of electronics, computers, communications equipment, measuring and navigation instruments, and optical and photographic equipment.",
         "supported": true,
-        "passage": 2
-      },
-      {
-        "claim": "The draft proposes adding market research and internet analytics for marketing campaigns and advertising services using software developed with a Diia City resident's participation.",
-        "supported": true,
-        "passage": 4
-      },
-      {
-        "claim": "The draft proposes adding research and development, excluding social and humanities sciences.",
-        "supported": true,
-        "passage": 4
+        "passage": 3
       }
     ],
-    "answer_sha": "34e9d72415ac"
+    "answer_sha": "243723f6ce76"
   },
   {
     "id": "o06",
     "type": "trap",
     "question": "Який строк дії відстрочки вказувати в нових посвідченнях при переоформленні бронювання за листом Мінекономіки?",
     "expected": "«На шість місяців»: так у чинній редакції листа від 10.01.2024. Редакція від 18.08.2023 розрізняла строк мобілізації для державних і місцевих органів і шість місяців для підприємств.",
-    "answer": "Для військовозобов’язаних, які працюють на підприємстві, вказувати “на шість місяців” [1].",
+    "answer": "У нових посвідченнях при переоформленні бронювання працівникам підприємств слід зазначити строк дії відстрочки «на шість місяців» [1].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -892,32 +876,31 @@
       "reservation-reissue-letter-minekonomiky-2024-01-10#3",
       "reservation-reissue-letter-minekonomiky-2024-01-10#1",
       "reservation-reissue-letter-minekonomiky-2024-01-10#2",
-      "reservation-reissue-letter-minekonomiky-2024-01-10#0",
-      "reservation-reissue-letter-minekonomiky-2024-01-10#5"
+      "reservation-reissue-letter-minekonomiky-2024-01-10#0"
     ],
-    "best_score": 0.9992196183712709,
-    "latency_s": 6.254503291005676,
+    "best_score": 0.9992883140352322,
+    "latency_s": 9.788306917005684,
     "abstention_ok": true,
     "source_ok": true,
     "key_facts": 1,
     "verdict": "correct",
-    "judge_reason": "The answer states the required six-month term \"на шість місяців\", matching the reference's main fact, and does not contradict it; it omits the date of the current letter edition and the earlier edition's distinction, which is a minor gap rather than an error.",
+    "judge_reason": "The answer states the six-month validity ('на шість місяців') for enterprise employees, matching the reference's main fact; it omits the 10.01.2024 edition detail and the comparison with the 18.08.2023 edition, but these are supplementary and nothing it says contradicts the reference.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "For conscripted persons (військовозобов’язаних) who work at an enterprise, the validity period of the deferral is indicated as “на шість місяців” (six months).",
+        "claim": "In new certificates issued when reservation is reissued, the deferment period for enterprise employees should be stated as \"на шість місяців\" (six months).",
         "supported": true,
         "passage": 1
       }
     ],
-    "answer_sha": "dac614c8744f"
+    "answer_sha": "a272568fae51"
   },
   {
     "id": "o07",
     "type": "answerable",
     "question": "Як підприємство звіряє списки військового обліку з ТЦК, якщо воно розташоване за межами зони відповідальності цього ТЦК?",
     "expected": "Надсилає до РТЦК та СП два примірники витягів зі списків персонального військового обліку і копії військово-облікових документів; ТЦК протягом 3 діб звіряє і повертає примірник витягу з відміткою. Звіряння проводять за пунктом 46 постанови № 1487, за затвердженим графіком.",
-    "answer": "[1] Підприємство, установа, організація готує витяги зі списку персонального військового обліку за місцем перебуванню на військовому обліку працівників по кожному РТЦК та СП окремо.",
+    "answer": "Відповідальні за ведення військового обліку надсилають до ТЦК та СП два примірники витягів зі списків і копії військово-облікових документів. ТЦК та СП проводить звіряння протягом трьох діб після отримання списків і повертає один примірник витягу з відміткою про звіряння [1].",
     "abstained": false,
     "reason": "answered",
     "sources": [
@@ -928,24 +911,39 @@
       "reservation-critical-status-application-template-zaporizhzhia-2026-03-27#3",
       "reservation-reissue-letter-minekonomiky-2024-01-10#2",
       "reservation-reissue-letter-minekonomiky-2024-01-10#1",
-      "reservation-resolution-692-amendments-to-76-2026-05-30#2"
+      "reservation-critical-enterprises-faq-zaporizhzhia-2026-03-27#5"
     ],
-    "best_score": 0.9964532051560437,
-    "latency_s": 6.997229332999268,
+    "best_score": 0.994605578731437,
+    "latency_s": 8.00536229199497,
     "abstention_ok": true,
     "source_ok": true,
-    "key_facts": 0,
+    "key_facts": 1,
     "verdict": "partial",
-    "judge_reason": "The answer describes preparing extracts by location for each RTCC separately but omits the key required facts: sending two copies of extracts plus copies of military documents to the RTCC, the 3-day verification period with return of a marked copy, and the procedure under paragraph 46 of resolution 1487 on a set schedule. It captures only a partial, preparatory step and misses the core mechanism.",
+    "judge_reason": "The answer gives the key facts: two copies of the extracts from the personal military registration lists plus copies of documents sent to the TCC/SP, verification within three days, and return of one copy with a verification mark. It omits the reference to paragraph 46 of resolution No. 1487 and the approved schedule, which are minor missing details but not the main fact.",
     "faithfulness": 1,
     "claims": [
       {
-        "claim": "Підприємство, установа, організація готує витяги зі списку персонального військового обліку за місцем перебування на військовому обліку працівників по кожному РТЦК та СП окремо.",
+        "claim": "Відповідальні за ведення військового обліку надсилають до ТЦК та СП два примірники витягів зі списків",
+        "supported": true,
+        "passage": 1
+      },
+      {
+        "claim": "Відповідальні за ведення військового обліку надсилають до ТЦК та СП копії військово-облікових документів",
+        "supported": true,
+        "passage": 1
+      },
+      {
+        "claim": "ТЦК та СП проводить звіряння протягом трьох діб після отримання списків",
+        "supported": true,
+        "passage": 1
+      },
+      {
+        "claim": "ТЦК та СП повертає один примірник витягу з відміткою про звіряння",
         "supported": true,
         "passage": 1
       }
     ],
-    "answer_sha": "082efdbf1a2e"
+    "answer_sha": "e237e266d876"
   },
   {
     "id": "o08",
@@ -954,23 +952,16 @@
     "expected": "У документах цього немає.",
     "answer": "У документах цього немає.",
     "abstained": true,
-    "reason": "model abstained",
+    "reason": "nothing relevant found",
     "sources": [],
-    "passages": [
-      "reservation-resolution-692-amendments-to-76-2026-05-30#3",
-      "reservation-resolution-692-amendments-to-76-2026-05-30#12",
-      "reservation-resolution-692-amendments-to-76-2026-05-30#11",
-      "reservation-average-salary-letter-minekonomiky-2026-08-07#5",
-      "reservation-resolution-692-amendments-to-76-2026-05-30#14",
-      "reservation-resolution-692-amendments-to-76-2026-05-30#7"
-    ],
-    "best_score": 0.3521749242163514,
-    "latency_s": 5.19721970899991,
+    "passages": [],
+    "best_score": 0.019644458588160534,
+    "latency_s": 5.135803459001181,
     "abstention_ok": true,
     "source_ok": null,
     "key_facts": null,
     "verdict": "correct",
-    "judge_reason": "The reference says the documents don't contain the answer, and the system answer likewise says the documents don't have it, which matches the reference.",
+    "judge_reason": "The reference says the documents don't contain the answer, and the system answer says the same thing, so it matches.",
     "faithfulness": null,
     "claims": [],
     "answer_sha": "10d41f20a308"

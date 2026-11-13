@@ -13,7 +13,7 @@
   "duplicates": 1,
   "superseded": 4,
   "chunks": {
-    "structural": 437,
+    "structural": 438,
     "fixed": 424
   },
   "documents": [
@@ -1078,7 +1078,7 @@
       "date": "2024-11-04",
       "language": "uk",
       "source": "https://storage.thedigital.gov.ua/files/f/cf/94f49a3c3e57fc501f63d5e14cedbcf9.pdf",
-      "sha256": "0dea368838ffa645c906224a6303a50ffaa49bd76abc725980ba02caaccfaffb",
+      "sha256": "8d78c12cc36649ee998521a56f89006e737b8b98d8b5be1011b1156afe3e1053",
       "chars": 8852,
       "status": "kept",
       "duplicate_of": null,
@@ -1120,13 +1120,13 @@
       "date": "2025-12-24",
       "language": "uk",
       "source": "https://court.gov.ua/storage/portal/supreme/prezentacii_2025/Reguluvanna_trydovuh_vidnosun_.pdf",
-      "sha256": "451e02df726722768fcac6357beab80ba8fa5b3a27b81117bf3f85dd06ff4e42",
-      "chars": 37879,
+      "sha256": "b8bbe4b3c63e1f59b15ab94fade7521da64151e8476a24e3ef9180d776821eef",
+      "chars": 37885,
       "status": "kept",
       "duplicate_of": null,
       "superseded_by": null,
       "chunks": {
-        "structural": 51,
+        "structural": 52,
         "fixed": 61
       }
     },
@@ -1162,7 +1162,7 @@
       "date": "2026-07-17",
       "language": "uk",
       "source": "https://www.zoda.gov.ua/files/WP_Article_File/original/000246/246374.pdf",
-      "sha256": "c3d8a7c352749f4fdc2f727ad78b3d0236f1877feccbed79bef18c10d305603a",
+      "sha256": "dcbb205b30a4232f45eec2dee48764a5b3e94fd54df3da3c84625a9b7e25a9d1",
       "chars": 1304,
       "status": "kept",
       "duplicate_of": null,
@@ -1246,7 +1246,7 @@
       "date": "2023-08-18",
       "language": "uk",
       "source": "https://me.gov.ua/download/187648c2-4fe6-42c7-bfeb-8ff8527f4c39/file.pdf",
-      "sha256": "407b22ba5a6dc5de79c1136e50b7c2bdda1a1cb2339431afa4f4df009068b9f7",
+      "sha256": "7a8bd055a14cee6c3c301be7a8d043c20e0e6298f99de9740917cf942e6deaec",
       "chars": 4207,
       "status": "kept",
       "duplicate_of": null,
@@ -1267,7 +1267,7 @@
       "date": "2024-01-10",
       "language": "uk",
       "source": "https://me.gov.ua/download/a6e22643-264e-4003-bf3c-54b214aedacf/file.pdf",
-      "sha256": "3599536050973468da462749c3a324501aca2d8660d1d258b8f92aebf0078a4d",
+      "sha256": "9126e6e4f353844ce0a5fb80399b8b41810729f43864e739e51f743b6923a251",
       "chars": 3807,
       "status": "kept",
       "duplicate_of": null,
@@ -1319,5 +1319,9 @@
         "fixed": 15
       }
     }
-  ]
+  ],
+  "with_context": {
+    "structural": 438,
+    "fixed": 424
+  }
 }

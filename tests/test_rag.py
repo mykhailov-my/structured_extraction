@@ -1,8 +1,10 @@
 """The RAG offline: no model is called; embeddings, the reranker and the LLM are fakes."""
 
 import hashlib
+import threading
 from collections import defaultdict
 from dataclasses import replace
+from types import SimpleNamespace
 
 import numpy as np
 import pymupdf
@@ -20,8 +22,21 @@ from rag.answer import (
 )
 from rag.chunking import MAX_TOKENS, count_tokens, fixed, structural
 from rag.config import load
-from rag.evaluate import _kappa, failures, relevant, score_answer
-from rag.ingest import Document, deduplicate, description_markdown, docx_markdown, pdf_markdown
+from rag.context import Contextualizer, cleaned
+from rag.evaluate import _kappa, answer_metrics, answer_run, failures, relevant, score_answer
+from rag.ingest import (
+    Document,
+    _Line,
+    _pdf_blocks,
+    _reading_order,
+    _Unit,
+    deduplicate,
+    description_markdown,
+    docx_markdown,
+    pdf_markdown,
+)
+from rag.llm import OpenRouter
+from rag.prompts import load_prompt
 from rag.search import Filters, Hit, Retriever, tokens
 
 
@@ -91,6 +106,42 @@ def test_pdf_drops_running_headers_and_page_numbers_and_joins_hyphenated_words(t
     assert "## Part 2. The title" in markdown
     assert "A text about the development of the digital economy." in markdown
     assert "\n3\n" not in f"\n{markdown}\n"
+
+
+def test_pdf_blocks_side_by_side_are_read_a_column_at_a_time():
+    # A flowchart's boxes, as PyMuPDF gives them: one text block each.
+    def line(block, text, top, left):
+        return _Line(0, block, top, top + 0.02, left, left + 0.3, 11.0, False, text)
+
+    lines = [
+        line(0, "How to reconcile the lists.", 0.05, 0.1),
+        line(1, "Inside the area:", 0.30, 0.1),
+        line(2, "Outside the area:", 0.30, 0.6),
+        line(3, "come in person.", 0.40, 0.1),
+        line(4, "send two copies.", 0.40, 0.6),
+    ]
+    assert _pdf_blocks(lines, []).split("\n\n") == [
+        "How to reconcile the lists.", "Inside the area:", "come in person.",
+        "Outside the area:", "send two copies.",
+    ]  # fmt: skip
+
+
+def test_reading_order_takes_rows_top_down_and_a_run_of_columns_a_column_at_a_time():
+    def unit(text, top, bottom, left, right):
+        return _Unit(0, top, bottom, left, right, [text])
+
+    page = [
+        unit("note", 0.80, 0.85, 0.10, 0.90),
+        unit("right 2", 0.50, 0.58, 0.52, 0.92),
+        unit("left 1", 0.40, 0.45, 0.10, 0.45),
+        unit("title", 0.02, 0.06, 0.20, 0.80),
+        unit("left 2", 0.50, 0.58, 0.05, 0.48),
+        unit("right 1", 0.40, 0.45, 0.55, 0.90),
+    ]
+    read = [u.texts[0] for u in _reading_order(page)]
+    assert read == ["title", "left 1", "left 2", "right 1", "right 2", "note"]
+    one_column = [unit(str(n), n / 10, n / 10 + 0.05, 0.1, 0.9) for n in (3, 1, 2)]
+    assert [u.texts[0] for u in _reading_order(one_column)] == ["1", "2", "3"]
 
 
 # --- chunking ---------------------------------------------------------------------------
@@ -210,11 +261,14 @@ def test_ukrainian_endings_are_cut():
 
 class FakeClient:
     def __init__(self, reply):
-        self.reply, self.calls = reply, 0
+        self.reply, self.calls, self.user = reply, 0, None
         self.usage = defaultdict(lambda: None)
+        self._lock = threading.Lock()
 
-    def chat(self, *args, **kwargs):
-        self.calls += 1
+    def chat(self, model, system, user, **kwargs):
+        with self._lock:
+            self.calls += 1
+            self.user = user
         return self.reply
 
 
@@ -244,6 +298,15 @@ def test_nothing_relevant_means_no_model_call():
     client = FakeClient("should not be asked")
     answer = Rag(config, corpus(), client).ask("квантові обчислення на Марсі")
     assert answer.text == REFUSALS["uk"] and answer.abstained and client.calls == 0
+
+
+def test_the_answer_prompt_is_told_the_language_and_the_refusal():
+    client = FakeClient("Relocation to Portugal [1].")
+    rag = Rag(load(), corpus(), client)
+    rag.prompt = load_prompt("answer", "v2")
+    rag.ask("Is there relocation to Portugal?")
+    assert "Answer in English" in client.user and "The documents don't say." in client.user
+    assert client.user.count("Question: Is there relocation to Portugal?") == 2
 
 
 def test_question_language():
@@ -281,11 +344,81 @@ def test_a_chunk_is_relevant_when_it_holds_the_quote_from_the_right_document():
     assert not relevant(chunk, [{"doc_id": "djinni-2", "quote": "relocation to Portugal"}])
 
 
+def test_relevance_is_judged_on_the_chunks_own_text_not_on_its_context():
+    kyiv = replace(corpus().chunks[1], context="en: about relocation to Portugal")
+    assert "relocation to Portugal" in kyiv.indexed
+    assert not relevant(kyiv, [{"doc_id": "djinni-2", "quote": "relocation to Portugal"}])
+
+
+class FakeJudge:
+    def verdict(self, question, expected, answer):
+        if "broken" in question:
+            raise ValueError("the reply was cut short")
+        return {"verdict": "correct", "reason": "same facts"}
+
+    def faithfulness(self, answer):
+        return 1.0, []
+
+
+def test_every_answer_is_judged_and_a_judge_failure_leaves_one_unjudged():
+    rag = Rag(load(), corpus(), FakeClient("Relocation to Portugal [1]."))
+    items = [
+        {"id": f"q{n}", "type": "answerable", "question": question, "expected": "Portugal",
+         "sources": ["djinni-1"]}
+        for n, question in enumerate(["relocation to Portugal?", "relocation to Portugal, broken?"])
+    ]  # fmt: skip
+    scored = answer_run(rag, FakeJudge(), items)
+    assert [s.verdict for s in scored] == ["correct", None]
+    assert "judge failed" in scored[1].judge_reason
+    assert answer_metrics(scored, rag)["judged"] == 1
+
+
 def test_kappa_and_thresholds():
     assert _kappa(["correct", "incorrect"] * 5, ["correct", "incorrect"] * 5) == 1.0
     assert failures(
         {"abstention": 0.5, "faithfulness": 0.9}, {"abstention": 0.8, "faithfulness": 0.8}
     ) == ["abstention 0.5 < 0.8"]
+
+
+# --- contexts and the client ---------------------------------------------------------------
+
+
+def test_contexts_are_written_once_then_come_from_the_cache(tmp_path):
+    client = FakeClient("Here it is:\nuk: Про переїзд до Португалії.\nen: About relocation.\n")
+    posting = doc("djinni-1", "# Python Developer\n\n## Description\n\nRelocation to Portugal.\n")
+    chunks = structural(posting)
+
+    def contexts():
+        return Contextualizer("m", load_prompt("context", "v1"), tmp_path / "c.jsonl", client)
+
+    first = contexts()(chunks, {"djinni-1": posting})
+    assert first[0].context == "uk: Про переїзд до Португалії.\nen: About relocation."
+    assert first[0].context in first[0].indexed and first[0].context not in first[0].original
+    assert contexts()(chunks, {"djinni-1": posting}) == first
+    assert client.calls == len(chunks)
+
+
+def test_a_context_reply_keeps_its_two_lines_on_one_line_each():
+    assert cleaned("Sure!\nuk: Про   відпустку.\n\nen: About leave.") == (
+        "uk: Про відпустку.\nen: About leave."
+    )
+    assert cleaned("No tags here.\nJust text.") == "No tags here. Just text."
+
+
+def test_a_reply_whose_json_does_not_parse_is_asked_for_once_more(monkeypatch):
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test-only")
+    replies = iter(['{"verdict": "corr', '{"verdict": "correct"}'])
+
+    def create(**kwargs):
+        message = SimpleNamespace(content=next(replies))
+        return SimpleNamespace(choices=[SimpleNamespace(message=message)], usage=None)
+
+    client = OpenRouter()
+    client._client = SimpleNamespace(
+        chat=SimpleNamespace(completions=SimpleNamespace(create=create))
+    )
+    assert client.chat("m", "s", "u", schema={"type": "object"}) == {"verdict": "correct"}
+    assert client.usage["m"].calls == 2
 
 
 # --- the corpus's privacy steps -----------------------------------------------------------

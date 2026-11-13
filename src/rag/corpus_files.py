@@ -9,11 +9,14 @@ from pathlib import Path
 from extraction.collect import write_file
 from rag.chunking import Chunk, fixed, structural
 from rag.config import DATA, RAW
+from rag.context import Contextualize
 from rag.ingest import Document, ingest, read_documents, write_documents
 
 
-def build(raw_dir: Path = RAW, out_dir: Path = DATA) -> dict:
-    """Ingest and chunk the corpus; returns the manifest."""
+def build(
+    raw_dir: Path = RAW, out_dir: Path = DATA, contextualize: Contextualize | None = None
+) -> dict:
+    """Ingest and chunk the corpus, and give the chunks their contexts; returns the manifest."""
     documents = ingest(raw_dir)
     kept = [doc for doc in documents if doc.status == "kept"]
     chunked = {"structural": [], "fixed": []}
@@ -23,11 +26,15 @@ def build(raw_dir: Path = RAW, out_dir: Path = DATA) -> dict:
             chunks = cut(doc)
             chunked[name] += chunks
             counts[name][doc.doc_id] = len(chunks)
+    if contextualize is not None:
+        by_id = {doc.doc_id: doc for doc in kept}
+        chunked = {name: contextualize(chunks, by_id) for name, chunks in chunked.items()}
     write_documents(documents, out_dir / "documents.jsonl")
     for name, file in (("structural", "chunks.jsonl"), ("fixed", "chunks_fixed.jsonl")):
         lines = (json.dumps(asdict(chunk), ensure_ascii=False) for chunk in chunked[name])
         write_file(out_dir / file, "\n".join(lines) + "\n")
     manifest = _manifest(raw_dir, documents, counts)
+    manifest["with_context"] = {n: sum(bool(c.context) for c in cs) for n, cs in chunked.items()}
     write_file(out_dir / "manifest.json", json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
     return manifest
 

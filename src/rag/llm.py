@@ -1,11 +1,13 @@
 """OpenRouter for the RAG: chat completions, as text or as JSON matching a schema, and
-embeddings. Timeouts, rate limits and server errors are retried with exponential back-off;
-other errors (a bad key, an unknown model) stop the run. Tokens and dollars are counted per
-model, for the cost per 1,000 questions."""
+embeddings. Timeouts, rate limits and server errors are retried with exponential back-off,
+and so, once, is JSON that doesn't parse (a reply cut short); other errors (a bad key, an
+unknown model) stop the run. Tokens and dollars are counted per model, for the cost per 1,000
+questions. One client can be shared by threads."""
 
 import json
 import os
 import random
+import threading
 import time
 from collections import defaultdict
 from dataclasses import dataclass
@@ -35,6 +37,7 @@ class OpenRouter:
         )
         self._max_retries = max_retries
         self.usage: dict[str, Usage] = defaultdict(Usage)
+        self._lock = threading.Lock()
 
     def chat(
         self,
@@ -55,19 +58,25 @@ class OpenRouter:
                 "json_schema": {"name": "answer", "strict": True, "schema": schema},
             }
             kwargs["extra_body"] = {"provider": {"require_parameters": True}}
-        response = self._retry(
-            lambda: self._client.chat.completions.create(
-                model=model,
-                messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
-                max_tokens=max_tokens,
-                **kwargs,
+        messages = [{"role": "system", "content": system}, {"role": "user", "content": user}]
+        for attempt in range(2):
+            response = self._retry(
+                lambda: self._client.chat.completions.create(
+                    model=model, messages=messages, max_tokens=max_tokens, **kwargs
+                )
             )
-        )
-        if not response.choices:
-            raise RuntimeError(f"{model} sent no answer: {getattr(response, 'error', None)}")
-        self._count(model, response.usage)
-        text = response.choices[0].message.content or ""
-        return json.loads(_without_fences(text)) if schema is not None else text
+            if not response.choices:
+                raise RuntimeError(f"{model} sent no answer: {getattr(response, 'error', None)}")
+            self._count(model, response.usage)
+            text = response.choices[0].message.content or ""
+            if schema is None:
+                return text
+            try:
+                return json.loads(_without_fences(text))
+            except json.JSONDecodeError:
+                if attempt == 1:
+                    raise
+        raise AssertionError("unreachable")
 
     def embed(self, model: str, texts: list[str]) -> list[list[float]]:
         response = self._retry(lambda: self._client.embeddings.create(model=model, input=texts))
@@ -88,12 +97,13 @@ class OpenRouter:
         raise AssertionError("unreachable")
 
     def _count(self, model: str, usage: Any) -> None:
-        total = self.usage[model]
-        total.calls += 1
-        if usage is not None:
-            total.input_tokens += getattr(usage, "prompt_tokens", 0) or 0
-            total.output_tokens += getattr(usage, "completion_tokens", 0) or 0
-            total.cost_usd += getattr(usage, "cost", 0) or 0
+        with self._lock:
+            total = self.usage[model]
+            total.calls += 1
+            if usage is not None:
+                total.input_tokens += getattr(usage, "prompt_tokens", 0) or 0
+                total.output_tokens += getattr(usage, "completion_tokens", 0) or 0
+                total.cost_usd += getattr(usage, "cost", 0) or 0
 
 
 def _without_fences(text: str) -> str:

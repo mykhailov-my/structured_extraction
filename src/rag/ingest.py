@@ -8,6 +8,8 @@ metadata.
     ends with ":", or that opens a list, is the description's own section title.
   - PDF: PyMuPDF's lines with their font size and weight. Larger or bold short lines are
     headings, bullets and "1)" items are list items, and tables are found and kept as tables.
+    A page's blocks are read in layout order (recursive XY-cut), so side-by-side columns,
+    such as a flowchart's two branches, are read one after the other, not line by line.
   - DOCX: python-docx's paragraphs with their styles, numbered items and tables.
   - In laws, "Розділ", "Глава" and "Стаття" lines are headings whatever their font.
 - Cleaning: Unicode NFC; non-breaking, thin and zero-width spaces and soft hyphens; words
@@ -200,22 +202,46 @@ def _official(folder: Path) -> list[Document]:
 class _Line:
     page: int
     block: int
-    top: float
+    top: float  # the box, as fractions of the page's height and width
     bottom: float
+    left: float
+    right: float
     size: float
     bold: bool
     text: str
+
+
+@dataclass
+class _Unit:
+    """A PDF page's text block or table: its box, as fractions of the page, and the Markdown
+    it becomes."""
+
+    page: int
+    top: float
+    bottom: float
+    left: float
+    right: float
+    texts: list[str]
+
+
+# White space that separates rows of a page, and columns of a row, as fractions of the page.
+ROW_GAP, COLUMN_GAP = 0.012, 0.02
 
 
 def pdf_markdown(path: Path) -> str:
     """A PDF's text as Markdown; see the module's docstring."""
     pdf = pymupdf.open(path)
     lines: list[_Line] = []
-    tables: list[tuple[int, float, str]] = []  # page, top, Markdown
+    tables: list[_Unit] = []
     for page in pdf:
+        width, height = page.rect.width, page.rect.height
         found = page.find_tables().tables
         for table in found:
-            tables.append((page.number, table.bbox[1], table.to_markdown(clean=False).strip()))
+            x0, y0, x1, y1 = table.bbox
+            markdown = table.to_markdown(clean=False).strip()
+            tables.append(
+                _Unit(page.number, y0 / height, y1 / height, x0 / width, x1 / width, [markdown])
+            )
         boxes = [pymupdf.Rect(table.bbox) for table in found]
         for number, block in enumerate(page.get_text("dict")["blocks"]):
             if block["type"] != 0 or any(pymupdf.Rect(block["bbox"]).intersects(b) for b in boxes):
@@ -225,10 +251,13 @@ def pdf_markdown(path: Path) -> str:
                 if not spans:
                     continue
                 text = "".join(span["text"] for span in line["spans"]).strip()
-                top, bottom = line["bbox"][1] / page.rect.height, line["bbox"][3] / page.rect.height
+                x0, y0, x1, y1 = line["bbox"]
                 size = round(max(span["size"] for span in spans), 1)
                 bold = all(span["flags"] & 16 or "Bold" in span["font"] for span in spans)
-                lines.append(_Line(page.number, number, top, bottom, size, bold, text))
+                lines.append(
+                    _Line(page.number, number, y0 / height, y1 / height, x0 / width, x1 / width,
+                          size, bold, text)
+                )  # fmt: skip
     lines = _without_running_lines(lines, pdf.page_count)
     return _pdf_blocks(lines, tables)
 
@@ -250,43 +279,103 @@ def _without_running_lines(lines: list[_Line], pages: int) -> list[_Line]:
     ]
 
 
-def _pdf_blocks(lines: list[_Line], tables: list[tuple[int, float, str]]) -> str:
-    """Lines into headings and paragraphs, one PyMuPDF text block at a time. A block is a
-    heading when its font is larger than the body's, or when it is short and bold throughout
-    (a bold word inside a paragraph is not); a law's "Стаття 5." line is one whatever its
-    font. Headings that follow each other at one level are one title wrapped over lines."""
+def _pdf_blocks(lines: list[_Line], tables: list[_Unit]) -> str:
+    """Lines into headings and paragraphs, one PyMuPDF text block at a time, and the blocks
+    and tables of each page in reading order. Headings that follow each other at one level
+    are one title wrapped over lines."""
     sizes: Counter[float] = Counter()
     for line in lines:
         sizes[line.size] += len(line.text)
     body = sizes.most_common(1)[0][0] if sizes else 0
     larger = sorted({line.size for line in lines if line.size >= body + 1.5}, reverse=True)
-    out: list[tuple[int, float, str]] = [*tables]
+    units = [*tables]
     for _, grouped in itertools.groupby(lines, key=lambda line: (line.page, line.block)):
         block = list(grouped)
-        first = block[0]
-        if law := _heading_level(first.text, 0):  # the article's text may follow in the block
-            out.append((first.page, first.top, f"{'#' * law} {first.text}"))
-            block = block[1:]
-            if not block:
-                continue
-        text = _join(block)
-        size = max(line.size for line in block)
-        level = larger.index(size) + 2 if size in larger and len(text) <= 200 else 0
-        bold = all(line.bold for line in block) and len(text) <= 150
-        if not level and bold and not text.endswith((".", ",", ";", ":")):
-            level = 3
-        if level:
-            out.append((block[0].page, block[0].top, f"{'#' * min(level, 4)} {text}"))
-            continue
-        paragraph: list[_Line] = []
-        for line in block:  # a bullet starts a new paragraph
-            if paragraph and _BULLET.match(line.text):
-                out.append((paragraph[0].page, paragraph[0].top, _join(paragraph)))
-                paragraph = []
-            paragraph.append(line)
-        out.append((paragraph[0].page, paragraph[0].top, _join(paragraph)))
-    out.sort(key=lambda item: (item[0], item[1]))
-    return "\n\n".join(_merge_wrapped_headings([text for _, _, text in out]))
+        units.append(
+            _Unit(block[0].page, min(line.top for line in block),
+                  max(line.bottom for line in block), min(line.left for line in block),
+                  max(line.right for line in block), _block_markdown(block, larger))
+        )  # fmt: skip
+    ordered: list[_Unit] = []
+    for _, page in itertools.groupby(sorted(units, key=lambda unit: unit.page), lambda u: u.page):
+        ordered += _reading_order(list(page))
+    return "\n\n".join(_merge_wrapped_headings([text for unit in ordered for text in unit.texts]))
+
+
+def _block_markdown(block: list[_Line], larger: list[float]) -> list[str]:
+    """A text block as a heading or as paragraphs. It is a heading when its font is larger
+    than the body's, or when it is short and bold throughout (a bold word inside a paragraph
+    is not); a law's "Стаття 5." line is one whatever its font."""
+    out = []
+    if law := _heading_level(block[0].text, 0):  # the article's text may follow in the block
+        out.append(f"{'#' * law} {block[0].text}")
+        block = block[1:]
+        if not block:
+            return out
+    text = _join(block)
+    size = max(line.size for line in block)
+    level = larger.index(size) + 2 if size in larger and len(text) <= 200 else 0
+    bold = all(line.bold for line in block) and len(text) <= 150
+    if not level and bold and not text.endswith((".", ",", ";", ":")):
+        level = 3
+    if level:
+        return [*out, f"{'#' * min(level, 4)} {text}"]
+    paragraph: list[_Line] = []
+    for line in block:  # a bullet starts a new paragraph
+        if paragraph and _BULLET.match(line.text):
+            out.append(_join(paragraph))
+            paragraph = []
+        paragraph.append(line)
+    return [*out, _join(paragraph)]
+
+
+def _reading_order(units: list[_Unit]) -> list[_Unit]:
+    """A page's blocks in reading order, by recursive XY-cut. The page is cut at bands of
+    white space across it into rows, read top to bottom, and a row into columns, read left to
+    right. Rows one under another that keep a gutter in the same place are one run of
+    columns, read a column at a time: a flowchart's two branches, or a two-column page."""
+    if len(units) < 2:
+        return units
+    rows = _join_columns(_cut(units, rows=True))
+    if len(rows) > 1:
+        return [unit for row in rows for unit in _reading_order(row)]
+    columns = _cut(units, rows=False)
+    if len(columns) > 1:
+        return [unit for column in columns for unit in _reading_order(column)]
+    return sorted(units, key=lambda unit: (unit.top, unit.left))
+
+
+def _cut(units: list[_Unit], *, rows: bool) -> list[list[_Unit]]:
+    """Units split at every band of white space at least ROW_GAP (COLUMN_GAP) wide."""
+    start = (lambda u: u.top) if rows else (lambda u: u.left)
+    end = (lambda u: u.bottom) if rows else (lambda u: u.right)
+    gap = ROW_GAP if rows else COLUMN_GAP
+    groups: list[list[_Unit]] = []
+    reach = 0.0
+    for unit in sorted(units, key=start):
+        if groups and start(unit) - reach < gap:
+            groups[-1].append(unit)
+            reach = max(reach, end(unit))
+        else:
+            groups.append([unit])
+            reach = end(unit)
+    return groups
+
+
+def _join_columns(rows: list[list[_Unit]]) -> list[list[_Unit]]:
+    """Consecutive rows that are both split into columns, with a gutter in common, as one."""
+    joined: list[list[_Unit]] = []
+    for row in rows:
+        if (
+            joined
+            and len(_cut(row, rows=False)) > 1
+            and len(_cut(joined[-1], rows=False)) > 1
+            and len(_cut(joined[-1] + row, rows=False)) > 1
+        ):
+            joined[-1] = joined[-1] + row
+        else:
+            joined.append(row)
+    return joined
 
 
 def _merge_wrapped_headings(blocks: list[str]) -> list[str]:

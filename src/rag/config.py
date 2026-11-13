@@ -21,12 +21,14 @@ class Models(_Strict):
     reranker: str
     answer: str
     judge: str
+    context: str
 
 
 class Prompts(_Strict):
     answer: str
     judge: str
     faithfulness: str
+    context: str
 
 
 class Search(_Strict):
@@ -35,11 +37,14 @@ class Search(_Strict):
     rerank_top: int
     rrf_k: int
     k: int
+    context: bool  # search and show the chunks' contexts (rag/context.py)
 
 
 class Answer(_Strict):
     context_tokens: int
     min_relevance: float
+    temperature: float | None = 0.0  # None: the model's own (reasoning models take no other)
+    max_tokens: int = 700  # a reasoning model's thinking counts too
 
 
 class RagConfig(_Strict):

@@ -1,19 +1,25 @@
-# Homework 2: on every push and pull request, the tests, then the RAG's evals. The run fails
-# when a metric falls below its threshold in rag.yaml (`python main.py rag all` exits 1).
-# Needs the repository secret OPENROUTER_API_KEY (Settings > Secrets and variables > Actions).
+# Homework 2: the RAG's evals on every push and pull request, in two jobs.
+# - retrieval: lint, unit tests, then ingestion and retrieval from the committed caches (the
+#   chunks' contexts and the embeddings). Needs no key; fails below recall_at_5 in rag.yaml.
+# - answers: the whole run, `python main.py rag all`; fails below any threshold in rag.yaml.
+#   Needs the repository secret OPENROUTER_API_KEY (Settings > Secrets and variables > Actions).
 
 name: evals
 
 on:
   push:
   pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: evals-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  evals:
+  retrieval:
+    name: tests and retrieval (no key)
     runs-on: ubuntu-latest
-    timeout-minutes: 40
-    env:
-      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -24,23 +30,58 @@ jobs:
       - name: Install
         run: uv sync --locked
 
-      - name: Lint and unit tests (offline)
+      - name: Lint
         run: |
           uv run ruff check .
-          uv run pytest -q
+          uv run ruff format --check .
+
+      - name: Unit tests (offline)
+        run: uv run pytest -q
 
       # The reranker (bge-reranker-v2-m3, INT8 ONNX, 0.57 GB) downloads once, then comes from
-      # the cache. Embeddings come from data/rag/embeddings.jsonl, committed.
+      # the cache.
       - uses: actions/cache@v4
         with:
           path: .cache/fastembed
           key: fastembed-bge-reranker-v2-m3-int8
 
+      - name: Ingestion and retrieval, failing below recall_at_5 in rag.yaml
+        run: uv run python main.py rag all --offline
+
+      - name: Keep the results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: retrieval-results
+          path: evals/results/retrieval.*
+
+  answers:
+    name: answers and judge (needs OPENROUTER_API_KEY)
+    needs: retrieval
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+    steps:
       - name: No key, no evals
         if: env.OPENROUTER_API_KEY == ''
         run: |
-          echo "::error::The OPENROUTER_API_KEY secret is not set, so the evals can't run."
+          echo "::error::The OPENROUTER_API_KEY secret is not set, so the answers can't be evaluated."
           exit 1
+
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --locked
+
+      - uses: actions/cache@v4
+        with:
+          path: .cache/fastembed
+          key: fastembed-bge-reranker-v2-m3-int8
 
       - name: RAG evals, failing below the thresholds in rag.yaml
         run: uv run python main.py rag all

@@ -5,19 +5,24 @@
     "answerable": 13,
     "unanswerable": 6
   },
+  "judged": 26,
   "source_accuracy": 0.95,
   "trap_accuracy": 1,
   "abstention": 1,
   "false_abstention": 0.05,
-  "key_facts": 0.75,
-  "judge_correct": 0.8269230769230769,
+  "key_facts": 0.95,
+  "judge_correct": 0.8461538461538461,
   "faithfulness": 1,
-  "latency_p50_s": 5.424517521005328,
-  "latency_p95_s": 6.997229332999268,
-  "cost_per_1k_questions_usd": 0.14583403846153845,
-  "judge_cost_per_1k_questions_usd": 0.39850769230769223,
+  "latency_p50_s": 7.997756145996391,
+  "latency_p95_s": 11.170844084001146,
+  "cost_per_1k_questions_usd": 0.06910730769230769,
+  "judge_cost_per_1k_questions_usd": 0.47378076923076917,
   "prompts": {
-    "answer": "v1",
-    "judge": "v1"
-  }
+    "answer": "v2",
+    "judge": "v1",
+    "faithfulness": "v1",
+    "context": "v2"
+  },
+  "recall_at_5": 1,
+  "judge_agreement": null
 }

@@ -57,21 +57,27 @@ make ask Q="Чи розглядає RenovateHub кандидатів без до
 Questions about Python jobs in Ukraine, answered from the documents with the sources cited:
 
 ```bash
-make rag     # ingest data/rag/raw/, measure retrieval, answer and score the test set
+make rag        # ingest data/rag/raw/, measure retrieval, answer and score the test set
+make retrieval  # the same without a key: ingestion and retrieval from the committed caches
 make ask Q="Яка компанія годує команду обідами в київському офісі?"
 python main.py rag search "relocation to Portugal" --mode bm25   # or vector, hybrid, rerank
 ```
 
-`make rag` is `python main.py rag all`. CI runs the same command on every push and pull
-request (`.github/workflows/evals.yml`) and fails when a metric falls below its threshold in
-`rag.yaml`. It needs `OPENROUTER_API_KEY` in `.env`, or as a repository secret for CI. The
-results go to `evals/results/`, and the analysis is in [REPORT.md](REPORT.md).
+`make rag` is `python main.py rag all`; it needs `OPENROUTER_API_KEY` in `.env`. CI runs it on
+every push and pull request (`.github/workflows/evals.yml`) in two jobs, and each fails when a
+metric falls below its threshold in `rag.yaml`:
+- **retrieval** needs no key: lint, unit tests, then ingestion and retrieval from the
+  committed caches (`make retrieval`);
+- **answers** needs the repository secret `OPENROUTER_API_KEY`: the whole run.
+
+The results go to `evals/results/`, and the analysis is in [REPORT.md](REPORT.md).
 
 ```text
-data/rag/raw/  HTML, PDF, DOCX ──► ingest: structure, cleaning, dedup ──► documents.jsonl, manifest.json
-               ──► chunk by sections ──► chunks.jsonl ──► BM25 + bge-m3 vectors (Qdrant) ──► RRF
-               ──► bge-reranker ──► best passages within 1,800 tokens ──► answer with [n] citations
-                                                                      └─► or "not in the documents"
+data/rag/raw/  HTML, PDF, DOCX ──► ingest: structure, layout order, cleaning, dedup ──► documents.jsonl
+               ──► chunk by sections ──► a context per chunk (uk + en) ──► chunks.jsonl, manifest.json
+               ──► BM25 + bge-m3 vectors (Qdrant) ──► RRF ──► bge-reranker
+               ──► best passages within 2,400 tokens ──► answer with [n] citations
+                                                     └─► or "not in the documents"
 ```
 
 | Step | Code | Output |
@@ -79,6 +85,7 @@ data/rag/raw/  HTML, PDF, DOCX ──► ingest: structure, cleaning, dedup ─�
 | Corpus | `src/rag/corpus.py` | `data/rag/raw/{djinni,official}/` with `sources.json` |
 | Ingestion | `src/rag/ingest.py` | `data/rag/documents.jsonl`, `data/rag/manifest.json` |
 | Chunking | `src/rag/chunking.py` | `data/rag/chunks.jsonl`, `data/rag/chunks_fixed.jsonl` |
+| Contexts | `src/rag/context.py`, `prompts/rag/context_v2.yaml` | `data/rag/contexts.jsonl` (the cache) |
 | Search | `src/rag/search.py` | `data/rag/embeddings.jsonl` (the embedding cache) |
 | Answers | `src/rag/answer.py`, `prompts/rag/` | |
 | Evals | `src/rag/evaluate.py`, `evals/` | `evals/results/` |
@@ -116,6 +123,11 @@ title, date or edition, language, company or publisher, hashes).
   - The description's own section titles become headings ("Requirements:", "Що пропонуємо:").
   - PDF headings come from font size and weight per text block, so a bold word inside a
     paragraph is not a heading, and a title wrapped over lines is one heading.
+  - A PDF page's blocks are read in layout order, by recursive XY-cut. The page is cut at
+    bands of white space into rows, and rows into columns. Rows that keep a gutter in the
+    same place are one run of columns, read a column at a time. So a flowchart's two
+    branches and a slide's "before / after" columns are read one after the other, not
+    interleaved line by line, as sorting blocks by height did.
   - Laws' "Розділ", "Глава" and "Стаття" lines are headings whatever their font.
   - PDF tables are detected and kept as Markdown tables, and so are DOCX tables; bullets and
     numbered items become list items.
@@ -152,20 +164,22 @@ or a numbered point, or one of a FAQ's questions. So the chunks follow that stru
 
 The sizes are set by the documents. A posting section is 50–300 tokens, and a FAQ answer or a
 law's point is 100–400. So 250–400 holds one unit whole and stays well inside bge-m3's and the
-reranker's windows. Six of them fit the answer's context budget of 1,800 tokens.
+reranker's windows. Six of them, each with its context (a median of 368 tokens together),
+fit the answer's context budget of 2,400 tokens.
 
 **Compared with fixed-size chunks** (250 tokens, 50 overlapping, the same header without the
 section), on the same 61 documents:
 
 | | Structural | Fixed |
 |---|--:|--:|
-| Chunks | 437 | 424 |
-| Median tokens (header included) | 233 | 283 |
+| Chunks | 438 | 424 |
+| Median tokens (header included; with the context) | 233 (368) | 283 (417) |
 | Chunks that start or end inside a sentence or list item | 3% / 2% | 81% / 81% |
 | Chunks that mix two or more sections | 0% | 41% |
-| recall@5, search as used (hybrid + rerank) | **0.87** | 0.80 |
-| MRR, search as used | **0.74** | 0.68 |
-| recall@5 / MRR, vectors only | 0.73 / 0.51 | 0.73 / 0.56 |
+| recall@5, search as used (hybrid + rerank, with contexts) | **1.00** | 0.87 |
+| MRR, search as used | **0.86** | 0.68 |
+| recall@5 / MRR, hybrid + rerank without contexts | 0.87 / 0.74 | 0.80 / 0.68 |
+| recall@5 / MRR, vectors only, without contexts | 0.73 / 0.51 | 0.73 / 0.56 |
 
 One posting shows the difference. Proxet's second fixed chunk starts mid-sentence
 ("…across services, data flows, and deployment environments."). It holds the end of the
@@ -175,16 +189,55 @@ plus. The structural chunk "Description › Nice to have" holds that list whole 
 heading, and the answer cites the section by name.
 
 The retrieval numbers come from 15 questions, so one question moves recall by 0.07. With the
-reranker, structure wins by one question at recall@5 and by 0.06 in MRR. Vectors alone do a
-little better on fixed chunks: they are larger, and the embedding gets more context.
+reranker and contexts, structure wins by two questions at recall@5 and by 0.18 in MRR;
+without contexts, by one question and 0.06. Vectors alone do a little better on fixed chunks:
+they are larger, and the embedding gets more context.
 - Where structure helps: a posting's sections and a FAQ's questions are units of meaning, and
   their headers say which posting and which part.
 - Where it doesn't: a document with no headings, like Resolution 692's list of amendments, is
   cut by size either way. Its "replace 2.5 with 3" sentence then lacks the line saying which
-  paragraph it changes (REPORT.md, error 1).
+  paragraph it changes. Contextual chunk headers, below, put that line back.
 
 The full table, every search mode on both chunkings, is in
 [evals/results/retrieval.md](evals/results/retrieval.md).
+
+### Contextual chunk headers
+
+A chunk of a document without headings doesn't say where it sits. Resolution 692 makes its
+changes in amendment language: "в абзаці третьому цифри “2,5” замінити цифрою “3”". That
+chunk names neither pay nor reservation, so neither BM25 nor the vectors matched it to a
+question about reserved employees' pay (REPORT.md, error 1).
+
+So each chunk gets a context. `openai/gpt-6-luna` reads the chunk's whole document and writes
+where the chunk sits and what it is about, in two lines: Ukrainian, then the same in English
+(`prompts/rag/context_v2.yaml`). For the chunk above:
+
+> uk: Постанова КМУ № 692 від 30 травня 2026 року, зміни до Порядку бронювання, пункт 8:
+> підвищує загальний зарплатний поріг для бронювання з 2,5 до 3 мінімальних зарплат …
+>
+> en: Cabinet of Ministers Resolution No. 692 of 30 May 2026, amendments to the Reservation
+> Procedure, point 8: raises the general salary threshold for reservation from 2.5 to 3
+> minimum wages …
+
+The first version of the prompt wrote "the coefficient rises from 2.5 to 3" here, and a
+question about pay still didn't find the chunk; v2 asks what an amended provision regulates,
+in the words of a question about it (prompts/CHANGELOG.md).
+
+- **Where it goes:** the context is searched with the chunk (BM25, the embedding, the
+  reranker), and the answer model reads it under the chunk's header. The prompt tells the
+  model to take facts from the chunk's own text.
+- **Two languages:** the second one lets BM25 match an English question to a Ukrainian
+  document, and the other way round.
+- **Kept out of the scores:** a chunk's relevance in the evals is judged on its own text, so
+  a context that repeats a quote doesn't make its chunk count.
+- **Not the judge's family:** GPT-6 Luna writes the contexts (and the answers) and Claude
+  judges, so the judge doesn't grade text its own family wrote.
+- **Effect** (structural chunks, without → with contexts): recall@5 of the search as used
+  0.87 → 1.00, MRR 0.74 → 0.86; BM25 alone, MRR 0.28 → 0.48 (REPORT.md, "Retrieval").
+- **Cost:** 862 contexts for both chunkings, 4.1M tokens in, about $0.55, once. They are
+  cached in `data/rag/contexts.jsonl`, keyed by the model, the prompt and the texts of the
+  chunk and its document. The cache is committed, so CI writes only the contexts of new
+  chunks. `context: false` under `search` in `rag.yaml` turns them off.
 
 ### Search
 
@@ -209,7 +262,7 @@ Metadata filters work in every mode, in Qdrant's payload filter and in BM25 alik
 
 ### Answers
 
-`src/rag/answer.py` with `prompts/rag/answer_v1.yaml` (versions and changes in
+`src/rag/answer.py` with `prompts/rag/answer_v2.yaml` (versions and changes in
 [prompts/CHANGELOG.md](prompts/CHANGELOG.md)):
 
 - **"Not in the documents"** comes in two steps.
@@ -218,19 +271,22 @@ Metadata filters work in every mode, in Qdrant's payload filter and in BM25 alik
     answerable questions' best passages score 0.90–0.999, and off-topic questions' best
     passages score 0.003–0.009.
   - A near miss (the right posting, but it has no salary) gets past that step, so the prompt
-    makes the model say the same when the passages don't answer.
-- **Context budget:** the best passages, in order, while they fit in 1,800 tokens (o200k
-  tokenizer); the best one is cut to fit if it alone is too long.
+    makes the model say the same when the passages don't answer. The code gives the model the
+    exact refusal, and the language to answer in, from the question's script.
+- **Context budget:** the best passages, in order, while they fit in 2,400 tokens (o200k
+  tokenizer), each with its header and context; the best one is cut to fit if it alone is
+  too long.
 - **Sources:** the passages are numbered, and the model puts [n] after every sentence. The
   numbers map back to the document and section shown under the answer, and the evals check
   them.
-- **Conflicts:** each passage's header carries the document's date, and the prompt has the
-  newest win. Superseded versions are filtered out before that.
+- **Conflicts:** each passage's header carries the document's date. The prompt has the
+  newest passage win, and an amendment change the text it names from its date on.
+  Superseded versions are filtered out before that.
 
 ### Evals
 
 [evals/README.md](evals/README.md) describes the files and every metric:
-- retrieval: recall@k and MRR for each mode and chunking;
+- retrieval: recall@k and MRR for each mode, each chunking, with and without contexts;
 - answers: source accuracy (with forbidden sources for traps), key facts, abstention on
   unanswerable questions and false abstention on answerable ones;
 - an LLM judge from another model family, calibrated against answers a person graded;
@@ -444,19 +500,22 @@ src/extraction/
   cli.py             commands
 src/rag/             block 2
   corpus.py          picks the postings, strips people from pages, redacts official files
-  ingest.py          HTML, PDF, DOCX to Markdown; cleaning; duplicates and versions
+  ingest.py          HTML, PDF, DOCX to Markdown; layout order; cleaning; duplicates, versions
   chunking.py        by structure, and the fixed-size baseline
+  context.py         a context per chunk, written by a model and cached
   search.py          BM25, bge-m3 in Qdrant, fusion, the reranker, filters
   answer.py          the context budget, the answer with sources, "not in the documents"
   evaluate.py        retrieval and answer metrics, the judge, faithfulness, calibration
+  prompts.py         loads prompts/rag/<name>_<version>.yaml
+  llm.py             OpenRouter: chat, JSON by schema, embeddings, retries, cost
   cli.py             python main.py rag ...
 prompts/             versioned prompts (prompts/rag/ for block 2) and CHANGELOG.md
 data/                texts, scraped records, golden labels; postings/ (git-ignored)
-data/rag/            block 2's corpus (raw/), documents, chunks, manifest, embedding cache
+data/rag/            block 2's corpus (raw/), documents, chunks, manifest, context and embedding caches
 evals/               block 2's test sets, hand grades and results
 results/             block 1's model outputs and metrics
 tests/               offline tests with fake providers
-.github/workflows/   CI: tests and block 2's evals on every push
+.github/workflows/   CI on every push: tests and retrieval (no key), then answers and the judge
 REPORT.md            block 2's report (block 1's template: docs/block1-report.md)
 ```
 
@@ -478,6 +537,8 @@ REPORT.md            block 2's report (block 1's template: docs/block1-report.md
 - [ ] Block 1's REPORT (docs/block1-report.md): due 27.10, still a template
 - [x] Block 2: corpus of 62 files in 3 formats, ingestion, chunking, hybrid search with
   reranking and filters, answers with sources, evals in CI
+- [x] Block 2, 13.11: PDF layout order, contextual chunk headers, answer prompt v2 and GPT-6
+  Luna answers: recall@5 0.87 → 1.00, key facts 0.75 → 0.95 (REPORT.md)
 - [ ] Block 2: the test set checked by a person, the judge calibrated on hand grades
   (deadline 13.11)
 - [ ] Block 3: an agent on block 2's corpus

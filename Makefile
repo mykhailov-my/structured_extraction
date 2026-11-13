@@ -1,10 +1,10 @@
 # Everything runs through uv, which installs Python 3.12 and the locked dependencies on first use.
 
 .DEFAULT_GOAL := help
-.PHONY: help setup models data archive postings label run eval check rag ask test lint format
+.PHONY: help setup models data archive postings label run eval check rag retrieval ask test lint format
 
 help: ## List the targets
-	@grep -E '^[a-z]+:.*## ' $(MAKEFILE_LIST) | awk -F ':.*## ' '{printf "  make %-8s %s\n", $$1, $$2}'
+	@grep -E '^[a-z]+:.*## ' $(MAKEFILE_LIST) | awk -F ':.*## ' '{printf "  make %-10s %s\n", $$1, $$2}'
 
 setup: ## Install dependencies and create .env from .env.example
 	uv sync
@@ -38,6 +38,9 @@ check: ## Count texts and golden labels, validate the labels
 
 rag: ## Homework 2: ingest the corpus, measure retrieval, answer and score the test set
 	uv run python main.py rag all
+
+retrieval: ## Homework 2 without a key: ingestion and retrieval from the committed caches
+	uv run python main.py rag all --offline
 
 ask: ## Ask the corpus: make ask Q="Чи є віддалена робота в Proxet?"
 	uv run python main.py rag ask "$(Q)"

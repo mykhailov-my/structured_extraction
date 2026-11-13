@@ -10,6 +10,9 @@ starts with a header naming the document and the section, "Senior Python Develop
 
 `fixed` (the baseline) cuts the same Markdown every FIXED_TOKENS tokens with FIXED_OVERLAP
 tokens of overlap, whatever the structure; its header names only the document.
+
+Either way a chunk can carry a context that a model wrote (rag/context.py): it is searched
+with the chunk and shown with it, but a chunk's relevance is judged on its own text.
 """
 
 import re
@@ -43,15 +46,28 @@ class Chunk:
     source: str
     current: bool  # False when a newer version of the document is in the corpus
     doc_sha256: str
+    context: str = ""  # where the chunk sits and what it is about, by a model (rag/context.py)
 
     @property
     def indexed(self) -> str:
-        """What is embedded and searched: the header, then the text."""
+        """What is embedded, searched and shown to the answer model: the header, the
+        context if there is one, then the text."""
+        context = f"\n{self.context}" if self.context else ""
+        return f"{self.header}{context}\n\n{self.text}"
+
+    @property
+    def original(self) -> str:
+        """The header and the text, without the model's context: what the document says."""
         return f"{self.header}\n\n{self.text}"
 
 
 def count_tokens(text: str) -> int:
     return len(_encoding().encode(text))
+
+
+def first_tokens(text: str, n: int) -> str:
+    """The text cut after its first `n` tokens."""
+    return _encoding().decode(_encoding().encode(text)[:n])
 
 
 @cache

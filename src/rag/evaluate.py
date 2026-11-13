@@ -1,9 +1,11 @@
 """Evals: how well the RAG finds and answers. evals/README.md describes the files.
 
 Retrieval (evals/retrieval.jsonl): questions with the passage that answers them, given as a
-document and a quote from it. A chunk is relevant when it is from that document and contains
-the quote, so the same question scores either chunking. recall@k is the share of questions
-with a relevant chunk in the top k; MRR the mean of 1/rank of the first one, 0 past rank 10.
+document and a quote from it. A chunk is relevant when it is from that document and its own
+text (not the context a model wrote for it) contains the quote, so the same question scores
+either chunking. recall@k is the share of questions with a relevant chunk in the top k; MRR
+the mean of 1/rank of the first one, 0 past rank 10. recall@20 is what the reranker can
+choose from: its pool.
 
 Answers (evals/testset.jsonl), each scored:
 - deterministically: it cites a right source and no forbidden one (an outdated version, a
@@ -21,19 +23,22 @@ import logging
 import re
 import statistics
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 import openai
 
 from extraction.collect import write_file
-from rag.answer import Answer, Rag, load_prompt, render
-from rag.config import EVALS, RagConfig
+from rag.answer import Answer, Rag, render
+from rag.config import RagConfig
 from rag.llm import OpenRouter
+from rag.prompts import load_prompt
 from rag.search import Filters, Retriever
 
 log = logging.getLogger(__name__)
 VERDICTS = {"correct": 1.0, "partial": 0.5, "incorrect": 0.0}
+RECALL_AT = (1, 3, 5, 10, 20)
 JUDGE_SCHEMA = {
     "type": "object",
     "properties": {
@@ -77,7 +82,7 @@ def _norm(text: str) -> str:
 
 
 def relevant(chunk, gold: list[dict]) -> bool:
-    text = _norm(chunk.indexed)
+    text = _norm(chunk.original)
     return any(chunk.doc_id == g["doc_id"] and _norm(g["quote"]) in text for g in gold)
 
 
@@ -85,34 +90,29 @@ def retrieval_run(retriever: Retriever, questions: list[dict], mode: str) -> dic
     ranks = {}
     for q in questions:
         hits = retriever.search(
-            q["question"], mode=mode, k=10, filters=Filters(**q.get("filters", {}))
+            q["question"], mode=mode, k=max(RECALL_AT), filters=Filters(**q.get("filters", {}))
         )
         ranks[q["id"]] = next(
             (i for i, h in enumerate(hits, 1) if relevant(h.chunk, q["gold"])), None
         )
     found = list(ranks.values())
     return {
-        "recall": {
-            k: statistics.mean(r is not None and r <= k for r in found) for k in (1, 3, 5, 10)
-        },
-        "mrr": statistics.mean(1 / r if r else 0.0 for r in found),
+        "recall": {k: statistics.mean(r is not None and r <= k for r in found) for k in RECALL_AT},
+        "mrr": statistics.mean(1 / r if r and r <= 10 else 0.0 for r in found),
         "ranks": ranks,
     }
 
 
 def retrieval_markdown(runs: dict[str, dict[str, dict]]) -> str:
-    """runs[chunking][mode]"""
+    """runs[index][mode]: the index is a chunking, with or without contexts."""
     lines = [
-        "| Chunking | Search | recall@1 | recall@3 | recall@5 | recall@10 | MRR |",
-        "|---|---|--:|--:|--:|--:|--:|",
+        "| Index | Search | " + " | ".join(f"recall@{k}" for k in RECALL_AT) + " | MRR |",
+        "|---|---|" + "--:|" * (len(RECALL_AT) + 1),
     ]
-    for chunking, modes in runs.items():
+    for index, modes in runs.items():
         for mode, run in modes.items():
-            r = run["recall"]
-            lines.append(
-                f"| {chunking} | {mode} | {r[1]:.2f} | {r[3]:.2f} | {r[5]:.2f} | {r[10]:.2f}"
-                f" | {run['mrr']:.2f} |"
-            )
+            recall = " | ".join(f"{run['recall'][k]:.2f}" for k in RECALL_AT)
+            lines.append(f"| {index} | {mode} | {recall} | {run['mrr']:.2f} |")
     return "\n".join(lines) + "\n"
 
 
@@ -207,21 +207,30 @@ class Judge:
         return (statistics.mean(c["supported"] for c in claims) if claims else None), claims
 
 
-def answer_run(rag: Rag, judge: Judge | None, items: list[dict]) -> list[Scored]:
-    scored = []
-    for item in items:
-        answer = rag.ask(item["question"], Filters(**item.get("filters", {})))
-        result = score_answer(item, answer)
-        if judge is not None:
-            try:  # a judge that fails leaves this answer unjudged, not the run broken
-                verdict = judge.verdict(item["question"], item["expected"], answer.text)
-                result.verdict, result.judge_reason = verdict["verdict"], verdict["reason"]
-                result.faithfulness, result.claims = judge.faithfulness(answer)
-            except (ValueError, KeyError, RuntimeError, openai.OpenAIError) as e:
-                log.warning("%s: the judge failed: %s", item["id"], e)
-                result.judge_reason = f"judge failed: {e}"
-        scored.append(result)
+def answer_run(
+    rag: Rag, judge: Judge | None, items: list[dict], *, judges: int = 6
+) -> list[Scored]:
+    """Every item answered, one at a time so that the latencies are the system's own, then
+    judged, `judges` at a time."""
+    answered = [
+        (item, rag.ask(item["question"], Filters(**item.get("filters", {})))) for item in items
+    ]
+    scored = [score_answer(item, answer) for item, answer in answered]
+    if judge is not None:
+        with ThreadPoolExecutor(judges) as pool:
+            list(pool.map(lambda pair: _judged(judge, *pair), zip(answered, scored, strict=True)))
     return scored
+
+
+def _judged(judge: Judge, answered: tuple[dict, Answer], result: Scored) -> None:
+    item, answer = answered
+    try:  # a judge that fails leaves this answer unjudged, not the run broken
+        verdict = judge.verdict(item["question"], item["expected"], answer.text)
+        result.verdict, result.judge_reason = verdict["verdict"], verdict["reason"]
+        result.faithfulness, result.claims = judge.faithfulness(answer)
+    except (ValueError, KeyError, RuntimeError, openai.OpenAIError) as e:
+        log.warning("%s: the judge failed: %s", item["id"], e)
+        result.judge_reason = f"judge failed: {e}"
 
 
 def answer_metrics(scored: list[Scored], rag: Rag) -> dict:
@@ -240,6 +249,7 @@ def answer_metrics(scored: list[Scored], rag: Rag) -> dict:
     return {
         "questions": len(scored),
         "by_type": dict(Counter(s.type for s in scored)),
+        "judged": sum(s.verdict is not None for s in scored),
         "source_accuracy": mean(s.source_ok for s in answerable),
         "trap_accuracy": mean(s.source_ok for s in traps),
         "abstention": mean(s.abstained for s in unanswerable),
@@ -334,6 +344,3 @@ def failures(metrics: dict, thresholds: dict[str, float]) -> list[str]:
         for name, floor in thresholds.items()
         if metrics.get(name) is not None and metrics[name] < floor
     ]
-
-
-EVALS_DIR = EVALS
